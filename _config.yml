@@ -1,0 +1,30 @@
+title: "Loïc Morel - Pandul"
+description: "Rédacteur Bitcoin"
+author: "Loïc Morel"
+lang: fr
+timezone: Europe/Paris
+
+# URL GitHub
+url: "https://LoicPandul.github.io"
+baseurl: "/pandul.fr"
+
+permalink: /blog/:slug/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Métadonnées SEO
+logo: "/assets/img/social-card.png"
+social:
+  name: "Loïc Morel - Pandul"
+  links:
+    - "https://x.com/Loic_Pandul"
+    - "https://github.com/LoicPandul"
+
+# Collections par défaut
+defaults:
+  - scope: {path: ""} 
+    values:
+      layout: "default"
