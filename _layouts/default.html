@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+
+  {%- seo -%}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul" onerror="this.replaceWith(document.createTextNode('Pandul'));">
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
+        <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
+          <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+        </a>
+        <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+          <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul" onerror="this.replaceWith(document.createTextNode('Pandul'));">
+      </div>
+      <nav class="footer-nav">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
+      </nav>
+      <div class="footer-info">
+        <p><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
+        <p>96 Rue Paradis 13006 Marseille</p>
+        <p>Lightning : pandul@sats.rs</p>
+      </div>
+      <div class="footer-social">
+        <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
+          <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+        </a>
+        <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+          <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+        </a>
+      </div>
+    </div>
+    <div class="wrap tiny">
+      <p>© 2021-2025 Ei Loïc Morel (Pandul). Tous droits réservés</p>
+    </div>
+  </footer>
+</body>
+</html>
