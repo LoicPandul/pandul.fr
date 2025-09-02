@@ -2,6 +2,10 @@
 title: "Accueil"
 ---
 
+<div class="hero">
+  <h1>J'écris des articles sur Bitcoin.</h1>
+</div>
+
 # Dictionnaire de Bitcoin
 
 [Tout le vocabulaire technique de Bitcoin]({{ '/dictionnaire/' | relative_url }})
@@ -10,7 +14,7 @@ title: "Accueil"
 
 # Formations pour Plan ₿ Network
 
-Ici, je liste mes travaux (liens externes) par client et par thème.
+Ici, je liste mes travaux 
 
 ## Client A
 - [Titre de l’article 1](https://exemple.com/mon-article-1)

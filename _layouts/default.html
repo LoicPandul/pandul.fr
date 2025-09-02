@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Police Questrial -->
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
@@ -12,22 +16,26 @@
   {%- seo -%}
 </head>
 <body>
+  <!-- Header flottant -->
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul" onerror="this.replaceWith(document.createTextNode('Pandul'));">
-      </a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Accueil</a>
-        <a href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
-        <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
-          <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+      <div class="header-card" id="headerCard">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul" onerror="this.replaceWith(document.createTextNode('Pandul'));">
+          <span class="brand-name">Loïc Morel</span>
         </a>
-        <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
-          <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
-        </a>
-      </nav>
+        <nav class="site-nav">
+          <a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Accueil</a>
+          <a class="{% if page.url contains '/blog/' %}active{% endif %}" href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a class="{% if page.url contains '/dictionnaire/' %}active{% endif %}" href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
+          <a class="icon" href="https://twitter.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
+            <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+          </a>
+          <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+          </a>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -38,32 +46,49 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div class="footer-brand">
-        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul" onerror="this.replaceWith(document.createTextNode('Pandul'));">
+    <div class="wrap">
+      <div class="footer-card">
+        <div class="footer-left">
+          <div class="footer-brand">
+            <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul">
+            <span class="brand-name">Loïc Morel</span>
+          </div>
+        </div>
+        <nav class="footer-nav">
+          <a href="{{ '/' | relative_url }}">Accueil</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
+        </nav>
+        <div class="footer-info">
+          <p><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
+          <p>96 Rue Paradis 13006 Marseille</p>
+          <p>Lightning : pandul@sats.rs</p>
+        </div>
+        <div class="footer-social">
+          <a class="icon" href="https://twitter.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
+            <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+          </a>
+          <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+          </a>
+        </div>
       </div>
-      <nav class="footer-nav">
-        <a href="{{ '/' | relative_url }}">Accueil</a>
-        <a href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
-      </nav>
-      <div class="footer-info">
-        <p><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
-        <p>96 Rue Paradis 13006 Marseille</p>
-        <p>Lightning : pandul@sats.rs</p>
+
+      <div class="footer-bottom">
+        <div class="divider"></div>
+        <div class="bottom-social">
+          <a class="icon" href="https://twitter.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
+            <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+          </a>
+          <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+          </a>
+        </div>
+        <p class="copyright">© 2021-2025 Ei Loïc Morel (Pandul). Tous droits réservés</p>
       </div>
-      <div class="footer-social">
-        <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
-          <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
-        </a>
-        <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
-          <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
-        </a>
-      </div>
-    </div>
-    <div class="wrap tiny">
-      <p>© 2021-2025 Ei Loïc Morel (Pandul). Tous droits réservés</p>
     </div>
   </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </body>
 </html>
