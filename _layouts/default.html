@@ -44,33 +44,27 @@
 
   <footer class="site-footer">
     <div class="wrap">
+      <!-- Bulle noire : 3 colonnes (marque / menu / infos) -->
       <div class="footer-card">
-        <div class="footer-left">
-          <div class="footer-brand">
-            <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul">
-            <span class="brand-name">Loïc Morel</span>
-          </div>
+        <div class="footer-brand">
+          <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul">
+          <span class="brand-name">Loïc Morel</span>
         </div>
+
         <nav class="footer-nav">
           <a href="{{ '/' | relative_url }}">Accueil</a>
           <a href="{{ '/blog/' | relative_url }}">Blog</a>
           <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
         </nav>
+
         <div class="footer-info">
           <p><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
           <p>96 Rue Paradis 13006 Marseille</p>
           <p>Lightning : pandul@sats.rs</p>
         </div>
-        <div class="footer-social">
-          <a class="icon" href="https://twitter.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X">
-            <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
-          </a>
-          <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
-            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
-          </a>
-        </div>
       </div>
 
+      <!-- Barre du dessous -->
       <div class="footer-bottom">
         <div class="divider"></div>
         <div class="bottom-social">
