@@ -51,22 +51,22 @@ a:hover,a:focus{color:var(--accent)}
 
 /* Titres */
 h1{
-  font-size:clamp(28px,5.6vw,56px);
+  font-size:clamp(28px,4vw,46px);
   line-height:1.15;
   margin:0.4em 0 0.2em;
-  font-weight:800;
+  font-weight:600;
   letter-spacing:-0.005em;
 }
 h2{
-  font-size:clamp(22px,3.6vw,38px);
+  font-size:clamp(22px,3.6vw,33px);
   line-height:1.2;
   margin:1.2em 0 0.5em;
-  font-weight:700;
+  font-weight:500;
 }
 h3{
-  font-size:clamp(18px,2.2vw,24px);
+  font-size:clamp(17px,2.2vw,22px);
   margin:1.1em 0 0.4em;
-  font-weight:600;
+  font-weight:400;
 }
 /* gras générique */
 strong,b{font-weight:600}
@@ -90,7 +90,7 @@ strong,b{font-weight:600}
 .site-main strong, .site-main b { font-weight:600; } /* Lora gras */
 
 
-/* Header flottant, non pleine largeur */
+/* Header flottant */
 .site-header{position:sticky;top:16px;z-index:1000;background:transparent}
 .header-card{
   background:var(--brand);
@@ -104,7 +104,7 @@ strong,b{font-weight:600}
 .header-card.hide{transform:translateY(-140%);opacity:0}
 .brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff}
 .brand img{height:32px;display:block;filter:invert(0) brightness(1)}
-.brand-name{color:#fff;font-size:18px;letter-spacing:.2px}
+.brand-name{color:#fff;font-size:18px;letter-spacing:.3px}
 
 .site-nav a{
   margin-left:18px;text-decoration:none;color:#fff;opacity:.95;
@@ -124,14 +124,14 @@ strong,b{font-weight:600}
   padding:18px 0 0;
 }
 .hero h1{
-  font-size:clamp(32px,6.4vw,64px);
+  font-size:clamp(28px,5.4vw,48px);
   line-height:1.08;
-  letter-spacing:.2px;
+  letter-spacing:.2.5px;
   margin:0;
 }
 
 /* Séparateurs */
-hr{border:0;border-top:2px solid var(--line);margin:28px 0}
+hr{border:0;border-top:1.5px solid var(--line);margin:28px 0}
 
 /* Footer */
 .site-footer{margin-top:48px}
