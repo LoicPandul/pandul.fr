@@ -1,4 +1,3 @@
-
 /* === Fonts: Montserrat (UI/titres) + Lora (texte) === */
 @font-face{
   font-family:"Montserrat";
@@ -31,7 +30,7 @@
   --muted:#666666;
   --line:#111111;
   --wrap:1100px;
-  --radius:12px;
+  --radius:18px;
 }
 
 /* Reset minimal */
@@ -45,11 +44,12 @@ html,body{
 /* Liens */
 a{color:inherit;text-underline-offset:2px}
 a:hover,a:focus{color:var(--accent)}
+a.icon{ text-decoration:none; line-height:0; }
 
 /* Conteneur */
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
 
-/* Titres */
+/* Titres (Montserrat) */
 h1{
   font-size:clamp(28px,4vw,46px);
   line-height:1.15;
@@ -68,9 +68,7 @@ h3{
   margin:1.1em 0 0.4em;
   font-weight:400;
 }
-/* gras générique */
 strong,b{font-weight:600}
-
 
 /* Texte de lecture : Lora */
 .site-main p,
@@ -85,10 +83,8 @@ strong,b{font-weight:600}
   font-family:"Lora",Georgia,"Times New Roman",serif;
   font-weight:400;
 }
-
-.site-main em, .site-main i { font-style:italic; }   /* Lora italique */
-.site-main strong, .site-main b { font-weight:600; } /* Lora gras */
-
+.site-main em, .site-main i { font-style:italic; }
+.site-main strong, .site-main b { font-weight:600; }
 
 /* Header flottant */
 .site-header{position:sticky;top:16px;z-index:1000;background:transparent}
@@ -126,7 +122,7 @@ strong,b{font-weight:600}
 .hero h1{
   font-size:clamp(28px,5.4vw,48px);
   line-height:1.08;
-  letter-spacing:.2.5px;
+  letter-spacing:0.2px;
   margin:0;
 }
 
@@ -137,22 +133,24 @@ hr{border:0;border-top:1.5px solid var(--line);margin:28px 0}
 .site-footer{margin-top:48px}
 .footer-card{
   background:#000;color:#fff;border-radius:var(--radius);
-  padding:28px;display:grid;gap:20px;
-  grid-template-columns:1.5fr 1fr 1.2fr .8fr;
+  padding:28px;display:grid;gap:22px;
+  grid-template-columns:1.4fr 1fr 1.2fr; /* 3 colonnes */
+  align-items:center;
 }
 .footer-brand{display:flex;align-items:center;gap:14px}
-.footer-brand img{height:40px;filter:invert(1)}
-.footer-brand .brand-name{color:#fff;font-size:18px}
+.footer-brand img{height:56px;filter:none}
+.footer-brand .brand-name{color:#fff;font-size:20px}
 
 .footer-nav a{display:block;color:#fff;text-decoration:none;margin:6px 0}
 .footer-nav a:hover{color:var(--accent)}
 
 .footer-info p{margin:.25rem 0}
-.footer-social .icon img{height:22px;filter:invert(1)}
 
+/* Bas de page : icônes uniques ici */
 .footer-bottom{padding:18px 0 28px;text-align:center}
 .footer-bottom .divider{height:1px;background:#eaeaea;margin:12px auto 16px;max-width:260px}
-.bottom-social .icon img{height:22px;margin:0 8px;filter:invert(0)}
+.bottom-social{display:flex;align-items:center;justify-content:center;gap:16px}
+.bottom-social .icon img{height:22px;display:block;filter:invert(0)}
 .copyright{color:var(--muted);font-size:.95rem;margin:10px 0 0}
 
 /* Responsive */
@@ -162,7 +160,6 @@ hr{border:0;border-top:1.5px solid var(--line);margin:28px 0}
 @media (max-width:640px){
   .site-nav a{margin-left:14px}
   .footer-card{grid-template-columns:1fr}
-  .footer-social{order:4}
 }
 
 /* Utilitaires */
