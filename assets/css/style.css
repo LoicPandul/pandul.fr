@@ -1,27 +1,20 @@
-/* === Fonts: Montserrat (UI/titres) + Lora (texte) === */
+/* === Fonts auto-hébergées : Titres = JetBrains Mono, Texte/UI = Manrope === */
 @font-face{
-  font-family:"Montserrat";
-  src: url("../fonts/Montserrat-Variable.ttf") format("truetype-variations");
-  font-weight:100 900;
+  font-family:"JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Variable.ttf") format("truetype-variations");
+  font-weight:100 800;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
-  font-family:"Lora";
-  src: url("../fonts/Lora-Variable.ttf") format("truetype-variations");
-  font-weight:400 700;
+  font-family:"Manrope";
+  src: url("../fonts/Manrope-Variable.ttf") format("truetype-variations");
+  font-weight:200 800;
   font-style:normal;
-  font-display:swap;
-}
-@font-face{
-  font-family:"Lora";
-  src: url("../fonts/Lora-Italic-Variable.ttf") format("truetype-variations");
-  font-weight:400 700;
-  font-style:italic;
   font-display:swap;
 }
 
-/* Palette + typo */
+/* Palette + layout */
 :root{
   --bg:#ffffff;
   --fg:#0e0e0e;
@@ -37,9 +30,24 @@
 *{box-sizing:border-box}
 html,body{
   margin:0;padding:0;background:var(--bg);color:var(--fg);
-  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+  font-family:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
   line-height:1.65;
 }
+
+/* Header + Footer en JetBrains Mono */
+.site-header,
+.site-header .brand-name,
+.site-header .site-nav a,
+.footer-card,
+.footer-card .brand-name,
+.footer-nav a,
+.footer-info,
+.footer-bottom,
+.footer-bottom .copyright {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-feature-settings: "liga" 0, "calt" 0;
+}
+
 
 /* Liens */
 a{color:inherit;text-underline-offset:2px}
@@ -49,42 +57,48 @@ a.icon{ text-decoration:none; line-height:0; }
 /* Conteneur */
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
 
-/* Titres (Montserrat) */
-h1{
-  font-size:clamp(22px,4vw,36px);
-  line-height:1.15;
-  margin:0.4em 0 0.2em;
-  font-weight:650;
+/* Titres (JetBrains Mono) */
+h1,h2,h3{
+  font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   letter-spacing:-0.005em;
 }
-h2{
-  font-size:clamp(19px,4vw,28px);
+h1{
+  font-size:clamp(20px,4vw,30px);
   line-height:1.2;
-  margin:1.2em 0 0.5em;
-  font-weight:600;
+  margin:1.2em 0 0.7em;
+  font-weight:550;
+}
+h2{
+  font-size:clamp(14px,4vw,18px);
+  line-height:1.2;
+  margin:1.0em 0 0.6em;
+  font-weight:400;
 }
 h3{
-  font-size:clamp(16px,4vw,20px);
+  font-size:clamp(11px,4vw,16px);
   margin:1.1em 0 0.4em;
   font-weight:400;
 }
-strong,b{font-weight:600}
+strong,b{font-weight:700}
 
-/* Texte de lecture : Lora */
+/* Texte de lecture : Manrope */
 .site-main p,
 .site-main li,
 .site-main blockquote,
 .site-main dd,
 .site-main dt,
 .site-main figcaption,
-.site-main table,
-.site-main pre code,
-.site-main code {
-  font-family:"Lora",Georgia,"Times New Roman",serif;
+.site-main table{
   font-weight:400;
 }
-.site-main em, .site-main i { font-style:italic; }
-.site-main strong, .site-main b { font-weight:600; }
+.site-main em,.site-main i{font-style:italic}
+.site-main strong,.site-main b{font-weight:700}
+
+/* Contenu code en mono */
+code,kbd,samp,pre{
+  font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-weight:450;
+}
 
 /* Header flottant */
 .site-header{position:sticky;top:16px;z-index:1000;background:transparent}
@@ -112,33 +126,24 @@ strong,b{font-weight:600}
 .site-nav .icon img:hover{opacity:1}
 
 /* Zone principale */
-.site-main .wrap{padding:36px 24px}
+.site-main .wrap{padding:12px 24px 24px} /* ↓ top padding */
 
-/* Bloc héro de l’accueil */
+/* Héros comme h1 */
 .hero{
-  max-width: 900px;
-  margin: 8px auto 28px;
-  padding: 18px 0 0;
-  text-align: center;
-}
-
-.hero h1{
-  font-size:clamp(22px,4vw,36px);
-  line-height:1.15;
-  letter-spacing:0.2px;
-  margin-bottom: 4rem;
-  font-weight:650;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
 
 /* Séparateurs */
-hr{border:0;border-top:1.5px solid var(--line);margin:28px 0}
+hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 
 /* Footer */
 .site-footer{margin-top:48px}
 .footer-card{
   background:#000;color:#fff;border-radius:var(--radius);
   padding:32px;display:grid;gap:12px;
-  grid-template-columns:1.4fr 1fr 1.2fr; /* 3 colonnes */
+  grid-template-columns:1.4fr 1fr 1.2fr;
   align-items:center;
 }
 .footer-brand{display:flex;align-items:center;gap:15px}
@@ -150,7 +155,7 @@ hr{border:0;border-top:1.5px solid var(--line);margin:28px 0}
 
 .footer-info p{margin:.25rem 0}
 
-/* Bas de page : icônes uniques ici */
+/* Bas de page */
 .footer-bottom{padding:18px 0 28px;text-align:center}
 .footer-bottom .divider{height:1px;background:#eaeaea;margin:12px auto 16px;max-width:260px}
 .bottom-social{display:flex;align-items:center;justify-content:center;gap:16px}
