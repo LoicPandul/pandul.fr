@@ -34,21 +34,6 @@ html,body{
   line-height:1.65;
 }
 
-/* Header + Footer en JetBrains Mono */
-.site-header,
-.site-header .brand-name,
-.site-header .site-nav a,
-.footer-card,
-.footer-card .brand-name,
-.footer-nav a,
-.footer-info,
-.footer-bottom,
-.footer-bottom .copyright {
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-feature-settings: "liga" 0, "calt" 0;
-}
-
-
 /* Liens */
 a{color:inherit;text-underline-offset:2px}
 a:hover,a:focus{color:var(--accent)}
