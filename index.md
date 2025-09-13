@@ -17,6 +17,7 @@ title: "Accueil"
 # Formations pour Plan ₿ Network
 
 ## CYP 201 - Les rouages des portefeuilles Bitcoin
+Ici la description du cours "goal:"
 
 - [4.1 - Évolution des portefeuilles Bitcoin](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/9d9acd5d-a0e5-5dfd-b544-f043fae8840f)
 - [4.2 - Entropie et nombre aléatoire](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/b43c715d-affb-56d8-a697-ad5bc2fffd63)
