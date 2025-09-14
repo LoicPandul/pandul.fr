@@ -513,22 +513,6 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 ---
 
-# Mon blog personnel Pandul.fr
-
-- [Contribuer sur le Dictionnaire de Bitcoin](https://www.pandul.fr/post/contribuer-sur-le-dictionnaire-de-bitcoin)
-
-- [Maîtriser les bases de l’analyse de chaîne sur Bitcoin](https://www.pandul.fr/post/analyse-de-chaine-bitcoin)
-
-- [Combien faut-il faire de remix sur Whirlpool ?](https://www.pandul.fr/post/combien-faut-il-faire-de-remix-sur-whirlpool)
-
-- [Bitcoin Stamps, UTXO set et fonctionnement d'Utreexo](https://www.pandul.fr/post/tout-savoir-sur-le-fonctionnement-d-utreexo)
-
-- [BIP47, le vilain petit canard](https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable) ​
-
-- [Comprendre et utiliser le CoinJoin sur Bitcoin](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)
-
----
-
 # Space Kek avec Théo Pantamis, Lounès Ksouri et Sosthène
 
 - [2 ans de Taproot, TapMiniscript et proposition de surestarie](https://podcasts.apple.com/bo/podcast/space-kek-44-bitstream-minitapscript-et-2-ans-de-taproot/id1693844092?i=1000635095762)
