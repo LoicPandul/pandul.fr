@@ -23,7 +23,7 @@
   --muted:#666666;
   --line:#111111;
   --wrap:1100px;
-  --radius:18px;
+  --radius:10px;
 }
 
 /* Reset minimal */
@@ -48,21 +48,21 @@ h1,h2,h3{
   letter-spacing:-0.005em;
 }
 h1{
-  font-size:clamp(20px,4vw,30px);
+  font-size:clamp(17px,4vw,25px);
   line-height:1.2;
   margin:1.2em 0 0.7em;
-  font-weight:550;
+  font-weight:700;
 }
 h2{
   font-size:clamp(14px,4vw,18px);
   line-height:1.2;
   margin:1.0em 0 0.6em;
-  font-weight:400;
+  font-weight:350;
 }
 h3{
   font-size:clamp(11px,4vw,16px);
   margin:1.1em 0 0.4em;
-  font-weight:400;
+  font-weight:350;
 }
 strong,b{font-weight:700}
 
