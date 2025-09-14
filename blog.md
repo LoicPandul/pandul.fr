@@ -5,12 +5,17 @@ permalink: /blog/
 
 # Blog
 
-{% assign posts_list = site.posts %}
+{% comment %}
+On prend toutes les pages dont l’URL contient /post/,
+on les trie par date décroissante (assure une date en front-matter).
+{% endcomment %}
+{% assign articles = site.pages | where_exp: "p", "p.url contains '/post/'" | sort: "date" | reverse %}
+
 <ul>
-{% for post in posts_list %}
+{% for a in articles %}
   <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span> — {{ post.date | date: "%d %B %Y" }}</span>
+    <a href="{{ a.url | relative_url }}">{{ a.title }}</a>
+    {%- if a.date %}<span> — {{ a.date | date: "%d %B %Y" }}</span>{% endif -%}
   </li>
 {% endfor %}
 </ul>
