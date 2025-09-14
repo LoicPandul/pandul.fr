@@ -1,7 +1,9 @@
 ---
-title: "Bitcoin Stamps, UTXO set et fonctionnement d'Utreexo."
+title: "Bitcoin Stamps, UTXO set et fonctionnement d'Utreexo"
 date: 2023-04-11
 ---
+
+# Bitcoin Stamps, UTXO set et fonctionnement d'Utreexo
 
 S'il y a bien un évènement qui a marqué le début de cette année sur Bitcoin, c'est l'arrivée fracassante des NFT au travers du protocole Ordinals. Depuis quelques jours, un nouveau protocole permettant d'ancrer de la donnée sur Bitcoin, appelé « Bitcoin Stamps », commence à gagner en popularité. Son élément de différenciation par rapport au protocole Ordinals est de proposer un ancrage immuable et non élagable. Cela a fait ressurgir des craintes sur la croissance de l'UTXO set des nœuds, un problème que l'on pensait être plus lointain.
 

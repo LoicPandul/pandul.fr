@@ -3,6 +3,8 @@ title: "Contribuer sur le Dictionnaire de Bitcoin"
 date: 2024-07-15
 ---
 
+# Contribuer sur le Dictionnaire de Bitcoin
+
 Ça y est, le dépôt GitHub du Dictionnaire de Bitcoin est en fin public ! C'est un moment spécial pour moi parce qu'il représente l'aboutissement d'un travail débuté au début de l'année 2023.
 
 Dictionnaire de Bitcoin regroupe pour le moment 764 définitions de termes techniques liés à Bitcoin. Mais j'ai de côté encore environ 200 termes qui doivent être définis, et le but est de tenir à jour ce dictionnaire. Le travail n'est donc pas fini !

@@ -1,7 +1,9 @@
 ---
-title: "Maîtriser les bases de l’analyse de chaîne sur Bitcoin."
+title: "Maîtriser les bases de l’analyse de chaîne sur Bitcoin"
 date: 2023-09-29
 ---
+
+# Maîtriser les bases de l’analyse de chaîne sur Bitcoin
 
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. C'est pourquoi nous recourons à la monnaie qui permet de déplacer la valeur à la fois dans l'espace et dans le temps.
 

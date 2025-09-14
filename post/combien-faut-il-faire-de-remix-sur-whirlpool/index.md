@@ -3,6 +3,8 @@ title: "Combien faut-il faire de remix sur Whirlpool ?"
 date: 2023-04-27
 ---
 
+# Combien faut-il faire de remix sur Whirlpool ?
+
 Voilà une question que l'on me pose très souvent. Lorsque l'on fait des coinjoins avec Whirlpool, combien de remix faut-il attendre ? Je vais donc vous faire une réponse dans cet article de blog, afin que je puisse directement l'envoyer aux futures personnes qui me la poseront.
 
 L'objectif du coinjoin est de produire une forme de déni plausible en cachant votre pièce au sein d'un groupe de pièces indifférenciables. L'objectif de cette production de déni plausible est de casser les traçages passé vers présent et présent vers passé. En d'autres termes, un analyste qui connait votre pièce en entrée des cycles de coinjoin ne doit pas être en capacité de déterminer quelle est votre pièce en sortie des cycles (passé-présent). À l'inverse, un analyste en connaissance de votre pièce en sortie des cycles de coinjoin ne doit pas être en capacité de déterminer quelle est votre pièce en entrée des cycles (présent-passé).

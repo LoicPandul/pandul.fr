@@ -8,12 +8,15 @@ timezone: Europe/Paris
 url: "https://LoicPandul.github.io"
 baseurl: "/pandul.fr"
 
-permalink: /blog/:slug/
+permalink: pretty
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+
+exclude:
+  - post/
 
 # Métadonnées SEO
 logo: "/assets/img/social-card.png"

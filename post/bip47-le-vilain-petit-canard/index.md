@@ -1,7 +1,9 @@
 ---
-title: "BIP47, le vilain petit canard."
+title: "BIP47, le vilain petit canard"
 date: 2022-09-16
 ---
+
+# BIP47, le vilain petit canard
 
 Un des fléaux les plus importants sur le protocole Bitcoin est la réutilisation d'adresse. La transparence et la distribution du réseau rend cette pratique dangereuse pour la confidentialité de l'utilisateur. Pour éviter les problèmes liés à cela, il est conseillé d'utiliser une nouvelle adresse de réception vierge pour tout nouveau paiement entrant vers un portefeuille, ce qui peut être compliqué à réaliser dans certains cas.
 
