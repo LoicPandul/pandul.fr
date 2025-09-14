@@ -5,15 +5,17 @@ permalink: /dictionnaire/
 
 # Dictionnaire de Bitcoin
 
-Tout le vocabulaire technique de Bitcoin
+<img src="assets/img/cover-dictionnaire.png" alt="Cover — Dictionnaire de Bitcoin" />
+
+Tout le vocabulaire technique de Bitcoin.
 
 Cet ouvrage recense tous les termes techniques en rapport avec Bitcoin ou son environnement, ainsi que les définitions correspondantes.
 
-Rédigé par Loïc Morel, de Pandul, il est accessible gratuitement en version numérique sur ce dépôt GitHub. Ce livre sera également vendu imprimé sur Amazon à partir de fin 2024. Si le projet intéresse et suscite de l'engagement, je publierai de nouvelles versions actualisées du Dictionnaire de Bitcoin. Ces mises à jour comprendront les modifications proposées par la communauté de contributeurs et les termes nouvellement apparus.
+Rédigé par Loïc Morel, de Pandul, il est accessible gratuitement en version numérique sur [ce dépôt GitHub](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin). Ce livre sera également vendu imprimé sur Amazon plus tard (quand j'aurai le temps ^^). Si le projet intéresse et suscite de l'engagement, je publierai de nouvelles versions actualisées du Dictionnaire de Bitcoin. Ces mises à jour comprendront les modifications proposées par la communauté de contributeurs et les termes nouvellement apparus.
 
-La méthode la plus simple pour le consulter est de télécharger le PDF disponible directement à la racine du dépôt, ou dans les releases avec la version v0.1-online.
+La méthode la plus simple pour le consulter est de télécharger le PDF disponible directement [à la racine du dépôt](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/blob/main/Dictionnaire%20de%20Bitcoin.pdf) ou [dans les releases](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/releases).
 
-À ce jour, le dictionnaire contient 764 définitions, mais j’ai encore de côté une liste d’environ 200 termes à définir. La rédaction n’est donc pas totalement terminée.
+À ce jour, le dictionnaire contient 846 définitions, mais j’ai encore de côté une liste d’environ 200 termes à définir. La rédaction n’est donc pas totalement terminée.
 
 Dictionnaire de Bitcoin est un projet ouvert. Vos contributions et relectures sont les bienvenues, notamment :
 
@@ -33,6 +35,6 @@ Si vous n'êtes pas familier avec Git et GitHub, je vous ai préparé un tutorie
 
 https://www.pandul.fr/post/contribuer-sur-le-dictionnaire-de-bitcoin
 
-Si vous souhaitez soutenir ce projet, vous pouvez aussi le partager sur les réseaux sociaux ou me faire un don LN sur pandul@sats.rs.
+Si vous souhaitez soutenir ce projet, vous pouvez aussi le partager sur les réseaux sociaux ou me faire un don sur mon addresse LN.
 
-Merci ! :)
+Merci !
