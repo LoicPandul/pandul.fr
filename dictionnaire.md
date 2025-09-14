@@ -5,9 +5,7 @@ permalink: /dictionnaire/
 
 # Dictionnaire de Bitcoin
 
-<img src="assets/img/cover-dictionnaire.png" alt="Cover — Dictionnaire de Bitcoin" />
-
-Tout le vocabulaire technique de Bitcoin.
+## Tout le vocabulaire technique de Bitcoin.
 
 Cet ouvrage recense tous les termes techniques en rapport avec Bitcoin ou son environnement, ainsi que les définitions correspondantes.
 
@@ -16,6 +14,10 @@ Rédigé par Loïc Morel, de Pandul, il est accessible gratuitement en version n
 La méthode la plus simple pour le consulter est de télécharger le PDF disponible directement [à la racine du dépôt](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/blob/main/Dictionnaire%20de%20Bitcoin.pdf) ou [dans les releases](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/releases).
 
 À ce jour, le dictionnaire contient 846 définitions, mais j’ai encore de côté une liste d’environ 200 termes à définir. La rédaction n’est donc pas totalement terminée.
+
+<img src="../assets/img/cover-dictionnaire.png" 
+     alt="Cover — Dictionnaire de Bitcoin" 
+     style="width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" />
 
 Dictionnaire de Bitcoin est un projet ouvert. Vos contributions et relectures sont les bienvenues, notamment :
 
