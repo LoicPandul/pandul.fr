@@ -46,6 +46,8 @@ Comprendre, installer, configurer et utiliser un nœud Bitcoin
 - [20 - Examen final](https://planb.network/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426/a4c97701-996c-4cc5-81fa-37d2dc4ee856)
 - [21 - Conclusion](https://planb.network/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426/28c5cf1f-7b9c-4b68-8b8f-eee109629764)
 
+---
+
 ## BTC 204 - [La confidentialité sur Bitcoin](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c)
 
 Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
@@ -84,6 +86,8 @@ Comprendre et maîtriser les principes de la protection de la vie privée dans l
 - [30 - Examen final](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/e803d394-e3c1-5816-a6b4-a69a2472019c)
 - [31 - Conclusion](https://planb.network/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/cd8e5c67-50e4-4dcd-8e04-88ba5ec95305)
 
+---
+
 ## CYP 201 - [Les rouages des portefeuilles Bitcoin](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
@@ -112,6 +116,8 @@ Plongez dans les principes cryptographiques qui font fonctionner les portefeuill
 - [20 - Avis & Notes](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0cd71541-a7fd-53db-b66a-8611b6a28b04)
 - [21 - Examen final](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/a53ea27d-0f84-56cd-b37c-a66210a4b31d)
 - [22 - Conclusion](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/d291428b-3cfa-5394-930e-4b514be82d5a)
+
+---
 
 ## SCU 202 - [Améliorer sa sécurité numérique personnelle](https://planb.network/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1)
 
@@ -144,6 +150,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [23 - Examen final](https://planb.network/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1/1eb4578e-024a-4430-a997-e9faaf96ab28)
 - [24 - Conclusion](https://planb.network/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1/4186cd39-6320-43a0-ba2c-ceaac42d2d37)
 
+---
 # Tutoriels pour Plan ₿ Network
 
 ## Business
@@ -337,3 +344,311 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Trezor Safe 5](https://planb.network/fr/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0)
 
 - [Trezor Shamir Backup](https://planb.network/fr/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e)
+
+---
+
+# Blog et podcast Comprendre Bitcoin de Bitstack
+
+- [Qu’est-ce que l'UTXO Set sur Bitcoin ?](https://www.bitstack-app.com/blog/utxo-set-bitcoin)
+
+- [Bitcoin n'est pas la première cryptomonnaie](https://www.bitstack-app.com/blog/bitcoin-premiere-cryptomonnaie)
+
+- [Comprendre le fonctionnement des sidechains sur Bitcoin](https://www.bitstack-app.com/blog/comprendre-sidechains-bitcoin)
+
+- [Scripts, conditions, signatures... Comment les bitcoins sont-ils sécurisés ?](https://www.bitstack-app.com/blog/comment-les-bitcoins-sont-ils-securises)
+
+- [Top 10 des meilleurs livres à lire sur Bitcoin](https://www.bitstack-app.com/blog/top-meilleurs-livres-bitcoin)
+
+- [Comment se lance un nouveau nœud sur le réseau Bitcoin ?](https://www.bitstack-app.com/blog/lancement-nouveau-noeud)
+
+- [Tutoriel Sparrow Wallet - Le meilleur logiciel de portefeuille Bitcoin ?](https://www.bitstack-app.com/blog/tutoriel-sparrow-wallet)
+
+- [Qu'est-ce qu'une pool de minage et comment fonctionne-t-elle ?](https://www.bitstack-app.com/blog/pool-de-minage-fonctionnement)
+
+- [Qu'est-ce qu'un BIP (Bitcoin Improvement Proposal) ?](https://www.bitstack-app.com/blog/bip-bitcoin-improvement-proposal)
+
+- [Tout ce que vous devez savoir sur les adresses Bitcoin](https://www.bitstack-app.com/blog/comprendre-adresses-bitcoin)
+
+- [Ethereum vs. Bitcoin : quelles sont les différences ?](https://www.bitstack-app.com/blog/ethereum-vs-bitcoin)
+
+- [Qu'est-ce qu'un portefeuille multisignatures sur Bitcoin ?](https://www.bitstack-app.com/blog/portefeuille-multisignatures-bitcoin)
+
+- [Quelle est l'histoire du Bitcoin Pizza Day ?](https://www.bitstack-app.com/blog/bitcoin-pizza-day)
+
+- [Checklist des outils indispensables pour l’utilisateur de Bitcoin](https://www.bitstack-app.com/blog/checklist-outils-indispensables-bitcoin)
+
+- [Comment configurer et utiliser la Trezor Safe 3 ?](https://www.bitstack-app.com/blog/configurer-et-utiliser-trezor-safe-3)
+
+- [Qu'est-ce qu'une Mempool sur Bitcoin ?](https://www.bitstack-app.com/blog/mempool-bitcoin)
+
+- [Comprendre les méthodes d'activation de forks sur Bitcoin​](https://www.bitstack-app.com/blog/methodes-activation-fork-bitcoin)
+
+- [Phrase de récupération Bitcoin : 12 vs. 24 mots](https://www.bitstack-app.com/blog/phrase-recuperation-12-vs-24-mots)
+
+- [Attaque des 51 % : quels risques pour Bitcoin ?](https://www.bitstack-app.com/blog/attaque-51-pourcents-risques-bitcoin)
+
+- [Trésorerie d’entreprise : pourquoi investir dans le bitcoin ?](https://www.bitstack-app.com/blog/tresorerie-entreprise-bitcoin)
+
+- [Comment gérer ses UTXO Bitcoin achetés en DCA ?](https://www.bitstack-app.com/comprendre-bitcoin/comment-gerer-ses-utxo-bitcoin-achetes-en-dca)
+
+- [Qu'est-ce qu'un explorateur de blocs Bitcoin et comment l'utiliser ?](https://www.bitstack-app.com/comprendre-bitcoin/quest-ce-quun-explorateur-de-blocs-bitcoin-et-comment-lutiliser)
+
+- [Top 7 des citations de Satoshi Nakamoto](https://www.bitstack-app.com/blog/top-7-citations-satoshi-nakamoto)
+
+- [Qu’est-ce qu’un ETF Bitcoin et quels sont ses enjeux ?](https://www.bitstack-app.com/blog/comprendre-etf-bitcoin)
+
+- [Comment expliquer simplement Bitcoin ?](https://www.bitstack-app.com/blog/expliquer-simplement-bitcoin)
+
+- [Bilan 2023 : Les grands sujets qui ont marqué Bitcoin cette année](https://www.bitstack-app.com/blog/bilan-2023-bitcoin)
+
+- [Est-ce que les ordinateurs quantiques vont tuer Bitcoin ? - Chapitre 2](https://www.bitstack-app.com/blog/ordinateurs-quantiques-bitcoin-chapitre-2)
+
+- [Est-ce que les ordinateurs quantiques vont tuer Bitcoin ? - Chapitre 1](https://www.bitstack-app.com/blog/ordinateurs-quantiques-bitcoin-chapitre-1)
+
+- [L’histoire des logos de Bitcoin](https://www.bitstack-app.com/blog/histoire-logos-bitcoin)
+
+- [Comprendre la mise à jour Taproot de Bitcoin](https://www.bitstack-app.com/comprendre-bitcoin/comprendre-la-mise-a-jour-taproot-de-bitcoin)
+
+- [Comment fonctionnent les frais de transaction sur Bitcoin ?](https://www.bitstack-app.com/blog/les-frais-de-transaction-sur-bitcoin)
+
+- [Quel est le meilleur hardware wallet Bitcoin ?](https://www.bitstack-app.com/blog/quel-est-le-meilleur-hardware-wallet)
+
+- [Débordement de l'horodatage : Bitcoin s'arrêtera-t-il en 2106 ?](https://www.bitstack-app.com/blog/debordement-horodatage-bitcoin-2106)
+
+- [Les grandes dates qui ont marqué l'histoire de Bitcoin](https://www.bitstack-app.com/blog/grandes-dates-histoire-de-bitcoin)
+
+- [Pourquoi les 21 millions de bitcoins ne seront jamais atteints ?](https://www.bitstack-app.com/comprendre-bitcoin/pourquoi-les-21-millions-de-bitcoins-ne-seront-jamais-atteints)
+
+- [Tout ce que vous devez savoir sur la consolidation de pièces Bitcoin](https://www.bitstack-app.com/blog/consolidation-pieces-bitcoin)
+
+- [Le minage de Bitcoin ne s'arrêtera pas en 2141](https://www.bitstack-app.com/blog/minage-bitcoin-ne-s-arretera-pas-en-2141)
+
+- [Quelle est la différence entre un hard fork et un soft fork ?](https://www.bitstack-app.com/blog/bitcoin-difference-hardfork-softfork)
+
+- [Qui contrôle Bitcoin ?](https://www.bitstack-app.com/blog/qui-controle-bitcoin)
+
+- [Le bitcoin ne repose pas sur rien](https://www.bitstack-app.com/blog/le-bitcoin-ne-repose-pas-sur-rien)
+
+- [Pourquoi Bitcoin a-t-il été créé ?](https://www.bitstack-app.com/blog/pourquoi-bitcoin-a-ete-cree)
+
+- [Pourquoi épargner du bitcoin en DCA ?](https://www.bitstack-app.com/blog/epargner-bitcoin-DCA)
+
+- [Comment mettre en place son propre nœud Bitcoin Core ?](https://www.bitstack-app.com/blog/noeud-bitcoin-core-tutoriel)
+
+- [Comprendre le fonctionnement du Lightning Network](https://www.bitstack-app.com/blog/comprendre-lightning-network)
+
+- [Le White Paper de Bitcoin expliqué simplement - Chapitre 2](https://www.bitstack-app.com/blog/white-paper-bitcoin-explique-simplement-chapitre2)
+
+- [Le White Paper de Bitcoin expliqué simplement - Chapitre 1](https://www.bitstack-app.com/blog/white-paper-bitcoin-explique-simplement-chapitre1)
+
+- [Qu'est-ce qu'une XPUB (clé étendue) ?](https://www.bitstack-app.com/blog/qu-est-ce-qu-une-xpub-cle-etendue)
+
+- [Qu'est-ce que le Halving sur Bitcoin ?](https://www.bitstack-app.com/blog/qu-est-ce-que-le-halving-bitcoin)
+
+- [Comment restaurer un portefeuille Bitcoin ?](https://www.bitstack-app.com/blog/restaurer-portefeuille-bitcoin)
+
+- [Qui est Satoshi Nakamoto, le créateur de Bitcoin ?](https://www.bitstack-app.com/blog/qui-est-satoshi-nakamoto-le-createur-de-bitcoin)
+
+- [Bitcoin n’est pas trop lent](https://www.bitstack-app.com/blog/bitcoin-trop-lent)
+
+- [Qu'est-ce qu'un bloc Bitcoin ?](https://www.bitstack-app.com/blog/qu-est-ce-qu-un-bloc-bitcoin)
+
+- [Tutoriel : Comment configurer une passphrase sur un portefeuille Bitcoin ?](https://www.bitstack-app.com/blog/configurer-passphrase-portefeuille-bitcoin)
+
+- [Qu'est-ce qu'une passphrase sur un portefeuille Bitcoin ?](https://www.bitstack-app.com/blog/passphrase-portefeuille-bitcoin)
+
+- [Bitcoin n'est pas une pyramide de Ponzi](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-une-pyramide-de-ponzi)
+
+- [6 raisons de configurer votre propre nœud Bitcoin](https://www.bitstack-app.com/blog/6-raisons-configurer-noeud-bitcoin)
+
+- [Qu'est-ce qu'un nœud Bitcoin et quel est son rôle ?](https://www.bitstack-app.com/blog/qu-est-ce-qu-un-noeud-bitcoin)
+
+- [Comment éviter les arnaques et les piratages sur Bitcoin ?](https://www.bitstack-app.com/blog/eviter-arnaques-piratages-bitcoin)
+
+- [Comment configurer et utiliser la Ledger Nano S Plus ?](https://www.bitstack-app.com/blog/configurer-et-utiliser-ledger-nano-s-plus)
+
+- [Le bitcoin n’est pas une monnaie de criminel - Chapitre 3 : Le modèle de confidentialité de Bitcoin](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-une-monnaie-de-criminel-chapitre-3)
+
+- [Le bitcoin n’est pas une monnaie de criminel - Chapitre 2 : L'interdiction de Bitcoin](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-une-monnaie-de-criminel-chapitre-2)
+
+- [Le bitcoin n’est pas une monnaie de criminel - Chapitre 1 : Bitcoin est pour tout le monde](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-une-monnaie-de-criminel-chapitre-1)
+
+- [Comment réaliser un plan d’héritage pour ses bitcoins ?](https://www.bitstack-app.com/blog/plan-heritage-bitcoin)
+
+- [Self-custody : Top 4 des erreurs à éviter sur Bitcoin](https://www.bitstack-app.com/blog/4-erreurs-de-debutants-bitcoin)
+
+- [7 astuces pour améliorer la sécurité de votre portefeuille Bitcoin](https://www.bitstack-app.com/blog/astuces-ameliorer-securite-bitcoins)
+
+- [Bitcoin n’est pas inutile - Chapitre 2 : Les utilisations de Bitcoin dans le monde](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-inutile-chapitre-2-utilisations-bitcoin-monde)
+
+- [Bitcoin n’est pas inutile - Chapitre 1 : Utilité de Bitcoin et théories de la valeur](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-inutile-chapitre-1-utilite-theories-valeur)
+
+- [Comment installer son premier portefeuille Bitcoin ? Tutoriel Green Wallet](https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet)
+
+- [Qu'est-ce que la phrase de récupération d'un portefeuille Bitcoin ?](https://www.bitstack-app.com/blog/qu-est-ce-que-la-phrase-de-recuperation-d-un-portefeuille-bitcoin-24-mots)
+
+- [Bitcoin n’est pas une catastrophe écologique](https://www.bitstack-app.com/blog/bitcoin-n-est-pas-une-catastrophe-ecologique)
+
+- [Quels sont les différents types de portefeuilles Bitcoin ?](https://www.bitstack-app.com/blog/quels-sont-les-differents-types-de-portefeuilles-bitcoin)
+
+- [Introduction à la conservation d’actifs numériques : comment sécuriser soi-même ses clés Bitcoin ?](https://www.bitstack-app.com/blog/introduction-a-la-conservation-d-actifs-numeriques-comment-securiser-soi-meme-ses-cles-bitcoin)
+
+- [Qu’est-ce que la preuve de travail sur Bitcoin ? (Proof-of-Work)](https://www.bitstack-app.com/blog/qu-est-ce-que-la-preuve-de-travail-sur-bitcoin-proof-of-work)
+
+- [Comment fonctionne Bitcoin ?](https://www.bitstack-app.com/blog/comment-fonctionne-bitcoin)
+
+- [Pourquoi épargner en bitcoin ?](https://www.bitstack-app.com/blog/pourquoi-epargner-bitcoin)
+
+- [8 idées reçues sur Bitcoin](https://www.bitstack-app.com/blog/8-idees-recues-bitcoin)
+
+- [Bitcoin vs Blockchain, où est l’innovation ?](https://www.bitstack-app.com/blog/bitcoin-blockchain-difference)
+
+- [Comment est déterminé le prix du bitcoin ?](https://www.bitstack-app.com/blog/determiner-prix-bitcoin)
+
+- [Est-ce que le bitcoin est une bonne monnaie ?](https://www.bitstack-app.com/blog/bitcoin-bonne-monnaie)
+
+- [Qu’est-ce qui différencie Bitcoin des autres cryptomonnaies ?](https://www.bitstack-app.com/blog/difference-bitcoin-altcoin)
+
+- [Bitcoin : Qu’est-ce que c’est ?](https://www.bitstack-app.com/blog/bitcoin-qu-est-ce-que-c-est)
+
+---
+
+# Mon blog personnel Pandul.fr
+
+- [Contribuer sur le Dictionnaire de Bitcoin](https://www.pandul.fr/post/contribuer-sur-le-dictionnaire-de-bitcoin)
+
+- [Maîtriser les bases de l’analyse de chaîne sur Bitcoin](https://www.pandul.fr/post/analyse-de-chaine-bitcoin)
+
+- [Combien faut-il faire de remix sur Whirlpool ?](https://www.pandul.fr/post/combien-faut-il-faire-de-remix-sur-whirlpool)
+
+- [Bitcoin Stamps, UTXO set et fonctionnement d'Utreexo](https://www.pandul.fr/post/tout-savoir-sur-le-fonctionnement-d-utreexo)
+
+- [BIP47, le vilain petit canard](https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable) ​
+
+- [Comprendre et utiliser le CoinJoin sur Bitcoin](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)
+
+---
+
+# Space Kek avec Théo Pantamis, Lounès Ksouri et Sosthène
+
+- [2 ans de Taproot, TapMiniscript et proposition de surestarie](https://podcasts.apple.com/bo/podcast/space-kek-44-bitstream-minitapscript-et-2-ans-de-taproot/id1693844092?i=1000635095762)
+
+- [Vulnérabilité sur Lightning et BitVM](https://twitter.com/louneskmt/status/1717262280901922903)
+
+- [Sujets libres Q&A](https://twitter.com/Loic_Pandul/status/1710016961130713463?s=20)
+
+- [Les méthodes d'activation de soft forks sur Bitcoin](https://open.spotify.com/episode/6vUk1GjyUfKvGkQNMpP2nG?si=UZEBSGwDT82XlqwTQxkLXQ)
+
+- [Questions techniques et sujets libres](https://open.spotify.com/episode/5h2nB69xFjFxkfNYALYQD8?si=UHQLOF6lS5-gwQRLoVvzAA)
+
+- [Summer Kek - OP_RETURN, Patoshi, Sidechains et Drivechains](https://open.spotify.com/episode/7sPr9SCQOhCF0FahYTBLeP?si=ZmM7tT42T9izcJQojVUGGg)
+
+- [Summer Kek - PostMix Whirlpool, implémentations de nœuds et programmation sur LN](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-38---Summer-Kek-e287mq3)
+
+- [Summer Kek - BIP322, LN address, horodatage et BTC bloqués](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-37---Summer-Kek-e287lo6)
+
+- [Summer Kek - BIP324, division du sat, Tor et anonymat](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-36---Summer-Kek-e287ll8)
+
+- [Summer Kek - Outpout Descriptors, Taro et protocole Ark](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-35---Summer-Kek-e287lhm)
+
+- [Summer Kek - SHA256, RGB et présentation Bleb Wallet](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-34---Summer-Kek-e287lct)
+
+- [Bitcoin sujets libres et questions techniques](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-33---Bitcoin-Sujets-Libres--Questions-Tech-e287l77)
+
+- [Dérivations HD et clés étendues](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-32---Drivation-HD-de-cls-publiques-e287kpp)
+
+- [La machine d'états du protocole RGB](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-31---La-machine--tats-de-RGB-RGB-2-e2665pa)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-30---Questions-et-sujets-libres-e25bg21/a-a9v7opn)
+
+- [Les cold / hardware wallets](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-29---Cold--hardware-wallets-e24llq2/a-a9t3uif)
+
+- [Les piliers du protocole RGB](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-28-----Les-piliers-du-protocole-RGB-e24llou/a-a9t3u5n)
+
+- [Sujets libres Q&A](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-27---Sujets-libres-QA-e23jm37/a-a9pp95m)
+
+- [Les Discreet Log Contracts (DLC)](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-26---Discreet-Log-Contracts-e23d6s3/a-a9p3mno)
+
+- [Le futur du Lightning Network](https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-25---Le-futur-du-Lightning-Network-e23d6ha/a-a9p3cdk)
+
+- [Les compromis techniques de Bitcoin](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-24---Compromis-techniques-de-Bitcoin-e22le7h/a-a9mnqot)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-23---Questions-et-sujets-libres-e220ldk/a-a9krd3e)
+
+- [Stratum V2](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-22---Stratum-V2-e211u13)
+
+- [Les explorateurs de blocs](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-21---Explorateurs-de-blocs-e2065t7/a-a9fg221)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-20---Questions-et-sujets-libres-e206968/a-a9fgbqu)
+
+- [Analyse de chaîne, anonsets et entropie](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji)
+
+- [Routing Lightning 2/2](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-18---Routing-Lightning-22-e1v2ih9/a-a9bihpc)
+
+- [Routing Lightning 1/2](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-17---Routing-Lightning-12-e1ulen5/a-a9a7d0b)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-16---Sujets-libres-e1ueq6s/a-a99icdn)
+
+- [Miniscript, avec Antoine Poinsot](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-15---MiniScript-avec-Antoine-Poinsot-e1u1tv4/a-a984qoq)
+
+- [Payment channels (Lightning)](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-14---Payment-channels-Lightning-e1tt45n/a-a97jn3p)
+
+- [SegWit](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-13---Segwit-e1tbj6i/a-a95mu0a)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-12---Questions-et-sujets-libres-e1s13hf/a-a912oi2)
+
+- [IBD et consensus](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-11---IBD-et-consensus-e1rl1ss/a-a8vkof6)
+
+- [Coinjoins, avec Thibaud Maréchal](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-10---Coinjoin-e1r8rj6/a-a8u4t8m)
+
+- [Questions et sujets libres](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-9---Questions-et-sujets-libres-e1qte55/a-a8so23e)
+
+- [Eltoo](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-8---Eltoo-e1qh63g/a-a8r9h6a)
+
+- [Prouver la possession de fonds sur Bitcoin](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-7---Prouver-la-possession-de-fonds-sur-Bitcoin-e1q9ljk/a-a8qdu0l)
+
+- [Erlay](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-6---Erlay-e1pubep/a-a8p551m)
+
+- [Cross-Input Signature Aggregation (CISA)](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-5---Cross-Input-Signature-Aggregation-e1ph7hh/a-a8ni6t0)
+
+- [Taproot et la structure MAST, en passant par Generalized Taproot et Entroot](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-4---Taproot-et-la-structure-MAST--en-passant-par-Generalized-Taproot-et-Entroot-e1pa651/a-a8mn386)
+
+- [MuSig 2](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-3---MuSig2-e1p5igv/a-a8m5sss)
+
+- [Le chiffrement et l'authentification des communications entre les nœuds du réseau Bitcoin](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-2---Le-chiffrement-et-lauthentification-des-communications-entre-les-nuds-du-rseau-Bitcoin-e1omshl/a-a8kf4qf)
+
+- [BIP47 et Silent Payments, ou comment mettre fin au fléau qu'est la réutilisation d'adresses sur Bitcoin ?](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-1---BIP47-et-Silent-Payments--ou-comment-mettre-fin-au-flau-quest-la-rutilisation-dadresses-sur-Bitcoin-e1o7egq/a-a8io34a)
+
+---
+
+# Productions pour Découvre Bitcoin
+
+- [Les bitcoins sont-ils fongibles](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--Les-bitcoins-sont-ils-fongibles-e21jfa3/a-a9jpkst)
+
+- [BIP47 et codes de paiement réutilisables](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--BIP47-et-codes-de-paiement-rutilisables-e1unfeg/a-a9ae4pg)
+
+- [Les chemins de dérivation d'un portefeuille Bitcoin.](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--Comprendre-les-chemins-de-drivation-dun-portefeuille-Bitcoin-e1r6rro/a-a8ttaif)
+
+- [Si t’as pas d’amis, utilise JoinBot !](https://decouvrebitcoin.fr/si-tas-pas-damis-utilises-joinbot/)
+
+- [Tribune sur le KYC et l’identification des bitcoins onchain](https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/)
+
+- [Formation CRYPTO-301 complète](https://academie.decouvrebitcoin.fr/courses/crypto-301-introduction-a-la-cryptographie/)
+
+---
+
+# Podcasts et interviews divers
+
+- [Comment préserver sa confidentialité et son anonymat avec Bitcoin ? 🥷 Loïc Morel](https://www.youtube.com/watch?v=hsGWjjp-Mj4)
+
+- [Space Cryptoast : UTXOs et confidentialité sur Bitcoin](https://x.com/CryptoastMedia/status/1788143368494567758)
+
+- [Self-custody pour tous les détenteurs : Réalité ou illusion ? D. St-Onge et L. Morel](https://youtu.be/Lz-_ec36bKQ)
+
+- [Notre expert en sécurité Bitcoin - Loïc Morel](https://youtu.be/tbeSA29ys8I)
+
+- [Wasabi vs Samourai, quel wallet choisir ? - Thibaud Maréchal et Loïc Morel](https://youtu.be/05b1eg21Cvk)
+
+- [Protéger vos crypto avec les CoinJoins !](https://youtu.be/5mt4SLsIlL8)
+
+- [Interview technique avec le docteur en mathématiques appliquées Théo Pantamis](https://youtu.be/c9MvtGJsEvY)
