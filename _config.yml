@@ -5,8 +5,8 @@ lang: fr
 timezone: Europe/Paris
 
 # URL GitHub
-url: "https://LoicPandul.github.io"
-baseurl: "/pandul.fr"
+url: "https://pandul.fr"
+baseurl: ""
 
 permalink: pretty
 plugins:
