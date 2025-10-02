@@ -185,6 +185,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Proton Mail](https://planb.network/fr/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2)
 
+- [Seedkeeper - Password Manager](https://planb.network/fr/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3)
+
 - [Session](https://planb.network/fr/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3)
 
 - [Signal](https://planb.network/fr/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e)
@@ -251,6 +253,10 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Bitcoin Knots](https://planb.network/fr/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098)
 
+- [Dojo](https://planb.network/fr/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f)
+
+- [Lightning Watchtower](https://planb.network/fr/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2)
+
 - [RGB CLI](https://planb.network/fr/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4)
 
 - [RGB Lightning Node](https://planb.network/fr/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea)
@@ -287,11 +293,17 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Bacca](https://planb.network/fr/tutorials/wallet/desktop/bacca-8f6783cf-d792-4277-8957-9c8a5ef08fa9)
 
+- [BIP-39 Passphrase](https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7)
+
+- [BIP-39 Passphrase Ledger](https://planb.network/fr/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49)
+
+- [BIP-39 Passphrase Trezor](https://planb.network/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
+
 - [Blockstream Green - 2FA](https://planb.network/fr/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9)
 
 - [COLDCARD Q](https://planb.network/fr/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3)
 
-- [COLDCARD Q - Advanced](https://planb.network/fr/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0)
+- [COLDCARD Q - Expert](https://planb.network/fr/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0)
 
 - [Envoy](https://planb.network/fr/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb)
 
@@ -302,12 +314,6 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Ledger Flex](https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a)
 
 - [Ledger Nano S Plus](https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4)
-
-- [Passphrase BIP39](https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7)
-
-- [Passphrase BIP39 Ledger](https://planb.network/fr/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49)
-
-- [Passphrase BIP39 Trezor](https://planb.network/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
 
 - [Passport Core](https://planb.network/fr/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236)
 
@@ -327,7 +333,11 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
 
-- [Sentinel Watch-Only](https://planb.network/fr/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+- [Seedkeeper](https://planb.network/fr/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356)
+
+- [Seedkeeper x SeedSigner](https://planb.network/fr/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579)
+
+- [Sentinel](https://planb.network/fr/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
 - [Sparrow Wallet](https://planb.network/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
