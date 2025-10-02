@@ -249,3 +249,26 @@ img{max-width:100%;height:auto}
     margin:14px auto;
   }
 }
+
+/* === Header mobile : version plus compacte (n'affecte pas le desktop) === */
+@media (max-width: 720px){
+  .site-header{ top: 8px; }
+
+  .header-card{
+    padding: 8px 12px;      /* ↓ réduit la hauteur */
+    border-radius: 12px;
+    gap: 6px;
+  }
+
+  .brand img{ height: 22px; }     /* logo un peu plus petit */
+  .brand-name{ font-size: 15px; } /* nom un peu plus petit */
+
+  .site-nav{ gap: 8px 10px; }
+  .site-nav a{
+    padding: 5px 7px;       /* ↓ moins de padding vertical */
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .site-nav .icon{ padding: 5px; }
+  .site-nav .icon img{ height: 16px; }
+}
