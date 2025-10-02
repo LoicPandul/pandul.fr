@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -13,7 +12,6 @@
   {%- seo -%}
 </head>
 <body>
-  <!-- Header flottant -->
   <header class="site-header">
     <div class="wrap">
       <div class="header-card" id="headerCard">
@@ -44,27 +42,22 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <!-- Bulle noire : 3 colonnes (marque / menu / infos) -->
       <div class="footer-card">
         <div class="footer-brand">
           <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Pandul">
           <span class="brand-name">Loïc Morel</span>
         </div>
-
         <nav class="footer-nav">
           <a href="{{ '/' | relative_url }}">Accueil</a>
           <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
           <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
         </nav>
-
         <div class="footer-info">
           <p><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
           <p>96 Rue Paradis 13006 Marseille</p>
           <p>Lightning : pandul@sats.rs</p>
         </div>
       </div>
-
-      <!-- Barre du dessous -->
       <div class="footer-bottom">
         <div class="divider"></div>
         <div class="bottom-social">
