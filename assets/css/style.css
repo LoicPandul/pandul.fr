@@ -158,3 +158,94 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 
 /* Utilitaires */
 .tiny{font-size:.9rem;color:var(--muted);text-align:center;margin:16px 0 32px}
+
+
+/* =========================================================
+   Mobile-only polish (header & footer) — n’affecte pas desktop
+   ========================================================= */
+img{max-width:100%;height:auto}
+
+/* Palier principal mobile */
+@media (max-width: 720px){
+
+  /* Header : carte compacte, en 2 lignes */
+  .site-header{ top:10px; }
+  .header-card{
+    padding:12px 14px;
+    border-radius:14px;
+    flex-direction:column;             /* brand au-dessus, nav en dessous */
+    align-items:center;
+    gap:10px;
+  }
+
+  /* Marque */
+  .brand{ gap:10px; }
+  .brand img{ height:28px; }
+  .brand-name{ font-size:17px; letter-spacing:0; }
+
+  /* Navigation header : centrée, wrap, gros tap-targets */
+  .site-nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px 12px;                     /* lignes & colonnes */
+    width:100%;
+  }
+  .site-nav a{
+    margin:0;                          /* override du margin-left desktop */
+    padding:8px 10px;
+    font-size:15px;
+    border-radius:10px;
+    background:rgba(255,255,255,.06);  /* petite pastille discrète */
+  }
+  .site-nav .icon{ padding:8px; }
+  .site-nav .icon img{ height:18px; }
+
+  /* Contenu : un peu plus de “respiration” */
+  .site-main .wrap{ padding:14px 20px 24px; }
+}
+
+/* Très petit écran : resserrer un peu la typo des onglets */
+@media (max-width: 380px){
+  .brand-name{ font-size:16px; }
+  .site-nav a{ font-size:14px; padding:6px 8px; }
+}
+
+/* Footer mobile : tout centré, blocs empilés et lisibles */
+@media (max-width: 720px){
+  .footer-card{
+    grid-template-columns:1fr;         /* 3 colonnes -> 1 colonne */
+    text-align:center;
+    justify-items:center;
+    gap:12px;
+    padding:22px;
+    border-radius:14px;
+  }
+
+  .footer-brand{
+    flex-direction:column;
+    gap:8px;
+  }
+  .footer-brand img{ height:44px; }
+  .footer-brand .brand-name{ font-size:18px; }
+
+  .footer-nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px 12px;
+  }
+  .footer-nav a{
+    margin:0;
+    padding:8px 10px;
+    border-radius:10px;
+    background:#0f0f0f;
+  }
+
+  .footer-info p{ margin:.3rem 0; }
+
+  .footer-bottom .divider{
+    max-width:140px;
+    margin:14px auto;
+  }
+}
