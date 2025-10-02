@@ -1,6 +1,5 @@
-// Header flottant + ouverture des liens externes dans nouvel onglet
+// Header flottant + ouverture liens externes en nouvel onglet
 document.addEventListener('DOMContentLoaded', () => {
-  // --- Header flottant ---
   const card = document.getElementById('headerCard');
   if (card) {
     let lastY = window.pageYOffset || document.documentElement.scrollTop;
@@ -25,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  // --- Liens externes : nouvel onglet + sécurité ---
+  // Liens externes
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');
-    if (!href || href.startsWith('#')) return;                      // ancres
-    if (/^(mailto:|tel:|javascript:)/i.test(href)) return;          // mails, tel, js
+    if (!href || href.startsWith('#')) return;
+    if (/^(mailto:|tel:|javascript:)/i.test(href)) return;
 
     const u = new URL(href, location.href);
     const isHttp = u.protocol === 'http:' || u.protocol === 'https:';
