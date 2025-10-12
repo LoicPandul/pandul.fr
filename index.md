@@ -299,6 +299,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [BIP-39 Passphrase Trezor](https://planb.network/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
 
+- [Bitkey](https://planb.network/fr/tutorials/wallet/hardware/bitkey-02110256-e1b7-40f6-b292-e816375e2618)
+
 - [Blockstream Green - 2FA](https://planb.network/fr/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9)
 
 - [COLDCARD Q](https://planb.network/fr/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3)
@@ -315,6 +317,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Ledger Nano S Plus](https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4)
 
+- [OPENDIME](https://planb.network/fr/tutorials/wallet/hardware/opendime-23f64fd9-bf61-4bf7-86f7-0256ca43eadd)
+
 - [Passport Core](https://planb.network/fr/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236)
 
 - [Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)
@@ -324,6 +328,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Portal](https://planb.network/fr/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace)
 
 - [Proton Wallet](https://planb.network/fr/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178)
+
+- [Rumble Wallet](https://planb.network/fr/tutorials/wallet/mobile/rumble-wallet-9b3b0c1a-23e2-492a-b082-37e5408d8728)
 
 - [Samourai Wallet - Recover](https://planb.network/fr/tutorials/wallet/mobile/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3)
 
