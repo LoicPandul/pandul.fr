@@ -88,11 +88,11 @@ Comprendre et maîtriser les principes de la protection de la vie privée dans l
 
 ---
 
-## CYP 201 - [Les rouages des portefeuilles Bitcoin](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+## CYP 201 - [Architecture du portefeuille Bitcoin](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 
-<a class="pbn-thumb" href="https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f" aria-label="Ouvrir le cours Les rouages des portefeuilles Bitcoin"><img src="assets/img/pbn-cyp201-thumbnail.webp" alt="Miniature — Les rouages des portefeuilles Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f" aria-label="Ouvrir le cours Architecture du portefeuille Bitcoin"><img src="assets/img/pbn-cyp201-thumbnail.webp" alt="Miniature — Architecture du portefeuille Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
 
 - [1 - Introduction de la formation](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/fb4e8857-ea35-5a8a-ae8a-5300234e0104)
 - [2 - Introduction aux fonctions de hachage](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/dba011f5-1805-5a48-ac2b-4bd637c93703)
@@ -181,6 +181,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Olvid](https://planb.network/fr/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd)
 
+- [Pears](https://planb.network/fr/tutorials/computer-security/communication/pears-6d42b312-c69f-4504-8f71-b03b56c42fdd)
+
 - [Proton Drive](https://planb.network/fr/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16)
 
 - [Proton Mail](https://planb.network/fr/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2)
@@ -228,6 +230,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Contribution - Tutoriels](https://planb.network/fr/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2)
 
 - [GitHub Desktop](https://planb.network/fr/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)
+
+- [Plan ₿ Academy - Pears App](https://planb.network/fr/tutorials/contribution/others/pears-plan-b-academy-77f0ae28-28fc-4465-a9f1-1c6654711770)
 
 - [Professeur Plan ₿ Network](https://planb.network/fr/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)
 
