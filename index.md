@@ -301,6 +301,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [BIP-39 Passphrase Ledger](https://planb.network/fr/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49)
 
+- [BIP-39 Passphrase SeedSigner](https://planb.network/fr/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe)
+
 - [BIP-39 Passphrase Trezor](https://planb.network/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
 
 - [Bitkey](https://planb.network/fr/tutorials/wallet/hardware/bitkey-02110256-e1b7-40f6-b292-e816375e2618)
@@ -346,6 +348,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Seedkeeper](https://planb.network/fr/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1-8669e216d356)
 
 - [Seedkeeper x SeedSigner](https://planb.network/fr/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579)
+
+- [SeedSigner](https://planb.network/fr/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb)
 
 - [Sentinel](https://planb.network/fr/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
 
