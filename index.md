@@ -14,7 +14,7 @@ title: "Accueil"
 
 ---
 
-# Formations pour Plan ₿ Network
+# Formations pour Plan ₿ Academy
 
 <style>.pbn-thumb img{transition:transform .12s ease-in-out;border-radius:10px;border:1px solid rgba(0,0,0,.25);} .pbn-thumb:hover img{transform:scale(1.04);}</style>
 
@@ -151,7 +151,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [24 - Conclusion](https://planb.network/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1/4186cd39-6320-43a0-ba2c-ceaac42d2d37)
 
 ---
-# Tutoriels pour Plan ₿ Network
+# Tutoriels pour Plan ₿ Academy
 
 ## Business
 
