@@ -209,15 +209,15 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Ajouter des outils pédagogiques](https://planb.network/fr/tutorials/contribution/resource/add-bet-178d9ed0-598d-45a0-aa66-7f147121e04e)
 
-- [Ajouter un livre sur PlanB Network](https://planb.network/fr/tutorials/contribution/resource/add-book-d3bd9f9a-1859-4d81-8c55-0b720a8740c9)
+- [Ajouter un livre sur Plan ₿ Academy](https://planb.network/fr/tutorials/contribution/resource/add-book-d3bd9f9a-1859-4d81-8c55-0b720a8740c9)
 
-- [Ajouter un podcast sur PlanB Network](https://planb.network/fr/tutorials/contribution/resource/add-podcast-7d66c440-d5f6-4a1f-b3f0-14ca4664f1c4)
+- [Ajouter un podcast sur Plan ₿ Academy](https://planb.network/fr/tutorials/contribution/resource/add-podcast-7d66c440-d5f6-4a1f-b3f0-14ca4664f1c4)
 
 - [Ajouter un projet](https://planb.network/fr/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)
 
 - [Ajouter un replay de conférence](https://planb.network/fr/tutorials/contribution/resource/add-conference-replay-3282deba-16ab-4dd9-8357-680902bfb527)
 
-- [Ajouter un évènement sur PlanB Network](https://planb.network/fr/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097)
+- [Ajouter un évènement sur Plan ₿ Academy](https://planb.network/fr/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097)
 
 - [Compte GitHub](https://planb.network/fr/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)
 
@@ -233,7 +233,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Plan ₿ Academy - Pears App](https://planb.network/fr/tutorials/contribution/others/pears-plan-b-academy-77f0ae28-28fc-4465-a9f1-1c6654711770)
 
-- [Professeur Plan ₿ Network](https://planb.network/fr/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)
+- [Professeur Plan ₿ Academy](https://planb.network/fr/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4)
 
 - [Relecture ou révision de contenu](https://planb.network/fr/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017)
 
@@ -271,6 +271,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 ## Privacy
 
+- [Ashigaru Terminal](https://planb.network/fr/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add)
+
 - [BIP47 - PayNym](https://planb.network/fr/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 - [Boltzmann Calculator](https://planb.network/fr/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
@@ -295,6 +297,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Aqua](https://planb.network/fr/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125)
 
+- [Ashigaru](https://planb.network/fr/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f)
+
 - [Bacca](https://planb.network/fr/tutorials/wallet/desktop/bacca-8f6783cf-d792-4277-8957-9c8a5ef08fa9)
 
 - [BIP-39 Passphrase](https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7)
@@ -304,8 +308,6 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [BIP-39 Passphrase SeedSigner](https://planb.network/fr/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe)
 
 - [BIP-39 Passphrase Trezor](https://planb.network/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
-
-- [Bitkey](https://planb.network/fr/tutorials/wallet/hardware/bitkey-02110256-e1b7-40f6-b292-e816375e2618)
 
 - [Blockstream Green - 2FA](https://planb.network/fr/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9)
 
@@ -323,8 +325,6 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Ledger Nano S Plus](https://planb.network/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4)
 
-- [OPENDIME](https://planb.network/fr/tutorials/wallet/hardware/opendime-23f64fd9-bf61-4bf7-86f7-0256ca43eadd)
-
 - [Passport Core](https://planb.network/fr/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236)
 
 - [Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)
@@ -337,9 +337,11 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Rumble Wallet](https://planb.network/fr/tutorials/wallet/mobile/rumble-wallet-9b3b0c1a-23e2-492a-b082-37e5408d8728)
 
-- [Samourai Wallet - Recover](https://planb.network/fr/tutorials/wallet/mobile/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3)
+- [Samourai Wallet - Recover](https://planb.network/fr/tutorials/wallet/backup/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3)
 
 - [Satochip](https://planb.network/fr/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba)
+
+- [Satochip x SeedSigner](https://planb.network/fr/tutorials/wallet/hardware/seedsigner-satochip-88d8cc3e-c0ac-4144-877f-4383828c27b8)
 
 - [Satscard](https://planb.network/fr/tutorials/wallet/hardware/satscard-befeb794-8e6b-4d38-a17e-bffd0712fdc6)
 
