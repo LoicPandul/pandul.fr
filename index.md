@@ -239,7 +239,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Weblate - ajouter une nouvelle langue](https://planb.academy/fr/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86)
 
-- [Weblate - traduire les éléments statiques](https://planb.academy/fr/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295)
+- [Weblate - Traduire les éléments statiques](https://planb.academy/fr/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295)
 
 ## Exchange
 
@@ -285,27 +285,13 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [BIP47 - PayNym](https://planb.academy/fr/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
-- [Boltzmann Calculator](https://planb.academy/fr/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
-
-- [Coinjoin - Dojo](https://planb.academy/fr/tutorials/privacy/on-chain/coinjoin-dojo-add5fb00-ee84-4c40-8943-065079320319)
-
-- [Coinjoin - Sparrow Wallet](https://planb.academy/fr/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)
-
-- [JoinBot](https://planb.academy/fr/tutorials/privacy/on-chain/joinbot-3f36a853-c761-44b9-9ca2-b5f8bfe72cb1)
-
 - [Labelling UTXO](https://planb.academy/fr/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52)
 
-- [OXT - Chain Analysis](https://planb.academy/fr/tutorials/privacy/analysis/oxt-analysis-1ba6c861-c4ef-4d37-bbcc-fe32e2af6801)
-
 - [Payjoin](https://planb.academy/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
-
-- [Payjoin - Sparrow Wallet](https://planb.academy/fr/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 - [Remix - Whirlpool](https://planb.academy/fr/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 - [Sparrow Wallet - Stonewall](https://planb.academy/fr/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392)
-
-- [Whirlpool Stats Tools - Anonsets](https://planb.academy/fr/tutorials/privacy/analysis/wst-anonsets-e031787f-4060-40d8-af5e-7249f9cfe41b)
 
 ## Wallet
 
@@ -324,14 +310,6 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [BIP-39 Passphrase Trezor](https://planb.academy/fr/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42)
 
 - [Blockstream Green - 2FA](https://planb.academy/fr/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9)
-
-- [Blockstream Green - Desktop](https://planb.academy/fr/tutorials/wallet/desktop/blockstream-green-desktop-ca8eaad0-0127-4042-8c7a-f6f32d5123dd)
-
-- [Blockstream Green - Liquid](https://planb.academy/fr/tutorials/wallet/mobile/blockstream-green-liquid-32baea3c-c2ed-48f8-a2b3-81c3a6b646b5)
-
-- [Blockstream Green - Mobile](https://planb.academy/fr/tutorials/wallet/mobile/blockstream-green-23a17212-e597-4bfe-acc7-ce3488f4b5c9)
-
-- [Blockstream Green - Watch-Only](https://planb.academy/fr/tutorials/wallet/mobile/blockstream-green-watch-only-e118ead0-8730-4b2a-88e7-b6f3238d9414)
 
 - [COLDCARD Q](https://planb.academy/fr/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3)
 
