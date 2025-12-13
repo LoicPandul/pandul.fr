@@ -187,7 +187,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Proton Mail](https://planb.academy/fr/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2)
 
-- [Seedkeeper - Password Manager](https://planb.academy/fr/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3)
+- [Seedkeeper - Gestionnaire de mots de passe](https://planb.academy/fr/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3)
 
 - [Session](https://planb.academy/fr/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3)
 
@@ -289,7 +289,7 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Payjoin](https://planb.academy/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
-- [Remix - Whirlpool](https://planb.academy/fr/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+- [Remix - Whirlpool](https://planb.academy/fr/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 - [Sparrow Wallet - Stonewall](https://planb.academy/fr/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392)
 
