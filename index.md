@@ -181,6 +181,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 
 - [Olvid](https://planb.academy/fr/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd)
 
+- [PearPass](https://planb.academy/fr/tutorials/computer-security/authentication/pearpass-638aba88-cd1d-40e1-8149-a289e7a3e69e)
+
 - [Pears](https://planb.academy/fr/tutorials/computer-security/communication/pears-6d42b312-c69f-4504-8f71-b03b56c42fdd)
 
 - [Proton Drive](https://planb.academy/fr/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16)
