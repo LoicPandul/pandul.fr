@@ -119,6 +119,32 @@ Plongez dans les principes cryptographiques qui font fonctionner les portefeuill
 
 ---
 
+## LNP 202 - [Mettre en place son premier nœud Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c)
+
+Comprendre, installer, configurer et utiliser un nœud Lightning
+
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c" aria-label="Ouvrir le cours Mettre en place son premier nœud Lightning"><img src="assets/img/pbn-lnp202-thumbnail.webp" alt="Miniature — Mettre en place son premier nœud Lightning" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+
+- [1 - Aperçu du cours](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/e0871abf-af6d-4221-9389-1a996aea9b79)
+- [2 - Comprendre ce qu'est un nœud Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/8275dfd8-7a72-48cc-bf7f-bc2a46063003)
+- [3 - Pourquoi exploiter son propre nœud Lightning ?](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/421db24e-511c-41ed-ad68-69b0662042ea)
+- [4 - Choisir la solution adaptée à son usage](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/615870e3-741d-4ec1-875d-a483e70f39d4)
+- [5 - Installer LND avec Umbrel](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/a0014bf3-1bd3-4311-b15b-5ef2354ec744)
+- [6 - Sauvegarder son nœud Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/638fa75d-62af-4bf3-ab4a-b7d10ea75815)
+- [7 - Watchtower : rôle et mise en place](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/e6c654dd-26c5-4e4d-8d11-a215bac37812)
+- [8 - Ouvrir son premier canal Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/00642af7-8f3d-4a25-96d7-34e85de7bd5d)
+- [9 - Définir son profil d'opérateur de nœud](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/d3b2e163-50f6-4d1d-a5fc-8fd177dfac76)
+- [10 - Utiliser un gestionnaire de nœud Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/02eb4c09-d14b-4ff0-8b04-b90de3307d34)
+- [11 - Obtenir de la liquidité entrante](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/b740c656-a897-4d95-af4b-116b718447cd)
+- [12 - Connecter un portefeuille mobile via Tailscale](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/5fefb222-3f50-4f9d-a170-2ea628be4437)
+- [13 - Connecter un portefeuille mobile via NWC](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4)
+- [14 - Pérenniser son autonomie sur Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/691a0942-b46d-482a-8fbc-fe19b3814992)
+- [15 - Avis & Notes](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/aec048c7-7130-425d-8eca-9cd7f90c27f3)
+- [16 - Examen final](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/3951ccbb-14a3-4322-b81b-8dd2a6da19cb)
+- [17 - Conclusion](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/30cd6309-5139-40d9-8927-92de0f76414a)
+
+---
+
 ## SCU 202 - [Améliorer sa sécurité numérique personnelle](https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1)
 
 Mettre en place un environnement numérique personnel sécurisé, stable et efficace.
@@ -326,6 +352,8 @@ Mettre en place un environnement numérique personnel sécurisé, stable et effi
 - [Ledger Flex](https://planb.academy/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a)
 
 - [Ledger Nano S Plus](https://planb.academy/fr/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4)
+
+- [OPENDIME](https://planb.academy/fr/tutorials/wallet/hardware/opendime-23f64fd9-bf61-4bf7-86f7-0256ca43eadd)
 
 - [Passport Core](https://planb.academy/fr/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236)
 
