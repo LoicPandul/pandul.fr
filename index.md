@@ -145,6 +145,30 @@ Comprendre, installer, configurer et utiliser un nœud Lightning
 
 ---
 
+## MIN 101 - [Introduction au minage de Bitcoin](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e)
+
+Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zéro
+
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e" aria-label="Ouvrir le cours Introduction au minage de Bitcoin"><img src="assets/img/pbn-min101-thumbnail.webp" alt="Miniature — Introduction au minage de Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+
+- [1 - Aperçu du cours](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/a82d49dc-d68a-4e3f-985e-bcef6643677e)
+- [2 - Le minage de Bitcoin expliqué simplement](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/278577a6-98bb-4659-86c7-f6c4f6d5fa3e)
+- [3 - Le parcours de la transaction Bitcoin](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/3b7a3502-4814-4554-8de1-86ac961a2958)
+- [4 - La construction d'un bloc Bitcoin](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/2b5cd04b-d400-4865-b0a0-e70fa7e67c17)
+- [5 - Le hachage, la cible et le nonce](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/d054323b-16bd-4556-bac5-4878654e59a3)
+- [6 - L'histoire de la preuve de travail](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/919d9f3e-8b3b-41d9-b45a-54df4f3c31a3)
+- [7 - L'ajustement de la cible de difficulté](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/528bcaa8-351e-4eae-887a-426a78a223e3)
+- [8 - La récompense de bloc](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/b316fb89-9c18-417e-917b-ab98f1722646)
+- [9 - Le halving](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/7cdca211-7300-48f8-a1e4-53e5c2678cd8)
+- [10 - La transaction coinbase](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/69476700-3616-4aab-b006-367aba059de9)
+- [11 - L'évolution des machines de minage](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/2d2f9055-75fd-4630-b493-a577d708a39f)
+- [12 - Le regroupement en pools de minage](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/c871bece-eebe-4ef4-9789-d47251f16c8b)
+- [13 - Avis & Notes](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/dc005a96-f4b4-42be-ab72-d4624c110716)
+- [14 - Examen final](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/959f06cf-fd66-4f29-b7ee-665bfedfea0d)
+- [15 - Conclusion](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/f16a4e42-c16e-466b-ad16-f42b5360f510)
+
+---
+
 ## SCU 202 - [Améliorer sa sécurité numérique personnelle](https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1)
 
 Mettre en place un environnement numérique personnel sécurisé, stable et efficace.
