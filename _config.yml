@@ -18,6 +18,10 @@ plugins:
 exclude:
   - post/
 
+include:
+  - ".well-known"
+
+
 # Métadonnées SEO
 logo: "/assets/img/social-card.png"
 social:
