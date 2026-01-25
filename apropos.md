@@ -36,4 +36,4 @@ Je suis **Loïc Morel**, rédacteur spécialisé sur Bitcoin et son environnemen
 
 ## Me soutenir :
 
-- LN : pandul@sats.rs
+- LN : sats@pandul.fr
