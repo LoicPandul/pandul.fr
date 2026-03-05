@@ -16,7 +16,8 @@ Je suis **Loïc Morel**, rédacteur spécialisé sur Bitcoin et son environnemen
   <img src="{{ '/assets/img/profile.png' | relative_url }}"
        alt="Portrait de Loïc Morel"
        class="avatar avatar--center"
-       width="220" height="220" loading="lazy" decoding="async">
+       style="border-radius: 12px;"
+       width="180" height="180" loading="lazy" decoding="async">
 </p>
 
 
