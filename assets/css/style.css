@@ -915,3 +915,144 @@ img {
 @media (max-width: 719px) {
   .lightbox-overlay img { max-width: 95vw; }
 }
+
+/* ============================================
+   Dictionnaire — Landing + Search + Navigation
+   ============================================ */
+
+/* Stats hero */
+.dict-hero { text-align: center; margin-bottom: var(--space-lg); }
+.dict-hero h1 { margin-top: 0; }
+.dict-stats { font-family: var(--font-body); font-size: clamp(16px, 1.05vw + 14px, 18px); color: var(--muted); }
+.dict-stats-number { font-family: var(--font-heading); font-weight: 700; font-size: clamp(20px, 3vw, 28px); color: var(--fg); }
+
+/* Barre de recherche */
+.dict-search {
+  position: relative; margin-bottom: var(--space-lg);
+}
+.dict-search--landing { max-width: 100%; }
+.dict-search-inner { position: relative; max-width: var(--prose); }
+.dict-search-icon {
+  position: absolute; left: 12px; top: 50%;
+  transform: translateY(-50%); color: var(--muted);
+  pointer-events: none; z-index: 1;
+}
+.dict-search-input {
+  width: 100%; height: 48px;
+  padding: 0 16px 0 44px;
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.05vw + 14px, 18px);
+  background: var(--surface); color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  outline: none; transition: border-color 0.15s ease, background 0.15s ease;
+}
+.dict-search-input:focus {
+  border: 2px solid var(--accent);
+  background: var(--bg); padding-left: 43px; /* compense la bordure 2px */
+}
+.dict-search-input::placeholder { color: var(--muted); }
+.dict-search-results {
+  display: none; position: absolute; top: 100%;
+  left: 0; right: 0; z-index: 100;
+  margin-top: 4px; padding: 0; list-style: none;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  max-height: 360px; overflow-y: auto;
+}
+.dict-search-result {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 16px; border-bottom: 1px solid var(--line);
+  cursor: pointer; transition: background 0.15s ease;
+}
+.dict-search-result:last-child { border-bottom: none; }
+.dict-search-result:hover, .dict-search-result.active { background: var(--surface); }
+.dict-search-result-title {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.05vw + 14px, 18px);
+  color: var(--fg);
+}
+.dict-search-result-cat {
+  font-size: 12px; color: var(--muted);
+  font-family: var(--font-body);
+}
+.dict-search-empty {
+  padding: 16px; text-align: center;
+  font-size: 14px; color: var(--muted);
+  font-family: var(--font-body);
+}
+
+/* Barre A-Z */
+.az-bar {
+  display: flex; flex-wrap: wrap; gap: 4px;
+  justify-content: center; margin-bottom: var(--space-xl);
+}
+.az-letter {
+  min-width: 36px; height: 36px;
+  border-radius: var(--radius);
+  font-size: 12px; font-weight: 700;
+  font-family: var(--font-body);
+  text-transform: uppercase; text-align: center;
+  line-height: 36px; text-decoration: none;
+  background: var(--surface); color: var(--fg);
+  border: none; display: inline-block;
+  transition: background 0.15s ease;
+}
+.az-letter:hover { background: var(--line); color: var(--fg); }
+.az-letter--active { background: var(--accent); color: #FFFFFF; }
+.az-letter--active:hover { background: var(--accent-hover); color: #FFFFFF; }
+.az-letter--disabled { opacity: 0.35; pointer-events: none; }
+@media (max-width: 719px) {
+  .az-letter { min-width: 32px; height: 32px; line-height: 32px; }
+}
+
+/* Grille de categories */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; margin-bottom: var(--space-2xl);
+}
+.category-card {
+  display: flex; flex-direction: column;
+  padding: 16px; border: 1px solid var(--line);
+  border-radius: var(--radius); background: var(--bg);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.category-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+.category-card-name {
+  font-family: var(--font-heading); font-weight: 700;
+  font-size: clamp(16px, 1.05vw + 14px, 18px);
+  color: var(--fg); letter-spacing: -0.01em;
+}
+.category-card-count {
+  font-family: var(--font-body); font-weight: 400;
+  font-size: 14px; color: var(--muted);
+  margin-top: 4px;
+}
+@media (max-width: 719px) {
+  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .category-card { padding: 12px; }
+}
+
+/* Pages partagees dictionnaire (categories + lettres) */
+.dict-page { max-width: var(--wrap); }
+.dict-count { font-family: var(--font-body); font-size: 14px; color: var(--muted); margin-bottom: var(--space-lg); }
+.dict-empty { font-family: var(--font-body); font-size: 14px; color: var(--muted); }
+.dict-list { margin-bottom: var(--space-2xl); }
+.dict-list-item { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--fg); font-family: var(--font-body); font-size: clamp(16px, 1.05vw + 14px, 18px); transition: color 0.15s ease; }
+.dict-list-item:hover { color: var(--accent); }
+.dict-list-item--with-badge { display: flex; justify-content: space-between; align-items: center; }
+.dict-letter-heading { font-family: var(--font-heading); font-weight: 700; font-size: clamp(20px, 3vw, 22px); margin-top: var(--space-xl); margin-bottom: var(--space-sm); padding-top: var(--space-md); border-top: 1px solid var(--line); }
+.dict-letter-heading:first-child { margin-top: 0; border-top: none; padding-top: 0; }
+
+/* Recherche mobile — dropdown pleine largeur */
+@media (max-width: 719px) {
+  .dict-search-results { left: -8px; right: -8px; }
+}
