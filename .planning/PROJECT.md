@@ -52,7 +52,8 @@ Mettre en valeur la richesse du catalogue de contenus educatifs Bitcoin de Loic 
 - Lien Bitcoin Bazar : placeholder https://bitcoinbazar.fr/ en attendant le lien definitif
 - Branche actuelle : refonte-ui
 - Stack : Jekyll, GitHub Pages, CSS 57%, HTML 31%, JS 12%
-- Palette : noir pur (#000), blanc pur (#FFF), accent orange #D44A1A (avec parcimonie)
+- Palette : noir pur (#000), blanc pur (#FFF), accent orange #D04819 (avec parcimonie)
+- Phase 1 complete : design system Outfit + Inter, hamburger mobile, book promo full-width
 
 ## Constraints
 
