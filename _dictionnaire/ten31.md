@@ -1,0 +1,10 @@
+---
+title: "TEN31"
+slug: "ten31"
+permalink: /dictionnaire/ten31/
+category: "ORGANISATION"
+letter: "T"
+layout: definition
+---
+
+Fonds de capital-risque spécialisé dans l'investissement dans les entreprises de l'écosystème Bitcoin. Fondé en 2020, Ten31 tire son nom du 31 octobre (10/31 en format américain), date de publication du White Paper par Satoshi Nakamoto en 2008.

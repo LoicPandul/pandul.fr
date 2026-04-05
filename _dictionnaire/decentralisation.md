@@ -1,0 +1,20 @@
+---
+title: "DÉCENTRALISATION"
+slug: "decentralisation"
+permalink: /dictionnaire/decentralisation/
+category: "RÉSEAU"
+letter: "D"
+layout: definition
+english_term: "DECENTRALIZATION"
+cross_references:
+  - title: "NOEUD"
+    slug: "noeud"
+  - title: "CONSENSUS"
+    slug: "consensus"
+  - title: "MINAGE"
+    slug: "minage"
+---
+
+Principe d'organisation d'un système dans lequel aucune entité unique ne détient le contrôle ni l'autorité sur l'ensemble du fonctionnement. Un système décentralisé repose sur un ensemble de participants indépendants qui collaborent selon des règles communes, sans point de défaillance unique ni besoin de confiance envers un tiers central.
+
+Dans Bitcoin, la décentralisation se manifeste à plusieurs niveaux. Le réseau est composé de milliers de nœuds répartis à travers le monde, chacun vérifiant indépendamment les transactions et les blocs selon les règles du protocole. Le minage est assuré par de nombreux acteurs en compétition, et aucun mineur ne peut à lui seul imposer des modifications. Le développement du logiciel est ouvert et collaboratif, sans autorité décisionnaire unique.

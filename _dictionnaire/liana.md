@@ -1,0 +1,15 @@
+---
+title: "LIANA"
+slug: "liana"
+permalink: /dictionnaire/liana/
+category: "PORTEFEUILLE"
+letter: "L"
+layout: definition
+cross_references:
+  - title: "MINISCRIPT"
+    slug: "miniscript"
+  - title: "TIMELOCK"
+    slug: "timelock"
+---
+
+Logiciel de gestion de portefeuille Bitcoin *open source* développé par la société Wizardsardine (fondée par Kevin Loaec et Antoine Poinsot). Liana se distingue par l'utilisation de Miniscript pour permettre des configurations de sécurité avancées et très personnalisables, notamment des mécanismes de récupération basés sur des *timelocks*. Par exemple, un utilisateur peut définir une clé principale pour les dépenses courantes, puis une ou plusieurs clés de récupération qui ne deviennent actives qu'après une période d'inactivité définie. Ce modèle permet de mettre en place des plans d'héritage ou des mécanismes de sauvegarde automatiques sans tiers de confiance. Liana est compatible avec les *hardware wallets* qui prennent en charge Miniscript.

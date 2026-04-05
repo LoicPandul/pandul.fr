@@ -1,0 +1,17 @@
+---
+title: "SAMOURAI WALLET"
+slug: "samourai-wallet"
+permalink: /dictionnaire/samourai-wallet/
+category: "CONFIDENTIALITÉ"
+letter: "S"
+layout: definition
+cross_references:
+  - title: "COINJOIN"
+    slug: "coinjoin"
+  - title: "WHIRLPOOL"
+    slug: "whirlpool"
+---
+
+Logiciel de portefeuille Bitcoin pour appareils mobiles Android axé sur la confidentialité. Il offre des fonctionnalités avancées telles que les coinjoins Whirlpool, Stonewall, StonewallX2, Ricochet ou encore Stowaway (payjoin). Samourai implémente également de nombreuses protections pour aider l'utilisateur à protéger sa vie privée face à l'analyse de chaîne.
+
+*Le 24 avril 2024, les deux cofondateurs de Samourai Wallet ont été injustement arrêtés pour avoir simplement écrit du code. Je tiens à leur exprimer mon soutien indéfectible. Leur engagement pour la protection de la vie privée et la liberté incarne les valeurs fondamentales de Bitcoin. Ces développeurs n'ont commis aucun crime ; ils ont seulement œuvré pour offrir des outils permettant à chacun de faire valoir ses droits naturels. Afin de les soutenir dans cette épreuve, j'invite chacun à signer la pétition en ligne : https://billandkeonne.org/.*

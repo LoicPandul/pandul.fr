@@ -1,0 +1,13 @@
+---
+title: "COINSHUFFLE"
+slug: "coinshuffle"
+permalink: /dictionnaire/coinshuffle/
+category: "CONFIDENTIALITÉ"
+letter: "C"
+layout: definition
+cross_references:
+  - title: "COINJOIN"
+    slug: "coinjoin"
+---
+
+Protocole de mixage de bitcoins proposé en 2014 par Tim Ruffing, Pedro Moreno-Sanchez et Aniket Kate, inspiré de l'idée formalisée par Gregory Maxwell. CoinShuffle permet de couper l'historique de pièces sans nécessiter de tiers de confiance. Le protocole assure qu'aucun participant ne peut relier les entrées aux sorties des autres participants. Ce concept n'a jamais été largement adopté, les techniques de confidentialité telles que le *Chaumian coinjoin* lui étant préférées.

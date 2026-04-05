@@ -1,0 +1,15 @@
+---
+title: "FOUNDRY USA"
+slug: "foundry-usa"
+permalink: /dictionnaire/foundry-usa/
+category: "MINAGE"
+letter: "F"
+layout: definition
+cross_references:
+  - title: "MINING POOL"
+    slug: "mining-pool"
+  - title: "HASHRATE"
+    slug: "hashrate"
+---
+
+Pool de minage de Bitcoin basée aux États-Unis, exploitée par Foundry Digital, une filiale de Digital Currency Group (DCG). Lancée en 2020, Foundry USA Pool est devenue l'une des plus grandes pools de minage au monde en termes de hashrate, occupant régulièrement la première place. Elle fournit des services de minage aux opérateurs institutionnels et aux grandes fermes de minage nord-américaines. Foundry propose également des services de financement, d'achat de matériel et de conseil pour les mineurs professionnels. La prédominance de Foundry USA dans la distribution du hashrate de Bitcoin soulève des questions sur la centralisation géographique du minage, la majorité de sa puissance de calcul étant concentrée aux États-Unis.

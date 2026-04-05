@@ -1,0 +1,15 @@
+---
+title: "LOCK"
+slug: "lock"
+permalink: /dictionnaire/lock/
+category: "PROTOCOLE"
+letter: "L"
+layout: definition
+cross_references:
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+  - title: "BITCOIND"
+    slug: "bitcoind"
+---
+
+Fichier utilisé dans Bitcoin Core pour le verrouillage du répertoire de données. Il est créé lorsque bitcoind ou Bitcoin-qt démarre pour éviter que plusieurs instances du logiciel accèdent simultanément au même répertoire de données. Le but est de prévenir les conflits et les corruptions de données. Le verrouillage repose sur un mécanisme de verrou du système d'exploitation appliqué au fichier `.lock`. Le fichier lui-même reste présent sur le disque en permanence, mais le verrou est automatiquement libéré par le système d'exploitation lorsque le processus se termine, y compris en cas d'arrêt inattendu.

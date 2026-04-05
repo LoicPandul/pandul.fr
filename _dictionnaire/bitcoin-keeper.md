@@ -1,0 +1,15 @@
+---
+title: "BITCOIN KEEPER"
+slug: "bitcoin-keeper"
+permalink: /dictionnaire/bitcoin-keeper/
+category: "PORTEFEUILLE"
+letter: "B"
+layout: definition
+cross_references:
+  - title: "MULTISIG"
+    slug: "multisig"
+  - title: "HARDWARE WALLET"
+    slug: "hardware-wallet"
+---
+
+Portefeuille Bitcoin open source développé par BitHyve, spécialisé dans le multisig. L'application permet de créer des coffres (*vaults*) multisignatures en combinant différents portefeuilles matériels et clés logicielles. Bitcoin Keeper prend en charge le BIP-0085 pour la dérivation de sous-portefeuilles, l'achat de bitcoins directement en stockage à froid, et le transfert automatique vers les coffres multisig. Il est disponible sur mobile (iOS, Android) et sur ordinateur.

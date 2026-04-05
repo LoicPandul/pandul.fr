@@ -1,0 +1,18 @@
+---
+title: "FPGA"
+slug: "fpga"
+permalink: /dictionnaire/fpga/
+category: "MINAGE"
+letter: "F"
+layout: definition
+french_term: "RÉSEAU DE PORTES PROGRAMMABLES"
+cross_references:
+  - title: "ASIC"
+    slug: "asic"
+  - title: "MINAGE"
+    slug: "minage"
+---
+
+Sigle de « *Field-Programmable Gate Array* ». Circuit intégré qui peut être reconfiguré après sa fabrication pour exécuter des opérations spécifiques. Contrairement aux processeurs classiques (CPU), conçus pour être polyvalents, les FPGA permettent de programmer directement la logique matérielle pour l'adapter à une tâche précise, ce qui les rend plus efficaces en termes de consommation énergétique et de performances pour cette tâche.
+
+Dans l'histoire du minage de Bitcoin, les FPGA ont représenté une étape intermédiaire entre le minage par GPU et l'arrivée des ASIC. À partir de 2011, des mineurs ont commencé à utiliser des FPGA pour calculer des hachages `SHA256`, car ils offraient un meilleur rapport performance/consommation électrique que les GPU, tout en restant reprogrammables. L'adoption des FPGA a toutefois été relativement courte, car les ASIC, des circuits entièrement dédiés au hachage `SHA256`, les ont rapidement surpassés en termes de puissance de calcul et d'efficacité énergétique.

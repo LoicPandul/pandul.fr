@@ -1,0 +1,15 @@
+---
+title: "SMT - SPARSE MERKLE TREE"
+slug: "smt-sparse-merkle-tree"
+permalink: /dictionnaire/smt-sparse-merkle-tree/
+category: "INFORMATIQUE"
+letter: "S"
+layout: definition
+cross_references:
+  - title: "ARBRE DE MERKLE"
+    slug: "arbre-de-merkle"
+  - title: "TAPROOT ASSETS PROTOCOL"
+    slug: "taproot-assets-protocol"
+---
+
+Structure de données qui étend les propriétés d'un arbre de Merkle classique en permettant de produire des preuves de non-inclusion en plus des preuves d'inclusion. Dans un SMT, chaque élément est placé à une position dans l'arbre déterminée par le hash SHA-256 de ses données : chaque bit du hash indique un parcours gauche ou droite dans l'arbre binaire. La majorité des feuilles restant vides, l'arbre est dit « creux » (*sparse*), ce qui permet une génération et une mise à jour efficaces grâce à l'élagage des branches vides. Les SMT sont utilisés dans le protocole Taproot Assets pour gérer les transferts d'actifs et prouver qu'un actif donné n'a pas été dépensé deux fois.

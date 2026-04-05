@@ -1,0 +1,15 @@
+---
+title: "BOSMINER"
+slug: "bosminer"
+permalink: /dictionnaire/bosminer/
+category: "MINAGE"
+letter: "B"
+layout: definition
+cross_references:
+  - title: "CGMINER"
+    slug: "cgminer"
+  - title: "STRATUM V2"
+    slug: "stratum-v2"
+---
+
+Logiciel de minage *open-source* développé en Rust par Braiins en tant qu'alternative plus moderne à CGMiner. BOSminer est spécifiquement conçu pour les ASICs. Intégré à l'écosystème Braiins OS, il permet une gestion avancée des ASICs, avec des fonctionnalités comme l'overclocking, une surveillance détaillée des performances et le support de Stratum V2.

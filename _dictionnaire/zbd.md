@@ -1,0 +1,15 @@
+---
+title: "ZBD"
+slug: "zbd"
+permalink: /dictionnaire/zbd/
+category: "ORGANISATION"
+letter: "Z"
+layout: definition
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "BLOCKSTREAM"
+    slug: "blockstream"
+---
+
+Entreprise fondée en 2019 spécialisée dans l'intégration de paiements Lightning dans l'industrie du jeu vidéo. Anciennement connue sous le nom de Zebedee, elle fournit des API et des SDK qui permettent aux développeurs de jeux d'intégrer des transactions en sats et qui offrent aux joueurs la possibilité de gagner et de dépenser de vrais bitcoins dans des univers virtuels. ZBD propose également une application mobile qui fait office de portefeuille Lightning dédié au gaming, ainsi qu'une infrastructure de paiements en streaming.

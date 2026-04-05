@@ -1,0 +1,20 @@
+---
+title: "ANTI-EXFIL SIGNING"
+slug: "anti-exfil-signing"
+permalink: /dictionnaire/anti-exfil-signing/
+category: "CRYPTOGRAPHIE"
+letter: "A"
+layout: definition
+french_term: "SIGNATURE ANTI-EXFILTRATION"
+cross_references:
+  - title: "ECDSA"
+    slug: "ecdsa"
+  - title: "MULTISIG"
+    slug: "multisig"
+---
+
+Protocole de signature qui empêche un hardware wallet compromis de faire fuiter la clé privée de l'utilisateur par le biais des signatures qu'il produit. Dans le schéma de signature ECDSA ou Schnorr, chaque signature nécessite un nonce aléatoire. Un appareil malveillant peut manipuler ce nonce pour y encoder discrètement des informations sur la clé privée, une attaque dite « par canal caché » (*covert channel*). L'attaque Dark Skippy a notamment montré qu'il est possible d'extraire l'intégralité d'une graine HD en seulement deux signatures.
+
+Le protocole anti-exfiltration (aussi appelé « anti-kleptographie ») repose sur un échange de contributions au nonce entre l'hôte (le logiciel de portefeuille) et le hardware wallet. L'hôte fournit d'abord une valeur aléatoire au signataire matériel, qui doit l'intégrer dans le calcul de son nonce. Le nonce final résulte donc de la combinaison des deux contributions, ce qui empêche l'une ou l'autre partie de le contrôler seule. Grâce à un engagement cryptographique, l'hôte peut vérifier que sa contribution a bien été prise en compte dans la signature produite.
+
+Ce mécanisme est implémenté dans des hardware wallets comme le BitBox02 et le Jade de Blockstream. Il constitue une défense essentielle contre les attaques de la chaîne d'approvisionnement, où le firmware d'un appareil pourrait avoir été modifié avant sa livraison.

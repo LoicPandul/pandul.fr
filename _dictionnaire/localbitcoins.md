@@ -1,0 +1,17 @@
+---
+title: "LOCALBITCOINS"
+slug: "localbitcoins"
+permalink: /dictionnaire/localbitcoins/
+category: "ORGANISATION"
+letter: "L"
+layout: definition
+cross_references:
+  - title: "MTGOX"
+    slug: "mtgox"
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+---
+
+Plateforme d'échange de bitcoins en pair à pair, fondée en juin 2012 par Jeremias Kangas en Finlande. Le service mettait en relation des acheteurs et des vendeurs de bitcoins dans le monde entier, en facilitant les transactions P2P. Les utilisateurs publiaient des annonces précisant les montants, les prix et les moyens de paiement acceptés (virements bancaires, espèces, services de paiement en ligne...). Un système de dépôt fiduciaire (*escrow*) protégeait les deux parties pendant la transaction. Ce modèle permettait d'échanger des bitcoins contre de la monnaie locale dans pratiquement tous les pays, y compris ceux dépourvus de plateformes d'échange conventionnelles.
+
+LocalBitcoins a fermé ses portes en février 2023, en raison des conditions de marché défavorables et de la réglementation croissante.

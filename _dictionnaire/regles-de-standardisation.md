@@ -1,0 +1,29 @@
+---
+title: "RÈGLES DE STANDARDISATION"
+slug: "regles-de-standardisation"
+permalink: /dictionnaire/regles-de-standardisation/
+category: "PROTOCOLE"
+letter: "R"
+layout: definition
+english_term: "STANDARDNESS RULES"
+cross_references:
+  - title: "RÈGLES DE CONSENSUS"
+    slug: "regles-de-consensus"
+  - title: "MEMPOOL"
+    slug: "mempool"
+  - title: "POLITIQUE DE MEMPOOL"
+    slug: "politique-de-mempool"
+---
+
+Sous-ensemble de la politique de mempool, constitué des règles adoptées individuellement par chaque nœud Bitcoin, en plus des règles de consensus, pour définir le format accepté des transactions non confirmées prises individuellement. Plus précisément, les règles de standardisation dictent la structure d'une transaction évaluée de manière isolée, indépendamment de son contexte dans la mempool. Ces règles sont configurées et exécutées en local par chaque nœud et peuvent varier d'un nœud à l'autre. Elles s'appliquent exclusivement sur les transactions non confirmées. Ainsi, un nœud n'acceptera une transaction qu'il jugerait non standard que si celle-ci est déjà incluse dans un bloc valide.
+
+Les règles de standardisation existent principalement pour trois raisons :
+* Protection contre les attaques DoS : certaines transactions sont plus coûteuses que d'autres à vérifier pour le nœud, et l'asymétrie entre le faible coût d'envoi d'une transaction non confirmée et le coût élevé de son traitement crée un vecteur d'attaque par déni de service ;
+* Mécanisme de préparation aux soft forks : rendre non standard un type de transaction avant de le rendre invalide par consensus via un soft fork garantit qu'un mineur non mis à jour n'inclura pas une transaction nouvellement invalide dans un bloc, ce qui rend les soft forks plus sûrs à déployer ;
+* Incitation comportementale : les règles de standardisation peuvent orienter les utilisateurs vers des pratiques moins nuisibles pour le réseau, ou décourager légèrement certaines activités, comme le stockage excessif de données arbitraires dans la blockchain.
+
+Notons que la majorité des nœuds laissent les configurations par défaut telles que préétablies dans Bitcoin Core, engendrant de fait une homogénéité des règles de standardisation à travers le réseau. Une transaction qui, bien que conforme aux règles de consensus, ne respecte pas ces règles de standardisation, aura des difficultés à être diffusée sur le réseau. Elle pourra toutefois être incluse dans un bloc valide si jamais elle atteint un mineur. Dans la pratique, ces transactions, qualifiées de « non standard », sont souvent transmises directement à un mineur par des voies externes au réseau pair-à-pair de Bitcoin. C'est souvent le seul moyen pour confirmer ce type de transaction.
+
+Par exemple, une transaction qui n'alloue aucuns frais est à la fois valide selon les règles de consensus et non standard, car la politique par défaut de Bitcoin Core pour le paramètre `minRelayTxFee` est de `0.000001` (en BTC/kvB).
+
+*Les règles de standardisation constituent un sous-ensemble de la politique de mempool, elle-même sous-ensemble de la politique de relais des transactions, qui fait partie de la politique de relais au sens large. Il ne faut donc pas confondre les règles de standardisation avec la politique de mempool, qui est un concept plus englobant.*

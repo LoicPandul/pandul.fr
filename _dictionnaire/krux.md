@@ -1,0 +1,15 @@
+---
+title: "KRUX"
+slug: "krux"
+permalink: /dictionnaire/krux/
+category: "OUTIL"
+letter: "K"
+layout: definition
+cross_references:
+  - title: "HARDWARE WALLET"
+    slug: "hardware-wallet"
+  - title: "BIP-0039"
+    slug: "bip-0039"
+---
+
+Firmware open source qui transforme des appareils à microcontrôleur Kendryte K210, comme le Maix Amigo ou le M5StickV, en dispositifs de signature de transactions Bitcoin. Krux permet de générer et de gérer des clés privées, de signer des transactions hors ligne et d'interagir avec des portefeuilles coordinateurs (Sparrow, Specter...) via des QR codes ou des cartes microSD. Le projet s'adresse aux utilisateurs souhaitant construire un *hardware wallet* à faible coût à partir de matériel générique du commerce, tout en conservant un contrôle total sur le code source.

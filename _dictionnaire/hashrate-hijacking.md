@@ -1,0 +1,18 @@
+---
+title: "HASHRATE HIJACKING"
+slug: "hashrate-hijacking"
+permalink: /dictionnaire/hashrate-hijacking/
+category: "ATTAQUE"
+letter: "H"
+layout: definition
+french_term: "DÉTOURNEMENT DE HASHRATE"
+cross_references:
+  - title: "HASHRATE"
+    slug: "hashrate"
+  - title: "MINING POOL"
+    slug: "mining-pool"
+---
+
+Attaque qui consiste à détourner la puissance de calcul d'un mineur vers une destination contrôlée par l'attaquant, sans que le mineur en soit conscient. Cette attaque est possible lorsque la communication entre le mineur et le serveur de la pool de minage n'est pas chiffrée. Un attaquant positionné entre les deux (attaque de l'homme du milieu) peut intercepter les données échangées et remplacer l'adresse de la pool légitime par la sienne, redirigeant ainsi le hashrate du mineur à son profit.
+
+Le hashrate hijacking est facilité par le fait que le protocole Stratum V1 transmet les données en clair, sans authentification ni chiffrement. Cette vulnérabilité a motivé le développement de Stratum V2, qui intègre un chiffrement AEAD pour sécuriser les communications entre les mineurs et les pools, rendant ce type d'attaque beaucoup plus difficile.

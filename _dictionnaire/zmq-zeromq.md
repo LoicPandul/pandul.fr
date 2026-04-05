@@ -1,0 +1,15 @@
+---
+title: "ZMQ - ZEROMQ"
+slug: "zmq-zeromq"
+permalink: /dictionnaire/zmq-zeromq/
+category: "INFORMATIQUE"
+letter: "Z"
+layout: definition
+cross_references:
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+  - title: "LND"
+    slug: "lnd"
+---
+
+Bibliothèque de messagerie asynchrone utilisée par Bitcoin Core pour notifier en temps réel d'autres logiciels de l'arrivée de nouveaux blocs et de nouvelles transactions. ZMQ fonctionne selon un modèle publication-abonnement (*pub/sub*) : Bitcoin Core publie des événements sur un socket, et les logiciels abonnés (comme LND) les reçoivent instantanément sans avoir à interroger périodiquement le nœud. Cette interface est essentielle pour les implémentations Lightning qui doivent réagir rapidement aux confirmations de transactions, notamment pour la détection des fermetures de canaux et la publication des transactions de justice.

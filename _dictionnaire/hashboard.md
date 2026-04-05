@@ -1,0 +1,13 @@
+---
+title: "HASHBOARD"
+slug: "hashboard"
+permalink: /dictionnaire/hashboard/
+category: "MINAGE"
+letter: "H"
+layout: definition
+cross_references:
+  - title: "ASIC"
+    slug: "asic"
+---
+
+Carte électronique qui constitue le composant principal d'un mineur ASIC. Chaque hashboard contient les puces de hachage (les ASIC à proprement parler) qui effectuent les calculs `SHA256` nécessaires au minage de Bitcoin. Un mineur ASIC typique, comme un Antminer S9 ou S19, intègre généralement trois hashboards reliés à une carte de contrôle.

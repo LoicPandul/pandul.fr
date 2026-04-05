@@ -1,0 +1,18 @@
+---
+title: "FÉDÉRATION"
+slug: "federation"
+permalink: /dictionnaire/federation/
+category: "SIDECHAIN"
+letter: "F"
+layout: definition
+english_term: "FEDERATION"
+cross_references:
+  - title: "LIQUID NETWORK"
+    slug: "liquid-network"
+  - title: "DYNAFED - DYNAMIC FEDERATIONS"
+    slug: "dynamic-federations"
+---
+
+Groupe de participants qui collaborent pour administrer un réseau ou un système, en établissant un compromis entre centralisation et décentralisation. Dans une fédération, la responsabilité est répartie entre plusieurs entités indépendantes plutôt que concentrée dans une seule, ce qui élimine les points de défaillance uniques et renforce la résilience du système.
+
+Dans l'écosystème Bitcoin, le modèle fédéré est utilisé notamment par le réseau Liquid, où un ensemble de fonctionnaires signent collectivement les blocs et gèrent les opérations d'ancrage (*peg-in* et *peg-out*) entre la chaîne principale et la sidechain. Le protocole Fedimint repose également sur un modèle fédéré pour la gestion de *Chaumian mints*. Le concept de *Strong Federations*, formalisé par Blockstream, décrit un système dans lequel les fonctionnaires opèrent sous des règles de consensus strictes, sans nécessiter de confiance individuelle envers chaque membre.

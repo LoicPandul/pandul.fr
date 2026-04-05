@@ -1,0 +1,17 @@
+---
+title: "BBQR"
+slug: "bbqr"
+permalink: /dictionnaire/bbqr/
+category: "INFORMATIQUE"
+letter: "B"
+layout: definition
+cross_references:
+  - title: "PSBT"
+    slug: "psbt"
+  - title: "SEEDQR"
+    slug: "seedqr"
+---
+
+Sigle de « Better Bitcoin QR ». Protocole qui permet d'encoder des fichiers trop volumineux pour un seul QR code en une série de QR codes successifs (QR animé). Les types de données cibles sont les PSBT (BIP-0174) et les transactions signées, mais le format prend aussi en charge les données CBOR, JSON et texte.
+
+Le protocole est adopté par plusieurs logiciels et *signing devices*, notamment COLDCARD Q, Sparrow Wallet et Nunchuk. La spécification est publiée par Coinkite en tant que standard ouvert.

@@ -1,0 +1,15 @@
+---
+title: "UNIVERSE"
+slug: "universe"
+permalink: /dictionnaire/universe/
+category: "COUCHE SUPÉRIEURE"
+letter: "U"
+layout: definition
+cross_references:
+  - title: "TAPROOT ASSETS PROTOCOL"
+    slug: "taproot-assets-protocol"
+  - title: "UNIQUE ASSETS"
+    slug: "unique-assets"
+---
+
+Dépôt de données servant de registre pour les actifs Taproot Assets. Un *universe* stocke et distribue les métadonnées, les preuves et l'historique de provenance des actifs émis sur Bitcoin via le protocole Taproot Assets. Les détenteurs et les acquéreurs potentiels d'actifs consultent un *universe* pour vérifier l'authenticité et la validité des actifs avant de les accepter. Chaque émetteur d'actifs peut maintenir son propre *universe*, et ces dépôts peuvent être synchronisés entre eux pour assurer une diffusion large des informations.

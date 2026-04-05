@@ -1,0 +1,13 @@
+---
+title: "SMALL BLOCKERS"
+slug: "small-blockers"
+permalink: /dictionnaire/small-blockers/
+category: "HISTOIRE"
+letter: "S"
+layout: definition
+cross_references:
+  - title: "BLOCKSIZE WAR"
+    slug: "blocksize-war"
+---
+
+Nom donné aux partisans du maintien de la taille des blocs de Bitcoin à un niveau bas durant la Blocksize War entre 2015 et 2017, afin de préserver la décentralisation et la sécurité du système. Ils soutiennent des solutions comme SegWit, pensent que le passage à l'échelle doit se faire sur des couches supérieures comme le Lightning Network, et soutiennent la mise en place des évolutions via des soft forks plutôt que des hard forks.

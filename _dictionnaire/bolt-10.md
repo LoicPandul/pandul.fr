@@ -1,0 +1,13 @@
+---
+title: "BOLT-10"
+slug: "bolt-10"
+permalink: /dictionnaire/bolt-10/
+category: "LIGHTNING NETWORK"
+letter: "B"
+layout: definition
+cross_references:
+  - title: "BOLT"
+    slug: "bolt"
+---
+
+Spécification qui définit un mécanisme de découverte de nœuds Lightning basé sur le DNS. Elle permet à un nœud qui démarre sans contacts connus de trouver des pairs initiaux (*bootstrap*) en interrogeant des serveurs DNS autoritaires (*seed nodes*). Les requêtes supportent des filtres par type d'adresse (IPv4, IPv6), par identifiant de nœud spécifique et par nombre de résultats souhaités. Les serveurs DNS renvoient un échantillon aléatoire de nœuds sains, avec les adresses IP via des enregistrements `A`/`AAAA` (port standard `9735`) et des enregistrements `SRV` pour les ports non standard.

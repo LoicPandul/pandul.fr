@@ -1,0 +1,15 @@
+---
+title: "LEVELDB"
+slug: "leveldb"
+permalink: /dictionnaire/leveldb/
+category: "PROTOCOLE"
+letter: "L"
+layout: definition
+cross_references:
+  - title: "UTXO SET"
+    slug: "utxo-set"
+  - title: "HARD FORK"
+    slug: "hard-fork"
+---
+
+Bibliothèque de stockage de clés-valeurs légère, rapide et open-source, conçue par Google. On l'utilise sur Bitcoin pour stocker l'UTXO set et l'index des blocs. Ce système de base de données a été introduit en 2012 dans le cadre de la Pull Request « *Ultraprune* » visant à remplacer BerkeleyDB. Ce changement a eu des répercussions significatives, notamment un hard fork non intentionnel avec une réorganisation majeure de 24 blocs le 12 mars 2013. Cet incident a été détaillé dans le BIP-0050. Par la suite, la règle temporaire de limitation des *locks* introduite dans la version 0.8.1 a expiré le 15 mai 2013, entraînant un hard fork planifié.

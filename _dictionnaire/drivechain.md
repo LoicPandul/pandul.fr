@@ -1,0 +1,15 @@
+---
+title: "DRIVECHAIN"
+slug: "drivechain"
+permalink: /dictionnaire/drivechain/
+category: "SIDECHAIN"
+letter: "D"
+layout: definition
+cross_references:
+  - title: "SIDECHAIN"
+    slug: "sidechain"
+  - title: "MINAGE FUSIONNÉ"
+    slug: "minage-fusionne"
+---
+
+Forme spécifique de sidechain où les mineurs de la blockchain principale (Bitcoin) ont un rôle direct dans la gouvernance de l'ancrage bilatéral et éventuellement dans le mécanisme de consensus de la sidechain. Ce protocole a été inventé par Paul Sztorc et pourrait être mis en place grâce aux controversés BIP-0300, qui permettrait le *two-way peg* auprès des mineurs, et BIP-0301, qui permettrait d'utiliser le minage fusionné aveugle (*Blind Merged Mining*).

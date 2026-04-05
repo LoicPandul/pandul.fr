@@ -1,0 +1,15 @@
+---
+title: "ASHIGARU"
+slug: "ashigaru"
+permalink: /dictionnaire/ashigaru/
+category: "PORTEFEUILLE"
+letter: "A"
+layout: definition
+cross_references:
+  - title: "WHIRLPOOL"
+    slug: "whirlpool"
+  - title: "COINJOIN"
+    slug: "coinjoin"
+---
+
+Portefeuille Bitcoin mobile orienté vers la confidentialité, issu d'un fork du code de Samourai Wallet après la saisie des serveurs par les autorités américaines en avril 2024. Ashigaru reprend les fonctionnalités de protection de la vie privée de Samourai, notamment les coinjoins Whirlpool, les transactions Stonewall, les transactions collaboratives (Stowaway, StonewallX2), les ricochets et le contrôle avancé des UTXO. Le projet est maintenu par une communauté open source qui poursuit le développement de ces outils de confidentialité.

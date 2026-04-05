@@ -1,0 +1,19 @@
+---
+title: "AEZEED"
+slug: "aezeed"
+permalink: /dictionnaire/aezeed/
+category: "LIGHTNING NETWORK"
+letter: "A"
+layout: definition
+cross_references:
+  - title: "BIP-0039"
+    slug: "bip-0039"
+  - title: "LND"
+    slug: "lnd"
+---
+
+Format de phrase de récupération spécifique à LND, utilisé pour générer et sauvegarder les clés privées du portefeuille *onchain* associé à un nœud Lightning. Comme le BIP-0039, l'aezeed produit une phrase mnémonique de 24 mots, mais corrige deux limitations majeures de ce standard : l'absence de versionnage et l'absence de date de création du portefeuille.
+
+La base d'une phrase aezeed mesure 19 octets avec : 1 octet de version (permettant au portefeuille de savoir comment re-dériver les adresses), 2 octets d'horodatage exprimé en jours depuis le bloc genesis de Bitcoin (ce qui couvre les dates jusqu'en 2188), et 16 octets d'entropie servant à dériver la *seed*. L'horodatage indique au logiciel à partir de quand scanner la blockchain.
+
+Ces 19 octets sont chiffrés avec AEZ, un schéma AEAD résistant au réemploi de *nonce*, à l'aide d'une clé dérivée par Scrypt (`n=32768`, `r=8`, `p=1`) depuis une passphrase optionnelle (par défaut : la chaîne « aezeed »). Le texte chiffré de 33 octets est encodé en 24 mots via la même liste que le BIP-0039. Contrairement au BIP-0039, la phrase mnémonique est elle-même un texte chiffré et il est possible de changer la passphrase ou de mettre à jour les paramètres de chiffrement sans générer de nouvelles clés.

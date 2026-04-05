@@ -1,0 +1,21 @@
+---
+title: "TRIMMED HTLC"
+slug: "trimmed-htlc"
+permalink: /dictionnaire/trimmed-htlc/
+category: "LIGHTNING NETWORK"
+letter: "T"
+layout: definition
+cross_references:
+  - title: "HTLC"
+    slug: "htlc"
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "ANCHOR OUTPUTS"
+    slug: "anchor-outputs"
+---
+
+Sur le Lightning Network, un HTLC est dit « *trimmed* » lorsque sa valeur est trop faible pour justifier la création d'un output dédié dans la transaction d'engagement. Concrètement, si le montant du HTLC est inférieur au *dust limit* du canal, il serait antiéconomique de le résoudre *on-chain*. Au lieu de créer un output séparé, la valeur de ces HTLC est absorbée dans les frais de transaction de la transaction d'engagement.
+
+Ce mécanisme est indispensable pour permettre aux canaux Lightning de relayer des paiements très petits, potentiellement d'un seul satoshi, sans être limités par le seuil de poussière imposé par le protocole Bitcoin. Du point de vue opérationnel, les *trimmed HTLC* sont construits et résolus exactement comme les HTLC classiques : ils transitent normalement entre les nœuds et sont honorés ou annulés selon les mêmes règles. La différence n'apparaît que si la transaction d'engagement doit être publiée *on-chain*, auquel cas leur valeur est perdue dans les frais au lieu d'être récupérable.
+
+Cette conception pose toutefois des problèmes de sécurité. Un acteur malveillant peut créer de nombreux *trimmed HTLC* sans intention de les résoudre, ce qui force sa contrepartie à payer des frais de transaction plus élevés, ou détruit une partie de la valeur du canal. Plusieurs améliorations ont été proposées, comme la redirection de la valeur des *trimmed HTLC* vers des *anchor outputs* éphémères ou l'utilisation de paiements probabilistes.

@@ -1,0 +1,15 @@
+---
+title: "OVERT ASICBOOST"
+slug: "overt-asicboost"
+permalink: /dictionnaire/overt-asicboost/
+category: "MINAGE"
+letter: "O"
+layout: definition
+cross_references:
+  - title: "ASICBOOST"
+    slug: "asicboost"
+  - title: "COVERT ASICBOOST"
+    slug: "covert-asicboost"
+---
+
+Version ouverte et transparente d'AsicBoost. AsicBoost est une technique d'optimisation algorithmique utilisée dans le minage de Bitcoin. Les mineurs utilisant la version Overt manipulent le champ `nVersion` du bloc candidat et utilisent cette modification comme un nonce supplémentaire. Cette modification du champ `nVersion` permet de changer les données du premier chunk SHA256 de l'en-tête, et ainsi de réutiliser le résultat intermédiaire (*midstate*) de ce premier chunk pour toutes les itérations du `Nonce`, ce qui réduit les calculs nécessaires. Cette version est détectable publiquement et ne dissimule pas ses modifications au reste du réseau, à l'inverse de la version Covert d'AsicBoost.

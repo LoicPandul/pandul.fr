@@ -1,0 +1,15 @@
+---
+title: "NOISE"
+slug: "noise"
+permalink: /dictionnaire/noise/
+category: "RÉSEAU"
+letter: "N"
+layout: definition
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "TOR"
+    slug: "tor-the-onion-router"
+---
+
+Framework cryptographique utilisé pour établir et authentifier les connexions entre nœuds Lightning. Le protocole Noise, spécifié dans le BOLT-08, définit le *handshake* initial lors duquel deux nœuds échangent leurs clés et négocient une session chiffrée. Il repose sur un échange de clés Diffie-Hellman avec des clés éphémères et statiques, pour avoir des propriétés de confidentialité persistante (*forward secrecy*). Une fois le *handshake* terminé, toutes les communications entre les deux nœuds sont chiffrées et authentifiées. Noise remplace les protocoles TLS ou SSH habituellement utilisés dans les applications réseau, avec une spécification plus simple et mieux adaptée aux contraintes du Lightning Network.

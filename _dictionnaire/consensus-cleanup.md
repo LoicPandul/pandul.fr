@@ -1,0 +1,24 @@
+---
+title: "CONSENSUS CLEANUP"
+slug: "consensus-cleanup"
+permalink: /dictionnaire/consensus-cleanup/
+category: "PROTOCOLE"
+letter: "C"
+layout: definition
+french_term: "NETTOYAGE DU CONSENSUS"
+cross_references:
+  - title: "BIP-0054"
+    slug: "bip-0054"
+  - title: "SOFT FORK"
+    slug: "soft-fork"
+---
+
+Proposition de soft fork (BIP-0054) regroupant plusieurs corrections de vulnérabilités anciennes dans les règles de consensus de Bitcoin. Plutôt que de déployer un soft fork par bug, le « Consensus Cleanup » les regroupe pour mutualiser le coût fixe d'un changement de consensus. La proposition, portée par Antoine Poinsot et Matt Corallo, cible quatre problèmes distincts.
+
+Premièrement, l'attaque *time warp* : en manipulant les horodatages aux frontières des périodes d'ajustement de la difficulté, un attaquant majoritaire peut réduire artificiellement et injustement la difficulté à son minimum en quelques périodes. Le correctif impose que le premier bloc d'une période ait un horodatage au plus 2 heures avant celui du bloc précédent, et que le dernier bloc ait un horodatage au moins égal à celui du premier (pas de période négative en temps).
+
+Deuxièmement, le temps de validation des blocs : des blocs conçus de manière spécifique peuvent prendre plus d'une heure à valider sur du matériel modeste. Une limite de 2 500 opérations de signature potentiellement exécutées par transaction réduit le pire cas d'un facteur 40.
+
+Troisièmement, la faiblesse de l'arbre de Merkle : une transaction de 64 octets peut être confondue avec un nœud intermédiaire de l'arbre, permettant de falsifier des preuves d'inclusion. Ces transactions sont désormais invalides.
+
+Quatrièmement, la duplication de transactions coinbase : certains blocs antérieurs au BIP-0034 contiennent un engagement de hauteur valide pour un bloc futur, ce qui pourrait créer des doublons à partir du bloc 1 983 702. Imposer un `nLockTime` égal à la hauteur moins un dans les coinbases élimine définitivement le besoin de validation BIP-0030. Ce BIP a le statut « Draft » pour le moment.
