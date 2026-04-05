@@ -26,11 +26,17 @@ social:
     - "https://x.com/Loic_Pandul"
     - "https://github.com/LoicPandul"
 
-# Collection dictionnaire
+# Collections dictionnaire, categorie, lettre
 collections:
   dictionnaire:
     output: true
     permalink: /dictionnaire/:slug/
+  categorie:
+    output: true
+    permalink: /dictionnaire/categorie/:slug/
+  lettre:
+    output: true
+    permalink: /dictionnaire/lettre/:slug/
 
 # Collections par défaut
 defaults:
@@ -41,3 +47,11 @@ defaults:
       type: dictionnaire
     values:
       layout: "definition"
+  - scope:
+      type: categorie
+    values:
+      layout: "category"
+  - scope:
+      type: lettre
+    values:
+      layout: "letter"

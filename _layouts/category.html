@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="dict-page">
+  <nav class="breadcrumbs" aria-label="Fil d'Ariane">
+    <ol>
+      <li><a href="/dictionnaire/">Dictionnaire</a></li>
+      <li aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+
+  <h1>{{ page.title }}</h1>
+  <p class="dict-count">{{ page.definition_count }} definitions</p>
+
+  <nav class="az-bar" aria-label="Navigation alphabetique">
+    {%- assign az_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," -%}
+    {%- for letter in az_letters -%}
+      {%- assign has_letter = false -%}
+      {%- for l in page.letters_with_definitions -%}
+        {%- if l == letter -%}
+          {%- assign has_letter = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if has_letter -%}
+        <a href="#letter-{{ letter }}" class="az-letter">{{ letter }}</a>
+      {%- else -%}
+        <span class="az-letter az-letter--disabled" aria-disabled="true">{{ letter }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
+
+  <div class="dict-list">
+    {%- assign sorted_defs = site.dictionnaire | where: "category", page.title | sort: "title" -%}
+    {%- assign current_letter = "" -%}
+    {%- for def in sorted_defs -%}
+      {%- assign first_letter = def.title | slice: 0 | upcase -%}
+      {%- if first_letter != current_letter -%}
+        {%- assign current_letter = first_letter -%}
+        <h2 id="letter-{{ current_letter }}" class="dict-letter-heading">{{ current_letter }}</h2>
+      {%- endif -%}
+      <a href="{{ def.url }}" class="dict-list-item">{{ def.title }}</a>
+    {%- endfor -%}
+  </div>
+</div>

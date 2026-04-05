@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="dict-page">
+  <nav class="breadcrumbs" aria-label="Fil d'Ariane">
+    <ol>
+      <li><a href="/dictionnaire/">Dictionnaire</a></li>
+      <li aria-current="page">Lettre {{ page.letter }}</li>
+    </ol>
+  </nav>
+
+  <h1>Lettre {{ page.letter }}</h1>
+  <p class="dict-count">{{ page.definition_count }} definitions</p>
+
+  {%- if page.definition_count == 0 -%}
+    <p class="dict-empty">Aucune definition pour la lettre {{ page.letter }}.</p>
+  {%- else -%}
+    <div class="dict-list">
+      {%- assign sorted_defs = site.dictionnaire | where: "letter", page.letter | sort: "title" -%}
+      {%- for def in sorted_defs -%}
+        <div class="dict-list-item dict-list-item--with-badge">
+          <a href="{{ def.url }}" class="dict-list-item-title">{{ def.title }}</a>
+          <a href="/dictionnaire/categorie/{{ def.category_slug }}/" class="category-badge">{{ def.category }}</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
