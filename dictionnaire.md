@@ -20,15 +20,15 @@ permalink: /dictionnaire/
       <div class="book-links">
         <a href="https://www.amazon.fr/dp/B0GV1N6S1W"
            class="btn btn-primary" target="_blank" rel="noopener">
-          Amazon — Broché
-        </a>
-        <a href="https://www.amazon.fr/dp/B0GV1X52YD"
-           class="btn btn-primary" target="_blank" rel="noopener">
-          Amazon — Relié
+          Acheter sur Amazon
         </a>
         <a href="https://bitcoinbazar.fr/"
-           class="btn btn-secondary" target="_blank" rel="noopener">
+           class="btn btn-primary" target="_blank" rel="noopener">
           Acheter sur Bitcoin Bazar
+        </a>
+        <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin"
+           class="btn btn-secondary" target="_blank" rel="noopener">
+          Découvrir sur GitHub
         </a>
       </div>
     </div>
