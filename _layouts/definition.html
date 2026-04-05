@@ -3,11 +3,27 @@ layout: default
 ---
 
 <article class="definition-page">
+  <div class="dict-search" role="search">
+    <div class="dict-search-inner">
+      <svg class="dict-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" class="dict-search-input" placeholder="Rechercher une definition..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchResults" aria-activedescendant="">
+      <ul id="searchResults" class="dict-search-results" role="listbox" aria-label="Resultats de recherche"></ul>
+    </div>
+  </div>
+
+  <nav class="breadcrumbs" aria-label="Fil d'Ariane">
+    <ol>
+      <li><a href="/dictionnaire/">Dictionnaire</a></li>
+      <li><a href="/dictionnaire/categorie/{{ page.category_slug }}/">{{ page.category }}</a></li>
+      <li aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+
   <h1>{{ page.title }}</h1>
 
   <div class="definition-meta">
-    <span class="definition-category">{{ page.category }}</span>
-    {% if page.english_term %}<span class="definition-english">{{ page.english_term }}</span>{% endif %}
+    <a href="/dictionnaire/categorie/{{ page.category_slug }}/" class="category-badge">{{ page.category }}</a>
+    {% if page.english_term %}<span class="definition-english"><em>EN:</em> {{ page.english_term }}</span>{% endif %}
   </div>
 
   <div class="definition-content">
@@ -15,13 +31,46 @@ layout: default
   </div>
 
   {% if page.cross_references.size > 0 %}
-  <nav class="definition-cross-refs">
+  <section class="definition-see-also">
     <h2>Voir aussi</h2>
-    <ul>
+    <div class="cross-ref-pills">
       {% for ref in page.cross_references %}
-      <li><a href="/dictionnaire/{{ ref.slug }}/">{{ ref.title }}</a></li>
+      <a href="/dictionnaire/{{ ref.slug }}/" class="cross-ref-pill">{{ ref.title }}</a>
       {% endfor %}
-    </ul>
-  </nav>
+    </div>
+  </section>
   {% endif %}
+
+  <nav class="definition-nav" aria-label="Navigation dans la categorie">
+    {% if page.prev_in_category %}
+    <a href="/dictionnaire/{{ page.prev_in_category.slug }}/" class="def-nav-prev" aria-label="Definition precedente : {{ page.prev_in_category.title }}">
+      &lsaquo; {{ page.prev_in_category.title }}
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    {% if page.next_in_category %}
+    <a href="/dictionnaire/{{ page.next_in_category.slug }}/" class="def-nav-next" aria-label="Definition suivante : {{ page.next_in_category.title }}">
+      {{ page.next_in_category.title }} &rsaquo;
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+  </nav>
+
+  <aside class="definition-cta">
+    <div class="definition-cta-book">
+      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimee</p>
+      <div class="definition-cta-buttons">
+        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter — Bitcoin Bazar</a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter — Amazon</a>
+      </div>
+    </div>
+    <div class="definition-cta-contrib">
+      <p class="definition-cta-text">Une erreur ? Une amelioration ?</p>
+      <div class="definition-cta-buttons">
+        <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
+      </div>
+    </div>
+  </aside>
 </article>
