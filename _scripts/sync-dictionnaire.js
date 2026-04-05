@@ -121,6 +121,15 @@ function rewriteImagePaths(content, slug) {
 }
 
 /**
+ * Genere un slug URL-safe a partir d'une chaine.
+ * Normalise les accents (NFD), filtre en alphanumerique, separe par tirets.
+ * Utilise pour category_slug, letter slug, etc. (T-03-01).
+ */
+function slugify(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+/**
  * Genere le front matter YAML pour une definition.
  * Toutes les valeurs string sont entre guillemets doubles avec echappement.
  */
@@ -138,6 +147,22 @@ function generateFrontMatter(def) {
   }
   if (def.french_term) {
     fm += `french_term: "${escapeYaml(def.french_term)}"\n`;
+  }
+
+  if (def.category_slug) {
+    fm += `category_slug: "${escapeYaml(def.category_slug)}"\n`;
+  }
+
+  if (def.prev_in_category) {
+    fm += `prev_in_category:\n`;
+    fm += `  title: "${escapeYaml(def.prev_in_category.title)}"\n`;
+    fm += `  slug: "${escapeYaml(def.prev_in_category.slug)}"\n`;
+  }
+
+  if (def.next_in_category) {
+    fm += `next_in_category:\n`;
+    fm += `  title: "${escapeYaml(def.next_in_category.title)}"\n`;
+    fm += `  slug: "${escapeYaml(def.next_in_category.slug)}"\n`;
   }
 
   if (def.resolvedRefs && def.resolvedRefs.length > 0) {
@@ -304,6 +329,137 @@ fs.writeFileSync(searchIndexPath, indexJson + '\n', 'utf8');
 const indexSizeKB = (Buffer.byteLength(indexJson, 'utf8') / 1024).toFixed(1);
 console.log(`Passe 4 : search-index.json genere (${searchIndex.length} entrees, ${indexSizeKB} KB)`);
 
+// Passe 5 : calculer prev/next dans chaque categorie et ajouter category_slug
+const categoryGroups = new Map();
+for (const def of definitions) {
+  const cat = def.category || 'SANS CATEGORIE';
+  if (!categoryGroups.has(cat)) {
+    categoryGroups.set(cat, []);
+  }
+  categoryGroups.get(cat).push(def);
+}
+
+// Trier chaque groupe alphabetiquement et assigner prev/next
+for (const [cat, defs] of categoryGroups) {
+  defs.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+  const catSlug = slugify(cat);
+
+  for (let i = 0; i < defs.length; i++) {
+    defs[i].category_slug = catSlug;
+    defs[i].prev_in_category = i > 0 ? { title: defs[i - 1].title, slug: defs[i - 1].slug } : null;
+    defs[i].next_in_category = i < defs.length - 1 ? { title: defs[i + 1].title, slug: defs[i + 1].slug } : null;
+  }
+}
+
+console.log(`Passe 5 : prev/next calcule pour ${categoryGroups.size} categories`);
+
+// Re-generer les fichiers _dictionnaire/ avec les nouveaux champs (category_slug, prev/next)
+for (const def of definitions) {
+  const defMdPath = path.join(def._sourceDir, 'definition.md');
+  let content = '';
+  if (fs.existsSync(defMdPath)) {
+    content = fs.readFileSync(defMdPath, 'utf8').replace(/\r\n/g, '\n');
+  }
+  content = rewriteImagePaths(content, def.slug);
+  const frontMatter = generateFrontMatter(def);
+  const outputFile = path.join(outputDir, `${def.slug}.md`);
+  const fileContent = frontMatter + '\n\n' + content;
+  fs.writeFileSync(outputFile, fileContent.replace(/\r\n/g, '\n'), 'utf8');
+}
+
+console.log(`Passe 5 : ${definitions.length} fichiers MD re-generes avec category_slug + prev/next`);
+
+// Passe 6 : generer les pages categorie dans _categorie/
+const categorieOutputDir = path.join(rootDir, '_categorie');
+
+if (fs.existsSync(categorieOutputDir)) {
+  const existingFiles = fs.readdirSync(categorieOutputDir);
+  for (const file of existingFiles) {
+    const filePath = path.join(categorieOutputDir, file);
+    if (fs.statSync(filePath).isFile()) {
+      fs.unlinkSync(filePath);
+    }
+  }
+} else {
+  fs.mkdirSync(categorieOutputDir, { recursive: true });
+}
+
+let categoryPageCount = 0;
+for (const [cat, defs] of categoryGroups) {
+  const catSlug = slugify(cat);
+  const defCount = defs.length;
+
+  // Calculer les lettres qui ont des definitions dans cette categorie
+  const lettersSet = new Set();
+  for (const def of defs) {
+    lettersSet.add(def.slug[0].toUpperCase());
+  }
+  const lettersWithDefs = Array.from(lettersSet).sort();
+
+  let fm = '---\n';
+  fm += `title: "${escapeYaml(cat)}"\n`;
+  fm += `slug: "${escapeYaml(catSlug)}"\n`;
+  fm += `permalink: /dictionnaire/categorie/${catSlug}/\n`;
+  fm += `layout: category\n`;
+  fm += `definition_count: ${defCount}\n`;
+  fm += `letters_with_definitions:\n`;
+  for (const l of lettersWithDefs) {
+    fm += `  - "${l}"\n`;
+  }
+  fm += '---\n';
+
+  const outputFile = path.join(categorieOutputDir, `${catSlug}.md`);
+  fs.writeFileSync(outputFile, fm.replace(/\r\n/g, '\n'), 'utf8');
+  categoryPageCount++;
+}
+
+console.log(`Passe 6 : ${categoryPageCount} pages categorie generees dans _categorie/`);
+
+// Passe 7 : generer les pages lettre dans _lettre/
+const lettreOutputDir = path.join(rootDir, '_lettre');
+
+if (fs.existsSync(lettreOutputDir)) {
+  const existingFiles = fs.readdirSync(lettreOutputDir);
+  for (const file of existingFiles) {
+    const filePath = path.join(lettreOutputDir, file);
+    if (fs.statSync(filePath).isFile()) {
+      fs.unlinkSync(filePath);
+    }
+  }
+} else {
+  fs.mkdirSync(lettreOutputDir, { recursive: true });
+}
+
+// Compter les definitions par lettre
+const letterCounts = new Map();
+for (const def of definitions) {
+  const l = def.slug[0].toUpperCase();
+  letterCounts.set(l, (letterCounts.get(l) || 0) + 1);
+}
+
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let letterPageCount = 0;
+
+for (const letter of alphabet) {
+  const count = letterCounts.get(letter) || 0;
+  const letterSlug = letter.toLowerCase();
+
+  let fm = '---\n';
+  fm += `title: "Lettre ${letter}"\n`;
+  fm += `slug: "${letterSlug}"\n`;
+  fm += `permalink: /dictionnaire/lettre/${letterSlug}/\n`;
+  fm += `layout: letter\n`;
+  fm += `letter: "${letter}"\n`;
+  fm += `definition_count: ${count}\n`;
+  fm += '---\n';
+
+  const outputFile = path.join(lettreOutputDir, `${letterSlug}.md`);
+  fs.writeFileSync(outputFile, fm.replace(/\r\n/g, '\n'), 'utf8');
+  letterPageCount++;
+}
+
+console.log(`Passe 7 : ${letterPageCount} pages lettre generees dans _lettre/`);
+
 // Stats finales
 console.log('');
 console.log('=== Sync termine ===');
@@ -311,3 +467,5 @@ console.log(`Definitions : ${definitions.length}`);
 console.log(`Images copiees : ${imageCount}`);
 console.log(`Cross-references non resolues : ${unresolvedCount}`);
 console.log(`Index de recherche : ${searchIndex.length} entrees (${indexSizeKB} KB)`);
+console.log(`Categories : ${categoryPageCount} pages`);
+console.log(`Lettres : ${letterPageCount} pages`);
