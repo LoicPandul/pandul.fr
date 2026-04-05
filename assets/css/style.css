@@ -314,15 +314,15 @@ hr {
 }
 
 .btn-primary {
-  background: var(--accent, #D04819);
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: var(--accent, #D04819);
   border-color: var(--accent, #D04819);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: var(--accent-hover, #B83D14);
-  border-color: var(--accent-hover, #B83D14);
+  background: var(--accent, #D04819);
+  border-color: var(--accent, #D04819);
   color: #FFFFFF;
 }
 
