@@ -12,13 +12,10 @@ redirect_from:
 
 Je suis **Loïc Morel**, rédacteur spécialisé sur Bitcoin et son environnement. J’écris des contenus pédagogiques, techniques et éditoriaux : articles, formations et tutoriels.
 
-<p style="text-align:center">
-  <img src="{{ '/assets/img/profile.png' | relative_url }}"
-       alt="Portrait de Loïc Morel"
-       class="avatar avatar--center"
-       style="border-radius: 12px;"
-       width="180" height="180" loading="lazy" decoding="async">
-</p>
+<img src="{{ '/assets/img/profile.png' | relative_url }}"
+     alt="Portrait de Loïc Morel"
+     class="avatar avatar--center"
+     width="180" height="180" loading="lazy" decoding="async">
 
 
 ## Ce que je fais :

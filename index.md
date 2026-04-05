@@ -16,13 +16,12 @@ title: "Accueil"
 
 # Formations pour Plan ₿ Academy
 
-<style>.pbn-thumb img{transition:transform .12s ease-in-out;border-radius:10px;border:1px solid rgba(0,0,0,.25);} .pbn-thumb:hover img{transform:scale(1.04);}</style>
 
 ## BTC 202 - [Mettre en place son premier nœud Bitcoin](https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426)
 
 Comprendre, installer, configurer et utiliser un nœud Bitcoin
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426" aria-label="Ouvrir le cours Mettre en place son premier nœud Bitcoin"><img src="assets/img/pbn-btc202-thumbnail.webp" alt="Miniature — Mettre en place son premier nœud Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426" aria-label="Ouvrir le cours Mettre en place son premier nœud Bitcoin"><img src="assets/img/pbn-btc202-thumbnail.webp" alt="Miniature — Mettre en place son premier nœud Bitcoin" loading="lazy" /></a>
 
 - [1 - Aperçu du cours](https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426/916b1f86-38a4-4ede-bdb7-83841d5a7abe)
 - [2 - Qu’est-ce qu’un nœud Bitcoin ?](https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426/0a9fd4e0-94ab-405e-924c-023397393027)
@@ -52,7 +51,7 @@ Comprendre, installer, configurer et utiliser un nœud Bitcoin
 
 Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c" aria-label="Ouvrir le cours La confidentialité sur Bitcoin"><img src="assets/img/pbn-btc204-thumbnail.webp" alt="Miniature — La confidentialité sur Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c" aria-label="Ouvrir le cours La confidentialité sur Bitcoin"><img src="assets/img/pbn-btc204-thumbnail.webp" alt="Miniature — La confidentialité sur Bitcoin" loading="lazy" /></a>
 
 - [1 - Aperçu du cours](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/08ba1933-f393-4fb5-8279-777d874caedb)
 - [2 - Le modèle d'UTXO de Bitcoin](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/8d6b50c5-bf74-44f4-922b-25204991cb75)
@@ -92,7 +91,7 @@ Comprendre et maîtriser les principes de la protection de la vie privée dans l
 
 Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f" aria-label="Ouvrir le cours Architecture du portefeuille Bitcoin"><img src="assets/img/pbn-cyp201-thumbnail.webp" alt="Miniature — Architecture du portefeuille Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f" aria-label="Ouvrir le cours Architecture du portefeuille Bitcoin"><img src="assets/img/pbn-cyp201-thumbnail.webp" alt="Miniature — Architecture du portefeuille Bitcoin" loading="lazy" /></a>
 
 - [1 - Introduction de la formation](https://planb.academy/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/fb4e8857-ea35-5a8a-ae8a-5300234e0104)
 - [2 - Introduction aux fonctions de hachage](https://planb.academy/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/dba011f5-1805-5a48-ac2b-4bd637c93703)
@@ -123,7 +122,7 @@ Plongez dans les principes cryptographiques qui font fonctionner les portefeuill
 
 Comprendre, installer, configurer et utiliser un nœud Lightning
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c" aria-label="Ouvrir le cours Mettre en place son premier nœud Lightning"><img src="assets/img/pbn-lnp202-thumbnail.webp" alt="Miniature — Mettre en place son premier nœud Lightning" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c" aria-label="Ouvrir le cours Mettre en place son premier nœud Lightning"><img src="assets/img/pbn-lnp202-thumbnail.webp" alt="Miniature — Mettre en place son premier nœud Lightning" loading="lazy" /></a>
 
 - [1 - Aperçu du cours](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/e0871abf-af6d-4221-9389-1a996aea9b79)
 - [2 - Comprendre ce qu'est un nœud Lightning](https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c/8275dfd8-7a72-48cc-bf7f-bc2a46063003)
@@ -149,7 +148,7 @@ Comprendre, installer, configurer et utiliser un nœud Lightning
 
 Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zéro
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e" aria-label="Ouvrir le cours Introduction au minage de Bitcoin"><img src="assets/img/pbn-min101-thumbnail.webp" alt="Miniature — Introduction au minage de Bitcoin" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e" aria-label="Ouvrir le cours Introduction au minage de Bitcoin"><img src="assets/img/pbn-min101-thumbnail.webp" alt="Miniature — Introduction au minage de Bitcoin" loading="lazy" /></a>
 
 - [1 - Aperçu du cours](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/a82d49dc-d68a-4e3f-985e-bcef6643677e)
 - [2 - Le minage de Bitcoin expliqué simplement](https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e/278577a6-98bb-4659-86c7-f6c4f6d5fa3e)
@@ -173,7 +172,7 @@ Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de z
 
 Mettre en place un environnement numérique personnel sécurisé, stable et efficace.
 
-<a class="pbn-thumb" href="https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1" aria-label="Ouvrir le cours Améliorer sa sécurité numérique personnelle"><img src="assets/img/pbn-scu202-thumbnail.webp" alt="Miniature — Améliorer sa sécurité numérique personnelle" loading="lazy" style="max-width: 420px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" /></a>
+<a class="pbn-thumb" href="https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1" aria-label="Ouvrir le cours Améliorer sa sécurité numérique personnelle"><img src="assets/img/pbn-scu202-thumbnail.webp" alt="Miniature — Améliorer sa sécurité numérique personnelle" loading="lazy" /></a>
 
 - [1 - Aperçu du cours](https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1/7bf90137-7387-462d-884f-fe48e812b739)
 - [2 - Récapitulatif essentiel de SCU 101](https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1/26cfac35-a3bb-4657-95b3-8508bedfa903)

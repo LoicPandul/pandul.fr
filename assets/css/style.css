@@ -244,6 +244,11 @@ img{max-width:100%;height:auto}
 
 /* Utilitaires */
 .tiny{font-size:.9rem;color:var(--muted);text-align:center;margin:var(--space-md) 0 var(--space-xl)}
+.avatar{border-radius:12px}
+.avatar--center{display:block;margin:0 auto}
+.pbn-thumb img{transition:transform .12s ease-in-out;border-radius:var(--radius);border:1px solid rgba(0,0,0,.12)}
+.pbn-thumb:hover img{transform:scale(1.04)}
+.pbn-thumb img{max-width:420px;width:100%;height:auto}
 
 /* Responsive – tablette (720px+) */
 @media (min-width: 720px){
