@@ -32,8 +32,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. All pages are responsive and readable on a 375px-wide mobile screen
 **Plans**: 2 plans
 Plans:
-- [ ] 01-01-PLAN.md — Design system CSS rewrite + layout update + blog deletion
-- [ ] 01-02-PLAN.md — Book promo page + content cleanup + visual verification
+- [x] 01-01-PLAN.md — Design system CSS rewrite + layout update + blog deletion
+- [x] 01-02-PLAN.md — Book promo page + content cleanup + visual verification
 **UI hint**: yes
 
 ### Phase 2: Dictionary Data Pipeline
