@@ -517,11 +517,11 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-md);
+  gap: var(--space-lg);
 }
 
 .bottom-social .icon img {
-  height: 20px;
+  height: 24px;
   display: block;
   transition: filter 0.15s ease;
 }
@@ -714,6 +714,8 @@ img {
     flex-direction: row;
     gap: var(--space-sm);
     align-items: center;
+    justify-self: start;
+    align-self: center;
   }
 
   .footer-brand img {
@@ -732,7 +734,7 @@ img {
 
   .footer-nav a {
     padding: 4px 0;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .footer-info {
@@ -759,7 +761,11 @@ img {
   }
 
   /* Icones sociales footer — plus grandes sur mobile */
+  .bottom-social {
+    gap: var(--space-lg);
+  }
+
   .bottom-social .icon img {
-    height: 24px;
+    height: 28px;
   }
 }
