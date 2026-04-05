@@ -1,6 +1,6 @@
 /* ============================================
    Pandul.fr — Systeme de design
-   Refonte 2026 : Outfit (titres) + Source Serif 4 (corps)
+   Refonte 2026 : Outfit (titres) + Inter (corps)
    ============================================ */
 
 /* Polices */
@@ -13,9 +13,9 @@
 }
 
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("../fonts/SourceSerif4-Variable.ttf") format("truetype-variations");
-  font-weight: 200 900;
+  font-family: "Inter";
+  src: url("../fonts/Inter-Variable.ttf") format("truetype-variations");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
@@ -40,7 +40,7 @@
   --space-2xl: 48px;
   --space-3xl: 64px;
   --font-heading: "Outfit", system-ui, -apple-system, sans-serif;
-  --font-body: "Source Serif 4", "Georgia", "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
