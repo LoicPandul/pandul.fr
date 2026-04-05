@@ -1,5 +1,7 @@
-// Header flottant + ouverture liens externes en nouvel onglet
+// Navigation flottante — masquage au scroll + ouverture liens externes
 document.addEventListener('DOMContentLoaded', () => {
+
+  // Header flottant : masque au scroll vers le bas, reapparait au scroll vers le haut
   const card = document.getElementById('headerCard');
   if (card) {
     let lastY = window.pageYOffset || document.documentElement.scrollTop;
@@ -7,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function onScroll() {
       const y = window.pageYOffset || document.documentElement.scrollTop;
-      if (y > 120 && y > lastY) {
+      // Masquer apres 80px de defilement vers le bas
+      if (y > 80 && y > lastY) {
         card.classList.add('hide');
       } else {
         card.classList.remove('hide');
@@ -24,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  // Liens externes
+  // Liens externes : ouvrir dans un nouvel onglet avec rel securise
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');
     if (!href || href.startsWith('#')) return;
