@@ -5,6 +5,13 @@ permalink: /dictionnaire/stonewall-x2/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "STONEWALL"
+  slug: "stonewall"
+next_in_category:
+  title: "SWEEP TRANSACTION"
+  slug: "sweep-transaction"
 cross_references:
   - title: "STONEWALL"
     slug: "stonewall"

@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "A"
 layout: definition
 english_term: "51% ATTACK"
+category_slug: "attaque"
+prev_in_category:
+  title: "ATTAQUE DE FINNEY"
+  slug: "attaque-de-finney"
+next_in_category:
+  title: "BFT - BYZANTINE FAULT TOLERANCE"
+  slug: "bft-byzantine-fault-tolerance"
 cross_references:
   - title: "DOUBLE DÉPENSE"
     slug: "double-depense"

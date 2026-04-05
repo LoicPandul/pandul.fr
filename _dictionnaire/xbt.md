@@ -5,6 +5,13 @@ permalink: /dictionnaire/xbt/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "X"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "WHALE"
+  slug: "whale"
+next_in_category:
+  title: "XMR - MONERO"
+  slug: "xmr-monero"
 cross_references:
   - title: "BTC"
     slug: "btc"

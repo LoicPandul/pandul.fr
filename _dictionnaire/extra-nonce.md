@@ -5,6 +5,13 @@ permalink: /dictionnaire/extra-nonce/
 category: "MINAGE"
 letter: "E"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "ESMPPS"
+  slug: "esmpps"
+next_in_category:
+  title: "F2POOL"
+  slug: "f2pool"
 cross_references:
   - title: "NONCE"
     slug: "nonce"

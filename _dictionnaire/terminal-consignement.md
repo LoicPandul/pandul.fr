@@ -5,6 +5,13 @@ permalink: /dictionnaire/terminal-consignement/
 category: "RGB"
 letter: "T"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "STATE TRANSITION"
+  slug: "state-transition"
+next_in_category:
+  title: "TRANSITION BUNDLE"
+  slug: "transition-bundle"
 cross_references:
   - title: "CONSIGNMENT"
     slug: "consignment"

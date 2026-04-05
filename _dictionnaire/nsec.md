@@ -5,6 +5,13 @@ permalink: /dictionnaire/nsec/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "NPUB"
+  slug: "npub"
+next_in_category:
+  title: "ONION ADDRESS"
+  slug: "onion-address"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

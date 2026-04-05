@@ -5,6 +5,13 @@ permalink: /dictionnaire/faraday/
 category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ELTOO"
+  slug: "eltoo"
+next_in_category:
+  title: "FEE RATE - LIGHTNING"
+  slug: "fee-rate-lightning"
 cross_references:
   - title: "LND"
     slug: "lnd"

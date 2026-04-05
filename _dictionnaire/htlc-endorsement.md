@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
 french_term: "ENDOSSEMENT DE HTLC"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "HTLC"
+  slug: "htlc"
+next_in_category:
+  title: "INBOUND CAPACITY"
+  slug: "inbound-capacity"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

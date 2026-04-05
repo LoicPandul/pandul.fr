@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitkey/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BITCOIN KEEPER"
+  slug: "bitcoin-keeper"
+next_in_category:
+  title: "BITKIT"
+  slug: "bitkit"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

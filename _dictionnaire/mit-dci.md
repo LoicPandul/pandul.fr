@@ -5,6 +5,13 @@ permalink: /dictionnaire/mit-dci/
 category: "ORGANISATION"
 letter: "M"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LOCALBITCOINS"
+  slug: "localbitcoins"
+next_in_category:
+  title: "NODL"
+  slug: "nodl"
 cross_references:
   - title: "CHAINCODE LABS"
     slug: "chaincode-labs"

@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
 french_term: "HEURISTIQUE DE PROPRIÉTÉ COMMUNE DES ENTRÉES"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "CHAUMIAN COINJOIN"
+  slug: "chaumian-coinjoin"
+next_in_category:
+  title: "CLUSTER"
+  slug: "cluster"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

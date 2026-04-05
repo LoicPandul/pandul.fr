@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "V"
 layout: definition
 english_term: "VERSIONING"
+category_slug: "informatique"
+prev_in_category:
+  title: "URI"
+  slug: "uri"
+next_in_category:
+  title: "ZMQ - ZEROMQ"
+  slug: "zmq-zeromq"
 cross_references:
   - title: "NVERSION"
     slug: "nversion"

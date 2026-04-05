@@ -5,6 +5,13 @@ permalink: /dictionnaire/cet/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CBTC - CITREA BITCOIN"
+  slug: "cbtc-citrea-bitcoin"
+next_in_category:
+  title: "CITREA"
+  slug: "citrea"
 cross_references:
   - title: "DLC - DISCREET LOG CONTRACT"
     slug: "dlc-discreet-log-contract"

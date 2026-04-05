@@ -5,6 +5,13 @@ permalink: /dictionnaire/nostr/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "NOISE"
+  slug: "noise"
+next_in_category:
+  title: "NPUB"
+  slug: "npub"
 cross_references:
   - title: "SECP256K1"
     slug: "secp256k1"

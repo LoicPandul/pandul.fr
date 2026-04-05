@@ -5,6 +5,13 @@ permalink: /dictionnaire/bbqr/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "BASE - ARITHMÉTIQUE"
+  slug: "base-arithmetique"
+next_in_category:
+  title: "BIG-ENDIAN"
+  slug: "big-endian"
 cross_references:
   - title: "PSBT"
     slug: "psbt"

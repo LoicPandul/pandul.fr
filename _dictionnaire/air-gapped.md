@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
 french_term: "ISOLÉ DU RÉSEAU"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ADRESSE DE RÉCEPTION"
+  slug: "adresse-de-reception"
+next_in_category:
+  title: "AOPP"
+  slug: "aopp"
 cross_references:
   - title: "COLD WALLET"
     slug: "cold-wallet"

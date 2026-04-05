@@ -5,6 +5,13 @@ permalink: /dictionnaire/mast/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "LOGARITHME DISCRET"
+  slug: "logarithme-discret"
+next_in_category:
+  title: "MUSIG"
+  slug: "musig"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

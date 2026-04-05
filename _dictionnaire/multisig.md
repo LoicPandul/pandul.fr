@@ -5,6 +5,13 @@ permalink: /dictionnaire/multisig/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "MODÈLE DE SCRIPT"
+  slug: "modele-de-script"
+next_in_category:
+  title: "NLOCKTIME"
+  slug: "nlocktime"
 cross_references:
   - title: "BARE-MULTISIG"
     slug: "bare-multisig"

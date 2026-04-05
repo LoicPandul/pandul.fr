@@ -5,6 +5,13 @@ permalink: /dictionnaire/bsms/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BRANCH-AND-BOUND"
+  slug: "branch-and-bound"
+next_in_category:
+  title: "CAHOOTS"
+  slug: "cahoots"
 cross_references:
   - title: "BIP-0129"
     slug: "bip-0129"

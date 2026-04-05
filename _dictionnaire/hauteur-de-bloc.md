@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "H"
 layout: definition
 english_term: "BLOCK HEIGHT"
+category_slug: "protocole"
+prev_in_category:
+  title: "HARD FORK"
+  slug: "hard-fork"
+next_in_category:
+  title: "IBD - INITIAL BLOCK DOWNLOAD"
+  slug: "ibd-initial-block-download"
 cross_references:
   - title: "BLOC"
     slug: "bloc"

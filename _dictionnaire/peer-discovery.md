@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 french_term: "DÉCOUVERTE DES PAIRS"
+category_slug: "reseau"
+prev_in_category:
+  title: "PAIR SORTANT"
+  slug: "pair-sortant"
+next_in_category:
+  title: "PEERS.DAT"
+  slug: "peers-dat"
 cross_references:
   - title: "DNS SEEDS"
     slug: "dns-seeds"

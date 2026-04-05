@@ -5,6 +5,13 @@ permalink: /dictionnaire/hong-kong-roundtable/
 category: "HISTOIRE"
 letter: "H"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "HASHCASH"
+  slug: "hashcash"
+next_in_category:
+  title: "LIBERTY RESERVE"
+  slug: "liberty-reserve"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

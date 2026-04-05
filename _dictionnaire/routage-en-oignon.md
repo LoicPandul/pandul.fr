@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "R"
 layout: definition
 english_term: "ONION ROUTING"
+category_slug: "reseau"
+prev_in_category:
+  title: "RÉSEAU BITCOIN"
+  slug: "reseau-bitcoin"
+next_in_category:
+  title: "SEED NODES"
+  slug: "seed-nodes"
 cross_references:
   - title: "TOR"
     slug: "tor-the-onion-router"

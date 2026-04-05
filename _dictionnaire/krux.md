@@ -5,6 +5,13 @@ permalink: /dictionnaire/krux/
 category: "OUTIL"
 letter: "K"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "FULCRUM"
+  slug: "fulcrum"
+next_in_category:
+  title: "LIBWALLY-CORE"
+  slug: "libwally-core"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

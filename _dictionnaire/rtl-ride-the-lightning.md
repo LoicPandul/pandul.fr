@@ -5,6 +5,13 @@ permalink: /dictionnaire/rtl-ride-the-lightning/
 category: "OUTIL"
 letter: "R"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "ROBOSATS"
+  slug: "robosats"
+next_in_category:
+  title: "RUST BITCOIN"
+  slug: "rust-bitcoin"
 cross_references:
   - title: "NOEUD LIGHTNING"
     slug: "noeud-lightning"

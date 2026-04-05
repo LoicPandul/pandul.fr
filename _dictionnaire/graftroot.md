@@ -5,6 +5,13 @@ permalink: /dictionnaire/graftroot/
 category: "PROTOCOLE"
 letter: "G"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "GENÈSE"
+  slug: "genese"
+next_in_category:
+  title: "GUISETTINGS.INI.BAK"
+  slug: "guisettings-ini-bak"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

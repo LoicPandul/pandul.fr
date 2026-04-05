@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "W"
 layout: definition
 french_term: "UNITÉ DE POIDS"
+category_slug: "protocole"
+prev_in_category:
+  title: "WALLETS/DB.LOG"
+  slug: "wallets-db-log"
+next_in_category:
+  title: "WTXID"
+  slug: "wtxid"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

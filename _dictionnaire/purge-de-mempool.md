@@ -5,6 +5,13 @@ permalink: /dictionnaire/purge-de-mempool/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "PROOF OF STAKE"
+  slug: "proof-of-stake"
+next_in_category:
+  title: "RÉCOMPENSE DE BLOC"
+  slug: "recompense-de-bloc"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "E"
 layout: definition
 english_term: "BLOCK HEADER"
+category_slug: "protocole"
+prev_in_category:
+  title: "EMBRANCHEMENT NATUREL"
+  slug: "embranchement-naturel"
+next_in_category:
+  title: "EPHEMERAL ANCHORS"
+  slug: "ephemeral-anchors"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

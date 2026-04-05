@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "I"
 layout: definition
 french_term: "CAPACITÉ ENTRANTE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "HTLC ENDORSEMENT"
+  slug: "htlc-endorsement"
+next_in_category:
+  title: "INVOICE LIGHTNING"
+  slug: "invoice-lightning"
 cross_references:
   - title: "OUTBOUND CAPACITY"
     slug: "outbound-capacity"

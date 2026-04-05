@@ -5,6 +5,13 @@ permalink: /dictionnaire/vout/
 category: "PROTOCOLE"
 letter: "V"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "VIN"
+  slug: "vin"
+next_in_category:
+  title: "VULNERABILITE DE MURCH-ZAWY"
+  slug: "vulnerabilite-de-murch-zawy"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

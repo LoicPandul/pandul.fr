@@ -5,6 +5,13 @@ permalink: /dictionnaire/output-script-descriptors/
 category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "OPENDIME"
+  slug: "opendime"
+next_in_category:
+  title: "PAPER WALLET"
+  slug: "paper-wallet"
 cross_references:
   - title: "SCRIPTPUBKEY"
     slug: "scriptpubkey"

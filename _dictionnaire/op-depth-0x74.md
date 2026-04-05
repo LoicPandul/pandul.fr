@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-depth-0x74/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CODESEPARATOR - 0XAB"
+  slug: "op-codeseparator-0xab"
+next_in_category:
+  title: "OP_DROP - 0X75"
+  slug: "op-drop-0x75"
 cross_references:
   - title: "PILE"
     slug: "pile"

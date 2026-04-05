@@ -5,6 +5,13 @@ permalink: /dictionnaire/trezor/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "TPUB"
+  slug: "tpub"
+next_in_category:
+  title: "TYPE DE DEVISE"
+  slug: "type-de-devise"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

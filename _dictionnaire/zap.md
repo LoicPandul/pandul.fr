@@ -5,6 +5,13 @@ permalink: /dictionnaire/zap/
 category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "WUMBO CHANNEL"
+  slug: "wumbo-channel"
+next_in_category:
+  title: "ZEUS"
+  slug: "zeus"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

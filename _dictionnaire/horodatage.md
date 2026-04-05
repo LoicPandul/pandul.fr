@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
 english_term: "TIMESTAMP"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "HMAC-SHA512"
+  slug: "hmac-sha512"
+next_in_category:
+  title: "HSM"
+  slug: "hsm"
 cross_references:
   - title: "MTP - MEDIAN TIME PAST"
     slug: "mtp-median-time-past"

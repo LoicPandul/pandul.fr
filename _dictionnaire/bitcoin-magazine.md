@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-magazine/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "BITCOIN BEACH"
+  slug: "bitcoin-beach"
+next_in_category:
+  title: "BITCOIN OPTECH"
+  slug: "bitcoin-optech"
 cross_references:
   - title: "HALVING"
     slug: "halving"

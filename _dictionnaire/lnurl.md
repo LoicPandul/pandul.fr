@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnurl/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LND"
+  slug: "lnd"
+next_in_category:
+  title: "LOOP"
+  slug: "loop"
 cross_references:
   - title: "BOLT"
     slug: "bolt"

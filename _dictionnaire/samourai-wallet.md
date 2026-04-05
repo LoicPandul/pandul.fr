@@ -5,6 +5,13 @@ permalink: /dictionnaire/samourai-wallet/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "RICOCHET"
+  slug: "ricochet"
+next_in_category:
+  title: "SCORE DE BOLTZMANN"
+  slug: "score-de-boltzmann"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

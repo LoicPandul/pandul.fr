@@ -5,6 +5,13 @@ permalink: /dictionnaire/mostro/
 category: "OUTIL"
 letter: "M"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "MEMPOOL.SPACE"
+  slug: "mempool-space"
+next_in_category:
+  title: "MYNODE"
+  slug: "mynode"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

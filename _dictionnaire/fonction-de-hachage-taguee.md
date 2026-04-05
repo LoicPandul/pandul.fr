@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
 english_term: "TAGGED HASH FUNCTION"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "FONCTION DE HACHAGE"
+  slug: "fonction-de-hachage"
+next_in_category:
+  title: "FROST"
+  slug: "frost"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

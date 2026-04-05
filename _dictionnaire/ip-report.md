@@ -5,6 +5,13 @@ permalink: /dictionnaire/ip-report/
 category: "MINAGE"
 letter: "I"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "IMMERSION COOLING"
+  slug: "immersion-cooling"
+next_in_category:
+  title: "LOTTERY MINING"
+  slug: "lottery-mining"
 cross_references:
   - title: "ASIC"
     slug: "asic"

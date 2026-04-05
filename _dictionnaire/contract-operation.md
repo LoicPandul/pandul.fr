@@ -5,6 +5,13 @@ permalink: /dictionnaire/contract-operation/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONSIGNMENT"
+  slug: "consignment"
+next_in_category:
+  title: "CONTRACT PARTICIPANT"
+  slug: "contract-participant"
 cross_references:
   - title: "STATE TRANSITION"
     slug: "state-transition"

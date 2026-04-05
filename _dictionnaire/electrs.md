@@ -5,6 +5,13 @@ permalink: /dictionnaire/electrs/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "DNS SEEDS"
+  slug: "dns-seeds"
+next_in_category:
+  title: "ELECTRUM SERVER"
+  slug: "electrum-server"
 cross_references:
   - title: "ELECTRUM SERVER"
     slug: "electrum-server"

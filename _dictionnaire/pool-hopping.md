@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "P"
 layout: definition
 french_term: "SAUT DE COOPÉRATIVES"
+category_slug: "minage"
+prev_in_category:
+  title: "P2POOL"
+  slug: "p2pool"
+next_in_category:
+  title: "POT - PAY ON TARGET"
+  slug: "pot-pay-on-target"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

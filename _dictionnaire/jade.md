@@ -5,6 +5,13 @@ permalink: /dictionnaire/jade/
 category: "PORTEFEUILLE"
 letter: "J"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "INDEX - KEY"
+  slug: "index-key"
+next_in_category:
+  title: "JBOK"
+  slug: "jbok"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

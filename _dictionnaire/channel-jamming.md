@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "C"
 layout: definition
 french_term: "BROUILLAGE DE CANAL"
+category_slug: "attaque"
+prev_in_category:
+  title: "BGP HIJACKING"
+  slug: "bgp-hijacking"
+next_in_category:
+  title: "DDOS"
+  slug: "ddos"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

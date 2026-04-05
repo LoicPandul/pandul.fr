@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "D"
 layout: definition
 french_term: "ATTAQUE DE POUSSIÈRE"
+category_slug: "attaque"
+prev_in_category:
+  title: "DOUBLE DÉPENSE"
+  slug: "double-depense"
+next_in_category:
+  title: "ECLIPSE"
+  slug: "eclipse"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

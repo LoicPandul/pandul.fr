@@ -5,6 +5,13 @@ permalink: /dictionnaire/round-ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ROLLUP"
+  slug: "rollup"
+next_in_category:
+  title: "RUNES"
+  slug: "runes"
 cross_references:
   - title: "ARK"
     slug: "ark"

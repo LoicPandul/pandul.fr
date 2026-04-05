@@ -5,6 +5,13 @@ permalink: /dictionnaire/hodl/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "FONGIBILITÉ"
+  slug: "fongibilite"
+next_in_category:
+  title: "HYPER-BITCOINISATION"
+  slug: "hyper-bitcoinisation"
 cross_references:
   - title: "BITCOINTALK"
     slug: "bitcointalk"

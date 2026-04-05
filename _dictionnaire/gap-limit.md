@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
 french_term: "LIMITE DE CREUX"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "FEE BUMPING"
+  slug: "fee-bumping"
+next_in_category:
+  title: "GINGER WALLET"
+  slug: "ginger-wallet"
 cross_references:
   - title: "XPUB"
     slug: "xpub"

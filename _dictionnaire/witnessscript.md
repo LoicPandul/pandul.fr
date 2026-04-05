@@ -5,6 +5,10 @@ permalink: /dictionnaire/witnessscript/
 category: "SCRIPT"
 letter: "W"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "TAPSCRIPT"
+  slug: "tapscript"
 cross_references:
   - title: "P2WSH"
     slug: "p2wsh"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/dns-seeds/
 category: "RÉSEAU"
 letter: "D"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "DISTRIBUÉ"
+  slug: "distribue"
+next_in_category:
+  title: "ELECTRS"
+  slug: "electrs"
 cross_references:
   - title: "SEED NODES"
     slug: "seed-nodes"

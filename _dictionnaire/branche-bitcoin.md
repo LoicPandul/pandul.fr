@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 english_term: "BRANCH - BITCOIN"
+category_slug: "protocole"
+prev_in_category:
+  title: "BLOCKS/REV*.DAT"
+  slug: "blocks-rev-dat"
+next_in_category:
+  title: "BTC"
+  slug: "btc"
 cross_references:
   - title: "FORK"
     slug: "fork"

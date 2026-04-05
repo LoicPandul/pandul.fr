@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 french_term: "ADRESSE FURTIVE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SPREAD - WST"
+  slug: "spread-wst"
+next_in_category:
+  title: "STONEWALL"
+  slug: "stonewall"
 cross_references:
   - title: "SIGNATURE NUMÉRIQUE"
     slug: "signature-numerique"

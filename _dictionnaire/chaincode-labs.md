@@ -5,6 +5,13 @@ permalink: /dictionnaire/chaincode-labs/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "CHAINALYSIS"
+  slug: "chainalysis"
+next_in_category:
+  title: "CHAINWAY LABS"
+  slug: "chainway-labs"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

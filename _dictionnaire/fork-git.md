@@ -5,6 +5,13 @@ permalink: /dictionnaire/fork-git/
 category: "INFORMATIQUE"
 letter: "F"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "ENDIANNESS"
+  slug: "endianness"
+next_in_category:
+  title: "FOSS"
+  slug: "foss"
 cross_references:
   - title: "GIT"
     slug: "git"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 english_term: "STANDARDNESS RULES"
+category_slug: "protocole"
+prev_in_category:
+  title: "RÈGLES DE CONSENSUS"
+  slug: "regles-de-consensus"
+next_in_category:
+  title: "REGTEST"
+  slug: "regtest"
 cross_references:
   - title: "RÈGLES DE CONSENSUS"
     slug: "regles-de-consensus"

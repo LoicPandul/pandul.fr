@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
 french_term: "CONNECTEUR"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "COLORED COINS"
+  slug: "colored-coins"
+next_in_category:
+  title: "COUNTERPARTY"
+  slug: "counterparty"
 cross_references:
   - title: "FORFEIT TRANSACTION"
     slug: "forfeit-transaction"

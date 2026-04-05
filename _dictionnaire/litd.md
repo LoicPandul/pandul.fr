@@ -5,6 +5,13 @@ permalink: /dictionnaire/litd/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LIGHTNING TERMINAL"
+  slug: "lightning-terminal"
+next_in_category:
+  title: "LNBITS"
+  slug: "lnbits"
 cross_references:
   - title: "LIGHTNING TERMINAL"
     slug: "lightning-terminal"

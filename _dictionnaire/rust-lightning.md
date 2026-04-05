@@ -5,6 +5,13 @@ permalink: /dictionnaire/rust-lightning/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "REVOKEANDACK"
+  slug: "revokeandack"
+next_in_category:
+  title: "SCB - STATIC CHANNEL BACKUP"
+  slug: "scb-static-channel-backup"
 cross_references:
   - title: "LDK - LIGHTNING DEV KIT"
     slug: "ldk-lightning-dev-kit"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-success/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_SUB - 0X94"
+  slug: "op-sub-0x94"
+next_in_category:
+  title: "OP_SWAP - 0X7C"
+  slug: "op-swap-0x7c"
 cross_references:
   - title: "TAPSCRIPT"
     slug: "tapscript"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/score-score-based-method/
 category: "MINAGE"
 letter: "S"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "SBI CRYPTO"
+  slug: "sbi-crypto"
+next_in_category:
+  title: "SECPOOL"
+  slug: "secpool"
 cross_references:
   - title: "SHARES"
     slug: "shares"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/joininbox/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "JAM"
+  slug: "jam"
+next_in_category:
+  title: "JOINMARKET"
+  slug: "joinmarket"
 cross_references:
   - title: "JOINMARKET"
     slug: "joinmarket"

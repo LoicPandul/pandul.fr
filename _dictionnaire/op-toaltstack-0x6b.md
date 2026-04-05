@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-toaltstack-0x6b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_SWAP - 0X7C"
+  slug: "op-swap-0x7c"
+next_in_category:
+  title: "OP_TRUE - 0X51"
+  slug: "op-true-0x51"
 cross_references:
   - title: "OP_FROMALTSTACK - 0X6C"
     slug: "op-fromaltstack-0x6c"

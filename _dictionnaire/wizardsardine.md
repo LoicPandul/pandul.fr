@@ -5,6 +5,10 @@ permalink: /dictionnaire/wizardsardine/
 category: "COMMUNAUTÉ"
 letter: "W"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "STACKER"
+  slug: "stacker"
 cross_references:
   - title: "LIANA"
     slug: "liana"

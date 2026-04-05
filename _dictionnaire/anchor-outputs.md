@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
 french_term: "SORTIES D'ANCRAGE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ALBY HUB"
+  slug: "alby-hub"
+next_in_category:
+  title: "APERTURE"
+  slug: "aperture"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-pushdata1-0x4c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_PICK - 0X79"
+  slug: "op-pick-0x79"
+next_in_category:
+  title: "OP_PUSHDATA2 - 0X4D"
+  slug: "op-pushdata2-0x4d"
 cross_references:
   - title: "OP_PUSHDATA2 - 0X4D"
     slug: "op-pushdata2-0x4d"

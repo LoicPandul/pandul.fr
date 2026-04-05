@@ -5,6 +5,13 @@ permalink: /dictionnaire/psbt/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PROTON WALLET"
+  slug: "proton-wallet"
+next_in_category:
+  title: "RAW TRANSACTION"
+  slug: "raw-transaction"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

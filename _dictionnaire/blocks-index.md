@@ -5,6 +5,13 @@ permalink: /dictionnaire/blocks-index/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BLOCKCHAIN"
+  slug: "blockchain"
+next_in_category:
+  title: "BLOCKS/REV*.DAT"
+  slug: "blocks-rev-dat"
 cross_references:
   - title: "LEVELDB"
     slug: "leveldb"

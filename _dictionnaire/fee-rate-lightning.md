@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
 french_term: "TAUX DE FRAIS LIGHTNING"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "FARADAY"
+  slug: "faraday"
+next_in_category:
+  title: "FORCE CLOSE"
+  slug: "force-close"
 cross_references:
   - title: "BASE FEE"
     slug: "base-fee"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "I"
 layout: definition
 french_term: "SYNCHRONISATION INITIALE"
+category_slug: "protocole"
+prev_in_category:
+  title: "HAUTEUR DE BLOC"
+  slug: "hauteur-de-bloc"
+next_in_category:
+  title: "IMPLÉMENTATION DE BITCOIN"
+  slug: "implementation-de-bitcoin"
 cross_references:
   - title: "NOEUD COMPLET"
     slug: "noeud-complet"

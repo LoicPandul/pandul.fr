@@ -5,6 +5,13 @@ permalink: /dictionnaire/blk-dat/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIND.PID"
+  slug: "bitcoind-pid"
+next_in_category:
+  title: "BLKINDEX.DAT"
+  slug: "blkindex-dat"
 cross_references:
   - title: "BLOCKS/REV*.DAT"
     slug: "blocks-rev-dat"

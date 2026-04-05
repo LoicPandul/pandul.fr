@@ -5,6 +5,13 @@ permalink: /dictionnaire/trimmed-htlc/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TRANSACTION DE PÉNALITÉ"
+  slug: "transaction-de-penalite"
+next_in_category:
+  title: "TURBO CHANNEL"
+  slug: "turbo-channel"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

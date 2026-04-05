@@ -5,6 +5,13 @@ permalink: /dictionnaire/dustrelayfee/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "DUST LIMIT"
+  slug: "dust-limit"
+next_in_category:
+  title: "EMBRANCHEMENT NATUREL"
+  slug: "embranchement-naturel"
 cross_references:
   - title: "DUST LIMIT"
     slug: "dust-limit"

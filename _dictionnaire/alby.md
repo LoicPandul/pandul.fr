@@ -5,6 +5,13 @@ permalink: /dictionnaire/alby/
 category: "ORGANISATION"
 letter: "A"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "ACINQ"
+  slug: "acinq"
+next_in_category:
+  title: "BLOCKSTREAM"
+  slug: "blockstream"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

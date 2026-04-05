@@ -5,6 +5,13 @@ permalink: /dictionnaire/brc-20/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BLIND ORACLE"
+  slug: "blind-oracle"
+next_in_category:
+  title: "BROLLUPS"
+  slug: "brollups"
 cross_references:
   - title: "ORDINALS THEORY"
     slug: "ordinals-theory"

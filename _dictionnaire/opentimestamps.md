@@ -5,6 +5,13 @@ permalink: /dictionnaire/opentimestamps/
 category: "OUTIL"
 letter: "O"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "NEUTRINO"
+  slug: "neutrino"
+next_in_category:
+  title: "POLAR"
+  slug: "polar"
 cross_references:
   - title: "BLOCKCHAIN"
     slug: "blockchain"

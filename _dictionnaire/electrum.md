@@ -5,6 +5,13 @@ permalink: /dictionnaire/electrum/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DUST"
+  slug: "dust"
+next_in_category:
+  title: "EMPREINTE DE PORTEFEUILLE"
+  slug: "empreinte-de-portefeuille"
 cross_references:
   - title: "NOEUD SPV - NOEUD LÉGER"
     slug: "noeud-spv-noeud-leger"

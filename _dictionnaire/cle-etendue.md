@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "EXTENDED KEY"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHEMIN PRIMAIRE"
+  slug: "chemin-primaire"
+next_in_category:
+  title: "CLÉ MAITRESSE"
+  slug: "cle-maitresse"
 cross_references:
   - title: "BIP-0032"
     slug: "bip-0032"

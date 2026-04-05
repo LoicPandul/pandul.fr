@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "RÉSERVE DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL POINT"
+  slug: "channel-point"
+next_in_category:
+  title: "CHANNEL.DB"
+  slug: "channel-db"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

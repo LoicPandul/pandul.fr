@@ -5,6 +5,13 @@ permalink: /dictionnaire/nwc-nostr-wallet-connect/
 category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "NOEUD LIGHTNING"
+  slug: "noeud-lightning"
+next_in_category:
+  title: "OFFER"
+  slug: "offer"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

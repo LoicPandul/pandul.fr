@@ -5,6 +5,13 @@ permalink: /dictionnaire/aopp/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "AIR-GAPPED"
+  slug: "air-gapped"
+next_in_category:
+  title: "AQUA"
+  slug: "aqua"
 cross_references:
   - title: "SELF-CUSTODY"
     slug: "self-custody"

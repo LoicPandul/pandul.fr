@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
 english_term: "ENTROPY"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ECDSA"
+  slug: "ecdsa"
+next_in_category:
+  title: "FONCTION DE HACHAGE"
+  slug: "fonction-de-hachage"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

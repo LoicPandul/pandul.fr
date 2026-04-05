@@ -5,6 +5,13 @@ permalink: /dictionnaire/stuckless-payment/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SPLICING"
+  slug: "splicing"
+next_in_category:
+  title: "SUBMARINE SWAP"
+  slug: "submarine-swap"
 cross_references:
   - title: "PTLC"
     slug: "ptlc"

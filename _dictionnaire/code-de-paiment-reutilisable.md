@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
 english_term: "REUSABLE PAYMENT CODE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "CLUSTER"
+  slug: "cluster"
+next_in_category:
+  title: "COINJOIN"
+  slug: "coinjoin"
 cross_references:
   - title: "BIP-0047"
     slug: "bip-0047"

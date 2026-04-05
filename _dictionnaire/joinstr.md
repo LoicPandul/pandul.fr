@@ -5,6 +5,13 @@ permalink: /dictionnaire/joinstr/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "JOINMARKET"
+  slug: "joinmarket"
+next_in_category:
+  title: "LABEL - SILENT PAYMENTS"
+  slug: "label-silent-payments"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

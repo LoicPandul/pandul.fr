@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "R"
 layout: definition
 french_term: "ATTAQUE PAR COURSE"
+category_slug: "attaque"
+prev_in_category:
+  title: "PROBLÈME DES GÉNÉRAUX BYZANTINS"
+  slug: "prob-des-generaux-byzantins"
+next_in_category:
+  title: "REPLACEMENT CYCLING"
+  slug: "replacement-cycling"
 cross_references:
   - title: "DOUBLE DÉPENSE"
     slug: "double-depense"

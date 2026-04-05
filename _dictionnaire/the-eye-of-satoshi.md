@@ -5,6 +5,13 @@ permalink: /dictionnaire/the-eye-of-satoshi/
 category: "OUTIL"
 letter: "T"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "TAPD"
+  slug: "tapd"
+next_in_category:
+  title: "THUNDERHUB"
+  slug: "thunderhub"
 cross_references:
   - title: "WATCHTOWER"
     slug: "watchtower"

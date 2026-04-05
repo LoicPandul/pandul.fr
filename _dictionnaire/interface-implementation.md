@@ -5,6 +5,13 @@ permalink: /dictionnaire/interface-implementation/
 category: "RGB"
 letter: "I"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "INTERFACE"
+  slug: "interface"
+next_in_category:
+  title: "INVOICE RGB"
+  slug: "invoice-rgb"
 cross_references:
   - title: "INTERFACE"
     slug: "interface"

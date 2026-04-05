@@ -5,6 +5,13 @@ permalink: /dictionnaire/voltage/
 category: "ORGANISATION"
 letter: "V"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "TWENTYTWO DEVICES"
+  slug: "twentytwo-devices"
+next_in_category:
+  title: "ZBD"
+  slug: "zbd"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

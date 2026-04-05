@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "S"
 layout: definition
 french_term: "SIGNALISATION"
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGHASH_SINGLE | SIGHASH_ACP"
+  slug: "sighash-single-sighash-acp"
+next_in_category:
+  title: "SIGNET"
+  slug: "signet"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

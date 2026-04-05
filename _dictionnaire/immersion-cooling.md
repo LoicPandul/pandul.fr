@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "I"
 layout: definition
 french_term: "REFROIDISSEMENT PAR IMMERSION"
+category_slug: "minage"
+prev_in_category:
+  title: "HYDRO COOLING"
+  slug: "hydro-cooling"
+next_in_category:
+  title: "IP REPORT"
+  slug: "ip-report"
 cross_references:
   - title: "ASIC"
     slug: "asic"

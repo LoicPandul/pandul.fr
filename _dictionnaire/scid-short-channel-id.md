@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
 french_term: "IDENTIFIANT COURT DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SCB - STATIC CHANNEL BACKUP"
+  slug: "scb-static-channel-backup"
+next_in_category:
+  title: "SHARDS - LIGHTNING"
+  slug: "shards-lightning"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

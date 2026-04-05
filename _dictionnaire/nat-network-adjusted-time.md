@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 french_term: "TEMPS AJUSTÉ PAR LE RÉSEAU"
+category_slug: "protocole"
+prev_in_category:
+  title: "MTP - MEDIAN TIME PAST"
+  slug: "mtp-median-time-past"
+next_in_category:
+  title: "NBITS"
+  slug: "nbits"
 cross_references:
   - title: "MTP - MEDIAN TIME PAST"
     slug: "mtp-median-time-past"

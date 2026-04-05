@@ -5,6 +5,10 @@ permalink: /dictionnaire/xmr-monero/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "X"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "XBT"
+  slug: "xbt"
 cross_references:
   - title: "ALTCOIN"
     slug: "altcoin"

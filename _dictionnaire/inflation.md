@@ -5,6 +5,13 @@ permalink: /dictionnaire/inflation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "I"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "HYPERINFLATION"
+  slug: "hyperinflation"
+next_in_category:
+  title: "IOU"
+  slug: "iou"
 cross_references:
   - title: "HALVING"
     slug: "halving"

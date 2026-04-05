@@ -6,6 +6,10 @@ category: "ATTAQUE"
 letter: "A"
 layout: definition
 french_term: "USURPATION D'ADRESSE"
+category_slug: "attaque"
+next_in_category:
+  title: "ATTAQUE DE FINNEY"
+  slug: "attaque-de-finney"
 cross_references:
   - title: "ADRESSE DE RÉCEPTION"
     slug: "adresse-de-reception"

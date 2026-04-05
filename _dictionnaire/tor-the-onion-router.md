@@ -5,6 +5,13 @@ permalink: /dictionnaire/tor-the-onion-router/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "TESTNET4"
+  slug: "testnet4"
+next_in_category:
+  title: "UDP"
+  slug: "udp-user-datagram-protocol"
 cross_references:
   - title: "I2P"
     slug: "i2p"

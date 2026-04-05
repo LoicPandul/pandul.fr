@@ -5,6 +5,13 @@ permalink: /dictionnaire/canaan/
 category: "MINAGE"
 letter: "C"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BRAIINS POOL"
+  slug: "braiins-pool"
+next_in_category:
+  title: "CANDIDAT - BLOC"
+  slug: "candidat-bloc"
 cross_references:
   - title: "ASIC"
     slug: "asic"

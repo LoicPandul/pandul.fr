@@ -5,6 +5,13 @@ permalink: /dictionnaire/nip/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "MINISKETCH"
+  slug: "minisketch"
+next_in_category:
+  title: "NOISE"
+  slug: "noise"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

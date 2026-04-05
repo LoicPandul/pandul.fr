@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "B"
 layout: definition
 french_term: "TOLÉRANCE AUX DÉFAUTS BYZANTINS"
+category_slug: "attaque"
+prev_in_category:
+  title: "ATTAQUE DES 51%"
+  slug: "attaque-des-51-pour-cent"
+next_in_category:
+  title: "BGP HIJACKING"
+  slug: "bgp-hijacking"
 cross_references:
   - title: "PROBLÈME DES GÉNÉRAUX BYZANTINS"
     slug: "prob-des-generaux-byzantins"

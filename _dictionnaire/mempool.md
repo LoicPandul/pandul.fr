@@ -5,6 +5,13 @@ permalink: /dictionnaire/mempool/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MAX_BLOC_SIZE"
+  slug: "max-bloc-size"
+next_in_category:
+  title: "MEMPOOL.DAT"
+  slug: "mempool-dat"
 cross_references:
   - title: "TRANSACTION NON CONFIRMÉE"
     slug: "transaction-non-confirmee"

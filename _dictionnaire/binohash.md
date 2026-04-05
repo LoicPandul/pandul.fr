@@ -5,6 +5,10 @@ permalink: /dictionnaire/binohash/
 category: "SCRIPT"
 letter: "B"
 layout: definition
+category_slug: "script"
+next_in_category:
+  title: "CONTRAT INTELLIGENT"
+  slug: "contrat-intelligent"
 cross_references:
   - title: "BITVM"
     slug: "bitvm"

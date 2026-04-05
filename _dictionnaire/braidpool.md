@@ -5,6 +5,13 @@ permalink: /dictionnaire/braidpool/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BPM - BITCOIN POOLED MINING"
+  slug: "bpm-bitcoin-pooled-mining"
+next_in_category:
+  title: "BRAIINS POOL"
+  slug: "braiins-pool"
 cross_references:
   - title: "P2POOL"
     slug: "p2pool"

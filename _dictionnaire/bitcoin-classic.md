@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-classic/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BIT GOLD"
+  slug: "bit-gold"
+next_in_category:
+  title: "BITCOIN JESUS"
+  slug: "bitcoin-jesus"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

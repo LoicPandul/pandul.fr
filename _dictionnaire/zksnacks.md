@@ -5,6 +5,10 @@ permalink: /dictionnaire/zksnacks/
 category: "ORGANISATION"
 letter: "Z"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "ZBD"
+  slug: "zbd"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

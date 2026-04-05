@@ -5,6 +5,13 @@ permalink: /dictionnaire/pbkdf2/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "PAY-TO-CONTRACT"
+  slug: "pay-to-contract"
+next_in_category:
+  title: "PEDERSEN COMMITMENT"
+  slug: "pedersen-commitment"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

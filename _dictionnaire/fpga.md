@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "F"
 layout: definition
 french_term: "RÉSEAU DE PORTES PROGRAMMABLES"
+category_slug: "minage"
+prev_in_category:
+  title: "FOUNDRY USA"
+  slug: "foundry-usa"
+next_in_category:
+  title: "FPPS - FULL PAY PER SHARE"
+  slug: "fpps-full-pay-per-share"
 cross_references:
   - title: "ASIC"
     slug: "asic"

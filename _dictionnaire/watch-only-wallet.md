@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
 french_term: "PORTEFEUILLE EN LECTURE SEULE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "WASABI WALLET"
+  slug: "wasabi-wallet"
+next_in_category:
+  title: "WIF - WALLET IMPORT FORMAT"
+  slug: "wallet-import-format-wif"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

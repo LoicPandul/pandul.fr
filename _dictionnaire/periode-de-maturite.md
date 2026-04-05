@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 english_term: "MATURITY PERIOD"
+category_slug: "protocole"
+prev_in_category:
+  title: "PÉRIMÉ - BLOC"
+  slug: "perime-bloc"
+next_in_category:
+  title: "PREUVE DE TRAVAIL"
+  slug: "preuve-de-travail"
 cross_references:
   - title: "RÉCOMPENSE DE BLOC"
     slug: "recompense-de-bloc"

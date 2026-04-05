@@ -5,6 +5,13 @@ permalink: /dictionnaire/seedsigner/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEEDQR"
+  slug: "seedqr"
+next_in_category:
+  title: "SEEDXOR"
+  slug: "seedxor"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

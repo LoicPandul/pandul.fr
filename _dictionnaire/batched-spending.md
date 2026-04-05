@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 french_term: "DÉPENSES GROUPÉES"
+category_slug: "protocole"
+prev_in_category:
+  title: "BASE58CHECK"
+  slug: "base58check"
+next_in_category:
+  title: "BCOIN"
+  slug: "bcoin"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

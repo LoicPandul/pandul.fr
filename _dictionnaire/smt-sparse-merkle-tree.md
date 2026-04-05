@@ -5,6 +5,13 @@ permalink: /dictionnaire/smt-sparse-merkle-tree/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "SHOR"
+  slug: "shor-algorithme"
+next_in_category:
+  title: "SOURCEFORGE"
+  slug: "sourceforge"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

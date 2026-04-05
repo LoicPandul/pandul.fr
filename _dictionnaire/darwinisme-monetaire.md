@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
 english_term: "MONETARY DARWINISM"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "CUSTODY"
+  slug: "custody"
+next_in_category:
+  title: "DCA - DOLLAR COST AVERAGING"
+  slug: "dca-dollar-cost-averaging"
 cross_references:
   - title: "HYPER-BITCOINISATION"
     slug: "hyper-bitcoinisation"

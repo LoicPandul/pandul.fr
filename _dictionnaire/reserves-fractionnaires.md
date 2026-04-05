@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
 english_term: "FRACTIONAL RESERVES"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "QE - QUANTITATIVE EASING"
+  slug: "quantitative-easing-qe"
+next_in_category:
+  title: "RISQUE DE CONTREPARTIE"
+  slug: "risque-de-contrepartie"
 cross_references:
   - title: "PREUVE DE RÉSERVES"
     slug: "preuve-de-reserves"

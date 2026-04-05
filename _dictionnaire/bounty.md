@@ -5,6 +5,13 @@ permalink: /dictionnaire/bounty/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "BITCOINTALK"
+  slug: "bitcointalk"
+next_in_category:
+  title: "CONTRIBUTEUR - CORE"
+  slug: "contributeur-core"
 cross_references:
   - title: "FOSS"
     slug: "foss"

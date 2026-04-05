@@ -5,6 +5,13 @@ permalink: /dictionnaire/revault/
 category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "RBF - REPLACE-BY-FEE"
+  slug: "rbf-replace-by-fee"
+next_in_category:
+  title: "SATODIME"
+  slug: "satodime"
 cross_references:
   - title: "VAULT"
     slug: "vault"

@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
 french_term: "NOMBRE ORDINAL"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ORACLE"
+  slug: "oracle"
+next_in_category:
+  title: "ORDINALS THEORY"
+  slug: "ordinals-theory"
 cross_references:
   - title: "ORDINALS THEORY"
     slug: "ordinals-theory"

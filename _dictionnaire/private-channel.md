@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
 french_term: "CANAL PRIVÉ"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "POOL - LIGHTNING"
+  slug: "pool-lightning"
+next_in_category:
+  title: "PROBING"
+  slug: "probing"
 cross_references:
   - title: "PUBLIC CHANNEL"
     slug: "public-channel"

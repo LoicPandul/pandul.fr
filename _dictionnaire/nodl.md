@@ -5,6 +5,13 @@ permalink: /dictionnaire/nodl/
 category: "ORGANISATION"
 letter: "N"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "MIT DCI"
+  slug: "mit-dci"
+next_in_category:
+  title: "OPENNODE"
+  slug: "opennode"
 cross_references:
   - title: "NOEUD COMPLET"
     slug: "noeud-complet"

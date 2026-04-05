@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 english_term: "LIGHTNING CHANNEL CAPACITY"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CANAL DE PAIMENT"
+  slug: "canal-de-paiment"
+next_in_category:
+  title: "CHANNEL ACCEPTOR"
+  slug: "channel-acceptor"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

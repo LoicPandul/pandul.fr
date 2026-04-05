@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
 english_term: "COINJOIN COORDINATOR"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "COINSWAP"
+  slug: "coinswap"
+next_in_category:
+  title: "DANDELION"
+  slug: "dandelion"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

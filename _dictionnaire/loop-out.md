@@ -5,6 +5,13 @@ permalink: /dictionnaire/loop-out/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LOOP IN"
+  slug: "loop-in"
+next_in_category:
+  title: "LUD"
+  slug: "lud"
 cross_references:
   - title: "LOOP"
     slug: "loop"

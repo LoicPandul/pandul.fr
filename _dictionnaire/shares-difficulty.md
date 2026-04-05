@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "S"
 layout: definition
 french_term: "DIFFICULTÉ DES PARTS"
+category_slug: "minage"
+prev_in_category:
+  title: "SHARES"
+  slug: "shares"
+next_in_category:
+  title: "SMPPS"
+  slug: "smpps"
 cross_references:
   - title: "SHARES"
     slug: "shares"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/ip-asn-map/
 category: "RÉSEAU"
 letter: "I"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "I2P"
+  slug: "i2p"
+next_in_category:
+  title: "LATENCE"
+  slug: "latence"
 cross_references:
   - title: "ASMAP"
     slug: "asmap"

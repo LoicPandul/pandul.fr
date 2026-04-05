@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "M"
 layout: definition
 english_term: "TO MAP"
+category_slug: "informatique"
+prev_in_category:
+  title: "MACAROON"
+  slug: "macaroon"
+next_in_category:
+  title: "MERGE"
+  slug: "merge"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

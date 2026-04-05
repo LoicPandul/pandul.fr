@@ -5,6 +5,13 @@ permalink: /dictionnaire/miniscript/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "MATT"
+  slug: "matt"
+next_in_category:
+  title: "MINITAPSCRIPT"
+  slug: "minitapscript"
 cross_references:
   - title: "SCRIPT"
     slug: "script"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/silk-road/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "SATOSHILABS"
+  slug: "satoshilabs"
+next_in_category:
+  title: "SPIRAL"
+  slug: "spiral"
 cross_references:
   - title: "TOR"
     slug: "tor-the-onion-router"

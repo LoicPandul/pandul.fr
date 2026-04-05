@@ -6,6 +6,13 @@ category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
 english_term: "MAINTAINER"
+category_slug: "communaute"
+prev_in_category:
+  title: "CONTRIBUTEUR - CORE"
+  slug: "contributeur-core"
+next_in_category:
+  title: "MAINTENEUR PRINCIPAL - CORE"
+  slug: "mainteneur-principal-core"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

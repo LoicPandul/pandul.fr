@@ -5,6 +5,13 @@ permalink: /dictionnaire/sighash-single-0x03/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGHASH_NONE | SIGHASH_ACP"
+  slug: "sighash-none-sighash-acp"
+next_in_category:
+  title: "SIGHASH_SINGLE | SIGHASH_ACP"
+  slug: "sighash-single-sighash-acp"
 cross_references:
   - title: "SIGHASH FLAG"
     slug: "sighash-flag"

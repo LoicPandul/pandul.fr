@@ -5,6 +5,13 @@ permalink: /dictionnaire/sighash-all/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGHASH FLAG"
+  slug: "sighash-flag"
+next_in_category:
+  title: "SIGHASH_ALL | SIGHASH_ACP"
+  slug: "sighash-all-sighash-acp"
 cross_references:
   - title: "SIGHASH FLAG"
     slug: "sighash-flag"

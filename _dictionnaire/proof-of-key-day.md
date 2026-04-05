@@ -5,6 +5,13 @@ permalink: /dictionnaire/proof-of-key-day/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "PREUVE DE RÉSERVES"
+  slug: "preuve-de-reserves"
+next_in_category:
+  title: "PSAN"
+  slug: "psan"
 cross_references:
   - title: "GENÈSE"
     slug: "genese"

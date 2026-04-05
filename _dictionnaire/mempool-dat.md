@@ -5,6 +5,13 @@ permalink: /dictionnaire/mempool-dat/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MEMPOOL"
+  slug: "mempool"
+next_in_category:
+  title: "MERKLE BLOCK"
+  slug: "merkle-block"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

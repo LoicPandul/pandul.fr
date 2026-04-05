@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 english_term: "CONSENSUS RULES"
+category_slug: "protocole"
+prev_in_category:
+  title: "RÉCURSIF - COVENANT"
+  slug: "recursif-covenant"
+next_in_category:
+  title: "RÈGLES DE STANDARDISATION"
+  slug: "regles-de-standardisation"
 cross_references:
   - title: "RÈGLES DE STANDARDISATION"
     slug: "regles-de-standardisation"

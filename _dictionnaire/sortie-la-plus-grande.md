@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 english_term: "LARGEST OUTPUT"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SOROBAN"
+  slug: "soroban"
+next_in_category:
+  title: "SPREAD - WST"
+  slug: "spread-wst"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/pizza-day/
 category: "HISTOIRE"
 letter: "P"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "PILULE ORANGE"
+  slug: "pilule-orange"
+next_in_category:
+  title: "RPOW"
+  slug: "rpow"
 cross_references:
   - title: "BITCOINTALK"
     slug: "bitcointalk"

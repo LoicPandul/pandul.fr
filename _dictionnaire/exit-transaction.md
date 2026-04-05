@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "E"
 layout: definition
 french_term: "TRANSACTION DE SORTIE"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "EDGE NODE"
+  slug: "edge-node"
+next_in_category:
+  title: "FEDIMINT"
+  slug: "fedimint"
 cross_references:
   - title: "STATECHAIN"
     slug: "statechain"

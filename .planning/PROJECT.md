@@ -27,6 +27,12 @@ Mettre en valeur la richesse du catalogue de contenus educatifs Bitcoin de Loic 
 - [ ] Une page par definition : titre, contenu markdown, categorie, terme anglais, cross-references, images
 - [ ] Navigation par lettre alphabetique et par categorie dans le dictionnaire
 
+### Validated in Phase 2
+
+- Validated: Dictionnaire interactif — 1408 definitions generees en pages Jekyll depuis le repo Dictionnaire via script sync Node.js zero-dependency
+- Validated: Script de sync — `node _scripts/sync-dictionnaire.js` genere fichiers MD, resout cross-refs UUID, copie images, genere index JSON
+- Validated: Index JSON de recherche — 1408 entrees avec title, slug, category, letter dans `assets/data/search-index.json`
+
 ### Validated in Phase 1
 
 - Validated: Refonte UI/UX — design noir (#000) / blanc (#FFF) / accent orange #D04819, responsive mobile-first
@@ -54,6 +60,7 @@ Mettre en valeur la richesse du catalogue de contenus educatifs Bitcoin de Loic 
 - Stack : Jekyll, GitHub Pages, CSS 57%, HTML 31%, JS 12%
 - Palette : noir pur (#000), blanc pur (#FFF), accent orange #D04819 (avec parcimonie)
 - Phase 1 complete : design system Outfit + Inter, hamburger mobile, book promo full-width
+- Phase 2 complete : pipeline de donnees dictionnaire — 1408 definitions sync, cross-refs, images, index JSON
 
 ## Constraints
 
@@ -92,4 +99,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-05 after Phase 1 completion*
+*Last updated: 2026-04-05 after Phase 2 completion*

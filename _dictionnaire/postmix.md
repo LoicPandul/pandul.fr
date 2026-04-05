@@ -5,6 +5,13 @@ permalink: /dictionnaire/postmix/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "POOL DE COINJOIN"
+  slug: "pool-coinjoin"
+next_in_category:
+  title: "PREMIX"
+  slug: "premix"
 cross_references:
   - title: "WHIRLPOOL"
     slug: "whirlpool"

@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "P"
 layout: definition
 english_term: "PERCOLATION"
+category_slug: "informatique"
+prev_in_category:
+  title: "OSINT"
+  slug: "osint"
+next_in_category:
+  title: "PRÉFIXES BINAIRES"
+  slug: "prefixes-binaires"
 cross_references:
   - title: "RÈGLES DE STANDARDISATION"
     slug: "regles-de-standardisation"

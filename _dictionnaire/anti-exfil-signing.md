@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
 french_term: "SIGNATURE ANTI-EXFILTRATION"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ADAPTOR SIGNATURE"
+  slug: "adaptor-signature"
+next_in_category:
+  title: "ARBRE DE MERKLE"
+  slug: "arbre-de-merkle"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

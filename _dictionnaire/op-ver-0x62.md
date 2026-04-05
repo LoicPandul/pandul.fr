@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-ver-0x62/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_VAULT - 0XBB"
+  slug: "op-vault-0xbb"
+next_in_category:
+  title: "OP_VERIFY - 0X69"
+  slug: "op-verify-0x69"
 cross_references:
   - title: "OP_SUCCESS"
     slug: "op-success"

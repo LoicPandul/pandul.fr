@@ -5,6 +5,13 @@ permalink: /dictionnaire/nerdminer/
 category: "MINAGE"
 letter: "N"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "MINING POOL"
+  slug: "mining-pool"
+next_in_category:
+  title: "OCEAN"
+  slug: "ocean"
 cross_references:
   - title: "MINAGE"
     slug: "minage"

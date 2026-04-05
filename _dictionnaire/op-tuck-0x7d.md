@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-tuck-0x7d/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_TRUE - 0X51"
+  slug: "op-true-0x51"
+next_in_category:
+  title: "OP_TXHASH - 0XBD"
+  slug: "op-txhash-0xbd"
 cross_references:
   - title: "OP_SWAP - 0X7C"
     slug: "op-swap-0x7c"

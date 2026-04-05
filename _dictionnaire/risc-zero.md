@@ -5,6 +5,13 @@ permalink: /dictionnaire/risc-zero/
 category: "ORGANISATION"
 letter: "R"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "PEACH"
+  slug: "peach"
+next_in_category:
+  title: "SATOCHIP"
+  slug: "satochip"
 cross_references:
   - title: "GROTH16"
     slug: "groth16"

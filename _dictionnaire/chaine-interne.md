@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "INTERNAL KEYCHAIN"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHAINE EXTERNE"
+  slug: "chaine-externe"
+next_in_category:
+  title: "CHANGE"
+  slug: "change"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

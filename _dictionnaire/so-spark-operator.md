@@ -5,6 +5,13 @@ permalink: /dictionnaire/so-spark-operator/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SÉQUENCEUR"
+  slug: "sequenceur"
+next_in_category:
+  title: "SPARK"
+  slug: "spark"
 cross_references:
   - title: "SE - SPARK ENTITY"
     slug: "se-spark-entity"

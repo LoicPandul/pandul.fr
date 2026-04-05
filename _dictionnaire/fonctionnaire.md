@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "F"
 layout: definition
 english_term: "FUNCTIONARIES"
+category_slug: "sidechain"
+prev_in_category:
+  title: "FÉDÉRATION"
+  slug: "federation"
+next_in_category:
+  title: "LBTC - LIQUID BITCOIN"
+  slug: "lbtc"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

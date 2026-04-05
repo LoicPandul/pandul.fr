@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "PRIMARY PATH"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHEMIN DE RÉCUPÉRATION"
+  slug: "chemin-de-recuperation"
+next_in_category:
+  title: "CLÉ ÉTENDUE"
+  slug: "cle-etendue"
 cross_references:
   - title: "MINISCRIPT"
     slug: "miniscript"

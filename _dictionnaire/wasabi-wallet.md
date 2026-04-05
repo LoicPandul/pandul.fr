@@ -5,6 +5,13 @@ permalink: /dictionnaire/wasabi-wallet/
 category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "VPUB"
+  slug: "vpub"
+next_in_category:
+  title: "WATCH-ONLY WALLET"
+  slug: "watch-only-wallet"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "I"
 layout: definition
 french_term: "NUMÉRO DE CLÉ"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "HWI"
+  slug: "hwi"
+next_in_category:
+  title: "JADE"
+  slug: "jade"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

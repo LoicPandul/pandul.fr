@@ -5,6 +5,13 @@ permalink: /dictionnaire/satoshilabs/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "SATOCHIP"
+  slug: "satochip"
+next_in_category:
+  title: "SILK ROAD"
+  slug: "silk-road"
 cross_references:
   - title: "TREZOR"
     slug: "trezor"

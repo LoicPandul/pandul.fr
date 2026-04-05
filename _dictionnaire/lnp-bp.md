@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnp-bp/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LIGHTSPARK"
+  slug: "lightspark"
+next_in_category:
+  title: "LOCALBITCOINS"
+  slug: "localbitcoins"
 cross_references:
   - title: "RGB"
     slug: "rgb"

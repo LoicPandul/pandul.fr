@@ -5,6 +5,13 @@ permalink: /dictionnaire/shitcoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "SEIGNEURIAGE"
+  slug: "seigneuriage"
+next_in_category:
+  title: "STABLECOIN"
+  slug: "stablecoin"
 cross_references:
   - title: "ALTCOIN"
     slug: "altcoin"

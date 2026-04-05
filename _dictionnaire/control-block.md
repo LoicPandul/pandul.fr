@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "C"
 layout: definition
 french_term: "BLOC DE CONTROLE"
+category_slug: "script"
+prev_in_category:
+  title: "CONTRAT INTELLIGENT"
+  slug: "contrat-intelligent"
+next_in_category:
+  title: "MATT"
+  slug: "matt"
 cross_references:
   - title: "P2TR"
     slug: "p2tr"

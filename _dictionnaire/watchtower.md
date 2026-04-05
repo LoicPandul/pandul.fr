@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
 french_term: "TOUR DE GARDE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "WALLET OF SATOSHI"
+  slug: "wallet-of-satoshi"
+next_in_category:
+  title: "WUMBO CHANNEL"
+  slug: "wumbo-channel"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/halving/
 category: "PROTOCOLE"
 letter: "H"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "GUISETTINGS.INI.BAK"
+  slug: "guisettings-ini-bak"
+next_in_category:
+  title: "HARD FORK"
+  slug: "hard-fork"
 cross_references:
   - title: "SUBVENTION DE BLOC"
     slug: "subvention-de-bloc"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/groth16/
 category: "CRYPTOGRAPHIE"
 letter: "G"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "GNPA"
+  slug: "gnpa"
+next_in_category:
+  title: "HASH160"
+  slug: "hash160"
 cross_references:
   - title: "SNARK"
     slug: "snark"

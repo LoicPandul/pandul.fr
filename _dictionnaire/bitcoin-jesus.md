@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-jesus/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BITCOIN CLASSIC"
+  slug: "bitcoin-classic"
+next_in_category:
+  title: "BITCOIN UNLIMITED"
+  slug: "bitcoin-unlimited"
 cross_references:
   - title: "BCH - BITCOIN CASH"
     slug: "bch-bitcoin-cash"

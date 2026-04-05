@@ -5,6 +5,13 @@ permalink: /dictionnaire/consolidation/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "COMPTE"
+  slug: "compte"
+next_in_category:
+  title: "CPFP - CHILD PAY FOR PARENT"
+  slug: "cpfp-child-pay-for-parent"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

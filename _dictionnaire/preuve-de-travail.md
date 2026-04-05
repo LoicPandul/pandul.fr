@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 english_term: "POW - PROOF OF WORK"
+category_slug: "protocole"
+prev_in_category:
+  title: "PÉRIODE DE MATURITÉ"
+  slug: "periode-de-maturite"
+next_in_category:
+  title: "PRIME DE PROXIMITÉ"
+  slug: "prime-de-proximite"
 cross_references:
   - title: "AJUSTEMENT DE LA DIFFICULTE"
     slug: "ajustement-de-la-difficulte"

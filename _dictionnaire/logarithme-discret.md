@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "L"
 layout: definition
 english_term: "DISCRETE LOGARITHM"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "HSM"
+  slug: "hsm"
+next_in_category:
+  title: "MAST"
+  slug: "mast"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

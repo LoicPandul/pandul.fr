@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitaxe/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BETTERHASH"
+  slug: "betterhash"
+next_in_category:
+  title: "BITMAIN"
+  slug: "bitmain"
 cross_references:
   - title: "ASIC"
     slug: "asic"

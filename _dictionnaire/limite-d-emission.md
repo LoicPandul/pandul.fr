@@ -5,6 +5,13 @@ permalink: /dictionnaire/limite-d-emission/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "LIBSECP256K1"
+  slug: "libsecp256k1"
+next_in_category:
+  title: "LOCK"
+  slug: "lock"
 cross_references:
   - title: "HALVING"
     slug: "halving"

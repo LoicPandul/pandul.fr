@@ -5,6 +5,13 @@ permalink: /dictionnaire/full-rbf/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "FRAIS DE TRANSACTION"
+  slug: "frais-de-transaction"
+next_in_category:
+  title: "GENÈSE"
+  slug: "genese"
 cross_references:
   - title: "RBF - REPLACE-BY-FEE"
     slug: "rbf-replace-by-fee"

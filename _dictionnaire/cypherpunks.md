@@ -5,6 +5,13 @@ permalink: /dictionnaire/cypherpunks/
 category: "HISTOIRE"
 letter: "C"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "CASASCIUS"
+  slug: "casascius"
+next_in_category:
+  title: "DIGICASH"
+  slug: "digicash"
 cross_references:
   - title: "B-MONEY"
     slug: "b-money"

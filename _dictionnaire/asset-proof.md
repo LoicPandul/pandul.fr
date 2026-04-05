@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
 french_term: "PREUVE D'ACTIF"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASSET MERGE"
+  slug: "asset-merge"
+next_in_category:
+  title: "ASSET SPLIT"
+  slug: "asset-split"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

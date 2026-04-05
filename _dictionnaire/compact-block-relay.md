@@ -5,6 +5,13 @@ permalink: /dictionnaire/compact-block-relay/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "COMPACT BLOCK FILTERS"
+  slug: "compact-block-filters"
+next_in_category:
+  title: "DÉCENTRALISATION"
+  slug: "decentralisation"
 cross_references:
   - title: "BIP-0152"
     slug: "bip-0152"

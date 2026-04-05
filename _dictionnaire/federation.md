@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "F"
 layout: definition
 english_term: "FEDERATION"
+category_slug: "sidechain"
+prev_in_category:
+  title: "ELEMENTS"
+  slug: "elements"
+next_in_category:
+  title: "FONCTIONNAIRE"
+  slug: "fonctionnaire"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

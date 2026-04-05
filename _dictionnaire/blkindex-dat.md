@@ -5,6 +5,13 @@ permalink: /dictionnaire/blkindex-dat/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BLK*.DAT"
+  slug: "blk-dat"
+next_in_category:
+  title: "BLKTREE/"
+  slug: "blktree"
 cross_references:
   - title: "CHAINSTATE/"
     slug: "chainstate"

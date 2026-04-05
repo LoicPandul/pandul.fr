@@ -5,6 +5,13 @@ permalink: /dictionnaire/bisq/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BDK - BITCOIN DEV KIT"
+  slug: "bdk-bitcoin-dev-kit"
+next_in_category:
+  title: "BITBANANA"
+  slug: "bitbanana"
 cross_references:
   - title: "PORTEFEUILLE"
     slug: "portefeuille"

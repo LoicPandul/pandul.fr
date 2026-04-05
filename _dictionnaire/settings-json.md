@@ -5,6 +5,13 @@ permalink: /dictionnaire/settings-json/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SEGWIT"
+  slug: "segwit"
+next_in_category:
+  title: "SIGHASH FLAG"
+  slug: "sighash-flag"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

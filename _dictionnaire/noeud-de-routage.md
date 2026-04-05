@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
 english_term: "ROUTING NODE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "MPP - MULTI-PATH PAYMENTS"
+  slug: "mpp-multi-path-payments"
+next_in_category:
+  title: "NOEUD LIGHTNING"
+  slug: "noeud-lightning"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

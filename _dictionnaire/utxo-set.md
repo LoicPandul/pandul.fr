@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "U"
 layout: definition
 french_term: "ENSEMBLE D'UTXOS"
+category_slug: "protocole"
+prev_in_category:
+  title: "UTXO"
+  slug: "utxo"
+next_in_category:
+  title: "VBYTES"
+  slug: "vbytes"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

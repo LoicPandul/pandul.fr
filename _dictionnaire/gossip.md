@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "G"
 layout: definition
 french_term: "BAVARDAGE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "GATEWAY NODE"
+  slug: "gateway-node"
+next_in_category:
+  title: "HODL INVOICE"
+  slug: "hodl-invoice"
 cross_references:
   - title: "NOEUD LIGHTNING"
     slug: "noeud-lightning"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "O"
 layout: definition
 french_term: "HORS RÉSEAU"
+category_slug: "minage"
+prev_in_category:
+  title: "OCEAN"
+  slug: "ocean"
+next_in_category:
+  title: "ON-GRID"
+  slug: "on-grid"
 cross_references:
   - title: "ON-GRID"
     slug: "on-grid"

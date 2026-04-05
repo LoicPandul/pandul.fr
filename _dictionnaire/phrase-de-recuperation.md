@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
 english_term: "MNEMONIC PHRASE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PASSPORT"
+  slug: "passport"
+next_in_category:
+  title: "PORTAL"
+  slug: "portal"
 cross_references:
   - title: "BIP-0039"
     slug: "bip-0039"

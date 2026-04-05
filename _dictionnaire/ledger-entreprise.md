@@ -5,6 +5,13 @@ permalink: /dictionnaire/ledger-entreprise/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "JAN3"
+  slug: "jan3"
+next_in_category:
+  title: "LIGHTNING LABS"
+  slug: "lightning-labs"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

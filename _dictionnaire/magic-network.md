@@ -5,6 +5,13 @@ permalink: /dictionnaire/magic-network/
 category: "RÉSEAU"
 letter: "M"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "LATENCE"
+  slug: "latence"
+next_in_category:
+  title: "MINISKETCH"
+  slug: "minisketch"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/sat-satoshi/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "RISQUE DE CONTREPARTIE"
+  slug: "risque-de-contrepartie"
+next_in_category:
+  title: "SEIGNEURIAGE"
+  slug: "seigneuriage"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

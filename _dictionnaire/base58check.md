@@ -5,6 +5,13 @@ permalink: /dictionnaire/base58check/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BARE-MULTISIG"
+  slug: "bare-multisig"
+next_in_category:
+  title: "BATCHED SPENDING"
+  slug: "batched-spending"
 cross_references:
   - title: "BECH32 ET BECH32M"
     slug: "bech32-et-bech32m"

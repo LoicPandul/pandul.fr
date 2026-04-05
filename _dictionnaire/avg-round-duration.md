@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "A"
 layout: definition
 french_term: "DURÉE MOYENNE DE TOUR"
+category_slug: "minage"
+prev_in_category:
+  title: "ASICBOOST"
+  slug: "asicboost"
+next_in_category:
+  title: "BEHIND-THE-METER"
+  slug: "behind-the-meter"
 cross_references:
   - title: "SHARES"
     slug: "shares"

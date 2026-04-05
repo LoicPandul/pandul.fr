@@ -5,6 +5,10 @@ permalink: /dictionnaire/apo-anyprevout/
 category: "BIP"
 letter: "A"
 layout: definition
+category_slug: "bip"
+next_in_category:
+  title: "BIP"
+  slug: "bip"
 cross_references:
   - title: "BIP-0118"
     slug: "bip-0118"

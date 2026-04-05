@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "CRYPTOGRAPHY"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CRYPTER"
+  slug: "crypter"
+next_in_category:
+  title: "CRYPTOLOGIE"
+  slug: "cryptologie"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

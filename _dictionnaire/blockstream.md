@@ -5,6 +5,13 @@ permalink: /dictionnaire/blockstream/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "ALBY"
+  slug: "alby"
+next_in_category:
+  title: "BTRUST"
+  slug: "btrust"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

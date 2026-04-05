@@ -5,6 +5,13 @@ permalink: /dictionnaire/nlocktime/
 category: "SCRIPT"
 letter: "N"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "MULTISIG"
+  slug: "multisig"
+next_in_category:
+  title: "NSEQUENCE"
+  slug: "nsequence"
 cross_references:
   - title: "TIMELOCK"
     slug: "timelock"

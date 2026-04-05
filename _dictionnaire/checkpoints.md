@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 french_term: "POINTS DE CONTROLE"
+category_slug: "protocole"
+prev_in_category:
+  title: "CHAINWORK"
+  slug: "chainwork"
+next_in_category:
+  title: "CISA"
+  slug: "cisa"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

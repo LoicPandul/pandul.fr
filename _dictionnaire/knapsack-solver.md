@@ -5,6 +5,13 @@ permalink: /dictionnaire/knapsack-solver/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "KEYSTORE"
+  slug: "keystore"
+next_in_category:
+  title: "LABEL"
+  slug: "label"
 cross_references:
   - title: "BRANCH-AND-BOUND"
     slug: "branch-and-bound"

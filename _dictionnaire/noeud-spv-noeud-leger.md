@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 english_term: "SPV NODE - LIGHTWEIGHT NODE"
+category_slug: "protocole"
+prev_in_category:
+  title: "NOEUD ÉLAGUÉ"
+  slug: "noeud-elague"
+next_in_category:
+  title: "NULL DATA"
+  slug: "null-data"
 cross_references:
   - title: "SIMPLIFIED PAYMENT VERIFICATION"
     slug: "simplified-payment-verification"

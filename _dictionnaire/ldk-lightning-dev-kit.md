@@ -5,6 +5,13 @@ permalink: /dictionnaire/ldk-lightning-dev-kit/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "L402"
+  slug: "l402"
+next_in_category:
+  title: "LIGHTNING NETWORK"
+  slug: "lightning-network"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

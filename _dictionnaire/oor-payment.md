@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
 french_term: "PAIEMENT HORS ROUND"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "OMNI"
+  slug: "omni"
+next_in_category:
+  title: "ORACLE"
+  slug: "oracle"
 cross_references:
   - title: "ARK"
     slug: "ark"

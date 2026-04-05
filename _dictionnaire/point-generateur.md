@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
 english_term: "GENERATOR POINT"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "PEDERSEN COMMITMENT"
+  slug: "pedersen-commitment"
+next_in_category:
+  title: "PREIMAGE"
+  slug: "preimage"
 cross_references:
   - title: "SECP256K1"
     slug: "secp256k1"

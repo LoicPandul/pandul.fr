@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "A"
 layout: definition
 french_term: "RÉSISTANCE AUX ASIC"
+category_slug: "minage"
+prev_in_category:
+  title: "ASIC"
+  slug: "asic"
+next_in_category:
+  title: "ASICBOOST"
+  slug: "asicboost"
 cross_references:
   - title: "ASIC"
     slug: "asic"

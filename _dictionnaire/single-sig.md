@@ -5,6 +5,13 @@ permalink: /dictionnaire/single-sig/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SIGNER À L'AVEUGLE"
+  slug: "signer-a-l-aveugle"
+next_in_category:
+  title: "SPARROW WALLET"
+  slug: "sparrow-wallet"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

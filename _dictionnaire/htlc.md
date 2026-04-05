@@ -5,6 +5,13 @@ permalink: /dictionnaire/htlc/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "HOSTED CHANNEL"
+  slug: "hosted-channel"
+next_in_category:
+  title: "HTLC ENDORSEMENT"
+  slug: "htlc-endorsement"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/drivechain/
 category: "SIDECHAIN"
 letter: "D"
 layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "BLOCKSIGNERS"
+  slug: "blocksigners"
+next_in_category:
+  title: "DYNAFED - DYNAMIC FEDERATIONS"
+  slug: "dynamic-federations"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

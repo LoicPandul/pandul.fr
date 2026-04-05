@@ -5,6 +5,13 @@ permalink: /dictionnaire/localbitcoins/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LNP/BP"
+  slug: "lnp-bp"
+next_in_category:
+  title: "MIT DCI"
+  slug: "mit-dci"
 cross_references:
   - title: "MTGOX"
     slug: "mtgox"

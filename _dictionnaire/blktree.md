@@ -5,6 +5,13 @@ permalink: /dictionnaire/blktree/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BLKINDEX.DAT"
+  slug: "blkindex-dat"
+next_in_category:
+  title: "BLOC"
+  slug: "bloc"
 cross_references:
   - title: "BLOCKS INDEX"
     slug: "blocks-index"

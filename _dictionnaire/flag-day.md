@@ -5,6 +5,13 @@ permalink: /dictionnaire/flag-day/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "FINALITÉ DE TRANSACTION"
+  slug: "finalite-de-transaction"
+next_in_category:
+  title: "FORK"
+  slug: "fork"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

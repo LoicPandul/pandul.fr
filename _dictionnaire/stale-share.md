@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "S"
 layout: definition
 french_term: "PART PÉRIMÉE"
+category_slug: "minage"
+prev_in_category:
+  title: "SPY MINING"
+  slug: "spy-mining"
+next_in_category:
+  title: "STRATUM"
+  slug: "stratum"
 cross_references:
   - title: "SHARES"
     slug: "shares"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-hash256-0xaa/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_HASH160 - 0XA9"
+  slug: "op-hash160-0xa9"
+next_in_category:
+  title: "OP_IF - 0X63"
+  slug: "op-if-0x63"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

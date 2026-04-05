@@ -5,6 +5,13 @@ permalink: /dictionnaire/bos-balance-of-satoshis/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BOLTZ"
+  slug: "boltz"
+next_in_category:
+  title: "BTCMAP"
+  slug: "btcmap"
 cross_references:
   - title: "LND"
     slug: "lnd"

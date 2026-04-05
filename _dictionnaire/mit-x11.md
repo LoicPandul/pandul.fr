@@ -5,6 +5,13 @@ permalink: /dictionnaire/mit-x11/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "MÉTADONNÉES"
+  slug: "metadonnees"
+next_in_category:
+  title: "MS-SMT"
+  slug: "ms-smt"
 cross_references:
   - title: "GPL"
     slug: "gpl"

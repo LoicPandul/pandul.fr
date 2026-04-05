@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "H"
 layout: definition
 french_term: "REFROIDISSEMENT À L'EAU"
+category_slug: "minage"
+prev_in_category:
+  title: "HOME MINING"
+  slug: "home-mining"
+next_in_category:
+  title: "IMMERSION COOLING"
+  slug: "immersion-cooling"
 cross_references:
   - title: "ASIC"
     slug: "asic"

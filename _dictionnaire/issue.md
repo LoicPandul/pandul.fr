@@ -5,6 +5,13 @@ permalink: /dictionnaire/issue/
 category: "INFORMATIQUE"
 letter: "I"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "HRP - HUMAN READABLE PART"
+  slug: "hrp-human-readable-part"
+next_in_category:
+  title: "LITTLE-ENDIAN"
+  slug: "little-endian"
 cross_references:
   - title: "GITHUB"
     slug: "github"

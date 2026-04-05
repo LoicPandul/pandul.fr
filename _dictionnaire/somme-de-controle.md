@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 english_term: "CHECKSUM"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SNARK"
+  slug: "snark"
+next_in_category:
+  title: "STARK"
+  slug: "stark"
 cross_references:
   - title: "ADRESSE DE RÉCEPTION"
     slug: "adresse-de-reception"

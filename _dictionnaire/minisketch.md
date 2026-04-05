@@ -5,6 +5,13 @@ permalink: /dictionnaire/minisketch/
 category: "RÉSEAU"
 letter: "M"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "MAGIC NETWORK"
+  slug: "magic-network"
+next_in_category:
+  title: "NIP"
+  slug: "nip"
 ---
 
 Bibliothèque de réconciliation d'ensembles (*set reconciliation*) développée principalement par Pieter Wuille (sipa). Minisketch implémente un algorithme qui permet à deux pairs d'un réseau pair-à-pair de déterminer efficacement les éléments que l'un possède et que l'autre n'a pas, sans que chacun doive transmettre la liste complète de ses éléments.

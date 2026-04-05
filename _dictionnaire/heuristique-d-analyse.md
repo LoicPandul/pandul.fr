@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "H"
 layout: definition
 english_term: "ANALYSIS HEURISTIC"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "FIDELITY BOND"
+  slug: "fidelity-bond"
+next_in_category:
+  title: "JAM"
+  slug: "jam"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

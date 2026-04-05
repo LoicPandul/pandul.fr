@@ -5,6 +5,13 @@ permalink: /dictionnaire/aperture/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ANCHOR OUTPUTS"
+  slug: "anchor-outputs"
+next_in_category:
+  title: "ASYNC PAYMENTS"
+  slug: "async-payments"
 cross_references:
   - title: "L402"
     slug: "l402"

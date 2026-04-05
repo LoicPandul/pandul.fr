@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "K"
 layout: definition
 english_term: "KEYNESIANISM"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "IOU"
+  slug: "iou"
+next_in_category:
+  title: "KYC - KNOW YOUR CUSTOMER"
+  slug: "kyc-know-your-customer"
 cross_references:
   - title: "ÉCOLE AUTRICHIENNE"
     slug: "ecole-autrichienne"

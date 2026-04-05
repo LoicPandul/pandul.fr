@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
 french_term: "CANAL PUBLIC"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PTLC"
+  slug: "ptlc"
+next_in_category:
+  title: "RAPID GOSSIP SYNC"
+  slug: "rapid-gossip-sync"
 cross_references:
   - title: "PRIVATE CHANNEL"
     slug: "private-channel"

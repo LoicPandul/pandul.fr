@@ -5,6 +5,13 @@ permalink: /dictionnaire/sentinel/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SELF-CUSTODY"
+  slug: "self-custody"
+next_in_category:
+  title: "SIGNER À L'AVEUGLE"
+  slug: "signer-a-l-aveugle"
 cross_references:
   - title: "ASHIGARU"
     slug: "ashigaru"

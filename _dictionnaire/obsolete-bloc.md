@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "O"
 layout: definition
 english_term: "STALE / OBSOLETE - BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "NVERSION"
+  slug: "nversion"
+next_in_category:
+  title: "ON-CHAIN"
+  slug: "on-chain"
 cross_references:
   - title: "ORPHELIN"
     slug: "orphelin"

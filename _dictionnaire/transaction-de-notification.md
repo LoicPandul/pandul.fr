@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
 english_term: "NOTIFICATION TRANSACTION"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "TRANSACTION COLLABORATIVE"
+  slug: "transaction-collaborative"
+next_in_category:
+  title: "TUMBLEBIT"
+  slug: "tumblebit"
 cross_references:
   - title: "BIP-0047"
     slug: "bip-0047"

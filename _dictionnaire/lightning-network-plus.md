@@ -5,6 +5,13 @@ permalink: /dictionnaire/lightning-network-plus/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LIBWALLY-CORE"
+  slug: "libwally-core"
+next_in_category:
+  title: "LIGHTNING TERMINAL"
+  slug: "lightning-terminal"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

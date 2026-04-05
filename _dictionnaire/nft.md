@@ -5,6 +5,13 @@ permalink: /dictionnaire/nft/
 category: "COUCHE SUPÉRIEURE"
 letter: "N"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "JOINPOOL"
+  slug: "joinpool"
+next_in_category:
+  title: "OAP - OPEN ASSETS PROTOCOL"
+  slug: "oap-open-assets-protocol"
 cross_references:
   - title: "ORDINALS THEORY"
     slug: "ordinals-theory"

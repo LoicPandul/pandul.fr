@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "O"
 layout: definition
 english_term: "BYTE"
+category_slug: "informatique"
+prev_in_category:
+  title: "MS-SMT"
+  slug: "ms-smt"
+next_in_category:
+  title: "OSINT"
+  slug: "osint"
 cross_references:
   - title: "BIT"
     slug: "bit"

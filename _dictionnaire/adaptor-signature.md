@@ -5,6 +5,10 @@ permalink: /dictionnaire/adaptor-signature/
 category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
+category_slug: "cryptographie"
+next_in_category:
+  title: "ANTI-EXFIL SIGNING"
+  slug: "anti-exfil-signing"
 cross_references:
   - title: "ATOMIC SWAP"
     slug: "atomic-swap"

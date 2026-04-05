@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 english_term: "BLOCK REWARD"
+category_slug: "protocole"
+prev_in_category:
+  title: "PURGE DE MEMPOOL"
+  slug: "purge-de-mempool"
+next_in_category:
+  title: "RÉCURSIF - COVENANT"
+  slug: "recursif-covenant"
 cross_references:
   - title: "SUBVENTION DE BLOC"
     slug: "subvention-de-bloc"

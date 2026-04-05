@@ -6,6 +6,13 @@ category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
 english_term: "LEAD MAINTAINER"
+category_slug: "communaute"
+prev_in_category:
+  title: "MAINTENEUR - CORE"
+  slug: "mainteneur-core"
+next_in_category:
+  title: "MAXIMALISTE"
+  slug: "maximaliste"
 cross_references:
   - title: "MAINTENEUR - CORE"
     slug: "mainteneur-core"

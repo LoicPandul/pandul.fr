@@ -5,6 +5,13 @@ permalink: /dictionnaire/testnet/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "TÉMOIN DE TRANSACTION"
+  slug: "temoin-de-transaction"
+next_in_category:
+  title: "TIMELOCK"
+  slug: "timelock"
 cross_references:
   - title: "MAINNET"
     slug: "mainnet"

@@ -6,6 +6,10 @@ category: "MINAGE"
 letter: "A"
 layout: definition
 french_term: "REFROIDISSEMENT À L'AIR"
+category_slug: "minage"
+next_in_category:
+  title: "ANTPOOL"
+  slug: "antpool"
 cross_references:
   - title: "IMMERSION COOLING"
     slug: "immersion-cooling"

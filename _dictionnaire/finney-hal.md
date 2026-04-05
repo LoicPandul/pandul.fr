@@ -5,6 +5,13 @@ permalink: /dictionnaire/finney-hal/
 category: "HISTOIRE"
 letter: "F"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "FAUCET"
+  slug: "faucet"
+next_in_category:
+  title: "HASHCASH"
+  slug: "hashcash"
 cross_references:
   - title: "RPOW"
     slug: "rpow"

@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "P"
 layout: definition
 french_term: "ANCRAGE ENTRANT"
+category_slug: "sidechain"
+prev_in_category:
+  title: "MINAGE FUSIONNÉ AVEUGLE"
+  slug: "minage-fusionne-aveugle"
+next_in_category:
+  title: "PEG-OUT"
+  slug: "peg-out"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

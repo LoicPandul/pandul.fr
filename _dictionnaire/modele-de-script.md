@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "M"
 layout: definition
 english_term: "SCRIPT TEMPLATE"
+category_slug: "script"
+prev_in_category:
+  title: "MINITAPSCRIPT"
+  slug: "minitapscript"
+next_in_category:
+  title: "MULTISIG"
+  slug: "multisig"
 cross_references:
   - title: "SCRIPT"
     slug: "script"

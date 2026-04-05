@@ -5,6 +5,13 @@ permalink: /dictionnaire/cluster/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "CIOH"
+  slug: "cioh"
+next_in_category:
+  title: "CODE DE PAIMENT RÉUTILISABLE"
+  slug: "code-de-paiment-reutilisable"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

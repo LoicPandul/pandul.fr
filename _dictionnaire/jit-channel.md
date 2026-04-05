@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "J"
 layout: definition
 french_term: "CANAL JIT"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "INVOICE LIGHTNING"
+  slug: "invoice-lightning"
+next_in_category:
+  title: "JIT ROUTING"
+  slug: "jit-routing"
 cross_references:
   - title: "BLIP-0052"
     slug: "blip-0052"

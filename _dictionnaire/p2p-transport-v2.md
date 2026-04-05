@@ -5,6 +5,13 @@ permalink: /dictionnaire/p2p-transport-v2/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ONION_V3_PRIVATE_KEY"
+  slug: "onion-v3-private-key"
+next_in_category:
+  title: "PACKAGE RELAY"
+  slug: "package-relay"
 cross_references:
   - title: "BIP-0324"
     slug: "bip-0324"

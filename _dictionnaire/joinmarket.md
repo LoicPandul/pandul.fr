@@ -5,6 +5,13 @@ permalink: /dictionnaire/joinmarket/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "JOININBOX"
+  slug: "joininbox"
+next_in_category:
+  title: "JOINSTR"
+  slug: "joinstr"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

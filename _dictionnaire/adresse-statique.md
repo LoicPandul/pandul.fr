@@ -6,6 +6,10 @@ category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
 english_term: "STATIC ADDRESS"
+category_slug: "confidentialite"
+next_in_category:
+  title: "ANALYSE DE CHAINE"
+  slug: "analyse-de-chaine"
 cross_references:
   - title: "SILENT PAYMENTS"
     slug: "silent-payments"

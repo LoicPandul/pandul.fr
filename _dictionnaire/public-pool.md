@@ -5,6 +5,13 @@ permalink: /dictionnaire/public-pool/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "PROP - PROPORTIONAL"
+  slug: "prop-proportional"
+next_in_category:
+  title: "RELAIS"
+  slug: "relais"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/matt/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "CONTROL BLOCK"
+  slug: "control-block"
+next_in_category:
+  title: "MINISCRIPT"
+  slug: "miniscript"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

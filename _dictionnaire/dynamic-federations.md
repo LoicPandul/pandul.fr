@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "D"
 layout: definition
 french_term: "FÉDÉRATIONS DYNAMIQUES"
+category_slug: "sidechain"
+prev_in_category:
+  title: "DRIVECHAIN"
+  slug: "drivechain"
+next_in_category:
+  title: "ELEMENTS"
+  slug: "elements"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

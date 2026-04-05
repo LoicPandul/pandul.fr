@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "H"
 layout: definition
 french_term: "DÉTOURNEMENT DE HASHRATE"
+category_slug: "attaque"
+prev_in_category:
+  title: "GRIEFING ATTACK"
+  slug: "griefing-attack"
+next_in_category:
+  title: "MITM - MAN-IN-THE-MIDDLE"
+  slug: "mitm-man-in-the-middle"
 cross_references:
   - title: "HASHRATE"
     slug: "hashrate"

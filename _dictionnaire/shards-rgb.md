@@ -5,6 +5,13 @@ permalink: /dictionnaire/shards-rgb/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "SEAL DEFINITION"
+  slug: "seal-definition"
+next_in_category:
+  title: "SINGLE-USE SEAL"
+  slug: "single-use-seal"
 cross_references:
   - title: "STATE TRANSITION"
     slug: "state-transition"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/transition-bundle/
 category: "RGB"
 letter: "T"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "TERMINAL CONSIGNEMENT"
+  slug: "terminal-consignement"
+next_in_category:
+  title: "VALENCY"
+  slug: "valency"
 cross_references:
   - title: "STATE TRANSITION"
     slug: "state-transition"

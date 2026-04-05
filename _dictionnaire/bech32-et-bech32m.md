@@ -5,6 +5,13 @@ permalink: /dictionnaire/bech32-et-bech32m/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BCOIN"
+  slug: "bcoin"
+next_in_category:
+  title: "BERKELEYDB"
+  slug: "berkeleydb"
 cross_references:
   - title: "BCH CODE"
     slug: "bch-code"

@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
 french_term: "ARBRE SPARK"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SPARK SERVICE PROVIDER"
+  slug: "spark-service-provider"
+next_in_category:
+  title: "SRC-20"
+  slug: "src-20"
 cross_references:
   - title: "SPARK"
     slug: "spark"

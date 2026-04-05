@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "P"
 layout: definition
 french_term: "ANCRAGE SORTANT"
+category_slug: "sidechain"
+prev_in_category:
+  title: "PEG-IN"
+  slug: "peg-in"
+next_in_category:
+  title: "RSK"
+  slug: "rsk"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

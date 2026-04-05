@@ -5,6 +5,13 @@ permalink: /dictionnaire/litecoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "LCB/FT"
+  slug: "lcb-ft"
+next_in_category:
+  title: "LOI DE GRESHAM"
+  slug: "loi-de-gresham"
 cross_references:
   - title: "ALTCOIN"
     slug: "altcoin"

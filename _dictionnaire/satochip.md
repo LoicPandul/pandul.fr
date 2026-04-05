@@ -5,6 +5,13 @@ permalink: /dictionnaire/satochip/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "RISC ZERO"
+  slug: "risc-zero"
+next_in_category:
+  title: "SATOSHILABS"
+  slug: "satoshilabs"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

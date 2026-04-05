@@ -5,6 +5,13 @@ permalink: /dictionnaire/compact-block-filters/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "CLEARNET"
+  slug: "clearnet"
+next_in_category:
+  title: "COMPACT BLOCK RELAY"
+  slug: "compact-block-relay"
 cross_references:
   - title: "BIP-0158"
     slug: "bip-0158"

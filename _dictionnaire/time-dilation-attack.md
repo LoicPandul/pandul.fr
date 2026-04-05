@@ -5,6 +5,13 @@ permalink: /dictionnaire/time-dilation-attack/
 category: "ATTAQUE"
 letter: "T"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "TIME WARP"
+  slug: "time-warp"
+next_in_category:
+  title: "TRANSACTION PINNING"
+  slug: "transaction-pinning"
 cross_references:
   - title: "ECLIPSE"
     slug: "eclipse"

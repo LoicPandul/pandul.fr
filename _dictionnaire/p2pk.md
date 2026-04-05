@@ -5,6 +5,13 @@ permalink: /dictionnaire/p2pk/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "P2MS"
+  slug: "p2ms"
+next_in_category:
+  title: "P2PKH"
+  slug: "p2pkh"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

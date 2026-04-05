@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinswap/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "COINSHUFFLE"
+  slug: "coinshuffle"
+next_in_category:
+  title: "COORDINATEUR DE COINJOIN"
+  slug: "coordinateur-de-coinjoin"
 cross_references:
   - title: "ADAPTOR SIGNATURE"
     slug: "adaptor-signature"

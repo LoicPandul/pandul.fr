@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "H"
 layout: definition
 english_term: "HASHER"
+category_slug: "minage"
+prev_in_category:
+  title: "GHASH.IO"
+  slug: "ghash-io"
+next_in_category:
+  title: "HASHBOARD"
+  slug: "hashboard"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

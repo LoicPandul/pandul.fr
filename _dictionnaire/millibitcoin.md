@@ -5,6 +5,13 @@ permalink: /dictionnaire/millibitcoin/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MÉTHODE D'ACTIVATION"
+  slug: "methode-d-activation"
+next_in_category:
+  title: "MODÈLE DE TRANSACTION"
+  slug: "modele-de-transaction"
 cross_references:
   - title: "MILLISATOSHI"
     slug: "millisatoshi"

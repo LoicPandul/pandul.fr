@@ -5,6 +5,13 @@ permalink: /dictionnaire/libbitcoin/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "LEVELDB"
+  slug: "leveldb"
+next_in_category:
+  title: "LIBSECP256K1"
+  slug: "libsecp256k1"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

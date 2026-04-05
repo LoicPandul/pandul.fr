@@ -6,6 +6,13 @@ category: "COMMUNAUTÉ"
 letter: "P"
 layout: definition
 french_term: "MAJORATION"
+category_slug: "communaute"
+prev_in_category:
+  title: "MAXIMALISTE"
+  slug: "maximaliste"
+next_in_category:
+  title: "SLIP"
+  slug: "slip"
 cross_references:
   - title: "KYC - KNOW YOUR CUSTOMER"
     slug: "kyc-know-your-customer"

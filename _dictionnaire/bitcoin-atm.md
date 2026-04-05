@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
 french_term: "DISTRIBUTEUR DE BITCOINS"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BIT - UNITÉ"
+  slug: "bit-unite"
+next_in_category:
+  title: "BITCOIN TREASURY COMPANY"
+  slug: "bitcoin-treasury-company"
 cross_references:
   - title: "KYC - KNOW YOUR CUSTOMER"
     slug: "kyc-know-your-customer"

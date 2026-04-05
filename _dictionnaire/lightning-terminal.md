@@ -5,6 +5,13 @@ permalink: /dictionnaire/lightning-terminal/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LIGHTNING NETWORK+"
+  slug: "lightning-network-plus"
+next_in_category:
+  title: "LITD"
+  slug: "litd"
 cross_references:
   - title: "LITD"
     slug: "litd"

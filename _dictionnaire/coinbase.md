@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinbase/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CLUSTER MEMPOOL"
+  slug: "cluster-mempool"
+next_in_category:
+  title: "COINS/"
+  slug: "coins"
 cross_references:
   - title: "PÉRIODE DE MATURITÉ"
     slug: "periode-de-maturite"

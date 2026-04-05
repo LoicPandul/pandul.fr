@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
 french_term: "ÉCHANGE SOUS-MARIN"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "STUCKLESS PAYMENT"
+  slug: "stuckless-payment"
+next_in_category:
+  title: "SWAP-IN POTENTIAM"
+  slug: "swap-in-potentiam"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

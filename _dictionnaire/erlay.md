@@ -5,6 +5,13 @@ permalink: /dictionnaire/erlay/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ELECTRUM SERVER"
+  slug: "electrum-server"
+next_in_category:
+  title: "ÉVÉNEMENT NOSTR"
+  slug: "evenement-nostr"
 cross_references:
   - title: "BIP-0330"
     slug: "bip-0330"

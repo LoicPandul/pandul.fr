@@ -5,6 +5,13 @@ permalink: /dictionnaire/ashigaru/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "AQUA"
+  slug: "aqua"
+next_in_category:
+  title: "BIRTH DATE"
+  slug: "birth-date"
 cross_references:
   - title: "WHIRLPOOL"
     slug: "whirlpool"

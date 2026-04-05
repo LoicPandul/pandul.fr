@@ -5,6 +5,13 @@ permalink: /dictionnaire/covert-asicboost/
 category: "MINAGE"
 letter: "C"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "CONTROL BOARD"
+  slug: "control-board"
+next_in_category:
+  title: "CPPSRB"
+  slug: "cppsrb"
 cross_references:
   - title: "ASICBOOST"
     slug: "asicboost"

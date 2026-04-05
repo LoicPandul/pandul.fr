@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "L"
 layout: definition
 english_term: "LATENCY"
+category_slug: "reseau"
+prev_in_category:
+  title: "IP_ASN.MAP"
+  slug: "ip-asn-map"
+next_in_category:
+  title: "MAGIC NETWORK"
+  slug: "magic-network"
 cross_references:
   - title: "DIFFUSION"
     slug: "diffusion"

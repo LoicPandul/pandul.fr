@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
 french_term: "MONNAIE NUMÉRIQUE DE BANQUE CENTRALE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BULL RUN"
+  slug: "bull-run"
+next_in_category:
+  title: "COLLATÉRAL"
+  slug: "collateral"
 cross_references:
   - title: "FIAT"
     slug: "fiat"

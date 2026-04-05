@@ -5,6 +5,13 @@ permalink: /dictionnaire/segwit/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SCALABILITÉ"
+  slug: "scalabilite"
+next_in_category:
+  title: "SETTINGS.JSON"
+  slug: "settings-json"
 cross_references:
   - title: "MALLÉABILITÉ - TRANSACTION"
     slug: "malleabilite-transaction"

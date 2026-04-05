@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
 french_term: "PROBLÈME DU LOGARITHME DISCRET"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "DKG"
+  slug: "dkg"
+next_in_category:
+  title: "ECDH"
+  slug: "ecdh"
 cross_references:
   - title: "DIFFIE-HELLMAN"
     slug: "diffie-hellman"

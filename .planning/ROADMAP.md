@@ -62,9 +62,9 @@ Plans:
   5. Dictionary landing page displays stats ("1408 definitions dans 19 categories")
 **Plans**: 4 plans
 Plans:
-- [ ] 03-01-PLAN.md — Extend sync script (category/letter pages, prev/next nav) + Jekyll collections config + category/letter layouts
-- [ ] 03-02-PLAN.md — Enrich definition layout (breadcrumbs, badge, pills, nav, CTA, lightbox) + CSS + JS
-- [ ] 03-03-PLAN.md — Redesign landing page (stats, search, A-Z, categories) + search autocomplete JS + CSS
+- [x] 03-01-PLAN.md — Extend sync script (category/letter pages, prev/next nav) + Jekyll collections config + category/letter layouts
+- [x] 03-02-PLAN.md — Enrich definition layout (breadcrumbs, badge, pills, nav, CTA, lightbox) + CSS + JS
+- [x] 03-03-PLAN.md — Redesign landing page (stats, search, A-Z, categories) + search autocomplete JS + CSS
 - [ ] 03-04-PLAN.md — Visual and functional verification checkpoint
 **UI hint**: yes
 

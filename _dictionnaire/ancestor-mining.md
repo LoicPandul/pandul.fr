@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "A"
 layout: definition
 french_term: "MINAGE DES ANCÊTRES"
+category_slug: "protocole"
+prev_in_category:
+  title: "AJUSTEMENT DE LA DIFFICULTE"
+  slug: "ajustement-de-la-difficulte"
+next_in_category:
+  title: "ANNEX"
+  slug: "annex"
 cross_references:
   - title: "CPFP - CHILD PAY FOR PARENT"
     slug: "cpfp-child-pay-for-parent"

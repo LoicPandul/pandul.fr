@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "J"
 layout: definition
 french_term: "ROUTAGE JIT"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "JIT CHANNEL"
+  slug: "jit-channel"
+next_in_category:
+  title: "KEYSEND"
+  slug: "keysend"
 cross_references:
   - title: "JIT CHANNEL"
     slug: "jit-channel"

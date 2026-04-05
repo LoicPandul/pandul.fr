@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "T"
 layout: definition
 french_term: "DISTORSION TEMPORELLE"
+category_slug: "attaque"
+prev_in_category:
+  title: "SYBIL"
+  slug: "sybil"
+next_in_category:
+  title: "TIME-DILATION ATTACK"
+  slug: "time-dilation-attack"
 cross_references:
   - title: "AJUSTEMENT DE LA DIFFICULTE"
     slug: "ajustement-de-la-difficulte"

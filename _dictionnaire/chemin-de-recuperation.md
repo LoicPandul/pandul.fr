@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "RECOVERY PATH"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHEMIN DE DÉRIVATION"
+  slug: "chemin-de-derivation"
+next_in_category:
+  title: "CHEMIN PRIMAIRE"
+  slug: "chemin-primaire"
 cross_references:
   - title: "MINISCRIPT"
     slug: "miniscript"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/indexes-txindex/
 category: "PROTOCOLE"
 letter: "I"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "IMPLÉMENTATION DE BITCOIN"
+  slug: "implementation-de-bitcoin"
+next_in_category:
+  title: "INPUT"
+  slug: "input"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

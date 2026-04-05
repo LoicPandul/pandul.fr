@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-if-0x63/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_HASH256 - 0XAA"
+  slug: "op-hash256-0xaa"
+next_in_category:
+  title: "OP_IFDUP - 0X73"
+  slug: "op-ifdup-0x73"
 cross_references:
   - title: "OP_ELSE - 0X67"
     slug: "op-else-0x67"

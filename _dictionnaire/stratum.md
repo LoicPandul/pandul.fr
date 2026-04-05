@@ -5,6 +5,13 @@ permalink: /dictionnaire/stratum/
 category: "MINAGE"
 letter: "S"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "STALE SHARE"
+  slug: "stale-share"
+next_in_category:
+  title: "STRATUM V2"
+  slug: "stratum-v2"
 cross_references:
   - title: "STRATUM V2"
     slug: "stratum-v2"

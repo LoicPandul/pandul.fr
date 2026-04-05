@@ -5,6 +5,13 @@ permalink: /dictionnaire/phoenix/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PAYMENT HASH"
+  slug: "payment-hash"
+next_in_category:
+  title: "PHOENIXD"
+  slug: "phoenixd"
 cross_references:
   - title: "ECLAIR"
     slug: "eclair"

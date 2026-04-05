@@ -5,6 +5,13 @@ permalink: /dictionnaire/eclipse/
 category: "ATTAQUE"
 letter: "E"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "DUSTING ATTACK"
+  slug: "dusting-attack"
+next_in_category:
+  title: "EREBUS"
+  slug: "erebus"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

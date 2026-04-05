@@ -5,6 +5,13 @@ permalink: /dictionnaire/overclocking/
 category: "MINAGE"
 letter: "O"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "ON-GRID"
+  slug: "on-grid"
+next_in_category:
+  title: "OVERT ASICBOOST"
+  slug: "overt-asicboost"
 cross_references:
   - title: "ASIC"
     slug: "asic"

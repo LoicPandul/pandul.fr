@@ -5,6 +5,13 @@ permalink: /dictionnaire/green-addresses/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GREEN ADDRESS"
+  slug: "green-address"
+next_in_category:
+  title: "GREEN WALLET"
+  slug: "green-wallet"
 cross_references:
   - title: "DOUBLE DÉPENSE"
     slug: "double-depense"

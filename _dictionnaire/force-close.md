@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
 french_term: "FERMETURE FORCÉE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "FEE RATE - LIGHTNING"
+  slug: "fee-rate-lightning"
+next_in_category:
+  title: "GATEWAY NODE"
+  slug: "gateway-node"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

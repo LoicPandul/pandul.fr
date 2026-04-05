@@ -5,6 +5,13 @@ permalink: /dictionnaire/compactsize/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "COMMERÇANT"
+  slug: "commercant"
+next_in_category:
+  title: "COMPATIBILITÉ RÉTROSPECTIVE"
+  slug: "compatibilite-retrospective"
 cross_references:
   - title: "ENTÊTE DE BLOC"
     slug: "entete-de-bloc"

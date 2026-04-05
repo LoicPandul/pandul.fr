@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "X"
 layout: definition
 french_term: "CLÉS PUBLIQUES X-ONLY"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "TWEAK"
+  slug: "tweak"
+next_in_category:
+  title: "XOR"
+  slug: "xor"
 cross_references:
   - title: "SCHNORR"
     slug: "schnorr-protocole"

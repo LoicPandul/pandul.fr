@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "O"
 layout: definition
 french_term: "ERREUR DE DÉCALAGE UNITAIRE"
+category_slug: "script"
+prev_in_category:
+  title: "NSEQUENCE"
+  slug: "nsequence"
+next_in_category:
+  title: "OP_0 - 0X00"
+  slug: "op-0-0x00"
 cross_references:
   - title: "AJUSTEMENT DE LA DIFFICULTE"
     slug: "ajustement-de-la-difficulte"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/fiat/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "F"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ETF"
+  slug: "etf"
+next_in_category:
+  title: "FONGIBILITÉ"
+  slug: "fongibilite"
 cross_references:
   - title: "CRYPTOMONNAIE"
     slug: "cryptomonnaie"

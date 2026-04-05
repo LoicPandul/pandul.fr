@@ -6,6 +6,13 @@ category: "RGB"
 letter: "C"
 layout: definition
 french_term: "VALIDATION CÔTÉ CLIENT"
+category_slug: "rgb"
+prev_in_category:
+  title: "BUSINESS LOGIC"
+  slug: "business-logic"
+next_in_category:
+  title: "COMMITMENT"
+  slug: "commitment"
 cross_references:
   - title: "CONSIGNMENT"
     slug: "consignment"

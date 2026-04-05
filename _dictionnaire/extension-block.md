@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "E"
 layout: definition
 french_term: "BLOC D'EXTENSION"
+category_slug: "protocole"
+prev_in_category:
+  title: "EPHEMERAL ANCHORS"
+  slug: "ephemeral-anchors"
+next_in_category:
+  title: "FEE RATE - BITCOIN"
+  slug: "fee-rate-bitcoin"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

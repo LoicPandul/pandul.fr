@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "D"
 layout: definition
 english_term: "PROPAGATION / BROADCAST"
+category_slug: "reseau"
+prev_in_category:
+  title: "DÉCENTRALISATION"
+  slug: "decentralisation"
+next_in_category:
+  title: "DISTRIBUÉ"
+  slug: "distribue"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

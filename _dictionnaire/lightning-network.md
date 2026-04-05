@@ -5,6 +5,13 @@ permalink: /dictionnaire/lightning-network/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LDK - LIGHTNING DEV KIT"
+  slug: "ldk-lightning-dev-kit"
+next_in_category:
+  title: "LIGHTNING SERVICE PROVIDER"
+  slug: "lightning-service-provider"
 cross_references:
   - title: "SCALABILITÉ"
     slug: "scalabilite"

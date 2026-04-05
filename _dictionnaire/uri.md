@@ -5,6 +5,13 @@ permalink: /dictionnaire/uri/
 category: "INFORMATIQUE"
 letter: "U"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "UNIX"
+  slug: "unix"
+next_in_category:
+  title: "VERSIONNAGE"
+  slug: "versionnage"
 cross_references:
   - title: "BIP-0021"
     slug: "bip-0021"

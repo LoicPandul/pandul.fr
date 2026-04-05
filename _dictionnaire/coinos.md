@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinos/
 category: "OUTIL"
 letter: "C"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "CHANTOOLS"
+  slug: "chantools"
+next_in_category:
+  title: "DOJO"
+  slug: "dojo"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

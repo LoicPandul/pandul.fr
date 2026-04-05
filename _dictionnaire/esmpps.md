@@ -5,6 +5,13 @@ permalink: /dictionnaire/esmpps/
 category: "MINAGE"
 letter: "E"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "DIFFICULTÉ"
+  slug: "difficulte"
+next_in_category:
+  title: "EXTRA-NONCE"
+  slug: "extra-nonce"
 cross_references:
   - title: "SHARES"
     slug: "shares"

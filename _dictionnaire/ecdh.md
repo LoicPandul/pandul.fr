@@ -5,6 +5,13 @@ permalink: /dictionnaire/ecdh/
 category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "DLP - DISCRETE LOGARITHM PROBLEM"
+  slug: "dlp-discreet-log-probleme"
+next_in_category:
+  title: "ECDSA"
+  slug: "ecdsa"
 cross_references:
   - title: "DIFFIE-HELLMAN"
     slug: "diffie-hellman"

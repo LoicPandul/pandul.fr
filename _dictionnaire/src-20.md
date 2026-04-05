@@ -5,6 +5,13 @@ permalink: /dictionnaire/src-20/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SPARK TREE"
+  slug: "spark-tree"
+next_in_category:
+  title: "STAMPS"
+  slug: "stamps"
 cross_references:
   - title: "STAMPS"
     slug: "stamps"

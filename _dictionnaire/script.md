@@ -5,6 +5,13 @@ permalink: /dictionnaire/script/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "REDEEMSCRIPT"
+  slug: "redeemscript"
+next_in_category:
+  title: "SCRIPTLESS SCRIPTS"
+  slug: "scriptless-scripts"
 cross_references:
   - title: "PILE"
     slug: "pile"

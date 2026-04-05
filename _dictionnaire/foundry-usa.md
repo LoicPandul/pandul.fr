@@ -5,6 +5,13 @@ permalink: /dictionnaire/foundry-usa/
 category: "MINAGE"
 letter: "F"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "FERME DE MINAGE"
+  slug: "ferme-de-minage"
+next_in_category:
+  title: "FPGA"
+  slug: "fpga"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

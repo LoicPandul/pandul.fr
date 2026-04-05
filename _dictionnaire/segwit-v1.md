@@ -5,6 +5,13 @@ permalink: /dictionnaire/segwit-v1/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEGWIT V0"
+  slug: "segwit-v0"
+next_in_category:
+  title: "SÉLECTION DES PIÈCES"
+  slug: "selection-des-pieces"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

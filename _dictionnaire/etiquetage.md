@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
 english_term: "LABELING"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ENVOY"
+  slug: "envoy"
+next_in_category:
+  title: "FEE BUMPING"
+  slug: "fee-bumping"
 cross_references:
   - title: "COIN CONTROL"
     slug: "coin-control"

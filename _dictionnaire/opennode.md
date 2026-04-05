@@ -5,6 +5,13 @@ permalink: /dictionnaire/opennode/
 category: "ORGANISATION"
 letter: "O"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "NODL"
+  slug: "nodl"
+next_in_category:
+  title: "OPENSATS"
+  slug: "opensats"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

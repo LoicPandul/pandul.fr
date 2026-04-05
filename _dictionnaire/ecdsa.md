@@ -5,6 +5,13 @@ permalink: /dictionnaire/ecdsa/
 category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ECDH"
+  slug: "ecdh"
+next_in_category:
+  title: "ENTROPIE"
+  slug: "entropie"
 cross_references:
   - title: "SCHNORR"
     slug: "schnorr-protocole"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/state-extension/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "STASH"
+  slug: "stash"
+next_in_category:
+  title: "STATE TRANSITION"
+  slug: "state-transition"
 cross_references:
   - title: "STATE TRANSITION"
     slug: "state-transition"

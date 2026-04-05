@@ -5,6 +5,13 @@ permalink: /dictionnaire/roast/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "RIPEMD160"
+  slug: "ripemd160"
+next_in_category:
+  title: "SCHNORR"
+  slug: "schnorr-protocole"
 cross_references:
   - title: "FROST"
     slug: "frost"

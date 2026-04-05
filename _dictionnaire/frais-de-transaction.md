@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "F"
 layout: definition
 english_term: "TRANSACTION FEES"
+category_slug: "protocole"
+prev_in_category:
+  title: "FORK"
+  slug: "fork"
+next_in_category:
+  title: "FULL RBF"
+  slug: "full-rbf"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

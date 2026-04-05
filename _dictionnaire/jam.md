@@ -5,6 +5,13 @@ permalink: /dictionnaire/jam/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "HEURISTIQUE D'ANALYSE"
+  slug: "heuristique-d-analyse"
+next_in_category:
+  title: "JOININBOX"
+  slug: "joininbox"
 cross_references:
   - title: "JOINMARKET"
     slug: "joinmarket"

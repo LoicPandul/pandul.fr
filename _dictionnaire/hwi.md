@@ -5,6 +5,13 @@ permalink: /dictionnaire/hwi/
 category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "HD - HIERARCHICAL-DETERMINISTIC"
+  slug: "hd-hierarchical-deterministic"
+next_in_category:
+  title: "INDEX - KEY"
+  slug: "index-key"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "P"
 layout: definition
 french_term: "POLITIQUE - MINISCRIPT"
+category_slug: "script"
+prev_in_category:
+  title: "PILE"
+  slug: "pile"
+next_in_category:
+  title: "REDEEMSCRIPT"
+  slug: "redeemscript"
 cross_references:
   - title: "MINISCRIPT"
     slug: "miniscript"

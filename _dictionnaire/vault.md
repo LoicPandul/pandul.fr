@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "V"
 layout: definition
 french_term: "COFFRE-FORT"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "VANITY ADDRESS"
+  slug: "vanity-address"
+next_in_category:
+  title: "VPRV"
+  slug: "vprv"
 cross_references:
   - title: "COVENANT"
     slug: "covenant"

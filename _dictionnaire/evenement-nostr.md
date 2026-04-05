@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "E"
 layout: definition
 english_term: "NOSTR EVENT"
+category_slug: "reseau"
+prev_in_category:
+  title: "ERLAY"
+  slug: "erlay"
+next_in_category:
+  title: "FEELER CONNECTION"
+  slug: "feeler-connection"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

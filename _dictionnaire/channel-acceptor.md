@@ -5,6 +5,13 @@ permalink: /dictionnaire/channel-acceptor/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CAPACITÉ DE CANAL LIGHTNING"
+  slug: "capacite-de-canal-lightning"
+next_in_category:
+  title: "CHANNEL ANNOUNCEMENT"
+  slug: "channel-announcement"
 cross_references:
   - title: "LND"
     slug: "lnd"

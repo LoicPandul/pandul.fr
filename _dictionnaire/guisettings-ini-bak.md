@@ -5,6 +5,13 @@ permalink: /dictionnaire/guisettings-ini-bak/
 category: "PROTOCOLE"
 letter: "G"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "GRAFTROOT"
+  slug: "graftroot"
+next_in_category:
+  title: "HALVING"
+  slug: "halving"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

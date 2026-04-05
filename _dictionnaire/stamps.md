@@ -5,6 +5,13 @@ permalink: /dictionnaire/stamps/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SRC-20"
+  slug: "src-20"
+next_in_category:
+  title: "STATECHAIN"
+  slug: "statechain"
 cross_references:
   - title: "UTREEXO"
     slug: "utreexo"

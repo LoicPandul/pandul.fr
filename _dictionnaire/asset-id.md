@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
 french_term: "IDENTIFIANT D'ACTIF"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASP - ARK SERVICE PROVIDER"
+  slug: "asp-ark-service-provider"
+next_in_category:
+  title: "ASSET MERGE"
+  slug: "asset-merge"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

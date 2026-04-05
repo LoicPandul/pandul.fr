@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "DIGEST / HASH"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CHIFFRER - CHIFFREMENT"
+  slug: "chiffrer-chiffrement"
+next_in_category:
+  title: "CONFIDENTIAL TRANSACTIONS"
+  slug: "confidential-transactions"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

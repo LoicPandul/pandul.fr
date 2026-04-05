@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "L"
 layout: definition
 french_term: "GRAND LIVRE / REGISTRE"
+category_slug: "protocole"
+prev_in_category:
+  title: "INPUT"
+  slug: "input"
+next_in_category:
+  title: "LEVELDB"
+  slug: "leveldb"
 cross_references:
   - title: "BLOCKCHAIN"
     slug: "blockchain"

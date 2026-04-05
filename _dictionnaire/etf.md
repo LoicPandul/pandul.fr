@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
 french_term: "FONDS NÉGOCIÉ EN BOURSE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ESCROW"
+  slug: "escrow"
+next_in_category:
+  title: "FIAT"
+  slug: "fiat"
 cross_references:
   - title: "SELF-CUSTODY"
     slug: "self-custody"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "C"
 layout: definition
 english_term: "CONTAINER"
+category_slug: "minage"
+prev_in_category:
+  title: "CIBLE DE DIFFICULTÉ"
+  slug: "cible-de-difficulte"
+next_in_category:
+  title: "CONTROL BOARD"
+  slug: "control-board"
 cross_references:
   - title: "ASIC"
     slug: "asic"

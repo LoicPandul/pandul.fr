@@ -5,6 +5,13 @@ permalink: /dictionnaire/redeem/
 category: "RGB"
 letter: "R"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "OWNERSHIP"
+  slug: "ownership"
+next_in_category:
+  title: "RGB"
+  slug: "rgb"
 cross_references:
   - title: "VALENCY"
     slug: "valency"

@@ -6,6 +6,10 @@ category: "HISTOIRE"
 letter: "A"
 layout: definition
 french_term: "SYSTÈME D'ALERTE"
+category_slug: "histoire"
+next_in_category:
+  title: "B-MONEY"
+  slug: "b-money"
 cross_references:
   - title: "VALUE OVERFLOW INCIDENT"
     slug: "value-overflow-incident"

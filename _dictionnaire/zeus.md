@@ -5,6 +5,13 @@ permalink: /dictionnaire/zeus/
 category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ZAP"
+  slug: "zap"
+next_in_category:
+  title: "ZOMBIE CHANNEL"
+  slug: "zombie-channel"
 cross_references:
   - title: "LND"
     slug: "lnd"

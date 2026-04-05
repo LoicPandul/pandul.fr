@@ -5,6 +5,13 @@ permalink: /dictionnaire/tx0/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "TUMBLEBIT"
+  slug: "tumblebit"
+next_in_category:
+  title: "VIRGIN BITCOIN"
+  slug: "virgin-bitcoin"
 cross_references:
   - title: "WHIRLPOOL"
     slug: "whirlpool"

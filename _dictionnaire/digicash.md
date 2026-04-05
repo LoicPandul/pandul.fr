@@ -5,6 +5,13 @@ permalink: /dictionnaire/digicash/
 category: "HISTOIRE"
 letter: "D"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "CYPHERPUNKS"
+  slug: "cypherpunks"
+next_in_category:
+  title: "E-GOLD"
+  slug: "e-gold"
 cross_references:
   - title: "SIGNATURE AVEUGLE"
     slug: "signature-aveugle"

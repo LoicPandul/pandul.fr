@@ -5,6 +5,13 @@ permalink: /dictionnaire/libwally-core/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "KRUX"
+  slug: "krux"
+next_in_category:
+  title: "LIGHTNING NETWORK+"
+  slug: "lightning-network-plus"
 cross_references:
   - title: "LIBSECP256K1"
     slug: "libsecp256k1"

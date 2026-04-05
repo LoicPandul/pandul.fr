@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "M"
 layout: definition
 english_term: "METADATA"
+category_slug: "informatique"
+prev_in_category:
+  title: "MERKLE SUM TREE"
+  slug: "merkle-sum-tree"
+next_in_category:
+  title: "MIT X11"
+  slug: "mit-x11"
 cross_references:
   - title: "ADRESSE DE RÉCEPTION"
     slug: "adresse-de-reception"

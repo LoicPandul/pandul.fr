@@ -5,6 +5,13 @@ permalink: /dictionnaire/assignment/
 category: "RGB"
 letter: "A"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "ANCHOR"
+  slug: "anchor"
+next_in_category:
+  title: "BUSINESS LOGIC"
+  slug: "business-logic"
 cross_references:
   - title: "RGB"
     slug: "rgb"

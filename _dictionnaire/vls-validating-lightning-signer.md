@@ -5,6 +5,13 @@ permalink: /dictionnaire/vls-validating-lightning-signer/
 category: "LIGHTNING NETWORK"
 letter: "V"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TURBO CHANNEL"
+  slug: "turbo-channel"
+next_in_category:
+  title: "WALLET OF SATOSHI"
+  slug: "wallet-of-satoshi"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

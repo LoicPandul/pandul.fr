@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
 english_term: "WALLET"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PORTAL"
+  slug: "portal"
+next_in_category:
+  title: "PORTEFEUILLE CHAUD"
+  slug: "portefeuille-chaud"
 cross_references:
   - title: "PORTEFEUILLE CHAUD"
     slug: "portefeuille-chaud"

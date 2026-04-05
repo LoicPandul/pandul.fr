@@ -5,6 +5,13 @@ permalink: /dictionnaire/vin/
 category: "PROTOCOLE"
 letter: "V"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "VBYTES"
+  slug: "vbytes"
+next_in_category:
+  title: "VOUT"
+  slug: "vout"
 cross_references:
   - title: "NSEQUENCE"
     slug: "nsequence"

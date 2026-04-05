@@ -5,6 +5,13 @@ permalink: /dictionnaire/payjoin/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PAIEMENT SIMPLE"
+  slug: "paiement-simple"
+next_in_category:
+  title: "PAYNYM"
+  slug: "paynym"
 cross_references:
   - title: "CIOH"
     slug: "cioh"

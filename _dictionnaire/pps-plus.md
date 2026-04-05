@@ -5,6 +5,13 @@ permalink: /dictionnaire/pps-plus/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "PPS - PAY PER SHARE"
+  slug: "pps-pay-per-share"
+next_in_category:
+  title: "PROP - PROPORTIONAL"
+  slug: "prop-proportional"
 cross_references:
   - title: "PPS - PAY PER SHARE"
     slug: "pps-pay-per-share"

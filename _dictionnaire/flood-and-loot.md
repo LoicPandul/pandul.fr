@@ -5,6 +5,13 @@ permalink: /dictionnaire/flood-and-loot/
 category: "ATTAQUE"
 letter: "F"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "FEE SNIPING"
+  slug: "fee-sniping"
+next_in_category:
+  title: "FORCE BRUTE"
+  slug: "force-brute"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

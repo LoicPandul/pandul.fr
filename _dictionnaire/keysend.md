@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "K"
 layout: definition
 french_term: "PAIEMENT SPONTANÉ"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "JIT ROUTING"
+  slug: "jit-routing"
+next_in_category:
+  title: "L402"
+  slug: "l402"
 cross_references:
   - title: "ROUTAGE EN OIGNON"
     slug: "routage-en-oignon"

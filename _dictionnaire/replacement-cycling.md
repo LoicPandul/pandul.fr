@@ -5,6 +5,13 @@ permalink: /dictionnaire/replacement-cycling/
 category: "ATTAQUE"
 letter: "R"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "RACE ATTACK"
+  slug: "race-attack"
+next_in_category:
+  title: "REPLAY ATTACK"
+  slug: "replay-attack"
 cross_references:
   - title: "GOSSIP"
     slug: "gossip"

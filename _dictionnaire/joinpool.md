@@ -5,6 +5,13 @@ permalink: /dictionnaire/joinpool/
 category: "COUCHE SUPÉRIEURE"
 letter: "J"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "INSCRIPTIONS"
+  slug: "inscriptions"
+next_in_category:
+  title: "NFT"
+  slug: "nft"
 cross_references:
   - title: "ARK"
     slug: "ark"

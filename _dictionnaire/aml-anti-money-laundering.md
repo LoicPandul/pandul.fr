@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
 french_term: "LUTTE CONTRE LE BLANCHIMENT D'ARGENT"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ALTCOIN"
+  slug: "altcoin"
+next_in_category:
+  title: "ARBITRAGE"
+  slug: "arbitrage"
 cross_references:
   - title: "KYC - KNOW YOUR CUSTOMER"
     slug: "kyc-know-your-customer"

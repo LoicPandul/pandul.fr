@@ -5,6 +5,13 @@ permalink: /dictionnaire/swaproot/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SWAP-IN POTENTIAM"
+  slug: "swap-in-potentiam"
+next_in_category:
+  title: "TAPROOT CHANNEL"
+  slug: "taproot-channel"
 cross_references:
   - title: "SWAP-IN POTENTIAM"
     slug: "swap-in-potentiam"

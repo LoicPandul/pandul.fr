@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "G"
 layout: definition
 english_term: "PRNG"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "FROST"
+  slug: "frost"
+next_in_category:
+  title: "GROTH16"
+  slug: "groth16"
 cross_references:
   - title: "GRAINE"
     slug: "graine"

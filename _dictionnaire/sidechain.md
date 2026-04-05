@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "S"
 layout: definition
 french_term: "CHAÎNE LATÉRALE / PARALLÈLE"
+category_slug: "sidechain"
+prev_in_category:
+  title: "RSK"
+  slug: "rsk"
+next_in_category:
+  title: "WATCHMEN"
+  slug: "watchmen"
 cross_references:
   - title: "ANCRAGE BILATÉRAL"
     slug: "ancrage-bilateral"

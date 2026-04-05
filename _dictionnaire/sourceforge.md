@@ -5,6 +5,13 @@ permalink: /dictionnaire/sourceforge/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "SMT - SPARSE MERKLE TREE"
+  slug: "smt-sparse-merkle-tree"
+next_in_category:
+  title: "SPOF"
+  slug: "spof"
 cross_references:
   - title: "GITHUB"
     slug: "github"

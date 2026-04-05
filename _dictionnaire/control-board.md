@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "C"
 layout: definition
 french_term: "CARTE DE CONTRÔLE"
+category_slug: "minage"
+prev_in_category:
+  title: "CONTENEUR"
+  slug: "conteneur"
+next_in_category:
+  title: "COVERT ASICBOOST"
+  slug: "covert-asicboost"
 cross_references:
   - title: "ASIC"
     slug: "asic"

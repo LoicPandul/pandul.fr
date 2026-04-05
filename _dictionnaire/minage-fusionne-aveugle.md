@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "M"
 layout: definition
 english_term: "BMM - BLIND MERGED MINING"
+category_slug: "sidechain"
+prev_in_category:
+  title: "MINAGE FUSIONNÉ"
+  slug: "minage-fusionne"
+next_in_category:
+  title: "PEG-IN"
+  slug: "peg-in"
 cross_references:
   - title: "MINAGE FUSIONNÉ"
     slug: "minage-fusionne"

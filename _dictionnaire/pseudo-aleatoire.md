@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
 english_term: "PSEUDO-RANDOM"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "PREIMAGE"
+  slug: "preimage"
+next_in_category:
+  title: "RACINE DE MERKLE"
+  slug: "racine-de-merkle"
 cross_references:
   - title: "ENTROPIE"
     slug: "entropie"

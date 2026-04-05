@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "O"
 layout: definition
 french_term: "SUR-CHAÎNE"
+category_slug: "protocole"
+prev_in_category:
+  title: "OBSOLÈTE - BLOC"
+  slug: "obsolete-bloc"
+next_in_category:
+  title: "ORPHELIN"
+  slug: "orphelin"
 cross_references:
   - title: "OFF-CHAIN"
     slug: "off-chain"

@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "FERMETURE COOPÉRATIVE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "COMMITMENT FEE"
+  slug: "commitment-fee"
+next_in_category:
+  title: "DUAL FUNDING"
+  slug: "dual-funding"
 cross_references:
   - title: "FORCE CLOSE"
     slug: "force-close"

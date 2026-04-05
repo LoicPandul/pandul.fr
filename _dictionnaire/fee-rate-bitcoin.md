@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "F"
 layout: definition
 french_term: "TAUX DE FRAIS BITCOIN"
+category_slug: "protocole"
+prev_in_category:
+  title: "EXTENSION BLOCK"
+  slug: "extension-block"
+next_in_category:
+  title: "FEE_ESTIMATES.DAT"
+  slug: "fee-estimates-dat"
 cross_references:
   - title: "FRAIS DE TRANSACTION"
     slug: "frais-de-transaction"

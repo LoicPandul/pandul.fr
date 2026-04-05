@@ -5,6 +5,13 @@ permalink: /dictionnaire/wallets-db-log/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "WALLET.DAT"
+  slug: "wallet-dat"
+next_in_category:
+  title: "WEIGHT UNIT - WU"
+  slug: "weight-unit"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

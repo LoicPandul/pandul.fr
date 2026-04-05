@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
 french_term: "CANAL HÉBERGÉ"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "HODL INVOICE"
+  slug: "hodl-invoice"
+next_in_category:
+  title: "HTLC"
+  slug: "htlc"
 cross_references:
   - title: "TURBO CHANNEL"
     slug: "turbo-channel"

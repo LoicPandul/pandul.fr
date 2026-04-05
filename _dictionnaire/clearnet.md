@@ -5,6 +5,13 @@ permalink: /dictionnaire/clearnet/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "BUCKETING"
+  slug: "bucketing"
+next_in_category:
+  title: "COMPACT BLOCK FILTERS"
+  slug: "compact-block-filters"
 cross_references:
   - title: "TOR"
     slug: "tor-the-onion-router"

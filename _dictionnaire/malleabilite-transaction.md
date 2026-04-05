@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "M"
 layout: definition
 english_term: "TRANSACTION MALLEABILITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "MAJORITÉ ÉCONOMIQUE"
+  slug: "majorite-economique"
+next_in_category:
+  title: "MASF"
+  slug: "masf"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/grpc/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "GPL"
+  slug: "gpl"
+next_in_category:
+  title: "GUI"
+  slug: "gui"
 cross_references:
   - title: "LND"
     slug: "lnd"

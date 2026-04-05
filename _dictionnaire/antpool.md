@@ -5,6 +5,13 @@ permalink: /dictionnaire/antpool/
 category: "MINAGE"
 letter: "A"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "AIR COOLING"
+  slug: "air-cooling"
+next_in_category:
+  title: "ASIC"
+  slug: "asic"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

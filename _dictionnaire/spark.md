@@ -5,6 +5,13 @@ permalink: /dictionnaire/spark/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SO - SPARK OPERATOR"
+  slug: "so-spark-operator"
+next_in_category:
+  title: "SPARK SERVICE PROVIDER"
+  slug: "spark-service-provider"
 cross_references:
   - title: "STATECHAIN"
     slug: "statechain"

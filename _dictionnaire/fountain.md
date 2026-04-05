@@ -5,6 +5,13 @@ permalink: /dictionnaire/fountain/
 category: "OUTIL"
 letter: "F"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "EXPLORATEUR DE BLOC"
+  slug: "explorateur-de-bloc"
+next_in_category:
+  title: "FROSTSNAP"
+  slug: "frostsnap"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

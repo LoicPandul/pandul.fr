@@ -5,6 +5,13 @@ permalink: /dictionnaire/umbrel/
 category: "OUTIL"
 letter: "U"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "THUNDERHUB"
+  slug: "thunderhub"
+next_in_category:
+  title: "VANITYGEN"
+  slug: "vanitygen"
 cross_references:
   - title: "START9"
     slug: "start9"

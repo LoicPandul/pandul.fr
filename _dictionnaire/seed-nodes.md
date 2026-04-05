@@ -5,6 +5,13 @@ permalink: /dictionnaire/seed-nodes/
 category: "RÉSEAU"
 letter: "S"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ROUTAGE EN OIGNON"
+  slug: "routage-en-oignon"
+next_in_category:
+  title: "TCP"
+  slug: "tcp"
 cross_references:
   - title: "DNS SEEDS"
     slug: "dns-seeds"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnc-lightning-node-connect/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LIQUIDITY SWAP"
+  slug: "liquidity-swap"
+next_in_category:
+  title: "LND"
+  slug: "lnd"
 cross_references:
   - title: "LIGHTNING TERMINAL"
     slug: "lightning-terminal"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/scb-static-channel-backup/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "RUST-LIGHTNING"
+  slug: "rust-lightning"
+next_in_category:
+  title: "SCID - SHORT CHANNEL ID"
+  slug: "scid-short-channel-id"
 cross_references:
   - title: "AEZEED"
     slug: "aezeed"

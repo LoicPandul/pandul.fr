@@ -5,6 +5,13 @@ permalink: /dictionnaire/stablecoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "SHITCOIN"
+  slug: "shitcoin"
+next_in_category:
+  title: "STRATEGIC BITCOIN RESERVE"
+  slug: "reserve-strategique-de-bitcoin"
 cross_references:
   - title: "CRYPTOMONNAIE"
     slug: "cryptomonnaie"

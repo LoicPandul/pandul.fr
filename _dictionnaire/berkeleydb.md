@@ -5,6 +5,13 @@ permalink: /dictionnaire/berkeleydb/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BECH32 ET BECH32M"
+  slug: "bech32-et-bech32m"
+next_in_category:
+  title: "BITCOIN - B MAJUSCULE"
+  slug: "bitcoin-b-majuscule"
 cross_references:
   - title: "LEVELDB"
     slug: "leveldb"

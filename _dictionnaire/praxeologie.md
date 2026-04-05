@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
 english_term: "PRAXEOLOGY"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "MARKET CAP"
+  slug: "market-cap"
+next_in_category:
+  title: "PRÉFÉRENCE TEMPORELLE"
+  slug: "preference-temporelle"
 cross_references:
   - title: "ÉCOLE AUTRICHIENNE"
     slug: "ecole-autrichienne"

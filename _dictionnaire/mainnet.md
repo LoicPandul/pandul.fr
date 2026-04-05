@@ -5,6 +5,13 @@ permalink: /dictionnaire/mainnet/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MAGICAL BITCOIN"
+  slug: "magical-bitcoin"
+next_in_category:
+  title: "MAJORITÉ ÉCONOMIQUE"
+  slug: "majorite-economique"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

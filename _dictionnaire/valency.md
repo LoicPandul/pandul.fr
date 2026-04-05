@@ -5,6 +5,13 @@ permalink: /dictionnaire/valency/
 category: "RGB"
 letter: "V"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "TRANSITION BUNDLE"
+  slug: "transition-bundle"
+next_in_category:
+  title: "WITNESS TRANSACTION"
+  slug: "witness-transaction"
 cross_references:
   - title: "STATE EXTENSION"
     slug: "state-extension"

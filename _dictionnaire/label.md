@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "L"
 layout: definition
 french_term: "ÉTIQUETTE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "KNAPSACK SOLVER"
+  slug: "knapsack-solver"
+next_in_category:
+  title: "LIANA"
+  slug: "liana"
 cross_references:
   - title: "COIN CONTROL"
     slug: "coin-control"

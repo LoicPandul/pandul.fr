@@ -5,6 +5,13 @@ permalink: /dictionnaire/diffie-hellman/
 category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CRYPTOLOGIE"
+  slug: "cryptologie"
+next_in_category:
+  title: "DKG"
+  slug: "dkg"
 cross_references:
   - title: "ECDH"
     slug: "ecdh"

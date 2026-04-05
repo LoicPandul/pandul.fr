@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checkhashverify-chv/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CAT - 0X7E"
+  slug: "op-cat-0x7e"
+next_in_category:
+  title: "OP_CHECKLOCKTIMEVERIFY - 0XB1"
+  slug: "op-checklocktimeverify-0xb1"
 cross_references:
   - title: "OP_EVAL"
     slug: "op-eval"

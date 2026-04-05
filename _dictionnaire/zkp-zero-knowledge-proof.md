@@ -6,6 +6,10 @@ category: "CRYPTOGRAPHIE"
 letter: "Z"
 layout: definition
 french_term: "PREUVE À DIVULGATION NULLE DE CONNAISSANCE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "XOR"
+  slug: "xor"
 cross_references:
   - title: "ZEROSYNC"
     slug: "zerosync"

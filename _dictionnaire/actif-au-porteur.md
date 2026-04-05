@@ -6,6 +6,10 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
 english_term: "BEARER ASSET"
+category_slug: "economie-et-regulation"
+next_in_category:
+  title: "AGORISME"
+  slug: "agorisme"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

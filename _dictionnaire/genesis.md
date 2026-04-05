@@ -5,6 +5,13 @@ permalink: /dictionnaire/genesis/
 category: "RGB"
 letter: "G"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "EXTRA TRANSACTION PROOF"
+  slug: "extra-transaction-proof"
+next_in_category:
+  title: "GLOBAL STATE"
+  slug: "global-state"
 cross_references:
   - title: "CONTRAT RGB"
     slug: "contrat-rgb"

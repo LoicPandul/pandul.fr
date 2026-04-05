@@ -5,6 +5,13 @@ permalink: /dictionnaire/scriptpubkey/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "SCRIPTLESS SCRIPTS"
+  slug: "scriptless-scripts"
+next_in_category:
+  title: "SCRIPTSIG"
+  slug: "scriptsig"
 cross_references:
   - title: "SCRIPTSIG"
     slug: "scriptsig"

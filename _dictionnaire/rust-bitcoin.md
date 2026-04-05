@@ -5,6 +5,13 @@ permalink: /dictionnaire/rust-bitcoin/
 category: "OUTIL"
 letter: "R"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "RTL - RIDE THE LIGHTNING"
+  slug: "rtl-ride-the-lightning"
+next_in_category:
+  title: "SDK - SOFTWARE DEVELOPMENT KIT"
+  slug: "sdk-software-development-kit"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 french_term: "CHAÎNE DE BLOCS"
+category_slug: "protocole"
+prev_in_category:
+  title: "BLOC"
+  slug: "bloc"
+next_in_category:
+  title: "BLOCKS INDEX"
+  slug: "blocks-index"
 cross_references:
   - title: "BLOC"
     slug: "bloc"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/asmap/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ANCHORS.DAT"
+  slug: "anchors-dat"
+next_in_category:
+  title: "BANLIST.DAT"
+  slug: "banlist-dat"
 cross_references:
   - title: "ECLIPSE"
     slug: "eclipse"

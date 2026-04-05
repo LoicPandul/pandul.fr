@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
 french_term: "DÉTERMINISTE ET HIÉRARCHIQUE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "HARDWARE WALLET"
+  slug: "hardware-wallet"
+next_in_category:
+  title: "HWI"
+  slug: "hwi"
 cross_references:
   - title: "BIP-0032"
     slug: "bip-0032"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/anchor/
 category: "RGB"
 letter: "A"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "ALUVM"
+  slug: "aluvm"
+next_in_category:
+  title: "ASSIGNMENT"
+  slug: "assignment"
 cross_references:
   - title: "RGB"
     slug: "rgb"

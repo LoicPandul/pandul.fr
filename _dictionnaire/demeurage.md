@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "D"
 layout: definition
 english_term: "DEMURRAGE"
+category_slug: "protocole"
+prev_in_category:
+  title: "DEBUG.LOG"
+  slug: "debug-log"
+next_in_category:
+  title: "DUMMY ELEMENT"
+  slug: "dummy-element"
 cross_references:
   - title: "FRAIS DE TRANSACTION"
     slug: "frais-de-transaction"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/anchors-dat/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ADDRV2"
+  slug: "addrv2"
+next_in_category:
+  title: "ASMAP"
+  slug: "asmap"
 cross_references:
   - title: "PEERS.DAT"
     slug: "peers-dat"

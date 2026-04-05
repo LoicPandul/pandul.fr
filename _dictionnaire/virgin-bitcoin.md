@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "V"
 layout: definition
 french_term: "BITCOIN VIERGE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "TX0"
+  slug: "tx0"
+next_in_category:
+  title: "WABISABI"
+  slug: "wabisabi"
 cross_references:
   - title: "COINBASE"
     slug: "coinbase"

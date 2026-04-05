@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitbanana/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BISQ"
+  slug: "bisq"
+next_in_category:
+  title: "BITCOIN CORE GUI-QML"
+  slug: "bitcoin-core-gui-qml"
 cross_references:
   - title: "LND"
     slug: "lnd"

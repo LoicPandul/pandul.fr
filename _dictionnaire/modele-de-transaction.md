@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "M"
 layout: definition
 english_term: "TRANSACTION PATTERN"
+category_slug: "protocole"
+prev_in_category:
+  title: "MILLIBITCOIN"
+  slug: "millibitcoin"
+next_in_category:
+  title: "MTP - MEDIAN TIME PAST"
+  slug: "mtp-median-time-past"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

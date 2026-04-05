@@ -6,6 +6,10 @@ category: "ATTAQUE"
 letter: "W"
 layout: definition
 french_term: "ATTAQUE À LA CLÉ À MOLETTE"
+category_slug: "attaque"
+prev_in_category:
+  title: "TRANSACTION PINNING"
+  slug: "transaction-pinning"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

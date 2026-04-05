@@ -5,6 +5,13 @@ permalink: /dictionnaire/chacha20-poly1305/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "BULLETPROOFS"
+  slug: "bulletproofs"
+next_in_category:
+  title: "CHIFFRER - CHIFFREMENT"
+  slug: "chiffrer-chiffrement"
 cross_references:
   - title: "NOISE"
     slug: "noise"

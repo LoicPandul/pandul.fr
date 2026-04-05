@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "B"
 layout: definition
 french_term: "SIGNATAIRES DE BLOCS"
+category_slug: "sidechain"
+prev_in_category:
+  title: "ANCRAGE BILATÉRAL"
+  slug: "ancrage-bilateral"
+next_in_category:
+  title: "DRIVECHAIN"
+  slug: "drivechain"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

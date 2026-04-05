@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-add-0x93/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_ABS - 0X90"
+  slug: "op-abs-0x90"
+next_in_category:
+  title: "OP_BOOLAND - 0X9A"
+  slug: "op-booland-0x9a"
 cross_references:
   - title: "OP_SUB - 0X94"
     slug: "op-sub-0x94"

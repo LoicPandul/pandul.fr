@@ -5,6 +5,13 @@ permalink: /dictionnaire/cli/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "CHARGE UTILE"
+  slug: "charge-utile"
+next_in_category:
+  title: "CLONE"
+  slug: "clone"
 cross_references:
   - title: "GUI"
     slug: "gui"

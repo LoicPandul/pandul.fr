@@ -5,6 +5,13 @@ permalink: /dictionnaire/schema/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "RGB"
+  slug: "rgb"
+next_in_category:
+  title: "SEAL DEFINITION"
+  slug: "seal-definition"
 cross_references:
   - title: "GENESIS"
     slug: "genesis"

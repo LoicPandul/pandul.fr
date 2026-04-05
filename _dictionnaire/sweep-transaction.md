@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 french_term: "TRANSACTION DE BALAYAGE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "STONEWALL X2"
+  slug: "stonewall-x2"
+next_in_category:
+  title: "TRANSACTION COLLABORATIVE"
+  slug: "transaction-collaborative"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

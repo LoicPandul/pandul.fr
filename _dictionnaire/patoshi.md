@@ -5,6 +5,13 @@ permalink: /dictionnaire/patoshi/
 category: "HISTOIRE"
 letter: "P"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "NYA - NEW YORK AGREEMENT"
+  slug: "nya-new-york-agreement"
+next_in_category:
+  title: "PILULE ORANGE"
+  slug: "pilule-orange"
 cross_references:
   - title: "NAKAMOTO SATOSHI"
     slug: "nakamoto-satoshi"

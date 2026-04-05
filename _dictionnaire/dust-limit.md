@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "D"
 layout: definition
 french_term: "LIMITE DE POUSSIÈRE"
+category_slug: "protocole"
+prev_in_category:
+  title: "DUMMY ELEMENT"
+  slug: "dummy-element"
+next_in_category:
+  title: "DUSTRELAYFEE"
+  slug: "dustrelayfee"
 cross_references:
   - title: "DUST"
     slug: "dust"

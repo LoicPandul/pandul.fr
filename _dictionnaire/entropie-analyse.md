@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "E"
 layout: definition
 english_term: "ENTROPY - CHAIN ANALYSIS"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "DOXXIC CHANGE"
+  slug: "doxxic-change"
+next_in_category:
+  title: "FIDELITY BOND"
+  slug: "fidelity-bond"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/satodime/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "REVAULT"
+  slug: "revault"
+next_in_category:
+  title: "SATSCARD"
+  slug: "satscard"
 cross_references:
   - title: "SATOCHIP"
     slug: "satochip"

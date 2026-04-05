@@ -5,6 +5,13 @@ permalink: /dictionnaire/blocks-rev-dat/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BLOCKS INDEX"
+  slug: "blocks-index"
+next_in_category:
+  title: "BRANCHE - BITCOIN"
+  slug: "branche-bitcoin"
 cross_references:
   - title: "BLK*.DAT"
     slug: "blk-dat"

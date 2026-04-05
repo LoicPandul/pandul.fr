@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "O"
 layout: definition
 french_term: "ADRESSE ONION"
+category_slug: "reseau"
+prev_in_category:
+  title: "NSEC"
+  slug: "nsec"
+next_in_category:
+  title: "ONION SERVICE"
+  slug: "onion-service"
 cross_references:
   - title: "ONION SERVICE"
     slug: "onion-service"

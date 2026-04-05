@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 french_term: "PAIEMENTS SILENCIEUX"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SHAREDCOIN"
+  slug: "sharedcoin"
+next_in_category:
+  title: "SOROBAN"
+  slug: "soroban"
 cross_references:
   - title: "LABEL - SILENT PAYMENTS"
     slug: "label-silent-payments"

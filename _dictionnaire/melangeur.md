@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
 english_term: "MIXER"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "LABEL - SILENT PAYMENTS"
+  slug: "label-silent-payments"
+next_in_category:
+  title: "MIMBLEWIMBLE"
+  slug: "mimblewimble"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

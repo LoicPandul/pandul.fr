@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
 french_term: "DIVISION D'ACTIFS"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASSET PROOF"
+  slug: "asset-proof"
+next_in_category:
+  title: "ATLC"
+  slug: "atlc"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

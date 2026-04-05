@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "S"
 layout: definition
 french_term: "MINAGE ÉGOÏSTE"
+category_slug: "attaque"
+prev_in_category:
+  title: "RÉTENTION DE BLOC"
+  slug: "retention-de-bloc"
+next_in_category:
+  title: "SORTIE NON RENTABLE"
+  slug: "sortie-non-rentable"
 cross_references:
   - title: "RÉTENTION DE BLOC"
     slug: "retention-de-bloc"

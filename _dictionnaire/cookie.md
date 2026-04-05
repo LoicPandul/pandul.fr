@@ -5,6 +5,13 @@ permalink: /dictionnaire/cookie/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CONSENSUS CLEANUP"
+  slug: "consensus-cleanup"
+next_in_category:
+  title: "COVENANT"
+  slug: "covenant"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

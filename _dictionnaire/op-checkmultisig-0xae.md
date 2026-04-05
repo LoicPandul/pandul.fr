@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checkmultisig-0xae/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKLOCKTIMEVERIFY - 0XB1"
+  slug: "op-checklocktimeverify-0xb1"
+next_in_category:
+  title: "OP_CHECKMULTISIGVERIFY - 0XAF"
+  slug: "op-checkmultisigverify-0xaf"
 cross_references:
   - title: "OP_CHECKMULTISIGVERIFY - 0XAF"
     slug: "op-checkmultisigverify-0xaf"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/soroban/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SILENT PAYMENTS"
+  slug: "silent-payments"
+next_in_category:
+  title: "SORTIE LA PLUS GRANDE"
+  slug: "sortie-la-plus-grande"
 cross_references:
   - title: "CAHOOTS"
     slug: "cahoots"

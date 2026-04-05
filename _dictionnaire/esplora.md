@@ -5,6 +5,13 @@ permalink: /dictionnaire/esplora/
 category: "OUTIL"
 letter: "E"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "DOJO"
+  slug: "dojo"
+next_in_category:
+  title: "EXPLORATEUR DE BLOC"
+  slug: "explorateur-de-bloc"
 cross_references:
   - title: "BLOCKSTREAM"
     slug: "blockstream"

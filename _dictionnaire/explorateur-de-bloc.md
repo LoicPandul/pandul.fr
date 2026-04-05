@@ -6,6 +6,13 @@ category: "OUTIL"
 letter: "E"
 layout: definition
 english_term: "BLOCK EXPLORER"
+category_slug: "outil"
+prev_in_category:
+  title: "ESPLORA"
+  slug: "esplora"
+next_in_category:
+  title: "FOUNTAIN"
+  slug: "fountain"
 cross_references:
   - title: "BLOCKCHAIN"
     slug: "blockchain"

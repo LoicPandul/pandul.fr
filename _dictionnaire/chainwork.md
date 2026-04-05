@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 french_term: "TRAVAIL CUMULÉ"
+category_slug: "protocole"
+prev_in_category:
+  title: "CHAINSTATE/"
+  slug: "chainstate"
+next_in_category:
+  title: "CHECKPOINTS"
+  slug: "checkpoints"
 cross_references:
   - title: "DIFFICULTÉ"
     slug: "difficulte"

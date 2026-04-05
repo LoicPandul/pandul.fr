@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "P"
 layout: definition
 english_term: "BACKDOOR"
+category_slug: "attaque"
+prev_in_category:
+  title: "PANNE BYZANTINE"
+  slug: "panne-byzantine"
+next_in_category:
+  title: "PROBLÈME DES GÉNÉRAUX BYZANTINS"
+  slug: "prob-des-generaux-byzantins"
 cross_references:
   - title: "SURFACE D'ATTAQUE"
     slug: "surface-d-attaque"

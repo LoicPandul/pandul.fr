@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
 english_term: "MERKLE TREE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ANTI-EXFIL SIGNING"
+  slug: "anti-exfil-signing"
+next_in_category:
+  title: "BCH CODE"
+  slug: "bch-code"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/hrp-human-readable-part/
 category: "INFORMATIQUE"
 letter: "H"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "HEXADÉCIMAL"
+  slug: "hexadecimal"
+next_in_category:
+  title: "ISSUE"
+  slug: "issue"
 cross_references:
   - title: "BECH32 ET BECH32M"
     slug: "bech32-et-bech32m"

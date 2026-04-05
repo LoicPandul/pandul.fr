@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "S"
 layout: definition
 french_term: "PARTS"
+category_slug: "minage"
+prev_in_category:
+  title: "SECPOOL"
+  slug: "secpool"
+next_in_category:
+  title: "SHARES DIFFICULTY"
+  slug: "shares-difficulty"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
 french_term: "CODE BCH"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ARBRE DE MERKLE"
+  slug: "arbre-de-merkle"
+next_in_category:
+  title: "BORROMEAN RING SIGNATURES"
+  slug: "borromean-ring-signatures"
 cross_references:
   - title: "BECH32 ET BECH32M"
     slug: "bech32-et-bech32m"

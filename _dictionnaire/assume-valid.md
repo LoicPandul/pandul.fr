@@ -5,6 +5,13 @@ permalink: /dictionnaire/assume-valid/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "ASSUME UTXO"
+  slug: "assume-utxo"
+next_in_category:
+  title: "BARE-MULTISIG"
+  slug: "bare-multisig"
 cross_references:
   - title: "ASSUME UTXO"
     slug: "assume-utxo"

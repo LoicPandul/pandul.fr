@@ -5,6 +5,10 @@ permalink: /dictionnaire/addr/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+next_in_category:
+  title: "ADDR.DAT"
+  slug: "addr-dat"
 cross_references:
   - title: "ADDRV2"
     slug: "addrv2"

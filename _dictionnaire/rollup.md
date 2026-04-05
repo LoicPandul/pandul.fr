@@ -5,6 +5,13 @@ permalink: /dictionnaire/rollup/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "PASSIVE ASSETS"
+  slug: "passive-assets"
+next_in_category:
+  title: "ROUND ARK"
+  slug: "round-ark"
 cross_references:
   - title: "CITREA"
     slug: "citrea"

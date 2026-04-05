@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "S"
 layout: definition
 french_term: "MINAGE EN SOLO"
+category_slug: "minage"
+prev_in_category:
+  title: "SMPPS"
+  slug: "smpps"
+next_in_category:
+  title: "SPIDERPOOL"
+  slug: "spiderpool"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

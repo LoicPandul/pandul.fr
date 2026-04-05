@@ -5,6 +5,13 @@ permalink: /dictionnaire/interface/
 category: "RGB"
 letter: "I"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "GLOBAL STATE"
+  slug: "global-state"
+next_in_category:
+  title: "INTERFACE IMPLEMENTATION"
+  slug: "interface-implementation"
 cross_references:
   - title: "SCHEMA"
     slug: "schema"

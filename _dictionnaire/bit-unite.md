@@ -5,6 +5,13 @@ permalink: /dictionnaire/bit-unite/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BEAR MARKET"
+  slug: "bear-market"
+next_in_category:
+  title: "BITCOIN ATM"
+  slug: "bitcoin-atm"
 cross_references:
   - title: "BTC"
     slug: "btc"

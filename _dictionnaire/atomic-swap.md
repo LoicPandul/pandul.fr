@@ -6,6 +6,13 @@ category: "OUTIL"
 letter: "A"
 layout: definition
 french_term: "ÉCHANGE ATOMIQUE"
+category_slug: "outil"
+prev_in_category:
+  title: "AMBOSS"
+  slug: "amboss"
+next_in_category:
+  title: "BDK - BITCOIN DEV KIT"
+  slug: "bdk-bitcoin-dev-kit"
 cross_references:
   - title: "ADAPTOR SIGNATURE"
     slug: "adaptor-signature"

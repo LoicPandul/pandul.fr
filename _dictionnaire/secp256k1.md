@@ -5,6 +5,13 @@ permalink: /dictionnaire/secp256k1/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SCHNORR"
+  slug: "schnorr-protocole"
+next_in_category:
+  title: "SECP256R1"
+  slug: "secp256r1"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

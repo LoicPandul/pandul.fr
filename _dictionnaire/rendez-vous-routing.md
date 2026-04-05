@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
 french_term: "ROUTAGE RENDEZ-VOUS"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "RAPID GOSSIP SYNC"
+  slug: "rapid-gossip-sync"
+next_in_category:
+  title: "REVOKEANDACK"
+  slug: "revokeandack"
 cross_references:
   - title: "BLINDED PATHS"
     slug: "blinded-paths"

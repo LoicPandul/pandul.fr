@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
 english_term: "HASH FUNCTION"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ENTROPIE"
+  slug: "entropie"
+next_in_category:
+  title: "FONCTION DE HACHAGE TAGUÉE"
+  slug: "fonction-de-hachage-taguee"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

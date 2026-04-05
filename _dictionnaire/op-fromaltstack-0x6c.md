@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-fromaltstack-0x6c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_FALSE - 0X00"
+  slug: "op-false-0x00"
+next_in_category:
+  title: "OP_GREATERTHAN - 0XA0"
+  slug: "op-greaterthan-0xa0"
 cross_references:
   - title: "OP_TOALTSTACK - 0X6B"
     slug: "op-toaltstack-0x6b"

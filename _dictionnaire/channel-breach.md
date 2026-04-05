@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "VIOLATION DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL ANNOUNCEMENT"
+  slug: "channel-announcement"
+next_in_category:
+  title: "CHANNEL FACTORIES"
+  slug: "channel-factories"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

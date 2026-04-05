@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
 french_term: "CAPACITÉ SORTANTE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ONION MESSAGE"
+  slug: "onion-message"
+next_in_category:
+  title: "PAIRING PHRASE"
+  slug: "pairing-phrase"
 cross_references:
   - title: "INBOUND CAPACITY"
     slug: "inbound-capacity"

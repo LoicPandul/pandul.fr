@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 english_term: "MERCHANT"
+category_slug: "protocole"
+prev_in_category:
+  title: "COINS/"
+  slug: "coins"
+next_in_category:
+  title: "COMPACTSIZE"
+  slug: "compactsize"
 cross_references:
   - title: "RÈGLES DE CONSENSUS"
     slug: "regles-de-consensus"

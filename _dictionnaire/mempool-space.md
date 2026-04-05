@@ -5,6 +5,13 @@ permalink: /dictionnaire/mempool-space/
 category: "OUTIL"
 letter: "M"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "MACHANKURA"
+  slug: "machankura"
+next_in_category:
+  title: "MOSTRO"
+  slug: "mostro"
 cross_references:
   - title: "BLOCKCHAIN"
     slug: "blockchain"

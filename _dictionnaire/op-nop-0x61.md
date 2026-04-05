@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-nop-0x61/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_NIP - 0X77"
+  slug: "op-nip-0x77"
+next_in_category:
+  title: "OP_NOT - 0X91"
+  slug: "op-not-0x91"
 cross_references:
   - title: "OP_CHECKLOCKTIMEVERIFY - 0XB1"
     slug: "op-checklocktimeverify-0xb1"

@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "B"
 layout: definition
 english_term: "BRANCH - GIT"
+category_slug: "informatique"
+prev_in_category:
+  title: "BIT"
+  slug: "bit"
+next_in_category:
+  title: "C++"
+  slug: "c-plus-plus"
 cross_references:
   - title: "GIT"
     slug: "git"

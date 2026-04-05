@@ -5,6 +5,13 @@ permalink: /dictionnaire/single-use-seal/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "SHARDS - RGB"
+  slug: "shards-rgb"
+next_in_category:
+  title: "STASH"
+  slug: "stash"
 cross_references:
   - title: "RGB"
     slug: "rgb"

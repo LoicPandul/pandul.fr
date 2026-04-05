@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "H"
 layout: definition
 french_term: "MINAGE À DOMICILE"
+category_slug: "minage"
+prev_in_category:
+  title: "HASHRATE"
+  slug: "hashrate"
+next_in_category:
+  title: "HYDRO COOLING"
+  slug: "hydro-cooling"
 cross_references:
   - title: "ASIC"
     slug: "asic"

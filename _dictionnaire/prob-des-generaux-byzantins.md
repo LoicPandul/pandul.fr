@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "P"
 layout: definition
 english_term: "BYZANTINE GENERALS PROBLEM"
+category_slug: "attaque"
+prev_in_category:
+  title: "PORTE DÉROBÉE"
+  slug: "porte-derobee"
+next_in_category:
+  title: "RACE ATTACK"
+  slug: "race-attack"
 cross_references:
   - title: "CONSENSUS"
     slug: "consensus"

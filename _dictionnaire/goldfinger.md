@@ -5,6 +5,13 @@ permalink: /dictionnaire/goldfinger/
 category: "ATTAQUE"
 letter: "G"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "FORCED ADDRESS REUSE"
+  slug: "forced-address-reuse"
+next_in_category:
+  title: "GRIEFING ATTACK"
+  slug: "griefing-attack"
 cross_references:
   - title: "DOUBLE DÉPENSE"
     slug: "double-depense"

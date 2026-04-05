@@ -5,6 +5,13 @@ permalink: /dictionnaire/libsecp256k1/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "LIBBITCOIN"
+  slug: "libbitcoin"
+next_in_category:
+  title: "LIMITE D'ÉMISSION"
+  slug: "limite-d-emission"
 cross_references:
   - title: "SECP256K1"
     slug: "secp256k1"

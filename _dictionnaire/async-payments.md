@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
 french_term: "PAIEMENTS ASYNCHRONES"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "APERTURE"
+  slug: "aperture"
+next_in_category:
+  title: "ATOMIC MULTI-PATH PAYMENTS"
+  slug: "atomic-multi-path-payments"
 cross_references:
   - title: "GOSSIP"
     slug: "gossip"

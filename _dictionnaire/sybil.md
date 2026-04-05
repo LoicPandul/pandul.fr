@@ -5,6 +5,13 @@ permalink: /dictionnaire/sybil/
 category: "ATTAQUE"
 letter: "S"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "SORTIE NON RENTABLE"
+  slug: "sortie-non-rentable"
+next_in_category:
+  title: "TIME WARP"
+  slug: "time-warp"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

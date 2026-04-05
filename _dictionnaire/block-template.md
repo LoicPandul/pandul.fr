@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "B"
 layout: definition
 french_term: "MODÈLE DE BLOC"
+category_slug: "minage"
+prev_in_category:
+  title: "BITMAIN"
+  slug: "bitmain"
+next_in_category:
+  title: "BOSMINER"
+  slug: "bosminer"
 cross_references:
   - title: "CANDIDAT - BLOC"
     slug: "candidat-bloc"

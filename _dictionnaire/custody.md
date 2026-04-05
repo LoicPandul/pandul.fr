@@ -5,6 +5,13 @@ permalink: /dictionnaire/custody/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "CRYPTOMONNAIE"
+  slug: "cryptomonnaie"
+next_in_category:
+  title: "DARWINISME MONÉTAIRE"
+  slug: "darwinisme-monetaire"
 cross_references:
   - title: "SELF-CUSTODY"
     slug: "self-custody"

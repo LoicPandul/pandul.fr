@@ -5,6 +5,13 @@ permalink: /dictionnaire/c-plus-plus/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "BRANCHE - GIT"
+  slug: "branche-git"
+next_in_category:
+  title: "CHARGE UTILE"
+  slug: "charge-utile"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

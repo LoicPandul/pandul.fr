@@ -5,6 +5,13 @@ permalink: /dictionnaire/clark-covenantless-ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CITREA"
+  slug: "citrea"
+next_in_category:
+  title: "CLEMENTINE"
+  slug: "clementine"
 cross_references:
   - title: "ARK"
     slug: "ark"

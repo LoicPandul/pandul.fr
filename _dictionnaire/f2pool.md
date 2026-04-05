@@ -5,6 +5,13 @@ permalink: /dictionnaire/f2pool/
 category: "MINAGE"
 letter: "F"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "EXTRA-NONCE"
+  slug: "extra-nonce"
+next_in_category:
+  title: "FERME DE MINAGE"
+  slug: "ferme-de-minage"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

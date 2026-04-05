@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
 english_term: "COIN SELECTION"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEGWIT V1"
+  slug: "segwit-v1"
+next_in_category:
+  title: "SELF-CUSTODY"
+  slug: "self-custody"
 cross_references:
   - title: "COIN CONTROL"
     slug: "coin-control"

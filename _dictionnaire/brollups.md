@@ -5,6 +5,13 @@ permalink: /dictionnaire/brollups/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BRC-20"
+  slug: "brc-20"
+next_in_category:
+  title: "BTKN"
+  slug: "btkn"
 cross_references:
   - title: "ARK"
     slug: "ark"

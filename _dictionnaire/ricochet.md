@@ -5,6 +5,13 @@ permalink: /dictionnaire/ricochet/
 category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "RÉUTILISATION D'ADRESSE - INTERNE"
+  slug: "reutilisation-d-adresse-int"
+next_in_category:
+  title: "SAMOURAI WALLET"
+  slug: "samourai-wallet"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

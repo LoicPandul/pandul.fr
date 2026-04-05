@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
 french_term: "SIGNATURES SCHNORR A SEUIL"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "FONCTION DE HACHAGE TAGUÉE"
+  slug: "fonction-de-hachage-taguee"
+next_in_category:
+  title: "GNPA"
+  slug: "gnpa"
 cross_references:
   - title: "SCHNORR"
     slug: "schnorr-protocole"

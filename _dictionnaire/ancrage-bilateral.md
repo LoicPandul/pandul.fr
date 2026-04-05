@@ -6,6 +6,10 @@ category: "SIDECHAIN"
 letter: "A"
 layout: definition
 english_term: "2WP - TWO-WAY PEG"
+category_slug: "sidechain"
+next_in_category:
+  title: "BLOCKSIGNERS"
+  slug: "blocksigners"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

@@ -5,6 +5,10 @@ permalink: /dictionnaire/viabtc/
 category: "MINAGE"
 letter: "V"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "VARIANCE"
+  slug: "variance"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

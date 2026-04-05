@@ -5,6 +5,13 @@ permalink: /dictionnaire/envoy/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "EMPREINTE DE PORTEFEUILLE"
+  slug: "empreinte-de-portefeuille"
+next_in_category:
+  title: "ÉTIQUETAGE"
+  slug: "etiquetage"
 cross_references:
   - title: "FOUNDATION DEVICES"
     slug: "foundation-devices"

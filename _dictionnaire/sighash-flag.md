@@ -5,6 +5,13 @@ permalink: /dictionnaire/sighash-flag/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SETTINGS.JSON"
+  slug: "settings-json"
+next_in_category:
+  title: "SIGHASH_ALL"
+  slug: "sighash-all"
 cross_references:
   - title: "SIGHASH_ALL"
     slug: "sighash-all"

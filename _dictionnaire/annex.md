@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "A"
 layout: definition
 french_term: "ANNEXE"
+category_slug: "protocole"
+prev_in_category:
+  title: "ANCESTOR MINING"
+  slug: "ancestor-mining"
+next_in_category:
+  title: "ASSUME UTXO"
+  slug: "assume-utxo"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

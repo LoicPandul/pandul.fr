@@ -5,6 +5,13 @@ permalink: /dictionnaire/casa/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "BULL BITCOIN"
+  slug: "bull-bitcoin"
+next_in_category:
+  title: "CHAINALYSIS"
+  slug: "chainalysis"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

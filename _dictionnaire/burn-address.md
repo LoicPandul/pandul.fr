@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 french_term: "ADRESSE DE BRÛLAGE"
+category_slug: "protocole"
+prev_in_category:
+  title: "BTCD - BTC SUITE"
+  slug: "btcd-btc-suite"
+next_in_category:
+  title: "CENSORSHIP RESISTANCE"
+  slug: "censorship-resistance"
 cross_references:
   - title: "ADRESSE DE RÉCEPTION"
     slug: "adresse-de-reception"

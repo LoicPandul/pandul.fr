@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
 english_term: "PROOF OF RESERVES"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "PRÉFÉRENCE TEMPORELLE"
+  slug: "preference-temporelle"
+next_in_category:
+  title: "PROOF-OF-KEY DAY"
+  slug: "proof-of-key-day"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

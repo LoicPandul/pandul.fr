@@ -5,6 +5,13 @@ permalink: /dictionnaire/der/
 category: "INFORMATIQUE"
 letter: "D"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "DÉPÔT"
+  slug: "depot"
+next_in_category:
+  title: "ENDIANNESS"
+  slug: "endianness"
 cross_references:
   - title: "BIP-0066"
     slug: "bip-0066"

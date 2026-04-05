@@ -5,6 +5,13 @@ permalink: /dictionnaire/sign-to-contract/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SHAMIR SECRET SHARING - SSS"
+  slug: "shamir-secret-sharing-sss"
+next_in_category:
+  title: "SIGNATURE AVEUGLE"
+  slug: "signature-aveugle"
 cross_references:
   - title: "PAY-TO-CONTRACT"
     slug: "pay-to-contract"

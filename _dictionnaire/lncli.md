@@ -5,6 +5,13 @@ permalink: /dictionnaire/lncli/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LNBITS"
+  slug: "lnbits"
+next_in_category:
+  title: "LNP2PBOT"
+  slug: "lnp2pbot"
 cross_references:
   - title: "LND"
     slug: "lnd"

@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
 english_term: "LAYER"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "STATECHAIN"
+  slug: "statechain"
+next_in_category:
+  title: "TAPROOT ASSETS PROTOCOL"
+  slug: "taproot-assets-protocol"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/p2ms/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OPCODES"
+  slug: "opcodes"
+next_in_category:
+  title: "P2PK"
+  slug: "p2pk"
 cross_references:
   - title: "BARE-MULTISIG"
     slug: "bare-multisig"

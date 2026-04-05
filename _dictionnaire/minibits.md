@@ -5,6 +5,13 @@ permalink: /dictionnaire/minibits/
 category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "MASTER FINGERPRINT"
+  slug: "master-fingerprint"
+next_in_category:
+  title: "NUNCHUK"
+  slug: "nunchuk"
 cross_references:
   - title: "CASHU"
     slug: "cashu"

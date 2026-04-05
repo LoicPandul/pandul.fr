@@ -5,6 +5,13 @@ permalink: /dictionnaire/hashboard/
 category: "MINAGE"
 letter: "H"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "HACHEUR"
+  slug: "hacheur"
+next_in_category:
+  title: "HASHRATE"
+  slug: "hashrate"
 cross_references:
   - title: "ASIC"
     slug: "asic"

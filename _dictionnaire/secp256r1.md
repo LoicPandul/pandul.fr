@@ -5,6 +5,13 @@ permalink: /dictionnaire/secp256r1/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SECP256K1"
+  slug: "secp256k1"
+next_in_category:
+  title: "SHA256"
+  slug: "sha256"
 cross_references:
   - title: "SECP256K1"
     slug: "secp256k1"

@@ -6,6 +6,13 @@ category: "HISTOIRE"
 letter: "F"
 layout: definition
 french_term: "ROBINET"
+category_slug: "histoire"
+prev_in_category:
+  title: "ECASH - XEC"
+  slug: "ecash-xec"
+next_in_category:
+  title: "FINNEY HAL"
+  slug: "finney-hal"
 cross_references:
   - title: "NAKAMOTO SATOSHI"
     slug: "nakamoto-satoshi"

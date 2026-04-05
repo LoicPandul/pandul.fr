@@ -5,6 +5,13 @@ permalink: /dictionnaire/wallet-import-format-wif/
 category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "WATCH-ONLY WALLET"
+  slug: "watch-only-wallet"
+next_in_category:
+  title: "XPRV"
+  slug: "xprv"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

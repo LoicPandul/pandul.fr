@@ -5,6 +5,13 @@ permalink: /dictionnaire/gitlab/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "GITHUB"
+  slug: "github"
+next_in_category:
+  title: "GNU"
+  slug: "gnu"
 cross_references:
   - title: "GIT"
     slug: "git"

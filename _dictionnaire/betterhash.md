@@ -5,6 +5,13 @@ permalink: /dictionnaire/betterhash/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BEHIND-THE-METER"
+  slug: "behind-the-meter"
+next_in_category:
+  title: "BITAXE"
+  slug: "bitaxe"
 cross_references:
   - title: "STRATUM"
     slug: "stratum"

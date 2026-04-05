@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "E"
 layout: definition
 french_term: "NŒUD DE BORDURE"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "DLC - DISCREET LOG CONTRACT"
+  slug: "dlc-discreet-log-contract"
+next_in_category:
+  title: "EXIT TRANSACTION"
+  slug: "exit-transaction"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

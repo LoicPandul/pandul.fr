@@ -5,6 +5,13 @@ permalink: /dictionnaire/pool-coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "POINT D'ENTRÉE"
+  slug: "point-d-entree"
+next_in_category:
+  title: "POSTMIX"
+  slug: "postmix"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

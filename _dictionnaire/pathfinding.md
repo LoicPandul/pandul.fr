@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
 french_term: "RECHERCHE DE CHEMIN"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PAIRING PHRASE"
+  slug: "pairing-phrase"
+next_in_category:
+  title: "PAYMENT HASH"
+  slug: "payment-hash"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

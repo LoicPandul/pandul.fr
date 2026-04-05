@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "O"
 layout: definition
 french_term: "POINT DE SORTIE"
+category_slug: "protocole"
+prev_in_category:
+  title: "ORPHELIN"
+  slug: "orphelin"
+next_in_category:
+  title: "OUTPUT"
+  slug: "output"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

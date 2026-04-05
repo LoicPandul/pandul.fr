@@ -5,6 +5,13 @@ permalink: /dictionnaire/ghash-io/
 category: "MINAGE"
 letter: "G"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "GETWORK"
+  slug: "getwork"
+next_in_category:
+  title: "HACHEUR"
+  slug: "hacheur"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

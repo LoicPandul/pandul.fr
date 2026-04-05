@@ -5,6 +5,13 @@ permalink: /dictionnaire/tapscript/
 category: "SCRIPT"
 letter: "T"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "SIMPLICITY"
+  slug: "simplicity"
+next_in_category:
+  title: "WITNESSSCRIPT"
+  slug: "witnessscript"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

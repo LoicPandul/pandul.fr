@@ -5,6 +5,13 @@ permalink: /dictionnaire/liberty-reserve/
 category: "HISTOIRE"
 letter: "L"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "HONG-KONG ROUNDTABLE"
+  slug: "hong-kong-roundtable"
+next_in_category:
+  title: "MTGOX"
+  slug: "mtgox"
 cross_references:
   - title: "E-GOLD"
     slug: "e-gold"

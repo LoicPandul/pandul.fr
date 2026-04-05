@@ -5,6 +5,13 @@ permalink: /dictionnaire/git/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "GCS - GOLOMB-CODED SET"
+  slug: "gcs-golomb-coded-set"
+next_in_category:
+  title: "GITHUB"
+  slug: "github"
 cross_references:
   - title: "GITHUB"
     slug: "github"

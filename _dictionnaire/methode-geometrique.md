@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 english_term: "GEOMETRIC METHOD"
+category_slug: "minage"
+prev_in_category:
+  title: "MESURE À LA PRISE"
+  slug: "mesure-a-la-prise"
+next_in_category:
+  title: "MINAGE"
+  slug: "minage"
 cross_references:
   - title: "SHARES"
     slug: "shares"

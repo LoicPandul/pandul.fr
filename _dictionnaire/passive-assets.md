@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "P"
 layout: definition
 french_term: "ACTIFS PASSIFS"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ORDINALS THEORY"
+  slug: "ordinals-theory"
+next_in_category:
+  title: "ROLLUP"
+  slug: "rollup"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

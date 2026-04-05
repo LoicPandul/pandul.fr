@@ -5,6 +5,13 @@ permalink: /dictionnaire/prop-proportional/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "PPS+"
+  slug: "pps-plus"
+next_in_category:
+  title: "PUBLIC POOL"
+  slug: "public-pool"
 cross_references:
   - title: "SHARES"
     slug: "shares"

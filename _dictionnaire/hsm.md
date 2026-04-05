@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
 french_term: "MODULE DE SÉCURITÉ MATÉRIEL"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "HORODATAGE"
+  slug: "horodatage"
+next_in_category:
+  title: "LOGARITHME DISCRET"
+  slug: "logarithme-discret"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

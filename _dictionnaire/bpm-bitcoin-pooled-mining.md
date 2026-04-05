@@ -5,6 +5,13 @@ permalink: /dictionnaire/bpm-bitcoin-pooled-mining/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BOSMINER"
+  slug: "bosminer"
+next_in_category:
+  title: "BRAIDPOOL"
+  slug: "braidpool"
 cross_references:
   - title: "SHARES"
     slug: "shares"

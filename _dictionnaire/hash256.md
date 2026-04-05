@@ -5,6 +5,13 @@ permalink: /dictionnaire/hash256/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "HASH160"
+  slug: "hash160"
+next_in_category:
+  title: "HMAC-SHA512"
+  slug: "hmac-sha512"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

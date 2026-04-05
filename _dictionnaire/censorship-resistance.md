@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 french_term: "RÉSISTANCE À LA CENSURE"
+category_slug: "protocole"
+prev_in_category:
+  title: "BURN ADDRESS"
+  slug: "burn-address"
+next_in_category:
+  title: "CHAINSPLIT"
+  slug: "chainsplit"
 cross_references:
   - title: "DÉCENTRALISATION"
     slug: "decentralisation"

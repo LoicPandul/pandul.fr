@@ -5,6 +5,13 @@ permalink: /dictionnaire/satscard/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SATODIME"
+  slug: "satodime"
+next_in_category:
+  title: "SECURE ELEMENT"
+  slug: "secure-element"
 cross_references:
   - title: "COINKITE"
     slug: "coinkite"

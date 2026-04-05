@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 english_term: "RELAY POLICY"
+category_slug: "reseau"
+prev_in_category:
+  title: "POLITIQUE DE MEMPOOL"
+  slug: "politique-de-mempool"
+next_in_category:
+  title: "POLITIQUE DE RELAIS DES TX"
+  slug: "politique-de-relais-des-tx"
 cross_references:
   - title: "POLITIQUE DE RELAIS DES TX"
     slug: "politique-de-relais-des-tx"

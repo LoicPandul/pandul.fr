@@ -5,6 +5,13 @@ permalink: /dictionnaire/pay-to-contract/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "NONCE"
+  slug: "nonce"
+next_in_category:
+  title: "PBKDF2"
+  slug: "pbkdf2"
 cross_references:
   - title: "SCHNORR"
     slug: "schnorr-protocole"

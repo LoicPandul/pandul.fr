@@ -5,6 +5,13 @@ permalink: /dictionnaire/dca-dollar-cost-averaging/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "DARWINISME MONÉTAIRE"
+  slug: "darwinisme-monetaire"
+next_in_category:
+  title: "DÉFLATION"
+  slug: "deflation"
 cross_references:
   - title: "HODL"
     slug: "hodl"

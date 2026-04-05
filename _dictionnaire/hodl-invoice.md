@@ -5,6 +5,13 @@ permalink: /dictionnaire/hodl-invoice/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "GOSSIP"
+  slug: "gossip"
+next_in_category:
+  title: "HOSTED CHANNEL"
+  slug: "hosted-channel"
 cross_references:
   - title: "PREIMAGE"
     slug: "preimage"

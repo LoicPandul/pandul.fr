@@ -5,6 +5,10 @@ permalink: /dictionnaire/aluvm/
 category: "RGB"
 letter: "A"
 layout: definition
+category_slug: "rgb"
+next_in_category:
+  title: "ANCHOR"
+  slug: "anchor"
 cross_references:
   - title: "RGB"
     slug: "rgb"

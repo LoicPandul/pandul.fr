@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-1negate-0x4f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_1ADD - 0X8B"
+  slug: "op-1add-0x8b"
+next_in_category:
+  title: "OP_1SUB - 0X8C"
+  slug: "op-1sub-0x8c"
 cross_references:
   - title: "OP_NEGATE - 0X8F"
     slug: "op-negate-0x8f"

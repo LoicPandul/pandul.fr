@@ -5,6 +5,13 @@ permalink: /dictionnaire/nbits/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "NAT - NETWORK-ADJUSTED TIME"
+  slug: "nat-network-adjusted-time"
+next_in_category:
+  title: "NESTED SEGWIT"
+  slug: "nested-segwit"
 cross_references:
   - title: "CIBLE DE DIFFICULTÉ"
     slug: "cible-de-difficulte"

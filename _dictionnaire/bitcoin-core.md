@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-core/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN - B MINUSCULE"
+  slug: "bitcoin-b-minuscule"
+next_in_category:
+  title: "BITCOIN INQUISITION"
+  slug: "bitcoin-inquisition"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

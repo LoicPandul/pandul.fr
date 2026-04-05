@@ -5,6 +5,13 @@ permalink: /dictionnaire/seedkeeper/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SECURE ELEMENT"
+  slug: "secure-element"
+next_in_category:
+  title: "SEEDQR"
+  slug: "seedqr"
 cross_references:
   - title: "SATOCHIP"
     slug: "satochip"

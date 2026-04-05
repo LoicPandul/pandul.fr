@@ -5,6 +5,13 @@ permalink: /dictionnaire/big-blockers/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BCH - BITCOIN CASH"
+  slug: "bch-bitcoin-cash"
+next_in_category:
+  title: "BIT GOLD"
+  slug: "bit-gold"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 english_term: "STALE - BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "P2P - PAIR-À-PAIR"
+  slug: "p2p-pair-a-pair"
+next_in_category:
+  title: "PÉRIODE DE MATURITÉ"
+  slug: "periode-de-maturite"
 cross_references:
   - title: "ORPHELIN"
     slug: "orphelin"

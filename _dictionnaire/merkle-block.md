@@ -5,6 +5,13 @@ permalink: /dictionnaire/merkle-block/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MEMPOOL.DAT"
+  slug: "mempool-dat"
+next_in_category:
+  title: "MÉTHODE D'ACTIVATION"
+  slug: "methode-d-activation"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

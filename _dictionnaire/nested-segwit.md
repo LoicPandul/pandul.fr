@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 french_term: "SEGWIT IMBRIQUÉ"
+category_slug: "protocole"
+prev_in_category:
+  title: "NBITS"
+  slug: "nbits"
+next_in_category:
+  title: "NOEUD"
+  slug: "noeud"
 cross_references:
   - title: "P2SH-P2WPKH"
     slug: "p2sh-p2wpkh"

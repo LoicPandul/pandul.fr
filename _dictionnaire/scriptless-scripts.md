@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "S"
 layout: definition
 french_term: "SCRIPTS SANS SCRIPT"
+category_slug: "script"
+prev_in_category:
+  title: "SCRIPT"
+  slug: "script"
+next_in_category:
+  title: "SCRIPTPUBKEY"
+  slug: "scriptpubkey"
 cross_references:
   - title: "ADAPTOR SIGNATURE"
     slug: "adaptor-signature"

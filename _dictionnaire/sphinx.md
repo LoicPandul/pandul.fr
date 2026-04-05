@@ -5,6 +5,13 @@ permalink: /dictionnaire/sphinx/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SIDECAR TICKET"
+  slug: "sidecar-ticket"
+next_in_category:
+  title: "SPLICING"
+  slug: "splicing"
 cross_references:
   - title: "ROUTAGE EN OIGNON"
     slug: "routage-en-oignon"

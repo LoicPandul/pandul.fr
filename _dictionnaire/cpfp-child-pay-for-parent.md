@@ -5,6 +5,13 @@ permalink: /dictionnaire/cpfp-child-pay-for-parent/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CONSOLIDATION"
+  slug: "consolidation"
+next_in_category:
+  title: "DÉRIVATION"
+  slug: "derivation"
 cross_references:
   - title: "RBF - REPLACE-BY-FEE"
     slug: "rbf-replace-by-fee"

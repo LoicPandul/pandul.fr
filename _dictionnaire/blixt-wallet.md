@@ -5,6 +5,13 @@ permalink: /dictionnaire/blixt-wallet/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BLINK"
+  slug: "blink"
+next_in_category:
+  title: "BLUE WALLET"
+  slug: "blue-wallet"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/snark/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SIGNATURE NUMÉRIQUE"
+  slug: "signature-numerique"
+next_in_category:
+  title: "SOMME DE CONTRÔLE"
+  slug: "somme-de-controle"
 cross_references:
   - title: "STARK"
     slug: "stark"

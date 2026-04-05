@@ -5,6 +5,13 @@ permalink: /dictionnaire/stratum-v2/
 category: "MINAGE"
 letter: "S"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "STRATUM"
+  slug: "stratum"
+next_in_category:
+  title: "TIDES"
+  slug: "tides"
 cross_references:
   - title: "STRATUM"
     slug: "stratum"

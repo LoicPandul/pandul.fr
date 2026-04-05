@@ -5,6 +5,13 @@ permalink: /dictionnaire/green-wallet/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GREEN ADDRESSES"
+  slug: "green-addresses"
+next_in_category:
+  title: "HARDWARE WALLET"
+  slug: "hardware-wallet"
 cross_references:
   - title: "BLOCKSTREAM"
     slug: "blockstream"

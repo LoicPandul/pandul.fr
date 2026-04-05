@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "F"
 layout: definition
 french_term: "CHASSE AUX FRAIS"
+category_slug: "attaque"
+prev_in_category:
+  title: "EREBUS"
+  slug: "erebus"
+next_in_category:
+  title: "FLOOD AND LOOT"
+  slug: "flood-and-loot"
 cross_references:
   - title: "NLOCKTIME"
     slug: "nlocktime"

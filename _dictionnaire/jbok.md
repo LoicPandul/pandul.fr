@@ -5,6 +5,13 @@ permalink: /dictionnaire/jbok/
 category: "PORTEFEUILLE"
 letter: "J"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "JADE"
+  slug: "jade"
+next_in_category:
+  title: "KEY TELEPORT"
+  slug: "key-teleport"
 cross_references:
   - title: "HD - HIERARCHICAL-DETERMINISTIC"
     slug: "hd-hierarchical-deterministic"

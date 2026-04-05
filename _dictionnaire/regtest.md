@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 french_term: "TEST DE RÉGRESSION"
+category_slug: "protocole"
+prev_in_category:
+  title: "RÈGLES DE STANDARDISATION"
+  slug: "regles-de-standardisation"
+next_in_category:
+  title: "RESYNCHRONISATION"
+  slug: "resynchronisation"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

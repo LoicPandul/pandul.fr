@@ -5,6 +5,13 @@ permalink: /dictionnaire/masf/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MALLÉABILITÉ - TRANSACTION"
+  slug: "malleabilite-transaction"
+next_in_category:
+  title: "MAX_BLOC_SIZE"
+  slug: "max-bloc-size"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

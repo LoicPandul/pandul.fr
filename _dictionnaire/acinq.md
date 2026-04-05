@@ -5,6 +5,10 @@ permalink: /dictionnaire/acinq/
 category: "ORGANISATION"
 letter: "A"
 layout: definition
+category_slug: "organisation"
+next_in_category:
+  title: "ALBY"
+  slug: "alby"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

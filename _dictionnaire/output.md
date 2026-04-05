@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "O"
 layout: definition
 french_term: "SORTIE"
+category_slug: "protocole"
+prev_in_category:
+  title: "OUTPOINT"
+  slug: "outpoint"
+next_in_category:
+  title: "P2P - PAIR-À-PAIR"
+  slug: "p2p-pair-a-pair"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

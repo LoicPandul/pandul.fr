@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-endif-0x68/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_ELSE - 0X67"
+  slug: "op-else-0x67"
+next_in_category:
+  title: "OP_EQUAL - 0X87"
+  slug: "op-equal-0x87"
 cross_references:
   - title: "OP_IF - 0X63"
     slug: "op-if-0x63"

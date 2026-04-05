@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "P"
 layout: definition
 french_term: "CONTRAT D'ACHAT D'ÉNERGIE"
+category_slug: "minage"
+prev_in_category:
+  title: "POT - PAY ON TARGET"
+  slug: "pot-pay-on-target"
+next_in_category:
+  title: "PPLNS - PAY PER LAST N SHARES"
+  slug: "pplns-pay-per-last-n-shares"
 cross_references:
   - title: "FERME DE MINAGE"
     slug: "ferme-de-minage"

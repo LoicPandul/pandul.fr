@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
 french_term: "ROUTAGE TRAMPOLINE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TAPROOT CHANNEL"
+  slug: "taproot-channel"
+next_in_category:
+  title: "TRANSACTION D'ENGAGEMENT"
+  slug: "transaction-d-engagement"
 cross_references:
   - title: "BLINDED PATHS"
     slug: "blinded-paths"

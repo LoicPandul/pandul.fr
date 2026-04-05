@@ -5,6 +5,13 @@ permalink: /dictionnaire/doxxic-change/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "DÉNI PLAUSIBLE"
+  slug: "deni-plausible"
+next_in_category:
+  title: "ENTROPIE - ANALYSE DE CHAINE"
+  slug: "entropie-analyse"
 cross_references:
   - title: "TX0"
     slug: "tx0"

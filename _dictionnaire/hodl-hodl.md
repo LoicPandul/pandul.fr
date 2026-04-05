@@ -5,6 +5,13 @@ permalink: /dictionnaire/hodl-hodl/
 category: "ORGANISATION"
 letter: "H"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "GALOY"
+  slug: "galoy"
+next_in_category:
+  title: "HUMAN RIGHTS FOUNDATION"
+  slug: "human-rights-foundation"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

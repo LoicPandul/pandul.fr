@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
 english_term: "PURPOSE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "NUNCHUK"
+  slug: "nunchuk"
+next_in_category:
+  title: "OPENDIME"
+  slug: "opendime"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

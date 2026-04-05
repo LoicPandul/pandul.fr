@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "O"
 layout: definition
 french_term: "CODES OPÉRATOIRES"
+category_slug: "script"
+prev_in_category:
+  title: "OP_WITHIN - 0XA5"
+  slug: "op-within-0xa5"
+next_in_category:
+  title: "P2MS"
+  slug: "p2ms"
 cross_references:
   - title: "PILE"
     slug: "pile"

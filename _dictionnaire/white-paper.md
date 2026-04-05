@@ -6,6 +6,10 @@ category: "HISTOIRE"
 letter: "W"
 layout: definition
 french_term: "LIVRE BLANC"
+category_slug: "histoire"
+prev_in_category:
+  title: "VALUE OVERFLOW INCIDENT"
+  slug: "value-overflow-incident"
 cross_references:
   - title: "NAKAMOTO SATOSHI"
     slug: "nakamoto-satoshi"

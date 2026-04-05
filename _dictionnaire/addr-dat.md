@@ -5,6 +5,13 @@ permalink: /dictionnaire/addr-dat/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ADDR"
+  slug: "addr"
+next_in_category:
+  title: "ADDRMAN"
+  slug: "addrman"
 cross_references:
   - title: "PEERS.DAT"
     slug: "peers-dat"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 french_term: "PORTEFEUILLE FROID"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "COIN CONTROL"
+  slug: "coin-control"
+next_in_category:
+  title: "COLDCARD"
+  slug: "coldcard"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

@@ -6,6 +6,10 @@ category: "BIP"
 letter: "C"
 layout: definition
 english_term: "CHAMPION - BIP"
+category_slug: "bip"
+prev_in_category:
+  title: "BIP-0443"
+  slug: "bip-0443"
 cross_references:
   - title: "BIP"
     slug: "bip"

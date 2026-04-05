@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 english_term: "SCHNORR PROTOCOL"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "ROAST"
+  slug: "roast"
+next_in_category:
+  title: "SECP256K1"
+  slug: "secp256k1"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

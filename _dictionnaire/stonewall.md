@@ -5,6 +5,13 @@ permalink: /dictionnaire/stonewall/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "STEALTH ADDRESS"
+  slug: "stealth-address"
+next_in_category:
+  title: "STONEWALL X2"
+  slug: "stonewall-x2"
 cross_references:
   - title: "STONEWALL X2"
     slug: "stonewall-x2"

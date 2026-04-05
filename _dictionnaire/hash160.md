@@ -5,6 +5,13 @@ permalink: /dictionnaire/hash160/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "GROTH16"
+  slug: "groth16"
+next_in_category:
+  title: "HASH256"
+  slug: "hash256"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

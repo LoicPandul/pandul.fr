@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
 english_term: "DEFLATION"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "DCA - DOLLAR COST AVERAGING"
+  slug: "dca-dollar-cost-averaging"
+next_in_category:
+  title: "DEPEG"
+  slug: "depeg"
 cross_references:
   - title: "INFLATION"
     slug: "inflation"

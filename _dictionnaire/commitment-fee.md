@@ -5,6 +5,13 @@ permalink: /dictionnaire/commitment-fee/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CLN - CORE-LIGHTNING"
+  slug: "cln-core-lightning"
+next_in_category:
+  title: "COOPERATIVE CLOSE"
+  slug: "cooperative-close"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

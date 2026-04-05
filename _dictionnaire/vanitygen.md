@@ -5,6 +5,13 @@ permalink: /dictionnaire/vanitygen/
 category: "OUTIL"
 letter: "V"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "UMBREL"
+  slug: "umbrel"
+next_in_category:
+  title: "VEXL"
+  slug: "vexl"
 cross_references:
   - title: "VANITY ADDRESS"
     slug: "vanity-address"

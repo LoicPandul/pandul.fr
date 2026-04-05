@@ -5,6 +5,10 @@ permalink: /dictionnaire/zmq-zeromq/
 category: "INFORMATIQUE"
 letter: "Z"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "VERSIONNAGE"
+  slug: "versionnage"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

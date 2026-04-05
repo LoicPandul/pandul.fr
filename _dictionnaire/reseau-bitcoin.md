@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "R"
 layout: definition
 english_term: "BITCOIN NETWORK"
+category_slug: "reseau"
+prev_in_category:
+  title: "RELAIS NOSTR"
+  slug: "relais-nostr"
+next_in_category:
+  title: "ROUTAGE EN OIGNON"
+  slug: "routage-en-oignon"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 french_term: "PREUVE D'ENJEU"
+category_slug: "protocole"
+prev_in_category:
+  title: "PRIME DE PROXIMITÉ"
+  slug: "prime-de-proximite"
+next_in_category:
+  title: "PURGE DE MEMPOOL"
+  slug: "purge-de-mempool"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

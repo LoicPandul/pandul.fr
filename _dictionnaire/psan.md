@@ -5,6 +5,13 @@ permalink: /dictionnaire/psan/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "PROOF-OF-KEY DAY"
+  slug: "proof-of-key-day"
+next_in_category:
+  title: "QE - QUANTITATIVE EASING"
+  slug: "quantitative-easing-qe"
 cross_references:
   - title: "KYC - KNOW YOUR CUSTOMER"
     slug: "kyc-know-your-customer"

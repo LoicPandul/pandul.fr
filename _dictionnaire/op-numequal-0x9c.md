@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-numequal-0x9c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_NOTIF - 0X64"
+  slug: "op-notif-0x64"
+next_in_category:
+  title: "OP_NUMEQUALVERIFY - 0X9D"
+  slug: "op-numequalverify-0x9d"
 cross_references:
   - title: "OP_NUMEQUALVERIFY - 0X9D"
     slug: "op-numequalverify-0x9d"

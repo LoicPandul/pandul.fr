@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
 english_term: "SEQUENCER"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SE - SPARK ENTITY"
+  slug: "se-spark-entity"
+next_in_category:
+  title: "SO - SPARK OPERATOR"
+  slug: "so-spark-operator"
 cross_references:
   - title: "ROLLUP"
     slug: "rollup"

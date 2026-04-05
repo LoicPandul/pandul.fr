@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 french_term: "TRANSACTIONS CONFIDENTIELLES"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CONDENSAT"
+  slug: "condensat"
+next_in_category:
+  title: "COURBE ELLIPTIQUE"
+  slug: "courbe-elliptique"
 cross_references:
   - title: "ZKP - ZERO-KNOWLEDGE PROOF"
     slug: "zkp-zero-knowledge-proof"

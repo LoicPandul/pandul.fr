@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "S"
 layout: definition
 french_term: "VÉRIFICATION SIMPLIFIÉE DE PAIEMENT"
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGOPS"
+  slug: "sigops-signature-operations"
+next_in_category:
+  title: "SNAPSHOT"
+  slug: "snapshot"
 cross_references:
   - title: "NOEUD SPV - NOEUD LÉGER"
     slug: "noeud-spv-noeud-leger"

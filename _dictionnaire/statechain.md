@@ -5,6 +5,13 @@ permalink: /dictionnaire/statechain/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "STAMPS"
+  slug: "stamps"
+next_in_category:
+  title: "SURCOUCHE"
+  slug: "surcouche"
 cross_references:
   - title: "SPARK"
     slug: "spark"

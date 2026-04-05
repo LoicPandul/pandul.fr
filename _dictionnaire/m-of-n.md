@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
 french_term: "M-DE-N"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "LIANA"
+  slug: "liana"
+next_in_category:
+  title: "MASTER FINGERPRINT"
+  slug: "master-fingerprint"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

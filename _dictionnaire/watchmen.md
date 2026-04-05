@@ -6,6 +6,10 @@ category: "SIDECHAIN"
 letter: "W"
 layout: definition
 french_term: "GARDIENS"
+category_slug: "sidechain"
+prev_in_category:
+  title: "SIDECHAIN"
+  slug: "sidechain"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

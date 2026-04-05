@@ -5,6 +5,13 @@ permalink: /dictionnaire/onion-v3-private-key/
 category: "RÉSEAU"
 letter: "O"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ONION_PRIVATE_KEY"
+  slug: "onion-private-key"
+next_in_category:
+  title: "P2P TRANSPORT V2"
+  slug: "p2p-transport-v2"
 cross_references:
   - title: "ONION_PRIVATE_KEY"
     slug: "onion-private-key"

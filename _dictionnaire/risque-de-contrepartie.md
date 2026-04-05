@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
 english_term: "COUNTERPARTY RISK"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "RÉSERVES FRACTIONNAIRES"
+  slug: "reserves-fractionnaires"
+next_in_category:
+  title: "SAT - SATOSHI"
+  slug: "sat-satoshi"
 cross_references:
   - title: "CUSTODY"
     slug: "custody"

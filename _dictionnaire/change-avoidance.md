@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
 french_term: "ÉVITEMENT DU CHANGE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "BITCOIN FOG"
+  slug: "bitcoin-fog"
+next_in_category:
+  title: "CHAUMIAN COINJOIN"
+  slug: "chaumian-coinjoin"
 cross_references:
   - title: "CHANGE"
     slug: "change"

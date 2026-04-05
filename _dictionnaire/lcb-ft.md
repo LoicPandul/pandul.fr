@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
 english_term: "AML/CFT"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "KYC - KNOW YOUR CUSTOMER"
+  slug: "kyc-know-your-customer"
+next_in_category:
+  title: "LITECOIN"
+  slug: "litecoin"
 cross_references:
   - title: "AML - ANTI-MONEY LAUNDERING"
     slug: "aml-anti-money-laundering"

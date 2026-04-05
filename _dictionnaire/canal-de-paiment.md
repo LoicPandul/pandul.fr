@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 english_term: "PAYMENT CHANNEL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "BREEZ"
+  slug: "breez"
+next_in_category:
+  title: "CAPACITÉ DE CANAL LIGHTNING"
+  slug: "capacite-de-canal-lightning"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

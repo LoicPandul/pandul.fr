@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 english_term: "FULL NODE"
+category_slug: "protocole"
+prev_in_category:
+  title: "NOEUD"
+  slug: "noeud"
+next_in_category:
+  title: "NOEUD ÉLAGUÉ"
+  slug: "noeud-elague"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "C"
 layout: definition
 english_term: "CANDIDATE BLOCK"
+category_slug: "minage"
+prev_in_category:
+  title: "CANAAN"
+  slug: "canaan"
+next_in_category:
+  title: "CGMINER"
+  slug: "cgminer"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

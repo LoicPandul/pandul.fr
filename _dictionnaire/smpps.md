@@ -5,6 +5,13 @@ permalink: /dictionnaire/smpps/
 category: "MINAGE"
 letter: "S"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "SHARES DIFFICULTY"
+  slug: "shares-difficulty"
+next_in_category:
+  title: "SOLO MINING"
+  slug: "solo-mining"
 cross_references:
   - title: "SHARES"
     slug: "shares"

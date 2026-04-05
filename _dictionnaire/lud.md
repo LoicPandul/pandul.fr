@@ -5,6 +5,13 @@ permalink: /dictionnaire/lud/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LOOP OUT"
+  slug: "loop-out"
+next_in_category:
+  title: "MAGMA"
+  slug: "magma"
 cross_references:
   - title: "LNURL"
     slug: "lnurl"

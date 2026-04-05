@@ -5,6 +5,13 @@ permalink: /dictionnaire/oxt/
 category: "CONFIDENTIALITÉ"
 letter: "O"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "OUTPUT LINKING"
+  slug: "output-linking"
+next_in_category:
+  title: "PAIEMENT ROND"
+  slug: "paiement-rond"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

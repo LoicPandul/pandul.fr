@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 english_term: "PROXIMITY PREMIUM"
+category_slug: "protocole"
+prev_in_category:
+  title: "PREUVE DE TRAVAIL"
+  slug: "preuve-de-travail"
+next_in_category:
+  title: "PROOF OF STAKE"
+  slug: "proof-of-stake"
 cross_references:
   - title: "MINAGE"
     slug: "minage"

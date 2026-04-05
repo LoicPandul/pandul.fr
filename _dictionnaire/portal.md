@@ -5,6 +5,13 @@ permalink: /dictionnaire/portal/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PHRASE DE RÉCUPÉRATION"
+  slug: "phrase-de-recuperation"
+next_in_category:
+  title: "PORTEFEUILLE"
+  slug: "portefeuille"
 cross_references:
   - title: "TWENTYTWO DEVICES"
     slug: "twentytwo-devices"

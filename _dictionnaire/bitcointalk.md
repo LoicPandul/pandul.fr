@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcointalk/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "BITCOIN OPTECH"
+  slug: "bitcoin-optech"
+next_in_category:
+  title: "BOUNTY"
+  slug: "bounty"
 cross_references:
   - title: "BITCOIN OPTECH"
     slug: "bitcoin-optech"

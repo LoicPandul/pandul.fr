@@ -5,6 +5,13 @@ permalink: /dictionnaire/signet/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGNALING"
+  slug: "signaling"
+next_in_category:
+  title: "SIGOPS"
+  slug: "sigops-signature-operations"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

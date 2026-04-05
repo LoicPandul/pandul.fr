@@ -5,6 +5,13 @@ permalink: /dictionnaire/arbitrage/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "AML - ANTI-MONEY LAUNDERING"
+  slug: "aml-anti-money-laundering"
+next_in_category:
+  title: "ATH - ALL-TIME HIGH"
+  slug: "ath-all-time-high"
 cross_references:
   - title: "LIQUIDITÉS"
     slug: "liquidites"

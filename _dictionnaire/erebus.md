@@ -5,6 +5,13 @@ permalink: /dictionnaire/erebus/
 category: "ATTAQUE"
 letter: "E"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "ECLIPSE"
+  slug: "eclipse"
+next_in_category:
+  title: "FEE SNIPING"
+  slug: "fee-sniping"
 cross_references:
   - title: "ASMAP"
     slug: "asmap"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 french_term: "MULTISIG BRUT"
+category_slug: "protocole"
+prev_in_category:
+  title: "ASSUME VALID"
+  slug: "assume-valid"
+next_in_category:
+  title: "BASE58CHECK"
+  slug: "base58check"
 cross_references:
   - title: "P2MS"
     slug: "p2ms"

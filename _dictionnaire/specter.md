@@ -5,6 +5,13 @@ permalink: /dictionnaire/specter/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SPARROW WALLET"
+  slug: "sparrow-wallet"
+next_in_category:
+  title: "TAPSIGNER"
+  slug: "tapsigner"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

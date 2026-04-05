@@ -5,6 +5,13 @@ permalink: /dictionnaire/synonym/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "SPIRAL"
+  slug: "spiral"
+next_in_category:
+  title: "TEN31"
+  slug: "ten31"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

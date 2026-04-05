@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
 english_term: "DERIVATION"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CPFP - CHILD PAY FOR PARENT"
+  slug: "cpfp-child-pay-for-parent"
+next_in_category:
+  title: "DÉRIVATION ENDURCIE"
+  slug: "derivation-endurcie"
 cross_references:
   - title: "INDEX - KEY"
     slug: "index-key"

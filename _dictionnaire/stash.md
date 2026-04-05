@@ -5,6 +5,13 @@ permalink: /dictionnaire/stash/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "SINGLE-USE SEAL"
+  slug: "single-use-seal"
+next_in_category:
+  title: "STATE EXTENSION"
+  slug: "state-extension"
 cross_references:
   - title: "CLIENT-SIDE VALIDATION"
     slug: "client-side-validation"

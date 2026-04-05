@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "G"
 layout: definition
 english_term: "GENESIS BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "FULL RBF"
+  slug: "full-rbf"
+next_in_category:
+  title: "GRAFTROOT"
+  slug: "graftroot"
 cross_references:
   - title: "COINBASE"
     slug: "coinbase"

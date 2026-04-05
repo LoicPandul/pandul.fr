@@ -5,6 +5,13 @@ permalink: /dictionnaire/overt-asicboost/
 category: "MINAGE"
 letter: "O"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "OVERCLOCKING"
+  slug: "overclocking"
+next_in_category:
+  title: "P2POOL"
+  slug: "p2pool"
 cross_references:
   - title: "ASICBOOST"
     slug: "asicboost"

@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
 english_term: "GRESHAM'S LAW"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "LITECOIN"
+  slug: "litecoin"
+next_in_category:
+  title: "LOI DE THIERS"
+  slug: "loi-de-thiers"
 cross_references:
   - title: "LOI DE THIERS"
     slug: "loi-de-thiers"

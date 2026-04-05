@@ -5,6 +5,13 @@ permalink: /dictionnaire/cbtc-citrea-bitcoin/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CASHU"
+  slug: "cashu"
+next_in_category:
+  title: "CET"
+  slug: "cet"
 cross_references:
   - title: "CITREA"
     slug: "citrea"

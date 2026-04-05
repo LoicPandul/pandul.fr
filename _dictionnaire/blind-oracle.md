@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
 french_term: "ORACLE AVEUGLE"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BITVM"
+  slug: "bitvm"
+next_in_category:
+  title: "BRC-20"
+  slug: "brc-20"
 cross_references:
   - title: "ORACLE"
     slug: "oracle"

@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "ANNONCE DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL ACCEPTOR"
+  slug: "channel-acceptor"
+next_in_category:
+  title: "CHANNEL BREACH"
+  slug: "channel-breach"
 cross_references:
   - title: "PUBLIC CHANNEL"
     slug: "public-channel"

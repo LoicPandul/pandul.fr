@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "C"
 layout: definition
 french_term: "PROCESSEUR"
+category_slug: "informatique"
+prev_in_category:
+  title: "CONCATÉNATION"
+  slug: "concatenation"
+next_in_category:
+  title: "DAEMON"
+  slug: "daemon"
 cross_references:
   - title: "ASIC"
     slug: "asic"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/eclair/
 category: "LIGHTNING NETWORK"
 letter: "E"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "DUAL FUNDING"
+  slug: "dual-funding"
+next_in_category:
+  title: "ELECTRUM LIGHTNING"
+  slug: "electrum-lightning"
 cross_references:
   - title: "LND"
     slug: "lnd"

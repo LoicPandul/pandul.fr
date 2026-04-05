@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
 french_term: "MARCHÉ HAUSSIER"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BITCOIN TREASURY COMPANY"
+  slug: "bitcoin-treasury-company"
+next_in_category:
+  title: "BULL RUN"
+  slug: "bull-run"
 cross_references:
   - title: "BEAR MARKET"
     slug: "bear-market"

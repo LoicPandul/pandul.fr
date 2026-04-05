@@ -5,6 +5,13 @@ permalink: /dictionnaire/se-spark-entity/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "RUNES"
+  slug: "runes"
+next_in_category:
+  title: "SÉQUENCEUR"
+  slug: "sequenceur"
 cross_references:
   - title: "SPARK"
     slug: "spark"

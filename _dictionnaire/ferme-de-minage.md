@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "F"
 layout: definition
 english_term: "MINING FARM"
+category_slug: "minage"
+prev_in_category:
+  title: "F2POOL"
+  slug: "f2pool"
+next_in_category:
+  title: "FOUNDRY USA"
+  slug: "foundry-usa"
 cross_references:
   - title: "ASIC"
     slug: "asic"

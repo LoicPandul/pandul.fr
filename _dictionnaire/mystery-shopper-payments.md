@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "M"
 layout: definition
 french_term: "PAIEMENTS DE CLIENT MYSTÈRE"
+category_slug: "attaque"
+prev_in_category:
+  title: "MITM - MAN-IN-THE-MIDDLE"
+  slug: "mitm-man-in-the-middle"
+next_in_category:
+  title: "PANNE BYZANTINE"
+  slug: "panne-byzantine"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/ownership/
 category: "RGB"
 letter: "O"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "OWNED STATE"
+  slug: "owned-state"
+next_in_category:
+  title: "REDEEM"
+  slug: "redeem"
 cross_references:
   - title: "OWNED STATE"
     slug: "owned-state"

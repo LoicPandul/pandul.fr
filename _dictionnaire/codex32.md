@@ -5,6 +5,13 @@ permalink: /dictionnaire/codex32/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CODE DE CHAINE MAITRE"
+  slug: "code-de-chaine-maitre"
+next_in_category:
+  title: "COIN CONTROL"
+  slug: "coin-control"
 cross_references:
   - title: "GRAINE"
     slug: "graine"

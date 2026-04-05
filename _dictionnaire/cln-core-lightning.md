@@ -5,6 +5,13 @@ permalink: /dictionnaire/cln-core-lightning/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CLN - C-LIGHTNING"
+  slug: "cln-c-lightning"
+next_in_category:
+  title: "COMMITMENT FEE"
+  slug: "commitment-fee"
 cross_references:
   - title: "LND"
     slug: "lnd"

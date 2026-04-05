@@ -5,6 +5,13 @@ permalink: /dictionnaire/addrv2/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ADDRMAN"
+  slug: "addrman"
+next_in_category:
+  title: "ANCHORS.DAT"
+  slug: "anchors-dat"
 cross_references:
   - title: "ADDR"
     slug: "addr"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "O"
 layout: definition
 french_term: "RACCORDÉ AU RÉSEAU"
+category_slug: "minage"
+prev_in_category:
+  title: "OFF-GRID"
+  slug: "off-grid"
+next_in_category:
+  title: "OVERCLOCKING"
+  slug: "overclocking"
 cross_references:
   - title: "OFF-GRID"
     slug: "off-grid"

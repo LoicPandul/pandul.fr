@@ -5,6 +5,13 @@ permalink: /dictionnaire/seal-definition/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "SCHEMA"
+  slug: "schema"
+next_in_category:
+  title: "SHARDS - RGB"
+  slug: "shards-rgb"
 cross_references:
   - title: "ASSIGNMENT"
     slug: "assignment"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "L"
 layout: definition
 french_term: "MINAGE PAR LOTERIE"
+category_slug: "minage"
+prev_in_category:
+  title: "IP REPORT"
+  slug: "ip-report"
+next_in_category:
+  title: "LUCK"
+  slug: "luck"
 cross_references:
   - title: "SOLO MINING"
     slug: "solo-mining"

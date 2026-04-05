@@ -5,6 +5,13 @@ permalink: /dictionnaire/liquid-network/
 category: "SIDECHAIN"
 letter: "L"
 layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "LBTC - LIQUID BITCOIN"
+  slug: "lbtc"
+next_in_category:
+  title: "MINAGE FUSIONNÉ"
+  slug: "minage-fusionne"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

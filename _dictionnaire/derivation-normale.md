@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
 english_term: "NORMAL DERIVATION"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DÉRIVATION ENDURCIE"
+  slug: "derivation-endurcie"
+next_in_category:
+  title: "DURESS WALLET"
+  slug: "duress-wallet"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

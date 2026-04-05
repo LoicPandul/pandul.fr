@@ -5,6 +5,13 @@ permalink: /dictionnaire/raspiblitz/
 category: "OUTIL"
 letter: "R"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "POLAR"
+  slug: "polar"
+next_in_category:
+  title: "ROBOSATS"
+  slug: "robosats"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

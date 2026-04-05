@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
 english_term: "LIGHTNING NODE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "NŒUD DE ROUTAGE"
+  slug: "noeud-de-routage"
+next_in_category:
+  title: "NWC - NOSTR WALLET CONNECT"
+  slug: "nwc-nostr-wallet-connect"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

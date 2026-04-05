@@ -5,6 +5,13 @@ permalink: /dictionnaire/cppsrb/
 category: "MINAGE"
 letter: "C"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "COVERT ASICBOOST"
+  slug: "covert-asicboost"
+next_in_category:
+  title: "CURTAILMENT"
+  slug: "curtailment"
 cross_references:
   - title: "SHARES"
     slug: "shares"

@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
 french_term: "SOCIÉTÉ DE TRÉSORERIE BITCOIN"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BITCOIN ATM"
+  slug: "bitcoin-atm"
+next_in_category:
+  title: "BULL MARKET"
+  slug: "bull-market"
 cross_references:
   - title: "ETF"
     slug: "etf"

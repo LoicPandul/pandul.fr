@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitrefill/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BITCOINJ"
+  slug: "bitcoinj"
+next_in_category:
+  title: "BOLTZ"
+  slug: "boltz"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/tapd/
 category: "OUTIL"
 letter: "T"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "SWISS BITCOIN PAY"
+  slug: "swiss-bitcoin-pay"
+next_in_category:
+  title: "THE EYE OF SATOSHI"
+  slug: "the-eye-of-satoshi"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

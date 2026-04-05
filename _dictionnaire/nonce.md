@@ -5,6 +5,13 @@ permalink: /dictionnaire/nonce/
 category: "CRYPTOGRAPHIE"
 letter: "N"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "MUSIG2"
+  slug: "musig2"
+next_in_category:
+  title: "PAY-TO-CONTRACT"
+  slug: "pay-to-contract"
 cross_references:
   - title: "MINAGE"
     slug: "minage"

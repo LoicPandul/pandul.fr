@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "R"
 layout: definition
 french_term: "APPEL DE PROCÉDURE À DISTANCE"
+category_slug: "informatique"
+prev_in_category:
+  title: "RÉSISTANCE AU PARTITIONNEMENT"
+  slug: "resistance-au-partitionnement"
+next_in_category:
+  title: "SHOR"
+  slug: "shor-algorithme"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

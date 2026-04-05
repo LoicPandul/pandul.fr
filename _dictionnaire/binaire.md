@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "B"
 layout: definition
 english_term: "BINARY"
+category_slug: "informatique"
+prev_in_category:
+  title: "BIG-ENDIAN"
+  slug: "big-endian"
+next_in_category:
+  title: "BIT"
+  slug: "bit"
 cross_references:
   - title: "BIT"
     slug: "bit"

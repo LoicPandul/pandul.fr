@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "E"
 layout: definition
 english_term: "NATURAL BRANCHING / CHAINSPLIT"
+category_slug: "protocole"
+prev_in_category:
+  title: "DUSTRELAYFEE"
+  slug: "dustrelayfee"
+next_in_category:
+  title: "ENTÊTE DE BLOC"
+  slug: "entete-de-bloc"
 cross_references:
   - title: "RESYNCHRONISATION"
     slug: "resynchronisation"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/mtgox/
 category: "HISTOIRE"
 letter: "M"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "LIBERTY RESERVE"
+  slug: "liberty-reserve"
+next_in_category:
+  title: "NAKAMOTO SATOSHI"
+  slug: "nakamoto-satoshi"
 cross_references:
   - title: "HALVING"
     slug: "halving"

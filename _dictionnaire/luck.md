@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "L"
 layout: definition
 french_term: "CHANCE"
+category_slug: "minage"
+prev_in_category:
+  title: "LOTTERY MINING"
+  slug: "lottery-mining"
+next_in_category:
+  title: "LUXOR"
+  slug: "luxor"
 cross_references:
   - title: "SHARES"
     slug: "shares"

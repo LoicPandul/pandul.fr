@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinkite/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "CHAINWAY LABS"
+  slug: "chainway-labs"
+next_in_category:
+  title: "FONDATION BITCOIN"
+  slug: "fondation-bitcoin"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

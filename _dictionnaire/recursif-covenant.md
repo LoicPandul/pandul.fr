@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 english_term: "RECURSIVE - COVENANT"
+category_slug: "protocole"
+prev_in_category:
+  title: "RÉCOMPENSE DE BLOC"
+  slug: "recompense-de-bloc"
+next_in_category:
+  title: "RÈGLES DE CONSENSUS"
+  slug: "regles-de-consensus"
 cross_references:
   - title: "COVENANT"
     slug: "covenant"

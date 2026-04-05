@@ -5,6 +5,13 @@ permalink: /dictionnaire/i2p/
 category: "RÉSEAU"
 letter: "I"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "HEADERS-FIRST SYNC"
+  slug: "headers-first-sync"
+next_in_category:
+  title: "IP_ASN.MAP"
+  slug: "ip-asn-map"
 cross_references:
   - title: "TOR"
     slug: "tor-the-onion-router"

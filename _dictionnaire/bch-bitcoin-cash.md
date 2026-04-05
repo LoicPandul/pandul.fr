@@ -5,6 +5,13 @@ permalink: /dictionnaire/bch-bitcoin-cash/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "B-MONEY"
+  slug: "b-money"
+next_in_category:
+  title: "BIG BLOCKERS"
+  slug: "big-blockers"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

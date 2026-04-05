@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
 english_term: "LEGAL TENDER"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "COLLATÉRAL"
+  slug: "collateral"
+next_in_category:
+  title: "CRYPTO-ACTIF"
+  slug: "crypto-actif"
 cross_references:
   - title: "LOI DE GRESHAM"
     slug: "loi-de-gresham"

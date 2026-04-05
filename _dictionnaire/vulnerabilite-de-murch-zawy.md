@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "V"
 layout: definition
 english_term: "MURCH-ZAWY VULNERABILITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "VOUT"
+  slug: "vout"
+next_in_category:
+  title: "WALLET.DAT"
+  slug: "wallet-dat"
 cross_references:
   - title: "TIME WARP"
     slug: "time-warp"

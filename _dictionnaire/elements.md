@@ -5,6 +5,13 @@ permalink: /dictionnaire/elements/
 category: "SIDECHAIN"
 letter: "E"
 layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "DYNAFED - DYNAMIC FEDERATIONS"
+  slug: "dynamic-federations"
+next_in_category:
+  title: "FÉDÉRATION"
+  slug: "federation"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

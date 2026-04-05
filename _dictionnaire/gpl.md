@@ -5,6 +5,13 @@ permalink: /dictionnaire/gpl/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "GNU"
+  slug: "gnu"
+next_in_category:
+  title: "GRPC"
+  slug: "grpc"
 cross_references:
   - title: "GNU"
     slug: "gnu"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-boolor-0x9b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_BOOLAND - 0X9A"
+  slug: "op-booland-0x9a"
+next_in_category:
+  title: "OP_CAT - 0X7E"
+  slug: "op-cat-0x7e"
 cross_references:
   - title: "OP_BOOLAND - 0X9A"
     slug: "op-booland-0x9a"

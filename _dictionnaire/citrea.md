@@ -5,6 +5,13 @@ permalink: /dictionnaire/citrea/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CET"
+  slug: "cet"
+next_in_category:
+  title: "CLARK - COVENANTLESS ARK"
+  slug: "clark-covenantless-ark"
 cross_references:
   - title: "CLEMENTINE"
     slug: "clementine"

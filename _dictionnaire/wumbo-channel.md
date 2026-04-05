@@ -5,6 +5,13 @@ permalink: /dictionnaire/wumbo-channel/
 category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "WATCHTOWER"
+  slug: "watchtower"
+next_in_category:
+  title: "ZAP"
+  slug: "zap"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

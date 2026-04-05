@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "DERIVATION PATH"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHANGE"
+  slug: "change"
+next_in_category:
+  title: "CHEMIN DE RÉCUPÉRATION"
+  slug: "chemin-de-recuperation"
 cross_references:
   - title: "BIP-0032"
     slug: "bip-0032"

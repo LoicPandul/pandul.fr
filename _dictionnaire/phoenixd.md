@@ -5,6 +5,13 @@ permalink: /dictionnaire/phoenixd/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PHOENIX"
+  slug: "phoenix"
+next_in_category:
+  title: "POOL - LIGHTNING"
+  slug: "pool-lightning"
 cross_references:
   - title: "PHOENIX"
     slug: "phoenix"

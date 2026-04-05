@@ -5,6 +5,13 @@ permalink: /dictionnaire/macaroon/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "LITTLE-ENDIAN"
+  slug: "little-endian"
+next_in_category:
+  title: "MAPPER"
+  slug: "mapper"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

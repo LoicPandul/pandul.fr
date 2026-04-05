@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "O"
 layout: definition
 english_term: "ORPHAN BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "ON-CHAIN"
+  slug: "on-chain"
+next_in_category:
+  title: "OUTPOINT"
+  slug: "outpoint"
 cross_references:
   - title: "BLOC"
     slug: "bloc"

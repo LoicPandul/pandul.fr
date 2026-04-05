@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "M"
 layout: definition
 french_term: "FUSIONNER"
+category_slug: "informatique"
+prev_in_category:
+  title: "MAPPER"
+  slug: "mapper"
+next_in_category:
+  title: "MERKLE SUM TREE"
+  slug: "merkle-sum-tree"
 cross_references:
   - title: "GIT"
     slug: "git"

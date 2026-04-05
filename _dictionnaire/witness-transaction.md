@@ -5,6 +5,10 @@ permalink: /dictionnaire/witness-transaction/
 category: "RGB"
 letter: "W"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "VALENCY"
+  slug: "valency"
 cross_references:
   - title: "SINGLE-USE SEAL"
     slug: "single-use-seal"

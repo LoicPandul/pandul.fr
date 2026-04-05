@@ -5,6 +5,13 @@ permalink: /dictionnaire/getwork/
 category: "MINAGE"
 letter: "G"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "GETBLOCKTEMPLATE"
+  slug: "getblocktemplate"
+next_in_category:
+  title: "GHASH.IO"
+  slug: "ghash-io"
 cross_references:
   - title: "STRATUM"
     slug: "stratum"

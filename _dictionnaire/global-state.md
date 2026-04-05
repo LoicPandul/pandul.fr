@@ -5,6 +5,13 @@ permalink: /dictionnaire/global-state/
 category: "RGB"
 letter: "G"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "GENESIS"
+  slug: "genesis"
+next_in_category:
+  title: "INTERFACE"
+  slug: "interface"
 cross_references:
   - title: "OWNED STATE"
     slug: "owned-state"

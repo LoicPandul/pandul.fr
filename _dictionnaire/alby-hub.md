@@ -5,6 +5,13 @@ permalink: /dictionnaire/alby-hub/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "AEZEED"
+  slug: "aezeed"
+next_in_category:
+  title: "ANCHOR OUTPUTS"
+  slug: "anchor-outputs"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

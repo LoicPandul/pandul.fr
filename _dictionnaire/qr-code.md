@@ -5,6 +5,13 @@ permalink: /dictionnaire/qr-code/
 category: "INFORMATIQUE"
 letter: "Q"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "PULL REQUEST"
+  slug: "pull-request"
+next_in_category:
+  title: "QUBIT"
+  slug: "qubit"
 cross_references:
   - title: "URI"
     slug: "uri"

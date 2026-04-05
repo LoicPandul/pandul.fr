@@ -5,6 +5,13 @@ permalink: /dictionnaire/btcpay-server/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BTCMAP"
+  slug: "btcmap"
+next_in_category:
+  title: "CHANTOOLS"
+  slug: "chantools"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

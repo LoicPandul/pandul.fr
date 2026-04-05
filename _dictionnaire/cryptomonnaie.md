@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
 english_term: "CRYPTOCURRENCY"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "CRYPTO-ACTIF"
+  slug: "crypto-actif"
+next_in_category:
+  title: "CUSTODY"
+  slug: "custody"
 cross_references:
   - title: "CRYPTOGRAPHIE"
     slug: "cryptographie"

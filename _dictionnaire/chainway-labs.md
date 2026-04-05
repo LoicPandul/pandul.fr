@@ -5,6 +5,13 @@ permalink: /dictionnaire/chainway-labs/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "CHAINCODE LABS"
+  slug: "chaincode-labs"
+next_in_category:
+  title: "COINKITE"
+  slug: "coinkite"
 cross_references:
   - title: "CITREA"
     slug: "citrea"

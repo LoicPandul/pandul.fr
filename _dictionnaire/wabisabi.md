@@ -5,6 +5,13 @@ permalink: /dictionnaire/wabisabi/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "VIRGIN BITCOIN"
+  slug: "virgin-bitcoin"
+next_in_category:
+  title: "WHIRLPOOL"
+  slug: "whirlpool"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

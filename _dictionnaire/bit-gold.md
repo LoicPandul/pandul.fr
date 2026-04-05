@@ -5,6 +5,13 @@ permalink: /dictionnaire/bit-gold/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BIG BLOCKERS"
+  slug: "big-blockers"
+next_in_category:
+  title: "BITCOIN CLASSIC"
+  slug: "bitcoin-classic"
 cross_references:
   - title: "B-MONEY"
     slug: "b-money"

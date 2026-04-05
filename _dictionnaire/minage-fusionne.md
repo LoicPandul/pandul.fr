@@ -6,6 +6,13 @@ category: "SIDECHAIN"
 letter: "M"
 layout: definition
 english_term: "MM - MERGED MINING"
+category_slug: "sidechain"
+prev_in_category:
+  title: "LIQUID NETWORK"
+  slug: "liquid-network"
+next_in_category:
+  title: "MINAGE FUSIONNÉ AVEUGLE"
+  slug: "minage-fusionne-aveugle"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

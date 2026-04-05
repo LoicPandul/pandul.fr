@@ -5,6 +5,13 @@ permalink: /dictionnaire/millisatoshi/
 category: "LIGHTNING NETWORK"
 letter: "M"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "MAGMA"
+  slug: "magma"
+next_in_category:
+  title: "MPP - MULTI-PATH PAYMENTS"
+  slug: "mpp-multi-path-payments"
 cross_references:
   - title: "MILLIBITCOIN"
     slug: "millibitcoin"

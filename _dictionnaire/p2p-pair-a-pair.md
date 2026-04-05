@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "P"
 layout: definition
 english_term: "P2P - PEER-TO-PEER"
+category_slug: "protocole"
+prev_in_category:
+  title: "OUTPUT"
+  slug: "output"
+next_in_category:
+  title: "PÉRIMÉ - BLOC"
+  slug: "perime-bloc"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

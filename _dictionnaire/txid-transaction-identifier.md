@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "T"
 layout: definition
 french_term: "IDENTIFIANT DE TRANSACTION"
+category_slug: "protocole"
+prev_in_category:
+  title: "TX - TRANSACTION"
+  slug: "tx-transaction"
+next_in_category:
+  title: "UASF"
+  slug: "uasf"
 cross_references:
   - title: "WTXID"
     slug: "wtxid"

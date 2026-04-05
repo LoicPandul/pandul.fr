@@ -5,6 +5,13 @@ permalink: /dictionnaire/thunderhub/
 category: "OUTIL"
 letter: "T"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "THE EYE OF SATOSHI"
+  slug: "the-eye-of-satoshi"
+next_in_category:
+  title: "UMBREL"
+  slug: "umbrel"
 cross_references:
   - title: "NOEUD LIGHTNING"
     slug: "noeud-lightning"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/bcoin/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BATCHED SPENDING"
+  slug: "batched-spending"
+next_in_category:
+  title: "BECH32 ET BECH32M"
+  slug: "bech32-et-bech32m"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

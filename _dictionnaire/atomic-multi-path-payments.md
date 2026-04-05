@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
 french_term: "PAIEMENTS MULTICHEMINS ATOMIQUES"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ASYNC PAYMENTS"
+  slug: "async-payments"
+next_in_category:
+  title: "AUTOLOOP"
+  slug: "autoloop"
 cross_references:
   - title: "MPP - MULTI-PATH PAYMENTS"
     slug: "mpp-multi-path-payments"

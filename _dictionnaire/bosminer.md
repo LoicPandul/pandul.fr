@@ -5,6 +5,13 @@ permalink: /dictionnaire/bosminer/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BLOCK TEMPLATE"
+  slug: "block-template"
+next_in_category:
+  title: "BPM - BITCOIN POOLED MINING"
+  slug: "bpm-bitcoin-pooled-mining"
 cross_references:
   - title: "CGMINER"
     slug: "cgminer"

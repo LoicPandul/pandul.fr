@@ -5,6 +5,13 @@ permalink: /dictionnaire/b-money/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "ALERT SYSTEM"
+  slug: "alert-system"
+next_in_category:
+  title: "BCH - BITCOIN CASH"
+  slug: "bch-bitcoin-cash"
 cross_references:
   - title: "BIT GOLD"
     slug: "bit-gold"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
 french_term: "REMPLACEMENT PAR LES FRAIS"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "RAW TRANSACTION"
+  slug: "raw-transaction"
+next_in_category:
+  title: "REVAULT"
+  slug: "revault"
 cross_references:
   - title: "CPFP - CHILD PAY FOR PARENT"
     slug: "cpfp-child-pay-for-parent"

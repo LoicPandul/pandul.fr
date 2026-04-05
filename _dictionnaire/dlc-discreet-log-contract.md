@@ -5,6 +5,13 @@ permalink: /dictionnaire/dlc-discreet-log-contract/
 category: "COUCHE SUPÉRIEURE"
 letter: "D"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "DIGITAL ARTIFACTS"
+  slug: "digital-artifacts"
+next_in_category:
+  title: "EDGE NODE"
+  slug: "edge-node"
 cross_references:
   - title: "ORACLE"
     slug: "oracle"

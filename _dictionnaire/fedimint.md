@@ -5,6 +5,13 @@ permalink: /dictionnaire/fedimint/
 category: "COUCHE SUPÉRIEURE"
 letter: "F"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "EXIT TRANSACTION"
+  slug: "exit-transaction"
+next_in_category:
+  title: "FORFEIT TRANSACTION"
+  slug: "forfeit-transaction"
 cross_references:
   - title: "ECASH - DAVID CHAUM"
     slug: "ecash-david-chaum"

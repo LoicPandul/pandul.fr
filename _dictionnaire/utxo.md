@@ -5,6 +5,13 @@ permalink: /dictionnaire/utxo/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "UTREEXO"
+  slug: "utreexo"
+next_in_category:
+  title: "UTXO SET"
+  slug: "utxo-set"
 cross_references:
   - title: "UTXO SET"
     slug: "utxo-set"

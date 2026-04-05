@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "T"
 layout: definition
 english_term: "UNCONFIRMED TRANSACTION"
+category_slug: "protocole"
+prev_in_category:
+  title: "TIMELOCK"
+  slug: "timelock"
+next_in_category:
+  title: "TRANSACTION STANDARD"
+  slug: "transaction-standard"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

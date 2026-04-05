@@ -5,6 +5,13 @@ permalink: /dictionnaire/twentytwo-devices/
 category: "ORGANISATION"
 letter: "T"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "TEN31"
+  slug: "ten31"
+next_in_category:
+  title: "VOLTAGE"
+  slug: "voltage"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

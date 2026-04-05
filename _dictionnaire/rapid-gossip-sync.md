@@ -5,6 +5,13 @@ permalink: /dictionnaire/rapid-gossip-sync/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PUBLIC CHANNEL"
+  slug: "public-channel"
+next_in_category:
+  title: "RENDEZ-VOUS ROUTING"
+  slug: "rendez-vous-routing"
 cross_references:
   - title: "GOSSIP"
     slug: "gossip"

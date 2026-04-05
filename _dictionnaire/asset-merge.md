@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
 french_term: "FUSION D'ACTIFS"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASSET ID"
+  slug: "asset-id"
+next_in_category:
+  title: "ASSET PROOF"
+  slug: "asset-proof"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 english_term: "INBOUND PEER / INCOMING CONNECTION"
+category_slug: "reseau"
+prev_in_category:
+  title: "PACKAGE RELAY"
+  slug: "package-relay"
+next_in_category:
+  title: "PAIR SORTANT"
+  slug: "pair-sortant"
 cross_references:
   - title: "PAIR SORTANT"
     slug: "pair-sortant"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-ifdup-0x73/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_IF - 0X63"
+  slug: "op-if-0x63"
+next_in_category:
+  title: "OP_INTERNALKEY - 0XCB"
+  slug: "op-internalkey-0xcb"
 cross_references:
   - title: "OP_DUP - 0X76"
     slug: "op-dup-0x76"

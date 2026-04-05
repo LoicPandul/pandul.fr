@@ -5,6 +5,13 @@ permalink: /dictionnaire/channel-db/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL RESERVE"
+  slug: "channel-reserve"
+next_in_category:
+  title: "CIRCULAR REBALANCE"
+  slug: "circular-rebalance"
 cross_references:
   - title: "SCB - STATIC CHANNEL BACKUP"
     slug: "scb-static-channel-backup"

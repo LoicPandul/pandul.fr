@@ -5,6 +5,13 @@ permalink: /dictionnaire/satoshidice/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "RPOW"
+  slug: "rpow"
+next_in_category:
+  title: "SEGWIT2X"
+  slug: "segwit2x"
 cross_references:
   - title: "SILK ROAD"
     slug: "silk-road"

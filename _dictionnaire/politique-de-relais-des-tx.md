@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 english_term: "TRANSACTION RELAY POLICY"
+category_slug: "reseau"
+prev_in_category:
+  title: "POLITIQUE DE RELAIS"
+  slug: "politique-de-relais"
+next_in_category:
+  title: "RELAIS NOSTR"
+  slug: "relais-nostr"
 cross_references:
   - title: "POLITIQUE DE RELAIS"
     slug: "politique-de-relais"

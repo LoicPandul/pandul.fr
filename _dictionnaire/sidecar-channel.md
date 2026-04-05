@@ -5,6 +5,13 @@ permalink: /dictionnaire/sidecar-channel/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SHARDS - LIGHTNING"
+  slug: "shards-lightning"
+next_in_category:
+  title: "SIDECAR TICKET"
+  slug: "sidecar-ticket"
 cross_references:
   - title: "POOL - LIGHTNING"
     slug: "pool-lightning"

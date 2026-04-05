@@ -5,6 +5,10 @@ permalink: /dictionnaire/zerolink/
 category: "CONFIDENTIALITÉ"
 letter: "Z"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "WHIRLPOOL STAT TOOL"
+  slug: "whirlpool-stat-tool"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

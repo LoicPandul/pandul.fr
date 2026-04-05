@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "E"
 layout: definition
 french_term: "BOUTISME"
+category_slug: "informatique"
+prev_in_category:
+  title: "DER"
+  slug: "der"
+next_in_category:
+  title: "FORK - GIT"
+  slug: "fork-git"
 cross_references:
   - title: "BIG-ENDIAN"
     slug: "big-endian"

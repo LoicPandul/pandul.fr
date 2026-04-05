@@ -5,6 +5,13 @@ permalink: /dictionnaire/jan3/
 category: "ORGANISATION"
 letter: "J"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "HUMAN RIGHTS FOUNDATION"
+  slug: "human-rights-foundation"
+next_in_category:
+  title: "LEDGER - ENTREPRISE"
+  slug: "ledger-entreprise"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

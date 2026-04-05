@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
 english_term: "LIQUIDITY - LIGHTNING"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LIGHTNING SERVICE PROVIDER"
+  slug: "lightning-service-provider"
+next_in_category:
+  title: "LIQUIDITY ADS"
+  slug: "liquidity-ads"
 cross_references:
   - title: "NOEUD LIGHTNING"
     slug: "noeud-lightning"

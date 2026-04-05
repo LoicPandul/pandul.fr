@@ -5,6 +5,13 @@ permalink: /dictionnaire/griefing-attack/
 category: "ATTAQUE"
 letter: "G"
 layout: definition
+category_slug: "attaque"
+prev_in_category:
+  title: "GOLDFINGER"
+  slug: "goldfinger"
+next_in_category:
+  title: "HASHRATE HIJACKING"
+  slug: "hashrate-hijacking"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

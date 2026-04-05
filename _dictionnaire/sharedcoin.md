@@ -5,6 +5,13 @@ permalink: /dictionnaire/sharedcoin/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SCORE DE BOLTZMANN"
+  slug: "score-de-boltzmann"
+next_in_category:
+  title: "SILENT PAYMENTS"
+  slug: "silent-payments"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

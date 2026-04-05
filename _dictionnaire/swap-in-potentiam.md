@@ -5,6 +5,13 @@ permalink: /dictionnaire/swap-in-potentiam/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SUBMARINE SWAP"
+  slug: "submarine-swap"
+next_in_category:
+  title: "SWAPROOT"
+  slug: "swaproot"
 cross_references:
   - title: "GOSSIP"
     slug: "gossip"

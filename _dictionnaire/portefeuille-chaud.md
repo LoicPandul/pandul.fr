@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
 english_term: "HOT WALLET / SOFTWARE WALLET"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PORTEFEUILLE"
+  slug: "portefeuille"
+next_in_category:
+  title: "PROFONDEUR"
+  slug: "profondeur"
 cross_references:
   - title: "PORTEFEUILLE"
     slug: "portefeuille"

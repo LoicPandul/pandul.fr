@@ -5,6 +5,13 @@ permalink: /dictionnaire/eltoo/
 category: "LIGHTNING NETWORK"
 letter: "E"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ELECTRUM LIGHTNING"
+  slug: "electrum-lightning"
+next_in_category:
+  title: "FARADAY"
+  slug: "faraday"
 cross_references:
   - title: "SIGHASH_ANYPREVOUT"
     slug: "sighash-anyprevout"

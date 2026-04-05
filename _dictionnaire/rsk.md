@@ -5,6 +5,13 @@ permalink: /dictionnaire/rsk/
 category: "SIDECHAIN"
 letter: "R"
 layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "PEG-OUT"
+  slug: "peg-out"
+next_in_category:
+  title: "SIDECHAIN"
+  slug: "sidechain"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/contract-rights/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONTRACT PARTICIPANT"
+  slug: "contract-participant"
+next_in_category:
+  title: "CONTRACT STATE"
+  slug: "contract-state"
 cross_references:
   - title: "SEAL DEFINITION"
     slug: "seal-definition"

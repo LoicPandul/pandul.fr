@@ -5,6 +5,13 @@ permalink: /dictionnaire/segwit-v0/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEEDXOR"
+  slug: "seedxor"
+next_in_category:
+  title: "SEGWIT V1"
+  slug: "segwit-v1"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/merkle-sum-tree/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "MERGE"
+  slug: "merge"
+next_in_category:
+  title: "MÉTADONNÉES"
+  slug: "metadonnees"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

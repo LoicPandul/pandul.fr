@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
 french_term: "ANNONCES DE LIQUIDITÉ"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LIQUIDITÉS"
+  slug: "liquidites"
+next_in_category:
+  title: "LIQUIDITY SWAP"
+  slug: "liquidity-swap"
 cross_references:
   - title: "LIQUIDITÉS"
     slug: "liquidites"

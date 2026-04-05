@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "S"
 layout: definition
 english_term: "ATTACK SURFACE"
+category_slug: "informatique"
+prev_in_category:
+  title: "SPOF"
+  slug: "spof"
+next_in_category:
+  title: "TLV"
+  slug: "tlv"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

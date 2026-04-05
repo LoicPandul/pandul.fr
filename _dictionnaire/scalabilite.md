@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "S"
 layout: definition
 english_term: "SCALABILITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "RESYNCHRONISATION"
+  slug: "resynchronisation"
+next_in_category:
+  title: "SEGWIT"
+  slug: "segwit"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

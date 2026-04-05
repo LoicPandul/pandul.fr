@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-pick-0x79/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_OVER - 0X78"
+  slug: "op-over-0x78"
+next_in_category:
+  title: "OP_PUSHDATA1 - 0X4C"
+  slug: "op-pushdata1-0x4c"
 cross_references:
   - title: "OP_ROLL - 0X7A"
     slug: "op-roll-0x7a"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/contract-state/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONTRACT RIGHTS"
+  slug: "contract-rights"
+next_in_category:
+  title: "CONTRAT RGB"
+  slug: "contrat-rgb"
 cross_references:
   - title: "GLOBAL STATE"
     slug: "global-state"

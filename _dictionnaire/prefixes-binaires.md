@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "P"
 layout: definition
 english_term: "BINARY PREFIXES"
+category_slug: "informatique"
+prev_in_category:
+  title: "PERCOLATION"
+  slug: "percolation"
+next_in_category:
+  title: "PULL REQUEST"
+  slug: "pull-request"
 cross_references:
   - title: "OCTET"
     slug: "octet"

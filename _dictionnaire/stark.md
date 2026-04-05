@@ -5,6 +5,13 @@ permalink: /dictionnaire/stark/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SOMME DE CONTRÔLE"
+  slug: "somme-de-controle"
+next_in_category:
+  title: "STÉGANOGRAPHIE"
+  slug: "steganographie"
 cross_references:
   - title: "SNARK"
     slug: "snark"

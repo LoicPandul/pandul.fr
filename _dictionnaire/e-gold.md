@@ -5,6 +5,13 @@ permalink: /dictionnaire/e-gold/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "DIGICASH"
+  slug: "digicash"
+next_in_category:
+  title: "ECASH - DAVID CHAUM"
+  slug: "ecash-david-chaum"
 cross_references:
   - title: "ECASH - DAVID CHAUM"
     slug: "ecash-david-chaum"

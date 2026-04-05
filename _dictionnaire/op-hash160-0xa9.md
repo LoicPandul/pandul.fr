@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-hash160-0xa9/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_GREATERTHANOREQUAL - 0XA2"
+  slug: "op-greaterthanorequal-0xa2"
+next_in_category:
+  title: "OP_HASH256 - 0XAA"
+  slug: "op-hash256-0xaa"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

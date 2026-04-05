@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
 french_term: "HORS-CHAÎNE"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "OAP - OPEN ASSETS PROTOCOL"
+  slug: "oap-open-assets-protocol"
+next_in_category:
+  title: "OMNI"
+  slug: "omni"
 cross_references:
   - title: "ON-CHAIN"
     slug: "on-chain"

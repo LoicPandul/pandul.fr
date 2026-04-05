@@ -5,6 +5,13 @@ permalink: /dictionnaire/proton-wallet/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PROFONDEUR"
+  slug: "profondeur"
+next_in_category:
+  title: "PSBT"
+  slug: "psbt"
 cross_references:
   - title: "PORTEFEUILLE"
     slug: "portefeuille"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/spark-service-provider/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SPARK"
+  slug: "spark"
+next_in_category:
+  title: "SPARK TREE"
+  slug: "spark-tree"
 cross_references:
   - title: "SPARK"
     slug: "spark"

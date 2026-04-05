@@ -5,6 +5,10 @@ permalink: /dictionnaire/vexl/
 category: "OUTIL"
 letter: "V"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "VANITYGEN"
+  slug: "vanitygen"
 cross_references:
   - title: "P2P - PAIR-À-PAIR"
     slug: "p2p-pair-a-pair"

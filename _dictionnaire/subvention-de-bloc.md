@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "S"
 layout: definition
 english_term: "BLOCK SUBSIDY"
+category_slug: "protocole"
+prev_in_category:
+  title: "SPEEDY TRIAL"
+  slug: "speedy-trial"
+next_in_category:
+  title: "TAIL EMISSION"
+  slug: "tail-emission"
 cross_references:
   - title: "RÉCOMPENSE DE BLOC"
     slug: "recompense-de-bloc"

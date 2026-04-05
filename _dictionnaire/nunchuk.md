@@ -5,6 +5,13 @@ permalink: /dictionnaire/nunchuk/
 category: "PORTEFEUILLE"
 letter: "N"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "MINIBITS"
+  slug: "minibits"
+next_in_category:
+  title: "OBJECTIF"
+  slug: "objectif"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

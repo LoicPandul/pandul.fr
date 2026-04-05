@@ -5,6 +5,13 @@ permalink: /dictionnaire/consensus/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CONFIRMATION"
+  slug: "confirmation"
+next_in_category:
+  title: "CONSENSUS CLEANUP"
+  slug: "consensus-cleanup"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

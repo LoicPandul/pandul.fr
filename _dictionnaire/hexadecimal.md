@@ -5,6 +5,13 @@ permalink: /dictionnaire/hexadecimal/
 category: "INFORMATIQUE"
 letter: "H"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "HEURE UNIX"
+  slug: "heure-unix"
+next_in_category:
+  title: "HRP - HUMAN READABLE PART"
+  slug: "hrp-human-readable-part"
 cross_references:
   - title: "BINAIRE"
     slug: "binaire"

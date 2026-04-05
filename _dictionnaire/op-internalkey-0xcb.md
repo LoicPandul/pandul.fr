@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-internalkey-0xcb/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_IFDUP - 0X73"
+  slug: "op-ifdup-0x73"
+next_in_category:
+  title: "OP_LESSTHAN - 0X9F"
+  slug: "op-lessthan-0x9f"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

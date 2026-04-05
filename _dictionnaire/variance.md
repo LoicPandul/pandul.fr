@@ -5,6 +5,13 @@ permalink: /dictionnaire/variance/
 category: "MINAGE"
 letter: "V"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "VALIDATIONLESS MINING"
+  slug: "validationless-mining"
+next_in_category:
+  title: "VIABTC"
+  slug: "viabtc"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

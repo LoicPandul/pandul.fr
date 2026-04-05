@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 french_term: "RELAIS DE PAQUETS"
+category_slug: "reseau"
+prev_in_category:
+  title: "P2P TRANSPORT V2"
+  slug: "p2p-transport-v2"
+next_in_category:
+  title: "PAIR ENTRANT"
+  slug: "pair-entrant"
 cross_references:
   - title: "CPFP - CHILD PAY FOR PARENT"
     slug: "cpfp-child-pay-for-parent"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/contrat-rgb/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONTRACT STATE"
+  slug: "contract-state"
+next_in_category:
+  title: "DBC"
+  slug: "dbc"
 cross_references:
   - title: "SCHEMA"
     slug: "schema"

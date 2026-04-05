@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "G"
 layout: definition
 french_term: "INTERFACE GRAPHIQUE UTILISATEUR"
+category_slug: "informatique"
+prev_in_category:
+  title: "GRPC"
+  slug: "grpc"
+next_in_category:
+  title: "HEURE UNIX"
+  slug: "heure-unix"
 cross_references:
   - title: "CLI"
     slug: "cli"

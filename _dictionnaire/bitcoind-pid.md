@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoind-pid/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIND"
+  slug: "bitcoind"
+next_in_category:
+  title: "BLK*.DAT"
+  slug: "blk-dat"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

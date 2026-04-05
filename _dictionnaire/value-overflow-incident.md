@@ -5,6 +5,13 @@ permalink: /dictionnaire/value-overflow-incident/
 category: "HISTOIRE"
 letter: "V"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "THE DAO"
+  slug: "the-dao"
+next_in_category:
+  title: "WHITE PAPER"
+  slug: "white-paper"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

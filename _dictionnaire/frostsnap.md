@@ -5,6 +5,13 @@ permalink: /dictionnaire/frostsnap/
 category: "OUTIL"
 letter: "F"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "FOUNTAIN"
+  slug: "fountain"
+next_in_category:
+  title: "FULCRUM"
+  slug: "fulcrum"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

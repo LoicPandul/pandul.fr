@@ -5,6 +5,13 @@ permalink: /dictionnaire/uasf/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "TXID - TRANSACTION IDENTIFIER"
+  slug: "txid-transaction-identifier"
+next_in_category:
+  title: "UTREEXO"
+  slug: "utreexo"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

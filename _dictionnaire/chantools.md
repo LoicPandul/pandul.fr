@@ -5,6 +5,13 @@ permalink: /dictionnaire/chantools/
 category: "OUTIL"
 letter: "C"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BTCPAY SERVER"
+  slug: "btcpay-server"
+next_in_category:
+  title: "COINOS"
+  slug: "coinos"
 cross_references:
   - title: "LND"
     slug: "lnd"

@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "B"
 layout: definition
 french_term: "FILTRE DE BLOOM"
+category_slug: "reseau"
+prev_in_category:
+  title: "BLOCK-RELAY-ONLY"
+  slug: "block-relay-only"
+next_in_category:
+  title: "BUCKETING"
+  slug: "bucketing"
 cross_references:
   - title: "BIP-0037"
     slug: "bip-0037"

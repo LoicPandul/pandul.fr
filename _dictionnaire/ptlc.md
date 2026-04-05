@@ -5,6 +5,13 @@ permalink: /dictionnaire/ptlc/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PROBING"
+  slug: "probing"
+next_in_category:
+  title: "PUBLIC CHANNEL"
+  slug: "public-channel"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

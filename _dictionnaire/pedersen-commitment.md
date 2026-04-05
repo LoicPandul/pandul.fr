@@ -5,6 +5,13 @@ permalink: /dictionnaire/pedersen-commitment/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "PBKDF2"
+  slug: "pbkdf2"
+next_in_category:
+  title: "POINT GÉNÉRATEUR"
+  slug: "point-generateur"
 cross_references:
   - title: "RGB"
     slug: "rgb"

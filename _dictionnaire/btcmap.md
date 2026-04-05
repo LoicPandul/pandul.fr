@@ -5,6 +5,13 @@ permalink: /dictionnaire/btcmap/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BOS - BALANCE OF SATOSHIS"
+  slug: "bos-balance-of-satoshis"
+next_in_category:
+  title: "BTCPAY SERVER"
+  slug: "btcpay-server"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

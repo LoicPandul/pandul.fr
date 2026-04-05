@@ -5,6 +5,13 @@ permalink: /dictionnaire/multi-protocol-commitment/
 category: "RGB"
 letter: "M"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "INVOICE RGB"
+  slug: "invoice-rgb"
+next_in_category:
+  title: "OWNED STATE"
+  slug: "owned-state"
 cross_references:
   - title: "TRANSITION BUNDLE"
     slug: "transition-bundle"

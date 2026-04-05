@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "M"
 layout: definition
 english_term: "ACTIVATION METHOD"
+category_slug: "protocole"
+prev_in_category:
+  title: "MERKLE BLOCK"
+  slug: "merkle-block"
+next_in_category:
+  title: "MILLIBITCOIN"
+  slug: "millibitcoin"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

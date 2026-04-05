@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "M"
 layout: definition
 french_term: "TEMPS MÉDIAN PASSÉ"
+category_slug: "protocole"
+prev_in_category:
+  title: "MODÈLE DE TRANSACTION"
+  slug: "modele-de-transaction"
+next_in_category:
+  title: "NAT - NETWORK-ADJUSTED TIME"
+  slug: "nat-network-adjusted-time"
 cross_references:
   - title: "TIMELOCK"
     slug: "timelock"

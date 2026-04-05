@@ -5,6 +5,13 @@ permalink: /dictionnaire/scriptsig/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "SCRIPTPUBKEY"
+  slug: "scriptpubkey"
+next_in_category:
+  title: "SCRIPTWITNESS"
+  slug: "scriptwitness"
 cross_references:
   - title: "SCRIPTPUBKEY"
     slug: "scriptpubkey"

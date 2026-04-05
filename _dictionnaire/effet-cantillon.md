@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
 english_term: "CANTILLON EFFECT"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ÉCOLE AUTRICHIENNE"
+  slug: "ecole-autrichienne"
+next_in_category:
+  title: "EFFET DE RÉSEAU"
+  slug: "effet-de-reseau"
 cross_references:
   - title: "INFLATION"
     slug: "inflation"

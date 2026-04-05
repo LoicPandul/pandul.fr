@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "C"
 layout: definition
 english_term: "DIFFICULTY TARGET"
+category_slug: "minage"
+prev_in_category:
+  title: "CGMINER"
+  slug: "cgminer"
+next_in_category:
+  title: "CONTENEUR"
+  slug: "conteneur"
 cross_references:
   - title: "AJUSTEMENT DE LA DIFFICULTE"
     slug: "ajustement-de-la-difficulte"

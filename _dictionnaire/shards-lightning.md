@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
 french_term: "FRACTIONS"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SCID - SHORT CHANNEL ID"
+  slug: "scid-short-channel-id"
+next_in_category:
+  title: "SIDECAR CHANNEL"
+  slug: "sidecar-channel"
 cross_references:
   - title: "MPP - MULTI-PATH PAYMENTS"
     slug: "mpp-multi-path-payments"

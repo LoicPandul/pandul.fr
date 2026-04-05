@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
 french_term: "ENSEMBLES D'ANONYMAT"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ANALYSE DE CHAINE"
+  slug: "analyse-de-chaine"
+next_in_category:
+  title: "BITCOIN FOG"
+  slug: "bitcoin-fog"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

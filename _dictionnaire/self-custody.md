@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
 french_term: "GARDE AUTONOME"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SÉLECTION DES PIÈCES"
+  slug: "selection-des-pieces"
+next_in_category:
+  title: "SENTINEL"
+  slug: "sentinel"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

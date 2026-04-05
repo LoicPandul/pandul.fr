@@ -5,6 +5,13 @@ permalink: /dictionnaire/dojo/
 category: "OUTIL"
 letter: "D"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "COINOS"
+  slug: "coinos"
+next_in_category:
+  title: "ESPLORA"
+  slug: "esplora"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

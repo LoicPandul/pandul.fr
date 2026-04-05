@@ -5,6 +5,13 @@ permalink: /dictionnaire/btg-bitcoin-gold/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BSV - BITCOIN SATOSHI VISION"
+  slug: "bsv-bitcoin-satoshi-vision"
+next_in_category:
+  title: "CASASCIUS"
+  slug: "casascius"
 cross_references:
   - title: "ASIC"
     slug: "asic"

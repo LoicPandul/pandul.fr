@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "D"
 layout: definition
 english_term: "REPOSITORY / REPO"
+category_slug: "informatique"
+prev_in_category:
+  title: "DAEMON"
+  slug: "daemon"
+next_in_category:
+  title: "DER"
+  slug: "der"
 cross_references:
   - title: "GIT"
     slug: "git"

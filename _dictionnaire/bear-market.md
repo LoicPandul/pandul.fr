@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
 french_term: "MARCHÉ BAISSIER"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ATH - ALL-TIME HIGH"
+  slug: "ath-all-time-high"
+next_in_category:
+  title: "BIT - UNITÉ"
+  slug: "bit-unite"
 cross_references:
   - title: "BULL MARKET"
     slug: "bull-market"

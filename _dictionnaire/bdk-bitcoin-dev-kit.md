@@ -5,6 +5,13 @@ permalink: /dictionnaire/bdk-bitcoin-dev-kit/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "ATOMIC SWAP"
+  slug: "atomic-swap"
+next_in_category:
+  title: "BISQ"
+  slug: "bisq"
 cross_references:
   - title: "LDK - LIGHTNING DEV KIT"
     slug: "ldk-lightning-dev-kit"

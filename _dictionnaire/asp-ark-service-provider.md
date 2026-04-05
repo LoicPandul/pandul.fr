@@ -5,6 +5,13 @@ permalink: /dictionnaire/asp-ark-service-provider/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ARK"
+  slug: "ark"
+next_in_category:
+  title: "ASSET ID"
+  slug: "asset-id"
 cross_references:
   - title: "ARK"
     slug: "ark"

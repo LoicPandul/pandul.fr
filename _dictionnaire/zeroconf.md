@@ -5,6 +5,13 @@ permalink: /dictionnaire/zeroconf/
 category: "PROTOCOLE"
 letter: "Z"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "WTXID"
+  slug: "wtxid"
+next_in_category:
+  title: "ZEROSYNC"
+  slug: "zerosync"
 cross_references:
   - title: "CONFIRMATION"
     slug: "confirmation"

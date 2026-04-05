@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 french_term: "LOGICIEL DE GESTION DE MINAGE"
+category_slug: "minage"
+prev_in_category:
+  title: "MINEUR"
+  slug: "mineur"
+next_in_category:
+  title: "MINING POOL"
+  slug: "mining-pool"
 cross_references:
   - title: "ASIC"
     slug: "asic"

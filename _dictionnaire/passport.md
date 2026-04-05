@@ -5,6 +5,13 @@ permalink: /dictionnaire/passport/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PASSPHRASE - BIP-0039"
+  slug: "passphrase-bip-0039"
+next_in_category:
+  title: "PHRASE DE RÉCUPÉRATION"
+  slug: "phrase-de-recuperation"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

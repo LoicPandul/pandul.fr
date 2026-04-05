@@ -5,6 +5,13 @@ permalink: /dictionnaire/iou/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "I"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "INFLATION"
+  slug: "inflation"
+next_in_category:
+  title: "KEYNÉSIANISME"
+  slug: "keynesianisme"
 cross_references:
   - title: "SIDECHAIN"
     slug: "sidechain"

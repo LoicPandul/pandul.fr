@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "A"
 layout: definition
 french_term: "INTERFACE DE PROGRAMMATION"
+category_slug: "informatique"
+prev_in_category:
+  title: "ALGORITHME"
+  slug: "algorithme"
+next_in_category:
+  title: "ASCII"
+  slug: "ascii"
 cross_references:
   - title: "RPC - REMOTE PROCEDURE CALL"
     slug: "rpc-remote-procedure-call"

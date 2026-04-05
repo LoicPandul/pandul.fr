@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
 english_term: "HARDENED DERIVATION"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DÉRIVATION"
+  slug: "derivation"
+next_in_category:
+  title: "DÉRIVATION NORMALE"
+  slug: "derivation-normale"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

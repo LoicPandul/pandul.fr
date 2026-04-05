@@ -5,6 +5,13 @@ permalink: /dictionnaire/machankura/
 category: "OUTIL"
 letter: "M"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LNP2PBOT"
+  slug: "lnp2pbot"
+next_in_category:
+  title: "MEMPOOL.SPACE"
+  slug: "mempool-space"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

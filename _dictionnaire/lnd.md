@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnd/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LNC - LIGHTNING NODE CONNECT"
+  slug: "lnc-lightning-node-connect"
+next_in_category:
+  title: "LNURL"
+  slug: "lnurl"
 cross_references:
   - title: "ECLAIR"
     slug: "eclair"

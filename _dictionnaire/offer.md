@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
 french_term: "OFFRE / DEMANDE DE PAIEMENT RÉUTILISABLE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "NWC - NOSTR WALLET CONNECT"
+  slug: "nwc-nostr-wallet-connect"
+next_in_category:
+  title: "ONION MESSAGE"
+  slug: "onion-message"
 cross_references:
   - title: "BOLT"
     slug: "bolt"

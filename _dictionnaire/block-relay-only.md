@@ -5,6 +5,13 @@ permalink: /dictionnaire/block-relay-only/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "BANLIST.JSON"
+  slug: "banlist-json"
+next_in_category:
+  title: "BLOOM FILTER"
+  slug: "bloom-filter"
 cross_references:
   - title: "ECLIPSE"
     slug: "eclipse"

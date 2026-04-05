@@ -5,6 +5,13 @@ permalink: /dictionnaire/taproot/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "TAIL EMISSION"
+  slug: "tail-emission"
+next_in_category:
+  title: "TÉMOIN DE TRANSACTION"
+  slug: "temoin-de-transaction"
 cross_references:
   - title: "P2TR"
     slug: "p2tr"

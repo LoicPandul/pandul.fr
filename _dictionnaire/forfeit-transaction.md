@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "F"
 layout: definition
 french_term: "TRANSACTION DE FORFAIT"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "FEDIMINT"
+  slug: "fedimint"
+next_in_category:
+  title: "INSCRIPTIONS"
+  slug: "inscriptions"
 cross_references:
   - title: "ROUND ARK"
     slug: "round-ark"

@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "T"
 layout: definition
 french_term: "ÉPINGLAGE DE TRANSACTION"
+category_slug: "attaque"
+prev_in_category:
+  title: "TIME-DILATION ATTACK"
+  slug: "time-dilation-attack"
+next_in_category:
+  title: "WRENCH ATTACK"
+  slug: "wrench-attack"
 cross_references:
   - title: "GOSSIP"
     slug: "gossip"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/sighash-none-0x02/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGHASH_ANYPREVOUTANYSCRIPT"
+  slug: "sighash-anyprevoutanyscript"
+next_in_category:
+  title: "SIGHASH_NONE | SIGHASH_ACP"
+  slug: "sighash-none-sighash-acp"
 cross_references:
   - title: "SIGHASH FLAG"
     slug: "sighash-flag"

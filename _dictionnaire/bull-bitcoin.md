@@ -5,6 +5,13 @@ permalink: /dictionnaire/bull-bitcoin/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "BTRUST"
+  slug: "btrust"
+next_in_category:
+  title: "CASA"
+  slug: "casa"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

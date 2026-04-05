@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-optech/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "BITCOIN MAGAZINE"
+  slug: "bitcoin-magazine"
+next_in_category:
+  title: "BITCOINTALK"
+  slug: "bitcointalk"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

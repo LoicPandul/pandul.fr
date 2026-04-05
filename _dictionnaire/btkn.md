@@ -5,6 +5,13 @@ permalink: /dictionnaire/btkn/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BROLLUPS"
+  slug: "brollups"
+next_in_category:
+  title: "CASHU"
+  slug: "cashu"
 cross_references:
   - title: "SPARK"
     slug: "spark"

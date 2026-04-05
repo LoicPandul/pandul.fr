@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
 english_term: "HYPERBITCOINIZATION"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "HODL"
+  slug: "hodl"
+next_in_category:
+  title: "HYPERINFLATION"
+  slug: "hyperinflation"
 cross_references:
   - title: "HYPERINFLATION"
     slug: "hyperinflation"

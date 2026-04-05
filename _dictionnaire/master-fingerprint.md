@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
 french_term: "EMPREINTE MAÎTRESSE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "M-OF-N"
+  slug: "m-of-n"
+next_in_category:
+  title: "MINIBITS"
+  slug: "minibits"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

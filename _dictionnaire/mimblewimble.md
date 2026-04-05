@@ -5,6 +5,13 @@ permalink: /dictionnaire/mimblewimble/
 category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "MÉLANGEUR"
+  slug: "melangeur"
+next_in_category:
+  title: "MIXAGE"
+  slug: "mixage"
 cross_references:
   - title: "CONFIDENTIAL TRANSACTIONS"
     slug: "confidential-transactions"

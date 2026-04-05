@@ -5,6 +5,13 @@ permalink: /dictionnaire/universe/
 category: "COUCHE SUPÉRIEURE"
 letter: "U"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "UNIQUE ASSETS"
+  slug: "unique-assets"
+next_in_category:
+  title: "VTXO"
+  slug: "vtxo"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

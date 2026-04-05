@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "H"
 layout: definition
 french_term: "TAUX DE HACHAGE"
+category_slug: "minage"
+prev_in_category:
+  title: "HASHBOARD"
+  slug: "hashboard"
+next_in_category:
+  title: "HOME MINING"
+  slug: "home-mining"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

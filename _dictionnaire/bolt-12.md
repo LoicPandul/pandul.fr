@@ -5,6 +5,13 @@ permalink: /dictionnaire/bolt-12/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "BOLT-11"
+  slug: "bolt-11"
+next_in_category:
+  title: "BREEZ"
+  slug: "breez"
 cross_references:
   - title: "BOLT"
     slug: "bolt"

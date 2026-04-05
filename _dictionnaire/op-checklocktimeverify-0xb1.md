@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checklocktimeverify-0xb1/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKHASHVERIFY - CHV"
+  slug: "op-checkhashverify-chv"
+next_in_category:
+  title: "OP_CHECKMULTISIG - 0XAE"
+  slug: "op-checkmultisig-0xae"
 cross_references:
   - title: "NLOCKTIME"
     slug: "nlocktime"

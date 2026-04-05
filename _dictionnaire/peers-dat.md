@@ -5,6 +5,13 @@ permalink: /dictionnaire/peers-dat/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "PEER DISCOVERY"
+  slug: "peer-discovery"
+next_in_category:
+  title: "POLITIQUE DE MEMPOOL"
+  slug: "politique-de-mempool"
 cross_references:
   - title: "PEER DISCOVERY"
     slug: "peer-discovery"

@@ -6,6 +6,13 @@ category: "COMMUNAUTÉ"
 letter: "C"
 layout: definition
 english_term: "CONTRIBUTOR"
+category_slug: "communaute"
+prev_in_category:
+  title: "BOUNTY"
+  slug: "bounty"
+next_in_category:
+  title: "MAINTENEUR - CORE"
+  slug: "mainteneur-core"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

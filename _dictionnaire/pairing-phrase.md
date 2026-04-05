@@ -5,6 +5,13 @@ permalink: /dictionnaire/pairing-phrase/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "OUTBOUND CAPACITY"
+  slug: "outbound-capacity"
+next_in_category:
+  title: "PATHFINDING"
+  slug: "pathfinding"
 cross_references:
   - title: "LNC - LIGHTNING NODE CONNECT"
     slug: "lnc-lightning-node-connect"

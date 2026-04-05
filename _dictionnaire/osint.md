@@ -5,6 +5,13 @@ permalink: /dictionnaire/osint/
 category: "INFORMATIQUE"
 letter: "O"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "OCTET"
+  slug: "octet"
+next_in_category:
+  title: "PERCOLATION"
+  slug: "percolation"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

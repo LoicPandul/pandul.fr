@@ -5,6 +5,13 @@ permalink: /dictionnaire/snapshot/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIMPLIFIED PAYMENT VERIFICATION"
+  slug: "simplified-payment-verification"
+next_in_category:
+  title: "SOFT FORK"
+  slug: "soft-fork"
 cross_references:
   - title: "UTXO SET"
     slug: "utxo-set"

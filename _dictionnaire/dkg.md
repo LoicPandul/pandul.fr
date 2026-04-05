@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
 french_term: "GENERATION DISTRIBUEE DE CLES"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "DIFFIE-HELLMAN"
+  slug: "diffie-hellman"
+next_in_category:
+  title: "DLP - DISCRETE LOGARITHM PROBLEM"
+  slug: "dlp-discreet-log-probleme"
 cross_references:
   - title: "FROST"
     slug: "frost"

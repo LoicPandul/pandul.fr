@@ -5,6 +5,13 @@ permalink: /dictionnaire/autoloop/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ATOMIC MULTI-PATH PAYMENTS"
+  slug: "atomic-multi-path-payments"
+next_in_category:
+  title: "BASE FEE"
+  slug: "base-fee"
 cross_references:
   - title: "LOOP"
     slug: "loop"

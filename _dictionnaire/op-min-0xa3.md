@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-min-0xa3/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_MAX - 0XA4"
+  slug: "op-max-0xa4"
+next_in_category:
+  title: "OP_NEGATE - 0X8F"
+  slug: "op-negate-0x8f"
 cross_references:
   - title: "OP_MAX - 0XA4"
     slug: "op-max-0xa4"

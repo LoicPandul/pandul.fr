@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoinj/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BITCOIN CORE GUI-QML"
+  slug: "bitcoin-core-gui-qml"
+next_in_category:
+  title: "BITREFILL"
+  slug: "bitrefill"
 cross_references:
   - title: "IMPLÉMENTATION DE BITCOIN"
     slug: "implementation-de-bitcoin"

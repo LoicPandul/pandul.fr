@@ -6,6 +6,10 @@ category: "INFORMATIQUE"
 letter: "A"
 layout: definition
 english_term: "ALGORITHM"
+category_slug: "informatique"
+next_in_category:
+  title: "API"
+  slug: "api"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

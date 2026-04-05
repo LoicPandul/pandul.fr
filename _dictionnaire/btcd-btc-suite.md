@@ -5,6 +5,13 @@ permalink: /dictionnaire/btcd-btc-suite/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BTC"
+  slug: "btc"
+next_in_category:
+  title: "BURN ADDRESS"
+  slug: "burn-address"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

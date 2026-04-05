@@ -5,6 +5,13 @@ permalink: /dictionnaire/tapsigner/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SPECTER"
+  slug: "specter"
+next_in_category:
+  title: "TPRV"
+  slug: "tprv"
 cross_references:
   - title: "COINKITE"
     slug: "coinkite"

@@ -6,6 +6,13 @@ category: "ORGANISATION"
 letter: "F"
 layout: definition
 english_term: "BITCOIN FOUNDATION"
+category_slug: "organisation"
+prev_in_category:
+  title: "COINKITE"
+  slug: "coinkite"
+next_in_category:
+  title: "FOUNDATION DEVICES"
+  slug: "foundation-devices"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

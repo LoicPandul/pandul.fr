@@ -5,6 +5,13 @@ permalink: /dictionnaire/extra-transaction-proof/
 category: "RGB"
 letter: "E"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "ENGRAVING"
+  slug: "engraving"
+next_in_category:
+  title: "GENESIS"
+  slug: "genesis"
 cross_references:
   - title: "ANCHOR"
     slug: "anchor"

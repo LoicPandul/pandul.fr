@@ -5,6 +5,13 @@ permalink: /dictionnaire/namecoin/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "NAKAMOTO SATOSHI"
+  slug: "nakamoto-satoshi"
+next_in_category:
+  title: "NO2X"
+  slug: "no2x"
 cross_references:
   - title: "ALTCOIN"
     slug: "altcoin"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/darkwallet/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "DANDELION"
+  slug: "dandelion"
+next_in_category:
+  title: "DÉNI PLAUSIBLE"
+  slug: "deni-plausible"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

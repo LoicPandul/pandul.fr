@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "I"
 layout: definition
 english_term: "BITCOIN IMPLEMENTATION"
+category_slug: "protocole"
+prev_in_category:
+  title: "IBD - INITIAL BLOCK DOWNLOAD"
+  slug: "ibd-initial-block-download"
+next_in_category:
+  title: "INDEXES/TXINDEX/"
+  slug: "indexes-txindex"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

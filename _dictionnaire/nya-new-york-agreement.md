@@ -6,6 +6,13 @@ category: "HISTOIRE"
 letter: "N"
 layout: definition
 french_term: "ACCORD DE NEW YORK"
+category_slug: "histoire"
+prev_in_category:
+  title: "NO2X"
+  slug: "no2x"
+next_in_category:
+  title: "PATOSHI"
+  slug: "patoshi"
 cross_references:
   - title: "SEGWIT2X"
     slug: "segwit2x"

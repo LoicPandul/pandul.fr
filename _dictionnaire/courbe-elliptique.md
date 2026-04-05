@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "ELLIPTIC CURVE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CONFIDENTIAL TRANSACTIONS"
+  slug: "confidential-transactions"
+next_in_category:
+  title: "CRYPTANALYSE"
+  slug: "cryptanalyse"
 cross_references:
   - title: "SECP256K1"
     slug: "secp256k1"

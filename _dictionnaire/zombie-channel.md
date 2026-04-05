@@ -6,6 +6,10 @@ category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
 french_term: "CANAL ZOMBIE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "ZEUS"
+  slug: "zeus"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

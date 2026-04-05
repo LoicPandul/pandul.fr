@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "A"
 layout: definition
 english_term: "FINNEY ATTACK"
+category_slug: "attaque"
+prev_in_category:
+  title: "ADDRESS SPOOFING"
+  slug: "address-spoofing"
+next_in_category:
+  title: "ATTAQUE DES 51%"
+  slug: "attaque-des-51-pour-cent"
 cross_references:
   - title: "DOUBLE DÉPENSE"
     slug: "double-depense"

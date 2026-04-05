@@ -5,6 +5,13 @@ permalink: /dictionnaire/fee-estimates-dat/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "FEE RATE - BITCOIN"
+  slug: "fee-rate-bitcoin"
+next_in_category:
+  title: "FINALITÉ DE TRANSACTION"
+  slug: "finalite-de-transaction"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

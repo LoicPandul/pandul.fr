@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "CRYPTOLOGY"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CRYPTOGRAPHIE"
+  slug: "cryptographie"
+next_in_category:
+  title: "DIFFIE-HELLMAN"
+  slug: "diffie-hellman"
 cross_references:
   - title: "CRYPTANALYSE"
     slug: "cryptanalyse"

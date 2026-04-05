@@ -5,6 +5,13 @@ permalink: /dictionnaire/fork/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "FLAG DAY"
+  slug: "flag-day"
+next_in_category:
+  title: "FRAIS DE TRANSACTION"
+  slug: "frais-de-transaction"
 cross_references:
   - title: "HARD FORK"
     slug: "hard-fork"

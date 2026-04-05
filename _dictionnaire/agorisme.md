@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
 english_term: "AGORISM"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ACTIF AU PORTEUR"
+  slug: "actif-au-porteur"
+next_in_category:
+  title: "ALTCOIN"
+  slug: "altcoin"
 cross_references:
   - title: "CYPHERPUNKS"
     slug: "cypherpunks"

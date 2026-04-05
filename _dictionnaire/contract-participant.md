@@ -5,6 +5,13 @@ permalink: /dictionnaire/contract-participant/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONTRACT OPERATION"
+  slug: "contract-operation"
+next_in_category:
+  title: "CONTRACT RIGHTS"
+  slug: "contract-rights"
 cross_references:
   - title: "CONTRAT RGB"
     slug: "contrat-rgb"

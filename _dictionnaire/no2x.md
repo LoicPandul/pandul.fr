@@ -5,6 +5,13 @@ permalink: /dictionnaire/no2x/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "NAMECOIN"
+  slug: "namecoin"
+next_in_category:
+  title: "NYA - NEW YORK AGREEMENT"
+  slug: "nya-new-york-agreement"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

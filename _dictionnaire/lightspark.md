@@ -5,6 +5,13 @@ permalink: /dictionnaire/lightspark/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LIGHTNING LABS"
+  slug: "lightning-labs"
+next_in_category:
+  title: "LNP/BP"
+  slug: "lnp-bp"
 cross_references:
   - title: "SPARK"
     slug: "spark"

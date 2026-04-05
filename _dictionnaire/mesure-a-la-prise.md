@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 english_term: "MEASURE AT THE WALL"
+category_slug: "minage"
+prev_in_category:
+  title: "MARA"
+  slug: "mara"
+next_in_category:
+  title: "MÉTHODE GÉOMÉTRIQUE"
+  slug: "methode-geometrique"
 cross_references:
   - title: "ASIC"
     slug: "asic"

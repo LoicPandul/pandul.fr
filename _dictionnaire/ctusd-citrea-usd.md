@@ -5,6 +5,13 @@ permalink: /dictionnaire/ctusd-citrea-usd/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "COUNTERPARTY"
+  slug: "counterparty"
+next_in_category:
+  title: "DIGITAL ARTIFACTS"
+  slug: "digital-artifacts"
 cross_references:
   - title: "CITREA"
     slug: "citrea"

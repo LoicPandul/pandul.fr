@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoind/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN.CONF"
+  slug: "bitcoin-conf"
+next_in_category:
+  title: "BITCOIND.PID"
+  slug: "bitcoind-pid"
 cross_references:
   - title: "BITCOIN QT"
     slug: "bitcoin-qt"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/lock/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "LIMITE D'ÉMISSION"
+  slug: "limite-d-emission"
+next_in_category:
+  title: "MAGICAL BITCOIN"
+  slug: "magical-bitcoin"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

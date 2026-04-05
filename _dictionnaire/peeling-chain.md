@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
 french_term: "CHAÎNE D'ÉPLUCHAGE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PAYNYM"
+  slug: "paynym"
+next_in_category:
+  title: "POINT D'ENTRÉE"
+  slug: "point-d-entree"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

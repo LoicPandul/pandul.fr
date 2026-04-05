@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "MASTER KEY"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CLÉ ÉTENDUE"
+  slug: "cle-etendue"
+next_in_category:
+  title: "CLÉ PRIVÉE"
+  slug: "cle-privee"
 cross_references:
   - title: "GRAINE"
     slug: "graine"

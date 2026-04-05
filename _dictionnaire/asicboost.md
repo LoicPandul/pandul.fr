@@ -5,6 +5,13 @@ permalink: /dictionnaire/asicboost/
 category: "MINAGE"
 letter: "A"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "ASIC RESISTANCE"
+  slug: "asic-resistance"
+next_in_category:
+  title: "AVERAGE ROUND DURATION"
+  slug: "avg-round-duration"
 cross_references:
   - title: "ASIC"
     slug: "asic"

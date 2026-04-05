@@ -5,6 +5,13 @@ permalink: /dictionnaire/coldcard/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "COLD WALLET"
+  slug: "cold-wallet"
+next_in_category:
+  title: "COMPTE"
+  slug: "compte"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

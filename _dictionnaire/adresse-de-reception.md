@@ -6,6 +6,10 @@ category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
 english_term: "BITCOIN ADDRESS"
+category_slug: "portefeuille"
+next_in_category:
+  title: "AIR-GAPPED"
+  slug: "air-gapped"
 cross_references:
   - title: "CLÉ PUBLIQUE"
     slug: "cle-publique"

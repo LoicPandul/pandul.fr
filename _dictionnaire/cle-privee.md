@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "PRIVATE KEY"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CLÉ MAITRESSE"
+  slug: "cle-maitresse"
+next_in_category:
+  title: "CLÉ PUBLIQUE"
+  slug: "cle-publique"
 cross_references:
   - title: "CLÉ PUBLIQUE"
     slug: "cle-publique"

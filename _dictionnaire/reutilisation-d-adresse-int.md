@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
 english_term: "INTERNAL ADDRESS REUSE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "RÉUTILISATION D'ADRESSE - EXTERNE"
+  slug: "reutilisation-d-adresse-ext"
+next_in_category:
+  title: "RICOCHET"
+  slug: "ricochet"
 cross_references:
   - title: "RÉUTILISATION D'ADRESSE"
     slug: "reutilisation-d-adresse"

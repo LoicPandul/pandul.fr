@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
 english_term: "COLLATERAL"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "CBDC"
+  slug: "cbdc"
+next_in_category:
+  title: "COURS LÉGAL"
+  slug: "cours-legal"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

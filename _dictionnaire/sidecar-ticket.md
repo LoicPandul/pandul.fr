@@ -5,6 +5,13 @@ permalink: /dictionnaire/sidecar-ticket/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SIDECAR CHANNEL"
+  slug: "sidecar-channel"
+next_in_category:
+  title: "SPHINX"
+  slug: "sphinx"
 cross_references:
   - title: "SIDECAR CHANNEL"
     slug: "sidecar-channel"

@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "RÉÉQUILIBRAGE CIRCULAIRE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL.DB"
+  slug: "channel-db"
+next_in_category:
+  title: "CLÉ DE RÉVOCATION"
+  slug: "cle-de-revocation"
 cross_references:
   - title: "BOS - BALANCE OF SATOSHIS"
     slug: "bos-balance-of-satoshis"

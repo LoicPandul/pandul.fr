@@ -5,6 +5,13 @@ permalink: /dictionnaire/fpps-full-pay-per-share/
 category: "MINAGE"
 letter: "F"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "FPGA"
+  slug: "fpga"
+next_in_category:
+  title: "GETBLOCKTEMPLATE"
+  slug: "getblocktemplate"
 cross_references:
   - title: "SHARES"
     slug: "shares"

@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "B"
 layout: definition
 french_term: "GROS-BOUTISTE"
+category_slug: "informatique"
+prev_in_category:
+  title: "BBQR"
+  slug: "bbqr"
+next_in_category:
+  title: "BINAIRE"
+  slug: "binaire"
 cross_references:
   - title: "LITTLE-ENDIAN"
     slug: "little-endian"

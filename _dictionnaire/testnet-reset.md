@@ -5,6 +5,13 @@ permalink: /dictionnaire/testnet-reset/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "TCP"
+  slug: "tcp"
+next_in_category:
+  title: "TESTNET4"
+  slug: "testnet4"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

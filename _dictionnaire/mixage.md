@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
 english_term: "MIXING"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "MIMBLEWIMBLE"
+  slug: "mimblewimble"
+next_in_category:
+  title: "MODÈLE TEMPOREL"
+  slug: "modele-temporel"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/fidelity-bond/
 category: "CONFIDENTIALITÉ"
 letter: "F"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ENTROPIE - ANALYSE DE CHAINE"
+  slug: "entropie-analyse"
+next_in_category:
+  title: "HEURISTIQUE D'ANALYSE"
+  slug: "heuristique-d-analyse"
 cross_references:
   - title: "JOINMARKET"
     slug: "joinmarket"

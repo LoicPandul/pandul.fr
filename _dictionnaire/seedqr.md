@@ -5,6 +5,13 @@ permalink: /dictionnaire/seedqr/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEEDKEEPER"
+  slug: "seedkeeper"
+next_in_category:
+  title: "SEEDSIGNER"
+  slug: "seedsigner"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

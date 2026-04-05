@@ -5,6 +5,13 @@ permalink: /dictionnaire/clone/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "CLI"
+  slug: "cli"
+next_in_category:
+  title: "COMMIT"
+  slug: "commit"
 cross_references:
   - title: "GIT"
     slug: "git"

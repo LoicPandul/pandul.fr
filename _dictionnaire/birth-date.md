@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
 french_term: "DATE DE NAISSANCE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ASHIGARU"
+  slug: "ashigaru"
+next_in_category:
+  title: "BITBOX"
+  slug: "bitbox"
 cross_references:
   - title: "GRAINE"
     slug: "graine"

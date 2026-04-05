@@ -5,6 +5,13 @@ permalink: /dictionnaire/addrman/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ADDR.DAT"
+  slug: "addr-dat"
+next_in_category:
+  title: "ADDRV2"
+  slug: "addrv2"
 cross_references:
   - title: "PEERS.DAT"
     slug: "peers-dat"

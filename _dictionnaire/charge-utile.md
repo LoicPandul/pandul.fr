@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "C"
 layout: definition
 english_term: "PAYLOAD"
+category_slug: "informatique"
+prev_in_category:
+  title: "C++"
+  slug: "c-plus-plus"
+next_in_category:
+  title: "CLI"
+  slug: "cli"
 cross_references:
   - title: "SEGWIT V0"
     slug: "segwit-v0"

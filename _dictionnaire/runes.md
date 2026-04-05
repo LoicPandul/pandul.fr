@@ -5,6 +5,13 @@ permalink: /dictionnaire/runes/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ROUND ARK"
+  slug: "round-ark"
+next_in_category:
+  title: "SE - SPARK ENTITY"
+  slug: "se-spark-entity"
 cross_references:
   - title: "ORDINALS THEORY"
     slug: "ordinals-theory"

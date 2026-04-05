@@ -5,6 +5,13 @@ permalink: /dictionnaire/banlist-dat/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ASMAP"
+  slug: "asmap"
+next_in_category:
+  title: "BANLIST.JSON"
+  slug: "banlist-json"
 cross_references:
   - title: "BANLIST.JSON"
     slug: "banlist-json"

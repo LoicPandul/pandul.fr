@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
 english_term: "WALLET FINGERPRINT"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ELECTRUM"
+  slug: "electrum"
+next_in_category:
+  title: "ENVOY"
+  slug: "envoy"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

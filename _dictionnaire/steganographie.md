@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 english_term: "STEGANOGRAPHY"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "STARK"
+  slug: "stark"
+next_in_category:
+  title: "TWEAK"
+  slug: "tweak"
 cross_references:
   - title: "CHIFFRER - CHIFFREMENT"
     slug: "chiffrer-chiffrement"

@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "R"
 layout: definition
 english_term: "NOSTR RELAY"
+category_slug: "reseau"
+prev_in_category:
+  title: "POLITIQUE DE RELAIS DES TX"
+  slug: "politique-de-relais-des-tx"
+next_in_category:
+  title: "RÉSEAU BITCOIN"
+  slug: "reseau-bitcoin"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

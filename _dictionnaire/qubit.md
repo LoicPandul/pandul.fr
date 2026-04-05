@@ -5,6 +5,13 @@ permalink: /dictionnaire/qubit/
 category: "INFORMATIQUE"
 letter: "Q"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "QR CODE"
+  slug: "qr-code"
+next_in_category:
+  title: "RÉSISTANCE AU PARTITIONNEMENT"
+  slug: "resistance-au-partitionnement"
 cross_references:
   - title: "BIT"
     slug: "bit"

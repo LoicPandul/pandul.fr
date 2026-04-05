@@ -5,6 +5,13 @@ permalink: /dictionnaire/channel-point/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL LEASE"
+  slug: "channel-lease"
+next_in_category:
+  title: "CHANNEL RESERVE"
+  slug: "channel-reserve"
 cross_references:
   - title: "LND"
     slug: "lnd"

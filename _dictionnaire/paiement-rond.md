@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
 english_term: "ROUND PAYMENT"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "OXT"
+  slug: "oxt"
+next_in_category:
+  title: "PAIEMENT SIMPLE"
+  slug: "paiement-simple"
 cross_references:
   - title: "PAIEMENT SIMPLE"
     slug: "paiement-simple"

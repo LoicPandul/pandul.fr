@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 french_term: "LOCATION DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL FACTORIES"
+  slug: "channel-factories"
+next_in_category:
+  title: "CHANNEL POINT"
+  slug: "channel-point"
 cross_references:
   - title: "CHANNEL ACCEPTOR"
     slug: "channel-acceptor"

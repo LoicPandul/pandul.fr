@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "CHAIN CODE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CLÉ PUBLIQUE COMPRESSÉE"
+  slug: "cle-publique-compressee"
+next_in_category:
+  title: "CODE DE CHAINE MAITRE"
+  slug: "code-de-chaine-maitre"
 cross_references:
   - title: "BIP-0032"
     slug: "bip-0032"

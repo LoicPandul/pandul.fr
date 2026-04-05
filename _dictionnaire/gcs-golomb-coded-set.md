@@ -5,6 +5,13 @@ permalink: /dictionnaire/gcs-golomb-coded-set/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "FOSS"
+  slug: "foss"
+next_in_category:
+  title: "GIT"
+  slug: "git"
 cross_references:
   - title: "BIP-0158"
     slug: "bip-0158"

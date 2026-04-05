@@ -5,6 +5,13 @@ permalink: /dictionnaire/chainsplit/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CENSORSHIP RESISTANCE"
+  slug: "censorship-resistance"
+next_in_category:
+  title: "CHAINSTATE/"
+  slug: "chainstate"
 cross_references:
   - title: "EMBRANCHEMENT NATUREL"
     slug: "embranchement-naturel"

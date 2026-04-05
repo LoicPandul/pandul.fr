@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "Q"
 layout: definition
 french_term: "ASSOUPLISSEMENT QUANTITATIF"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "PSAN"
+  slug: "psan"
+next_in_category:
+  title: "RÉSERVES FRACTIONNAIRES"
+  slug: "reserves-fractionnaires"
 cross_references:
   - title: "INFLATION"
     slug: "inflation"

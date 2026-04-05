@@ -5,6 +5,13 @@ permalink: /dictionnaire/btc/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BRANCHE - BITCOIN"
+  slug: "branche-bitcoin"
+next_in_category:
+  title: "BTCD - BTC SUITE"
+  slug: "btcd-btc-suite"
 cross_references:
   - title: "XBT"
     slug: "xbt"

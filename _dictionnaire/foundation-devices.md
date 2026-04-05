@@ -5,6 +5,13 @@ permalink: /dictionnaire/foundation-devices/
 category: "ORGANISATION"
 letter: "F"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "FONDATION BITCOIN"
+  slug: "fondation-bitcoin"
+next_in_category:
+  title: "GALOY"
+  slug: "galoy"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

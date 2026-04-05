@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
 english_term: "ENTRY POINT"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PEELING CHAIN"
+  slug: "peeling-chain"
+next_in_category:
+  title: "POOL DE COINJOIN"
+  slug: "pool-coinjoin"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-dev/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN-CLI"
+  slug: "bitcoin-cli"
+next_in_category:
+  title: "BITCOIN.CONF"
+  slug: "bitcoin-conf"
 cross_references:
   - title: "BIP"
     slug: "bip"

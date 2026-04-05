@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-inquisition/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN CORE"
+  slug: "bitcoin-core"
+next_in_category:
+  title: "BITCOIN KNOTS"
+  slug: "bitcoin-knots"
 cross_references:
   - title: "SIGNET"
     slug: "signet"

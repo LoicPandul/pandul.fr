@@ -5,6 +5,13 @@ permalink: /dictionnaire/cgminer/
 category: "MINAGE"
 letter: "C"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "CANDIDAT - BLOC"
+  slug: "candidat-bloc"
+next_in_category:
+  title: "CIBLE DE DIFFICULTÉ"
+  slug: "cible-de-difficulte"
 cross_references:
   - title: "BOSMINER"
     slug: "bosminer"

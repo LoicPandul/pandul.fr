@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
 english_term: "SEED"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GINGER WALLET"
+  slug: "ginger-wallet"
+next_in_category:
+  title: "GREEN ADDRESS"
+  slug: "green-address"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

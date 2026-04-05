@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
 french_term: "SIGNATURES EN ANNEAU DE BORROMÉE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "BCH CODE"
+  slug: "bch-code"
+next_in_category:
+  title: "BULLETPROOFS"
+  slug: "bulletproofs"
 cross_references:
   - title: "CONFIDENTIAL TRANSACTIONS"
     slug: "confidential-transactions"

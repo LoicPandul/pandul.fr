@@ -5,6 +5,13 @@ permalink: /dictionnaire/slip/
 category: "COMMUNAUTÉ"
 letter: "S"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "PREMIUM"
+  slug: "premium"
+next_in_category:
+  title: "STACKER"
+  slug: "stacker"
 cross_references:
   - title: "BIP"
     slug: "bip"

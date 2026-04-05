@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
 french_term: "COINJOIN CHAUMIEN"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "CHANGE AVOIDANCE"
+  slug: "change-avoidance"
+next_in_category:
+  title: "CIOH"
+  slug: "cioh"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

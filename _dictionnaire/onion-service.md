@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "O"
 layout: definition
 french_term: "SERVICE CACHÉ"
+category_slug: "reseau"
+prev_in_category:
+  title: "ONION ADDRESS"
+  slug: "onion-address"
+next_in_category:
+  title: "ONION_PRIVATE_KEY"
+  slug: "onion-private-key"
 cross_references:
   - title: "ONION ADDRESS"
     slug: "onion-address"

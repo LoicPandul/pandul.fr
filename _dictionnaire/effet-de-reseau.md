@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
 english_term: "NETWORK EFFECT"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "EFFET CANTILLON"
+  slug: "effet-cantillon"
+next_in_category:
+  title: "ESCROW"
+  slug: "escrow"
 cross_references:
   - title: "DÉCENTRALISATION"
     slug: "decentralisation"

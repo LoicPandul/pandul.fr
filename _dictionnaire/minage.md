@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 english_term: "MINING"
+category_slug: "minage"
+prev_in_category:
+  title: "MÉTHODE GÉOMÉTRIQUE"
+  slug: "methode-geometrique"
+next_in_category:
+  title: "MINEUR"
+  slug: "mineur"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

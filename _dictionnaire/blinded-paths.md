@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
 french_term: "CHEMINS MASQUÉS"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "BASE FEE"
+  slug: "base-fee"
+next_in_category:
+  title: "BLIP"
+  slug: "blip"
 cross_references:
   - title: "BOLT-04"
     slug: "bolt-04"

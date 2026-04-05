@@ -5,6 +5,10 @@ permalink: /dictionnaire/ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+category_slug: "couche-superieure"
+next_in_category:
+  title: "ASP - ARK SERVICE PROVIDER"
+  slug: "asp-ark-service-provider"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

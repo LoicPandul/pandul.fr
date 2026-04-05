@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
 english_term: "FUNDING TRANSACTION"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TRANSACTION D'ENGAGEMENT"
+  slug: "transaction-d-engagement"
+next_in_category:
+  title: "TRANSACTION DE PÉNALITÉ"
+  slug: "transaction-de-penalite"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

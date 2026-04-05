@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "A"
 layout: definition
 french_term: "CIRCUIT INTÉGRÉ SPÉCIFIQUE À UNE APPLICATION"
+category_slug: "minage"
+prev_in_category:
+  title: "ANTPOOL"
+  slug: "antpool"
+next_in_category:
+  title: "ASIC RESISTANCE"
+  slug: "asic-resistance"
 cross_references:
   - title: "MINAGE"
     slug: "minage"

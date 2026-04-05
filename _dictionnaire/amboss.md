@@ -5,6 +5,10 @@ permalink: /dictionnaire/amboss/
 category: "OUTIL"
 letter: "A"
 layout: definition
+category_slug: "outil"
+next_in_category:
+  title: "ATOMIC SWAP"
+  slug: "atomic-swap"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

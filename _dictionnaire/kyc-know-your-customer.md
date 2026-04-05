@@ -5,6 +5,13 @@ permalink: /dictionnaire/kyc-know-your-customer/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "K"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "KEYNÉSIANISME"
+  slug: "keynesianisme"
+next_in_category:
+  title: "LCB/FT"
+  slug: "lcb-ft"
 cross_references:
   - title: "AML - ANTI-MONEY LAUNDERING"
     slug: "aml-anti-money-laundering"

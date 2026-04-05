@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "F"
 layout: definition
 french_term: "RÉUTILISATION D'ADRESSE FORCÉE"
+category_slug: "attaque"
+prev_in_category:
+  title: "FORCE BRUTE"
+  slug: "force-brute"
+next_in_category:
+  title: "GOLDFINGER"
+  slug: "goldfinger"
 cross_references:
   - title: "DUST"
     slug: "dust"

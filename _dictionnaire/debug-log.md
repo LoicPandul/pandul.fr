@@ -5,6 +5,13 @@ permalink: /dictionnaire/debug-log/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "DB.LOG"
+  slug: "db-log"
+next_in_category:
+  title: "DEMEURAGE"
+  slug: "demeurage"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

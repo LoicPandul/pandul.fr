@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitmain/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BITAXE"
+  slug: "bitaxe"
+next_in_category:
+  title: "BLOCK TEMPLATE"
+  slug: "block-template"
 cross_references:
   - title: "ASIC"
     slug: "asic"

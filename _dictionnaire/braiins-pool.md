@@ -5,6 +5,13 @@ permalink: /dictionnaire/braiins-pool/
 category: "MINAGE"
 letter: "B"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "BRAIDPOOL"
+  slug: "braidpool"
+next_in_category:
+  title: "CANAAN"
+  slug: "canaan"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

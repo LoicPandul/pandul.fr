@@ -5,6 +5,13 @@ permalink: /dictionnaire/neutrino/
 category: "OUTIL"
 letter: "N"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "MYNODE"
+  slug: "mynode"
+next_in_category:
+  title: "OPENTIMESTAMPS"
+  slug: "opentimestamps"
 cross_references:
   - title: "LND"
     slug: "lnd"

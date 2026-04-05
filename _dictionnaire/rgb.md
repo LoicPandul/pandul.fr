@@ -5,6 +5,13 @@ permalink: /dictionnaire/rgb/
 category: "RGB"
 letter: "R"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "REDEEM"
+  slug: "redeem"
+next_in_category:
+  title: "SCHEMA"
+  slug: "schema"
 cross_references:
   - title: "SINGLE-USE SEAL"
     slug: "single-use-seal"

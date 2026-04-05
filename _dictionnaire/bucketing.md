@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "B"
 layout: definition
 english_term: "BUCKETING"
+category_slug: "reseau"
+prev_in_category:
+  title: "BLOOM FILTER"
+  slug: "bloom-filter"
+next_in_category:
+  title: "CLEARNET"
+  slug: "clearnet"
 cross_references:
   - title: "ADDRMAN"
     slug: "addrman"

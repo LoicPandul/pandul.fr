@@ -5,6 +5,13 @@ permalink: /dictionnaire/p2sh-p2wpkh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "P2SH"
+  slug: "p2sh"
+next_in_category:
+  title: "P2SH-P2WSH"
+  slug: "p2sh-p2wsh"
 cross_references:
   - title: "P2WPKH"
     slug: "p2wpkh"

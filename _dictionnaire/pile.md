@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "P"
 layout: definition
 english_term: "STACK"
+category_slug: "script"
+prev_in_category:
+  title: "P2WSH"
+  slug: "p2wsh"
+next_in_category:
+  title: "POLICY - MINISCRIPT"
+  slug: "policy-miniscript"
 cross_references:
   - title: "SCRIPT"
     slug: "script"

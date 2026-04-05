@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
 english_term: "AUSTRIAN SCHOOL OF ECONOMICS"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "DEPEG"
+  slug: "depeg"
+next_in_category:
+  title: "EFFET CANTILLON"
+  slug: "effet-cantillon"
 cross_references:
   - title: "INFLATION"
     slug: "inflation"

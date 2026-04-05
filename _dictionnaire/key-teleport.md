@@ -5,6 +5,13 @@ permalink: /dictionnaire/key-teleport/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "JBOK"
+  slug: "jbok"
+next_in_category:
+  title: "KEYSTORE"
+  slug: "keystore"
 cross_references:
   - title: "COLDCARD"
     slug: "coldcard"

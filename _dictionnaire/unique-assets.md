@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "U"
 layout: definition
 french_term: "ACTIFS UNIQUES"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "TARO"
+  slug: "taro"
+next_in_category:
+  title: "UNIVERSE"
+  slug: "universe"
 cross_references:
   - title: "TAPROOT ASSETS PROTOCOL"
     slug: "taproot-assets-protocol"

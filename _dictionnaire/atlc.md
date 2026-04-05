@@ -5,6 +5,13 @@ permalink: /dictionnaire/atlc/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASSET SPLIT"
+  slug: "asset-split"
+next_in_category:
+  title: "BITVM"
+  slug: "bitvm"
 cross_references:
   - title: "ARK"
     slug: "ark"

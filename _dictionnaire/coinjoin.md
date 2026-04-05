@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "CODE DE PAIMENT RÉUTILISABLE"
+  slug: "code-de-paiment-reutilisable"
+next_in_category:
+  title: "COINJUMBLE"
+  slug: "coinjumble"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

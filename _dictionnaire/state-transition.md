@@ -5,6 +5,13 @@ permalink: /dictionnaire/state-transition/
 category: "RGB"
 letter: "S"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "STATE EXTENSION"
+  slug: "state-extension"
+next_in_category:
+  title: "TERMINAL CONSIGNEMENT"
+  slug: "terminal-consignement"
 cross_references:
   - title: "GENESIS"
     slug: "genesis"

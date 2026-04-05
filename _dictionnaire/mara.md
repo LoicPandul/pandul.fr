@@ -5,6 +5,13 @@ permalink: /dictionnaire/mara/
 category: "MINAGE"
 letter: "M"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "LUXOR"
+  slug: "luxor"
+next_in_category:
+  title: "MESURE À LA PRISE"
+  slug: "mesure-a-la-prise"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

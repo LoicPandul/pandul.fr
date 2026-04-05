@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "B"
 layout: definition
 french_term: "DÉTOURNEMENT BGP"
+category_slug: "attaque"
+prev_in_category:
+  title: "BFT - BYZANTINE FAULT TOLERANCE"
+  slug: "bft-byzantine-fault-tolerance"
+next_in_category:
+  title: "CHANNEL JAMMING"
+  slug: "channel-jamming"
 cross_references:
   - title: "ECLIPSE"
     slug: "eclipse"

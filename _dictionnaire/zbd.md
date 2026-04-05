@@ -5,6 +5,13 @@ permalink: /dictionnaire/zbd/
 category: "ORGANISATION"
 letter: "Z"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "VOLTAGE"
+  slug: "voltage"
+next_in_category:
+  title: "ZKSNACKS"
+  slug: "zksnacks"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

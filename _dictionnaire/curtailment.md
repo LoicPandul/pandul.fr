@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "C"
 layout: definition
 french_term: "RÉDUCTION - MINAGE"
+category_slug: "minage"
+prev_in_category:
+  title: "CPPSRB"
+  slug: "cppsrb"
+next_in_category:
+  title: "DGM"
+  slug: "dgm"
 cross_references:
   - title: "FERME DE MINAGE"
     slug: "ferme-de-minage"

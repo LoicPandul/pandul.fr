@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "O"
 layout: definition
 french_term: "LIAISON DE SORTIES"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "MODÈLE TEMPOREL"
+  slug: "modele-temporel"
+next_in_category:
+  title: "OXT"
+  slug: "oxt"
 cross_references:
   - title: "RÉUTILISATION D'ADRESSE"
     slug: "reutilisation-d-adresse"

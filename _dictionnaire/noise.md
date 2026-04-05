@@ -5,6 +5,13 @@ permalink: /dictionnaire/noise/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "NIP"
+  slug: "nip"
+next_in_category:
+  title: "NOSTR"
+  slug: "nostr"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

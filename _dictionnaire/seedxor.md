@@ -5,6 +5,13 @@ permalink: /dictionnaire/seedxor/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEEDSIGNER"
+  slug: "seedsigner"
+next_in_category:
+  title: "SEGWIT V0"
+  slug: "segwit-v0"
 cross_references:
   - title: "XOR"
     slug: "xor"

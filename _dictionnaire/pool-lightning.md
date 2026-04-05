@@ -5,6 +5,13 @@ permalink: /dictionnaire/pool-lightning/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PHOENIXD"
+  slug: "phoenixd"
+next_in_category:
+  title: "PRIVATE CHANNEL"
+  slug: "private-channel"
 cross_references:
   - title: "LIQUIDITÉS"
     slug: "liquidites"

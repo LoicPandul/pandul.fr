@@ -6,6 +6,13 @@ category: "BIP"
 letter: "B"
 layout: definition
 french_term: "PROPOSITION D'AMÉLIORATION DE BITCOIN"
+category_slug: "bip"
+prev_in_category:
+  title: "APO - ANYPREVOUT"
+  slug: "apo-anyprevout"
+next_in_category:
+  title: "BIP-0001"
+  slug: "bip-0001"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

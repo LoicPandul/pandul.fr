@@ -5,6 +5,13 @@ permalink: /dictionnaire/wallet-dat/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "VULNERABILITE DE MURCH-ZAWY"
+  slug: "vulnerabilite-de-murch-zawy"
+next_in_category:
+  title: "WALLETS/DB.LOG"
+  slug: "wallets-db-log"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

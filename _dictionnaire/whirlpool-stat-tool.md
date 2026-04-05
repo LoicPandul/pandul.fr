@@ -5,6 +5,13 @@ permalink: /dictionnaire/whirlpool-stat-tool/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "WHIRLPOOL"
+  slug: "whirlpool"
+next_in_category:
+  title: "ZEROLINK"
+  slug: "zerolink"
 cross_references:
   - title: "WHIRLPOOL"
     slug: "whirlpool"

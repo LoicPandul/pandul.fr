@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 english_term: "DIGITAL SIGNATURE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SIGNATURE AVEUGLE"
+  slug: "signature-aveugle"
+next_in_category:
+  title: "SNARK"
+  slug: "snark"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "ACCOUNT"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "COLDCARD"
+  slug: "coldcard"
+next_in_category:
+  title: "CONSOLIDATION"
+  slug: "consolidation"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

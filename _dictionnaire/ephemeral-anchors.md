@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "E"
 layout: definition
 french_term: "SORTIES D'ANCRAGE ÉPHÉMÈRES"
+category_slug: "protocole"
+prev_in_category:
+  title: "ENTÊTE DE BLOC"
+  slug: "entete-de-bloc"
+next_in_category:
+  title: "EXTENSION BLOCK"
+  slug: "extension-block"
 cross_references:
   - title: "ANCHOR OUTPUTS"
     slug: "anchor-outputs"

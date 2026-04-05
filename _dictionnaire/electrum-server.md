@@ -5,6 +5,13 @@ permalink: /dictionnaire/electrum-server/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "ELECTRS"
+  slug: "electrs"
+next_in_category:
+  title: "ERLAY"
+  slug: "erlay"
 cross_references:
   - title: "ELECTRUM"
     slug: "electrum"

@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 french_term: "DIFFUSION - WST"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SORTIE LA PLUS GRANDE"
+  slug: "sortie-la-plus-grande"
+next_in_category:
+  title: "STEALTH ADDRESS"
+  slug: "stealth-address"
 cross_references:
   - title: "WHIRLPOOL STAT TOOL"
     slug: "whirlpool-stat-tool"

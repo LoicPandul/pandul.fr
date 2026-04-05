@@ -5,6 +5,13 @@ permalink: /dictionnaire/robosats/
 category: "OUTIL"
 letter: "R"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "RASPIBLITZ"
+  slug: "raspiblitz"
+next_in_category:
+  title: "RTL - RIDE THE LIGHTNING"
+  slug: "rtl-ride-the-lightning"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

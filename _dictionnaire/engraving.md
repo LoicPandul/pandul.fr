@@ -5,6 +5,13 @@ permalink: /dictionnaire/engraving/
 category: "RGB"
 letter: "E"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "DIRECTED ACYCLIC GRAPH"
+  slug: "directed-acyclic-graph"
+next_in_category:
+  title: "EXTRA TRANSACTION PROOF"
+  slug: "extra-transaction-proof"
 cross_references:
   - title: "CONTRAT RGB"
     slug: "contrat-rgb"

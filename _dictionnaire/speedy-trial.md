@@ -5,6 +5,13 @@ permalink: /dictionnaire/speedy-trial/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SOFT FORK"
+  slug: "soft-fork"
+next_in_category:
+  title: "SUBVENTION DE BLOC"
+  slug: "subvention-de-bloc"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-2over-0x70/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_2DUP - 0X6E"
+  slug: "op-2dup-0x6e"
+next_in_category:
+  title: "OP_2ROT - 0X71"
+  slug: "op-2rot-0x71"
 cross_references:
   - title: "OP_OVER - 0X78"
     slug: "op-over-0x78"

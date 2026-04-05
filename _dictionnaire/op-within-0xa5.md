@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-within-0xa5/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_VERIFY - 0X69"
+  slug: "op-verify-0x69"
+next_in_category:
+  title: "OPCODES"
+  slug: "opcodes"
 cross_references:
   - title: "OP_LESSTHAN - 0X9F"
     slug: "op-lessthan-0x9f"

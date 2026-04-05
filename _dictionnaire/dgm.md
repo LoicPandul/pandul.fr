@@ -5,6 +5,13 @@ permalink: /dictionnaire/dgm/
 category: "MINAGE"
 letter: "D"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "CURTAILMENT"
+  slug: "curtailment"
+next_in_category:
+  title: "DIFFICULTÉ"
+  slug: "difficulte"
 cross_references:
   - title: "SHARES"
     slug: "shares"

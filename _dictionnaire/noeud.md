@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 english_term: "NODE"
+category_slug: "protocole"
+prev_in_category:
+  title: "NESTED SEGWIT"
+  slug: "nested-segwit"
+next_in_category:
+  title: "NOEUD COMPLET"
+  slug: "noeud-complet"
 cross_references:
   - title: "NOEUD COMPLET"
     slug: "noeud-complet"

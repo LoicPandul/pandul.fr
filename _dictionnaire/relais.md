@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "R"
 layout: definition
 english_term: "RELAY"
+category_slug: "minage"
+prev_in_category:
+  title: "PUBLIC POOL"
+  slug: "public-pool"
+next_in_category:
+  title: "RIOT PLATFORMS"
+  slug: "riot-platforms"
 cross_references:
   - title: "HACHEUR"
     slug: "hacheur"

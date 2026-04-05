@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "ENCRYPT - ENCRYPTION"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CHACHA20-POLY1305"
+  slug: "chacha20-poly1305"
+next_in_category:
+  title: "CONDENSAT"
+  slug: "condensat"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-sub-0x94/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_SIZE - 0X82"
+  slug: "op-size-0x82"
+next_in_category:
+  title: "OP_SUCCESS"
+  slug: "op-success"
 cross_references:
   - title: "OP_ADD - 0X93"
     slug: "op-add-0x93"

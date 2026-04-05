@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 english_term: "MINER"
+category_slug: "minage"
+prev_in_category:
+  title: "MINAGE"
+  slug: "minage"
+next_in_category:
+  title: "MINING MANAGEMENT SOFTWARE"
+  slug: "mining-management-software"
 cross_references:
   - title: "MINAGE"
     slug: "minage"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-unlimited/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BITCOIN JESUS"
+  slug: "bitcoin-jesus"
+next_in_category:
+  title: "BITCOIN XT"
+  slug: "bitcoin-xt"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

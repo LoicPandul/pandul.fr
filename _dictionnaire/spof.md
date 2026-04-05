@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "S"
 layout: definition
 french_term: "POINT DE DÉFAILLANCE UNIQUE"
+category_slug: "informatique"
+prev_in_category:
+  title: "SOURCEFORGE"
+  slug: "sourceforge"
+next_in_category:
+  title: "SURFACE D'ATTAQUE"
+  slug: "surface-d-attaque"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

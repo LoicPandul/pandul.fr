@@ -5,6 +5,13 @@ permalink: /dictionnaire/hyperinflation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "HYPER-BITCOINISATION"
+  slug: "hyper-bitcoinisation"
+next_in_category:
+  title: "INFLATION"
+  slug: "inflation"
 cross_references:
   - title: "INFLATION"
     slug: "inflation"

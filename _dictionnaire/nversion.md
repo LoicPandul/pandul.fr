@@ -5,6 +5,13 @@ permalink: /dictionnaire/nversion/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "NULLDUMMY"
+  slug: "nulldummy"
+next_in_category:
+  title: "OBSOLÈTE - BLOC"
+  slug: "obsolete-bloc"
 cross_references:
   - title: "NSEQUENCE"
     slug: "nsequence"

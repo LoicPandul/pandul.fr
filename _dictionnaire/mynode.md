@@ -5,6 +5,13 @@ permalink: /dictionnaire/mynode/
 category: "OUTIL"
 letter: "M"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "MOSTRO"
+  slug: "mostro"
+next_in_category:
+  title: "NEUTRINO"
+  slug: "neutrino"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

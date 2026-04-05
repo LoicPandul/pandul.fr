@@ -5,6 +5,13 @@ permalink: /dictionnaire/stacker/
 category: "COMMUNAUTÉ"
 letter: "S"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "SLIP"
+  slug: "slip"
+next_in_category:
+  title: "WIZARDSARDINE"
+  slug: "wizardsardine"
 cross_references:
   - title: "HODL"
     slug: "hodl"

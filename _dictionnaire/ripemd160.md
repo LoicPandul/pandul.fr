@@ -5,6 +5,13 @@ permalink: /dictionnaire/ripemd160/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "RANGEPROOFS"
+  slug: "rangeproofs"
+next_in_category:
+  title: "ROAST"
+  slug: "roast"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

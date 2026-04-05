@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-lessthan-0x9f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_INTERNALKEY - 0XCB"
+  slug: "op-internalkey-0xcb"
+next_in_category:
+  title: "OP_LESSTHANOREQUAL - 0XA1"
+  slug: "op-lessthanorequal-0xa1"
 cross_references:
   - title: "OP_GREATERTHAN - 0XA0"
     slug: "op-greaterthan-0xa0"

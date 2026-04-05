@@ -5,6 +5,13 @@ permalink: /dictionnaire/inscriptions/
 category: "COUCHE SUPÉRIEURE"
 letter: "I"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "FORFEIT TRANSACTION"
+  slug: "forfeit-transaction"
+next_in_category:
+  title: "JOINPOOL"
+  slug: "joinpool"
 cross_references:
   - title: "ORDINALS THEORY"
     slug: "ordinals-theory"

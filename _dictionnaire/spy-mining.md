@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "S"
 layout: definition
 french_term: "MINAGE ESPION"
+category_slug: "minage"
+prev_in_category:
+  title: "SPIDERPOOL"
+  slug: "spiderpool"
+next_in_category:
+  title: "STALE SHARE"
+  slug: "stale-share"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

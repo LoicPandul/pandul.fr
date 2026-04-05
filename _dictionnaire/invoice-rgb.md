@@ -5,6 +5,13 @@ permalink: /dictionnaire/invoice-rgb/
 category: "RGB"
 letter: "I"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "INTERFACE IMPLEMENTATION"
+  slug: "interface-implementation"
+next_in_category:
+  title: "MULTI PROTOCOL COMMITMENT"
+  slug: "multi-protocol-commitment"
 cross_references:
   - title: "STATE TRANSITION"
     slug: "state-transition"

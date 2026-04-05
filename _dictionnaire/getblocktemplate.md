@@ -5,6 +5,13 @@ permalink: /dictionnaire/getblocktemplate/
 category: "MINAGE"
 letter: "G"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "FPPS - FULL PAY PER SHARE"
+  slug: "fpps-full-pay-per-share"
+next_in_category:
+  title: "GETWORK"
+  slug: "getwork"
 cross_references:
   - title: "GETWORK"
     slug: "getwork"

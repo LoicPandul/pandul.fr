@@ -5,6 +5,13 @@ permalink: /dictionnaire/owned-state/
 category: "RGB"
 letter: "O"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "MULTI PROTOCOL COMMITMENT"
+  slug: "multi-protocol-commitment"
+next_in_category:
+  title: "OWNERSHIP"
+  slug: "ownership"
 cross_references:
   - title: "CONTRACT STATE"
     slug: "contract-state"

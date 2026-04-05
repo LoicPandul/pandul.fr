@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "V"
 layout: definition
 french_term: "OCTETS VIRTUELS"
+category_slug: "protocole"
+prev_in_category:
+  title: "UTXO SET"
+  slug: "utxo-set"
+next_in_category:
+  title: "VIN"
+  slug: "vin"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/hmac-sha512/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "HASH256"
+  slug: "hash256"
+next_in_category:
+  title: "HORODATAGE"
+  slug: "horodatage"
 cross_references:
   - title: "SHA512"
     slug: "sha512"

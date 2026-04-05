@@ -5,6 +5,13 @@ permalink: /dictionnaire/ascii/
 category: "INFORMATIQUE"
 letter: "A"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "API"
+  slug: "api"
+next_in_category:
+  title: "BASE - ARITHMÉTIQUE"
+  slug: "base-arithmetique"
 cross_references:
   - title: "BIT"
     slug: "bit"

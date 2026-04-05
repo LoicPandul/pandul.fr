@@ -5,6 +5,13 @@ permalink: /dictionnaire/ecash-david-chaum/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "E-GOLD"
+  slug: "e-gold"
+next_in_category:
+  title: "ECASH - XEC"
+  slug: "ecash-xec"
 cross_references:
   - title: "FEDIMINT"
     slug: "fedimint"

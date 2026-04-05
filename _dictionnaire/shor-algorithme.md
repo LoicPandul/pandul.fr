@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "S"
 layout: definition
 english_term: "SHOR'S ALGORITHM"
+category_slug: "informatique"
+prev_in_category:
+  title: "RPC - REMOTE PROCEDURE CALL"
+  slug: "rpc-remote-procedure-call"
+next_in_category:
+  title: "SMT - SPARSE MERKLE TREE"
+  slug: "smt-sparse-merkle-tree"
 cross_references:
   - title: "ECDSA"
     slug: "ecdsa"

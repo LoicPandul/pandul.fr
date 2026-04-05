@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
 english_term: "TIME PREFERENCE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "PRAXÉOLOGIE"
+  slug: "praxeologie"
+next_in_category:
+  title: "PREUVE DE RÉSERVES"
+  slug: "preuve-de-reserves"
 cross_references:
   - title: "ÉCOLE AUTRICHIENNE"
     slug: "ecole-autrichienne"

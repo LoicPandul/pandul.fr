@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "R"
 layout: definition
 english_term: "BLOCK WITHHOLDING"
+category_slug: "attaque"
+prev_in_category:
+  title: "REPLAY ATTACK"
+  slug: "replay-attack"
+next_in_category:
+  title: "SELFISH MINING"
+  slug: "selfish-mining"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

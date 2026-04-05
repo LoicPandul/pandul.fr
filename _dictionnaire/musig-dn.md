@@ -5,6 +5,13 @@ permalink: /dictionnaire/musig-dn/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "MUSIG"
+  slug: "musig"
+next_in_category:
+  title: "MUSIG2"
+  slug: "musig2"
 cross_references:
   - title: "MUSIG"
     slug: "musig"

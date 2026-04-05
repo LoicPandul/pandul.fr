@@ -5,6 +5,13 @@ permalink: /dictionnaire/channel-factories/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL BREACH"
+  slug: "channel-breach"
+next_in_category:
+  title: "CHANNEL LEASE"
+  slug: "channel-lease"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

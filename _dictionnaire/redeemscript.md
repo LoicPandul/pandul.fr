@@ -5,6 +5,13 @@ permalink: /dictionnaire/redeemscript/
 category: "SCRIPT"
 letter: "R"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "POLICY - MINISCRIPT"
+  slug: "policy-miniscript"
+next_in_category:
+  title: "SCRIPT"
+  slug: "script"
 cross_references:
   - title: "P2SH"
     slug: "p2sh"

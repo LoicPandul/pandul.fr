@@ -5,6 +5,13 @@ permalink: /dictionnaire/taproot-assets-protocol/
 category: "COUCHE SUPÉRIEURE"
 letter: "T"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SURCOUCHE"
+  slug: "surcouche"
+next_in_category:
+  title: "TARO"
+  slug: "taro"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

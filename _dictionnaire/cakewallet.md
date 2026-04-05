@@ -5,6 +5,13 @@ permalink: /dictionnaire/cakewallet/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CAHOOTS"
+  slug: "cahoots"
+next_in_category:
+  title: "CHAINE EXTERNE"
+  slug: "chaine-externe"
 cross_references:
   - title: "PORTEFEUILLE"
     slug: "portefeuille"

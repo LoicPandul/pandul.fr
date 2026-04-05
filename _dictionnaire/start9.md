@@ -5,6 +5,13 @@ permalink: /dictionnaire/start9/
 category: "OUTIL"
 letter: "S"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "SPARKSCAN"
+  slug: "sparkscan"
+next_in_category:
+  title: "SWISS BITCOIN PAY"
+  slug: "swiss-bitcoin-pay"
 cross_references:
   - title: "UMBREL"
     slug: "umbrel"

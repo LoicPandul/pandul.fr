@@ -5,6 +5,13 @@ permalink: /dictionnaire/paynym/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PAYJOIN"
+  slug: "payjoin"
+next_in_category:
+  title: "PEELING CHAIN"
+  slug: "peeling-chain"
 cross_references:
   - title: "BIP-0047"
     slug: "bip-0047"

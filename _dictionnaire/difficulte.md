@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "D"
 layout: definition
 english_term: "DIFFICULTY"
+category_slug: "minage"
+prev_in_category:
+  title: "DGM"
+  slug: "dgm"
+next_in_category:
+  title: "ESMPPS"
+  slug: "esmpps"
 cross_references:
   - title: "CIBLE DE DIFFICULTÉ"
     slug: "cible-de-difficulte"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "V"
 layout: definition
 french_term: "ADRESSE PERSONNALISÉE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "UPUB"
+  slug: "upub"
+next_in_category:
+  title: "VAULT"
+  slug: "vault"
 cross_references:
   - title: "VANITYGEN"
     slug: "vanitygen"

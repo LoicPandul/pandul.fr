@@ -5,6 +5,13 @@ permalink: /dictionnaire/foss/
 category: "INFORMATIQUE"
 letter: "F"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "FORK - GIT"
+  slug: "fork-git"
+next_in_category:
+  title: "GCS - GOLOMB-CODED SET"
+  slug: "gcs-golomb-coded-set"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/leveldb/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "LEDGER"
+  slug: "ledger"
+next_in_category:
+  title: "LIBBITCOIN"
+  slug: "libbitcoin"
 cross_references:
   - title: "UTXO SET"
     slug: "utxo-set"

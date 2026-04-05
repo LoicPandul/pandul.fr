@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "L"
 layout: definition
 french_term: "ÉTIQUETTE - SILENT PAYMENTS"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "JOINSTR"
+  slug: "joinstr"
+next_in_category:
+  title: "MÉLANGEUR"
+  slug: "melangeur"
 cross_references:
   - title: "SILENT PAYMENTS"
     slug: "silent-payments"

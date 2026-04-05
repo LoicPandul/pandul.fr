@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "M"
 layout: definition
 french_term: "CAPITALISATION BOURSIÈRE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "LOI DE THIERS"
+  slug: "loi-de-thiers"
+next_in_category:
+  title: "PRAXÉOLOGIE"
+  slug: "praxeologie"
 cross_references:
   - title: "BULL MARKET"
     slug: "bull-market"

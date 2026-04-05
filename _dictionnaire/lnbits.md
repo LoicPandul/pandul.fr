@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnbits/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LITD"
+  slug: "litd"
+next_in_category:
+  title: "LNCLI"
+  slug: "lncli"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

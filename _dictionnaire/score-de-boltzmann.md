@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
 english_term: "BOLTZMANN SCORE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SAMOURAI WALLET"
+  slug: "samourai-wallet"
+next_in_category:
+  title: "SHAREDCOIN"
+  slug: "sharedcoin"
 cross_references:
   - title: "ENTROPIE - ANALYSE DE CHAINE"
     slug: "entropie-analyse"

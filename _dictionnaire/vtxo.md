@@ -5,6 +5,10 @@ permalink: /dictionnaire/vtxo/
 category: "COUCHE SUPÉRIEURE"
 letter: "V"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "UNIVERSE"
+  slug: "universe"
 cross_references:
   - title: "ARK"
     slug: "ark"

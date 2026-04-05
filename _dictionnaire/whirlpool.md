@@ -5,6 +5,13 @@ permalink: /dictionnaire/whirlpool/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "WABISABI"
+  slug: "wabisabi"
+next_in_category:
+  title: "WHIRLPOOL STAT TOOL"
+  slug: "whirlpool-stat-tool"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

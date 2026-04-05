@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "D"
 layout: definition
 english_term: "DECENTRALIZATION"
+category_slug: "reseau"
+prev_in_category:
+  title: "COMPACT BLOCK RELAY"
+  slug: "compact-block-relay"
+next_in_category:
+  title: "DIFFUSION"
+  slug: "diffusion"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

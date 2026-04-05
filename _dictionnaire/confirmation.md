@@ -5,6 +5,13 @@ permalink: /dictionnaire/confirmation/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "COMPATIBILITÉ RÉTROSPECTIVE"
+  slug: "compatibilite-retrospective"
+next_in_category:
+  title: "CONSENSUS"
+  slug: "consensus"
 cross_references:
   - title: "BLOC"
     slug: "bloc"

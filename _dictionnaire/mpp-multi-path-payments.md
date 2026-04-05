@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "M"
 layout: definition
 french_term: "PAIEMENTS MULTICHEMINS"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "MILLISATOSHI"
+  slug: "millisatoshi"
+next_in_category:
+  title: "NŒUD DE ROUTAGE"
+  slug: "noeud-de-routage"
 cross_references:
   - title: "ATOMIC MULTI-PATH PAYMENTS"
     slug: "atomic-multi-path-payments"

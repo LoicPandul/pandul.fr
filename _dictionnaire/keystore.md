@@ -5,6 +5,13 @@ permalink: /dictionnaire/keystore/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "KEY TELEPORT"
+  slug: "key-teleport"
+next_in_category:
+  title: "KNAPSACK SOLVER"
+  slug: "knapsack-solver"
 cross_references:
   - title: "XPUB"
     slug: "xpub"

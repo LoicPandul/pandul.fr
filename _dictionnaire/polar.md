@@ -5,6 +5,13 @@ permalink: /dictionnaire/polar/
 category: "OUTIL"
 letter: "P"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "OPENTIMESTAMPS"
+  slug: "opentimestamps"
+next_in_category:
+  title: "RASPIBLITZ"
+  slug: "raspiblitz"
 cross_references:
   - title: "LND"
     slug: "lnd"

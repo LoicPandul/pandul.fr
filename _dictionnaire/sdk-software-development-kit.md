@@ -5,6 +5,13 @@ permalink: /dictionnaire/sdk-software-development-kit/
 category: "OUTIL"
 letter: "S"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "RUST BITCOIN"
+  slug: "rust-bitcoin"
+next_in_category:
+  title: "SPARKSCAN"
+  slug: "sparkscan"
 cross_references:
   - title: "BDK - BITCOIN DEV KIT"
     slug: "bdk-bitcoin-dev-kit"

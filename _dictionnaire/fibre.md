@@ -5,6 +5,13 @@ permalink: /dictionnaire/fibre/
 category: "RÉSEAU"
 letter: "F"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "FEELER CONNECTION"
+  slug: "feeler-connection"
+next_in_category:
+  title: "HEADERS-FIRST SYNC"
+  slug: "headers-first-sync"
 cross_references:
   - title: "BIP-0152"
     slug: "bip-0152"

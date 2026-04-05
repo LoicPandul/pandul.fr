@@ -6,6 +6,13 @@ category: "HISTOIRE"
 letter: "B"
 layout: definition
 french_term: "GUERRE DE LA TAILLE DES BLOCS"
+category_slug: "histoire"
+prev_in_category:
+  title: "BITCOIN XT"
+  slug: "bitcoin-xt"
+next_in_category:
+  title: "BSV - BITCOIN SATOSHI VISION"
+  slug: "bsv-bitcoin-satoshi-vision"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

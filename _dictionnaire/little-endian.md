@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "L"
 layout: definition
 french_term: "PETIT-BOUTISTE"
+category_slug: "informatique"
+prev_in_category:
+  title: "ISSUE"
+  slug: "issue"
+next_in_category:
+  title: "MACAROON"
+  slug: "macaroon"
 cross_references:
   - title: "BIG-ENDIAN"
     slug: "big-endian"

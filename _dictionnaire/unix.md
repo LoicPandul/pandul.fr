@@ -5,6 +5,13 @@ permalink: /dictionnaire/unix/
 category: "INFORMATIQUE"
 letter: "U"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "TLV"
+  slug: "tlv"
+next_in_category:
+  title: "URI"
+  slug: "uri"
 cross_references:
   - title: "NLOCKTIME"
     slug: "nlocktime"

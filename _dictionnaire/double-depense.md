@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "D"
 layout: definition
 english_term: "DOUBLE SPENDING ATTACK"
+category_slug: "attaque"
+prev_in_category:
+  title: "DOS - DENIAL OF SERVICE"
+  slug: "dos-denial-of-service"
+next_in_category:
+  title: "DUSTING ATTACK"
+  slug: "dusting-attack"
 cross_references:
   - title: "ATTAQUE DES 51%"
     slug: "attaque-des-51-pour-cent"

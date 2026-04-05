@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "F"
 layout: definition
 french_term: "AUGMENTATION DES FRAIS"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ÉTIQUETAGE"
+  slug: "etiquetage"
+next_in_category:
+  title: "GAP LIMIT"
+  slug: "gap-limit"
 cross_references:
   - title: "RBF - REPLACE-BY-FEE"
     slug: "rbf-replace-by-fee"

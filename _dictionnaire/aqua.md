@@ -5,6 +5,13 @@ permalink: /dictionnaire/aqua/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "AOPP"
+  slug: "aopp"
+next_in_category:
+  title: "ASHIGARU"
+  slug: "ashigaru"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

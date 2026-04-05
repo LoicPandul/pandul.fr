@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "P"
 layout: definition
 french_term: "DEMANDE DE TIRAGE"
+category_slug: "informatique"
+prev_in_category:
+  title: "PRÉFIXES BINAIRES"
+  slug: "prefixes-binaires"
+next_in_category:
+  title: "QR CODE"
+  slug: "qr-code"
 cross_references:
   - title: "GITHUB"
     slug: "github"

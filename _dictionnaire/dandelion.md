@@ -5,6 +5,13 @@ permalink: /dictionnaire/dandelion/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "COORDINATEUR DE COINJOIN"
+  slug: "coordinateur-de-coinjoin"
+next_in_category:
+  title: "DARKWALLET"
+  slug: "darkwallet"
 cross_references:
   - title: "BIP-0156"
     slug: "bip-0156"

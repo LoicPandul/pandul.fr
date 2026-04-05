@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
 english_term: "PENALTY TRANSACTION"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TRANSACTION DE FINANCEMENT"
+  slug: "transaction-de-financement"
+next_in_category:
+  title: "TRIMMED HTLC"
+  slug: "trimmed-htlc"
 cross_references:
   - title: "FORCE CLOSE"
     slug: "force-close"

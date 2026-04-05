@@ -5,6 +5,13 @@ permalink: /dictionnaire/clementine/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CLARK - COVENANTLESS ARK"
+  slug: "clark-covenantless-ark"
+next_in_category:
+  title: "COLORED COINS"
+  slug: "colored-coins"
 cross_references:
   - title: "CITREA"
     slug: "citrea"

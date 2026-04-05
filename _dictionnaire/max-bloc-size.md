@@ -5,6 +5,13 @@ permalink: /dictionnaire/max-bloc-size/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "MASF"
+  slug: "masf"
+next_in_category:
+  title: "MEMPOOL"
+  slug: "mempool"
 cross_references:
   - title: "BLOC"
     slug: "bloc"

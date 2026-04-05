@@ -5,6 +5,13 @@ permalink: /dictionnaire/wtxid/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "WEIGHT UNIT - WU"
+  slug: "weight-unit"
+next_in_category:
+  title: "ZEROCONF"
+  slug: "zeroconf"
 cross_references:
   - title: "TXID - TRANSACTION IDENTIFIER"
     slug: "txid-transaction-identifier"

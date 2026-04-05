@@ -5,6 +5,13 @@ permalink: /dictionnaire/sparrow-wallet/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SINGLE-SIG"
+  slug: "single-sig"
+next_in_category:
+  title: "SPECTER"
+  slug: "specter"
 cross_references:
   - title: "PSBT"
     slug: "psbt"

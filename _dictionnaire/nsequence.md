@@ -5,6 +5,13 @@ permalink: /dictionnaire/nsequence/
 category: "SCRIPT"
 letter: "N"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "NLOCKTIME"
+  slug: "nlocktime"
+next_in_category:
+  title: "OBOE - OFF-BY-ONE ERROR"
+  slug: "oboe-off-by-one-error"
 cross_references:
   - title: "TIMELOCK"
     slug: "timelock"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
 french_term: "PORTEFEUILLE PAPIER"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "OUTPUT SCRIPT DESCRIPTORS"
+  slug: "output-script-descriptors"
+next_in_category:
+  title: "PASSPHRASE - BIP-0039"
+  slug: "passphrase-bip-0039"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

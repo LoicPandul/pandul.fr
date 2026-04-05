@@ -5,6 +5,13 @@ permalink: /dictionnaire/cashu/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BTKN"
+  slug: "btkn"
+next_in_category:
+  title: "CBTC - CITREA BITCOIN"
+  slug: "cbtc-citrea-bitcoin"
 cross_references:
   - title: "ECASH - DAVID CHAUM"
     slug: "ecash-david-chaum"

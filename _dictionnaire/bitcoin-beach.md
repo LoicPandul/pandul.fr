@@ -5,6 +5,10 @@ permalink: /dictionnaire/bitcoin-beach/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+category_slug: "communaute"
+next_in_category:
+  title: "BITCOIN MAGAZINE"
+  slug: "bitcoin-magazine"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

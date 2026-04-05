@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
 french_term: "ÉCHANGE DE LIQUIDITÉ"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LIQUIDITY ADS"
+  slug: "liquidity-ads"
+next_in_category:
+  title: "LNC - LIGHTNING NODE CONNECT"
+  slug: "lnc-lightning-node-connect"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

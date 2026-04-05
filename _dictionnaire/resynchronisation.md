@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "R"
 layout: definition
 english_term: "REORGANIZATION"
+category_slug: "protocole"
+prev_in_category:
+  title: "REGTEST"
+  slug: "regtest"
+next_in_category:
+  title: "SCALABILITÉ"
+  slug: "scalabilite"
 cross_references:
   - title: "OBSOLÈTE - BLOC"
     slug: "obsolete-bloc"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/luxor/
 category: "MINAGE"
 letter: "L"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "LUCK"
+  slug: "luck"
+next_in_category:
+  title: "MARA"
+  slug: "mara"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

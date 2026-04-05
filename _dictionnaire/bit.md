@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "B"
 layout: definition
 french_term: "CHIFFRE BINAIRE"
+category_slug: "informatique"
+prev_in_category:
+  title: "BINAIRE"
+  slug: "binaire"
+next_in_category:
+  title: "BRANCHE - GIT"
+  slug: "branche-git"
 cross_references:
   - title: "OCTET"
     slug: "octet"

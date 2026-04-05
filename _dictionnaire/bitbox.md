@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitbox/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BIRTH DATE"
+  slug: "birth-date"
+next_in_category:
+  title: "BITCOIN KEEPER"
+  slug: "bitcoin-keeper"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

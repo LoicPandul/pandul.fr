@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
 english_term: "COIN TYPE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "TREZOR"
+  slug: "trezor"
+next_in_category:
+  title: "UPRV"
+  slug: "uprv"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

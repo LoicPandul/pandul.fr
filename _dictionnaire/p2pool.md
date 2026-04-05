@@ -5,6 +5,13 @@ permalink: /dictionnaire/p2pool/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "OVERT ASICBOOST"
+  slug: "overt-asicboost"
+next_in_category:
+  title: "POOL HOPPING"
+  slug: "pool-hopping"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

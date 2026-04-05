@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 english_term: "BLIND SIGNATURE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SIGN-TO-CONTRACT"
+  slug: "sign-to-contract"
+next_in_category:
+  title: "SIGNATURE NUMÉRIQUE"
+  slug: "signature-numerique"
 cross_references:
   - title: "CHAUMIAN COINJOIN"
     slug: "chaumian-coinjoin"

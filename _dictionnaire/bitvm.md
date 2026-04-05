@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitvm/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ATLC"
+  slug: "atlc"
+next_in_category:
+  title: "BLIND ORACLE"
+  slug: "blind-oracle"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

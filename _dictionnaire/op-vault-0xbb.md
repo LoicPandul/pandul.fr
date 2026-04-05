@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-vault-0xbb/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_TXHASH - 0XBD"
+  slug: "op-txhash-0xbd"
+next_in_category:
+  title: "OP_VER - 0X62"
+  slug: "op-ver-0x62"
 cross_references:
   - title: "BIP-0345"
     slug: "bip-0345"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
 french_term: "POUSSIÈRE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DURESS WALLET"
+  slug: "duress-wallet"
+next_in_category:
+  title: "ELECTRUM"
+  slug: "electrum"
 cross_references:
   - title: "DUST LIMIT"
     slug: "dust-limit"

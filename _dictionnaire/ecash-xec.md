@@ -5,6 +5,13 @@ permalink: /dictionnaire/ecash-xec/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "ECASH - DAVID CHAUM"
+  slug: "ecash-david-chaum"
+next_in_category:
+  title: "FAUCET"
+  slug: "faucet"
 cross_references:
   - title: "HARD FORK"
     slug: "hard-fork"

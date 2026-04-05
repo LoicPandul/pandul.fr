@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
 french_term: "PORTEFEUILLE CERVEAU"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BLUE WALLET"
+  slug: "blue-wallet"
+next_in_category:
+  title: "BRANCH-AND-BOUND"
+  slug: "branch-and-bound"
 cross_references:
   - title: "PHRASE DE RÉCUPÉRATION"
     slug: "phrase-de-recuperation"

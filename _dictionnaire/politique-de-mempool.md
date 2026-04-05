@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 english_term: "MEMPOOL POLICY"
+category_slug: "reseau"
+prev_in_category:
+  title: "PEERS.DAT"
+  slug: "peers-dat"
+next_in_category:
+  title: "POLITIQUE DE RELAIS"
+  slug: "politique-de-relais"
 cross_references:
   - title: "RÈGLES DE STANDARDISATION"
     slug: "regles-de-standardisation"

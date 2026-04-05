@@ -5,6 +5,13 @@ permalink: /dictionnaire/nakamoto-satoshi/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "MTGOX"
+  slug: "mtgox"
+next_in_category:
+  title: "NAMECOIN"
+  slug: "namecoin"
 cross_references:
   - title: "WHITE PAPER"
     slug: "white-paper"

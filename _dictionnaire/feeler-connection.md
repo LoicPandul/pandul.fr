@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "F"
 layout: definition
 french_term: "CONNEXION SONDE"
+category_slug: "reseau"
+prev_in_category:
+  title: "ÉVÉNEMENT NOSTR"
+  slug: "evenement-nostr"
+next_in_category:
+  title: "FIBRE"
+  slug: "fibre"
 cross_references:
   - title: "PAIR SORTANT"
     slug: "pair-sortant"

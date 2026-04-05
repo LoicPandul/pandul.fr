@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "R"
 layout: definition
 english_term: "PARTITION TOLERANCE"
+category_slug: "informatique"
+prev_in_category:
+  title: "QUBIT"
+  slug: "qubit"
+next_in_category:
+  title: "RPC - REMOTE PROCEDURE CALL"
+  slug: "rpc-remote-procedure-call"
 cross_references:
   - title: "ECLIPSE"
     slug: "eclipse"

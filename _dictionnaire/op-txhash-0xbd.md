@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-txhash-0xbd/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_TUCK - 0X7D"
+  slug: "op-tuck-0x7d"
+next_in_category:
+  title: "OP_VAULT - 0XBB"
+  slug: "op-vault-0xbb"
 cross_references:
   - title: "BIP-0346"
     slug: "bip-0346"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 english_term: "BACKWARD COMPATIBILITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "COMPACTSIZE"
+  slug: "compactsize"
+next_in_category:
+  title: "CONFIRMATION"
+  slug: "confirmation"
 cross_references:
   - title: "SOFT FORK"
     slug: "soft-fork"

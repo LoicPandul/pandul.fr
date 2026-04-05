@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "G"
 layout: definition
 french_term: "NŒUD PASSERELLE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "FORCE CLOSE"
+  slug: "force-close"
+next_in_category:
+  title: "GOSSIP"
+  slug: "gossip"
 cross_references:
   - title: "PRIVATE CHANNEL"
     slug: "private-channel"

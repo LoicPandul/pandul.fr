@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "B"
 layout: definition
 english_term: "BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "BLKTREE/"
+  slug: "blktree"
+next_in_category:
+  title: "BLOCKCHAIN"
+  slug: "blockchain"
 cross_references:
   - title: "BLOCKCHAIN"
     slug: "blockchain"

@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
 french_term: "RACCORDEMENT DE CANAL"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SPHINX"
+  slug: "sphinx"
+next_in_category:
+  title: "STUCKLESS PAYMENT"
+  slug: "stuckless-payment"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

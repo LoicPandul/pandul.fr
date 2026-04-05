@@ -5,6 +5,13 @@ permalink: /dictionnaire/npub/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "NOSTR"
+  slug: "nostr"
+next_in_category:
+  title: "NSEC"
+  slug: "nsec"
 cross_references:
   - title: "NOSTR"
     slug: "nostr"

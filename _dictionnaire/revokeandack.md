@@ -5,6 +5,13 @@ permalink: /dictionnaire/revokeandack/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "RENDEZ-VOUS ROUTING"
+  slug: "rendez-vous-routing"
+next_in_category:
+  title: "RUST-LIGHTNING"
+  slug: "rust-lightning"
 cross_references:
   - title: "TRANSACTION D'ENGAGEMENT"
     slug: "transaction-d-engagement"

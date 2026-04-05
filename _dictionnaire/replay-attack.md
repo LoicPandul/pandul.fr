@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "R"
 layout: definition
 french_term: "ATTAQUE PAR REJEU"
+category_slug: "attaque"
+prev_in_category:
+  title: "REPLACEMENT CYCLING"
+  slug: "replacement-cycling"
+next_in_category:
+  title: "RÉTENTION DE BLOC"
+  slug: "retention-de-bloc"
 cross_references:
   - title: "HARD FORK"
     slug: "hard-fork"

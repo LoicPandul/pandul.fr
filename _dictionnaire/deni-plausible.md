@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
 english_term: "PLAUSIBLE DENIABILITY"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "DARKWALLET"
+  slug: "darkwallet"
+next_in_category:
+  title: "DOXXIC CHANGE"
+  slug: "doxxic-change"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

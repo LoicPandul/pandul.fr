@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
 english_term: "TEMPORAL TEMPLATE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "MIXAGE"
+  slug: "mixage"
+next_in_category:
+  title: "OUTPUT LINKING"
+  slug: "output-linking"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

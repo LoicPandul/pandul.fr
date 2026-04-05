@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
 english_term: "ADDRESS REUSE"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PREMIX"
+  slug: "premix"
+next_in_category:
+  title: "RÉUTILISATION D'ADRESSE - EXTERNE"
+  slug: "reutilisation-d-adresse-ext"
 cross_references:
   - title: "ANALYSE DE CHAINE"
     slug: "analyse-de-chaine"

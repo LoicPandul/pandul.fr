@@ -5,6 +5,13 @@ permalink: /dictionnaire/galoy/
 category: "ORGANISATION"
 letter: "G"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "FOUNDATION DEVICES"
+  slug: "foundation-devices"
+next_in_category:
+  title: "HODL HODL"
+  slug: "hodl-hodl"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

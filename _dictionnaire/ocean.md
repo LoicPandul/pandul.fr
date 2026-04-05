@@ -5,6 +5,13 @@ permalink: /dictionnaire/ocean/
 category: "MINAGE"
 letter: "O"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "NERDMINER"
+  slug: "nerdminer"
+next_in_category:
+  title: "OFF-GRID"
+  slug: "off-grid"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

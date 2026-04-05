@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinshuffle/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "COINMUX"
+  slug: "coinmux"
+next_in_category:
+  title: "COINSWAP"
+  slug: "coinswap"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

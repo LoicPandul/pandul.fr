@@ -5,6 +5,13 @@ permalink: /dictionnaire/scriptwitness/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "SCRIPTSIG"
+  slug: "scriptsig"
+next_in_category:
+  title: "SIMPLICITY"
+  slug: "simplicity"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

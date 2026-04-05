@@ -5,6 +5,13 @@ permalink: /dictionnaire/counterparty/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "CONNECTOR"
+  slug: "connector"
+next_in_category:
+  title: "CTUSD - CITREA USD"
+  slug: "ctusd-citrea-usd"
 cross_references:
   - title: "OP_RETURN - 0X6A"
     slug: "op-return-0x6a"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/base-arithmetique/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "ASCII"
+  slug: "ascii"
+next_in_category:
+  title: "BBQR"
+  slug: "bbqr"
 cross_references:
   - title: "HEXADÉCIMAL"
     slug: "hexadecimal"

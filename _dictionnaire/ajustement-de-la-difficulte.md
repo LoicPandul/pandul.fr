@@ -6,6 +6,10 @@ category: "PROTOCOLE"
 letter: "A"
 layout: definition
 english_term: "DIFFICULTY ADJUSTMENT"
+category_slug: "protocole"
+next_in_category:
+  title: "ANCESTOR MINING"
+  slug: "ancestor-mining"
 cross_references:
   - title: "CIBLE DE DIFFICULTÉ"
     slug: "cible-de-difficulte"

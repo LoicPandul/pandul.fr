@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
 english_term: "THIERS' LAW"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "LOI DE GRESHAM"
+  slug: "loi-de-gresham"
+next_in_category:
+  title: "MARKET CAP"
+  slug: "market-cap"
 cross_references:
   - title: "LOI DE GRESHAM"
     slug: "loi-de-gresham"

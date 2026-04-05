@@ -6,6 +6,13 @@ category: "SCRIPT"
 letter: "C"
 layout: definition
 english_term: "SMART CONTRACT"
+category_slug: "script"
+prev_in_category:
+  title: "BINOHASH"
+  slug: "binohash"
+next_in_category:
+  title: "CONTROL BLOCK"
+  slug: "control-block"
 cross_references:
   - title: "SCRIPT"
     slug: "script"

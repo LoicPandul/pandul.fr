@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checksigfromstack-0xcc/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKSIGADD - 0XBA"
+  slug: "op-checksigadd-0xba"
+next_in_category:
+  title: "OP_CHECKSIGVERIFY - 0XAD"
+  slug: "op-checksigverify-0xad"
 cross_references:
   - title: "BIP-0348"
     slug: "bip-0348"

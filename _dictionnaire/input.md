@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "I"
 layout: definition
 french_term: "ENTRÉE"
+category_slug: "protocole"
+prev_in_category:
+  title: "INDEXES/TXINDEX/"
+  slug: "indexes-txindex"
+next_in_category:
+  title: "LEDGER"
+  slug: "ledger"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

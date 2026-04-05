@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
 french_term: "PLUS HAUT HISTORIQUE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "ARBITRAGE"
+  slug: "arbitrage"
+next_in_category:
+  title: "BEAR MARKET"
+  slug: "bear-market"
 cross_references:
   - title: "BULL RUN"
     slug: "bull-run"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checktemplateverify-0xb3/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKSIGVERIFY - 0XAD"
+  slug: "op-checksigverify-0xad"
+next_in_category:
+  title: "OP_CODESEPARATOR - 0XAB"
+  slug: "op-codeseparator-0xab"
 cross_references:
   - title: "BIP-0119"
     slug: "bip-0119"

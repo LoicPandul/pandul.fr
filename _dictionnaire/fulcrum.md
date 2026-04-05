@@ -5,6 +5,13 @@ permalink: /dictionnaire/fulcrum/
 category: "OUTIL"
 letter: "F"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "FROSTSNAP"
+  slug: "frostsnap"
+next_in_category:
+  title: "KRUX"
+  slug: "krux"
 cross_references:
   - title: "ELECTRUM SERVER"
     slug: "electrum-server"

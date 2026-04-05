@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
 french_term: "PREUVES DE PORTÉE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "RACINE DE MERKLE"
+  slug: "racine-de-merkle"
+next_in_category:
+  title: "RIPEMD160"
+  slug: "ripemd160"
 cross_references:
   - title: "CONFIDENTIAL TRANSACTIONS"
     slug: "confidential-transactions"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/banlist-json/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "BANLIST.DAT"
+  slug: "banlist-dat"
+next_in_category:
+  title: "BLOCK-RELAY-ONLY"
+  slug: "block-relay-only"
 cross_references:
   - title: "BANLIST.DAT"
     slug: "banlist-dat"

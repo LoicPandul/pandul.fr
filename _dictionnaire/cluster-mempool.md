@@ -5,6 +5,13 @@ permalink: /dictionnaire/cluster-mempool/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CISA"
+  slug: "cisa"
+next_in_category:
+  title: "COINBASE"
+  slug: "coinbase"
 cross_references:
   - title: "CPFP - CHILD PAY FOR PARENT"
     slug: "cpfp-child-pay-for-parent"

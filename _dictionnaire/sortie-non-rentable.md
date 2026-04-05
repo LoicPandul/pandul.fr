@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "S"
 layout: definition
 english_term: "UNECONOMICAL OUTPUT"
+category_slug: "attaque"
+prev_in_category:
+  title: "SELFISH MINING"
+  slug: "selfish-mining"
+next_in_category:
+  title: "SYBIL"
+  slug: "sybil"
 cross_references:
   - title: "DUST"
     slug: "dust"

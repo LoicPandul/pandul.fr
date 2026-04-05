@@ -5,6 +5,13 @@ permalink: /dictionnaire/gnu/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "GITLAB"
+  slug: "gitlab"
+next_in_category:
+  title: "GPL"
+  slug: "gpl"
 cross_references:
   - title: "GPL"
     slug: "gpl"

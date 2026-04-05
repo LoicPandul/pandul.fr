@@ -5,6 +5,13 @@ permalink: /dictionnaire/tx-transaction/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "TRANSACTION STANDARD"
+  slug: "transaction-standard"
+next_in_category:
+  title: "TXID - TRANSACTION IDENTIFIER"
+  slug: "txid-transaction-identifier"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

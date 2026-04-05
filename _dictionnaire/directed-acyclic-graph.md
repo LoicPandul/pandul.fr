@@ -6,6 +6,13 @@ category: "RGB"
 letter: "D"
 layout: definition
 french_term: "GRAPHE ORIENTÉ ACYCLIQUE"
+category_slug: "rgb"
+prev_in_category:
+  title: "DBC"
+  slug: "dbc"
+next_in_category:
+  title: "ENGRAVING"
+  slug: "engraving"
 cross_references:
   - title: "RGB"
     slug: "rgb"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
 french_term: "ÉLÉMENT SÉCURISÉ"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SATSCARD"
+  slug: "satscard"
+next_in_category:
+  title: "SEEDKEEPER"
+  slug: "seedkeeper"
 cross_references:
   - title: "PSBT"
     slug: "psbt"

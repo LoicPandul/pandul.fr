@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "I"
 layout: definition
 french_term: "FACTURE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "INBOUND CAPACITY"
+  slug: "inbound-capacity"
+next_in_category:
+  title: "JIT CHANNEL"
+  slug: "jit-channel"
 cross_references:
   - title: "HTLC"
     slug: "htlc"

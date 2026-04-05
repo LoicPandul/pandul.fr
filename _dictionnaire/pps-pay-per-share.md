@@ -5,6 +5,13 @@ permalink: /dictionnaire/pps-pay-per-share/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "PPLNS - PAY PER LAST N SHARES"
+  slug: "pplns-pay-per-last-n-shares"
+next_in_category:
+  title: "PPS+"
+  slug: "pps-plus"
 cross_references:
   - title: "SHARES"
     slug: "shares"

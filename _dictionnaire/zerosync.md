@@ -5,6 +5,10 @@ permalink: /dictionnaire/zerosync/
 category: "PROTOCOLE"
 letter: "Z"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "ZEROCONF"
+  slug: "zeroconf"
 cross_references:
   - title: "ZKP - ZERO-KNOWLEDGE PROOF"
     slug: "zkp-zero-knowledge-proof"

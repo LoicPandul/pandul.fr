@@ -6,6 +6,13 @@ category: "RGB"
 letter: "B"
 layout: definition
 french_term: "LOGIQUE MÉTIER"
+category_slug: "rgb"
+prev_in_category:
+  title: "ASSIGNMENT"
+  slug: "assignment"
+next_in_category:
+  title: "CLIENT-SIDE VALIDATION"
+  slug: "client-side-validation"
 cross_references:
   - title: "SCHEMA"
     slug: "schema"

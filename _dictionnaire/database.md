@@ -5,6 +5,13 @@ permalink: /dictionnaire/database/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "COVENANT"
+  slug: "covenant"
+next_in_category:
+  title: "DB.LOG"
+  slug: "db-log"
 cross_references:
   - title: "WALLET.DAT"
     slug: "wallet-dat"

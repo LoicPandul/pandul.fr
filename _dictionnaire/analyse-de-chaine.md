@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
 english_term: "CHAIN ANALYSIS"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ADRESSE STATIQUE"
+  slug: "adresse-statique"
+next_in_category:
+  title: "ANONSETS - ANONYMITY SETS"
+  slug: "anonsets-anonymity-sets"
 cross_references:
   - title: "CIOH"
     slug: "cioh"

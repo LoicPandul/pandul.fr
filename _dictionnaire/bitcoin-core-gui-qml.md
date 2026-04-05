@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-core-gui-qml/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BITBANANA"
+  slug: "bitbanana"
+next_in_category:
+  title: "BITCOINJ"
+  slug: "bitcoinj"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

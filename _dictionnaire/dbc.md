@@ -5,6 +5,13 @@ permalink: /dictionnaire/dbc/
 category: "RGB"
 letter: "D"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "CONTRAT RGB"
+  slug: "contrat-rgb"
+next_in_category:
+  title: "DIRECTED ACYCLIC GRAPH"
+  slug: "directed-acyclic-graph"
 cross_references:
   - title: "COMMITMENT"
     slug: "commitment"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/turbo-channel/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TRIMMED HTLC"
+  slug: "trimmed-htlc"
+next_in_category:
+  title: "VLS"
+  slug: "vls-validating-lightning-signer"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

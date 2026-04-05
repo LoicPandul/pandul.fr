@@ -5,6 +5,13 @@ permalink: /dictionnaire/assume-utxo/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "ANNEX"
+  slug: "annex"
+next_in_category:
+  title: "ASSUME VALID"
+  slug: "assume-valid"
 cross_references:
   - title: "ASSUME VALID"
     slug: "assume-valid"

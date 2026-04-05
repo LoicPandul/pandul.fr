@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "EXTERNAL KEYCHAIN"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CAKE WALLET"
+  slug: "cakewallet"
+next_in_category:
+  title: "CHAINE INTERNE"
+  slug: "chaine-interne"
 cross_references:
   - title: "CHEMIN DE DÉRIVATION"
     slug: "chemin-de-derivation"

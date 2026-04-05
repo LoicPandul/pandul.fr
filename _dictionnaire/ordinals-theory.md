@@ -6,6 +6,13 @@ category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
 french_term: "THÉORIE DES ORDINALS"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ORDINAL NUMBER"
+  slug: "ordinal-number"
+next_in_category:
+  title: "PASSIVE ASSETS"
+  slug: "passive-assets"
 cross_references:
   - title: "INSCRIPTIONS"
     slug: "inscriptions"

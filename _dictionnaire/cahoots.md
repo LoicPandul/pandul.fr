@@ -5,6 +5,13 @@ permalink: /dictionnaire/cahoots/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BSMS"
+  slug: "bsms"
+next_in_category:
+  title: "CAKE WALLET"
+  slug: "cakewallet"
 cross_references:
   - title: "STONEWALL X2"
     slug: "stonewall-x2"

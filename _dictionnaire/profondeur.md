@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
 english_term: "DEPTH"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PORTEFEUILLE CHAUD"
+  slug: "portefeuille-chaud"
+next_in_category:
+  title: "PROTON WALLET"
+  slug: "proton-wallet"
 cross_references:
   - title: "DÉRIVATION"
     slug: "derivation"

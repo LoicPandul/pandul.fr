@@ -5,6 +5,13 @@ permalink: /dictionnaire/hashcash/
 category: "HISTOIRE"
 letter: "H"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "FINNEY HAL"
+  slug: "finney-hal"
+next_in_category:
+  title: "HONG-KONG ROUNDTABLE"
+  slug: "hong-kong-roundtable"
 cross_references:
   - title: "PREUVE DE TRAVAIL"
     slug: "preuve-de-travail"

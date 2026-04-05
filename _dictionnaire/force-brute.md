@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "F"
 layout: definition
 english_term: "BRUTE FORCE ATTACK"
+category_slug: "attaque"
+prev_in_category:
+  title: "FLOOD AND LOOT"
+  slug: "flood-and-loot"
+next_in_category:
+  title: "FORCED ADDRESS REUSE"
+  slug: "forced-address-reuse"
 cross_references:
   - title: "CRYPTANALYSE"
     slug: "cryptanalyse"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/opendime/
 category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "OBJECTIF"
+  slug: "objectif"
+next_in_category:
+  title: "OUTPUT SCRIPT DESCRIPTORS"
+  slug: "output-script-descriptors"
 cross_references:
   - title: "COINKITE"
     slug: "coinkite"

@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "T"
 layout: definition
 english_term: "TRANSACTION WITNESS"
+category_slug: "protocole"
+prev_in_category:
+  title: "TAPROOT"
+  slug: "taproot"
+next_in_category:
+  title: "TESTNET"
+  slug: "testnet"
 cross_references:
   - title: "SEGWIT"
     slug: "segwit"

@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
 french_term: "FOURNISSEUR DE SERVICE LIGHTNING"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "LIGHTNING NETWORK"
+  slug: "lightning-network"
+next_in_category:
+  title: "LIQUIDITÉS"
+  slug: "liquidites"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

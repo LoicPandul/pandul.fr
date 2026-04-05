@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-equal-0x87/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_ENDIF - 0X68"
+  slug: "op-endif-0x68"
+next_in_category:
+  title: "OP_EQUALVERIFY - 0X88"
+  slug: "op-equalverify-0x88"
 cross_references:
   - title: "OP_EQUALVERIFY - 0X88"
     slug: "op-equalverify-0x88"

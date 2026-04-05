@@ -5,6 +5,13 @@ permalink: /dictionnaire/peach/
 category: "ORGANISATION"
 letter: "P"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "OPENSATS"
+  slug: "opensats"
+next_in_category:
+  title: "RISC ZERO"
+  slug: "risc-zero"
 cross_references:
   - title: "HODL HODL"
     slug: "hodl-hodl"

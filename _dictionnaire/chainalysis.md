@@ -5,6 +5,13 @@ permalink: /dictionnaire/chainalysis/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "CASA"
+  slug: "casa"
+next_in_category:
+  title: "CHAINCODE LABS"
+  slug: "chaincode-labs"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

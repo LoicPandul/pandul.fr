@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-eval/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_EQUALVERIFY - 0X88"
+  slug: "op-equalverify-0x88"
+next_in_category:
+  title: "OP_FALSE - 0X00"
+  slug: "op-false-0x00"
 cross_references:
   - title: "P2SH"
     slug: "p2sh"

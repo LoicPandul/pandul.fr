@@ -5,6 +5,13 @@ permalink: /dictionnaire/maximaliste/
 category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "MAINTENEUR PRINCIPAL - CORE"
+  slug: "mainteneur-principal-core"
+next_in_category:
+  title: "PREMIUM"
+  slug: "premium"
 cross_references:
   - title: "ALTCOIN"
     slug: "altcoin"

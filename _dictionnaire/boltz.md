@@ -5,6 +5,13 @@ permalink: /dictionnaire/boltz/
 category: "OUTIL"
 letter: "B"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BITREFILL"
+  slug: "bitrefill"
+next_in_category:
+  title: "BOS - BALANCE OF SATOSHIS"
+  slug: "bos-balance-of-satoshis"
 cross_references:
   - title: "SUBMARINE SWAP"
     slug: "submarine-swap"

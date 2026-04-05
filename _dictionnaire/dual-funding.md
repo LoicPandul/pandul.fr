@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "D"
 layout: definition
 french_term: "FINANCEMENT DOUBLE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "COOPERATIVE CLOSE"
+  slug: "cooperative-close"
+next_in_category:
+  title: "ECLAIR"
+  slug: "eclair"
 cross_references:
   - title: "LIQUIDITÉS"
     slug: "liquidites"

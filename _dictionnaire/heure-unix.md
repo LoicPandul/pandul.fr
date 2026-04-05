@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "H"
 layout: definition
 english_term: "UNIX TIME"
+category_slug: "informatique"
+prev_in_category:
+  title: "GUI"
+  slug: "gui"
+next_in_category:
+  title: "HEXADÉCIMAL"
+  slug: "hexadecimal"
 cross_references:
   - title: "HORODATAGE"
     slug: "horodatage"

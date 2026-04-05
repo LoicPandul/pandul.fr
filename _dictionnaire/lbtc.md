@@ -5,6 +5,13 @@ permalink: /dictionnaire/lbtc/
 category: "SIDECHAIN"
 letter: "L"
 layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "FONCTIONNAIRE"
+  slug: "fonctionnaire"
+next_in_category:
+  title: "LIQUID NETWORK"
+  slug: "liquid-network"
 cross_references:
   - title: "LIQUID NETWORK"
     slug: "liquid-network"

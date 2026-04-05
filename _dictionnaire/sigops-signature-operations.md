@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "S"
 layout: definition
 french_term: "OPÉRATIONS DE SIGNATURE"
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGNET"
+  slug: "signet"
+next_in_category:
+  title: "SIMPLIFIED PAYMENT VERIFICATION"
+  slug: "simplified-payment-verification"
 cross_references:
   - title: "SIGNATURE NUMÉRIQUE"
     slug: "signature-numerique"

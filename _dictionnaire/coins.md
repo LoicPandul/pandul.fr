@@ -5,6 +5,13 @@ permalink: /dictionnaire/coins/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "COINBASE"
+  slug: "coinbase"
+next_in_category:
+  title: "COMMERÇANT"
+  slug: "commercant"
 cross_references:
   - title: "UTXO SET"
     slug: "utxo-set"

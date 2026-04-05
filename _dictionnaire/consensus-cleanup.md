@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "C"
 layout: definition
 french_term: "NETTOYAGE DU CONSENSUS"
+category_slug: "protocole"
+prev_in_category:
+  title: "CONSENSUS"
+  slug: "consensus"
+next_in_category:
+  title: "COOKIE"
+  slug: "cookie"
 cross_references:
   - title: "BIP-0054"
     slug: "bip-0054"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/cisa/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "CHECKPOINTS"
+  slug: "checkpoints"
+next_in_category:
+  title: "CLUSTER MEMPOOL"
+  slug: "cluster-mempool"
 cross_references:
   - title: "SCHNORR"
     slug: "schnorr-protocole"

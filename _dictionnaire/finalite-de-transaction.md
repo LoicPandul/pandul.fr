@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "F"
 layout: definition
 english_term: "TRANSACTION FINALITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "FEE_ESTIMATES.DAT"
+  slug: "fee-estimates-dat"
+next_in_category:
+  title: "FLAG DAY"
+  slug: "flag-day"
 cross_references:
   - title: "CONFIRMATION"
     slug: "confirmation"

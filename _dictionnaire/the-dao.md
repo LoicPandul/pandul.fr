@@ -5,6 +5,13 @@ permalink: /dictionnaire/the-dao/
 category: "HISTOIRE"
 letter: "T"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "SMALL BLOCKERS"
+  slug: "small-blockers"
+next_in_category:
+  title: "VALUE OVERFLOW INCIDENT"
+  slug: "value-overflow-incident"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

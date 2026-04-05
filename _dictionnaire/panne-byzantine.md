@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "P"
 layout: definition
 english_term: "BYZANTINE FAULT"
+category_slug: "attaque"
+prev_in_category:
+  title: "MYSTERY SHOPPER PAYMENTS"
+  slug: "mystery-shopper-payments"
+next_in_category:
+  title: "PORTE DÉROBÉE"
+  slug: "porte-derobee"
 cross_references:
   - title: "PROBLÈME DES GÉNÉRAUX BYZANTINS"
     slug: "prob-des-generaux-byzantins"

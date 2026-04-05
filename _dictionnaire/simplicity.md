@@ -5,6 +5,13 @@ permalink: /dictionnaire/simplicity/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "SCRIPTWITNESS"
+  slug: "scriptwitness"
+next_in_category:
+  title: "TAPSCRIPT"
+  slug: "tapscript"
 cross_references:
   - title: "MINISCRIPT"
     slug: "miniscript"

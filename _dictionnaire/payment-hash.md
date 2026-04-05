@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
 french_term: "HACHAGE DE PAIEMENT"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "PATHFINDING"
+  slug: "pathfinding"
+next_in_category:
+  title: "PHOENIX"
+  slug: "phoenix"
 cross_references:
   - title: "PREIMAGE"
     slug: "preimage"

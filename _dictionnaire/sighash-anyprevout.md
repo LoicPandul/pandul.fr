@@ -5,6 +5,13 @@ permalink: /dictionnaire/sighash-anyprevout/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SIGHASH_ALL | SIGHASH_ACP"
+  slug: "sighash-all-sighash-acp"
+next_in_category:
+  title: "SIGHASH_ANYPREVOUTANYSCRIPT"
+  slug: "sighash-anyprevoutanyscript"
 cross_references:
   - title: "BIP-0118"
     slug: "bip-0118"

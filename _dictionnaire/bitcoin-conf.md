@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-conf/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN-DEV"
+  slug: "bitcoin-dev"
+next_in_category:
+  title: "BITCOIND"
+  slug: "bitcoind"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-3dup-0x6f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_2SWAP - 0X72"
+  slug: "op-2swap-0x72"
+next_in_category:
+  title: "OP_ABS - 0X90"
+  slug: "op-abs-0x90"
 cross_references:
   - title: "OP_DUP - 0X76"
     slug: "op-dup-0x76"

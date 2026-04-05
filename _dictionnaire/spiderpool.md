@@ -5,6 +5,13 @@ permalink: /dictionnaire/spiderpool/
 category: "MINAGE"
 letter: "S"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "SOLO MINING"
+  slug: "solo-mining"
+next_in_category:
+  title: "SPY MINING"
+  slug: "spy-mining"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

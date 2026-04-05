@@ -5,6 +5,13 @@ permalink: /dictionnaire/premix/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "POSTMIX"
+  slug: "postmix"
+next_in_category:
+  title: "RÉUTILISATION D'ADRESSE"
+  slug: "reutilisation-d-adresse"
 cross_references:
   - title: "WHIRLPOOL"
     slug: "whirlpool"

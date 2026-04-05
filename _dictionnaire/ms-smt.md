@@ -5,6 +5,13 @@ permalink: /dictionnaire/ms-smt/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "MIT X11"
+  slug: "mit-x11"
+next_in_category:
+  title: "OCTET"
+  slug: "octet"
 cross_references:
   - title: "SMT - SPARSE MERKLE TREE"
     slug: "smt-sparse-merkle-tree"

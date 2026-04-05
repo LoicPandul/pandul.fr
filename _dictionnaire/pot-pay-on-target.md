@@ -5,6 +5,13 @@ permalink: /dictionnaire/pot-pay-on-target/
 category: "MINAGE"
 letter: "P"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "POOL HOPPING"
+  slug: "pool-hopping"
+next_in_category:
+  title: "PPA"
+  slug: "ppa"
 cross_references:
   - title: "SHARES"
     slug: "shares"

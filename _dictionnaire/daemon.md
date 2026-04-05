@@ -5,6 +5,13 @@ permalink: /dictionnaire/daemon/
 category: "INFORMATIQUE"
 letter: "D"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "CPU - CENTRAL PROCESSING UNIT"
+  slug: "cpu-central-processing-unit"
+next_in_category:
+  title: "DÉPÔT"
+  slug: "depot"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

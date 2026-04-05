@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
 english_term: "MERKLE ROOT"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "PSEUDO-ALÉATOIRE"
+  slug: "pseudo-aleatoire"
+next_in_category:
+  title: "RANGEPROOFS"
+  slug: "rangeproofs"
 cross_references:
   - title: "ARBRE DE MERKLE"
     slug: "arbre-de-merkle"

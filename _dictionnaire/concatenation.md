@@ -6,6 +6,13 @@ category: "INFORMATIQUE"
 letter: "C"
 layout: definition
 english_term: "CONCATENATION"
+category_slug: "informatique"
+prev_in_category:
+  title: "COMMIT"
+  slug: "commit"
+next_in_category:
+  title: "CPU - CENTRAL PROCESSING UNIT"
+  slug: "cpu-central-processing-unit"
 cross_references:
   - title: "FONCTION DE HACHAGE"
     slug: "fonction-de-hachage"

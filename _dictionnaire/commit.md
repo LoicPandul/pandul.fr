@@ -5,6 +5,13 @@ permalink: /dictionnaire/commit/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "CLONE"
+  slug: "clone"
+next_in_category:
+  title: "CONCATÉNATION"
+  slug: "concatenation"
 cross_references:
   - title: "GIT"
     slug: "git"

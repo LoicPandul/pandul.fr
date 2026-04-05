@@ -5,6 +5,13 @@ permalink: /dictionnaire/taproot-channel/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SWAPROOT"
+  slug: "swaproot"
+next_in_category:
+  title: "TRAMPOLINE ROUTING"
+  slug: "trampoline-routing"
 cross_references:
   - title: "TAPROOT"
     slug: "taproot"

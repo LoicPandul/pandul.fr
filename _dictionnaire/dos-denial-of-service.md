@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "D"
 layout: definition
 french_term: "ATTAQUE PAR DÉNI DE SERVICE"
+category_slug: "attaque"
+prev_in_category:
+  title: "DDOS"
+  slug: "ddos"
+next_in_category:
+  title: "DOUBLE DÉPENSE"
+  slug: "double-depense"
 cross_references:
   - title: "NOEUD"
     slug: "noeud"

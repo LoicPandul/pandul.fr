@@ -5,6 +5,13 @@ permalink: /dictionnaire/riot-platforms/
 category: "MINAGE"
 letter: "R"
 layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "RELAIS"
+  slug: "relais"
+next_in_category:
+  title: "RSMPPS"
+  slug: "rsmpps"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

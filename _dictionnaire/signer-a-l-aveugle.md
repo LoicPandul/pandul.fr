@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
 english_term: "BLIND SIGNING"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SENTINEL"
+  slug: "sentinel"
+next_in_category:
+  title: "SINGLE-SIG"
+  slug: "single-sig"
 cross_references:
   - title: "HARDWARE WALLET"
     slug: "hardware-wallet"

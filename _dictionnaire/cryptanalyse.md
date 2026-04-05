@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
 english_term: "CRYPTANALYSIS"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "COURBE ELLIPTIQUE"
+  slug: "courbe-elliptique"
+next_in_category:
+  title: "CRYPTER"
+  slug: "crypter"
 cross_references:
   - title: "CRYPTOGRAPHIE"
     slug: "cryptographie"

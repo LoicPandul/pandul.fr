@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
 english_term: "SEIGNIORAGE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "SAT - SATOSHI"
+  slug: "sat-satoshi"
+next_in_category:
+  title: "SHITCOIN"
+  slug: "shitcoin"
 cross_references:
   - title: "SUBVENTION DE BLOC"
     slug: "subvention-de-bloc"

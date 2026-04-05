@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "T"
 layout: definition
 french_term: "VERROUILLAGE TEMPOREL"
+category_slug: "protocole"
+prev_in_category:
+  title: "TESTNET"
+  slug: "testnet"
+next_in_category:
+  title: "TRANSACTION NON CONFIRMÉE"
+  slug: "transaction-non-confirmee"
 cross_references:
   - title: "NLOCKTIME"
     slug: "nlocktime"

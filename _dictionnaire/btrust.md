@@ -5,6 +5,13 @@ permalink: /dictionnaire/btrust/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "BLOCKSTREAM"
+  slug: "blockstream"
+next_in_category:
+  title: "BULL BITCOIN"
+  slug: "bull-bitcoin"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

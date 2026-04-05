@@ -5,6 +5,13 @@ permalink: /dictionnaire/segwit2x/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "SATOSHIDICE"
+  slug: "satoshidice"
+next_in_category:
+  title: "SMALL BLOCKERS"
+  slug: "small-blockers"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/nulldummy/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "NULL DATA"
+  slug: "null-data"
+next_in_category:
+  title: "NVERSION"
+  slug: "nversion"
 cross_references:
   - title: "DUMMY ELEMENT"
     slug: "dummy-element"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/tumblebit/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "TRANSACTION DE NOTIFICATION"
+  slug: "transaction-de-notification"
+next_in_category:
+  title: "TX0"
+  slug: "tx0"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

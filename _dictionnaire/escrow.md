@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
 french_term: "SÉQUESTRE"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "EFFET DE RÉSEAU"
+  slug: "effet-de-reseau"
+next_in_category:
+  title: "ETF"
+  slug: "etf"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

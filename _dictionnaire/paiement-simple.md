@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
 english_term: "SIMPLE PAYMENT"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "PAIEMENT ROND"
+  slug: "paiement-rond"
+next_in_category:
+  title: "PAYJOIN"
+  slug: "payjoin"
 cross_references:
   - title: "PAIEMENT ROND"
     slug: "paiement-rond"

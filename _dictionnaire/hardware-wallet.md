@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
 french_term: "PORTEFEUILLE MATÉRIEL"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GREEN WALLET"
+  slug: "green-wallet"
+next_in_category:
+  title: "HD - HIERARCHICAL-DETERMINISTIC"
+  slug: "hd-hierarchical-deterministic"
 cross_references:
   - title: "CLÉ PRIVÉE"
     slug: "cle-privee"

@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "D"
 layout: definition
 french_term: "ATTAQUE PAR DÉNI DE SERVICE DISTRIBUÉ"
+category_slug: "attaque"
+prev_in_category:
+  title: "CHANNEL JAMMING"
+  slug: "channel-jamming"
+next_in_category:
+  title: "DOS - DENIAL OF SERVICE"
+  slug: "dos-denial-of-service"
 cross_references:
   - title: "DOS - DENIAL OF SERVICE"
     slug: "dos-denial-of-service"

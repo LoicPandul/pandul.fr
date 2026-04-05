@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 french_term: "CONTRÔLE DES PIÈCES"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CODEX32"
+  slug: "codex32"
+next_in_category:
+  title: "COLD WALLET"
+  slug: "cold-wallet"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

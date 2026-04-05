@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
 french_term: "RÉSERVE STRATÉGIQUE DE BITCOIN"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "STABLECOIN"
+  slug: "stablecoin"
+next_in_category:
+  title: "VOLATILITÉ"
+  slug: "volatilite"
 cross_references:
   - title: "ETF"
     slug: "etf"

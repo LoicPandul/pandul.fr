@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
 french_term: "PORTEFEUILLE DE CONTRAINTE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DÉRIVATION NORMALE"
+  slug: "derivation-normale"
+next_in_category:
+  title: "DUST"
+  slug: "dust"
 cross_references:
   - title: "PASSPHRASE - BIP-0039"
     slug: "passphrase-bip-0039"

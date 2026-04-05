@@ -5,6 +5,13 @@ permalink: /dictionnaire/breez/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "BOLT-12"
+  slug: "bolt-12"
+next_in_category:
+  title: "CANAL DE PAIMENT"
+  slug: "canal-de-paiment"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

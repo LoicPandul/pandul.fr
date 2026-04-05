@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-qt/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN KNOTS"
+  slug: "bitcoin-knots"
+next_in_category:
+  title: "BITCOIN-CLI"
+  slug: "bitcoin-cli"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

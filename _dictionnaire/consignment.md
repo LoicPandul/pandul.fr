@@ -5,6 +5,13 @@ permalink: /dictionnaire/consignment/
 category: "RGB"
 letter: "C"
 layout: definition
+category_slug: "rgb"
+prev_in_category:
+  title: "COMMITMENT"
+  slug: "commitment"
+next_in_category:
+  title: "CONTRACT OPERATION"
+  slug: "contract-operation"
 cross_references:
   - title: "CLIENT-SIDE VALIDATION"
     slug: "client-side-validation"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/spiral/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "SILK ROAD"
+  slug: "silk-road"
+next_in_category:
+  title: "SYNONYM"
+  slug: "synonym"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

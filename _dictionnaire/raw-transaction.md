@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
 french_term: "TRANSACTION BRUTE / TRANSACTION SÉRIALISÉE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PSBT"
+  slug: "psbt"
+next_in_category:
+  title: "RBF - REPLACE-BY-FEE"
+  slug: "rbf-replace-by-fee"
 cross_references:
   - title: "TXID - TRANSACTION IDENTIFIER"
     slug: "txid-transaction-identifier"

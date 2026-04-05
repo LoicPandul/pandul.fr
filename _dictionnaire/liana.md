@@ -5,6 +5,13 @@ permalink: /dictionnaire/liana/
 category: "PORTEFEUILLE"
 letter: "L"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "LABEL"
+  slug: "label"
+next_in_category:
+  title: "M-OF-N"
+  slug: "m-of-n"
 cross_references:
   - title: "MINISCRIPT"
     slug: "miniscript"

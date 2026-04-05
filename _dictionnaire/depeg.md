@@ -5,6 +5,13 @@ permalink: /dictionnaire/depeg/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "DÉFLATION"
+  slug: "deflation"
+next_in_category:
+  title: "ÉCOLE AUTRICHIENNE"
+  slug: "ecole-autrichienne"
 cross_references:
   - title: "STABLECOIN"
     slug: "stablecoin"

@@ -6,6 +6,13 @@ category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
 english_term: "COMPRESSED PUBLIC KEY"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CLÉ PUBLIQUE"
+  slug: "cle-publique"
+next_in_category:
+  title: "CODE DE CHAINE"
+  slug: "code-de-chaine"
 cross_references:
   - title: "CLÉ PUBLIQUE"
     slug: "cle-publique"

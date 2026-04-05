@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-keeper/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BITBOX"
+  slug: "bitbox"
+next_in_category:
+  title: "BITKEY"
+  slug: "bitkey"
 cross_references:
   - title: "MULTISIG"
     slug: "multisig"

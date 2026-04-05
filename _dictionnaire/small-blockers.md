@@ -5,6 +5,13 @@ permalink: /dictionnaire/small-blockers/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "SEGWIT2X"
+  slug: "segwit2x"
+next_in_category:
+  title: "THE DAO"
+  slug: "the-dao"
 cross_references:
   - title: "BLOCKSIZE WAR"
     slug: "blocksize-war"

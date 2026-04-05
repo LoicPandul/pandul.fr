@@ -5,6 +5,10 @@ permalink: /dictionnaire/udp-user-datagram-protocol/
 category: "RÉSEAU"
 letter: "U"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "TOR"
+  slug: "tor-the-onion-router"
 cross_references:
   - title: "FIBRE"
     slug: "fibre"

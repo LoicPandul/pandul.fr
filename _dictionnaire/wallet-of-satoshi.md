@@ -5,6 +5,13 @@ permalink: /dictionnaire/wallet-of-satoshi/
 category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "VLS"
+  slug: "vls-validating-lightning-signer"
+next_in_category:
+  title: "WATCHTOWER"
+  slug: "watchtower"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

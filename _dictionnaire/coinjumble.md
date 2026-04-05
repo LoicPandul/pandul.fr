@@ -5,6 +5,13 @@ permalink: /dictionnaire/coinjumble/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "COINJOIN"
+  slug: "coinjoin"
+next_in_category:
+  title: "COINMUX"
+  slug: "coinmux"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

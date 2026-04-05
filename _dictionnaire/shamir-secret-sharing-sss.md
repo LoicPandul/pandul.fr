@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
 french_term: "PARTAGE DE SECRET DE SHAMIR"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "SHA512"
+  slug: "sha512"
+next_in_category:
+  title: "SIGN-TO-CONTRACT"
+  slug: "sign-to-contract"
 cross_references:
   - title: "CODEX32"
     slug: "codex32"

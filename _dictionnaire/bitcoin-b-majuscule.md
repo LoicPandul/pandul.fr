@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-b-majuscule/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BERKELEYDB"
+  slug: "berkeleydb"
+next_in_category:
+  title: "BITCOIN - B MINUSCULE"
+  slug: "bitcoin-b-minuscule"
 cross_references:
   - title: "BITCOIN - B MINUSCULE"
     slug: "bitcoin-b-minuscule"

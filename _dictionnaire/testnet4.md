@@ -5,6 +5,13 @@ permalink: /dictionnaire/testnet4/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "TESTNET RESET"
+  slug: "testnet-reset"
+next_in_category:
+  title: "TOR"
+  slug: "tor-the-onion-router"
 cross_references:
   - title: "TESTNET"
     slug: "testnet"

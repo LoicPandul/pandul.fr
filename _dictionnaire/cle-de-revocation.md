@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
 english_term: "REVOCATION KEY"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CIRCULAR REBALANCE"
+  slug: "circular-rebalance"
+next_in_category:
+  title: "CLN - C-LIGHTNING"
+  slug: "cln-c-lightning"
 cross_references:
   - title: "TRANSACTION DE PÉNALITÉ"
     slug: "transaction-de-penalite"

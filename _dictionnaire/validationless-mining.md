@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "V"
 layout: definition
 french_term: "MINAGE SANS VALIDATION"
+category_slug: "minage"
+prev_in_category:
+  title: "TIDES"
+  slug: "tides"
+next_in_category:
+  title: "VARIANCE"
+  slug: "variance"
 cross_references:
   - title: "MINING POOL"
     slug: "mining-pool"

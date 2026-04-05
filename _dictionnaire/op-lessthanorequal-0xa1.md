@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-lessthanorequal-0xa1/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_LESSTHAN - 0X9F"
+  slug: "op-lessthan-0x9f"
+next_in_category:
+  title: "OP_MAX - 0XA4"
+  slug: "op-max-0xa4"
 cross_references:
   - title: "OP_LESSTHAN - 0X9F"
     slug: "op-lessthan-0x9f"

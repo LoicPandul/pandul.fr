@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
 french_term: "PRÉIMAGE"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "POINT GÉNÉRATEUR"
+  slug: "point-generateur"
+next_in_category:
+  title: "PSEUDO-ALÉATOIRE"
+  slug: "pseudo-aleatoire"
 cross_references:
   - title: "PAYMENT HASH"
     slug: "payment-hash"

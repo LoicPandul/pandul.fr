@@ -5,6 +5,13 @@ permalink: /dictionnaire/ginger-wallet/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GAP LIMIT"
+  slug: "gap-limit"
+next_in_category:
+  title: "GRAINE"
+  slug: "graine"
 cross_references:
   - title: "WASABI WALLET"
     slug: "wasabi-wallet"

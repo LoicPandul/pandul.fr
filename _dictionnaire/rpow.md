@@ -5,6 +5,13 @@ permalink: /dictionnaire/rpow/
 category: "HISTOIRE"
 letter: "R"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "PIZZA DAY"
+  slug: "pizza-day"
+next_in_category:
+  title: "SATOSHIDICE"
+  slug: "satoshidice"
 cross_references:
   - title: "FINNEY HAL"
     slug: "finney-hal"

@@ -6,6 +6,13 @@ category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
 english_term: "COLLABORATIVE TRANSACTION"
+category_slug: "confidentialite"
+prev_in_category:
+  title: "SWEEP TRANSACTION"
+  slug: "sweep-transaction"
+next_in_category:
+  title: "TRANSACTION DE NOTIFICATION"
+  slug: "transaction-de-notification"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

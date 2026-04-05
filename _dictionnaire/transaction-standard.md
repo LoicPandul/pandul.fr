@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "T"
 layout: definition
 english_term: "STANDARD TRANSACTION"
+category_slug: "protocole"
+prev_in_category:
+  title: "TRANSACTION NON CONFIRMÉE"
+  slug: "transaction-non-confirmee"
+next_in_category:
+  title: "TX - TRANSACTION"
+  slug: "tx-transaction"
 cross_references:
   - title: "MEMPOOL"
     slug: "mempool"

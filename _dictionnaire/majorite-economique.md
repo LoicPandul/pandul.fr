@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "M"
 layout: definition
 english_term: "ECONOMIC MAJORITY"
+category_slug: "protocole"
+prev_in_category:
+  title: "MAINNET"
+  slug: "mainnet"
+next_in_category:
+  title: "MALLÉABILITÉ - TRANSACTION"
+  slug: "malleabilite-transaction"
 cross_references:
   - title: "CONSENSUS"
     slug: "consensus"

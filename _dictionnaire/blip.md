@@ -5,6 +5,13 @@ permalink: /dictionnaire/blip/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "BLINDED PATHS"
+  slug: "blinded-paths"
+next_in_category:
+  title: "BLIP-0001"
+  slug: "blip-0001"
 cross_references:
   - title: "BOLT"
     slug: "bolt"

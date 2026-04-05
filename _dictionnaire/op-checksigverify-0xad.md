@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-checksigverify-0xad/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKSIGFROMSTACK - 0XCC"
+  slug: "op-checksigfromstack-0xcc"
+next_in_category:
+  title: "OP_CHECKTEMPLATEVERIFY - 0XB3"
+  slug: "op-checktemplateverify-0xb3"
 cross_references:
   - title: "OP_CHECKSIG - 0XAC"
     slug: "op-checksig-0xac"

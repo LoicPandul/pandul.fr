@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-cli/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "BITCOIN QT"
+  slug: "bitcoin-qt"
+next_in_category:
+  title: "BITCOIN-DEV"
+  slug: "bitcoin-dev"
 cross_references:
   - title: "BITCOIND"
     slug: "bitcoind"

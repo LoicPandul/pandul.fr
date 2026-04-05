@@ -5,6 +5,13 @@ permalink: /dictionnaire/lnp2pbot/
 category: "OUTIL"
 letter: "L"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LNCLI"
+  slug: "lncli"
+next_in_category:
+  title: "MACHANKURA"
+  slug: "machankura"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/opensats/
 category: "ORGANISATION"
 letter: "O"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "OPENNODE"
+  slug: "opennode"
+next_in_category:
+  title: "PEACH"
+  slug: "peach"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"

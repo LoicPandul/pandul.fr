@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "P"
 layout: definition
 english_term: "OUTBOUND PEER / OUTGOING CONNECTION"
+category_slug: "reseau"
+prev_in_category:
+  title: "PAIR ENTRANT"
+  slug: "pair-entrant"
+next_in_category:
+  title: "PEER DISCOVERY"
+  slug: "peer-discovery"
 cross_references:
   - title: "PAIR ENTRANT"
     slug: "pair-entrant"

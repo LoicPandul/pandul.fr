@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
 english_term: "COMMITMENT TRANSACTION"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "TRAMPOLINE ROUTING"
+  slug: "trampoline-routing"
+next_in_category:
+  title: "TRANSACTION DE FINANCEMENT"
+  slug: "transaction-de-financement"
 cross_references:
   - title: "CANAL DE PAIMENT"
     slug: "canal-de-paiment"

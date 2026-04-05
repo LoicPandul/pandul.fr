@@ -5,6 +5,13 @@ permalink: /dictionnaire/tail-emission/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SUBVENTION DE BLOC"
+  slug: "subvention-de-bloc"
+next_in_category:
+  title: "TAPROOT"
+  slug: "taproot"
 cross_references:
   - title: "RÉCOMPENSE DE BLOC"
     slug: "recompense-de-bloc"

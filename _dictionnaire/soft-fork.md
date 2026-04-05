@@ -5,6 +5,13 @@ permalink: /dictionnaire/soft-fork/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "SNAPSHOT"
+  slug: "snapshot"
+next_in_category:
+  title: "SPEEDY TRIAL"
+  slug: "speedy-trial"
 cross_references:
   - title: "HARD FORK"
     slug: "hard-fork"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/bsv-bitcoin-satoshi-vision/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BLOCKSIZE WAR"
+  slug: "blocksize-war"
+next_in_category:
+  title: "BTG - BITCOIN GOLD"
+  slug: "btg-bitcoin-gold"
 cross_references:
   - title: "BCH - BITCOIN CASH"
     slug: "bch-bitcoin-cash"

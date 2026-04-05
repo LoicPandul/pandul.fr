@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "D"
 layout: definition
 french_term: "ÉLÉMENT FACTICE"
+category_slug: "protocole"
+prev_in_category:
+  title: "DEMEURAGE"
+  slug: "demeurage"
+next_in_category:
+  title: "DUST LIMIT"
+  slug: "dust-limit"
 cross_references:
   - title: "BIP-0147"
     slug: "bip-0147"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitkit/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BITKEY"
+  slug: "bitkey"
+next_in_category:
+  title: "BLINK"
+  slug: "blink"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

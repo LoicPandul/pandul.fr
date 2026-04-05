@@ -6,6 +6,13 @@ category: "PROTOCOLE"
 letter: "N"
 layout: definition
 english_term: "PRUNED NODE"
+category_slug: "protocole"
+prev_in_category:
+  title: "NOEUD COMPLET"
+  slug: "noeud-complet"
+next_in_category:
+  title: "NOEUD SPV - NOEUD LÉGER"
+  slug: "noeud-spv-noeud-leger"
 cross_references:
   - title: "NOEUD COMPLET"
     slug: "noeud-complet"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/covenant/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "COOKIE"
+  slug: "cookie"
+next_in_category:
+  title: "DATABASE/"
+  slug: "database"
 cross_references:
   - title: "SCRIPTPUBKEY"
     slug: "scriptpubkey"

@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
 french_term: "MARCHÉ HAUSSIER"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "BULL MARKET"
+  slug: "bull-market"
+next_in_category:
+  title: "CBDC"
+  slug: "cbdc"
 cross_references:
   - title: "BULL MARKET"
     slug: "bull-market"

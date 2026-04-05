@@ -5,6 +5,10 @@ permalink: /dictionnaire/aezeed/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+category_slug: "lightning-network"
+next_in_category:
+  title: "ALBY HUB"
+  slug: "alby-hub"
 cross_references:
   - title: "BIP-0039"
     slug: "bip-0039"

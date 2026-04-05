@@ -5,6 +5,13 @@ permalink: /dictionnaire/swiss-bitcoin-pay/
 category: "OUTIL"
 letter: "S"
 layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "START9"
+  slug: "start9"
+next_in_category:
+  title: "TAPD"
+  slug: "tapd"
 cross_references:
   - title: "BTCPAY SERVER"
     slug: "btcpay-server"

@@ -6,6 +6,13 @@ category: "MINAGE"
 letter: "M"
 layout: definition
 french_term: "COOPÉRATIVE DE MINAGE"
+category_slug: "minage"
+prev_in_category:
+  title: "MINING MANAGEMENT SOFTWARE"
+  slug: "mining-management-software"
+next_in_category:
+  title: "NERDMINER"
+  slug: "nerdminer"
 cross_references:
   - title: "SHARES"
     slug: "shares"

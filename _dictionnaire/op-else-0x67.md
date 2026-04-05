@@ -5,6 +5,13 @@ permalink: /dictionnaire/op-else-0x67/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_DUP - 0X76"
+  slug: "op-dup-0x76"
+next_in_category:
+  title: "OP_ENDIF - 0X68"
+  slug: "op-endif-0x68"
 cross_references:
   - title: "OP_IF - 0X63"
     slug: "op-if-0x63"

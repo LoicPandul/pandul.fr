@@ -6,6 +6,13 @@ category: "ATTAQUE"
 letter: "M"
 layout: definition
 french_term: "HDM - ATTAQUE DE L'HOMME DU MILIEU"
+category_slug: "attaque"
+prev_in_category:
+  title: "HASHRATE HIJACKING"
+  slug: "hashrate-hijacking"
+next_in_category:
+  title: "MYSTERY SHOPPER PAYMENTS"
+  slug: "mystery-shopper-payments"
 cross_references:
   - title: "DIFFIE-HELLMAN"
     slug: "diffie-hellman"

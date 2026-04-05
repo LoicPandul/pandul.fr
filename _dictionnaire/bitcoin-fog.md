@@ -5,6 +5,13 @@ permalink: /dictionnaire/bitcoin-fog/
 category: "CONFIDENTIALITÉ"
 letter: "B"
 layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ANONSETS - ANONYMITY SETS"
+  slug: "anonsets-anonymity-sets"
+next_in_category:
+  title: "CHANGE AVOIDANCE"
+  slug: "change-avoidance"
 cross_references:
   - title: "COINJOIN"
     slug: "coinjoin"

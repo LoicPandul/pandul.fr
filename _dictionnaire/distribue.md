@@ -6,6 +6,13 @@ category: "RÉSEAU"
 letter: "D"
 layout: definition
 english_term: "DISTRIBUTED"
+category_slug: "reseau"
+prev_in_category:
+  title: "DIFFUSION"
+  slug: "diffusion"
+next_in_category:
+  title: "DNS SEEDS"
+  slug: "dns-seeds"
 cross_references:
   - title: "CONSENSUS"
     slug: "consensus"

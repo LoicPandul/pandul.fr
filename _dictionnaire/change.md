@@ -5,6 +5,13 @@ permalink: /dictionnaire/change/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CHAINE INTERNE"
+  slug: "chaine-interne"
+next_in_category:
+  title: "CHEMIN DE DÉRIVATION"
+  slug: "chemin-de-derivation"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

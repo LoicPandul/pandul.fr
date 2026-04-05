@@ -6,6 +6,13 @@ category: "ÉCONOMIE ET RÉGULATION"
 letter: "F"
 layout: definition
 english_term: "FUNGIBILITY"
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "FIAT"
+  slug: "fiat"
+next_in_category:
+  title: "HODL"
+  slug: "hodl"
 cross_references:
   - title: "UTXO"
     slug: "utxo"

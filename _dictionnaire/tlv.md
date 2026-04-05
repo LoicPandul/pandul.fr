@@ -5,6 +5,13 @@ permalink: /dictionnaire/tlv/
 category: "INFORMATIQUE"
 letter: "T"
 layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "SURFACE D'ATTAQUE"
+  slug: "surface-d-attaque"
+next_in_category:
+  title: "UNIX"
+  slug: "unix"
 cross_references:
   - title: "LIGHTNING NETWORK"
     slug: "lightning-network"

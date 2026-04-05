@@ -6,6 +6,13 @@ category: "RGB"
 letter: "C"
 layout: definition
 french_term: "ENGAGEMENT"
+category_slug: "rgb"
+prev_in_category:
+  title: "CLIENT-SIDE VALIDATION"
+  slug: "client-side-validation"
+next_in_category:
+  title: "CONSIGNMENT"
+  slug: "consignment"
 cross_references:
   - title: "CLIENT-SIDE VALIDATION"
     slug: "client-side-validation"

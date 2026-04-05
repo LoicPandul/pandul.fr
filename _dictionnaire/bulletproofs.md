@@ -5,6 +5,13 @@ permalink: /dictionnaire/bulletproofs/
 category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "BORROMEAN RING SIGNATURES"
+  slug: "borromean-ring-signatures"
+next_in_category:
+  title: "CHACHA20-POLY1305"
+  slug: "chacha20-poly1305"
 cross_references:
   - title: "CONFIDENTIAL TRANSACTIONS"
     slug: "confidential-transactions"

@@ -5,6 +5,13 @@ permalink: /dictionnaire/branch-and-bound/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BRAINWALLET"
+  slug: "brainwallet"
+next_in_category:
+  title: "BSMS"
+  slug: "bsms"
 cross_references:
   - title: "KNAPSACK SOLVER"
     slug: "knapsack-solver"

@@ -6,6 +6,13 @@ category: "CRYPTOGRAPHIE"
 letter: "X"
 layout: definition
 french_term: "OU EXCLUSIF"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "X-ONLY PUBLIC KEYS"
+  slug: "x-only-public-keys"
+next_in_category:
+  title: "ZKP - ZERO-KNOWLEDGE PROOF"
+  slug: "zkp-zero-knowledge-proof"
 cross_references:
   - title: "SHA256"
     slug: "sha256"

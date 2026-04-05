@@ -5,6 +5,13 @@ permalink: /dictionnaire/tweak/
 category: "CRYPTOGRAPHIE"
 letter: "T"
 layout: definition
+category_slug: "cryptographie"
+prev_in_category:
+  title: "STÉGANOGRAPHIE"
+  slug: "steganographie"
+next_in_category:
+  title: "X-ONLY PUBLIC KEYS"
+  slug: "x-only-public-keys"
 cross_references:
   - title: "P2TR"
     slug: "p2tr"

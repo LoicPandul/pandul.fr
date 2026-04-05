@@ -5,6 +5,13 @@ permalink: /dictionnaire/lightning-labs/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LEDGER - ENTREPRISE"
+  slug: "ledger-entreprise"
+next_in_category:
+  title: "LIGHTSPARK"
+  slug: "lightspark"
 cross_references:
   - title: "LND"
     slug: "lnd"

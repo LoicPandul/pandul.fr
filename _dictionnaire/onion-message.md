@@ -6,6 +6,13 @@ category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
 french_term: "MESSAGE EN OIGNON"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "OFFER"
+  slug: "offer"
+next_in_category:
+  title: "OUTBOUND CAPACITY"
+  slug: "outbound-capacity"
 cross_references:
   - title: "ROUTAGE EN OIGNON"
     slug: "routage-en-oignon"

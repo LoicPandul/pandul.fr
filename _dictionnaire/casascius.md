@@ -5,6 +5,13 @@ permalink: /dictionnaire/casascius/
 category: "HISTOIRE"
 letter: "C"
 layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "BTG - BITCOIN GOLD"
+  slug: "btg-bitcoin-gold"
+next_in_category:
+  title: "CYPHERPUNKS"
+  slug: "cypherpunks"
 cross_references:
   - title: "BITCOIN CORE"
     slug: "bitcoin-core"
