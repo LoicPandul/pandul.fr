@@ -28,12 +28,14 @@
           <a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Accueil</a>
           <a class="{% if page.url contains '/dictionnaire/' %}active{% endif %}" href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
           <a class="{% if page.url contains '/a-propos/' %}active{% endif %}" href="{{ '/a-propos/' | relative_url }}">À propos</a>
-          <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X (anciennement Twitter)">
-            <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
-          </a>
-          <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
-            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
-          </a>
+          <span class="nav-social-row">
+            <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X (anciennement Twitter)">
+              <img src="{{ '/assets/img/x.svg' | relative_url }}" alt="X" />
+            </a>
+            <a class="icon" href="https://github.com/LoicPandul" target="_blank" rel="noopener" aria-label="GitHub">
+              <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub" />
+            </a>
+          </span>
         </nav>
       </div>
     </div>
