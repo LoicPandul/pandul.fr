@@ -45,6 +45,10 @@ Plans:
   2. Cross-reference UUIDs in definition files are resolved to valid `/dictionnaire/{slug}/` URLs
   3. Image paths in definitions point to copied assets that exist in the site's assets directory
   4. A JSON search index file is generated containing title, slug, category, and letter for all 1408 entries
+**Plans**: 2 plans
+Plans:
+- [ ] 02-01-PLAN.md — Config Jekyll collection + layout definition minimal + script sync complet (1408 defs, cross-refs, images, index JSON)
+- [ ] 02-02-PLAN.md — Script de validation automatisee + verification humaine des artefacts generes
 
 ### Phase 3: Dictionary Pages & Navigation
 **Goal**: Users can browse, search, and navigate the full 1408-entry dictionary interactively
@@ -90,7 +94,7 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Design Foundation & Book Launch Page | 0/2 | Replanned | - |
-| 2. Dictionary Data Pipeline | 0/0 | Not started | - |
+| 2. Dictionary Data Pipeline | 0/2 | Planned | - |
 | 3. Dictionary Pages & Navigation | 0/0 | Not started | - |
 | 4. Portfolio Redesign | 0/0 | Not started | - |
 | 5. Polish & Accessibility | 0/0 | Not started | - |
