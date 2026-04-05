@@ -27,6 +27,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  // Menu hamburger mobile
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = navToggle.classList.toggle('open');
+      siteNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Fermer le menu quand on clique sur un lien
+    siteNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('open');
+        siteNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
   // Liens externes : ouvrir dans un nouvel onglet avec rel securise
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');
