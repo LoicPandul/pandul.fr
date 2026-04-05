@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="definition-page">
+  <h1>{{ page.title }}</h1>
+
+  <div class="definition-meta">
+    <span class="definition-category">{{ page.category }}</span>
+    {% if page.english_term %}<span class="definition-english">{{ page.english_term }}</span>{% endif %}
+  </div>
+
+  <div class="definition-content">
+    {{ content }}
+  </div>
+
+  {% if page.cross_references.size > 0 %}
+  <nav class="definition-cross-refs">
+    <h2>Voir aussi</h2>
+    <ul>
+      {% for ref in page.cross_references %}
+      <li><a href="/dictionnaire/{{ ref.slug }}/">{{ ref.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
+</article>

@@ -26,8 +26,18 @@ social:
     - "https://x.com/Loic_Pandul"
     - "https://github.com/LoicPandul"
 
+# Collection dictionnaire
+collections:
+  dictionnaire:
+    output: true
+    permalink: /dictionnaire/:slug/
+
 # Collections par défaut
 defaults:
-  - scope: {path: ""} 
+  - scope: {path: ""}
     values:
       layout: "default"
+  - scope:
+      type: dictionnaire
+    values:
+      layout: "definition"
