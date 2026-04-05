@@ -32,8 +32,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. All pages are responsive and readable on a 375px-wide mobile screen
 **Plans**: 2 plans
 Plans:
-- [x] 01-01-PLAN.md — Design system CSS rewrite + layout update + blog deletion
-- [x] 01-02-PLAN.md — Book promo page + content cleanup + visual verification
+- [ ] 01-01-PLAN.md — Complete design system overhaul: new font pair, CSS rewrite, header/footer/button redesign
+- [ ] 01-02-PLAN.md — Content pages cleanup, book promo verification, blog deletion, visual checkpoint
 **UI hint**: yes
 
 ### Phase 2: Dictionary Data Pipeline
@@ -89,7 +89,7 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Design Foundation & Book Launch Page | 0/2 | Planning complete | - |
+| 1. Design Foundation & Book Launch Page | 0/2 | Replanned | - |
 | 2. Dictionary Data Pipeline | 0/0 | Not started | - |
 | 3. Dictionary Pages & Navigation | 0/0 | Not started | - |
 | 4. Portfolio Redesign | 0/0 | Not started | - |
