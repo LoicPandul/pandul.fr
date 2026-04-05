@@ -47,8 +47,8 @@ Plans:
   4. A JSON search index file is generated containing title, slug, category, and letter for all 1408 entries
 **Plans**: 2 plans
 Plans:
-- [ ] 02-01-PLAN.md — Config Jekyll collection + layout definition minimal + script sync complet (1408 defs, cross-refs, images, index JSON)
-- [ ] 02-02-PLAN.md — Script de validation automatisee + verification humaine des artefacts generes
+- [x] 02-01-PLAN.md — Config Jekyll collection + layout definition minimal + script sync complet (1408 defs, cross-refs, images, index JSON)
+- [x] 02-02-PLAN.md — Script de validation automatisee + verification humaine des artefacts generes
 
 ### Phase 3: Dictionary Pages & Navigation
 **Goal**: Users can browse, search, and navigate the full 1408-entry dictionary interactively
@@ -60,7 +60,12 @@ Plans:
   3. User can browse definitions via A-Z letter navigation and via 19 category pages
   4. Breadcrumb navigation shows Dictionnaire > Categorie > Terme on each definition page
   5. Dictionary landing page displays stats ("1408 definitions dans 19 categories")
-**Plans**: TBD
+**Plans**: 4 plans
+Plans:
+- [ ] 03-01-PLAN.md — Extend sync script (category/letter pages, prev/next nav) + Jekyll collections config + category/letter layouts
+- [ ] 03-02-PLAN.md — Enrich definition layout (breadcrumbs, badge, pills, nav, CTA, lightbox) + CSS + JS
+- [ ] 03-03-PLAN.md — Redesign landing page (stats, search, A-Z, categories) + search autocomplete JS + CSS
+- [ ] 03-04-PLAN.md — Visual and functional verification checkpoint
 **UI hint**: yes
 
 ### Phase 4: Portfolio Redesign
@@ -95,6 +100,6 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 |-------|----------------|--------|-----------|
 | 1. Design Foundation & Book Launch Page | 0/2 | Replanned | - |
 | 2. Dictionary Data Pipeline | 0/2 | Planned | - |
-| 3. Dictionary Pages & Navigation | 0/0 | Not started | - |
+| 3. Dictionary Pages & Navigation | 0/4 | Planned | - |
 | 4. Portfolio Redesign | 0/0 | Not started | - |
 | 5. Polish & Accessibility | 0/0 | Not started | - |
