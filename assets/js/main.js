@@ -47,6 +47,45 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Lightbox — zoom sur les images des definitions
+  const defContent = document.querySelector('.definition-content');
+  if (defContent) {
+    defContent.addEventListener('click', (e) => {
+      if (e.target.tagName !== 'IMG') return;
+
+      const overlay = document.createElement('div');
+      overlay.className = 'lightbox-overlay';
+      overlay.setAttribute('role', 'dialog');
+      overlay.setAttribute('aria-modal', 'true');
+      overlay.innerHTML = '<button class="lightbox-close" aria-label="Fermer">&times;</button><img src="' + e.target.src + '" alt="' + (e.target.alt || '') + '">';
+
+      const previousFocus = document.activeElement;
+      document.body.appendChild(overlay);
+
+      // Fade in
+      requestAnimationFrame(() => { overlay.classList.add('active'); });
+      overlay.querySelector('.lightbox-close').focus();
+
+      function closeLightbox() {
+        overlay.classList.remove('active');
+        setTimeout(() => {
+          overlay.remove();
+          if (previousFocus) previousFocus.focus();
+        }, 150);
+      }
+
+      overlay.addEventListener('click', (ev) => {
+        if (ev.target === overlay || ev.target.classList.contains('lightbox-close')) closeLightbox();
+      });
+      document.addEventListener('keydown', function handler(ev) {
+        if (ev.key === 'Escape') {
+          closeLightbox();
+          document.removeEventListener('keydown', handler);
+        }
+      });
+    });
+  }
+
   // Liens externes : ouvrir dans un nouvel onglet avec rel securise
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');
