@@ -18,13 +18,13 @@ permalink: /dictionnaire/
       <h2>Dictionnaire de Bitcoin — Le Livre</h2>
       <p>1408 définitions du vocabulaire technique de Bitcoin. Disponible en version imprimée.</p>
       <div class="book-links">
-        <a href="https://www.amazon.fr/dp/B0GV1N6S1W"
-           class="btn btn-primary" target="_blank" rel="noopener">
-          Acheter sur Amazon
-        </a>
         <a href="https://bitcoinbazar.fr/"
            class="btn btn-primary" target="_blank" rel="noopener">
           Acheter sur Bitcoin Bazar
+        </a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W"
+           class="btn btn-primary" target="_blank" rel="noopener">
+          Acheter sur Amazon
         </a>
         <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin"
            class="btn btn-secondary" target="_blank" rel="noopener">
