@@ -22,11 +22,24 @@ document.addEventListener('DOMContentLoaded', () => {
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   }
 
-  // Filtrage prefix
+  // Filtrage intelligent : prefix d'abord, puis substring, puis mots internes
   function search(query) {
     if (!query || query.length === 0) return [];
     const q = normalize(query);
-    return index.filter(entry => normalize(entry.title).startsWith(q)).slice(0, 10);
+    const prefix = [];
+    const wordStart = [];
+    const substring = [];
+    for (const entry of index) {
+      const t = normalize(entry.title);
+      if (t.startsWith(q)) {
+        prefix.push(entry);
+      } else if (t.includes('-' + q) || t.includes(' ' + q)) {
+        wordStart.push(entry);
+      } else if (t.includes(q)) {
+        substring.push(entry);
+      }
+    }
+    return [...prefix, ...wordStart, ...substring].slice(0, 12);
   }
 
   // Rendu des resultats (textContent pour securite XSS)
@@ -66,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function showResults() {
     clearTimeout(hideTimeout);
-    resultsList.style.display = '';
+    resultsList.style.display = 'block';
   }
 
   function hideResults() {

@@ -444,7 +444,7 @@ hr {
    Footer
    ============================================ */
 .site-footer {
-  margin-top: var(--space-3xl);
+  margin-top: var(--space-xl);
 }
 
 .footer-card {
@@ -809,7 +809,7 @@ img {
 .breadcrumbs [aria-current="page"] { color: var(--fg); }
 
 /* Conteneur page definition */
-.definition-page { max-width: var(--prose); }
+.definition-page { max-width: var(--wrap); }
 
 /* Badge categorie */
 .category-badge {
@@ -828,22 +828,50 @@ img {
   display: flex; flex-wrap: wrap; align-items: center;
   gap: var(--space-sm); margin-bottom: var(--space-xl);
 }
-.definition-english {
+.definition-translation {
   font-family: var(--font-body); font-size: 14px;
-  font-style: italic; color: var(--muted); font-weight: 400;
+  color: var(--muted); font-weight: 400;
 }
-.definition-english em { font-style: normal; }
 
 /* Contenu definition */
 .definition-content { line-height: 1.7; margin-bottom: var(--space-xl); }
 .definition-content img { cursor: zoom-in; border-radius: var(--radius); margin: var(--space-md) 0; }
+
+/* Tableaux dans les definitions */
+.definition-content table {
+  width: 100%; border-collapse: collapse;
+  margin: var(--space-lg) 0; font-size: 14px;
+  font-family: var(--font-body);
+}
+.definition-content thead {
+  background: var(--fg); color: var(--bg);
+}
+.definition-content th {
+  padding: 10px 16px; font-weight: 700;
+  text-align: left; font-size: 13px;
+  text-transform: uppercase; letter-spacing: 0.03em;
+  border: none;
+}
+.definition-content td {
+  padding: 10px 16px; border-bottom: 1px solid var(--line);
+  color: var(--fg);
+}
+.definition-content tbody tr:hover {
+  background: var(--surface);
+}
+.definition-content th:first-child { border-radius: var(--radius) 0 0 0; }
+.definition-content th:last-child { border-radius: 0 var(--radius) 0 0; }
+@media (max-width: 719px) {
+  .definition-content table { font-size: 13px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .definition-content th, .definition-content td { padding: 8px 12px; white-space: nowrap; }
+}
 
 /* Cross-references en pilules */
 .definition-see-also { margin-bottom: var(--space-xl); }
 .definition-see-also h2 { font-family: var(--font-heading); font-weight: 700; font-size: clamp(20px, 3vw, 22px); margin-bottom: var(--space-sm); }
 .cross-ref-pills { display: flex; flex-wrap: wrap; gap: 8px; }
 .cross-ref-pill {
-  display: inline-flex; padding: 8px 12px; border-radius: 20px;
+  display: inline-flex; padding: 4px 10px; border-radius: var(--radius);
   background: var(--surface); color: var(--fg);
   font-size: 14px; font-weight: 400; font-family: var(--font-body);
   text-decoration: none; border: 1px solid var(--line);
@@ -873,19 +901,23 @@ img {
 .definition-cta-heading {
   font-family: var(--font-heading); font-weight: 700;
   font-size: clamp(16px, 1.05vw + 14px, 18px);
-  color: var(--fg); margin: 0 0 var(--space-sm);
+  color: var(--fg); margin: 0;
 }
-.definition-cta-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-sm); }
-.btn-sm { padding: 8px 16px; font-size: 14px; min-height: 36px; }
-.definition-cta-contrib {
+.definition-cta-row {
+  display: flex; flex-direction: column; align-items: center;
+  gap: var(--space-sm); text-align: center;
+}
+.definition-cta-row + .definition-cta-row {
   border-top: 1px solid var(--line);
   margin-top: var(--space-md); padding-top: var(--space-md);
 }
-.definition-cta-text { font-family: var(--font-body); font-size: 14px; color: var(--muted); margin: 0 0 var(--space-sm); }
+.definition-cta-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn-sm { padding: 8px 16px; font-size: 14px; min-height: 36px; }
+.definition-cta-text { font-family: var(--font-body); font-size: 14px; color: var(--muted); margin: 0; }
 
 /* CTA et navigation — responsive mobile */
 @media (max-width: 719px) {
-  .definition-cta-buttons { flex-direction: column; }
+  .definition-cta-buttons { flex-direction: column; width: 100%; }
   .definition-cta-buttons .btn { width: 100%; }
   .definition-nav { flex-direction: column; gap: var(--space-sm); align-items: flex-start; }
 }
@@ -920,18 +952,28 @@ img {
    Dictionnaire — Landing + Search + Navigation
    ============================================ */
 
-/* Stats hero */
-.dict-hero { text-align: center; margin-bottom: var(--space-lg); }
-.dict-hero h1 { margin-top: 0; }
+/* Stats hero — two-column desktop, stacked mobile */
+.dict-hero { margin-bottom: var(--space-lg); }
+.dict-hero h1 { margin-top: 0; margin-bottom: var(--space-xs); }
+.dict-hero-left { flex-shrink: 0; }
 .dict-stats { font-family: var(--font-body); font-size: clamp(16px, 1.05vw + 14px, 18px); color: var(--muted); }
 .dict-stats-number { font-family: var(--font-heading); font-weight: 700; font-size: clamp(20px, 3vw, 28px); color: var(--fg); }
+.dict-intro { font-family: var(--font-body); font-size: 15px; line-height: 1.7; color: var(--muted); margin: 0; }
+@media (min-width: 720px) {
+  .dict-hero { display: flex; align-items: flex-start; gap: var(--space-2xl); }
+  .dict-hero-right { padding-top: 6px; }
+}
+@media (max-width: 719px) {
+  .dict-hero { text-align: center; }
+  .dict-intro { margin-top: var(--space-md); text-align: justify; }
+}
 
 /* Barre de recherche */
 .dict-search {
   position: relative; margin-bottom: var(--space-lg);
 }
 .dict-search--landing { max-width: 100%; }
-.dict-search-inner { position: relative; max-width: var(--prose); }
+.dict-search-inner { position: relative; max-width: 100%; }
 .dict-search-icon {
   position: absolute; left: 12px; top: 50%;
   transform: translateY(-50%); color: var(--muted);
@@ -1025,6 +1067,15 @@ img {
   border-color: var(--accent);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transform: translateY(-1px);
+}
+.category-card--all {
+  background: var(--accent); border-color: var(--accent);
+}
+.category-card--all .category-card-name { color: #FFFFFF; }
+.category-card--all .category-card-count { color: rgba(255,255,255,0.8); }
+.category-card--all:hover {
+  background: var(--accent-hover); border-color: var(--accent-hover);
+  box-shadow: 0 2px 8px rgba(208,72,25,0.2);
 }
 .category-card-name {
   font-family: var(--font-heading); font-weight: 700;

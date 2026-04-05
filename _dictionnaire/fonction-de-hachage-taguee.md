@@ -21,9 +21,9 @@ cross_references:
 ---
 
 Variante de fonction de hachage utilisée dans le protocole Bitcoin (notamment dans Taproot) pour garantir la séparation des domaines. Une fonction de hachage taguée prend un tag (une chaîne de caractères UTF-8) et des données en entrée, et calcule le hachage comme suit :
-$$
+$
 TaggedHash(tag,\ data) = SHA256(SHA256(tag)\ \Vert\ SHA256(tag)\ \Vert\ data)
-$$
+$
 
 Le fait de préfixer les données par le double hachage du tag garantit que des hachages calculés dans des contextes différents ne peuvent pas entrer en collision. Par exemple, un hachage calculé avec le tag `TapLeaf` ne pourra jamais être identique à un hachage calculé avec le tag `TapBranch`, même si les données sont les mêmes.
 

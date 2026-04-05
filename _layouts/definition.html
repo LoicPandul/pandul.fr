@@ -23,7 +23,8 @@ layout: default
 
   <div class="definition-meta">
     <a href="/dictionnaire/categorie/{{ page.category_slug }}/" class="category-badge">{{ page.category }}</a>
-    {% if page.english_term %}<span class="definition-english"><em>EN:</em> {{ page.english_term }}</span>{% endif %}
+    {% if page.english_term %}<span class="definition-translation">Traduction en anglais : {{ page.english_term }}</span>{% endif %}
+    {% if page.french_term %}<span class="definition-translation">Traduction en français : {{ page.french_term }}</span>{% endif %}
   </div>
 
   <div class="definition-content">
@@ -32,7 +33,7 @@ layout: default
 
   {% if page.cross_references.size > 0 %}
   <section class="definition-see-also">
-    <h2>Voir aussi</h2>
+    <h2>{% if page.cross_references.size == 1 %}Terme associé :{% else %}Termes associés :{% endif %}</h2>
     <div class="cross-ref-pills">
       {% for ref in page.cross_references %}
       <a href="/dictionnaire/{{ ref.slug }}/" class="cross-ref-pill">{{ ref.title }}</a>
@@ -59,15 +60,15 @@ layout: default
   </nav>
 
   <aside class="definition-cta">
-    <div class="definition-cta-book">
-      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimee</p>
+    <div class="definition-cta-row">
+      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
       <div class="definition-cta-buttons">
-        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter — Bitcoin Bazar</a>
-        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter — Amazon</a>
+        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
       </div>
     </div>
-    <div class="definition-cta-contrib">
-      <p class="definition-cta-text">Une erreur ? Une amelioration ?</p>
+    <div class="definition-cta-row">
+      <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
       <div class="definition-cta-buttons">
         <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
       </div>

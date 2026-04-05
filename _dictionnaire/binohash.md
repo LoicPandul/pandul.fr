@@ -16,7 +16,7 @@ cross_references:
     slug: "covenant"
 ---
 
-Fonction de hachage résistante aux collisions pour les transactions Bitcoin, proposée par Robin Linus (ZeroSync) en 2026, qui permet une forme limitée d'introspection de transaction dans Bitcoin Script sans modification du consensus. Le nom vient du coefficient binomial $\binom{n}{t}$ qui permet sa construction.
+Fonction de hachage résistante aux collisions pour les transactions Bitcoin, proposée par Robin Linus (ZeroSync) en 2026, qui permet une forme limitée d'introspection de transaction dans Bitcoin Script sans modification du consensus. Le nom vient du coefficient binomial $$\binom{n}{t}$$ qui permet sa construction.
 
 Le problème résolu par Binohash est que Bitcoin Script ne peut pas lire nativement les données d'une transaction (entrées, sorties, montants). Cette limitation empêche la vérification *trustless* des propriétés d'une transaction dans Script, ce qui est nécessaire pour des protocoles comme les ponts BitVM.
 

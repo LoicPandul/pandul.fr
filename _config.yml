@@ -9,6 +9,10 @@ url: "https://pandul.fr"
 baseurl: ""
 
 permalink: pretty
+
+# Kramdown — proteger le contenu LaTeX ($$ delimiteurs)
+kramdown:
+  math_engine: mathjax
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

@@ -11,7 +11,18 @@ layout: default
   </nav>
 
   <h1>Lettre {{ page.letter }}</h1>
-  <p class="dict-count">{{ page.definition_count }} definitions</p>
+  <p class="dict-count">{{ page.definition_count }} définitions</p>
+
+  <nav class="az-bar" aria-label="Navigation alphabétique">
+    {%- assign az_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," -%}
+    {%- for letter in az_letters -%}
+      {%- if letter == page.letter -%}
+        <span class="az-letter az-letter--active" aria-current="page">{{ letter }}</span>
+      {%- else -%}
+        <a href="/dictionnaire/lettre/{{ letter | downcase }}/" class="az-letter">{{ letter }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
 
   {%- if page.definition_count == 0 -%}
     <p class="dict-empty">Aucune definition pour la lettre {{ page.letter }}.</p>
@@ -26,4 +37,20 @@ layout: default
       {%- endfor -%}
     </div>
   {%- endif -%}
+
+  <aside class="definition-cta">
+    <div class="definition-cta-row">
+      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
+      <div class="definition-cta-buttons">
+        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
+      </div>
+    </div>
+    <div class="definition-cta-row">
+      <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
+      <div class="definition-cta-buttons">
+        <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
+      </div>
+    </div>
+  </aside>
 </div>

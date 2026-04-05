@@ -121,6 +121,27 @@ function rewriteImagePaths(content, slug) {
 }
 
 /**
+ * Convertit les delimiteurs LaTeX inline $...$ en $$...$$ pour kramdown.
+ * Kramdown ne reconnait que $$ comme delimiteur math.
+ * Preserve les $$ existants (display math) sans les doubler.
+ */
+function convertLatexDelimiters(content) {
+  // Proteger les $$ existants (display math) avec un placeholder
+  const placeholders = [];
+  let result = content.replace(/\$\$([\s\S]+?)\$\$/g, (match, inner) => {
+    placeholders.push(inner);
+    return `%%DISPLAY_MATH_${placeholders.length - 1}%%`;
+  });
+  // Convertir $...$ inline en $$...$$
+  result = result.replace(/\$([^$\n]+?)\$/g, (match, inner) => '$$' + inner + '$$');
+  // Restaurer les $$ display math
+  for (let i = 0; i < placeholders.length; i++) {
+    result = result.replace(`%%DISPLAY_MATH_${i}%%`, '$$' + placeholders[i] + '$$');
+  }
+  return result;
+}
+
+/**
  * Genere un slug URL-safe a partir d'une chaine.
  * Normalise les accents (NFD), filtre en alphanumerique, separe par tirets.
  * Utilise pour category_slug, letter slug, etc. (T-03-01).
@@ -283,6 +304,9 @@ for (const def of definitions) {
   // Recrire les chemins d'images
   content = rewriteImagePaths(content, def.slug);
 
+  // Convertir les delimiteurs LaTeX $...$ en $$...$$ pour kramdown
+  content = convertLatexDelimiters(content);
+
   // Generer le front matter
   const frontMatter = generateFrontMatter(def);
 
@@ -361,6 +385,7 @@ for (const def of definitions) {
     content = fs.readFileSync(defMdPath, 'utf8').replace(/\r\n/g, '\n');
   }
   content = rewriteImagePaths(content, def.slug);
+  content = convertLatexDelimiters(content);
   const frontMatter = generateFrontMatter(def);
   const outputFile = path.join(outputDir, `${def.slug}.md`);
   const fileContent = frontMatter + '\n\n' + content;
@@ -459,6 +484,24 @@ for (const letter of alphabet) {
 }
 
 console.log(`Passe 7 : ${letterPageCount} pages lettre generees dans _lettre/`);
+
+// Passe 8 : mettre a jour le compteur dans dictionnaire.md
+const landingPath = path.join(rootDir, 'dictionnaire.md');
+if (fs.existsSync(landingPath)) {
+  let landingContent = fs.readFileSync(landingPath, 'utf8');
+  landingContent = landingContent.replace(
+    /(<span class="dict-stats-number">)\d+(<\/span> définitions)/,
+    `$1${definitions.length}$2`
+  );
+  landingContent = landingContent.replace(
+    /(<span class="category-card-count">)\d+ définitions(<\/span>)/,
+    `$1${definitions.length} définitions$2`
+  );
+  fs.writeFileSync(landingPath, landingContent.replace(/\r\n/g, '\n'), 'utf8');
+  console.log(`Passe 8 : dictionnaire.md mis a jour (${definitions.length} definitions)`);
+} else {
+  console.warn('WARN : dictionnaire.md introuvable, compteur non mis a jour');
+}
 
 // Stats finales
 console.log('');
