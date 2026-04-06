@@ -83,7 +83,7 @@ Plans:
 - [x] 04-01-PLAN.md — YAML data layer (3 category files) + Liquid homepage template with hero, section nav, cards, and SEO
 - [x] 04-02-PLAN.md — CSS styling for all homepage components (cards, hero, nav, badges, responsive) + JS verification
 - [x] 04-03-PLAN.md — Visual and functional verification checkpoint
-- [ ] 04-04-PLAN.md — Gap closure: French accents in all YAML data files + audio-video.yml platform fixes and deletions
+- [x] 04-04-PLAN.md — Gap closure: French accents in all YAML data files + audio-video.yml platform fixes and deletions
 - [x] 04-05-PLAN.md — Gap closure: Hero redesign, dictionary section redesign, logo badges, emoji removal, mobile responsive
 - [ ] 04-06-PLAN.md — Gap closure: Visual verification checkpoint
 **UI hint**: yes
