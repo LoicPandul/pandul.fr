@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Design Foundation & Book Launch Page** - New design system (black/white/orange) with responsive layout, simplified navigation, blog removal, and time-critical book promotion page
 - [ ] **Phase 2: Dictionary Data Pipeline** - Sync script that transforms 1408 definitions from external repo into Jekyll collection files, resolves cross-references, rewrites image paths, and generates search index
-- [ ] **Phase 3: Dictionary Pages & Navigation** - 1408 definition pages with full metadata, real-time title search, alphabetical and category browsing, cross-references, and breadcrumbs
+- [x] **Phase 3: Dictionary Pages & Navigation** - 1408 definition pages with full metadata, real-time title search, alphabetical and category browsing, cross-references, and breadcrumbs
 - [ ] **Phase 4: Portfolio Redesign** - Homepage redesign with visual content cards, hero section, category navigation, external link indicators, and SEO metadata
 - [ ] **Phase 5: Polish & Accessibility** - Performance optimization, ARIA accessibility, and contact information visibility
 
@@ -65,7 +65,7 @@ Plans:
 - [x] 03-01-PLAN.md — Extend sync script (category/letter pages, prev/next nav) + Jekyll collections config + category/letter layouts
 - [x] 03-02-PLAN.md — Enrich definition layout (breadcrumbs, badge, pills, nav, CTA, lightbox) + CSS + JS
 - [x] 03-03-PLAN.md — Redesign landing page (stats, search, A-Z, categories) + search autocomplete JS + CSS
-- [ ] 03-04-PLAN.md — Visual and functional verification checkpoint
+- [x] 03-04-PLAN.md — Visual and functional verification checkpoint
 **UI hint**: yes
 
 ### Phase 4: Portfolio Redesign
