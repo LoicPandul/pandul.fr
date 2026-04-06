@@ -3,16 +3,6 @@ title: "Dictionnaire"
 permalink: /dictionnaire/
 ---
 
-<section class="book-promo">
-  <div class="book-promo-inner">
-    <div class="book-cover">
-      <img src="{{ '/assets/img/cover-dictionnaire.png' | relative_url }}"
-           alt="Couverture — Dictionnaire de Bitcoin"
-           loading="eager" />
-    </div>
-  </div>
-</section>
-
 <div class="dict-hero">
   <div class="dict-hero-left">
     <h1>Dictionnaire de Bitcoin</h1>
@@ -22,6 +12,22 @@ permalink: /dictionnaire/
     <p class="dict-intro">Le Dictionnaire de Bitcoin est un ouvrage open source qui recense l'ensemble des définitions couvrant le vocabulaire technique de Bitcoin et de son écosystème. Le projet est collaboratif et ouvert aux contributions, sous licence CC BY-NC-SA 4.0. Il est disponible gratuitement en ligne ou bien à la vente en version imprimée sur Amazon et Bitcoin Bazar.</p>
   </div>
 </div>
+
+<aside class="definition-cta definition-cta--landing">
+  <div class="definition-cta-row">
+    <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
+    <div class="definition-cta-buttons">
+      <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+      <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
+    </div>
+  </div>
+  <div class="definition-cta-row">
+    <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
+    <div class="definition-cta-buttons">
+      <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
+    </div>
+  </div>
+</aside>
 
 <div class="dict-search dict-search--landing" role="search">
   <div class="dict-search-inner">
@@ -144,19 +150,3 @@ permalink: /dictionnaire/
     </a>
   </div>
 </section>
-
-<aside class="definition-cta">
-  <div class="definition-cta-row">
-    <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
-    <div class="definition-cta-buttons">
-      <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
-      <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
-    </div>
-  </div>
-  <div class="definition-cta-row">
-    <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
-    <div class="definition-cta-buttons">
-      <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
-    </div>
-  </div>
-</aside>
