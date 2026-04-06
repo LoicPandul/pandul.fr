@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 1: Design Foundation & Book Launch Page** - New design system (black/white/orange) with responsive layout, simplified navigation, blog removal, and time-critical book promotion page
 - [ ] **Phase 2: Dictionary Data Pipeline** - Sync script that transforms 1408 definitions from external repo into Jekyll collection files, resolves cross-references, rewrites image paths, and generates search index
 - [x] **Phase 3: Dictionary Pages & Navigation** - 1408 definition pages with full metadata, real-time title search, alphabetical and category browsing, cross-references, and breadcrumbs
-- [ ] **Phase 4: Portfolio Redesign** - Homepage redesign with visual content cards, hero section, category navigation, external link indicators, and SEO metadata
+- [ ] **Phase 4: Portfolio Redesign** - Homepage redesign with visual content cards, hero section, category navigation, external link indicators, and SEO metadata (gap closure in progress)
 - [ ] **Phase 5: Polish & Accessibility** - Performance optimization, ARIA accessibility, and contact information visibility
 
 ## Phase Details
@@ -78,11 +78,14 @@ Plans:
   3. Hero section communicates who Loic is and highlights key stats (formations, articles, definitions)
   4. External links are visually indicated and open in new tabs
   5. Sharing a page URL on X or social media shows correct Open Graph preview (title, description, image)
-**Plans**: 3 plans
+**Plans**: 6 plans
 Plans:
 - [x] 04-01-PLAN.md — YAML data layer (3 category files) + Liquid homepage template with hero, section nav, cards, and SEO
 - [x] 04-02-PLAN.md — CSS styling for all homepage components (cards, hero, nav, badges, responsive) + JS verification
-- [ ] 04-03-PLAN.md — Visual and functional verification checkpoint
+- [x] 04-03-PLAN.md — Visual and functional verification checkpoint
+- [ ] 04-04-PLAN.md — Gap closure: French accents in all YAML data files + audio-video.yml platform fixes and deletions
+- [ ] 04-05-PLAN.md — Gap closure: Hero redesign, dictionary section redesign, logo badges, emoji removal, mobile responsive
+- [ ] 04-06-PLAN.md — Gap closure: Visual verification checkpoint
 **UI hint**: yes
 
 ### Phase 5: Polish & Accessibility
@@ -105,5 +108,5 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 | 1. Design Foundation & Book Launch Page | 0/2 | Replanned | - |
 | 2. Dictionary Data Pipeline | 0/2 | Planned | - |
 | 3. Dictionary Pages & Navigation | 0/4 | Planned | - |
-| 4. Portfolio Redesign | 0/3 | Planned | - |
+| 4. Portfolio Redesign | 3/6 | Gap closure | - |
 | 5. Polish & Accessibility | 0/0 | Not started | - |
