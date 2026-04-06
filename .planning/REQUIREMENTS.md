@@ -15,11 +15,11 @@
 
 ### Portfolio (Accueil)
 
-- [ ] **PORT-01**: Cards visuelles avec thumbnails pour toutes les categories (formations, tutoriels, articles, podcasts, interviews, productions)
-- [ ] **PORT-02**: Categorisation claire des contenus avec navigation par section
-- [ ] **PORT-03**: Hero section avec proposition de valeur et stats (formations, articles, definitions)
-- [ ] **PORT-04**: Liens externes avec indicateur visuel (icone, ouverture nouvel onglet)
-- [ ] **PORT-05**: SEO metadata et Open Graph pour previews sur X/reseaux sociaux
+- [x] **PORT-01**: Cards visuelles avec thumbnails pour toutes les categories (formations, tutoriels, articles, podcasts, interviews, productions)
+- [x] **PORT-02**: Categorisation claire des contenus avec navigation par section
+- [x] **PORT-03**: Hero section avec proposition de valeur et stats (formations, articles, definitions)
+- [x] **PORT-04**: Liens externes avec indicateur visuel (icone, ouverture nouvel onglet)
+- [x] **PORT-05**: SEO metadata et Open Graph pour previews sur X/reseaux sociaux
 
 ### Dictionnaire - Pipeline de donnees
 
@@ -86,11 +86,11 @@
 | UI-03 | Phase 1 | Pending |
 | UI-04 | Phase 1 | Pending |
 | UI-05 | Phase 1 | Pending |
-| PORT-01 | Phase 4 | Pending |
-| PORT-02 | Phase 4 | Pending |
-| PORT-03 | Phase 4 | Pending |
-| PORT-04 | Phase 4 | Pending |
-| PORT-05 | Phase 4 | Pending |
+| PORT-01 | Phase 4 | Complete |
+| PORT-02 | Phase 4 | Complete |
+| PORT-03 | Phase 4 | Complete |
+| PORT-04 | Phase 4 | Complete |
+| PORT-05 | Phase 4 | Complete |
 | DICT-01 | Phase 2 | Pending |
 | DICT-02 | Phase 2 | Pending |
 | DICT-03 | Phase 2 | Pending |

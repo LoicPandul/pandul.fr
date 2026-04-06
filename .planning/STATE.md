@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 3 complete
-last_updated: "2026-04-06"
-last_activity: 2026-04-06 -- Phase 03 verified and complete
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-04-06T18:15:42.441Z"
+last_activity: 2026-04-06
 progress:
   total_phases: 5
   completed_phases: 3
-  total_plans: 12
-  completed_plans: 8
-  percent: 60
+  total_plans: 11
+  completed_plans: 9
+  percent: 82
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-05)
 
 **Core value:** Mettre en valeur la richesse du catalogue de contenus educatifs Bitcoin de Loic Morel a travers une interface moderne, epuree et fonctionnelle.
-**Current focus:** Phase 04 — portfolio-redesign
+**Current focus:** Phase 04 — Portfolio Redesign
 
 ## Current Position
 
-Phase: 03 (dictionary-pages-navigation) — COMPLETE
-Plan: 4/4
-Status: Phase 03 verified and complete
-Last activity: 2026-04-06 -- Phase 03 verified and complete
+Phase: 04 (Portfolio Redesign) — EXECUTING
+Plan: 2 of 3
+Status: Ready to execute
+Last activity: 2026-04-06
 
 Progress: ██████░░░░ 60%
 
@@ -53,6 +53,7 @@ Progress: ██████░░░░ 60%
 - Trend: -
 
 *Updated after each plan completion*
+| Phase 04-portfolio-redesign P01 | 11min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -64,6 +65,7 @@ Recent decisions affecting current work:
 - Book launch page prioritized to Phase 1 due to ~1 week timeline
 - Sync script (Phase 2) is critical path for all dictionary features
 - Portfolio redesign (Phase 4) is independent of dictionary work, depends only on Phase 1
+- [Phase 04-portfolio-redesign]: YAML data files with featured flag for content management; Unicode section icons; Liquid where filter for boolean featured
 
 ### Pending Todos
 
@@ -76,6 +78,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-05T17:51:06.769Z
-Stopped at: Phase 3 UI-SPEC approved
-Resume file: .planning/phases/03-dictionary-pages-navigation/03-UI-SPEC.md
+Last session: 2026-04-06T18:15:42.428Z
+Stopped at: Completed 04-01-PLAN.md
+Resume file: None

@@ -80,7 +80,7 @@ Plans:
   5. Sharing a page URL on X or social media shows correct Open Graph preview (title, description, image)
 **Plans**: 3 plans
 Plans:
-- [ ] 04-01-PLAN.md — YAML data layer (3 category files) + Liquid homepage template with hero, section nav, cards, and SEO
+- [x] 04-01-PLAN.md — YAML data layer (3 category files) + Liquid homepage template with hero, section nav, cards, and SEO
 - [ ] 04-02-PLAN.md — CSS styling for all homepage components (cards, hero, nav, badges, responsive) + JS verification
 - [ ] 04-03-PLAN.md — Visual and functional verification checkpoint
 **UI hint**: yes
