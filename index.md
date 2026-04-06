@@ -52,12 +52,7 @@ image: /assets/img/social-card.png
       </div>
       {% endif %}
       <div class="content-card-body">
-        {% assign platform_lower = item.platform | downcase %}
-        {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-          <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-        {% else %}
-          <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-        {% endif %}
+        <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
         {% if item.code %}<span class="content-card-code">{{ item.code }}</span>{% endif %}
         <h3 class="content-card-title">{{ item.title }}</h3>
         <p class="content-card-desc">{{ item.description }}</p>
@@ -71,12 +66,7 @@ image: /assets/img/social-card.png
     {% for item in site.data.formations %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{% if item.code %}{{ item.code }} — {% endif %}{{ item.title }}</span>
-      {% assign platform_lower = item.platform | downcase %}
-      {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-        <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-      {% else %}
-        <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-      {% endif %}
+      <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
     </a>
     {% endfor %}
   </div>
@@ -95,12 +85,7 @@ image: /assets/img/social-card.png
     {% for item in featured_ecrits limit:3 %}
     <a href="{{ item.url }}" class="content-card" target="_blank" rel="noopener">
       <div class="content-card-body">
-        {% assign platform_lower = item.platform | downcase %}
-        {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-          <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-        {% else %}
-          <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-        {% endif %}
+        <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
         <h3 class="content-card-title">{{ item.title }}</h3>
         <p class="content-card-desc">{{ item.description }}</p>
       </div>
@@ -113,12 +98,7 @@ image: /assets/img/social-card.png
     {% for item in site.data.ecrits %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{{ item.title }}</span>
-      {% assign platform_lower = item.platform | downcase %}
-      {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-        <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-      {% else %}
-        <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-      {% endif %}
+      <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
     </a>
     {% endfor %}
   </div>
@@ -137,12 +117,7 @@ image: /assets/img/social-card.png
     {% for item in featured_av limit:3 %}
     <a href="{{ item.url }}" class="content-card" target="_blank" rel="noopener">
       <div class="content-card-body">
-        {% assign platform_lower = item.platform | downcase %}
-        {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-          <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-        {% else %}
-          <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-        {% endif %}
+        <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
         <h3 class="content-card-title">{{ item.title }}</h3>
         <p class="content-card-desc">{{ item.description }}</p>
       </div>
@@ -155,12 +130,7 @@ image: /assets/img/social-card.png
     {% for item in site.data.audio-video %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{{ item.title }}</span>
-      {% assign platform_lower = item.platform | downcase %}
-      {% if platform_lower == "pbn" or platform_lower == "bitstack" or platform_lower == "decouvre bitcoin" or platform_lower == "cryptoast" or platform_lower == "gab" or platform_lower == "htb" %}
-        <img class="platform-badge-logo" src="{{ '/assets/img/' | append: platform_lower | replace: ' ', '-' | append: '.png' | relative_url }}" alt="{{ item.platform }}" loading="lazy">
-      {% else %}
-        <span class="platform-badge platform-badge--{{ platform_lower }}">{{ item.platform }}</span>
-      {% endif %}
+      <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
     </a>
     {% endfor %}
   </div>

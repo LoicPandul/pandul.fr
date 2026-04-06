@@ -1372,24 +1372,6 @@ section[id] { scroll-margin-top: 80px; }
   color: var(--fg);
 }
 
-/* Badge logo plateforme */
-.platform-badge-logo {
-  height: 40px;
-  width: auto;
-  border-radius: 4px;
-  display: inline-block;
-  vertical-align: middle;
-  flex-shrink: 0;
-}
-
-.content-list-item .platform-badge-logo {
-  height: 36px;
-}
-
-.content-card-body .platform-badge-logo {
-  height: 44px;
-  align-self: flex-start;
-}
 
 /* Liste compacte de contenus */
 .content-list {
@@ -1466,8 +1448,6 @@ section[id] { scroll-margin-top: 80px; }
   .dict-homepage-buttons { flex-direction: column; align-items: center; }
   .dict-homepage-buttons .btn-primary,
   .dict-homepage-buttons .btn-secondary { width: 100%; max-width: 280px; }
-  .platform-badge-logo { height: 32px; }
-  .content-list-item .platform-badge-logo { height: 28px; }
   .section-header { flex-direction: column; gap: var(--space-xs); }
 }
 
