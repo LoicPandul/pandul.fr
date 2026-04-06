@@ -1,5 +1,5 @@
 # Formations pour Plan B Academy
-# 6 cours complets - chaque entree = 1 cours (pas de chapitres individuels)
+# 6 cours complets - chaque entrée = 1 cours (pas de chapitres individuels)
 
 - title: "Mettre en place son premier noeud Bitcoin"
   code: "BTC 202"
@@ -10,10 +10,10 @@
   type: "formation"
   featured: true
 
-- title: "La confidentialite sur Bitcoin"
+- title: "La confidentialité sur Bitcoin"
   code: "BTC 204"
   url: "https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c"
-  description: "Comprendre et maitriser les principes de la protection de la vie privee dans l'utilisation de Bitcoin"
+  description: "Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin"
   thumbnail: "/assets/img/pbn-btc204-thumbnail.webp"
   platform: "PBN"
   type: "formation"
@@ -40,16 +40,16 @@
 - title: "Introduction au minage de Bitcoin"
   code: "MIN 101"
   url: "https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e"
-  description: "Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zero"
+  description: "Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zéro"
   thumbnail: "/assets/img/pbn-min101-thumbnail.webp"
   platform: "PBN"
   type: "formation"
   featured: false
 
-- title: "Ameliorer sa securite numerique personnelle"
+- title: "Améliorer sa sécurité numérique personnelle"
   code: "SCU 202"
   url: "https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1"
-  description: "Mettre en place un environnement numerique personnel securise, stable et efficace."
+  description: "Mettre en place un environnement numérique personnel sécurisé, stable et efficace."
   thumbnail: "/assets/img/pbn-scu202-thumbnail.webp"
   platform: "PBN"
   type: "formation"
