@@ -78,7 +78,11 @@ Plans:
   3. Hero section communicates who Loic is and highlights key stats (formations, articles, definitions)
   4. External links are visually indicated and open in new tabs
   5. Sharing a page URL on X or social media shows correct Open Graph preview (title, description, image)
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 04-01-PLAN.md — YAML data layer (3 category files) + Liquid homepage template with hero, section nav, cards, and SEO
+- [ ] 04-02-PLAN.md — CSS styling for all homepage components (cards, hero, nav, badges, responsive) + JS verification
+- [ ] 04-03-PLAN.md — Visual and functional verification checkpoint
 **UI hint**: yes
 
 ### Phase 5: Polish & Accessibility
@@ -101,5 +105,5 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 | 1. Design Foundation & Book Launch Page | 0/2 | Replanned | - |
 | 2. Dictionary Data Pipeline | 0/2 | Planned | - |
 | 3. Dictionary Pages & Navigation | 0/4 | Planned | - |
-| 4. Portfolio Redesign | 0/0 | Not started | - |
+| 4. Portfolio Redesign | 0/3 | Planned | - |
 | 5. Polish & Accessibility | 0/0 | Not started | - |
