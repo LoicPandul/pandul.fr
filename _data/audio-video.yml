@@ -10,7 +10,7 @@
   description: "Space Kek 44 - Bitstream, MiniTapscript et 2 ans de Taproot"
   platform: "Space Kek"
   type: "podcast"
-  featured: true
+  featured: false
 
 - title: "Vulnérabilité sur Lightning et BitVM"
   url: "https://twitter.com/louneskmt/status/1717262280901922903"
@@ -31,7 +31,7 @@
   description: "Space Kek - Les méthodes d'activation de soft forks sur Bitcoin"
   platform: "Space Kek"
   type: "podcast"
-  featured: true
+  featured: false
 
 - title: "Questions techniques et sujets libres"
   url: "https://open.spotify.com/episode/5h2nB69xFjFxkfNYALYQD8?si=UHQLOF6lS5-gwQRLoVvzAA"
@@ -94,7 +94,7 @@
   description: "Space Kek 32 - Dérivations HD de clés publiques"
   platform: "Space Kek"
   type: "podcast"
-  featured: false
+  featured: true
 
 - title: "La machine d'états du protocole RGB"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-31---La-machine--tats-de-RGB-RGB-2-e2665pa"
@@ -185,7 +185,7 @@
   description: "Space Kek 19 - Analyse de chaîne, anonsets et entropie"
   platform: "Space Kek"
   type: "podcast"
-  featured: false
+  featured: true
 
 - title: "Routing Lightning 2/2"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-18---Routing-Lightning-22-e1v2ih9/a-a9bihpc"
@@ -290,7 +290,7 @@
   description: "Space Kek 4 - Taproot et la structure MAST"
   platform: "Space Kek"
   type: "podcast"
-  featured: true
+  featured: false
 
 - title: "MuSig 2"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-3---MuSig2-e1p5igv/a-a8m5sss"
@@ -375,7 +375,7 @@
   description: "Space Cryptoast sur les UTXOs et la confidentialité sur Bitcoin"
   platform: "Cryptoast"
   type: "interview"
-  featured: false
+  featured: true
 
 - title: "Protéger vos crypto avec les CoinJoins !"
   url: "https://youtu.be/5mt4SLsIlL8"
