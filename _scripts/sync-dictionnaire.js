@@ -505,23 +505,35 @@ for (const letter of alphabet) {
 
 console.log(`Passe 7 : ${letterPageCount} pages lettre generees dans _lettre/`);
 
-// Passe 8 : mettre a jour le compteur dans dictionnaire.md
-const landingPath = path.join(rootDir, 'dictionnaire.md');
-if (fs.existsSync(landingPath)) {
-  let landingContent = fs.readFileSync(landingPath, 'utf8');
-  landingContent = landingContent.replace(
-    /(<span class="dict-stats-number">)\d+(<\/span> définitions)/,
-    `$1${definitions.length}$2`
-  );
-  landingContent = landingContent.replace(
-    /(<span class="category-card-count">)\d+ définitions(<\/span>)/,
-    `$1${definitions.length} définitions$2`
-  );
-  fs.writeFileSync(landingPath, landingContent.replace(/\r\n/g, '\n'), 'utf8');
-  console.log(`Passe 8 : dictionnaire.md mis a jour (${definitions.length} definitions)`);
-} else {
-  console.warn('WARN : dictionnaire.md introuvable, compteur non mis a jour');
+// Passe 8 : generer _data/dictionnaire-stats.yml
+const dataDir2 = path.join(rootDir, '_data');
+fs.mkdirSync(dataDir2, { recursive: true });
+
+let statsYaml = '# Auto-genere par sync-dictionnaire.js — ne pas modifier manuellement\n';
+statsYaml += `total: ${definitions.length}\n`;
+statsYaml += `category_count: ${categoryGroups.size}\n`;
+statsYaml += 'categories:\n';
+
+const sortedCategories = Array.from(categoryGroups.entries()).sort((a, b) => a[0].localeCompare(b[0], 'fr'));
+for (const [cat, defs] of sortedCategories) {
+  const catSlug = slugify(cat);
+  statsYaml += `  - name: "${escapeYaml(cat)}"\n`;
+  statsYaml += `    slug: "${escapeYaml(catSlug)}"\n`;
+  statsYaml += `    count: ${defs.length}\n`;
 }
+
+statsYaml += 'letters:\n';
+for (const letter of alphabet) {
+  const count = letterCounts.get(letter) || 0;
+  const letterSlug = letter.toLowerCase();
+  statsYaml += `  - letter: "${letter}"\n`;
+  statsYaml += `    slug: "${letterSlug}"\n`;
+  statsYaml += `    count: ${count}\n`;
+}
+
+const statsPath = path.join(dataDir2, 'dictionnaire-stats.yml');
+fs.writeFileSync(statsPath, statsYaml.replace(/\r\n/g, '\n'), 'utf8');
+console.log(`Passe 8 : _data/dictionnaire-stats.yml genere (${definitions.length} definitions, ${categoryGroups.size} categories)`);
 
 // Stats finales
 console.log('');
