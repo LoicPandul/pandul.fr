@@ -142,6 +142,19 @@ function convertLatexDelimiters(content) {
 }
 
 /**
+ * Detecte la presence de formules LaTeX dans le contenu source.
+ * Verifie les delimiteurs $...$ (inline) et $$...$$ (display).
+ * Doit etre appele AVANT convertLatexDelimiters.
+ */
+function hasLatex(content) {
+  // Display math: $$...$$
+  if (/\$\$[\s\S]+?\$\$/.test(content)) return true;
+  // Inline math: $...$ (single dollar, not escaped, not empty)
+  if (/(?<!\$)\$(?!\$)([^$\n]+?)\$(?!\$)/.test(content)) return true;
+  return false;
+}
+
+/**
  * Genere un slug URL-safe a partir d'une chaine.
  * Normalise les accents (NFD), filtre en alphanumerique, separe par tirets.
  * Utilise pour category_slug, letter slug, etc. (T-03-01).
@@ -192,6 +205,10 @@ function generateFrontMatter(def) {
       fm += `  - title: "${escapeYaml(ref.title)}"\n`;
       fm += `    slug: "${escapeYaml(ref.slug)}"\n`;
     }
+  }
+
+  if (def.math) {
+    fm += `math: true\n`;
   }
 
   fm += '---';
@@ -303,6 +320,9 @@ for (const def of definitions) {
 
   // Recrire les chemins d'images
   content = rewriteImagePaths(content, def.slug);
+
+  // Detecter la presence de LaTeX avant conversion des delimiteurs
+  def.math = hasLatex(content);
 
   // Convertir les delimiteurs LaTeX $...$ en $$...$$ pour kramdown
   content = convertLatexDelimiters(content);
