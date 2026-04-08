@@ -34,7 +34,6 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Complete design system overhaul: new font pair, CSS rewrite, header/footer/button redesign
 - [x] 01-02-PLAN.md — Content pages cleanup, book promo verification, blog deletion, visual checkpoint
-**UI hint**: yes
 
 ### Phase 2: Dictionary Data Pipeline
 **Goal**: Running the sync script produces a complete, correct set of Jekyll collection files ready for build
@@ -66,7 +65,6 @@ Plans:
 - [x] 03-02-PLAN.md — Enrich definition layout (breadcrumbs, badge, pills, nav, CTA, lightbox) + CSS + JS
 - [x] 03-03-PLAN.md — Redesign landing page (stats, search, A-Z, categories) + search autocomplete JS + CSS
 - [x] 03-04-PLAN.md — Visual and functional verification checkpoint
-**UI hint**: yes
 
 ### Phase 4: Portfolio Redesign
 **Goal**: Users discover the full breadth of educational content through an attractive, organized homepage
@@ -96,7 +94,11 @@ Plans:
   1. All pages load in under 2 seconds on a standard connection (including definition pages)
   2. Site is keyboard-navigable with visible focus states, ARIA labels on interactive elements, and skip-to-content links
   3. User can find contact information (email, Lightning address) from any page
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 05-01-PLAN.md — Conditional KaTeX loading, skip-to-content link, aria-labels, math flags, archived font deletion
+- [ ] 05-02-PLAN.md — CSS media query consolidation, skip-to-content styles, focus states
+- [ ] 05-03-PLAN.md — Repository cleanup (git rm --cached planning files) + visual verification checkpoint
 
 ## Progress
 
@@ -109,4 +111,4 @@ Phases execute in numeric order. Phase 4 depends only on Phase 1 (not Phase 2/3)
 | 2. Dictionary Data Pipeline | 0/2 | Planned | - |
 | 3. Dictionary Pages & Navigation | 0/4 | Planned | - |
 | 4. Portfolio Redesign | 3/6 | Gap closure | - |
-| 5. Polish & Accessibility | 0/0 | Not started | - |
+| 5. Polish & Accessibility | 0/3 | Planned | - |
