@@ -18,6 +18,7 @@ cross_references:
     slug: "fonction-de-hachage"
   - title: "TWEAK"
     slug: "tweak"
+math: true
 ---
 
 Variante de fonction de hachage utilisée dans le protocole Bitcoin (notamment dans Taproot) pour garantir la séparation des domaines. Une fonction de hachage taguée prend un tag (une chaîne de caractères UTF-8) et des données en entrée, et calcule le hachage comme suit :

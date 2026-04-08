@@ -18,6 +18,7 @@ cross_references:
     slug: "difficulte"
   - title: "RESYNCHRONISATION"
     slug: "resynchronisation"
+math: true
 ---
 
 Métrique qui quantifie le nombre total de hachages attendus pour produire une blockchain donnée. Le chainwork sert de critère pour déterminer la chaîne valide : les nœuds suivent toujours la chaîne qui dispose du plus grand chainwork, et non simplement celle qui contient le plus de blocs. Le calcul repose sur la cible de difficulté de chaque bloc. Pour un bloc donné, le nombre moyen de hachages nécessaires pour obtenir une empreinte inférieure ou égale à la cible est :
