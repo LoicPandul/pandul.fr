@@ -18,6 +18,7 @@ cross_references:
     slug: "payment-hash"
   - title: "HTLC"
     slug: "htlc"
+math: true
 ---
 
 En mathématiques, la préimage d'un élément $$y$$ par une fonction $$f$$ est l'ensemble des $$x$$ tels que $$f(x) = y$$. C'est l'opération d'inverser la fonction : remonter de la sortie vers l'entrée.

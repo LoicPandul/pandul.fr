@@ -20,6 +20,7 @@ cross_references:
     slug: "difficulte"
   - title: "MINAGE"
     slug: "minage"
+math: true
 ---
 
 Attaque théorique sur le mécanisme d'ajustement de la difficulté de Bitcoin qui exploite une faille dans la manière dont les horodatages des blocs sont vérifiés à la frontière entre deux périodes de retarget. Tous les 2 016 blocs, le protocole recalcule la cible de difficulté en comparant l'horodatage du premier bloc de la période avec celui du dernier. L'attaque consiste, pour un mineur qui contrôle une majorité de la puissance de calcul, à manipuler ces horodatages : il fixe les horodatages de presque tous les blocs de la période au minimum autorisé par la règle *Median Time Past* (MTP), puis attribue au dernier bloc un horodatage dans le futur, qui respecte la règle du NAT + 2 heures. Le protocole en déduit alors que la période a duré bien plus longtemps qu'en réalité, ce qui entraîne une réduction artificielle et injustifiée de la difficulté pour la période suivante.

@@ -17,6 +17,7 @@ cross_references:
     slug: "confidential-transactions"
   - title: "ZKP - ZERO-KNOWLEDGE PROOF"
     slug: "zkp-zero-knowledge-proof"
+math: true
 ---
 
 Système de preuves à divulgation nulle de connaissance (*zero-knowledge proofs*) utilisé notamment dans les *Confidential Transactions* pour vérifier qu'un montant engagé dans une transaction se situe dans un intervalle valide, sans révéler sa valeur. Les Bulletproofs ont été introduits en 2017 par Bünz, Bootle, Boneh, Poelstra, Wuille et Maxwell. Ils remplacent les preuves de portée antérieures (*Borromean ring signatures*) en produisant des preuves significativement plus compactes, dont la taille croît de manière logarithmique ($$O(\log n)$$) par rapport au nombre de bits représentant la valeur.

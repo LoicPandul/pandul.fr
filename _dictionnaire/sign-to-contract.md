@@ -17,6 +17,7 @@ cross_references:
     slug: "pay-to-contract"
   - title: "SCHNORR"
     slug: "schnorr-protocole"
+math: true
 ---
 
 Protocole cryptographique qui permet d'engager des données arbitraires dans le nonce d'une signature numérique, sans que cet engagement soit visible de l'extérieur. Cette technique est l'analogue du Pay-to-Contract, mais appliquée au nonce (la valeur aléatoire $$k$$) plutôt qu'à la clé publique. Le principe repose sur le « tweaking » du nonce : à partir d'un nonce original $$k$$ et d'un engagement $$c$$, on calcule un nouveau nonce $$k' = k + H(R \| c)$$, où $$R = k \cdot G$$ est le point public du nonce original et $$H$$ une fonction de hachage. Le nonce public $$R' = k' \cdot G$$ qui en résulte apparaît comme un point quelconque sur la courbe, mais il encode un engagement vérifiable envers $$c$$. Pour prouver l'engagement, il suffit de révéler $$R$$ et $$c$$.

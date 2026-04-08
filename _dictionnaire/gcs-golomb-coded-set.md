@@ -17,6 +17,7 @@ cross_references:
     slug: "bip-0158"
   - title: "BLOOM FILTER"
     slug: "bloom-filter"
+math: true
 ---
 
 Structure de données probabiliste utilisée dans le BIP-0158 pour construire les *compact block filters* sur Bitcoin. Un GCS permet de tester l'appartenance d'un élément à un ensemble avec la garantie de trouver tout élément présent, mais avec une probabilité de faux positif de $$1/M$$.

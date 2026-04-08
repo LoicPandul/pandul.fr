@@ -18,6 +18,7 @@ cross_references:
     slug: "schnorr-protocole"
   - title: "TAPROOT"
     slug: "taproot"
+math: true
 ---
 
 Format de clé publique sur la courbe elliptique secp256k1 dans lequel seule la coordonnée $$x$$ du point est conservée, sans l'octet de préfixe qui indique habituellement la parité de la coordonnée $$y$$. Ce format réduit la taille d'une clé publique de 33 octets (clé compressée classique) à 32 octets.

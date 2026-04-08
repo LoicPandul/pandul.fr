@@ -18,6 +18,7 @@ cross_references:
     slug: "spark"
   - title: "EXIT TRANSACTION"
     slug: "exit-transaction"
+math: true
 ---
 
 Structure arborescente offchain utilisée dans le protocole Spark pour étendre un UTXO unique en plusieurs sous-unités de valeur, afin de résoudre le problème des statechains classiques qui imposaient le transfert d'un UTXO entier. L'arbre se compose de branches (*branch transactions*) et de feuilles (*leaf transactions*).

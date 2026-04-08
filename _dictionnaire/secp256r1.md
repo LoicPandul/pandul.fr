@@ -17,6 +17,7 @@ cross_references:
     slug: "secp256k1"
   - title: "COURBE ELLIPTIQUE"
     slug: "courbe-elliptique"
+math: true
 ---
 
 Nom donné à une courbe elliptique définie par le standard NIST pour la cryptographie à clé publique. Elle utilise un champ premier de 256 bits et une équation de courbe elliptique $$y^2 = x^3 + ax + b$$ avec les constantes :

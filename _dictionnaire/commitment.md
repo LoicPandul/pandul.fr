@@ -18,6 +18,7 @@ cross_references:
     slug: "client-side-validation"
   - title: "STATE TRANSITION"
     slug: "state-transition"
+math: true
 ---
 
 Un Commitment (au sens cryptographique) est un objet mathématique, noté $$C$$, dérivé de façon déterministe à partir d'une opération sur une donnée structurée $$m$$ (le message) et d'une valeur aléatoire $$r$$. On écrit :

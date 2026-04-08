@@ -22,6 +22,7 @@ cross_references:
     slug: "dummy-element"
   - title: "BIP-0147"
     slug: "bip-0147"
+math: true
 ---
 
 Erreur de logique où une boucle itère une fois de trop ou de moins, souvent due à une mauvaise utilisation des opérateurs de comparaison ou de mauvais indices dans la gestion des structures de données. Deux instances notables de ce bug existent dans Bitcoin.

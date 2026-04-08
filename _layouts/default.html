@@ -11,12 +11,16 @@
 
   {%- seo -%}
 
+  {%- comment -%} KaTeX — chargement conditionnel {%- endcomment -%}
+  {% if page.math %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
     onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}, {left: '$', right: '$', display: false}]});"></script>
+  {% endif %}
 </head>
 <body>
+  <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
   <header class="site-header">
     <div class="wrap">
       <div class="header-card" id="headerCard">
@@ -45,7 +49,7 @@
     </div>
   </header>
 
-  <main class="site-main">
+  <main class="site-main" id="main-content">
     <div class="wrap">
       {{ content }}
     </div>

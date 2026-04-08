@@ -20,6 +20,7 @@ cross_references:
     slug: "vbytes"
   - title: "MAX_BLOC_SIZE"
     slug: "max-bloc-size"
+math: true
 ---
 
 Unité de mesure introduite par SegWit (BIP-0141) pour quantifier l'espace qu'une transaction ou un bloc occupe par rapport à la limite maximale autorisée. Chaque *weight unit* (WU) représente 1/4 000 000e de la capacité maximale d'un bloc. Cette unité remplace la mesure en octets bruts qui était utilisée avant SegWit, et permet d'appliquer une pondération différenciée selon la nature des données dans une transaction.

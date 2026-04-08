@@ -18,6 +18,7 @@ cross_references:
     slug: "htlc"
   - title: "BLIP-0004"
     slug: "blip-0004"
+math: true
 ---
 
 Attaque par déni de service sur le Lightning Network qui consiste à bloquer la capacité de routage d'un ou plusieurs canaux de paiement pendant une durée prolongée, empêchant les nœuds honnêtes de router des paiements. L'attaquant s'envoie un paiement fictif à lui-même à travers une série de canaux intermédiaires, puis refuse de finaliser ou d'annuler le HTLC, ce qui immobilise les fonds des nœuds de routage sans frais pour l'attaquant.

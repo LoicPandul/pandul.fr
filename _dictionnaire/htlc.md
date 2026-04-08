@@ -17,6 +17,7 @@ cross_references:
     slug: "lightning-network"
   - title: "TIMELOCK"
     slug: "timelock"
+math: true
 ---
 
 Sigle de « *Hashed Timelock Contract* ». C'est un mécanisme de contrat intelligent principalement utilisé sur Lightning. On le retrouve aussi parfois dans des *atomic swaps*. Fondamentalement, le HTLC permet de conditionner un transfert de fonds à la révélation d'un secret, et inclut également une condition temporelle pour protéger l'argent de l'envoyeur en cas d'échec de la transaction.

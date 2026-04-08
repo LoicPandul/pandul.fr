@@ -16,6 +16,7 @@ next_in_category:
 cross_references:
   - title: "TRANSACTION DE PÉNALITÉ"
     slug: "transaction-de-penalite"
+math: true
 ---
 
 Clé cryptographique utilisée dans le Lightning Network pour permettre la punition d'un pair qui publie un ancien état de canal. Chaque transaction d'engagement contient une sortie `to_local` qui offre deux chemins de dépense :

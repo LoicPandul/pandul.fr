@@ -14,6 +14,7 @@ cross_references:
     slug: "bitvm"
   - title: "COVENANT"
     slug: "covenant"
+math: true
 ---
 
 Fonction de hachage résistante aux collisions pour les transactions Bitcoin, proposée par Robin Linus (ZeroSync) en 2026, qui permet une forme limitée d'introspection de transaction dans Bitcoin Script sans modification du consensus. Le nom vient du coefficient binomial $$\binom{n}{t}$$ qui permet sa construction.

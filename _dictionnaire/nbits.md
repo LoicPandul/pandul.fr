@@ -17,6 +17,7 @@ cross_references:
     slug: "cible-de-difficulte"
   - title: "ENTÊTE DE BLOC"
     slug: "entete-de-bloc"
+math: true
 ---
 
 Champ de 4 octets présent dans l'en-tête de chaque bloc Bitcoin, qui encode la cible de difficulté sous une forme compacte : le premier octet indique le nombre d'octets de la cible complète (l'exposant), et les trois octets suivants constituent la mantisse (les chiffres significatifs de la cible). La formule de décodage est : $$cible = mantisse \times 256^{(exposant - 3)}$$.

@@ -17,6 +17,7 @@ cross_references:
     slug: "schnorr-protocole"
   - title: "MULTISIG"
     slug: "multisig"
+math: true
 ---
 
 Protocole cryptographique qui permet d'engager des données arbitraires dans une clé publique Bitcoin, de sorte que le paiement effectué vers cette clé constitue simultanément une preuve d'engagement envers ces données.
