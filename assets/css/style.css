@@ -597,199 +597,12 @@ img {
    ============================================ */
 
 /* Petits ecrans */
-@media (max-width: 380px) {
-  .brand-name {
-    font-size: 14px;
-  }
-}
 
 /* Tablette et superieur */
-@media (min-width: 720px) {
-  .site-header {
-    top: var(--space-md);
-  }
-
-  .header-card {
-    padding: 14px 24px;
-  }
-
-  .site-main .wrap {
-    padding: var(--space-xl) var(--space-lg) var(--space-xl);
-  }
-
-  .footer-card {
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-xl);
-    padding: var(--space-2xl);
-  }
-
-  .book-cover {
-    border-radius: calc(var(--radius) * 1.5);
-  }
-
-  .book-cover img {
-    border-radius: calc(var(--radius) * 1.5);
-  }
-
-  .footer-bottom .divider {
-    max-width: 260px;
-  }
-}
 
 /* Desktop */
-@media (min-width: 980px) {
-  .footer-card {
-    grid-template-columns: 1.4fr 1fr 1.2fr;
-    align-items: center;
-  }
-}
 
 /* Mobile compact — header hamburger et footer moderne */
-@media (max-width: 719px) {
-  .site-header {
-    top: var(--space-sm);
-  }
-
-  .header-card {
-    padding: 10px 14px;
-    flex-wrap: wrap;
-  }
-
-  .nav-toggle {
-    display: flex;
-  }
-
-  .brand img {
-    height: 24px;
-  }
-
-  .brand-name {
-    font-size: 16px;
-  }
-
-  /* Navigation cachee par defaut sur mobile */
-  .site-nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    gap: 0;
-    padding-top: var(--space-sm);
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    margin-top: var(--space-sm);
-  }
-
-  .site-nav.open {
-    display: flex;
-  }
-
-  .site-nav a {
-    font-size: 16px;
-    padding: 10px 0;
-    border-radius: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    background: none;
-  }
-
-  .site-nav a:last-of-type {
-    border-bottom: none;
-  }
-
-  /* Rangee icones sociales horizontale sur mobile */
-  .site-nav .nav-social-row {
-    display: flex;
-    align-items: center;
-    gap: var(--space-lg);
-    padding: 12px 0 6px;
-    border-bottom: none;
-  }
-
-  .site-nav .nav-social-row .icon {
-    padding: 4px;
-    margin-left: 0;
-    border-bottom: none;
-  }
-
-  .site-nav .nav-social-row .icon img {
-    height: 22px;
-  }
-
-  .site-main .wrap {
-    padding: var(--space-md) 20px var(--space-md);
-  }
-
-  /* Cover dictionnaire — marge reduite sur mobile */
-  .book-promo {
-    margin: var(--space-lg) 0;
-  }
-
-  .book-promo-inner {
-    gap: var(--space-md);
-  }
-
-  /* Footer mobile — empile, centre, aere */
-  .footer-card {
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding: var(--space-xl) var(--space-lg);
-    gap: var(--space-lg);
-  }
-
-  .footer-brand {
-    align-items: center;
-  }
-
-  .footer-brand-first,
-  .footer-brand-last {
-    font-size: clamp(32px, 8vw, 40px);
-  }
-
-  .footer-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-md);
-    padding: var(--space-lg) 0;
-    margin: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .footer-nav a {
-    padding: 4px 0;
-    font-size: 16px;
-    background: none;
-  }
-
-  .footer-info {
-    font-size: 13px;
-    opacity: 0.7;
-    text-align: center;
-    padding-top: 0;
-    border-top: none;
-  }
-
-  .footer-info p {
-    margin: 4px 0;
-  }
-
-  .footer-bottom {
-    padding: var(--space-sm) 0 var(--space-lg);
-  }
-
-  .footer-bottom .divider {
-    max-width: 120px;
-    margin: var(--space-sm) auto;
-  }
-
-  .bottom-social {
-    gap: var(--space-xl);
-  }
-
-  .bottom-social .icon img {
-    height: 28px;
-  }
-}
 
 /* ============================================
    Dictionnaire — Pages de definition
@@ -857,10 +670,6 @@ img {
 }
 .definition-content th:first-child { border-radius: var(--radius) 0 0 0; }
 .definition-content th:last-child { border-radius: 0 var(--radius) 0 0; }
-@media (max-width: 719px) {
-  .definition-content table { font-size: 13px; min-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .definition-content th, .definition-content td { padding: 8px 12px; }
-}
 
 /* Cross-references en pilules */
 .definition-see-also { margin-bottom: var(--space-xl); }
@@ -914,11 +723,6 @@ img {
 .definition-cta--landing { margin-bottom: var(--space-lg); }
 
 /* CTA et navigation — responsive mobile */
-@media (max-width: 719px) {
-  .definition-cta-buttons { flex-direction: column; width: 100%; }
-  .definition-cta-buttons .btn { width: 100%; }
-  .definition-nav { flex-direction: column; gap: var(--space-sm); align-items: flex-start; }
-}
 
 /* Lightbox — zoom images */
 .lightbox-overlay {
@@ -942,9 +746,6 @@ img {
   cursor: pointer; display: flex;
   align-items: center; justify-content: center;
 }
-@media (max-width: 719px) {
-  .lightbox-overlay img { max-width: 95vw; }
-}
 
 /* ============================================
    Dictionnaire — Landing + Search + Navigation
@@ -957,14 +758,6 @@ img {
 .dict-stats { font-family: var(--font-body); font-size: clamp(16px, 1.05vw + 14px, 18px); color: var(--muted); }
 .dict-stats-number { font-family: var(--font-heading); font-weight: 700; font-size: clamp(20px, 3vw, 28px); color: var(--fg); }
 .dict-intro { font-family: var(--font-body); font-size: 15px; line-height: 1.7; color: var(--muted); margin: 0; }
-@media (min-width: 720px) {
-  .dict-hero { display: flex; align-items: flex-start; gap: var(--space-2xl); }
-  .dict-hero-right { padding-top: 6px; }
-}
-@media (max-width: 719px) {
-  .dict-hero { text-align: center; }
-  .dict-intro { margin-top: var(--space-md); text-align: left; }
-}
 
 /* Barre de recherche */
 .dict-search {
@@ -1044,9 +837,6 @@ img {
 .az-letter--active { background: var(--accent); color: #FFFFFF; }
 .az-letter--active:hover { background: var(--accent-hover); color: #FFFFFF; }
 .az-letter--disabled { opacity: 0.35; pointer-events: none; }
-@media (max-width: 719px) {
-  .az-letter { min-width: 32px; height: 32px; line-height: 32px; }
-}
 
 /* Grille de categories */
 .category-grid {
@@ -1085,10 +875,6 @@ img {
   font-size: 14px; color: var(--muted);
   margin-top: 4px;
 }
-@media (max-width: 719px) {
-  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .category-card { padding: 12px; }
-}
 
 /* Pages partagees dictionnaire (categories + lettres) */
 .dict-page { max-width: var(--wrap); }
@@ -1102,9 +888,6 @@ img {
 .dict-letter-heading:first-child { margin-top: 0; border-top: none; padding-top: 0; }
 
 /* Recherche mobile — dropdown pleine largeur */
-@media (max-width: 719px) {
-  .dict-search-results { left: -8px; right: -8px; }
-}
 
 /* ============================================
    Page À propos
@@ -1270,48 +1053,8 @@ img {
 }
 
 /* Responsive — mobile */
-@media (max-width: 719px) {
-  .about-hero {
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-lg);
-    text-align: center;
-  }
-
-  .about-hero-photo img {
-    width: 180px;
-    height: 180px;
-    border-radius: 12px;
-  }
-
-  .about-intro {
-    max-width: 100%;
-  }
-
-  .about-social {
-    justify-content: center;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-section h2 {
-    text-align: center;
-  }
-
-  .about-support-card {
-    width: 100%;
-  }
-}
 
 /* Responsive — tablette */
-@media (min-width: 720px) and (max-width: 979px) {
-  .about-hero-photo img {
-    width: 180px;
-    height: 180px;
-  }
-}
 
 /* ============================================
    Homepage — Portfolio redesign (Phase 4)
@@ -1629,14 +1372,281 @@ section[id] { scroll-margin-top: 80px; }
    Homepage — Responsive (Phase 4)
    ============================================ */
 
-@media (max-width: 980px) {
-  .content-grid--featured { grid-template-columns: repeat(2, 1fr); }
-  .hero-section { padding: var(--space-lg) 0; }
-  .category-nav { grid-template-columns: repeat(2, 1fr); }
+/* Accessibilité — mouvement réduit */
+
+/* Lien skip-to-content (accessibilite) */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--font-body);
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 0 0 var(--radius) 0;
+}
+
+.skip-to-content:focus {
+  left: 0;
+}
+
+/* Focus states — elements interactifs dictionnaire */
+.cross-ref-pill:focus,
+.category-badge:focus,
+.az-letter:focus,
+.breadcrumbs a:focus,
+.def-nav a:focus,
+.search-results a:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (max-width: 380px) {
+.brand-name {
+    font-size: 14px;
+  }
+
+.hero-quote { font-size: clamp(22px, 5.5vw, 28px); }
+  .category-nav { grid-template-columns: 1fr 1fr; }
+  .portfolio-section { margin-bottom: var(--space-xl); }
+}
+
+@media (min-width: 720px) {
+.site-header {
+    top: var(--space-md);
+  }
+
+  .header-card {
+    padding: 14px 24px;
+  }
+
+  .site-main .wrap {
+    padding: var(--space-xl) var(--space-lg) var(--space-xl);
+  }
+
+  .footer-card {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    padding: var(--space-2xl);
+  }
+
+  .book-cover {
+    border-radius: calc(var(--radius) * 1.5);
+  }
+
+  .book-cover img {
+    border-radius: calc(var(--radius) * 1.5);
+  }
+
+  .footer-bottom .divider {
+    max-width: 260px;
+  }
+
+.dict-hero { display: flex; align-items: flex-start; gap: var(--space-2xl); }
+  .dict-hero-right { padding-top: 6px; }
 }
 
 @media (max-width: 719px) {
-  .content-grid--featured { grid-template-columns: 1fr; }
+  .site-header {
+    top: var(--space-sm);
+  }
+
+  .header-card {
+    padding: 10px 14px;
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .brand img {
+    height: 24px;
+  }
+
+  .brand-name {
+    font-size: 16px;
+  }
+
+  /* Navigation cachee par defaut sur mobile */
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    padding-top: var(--space-sm);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    margin-top: var(--space-sm);
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .site-nav a {
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    background: none;
+  }
+
+  .site-nav a:last-of-type {
+    border-bottom: none;
+  }
+
+  /* Rangee icones sociales horizontale sur mobile */
+  .site-nav .nav-social-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding: 12px 0 6px;
+    border-bottom: none;
+  }
+
+  .site-nav .nav-social-row .icon {
+    padding: 4px;
+    margin-left: 0;
+    border-bottom: none;
+  }
+
+  .site-nav .nav-social-row .icon img {
+    height: 22px;
+  }
+
+  .site-main .wrap {
+    padding: var(--space-md) 20px var(--space-md);
+  }
+
+  /* Cover dictionnaire — marge reduite sur mobile */
+  .book-promo {
+    margin: var(--space-lg) 0;
+  }
+
+  .book-promo-inner {
+    gap: var(--space-md);
+  }
+
+  /* Footer mobile — empile, centre, aere */
+  .footer-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: var(--space-xl) var(--space-lg);
+    gap: var(--space-lg);
+  }
+
+  .footer-brand {
+    align-items: center;
+  }
+
+  .footer-brand-first,
+  .footer-brand-last {
+    font-size: clamp(32px, 8vw, 40px);
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-lg) 0;
+    margin: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-nav a {
+    padding: 4px 0;
+    font-size: 16px;
+    background: none;
+  }
+
+  .footer-info {
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .footer-info p {
+    margin: 4px 0;
+  }
+
+  .footer-bottom {
+    padding: var(--space-sm) 0 var(--space-lg);
+  }
+
+  .footer-bottom .divider {
+    max-width: 120px;
+    margin: var(--space-sm) auto;
+  }
+
+  .bottom-social {
+    gap: var(--space-xl);
+  }
+
+  .bottom-social .icon img {
+    height: 28px;
+  }
+
+.definition-content table { font-size: 13px; min-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .definition-content th, .definition-content td { padding: 8px 12px; }
+
+.definition-cta-buttons { flex-direction: column; width: 100%; }
+  .definition-cta-buttons .btn { width: 100%; }
+  .definition-nav { flex-direction: column; gap: var(--space-sm); align-items: flex-start; }
+
+.lightbox-overlay img { max-width: 95vw; }
+
+.dict-hero { text-align: center; }
+  .dict-intro { margin-top: var(--space-md); text-align: left; }
+
+.az-letter { min-width: 32px; height: 32px; line-height: 32px; }
+
+.category-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .category-card { padding: 12px; }
+
+.dict-search-results { left: -8px; right: -8px; }
+
+.about-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+    text-align: center;
+  }
+
+  .about-hero-photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+  }
+
+  .about-intro {
+    max-width: 100%;
+  }
+
+  .about-social {
+    justify-content: center;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-support-card {
+    width: 100%;
+  }
+
+.content-grid--featured { grid-template-columns: 1fr; }
   .hero-section { padding: var(--space-md) 0; }
   .hero-quote { font-size: clamp(24px, 6vw, 32px); white-space: normal; }
   .category-nav { grid-template-columns: repeat(2, 1fr); }
@@ -1646,13 +1656,26 @@ section[id] { scroll-margin-top: 80px; }
   .section-header { flex-direction: column; gap: var(--space-xs); }
 }
 
-@media (max-width: 380px) {
-  .hero-quote { font-size: clamp(22px, 5.5vw, 28px); }
-  .category-nav { grid-template-columns: 1fr 1fr; }
-  .portfolio-section { margin-bottom: var(--space-xl); }
+@media (min-width: 720px) and (max-width: 979px) {
+  .about-hero-photo img {
+    width: 180px;
+    height: 180px;
+  }
 }
 
-/* Accessibilité — mouvement réduit */
+@media (max-width: 980px) {
+  .content-grid--featured { grid-template-columns: repeat(2, 1fr); }
+  .hero-section { padding: var(--space-lg) 0; }
+  .category-nav { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 980px) {
+  .footer-card {
+    grid-template-columns: 1.4fr 1fr 1.2fr;
+    align-items: center;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .content-card,
