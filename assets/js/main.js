@@ -86,6 +86,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Listes repliables : afficher 7 elements, masquer le reste
+  const MAX_VISIBLE = 7;
+  document.querySelectorAll('.content-list').forEach(list => {
+    const items = list.querySelectorAll('.content-list-item');
+    if (items.length <= MAX_VISIBLE) return;
+
+    const hiddenItems = [];
+    items.forEach((item, i) => {
+      if (i >= MAX_VISIBLE) {
+        item.classList.add('list-hidden');
+        hiddenItems.push(item);
+      }
+    });
+
+    const remaining = items.length - MAX_VISIBLE;
+    const btn = document.createElement('button');
+    btn.className = 'content-list-toggle';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.innerHTML = 'Voir les ' + remaining + ' autres <span class="content-list-toggle-arrow" aria-hidden="true">▼</span>';
+    list.appendChild(btn);
+
+    btn.addEventListener('click', () => {
+      const isExpanded = btn.classList.toggle('expanded');
+      btn.setAttribute('aria-expanded', isExpanded);
+      hiddenItems.forEach(item => item.classList.toggle('list-hidden', !isExpanded));
+      if (isExpanded) {
+        btn.innerHTML = 'Réduire la liste <span class="content-list-toggle-arrow" aria-hidden="true">▼</span>';
+      } else {
+        btn.innerHTML = 'Voir les ' + remaining + ' autres <span class="content-list-toggle-arrow" aria-hidden="true">▼</span>';
+      }
+    });
+  });
+
   // Liens externes : ouvrir dans un nouvel onglet avec rel securise
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');

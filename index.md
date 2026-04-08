@@ -1,22 +1,17 @@
 ---
 title: "Loïc Morel - Contenus pédagogiques sur Bitcoin"
-description: "Formations, tutoriels, articles et podcasts sur Bitcoin par Loïc Morel. Dictionnaire de 1408 définitions techniques."
+description: "Formations, tutoriels, articles et podcasts sur Bitcoin par Loïc Morel. Dictionnaire de définitions techniques sur Bitcoin."
 image: /assets/img/social-card.png
 ---
 
 <section class="hero-section">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h1 class="hero-quote"><span class="hero-quote-mark" aria-hidden="true">></span> J'écris des contenus pédagogiques sur Bitcoin.</h1>
-    </div>
-    <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Loïc Morel" class="hero-photo" loading="eager">
-  </div>
+  <h1 class="hero-quote"><span class="hero-quote-mark" aria-hidden="true">></span> J'écris des contenus pédagogiques sur Bitcoin.</h1>
 </section>
 
 <nav class="category-nav" aria-label="Sections de contenu">
   <a href="#dictionnaire" class="category-nav-item">
     <span class="category-nav-label">Dictionnaire</span>
-    <span class="category-nav-count">1408 définitions</span>
+    <span class="category-nav-count">{{ site.dictionnaire | size }} définitions</span>
   </a>
   <a href="#formations" class="category-nav-item">
     <span class="category-nav-label">Formations</span>
@@ -32,21 +27,32 @@ image: /assets/img/social-card.png
   </a>
 </nav>
 
-<section id="dictionnaire" class="portfolio-section dict-section">
-  <div class="dict-section-inner">
-    <div class="dict-section-left">
-      <h2>Dictionnaire de Bitcoin</h2>
-      <p class="dict-section-stats"><span class="dict-section-number">1408</span> définitions</p>
+<section id="dictionnaire" class="portfolio-section">
+  <div class="dict-hero">
+    <div class="dict-hero-left">
+      <h2 style="font-size:clamp(22px, 3.5vw, 26px); margin:0 0 var(--space-xs);">Dictionnaire de Bitcoin</h2>
+      <p class="dict-stats"><span class="dict-stats-number">{{ site.dictionnaire | size }}</span> définitions</p>
     </div>
-    <div class="dict-section-right">
-      <p class="dict-section-desc">Le Dictionnaire de Bitcoin est un ouvrage open source qui recense l'ensemble des définitions couvrant le vocabulaire technique de Bitcoin et de son écosystème. Il est disponible gratuitement en ligne ou bien à la vente en version imprimée.</p>
+    <div class="dict-hero-right">
+      <p class="dict-intro">Le Dictionnaire de Bitcoin est un ouvrage open source qui recense l'ensemble des définitions couvrant le vocabulaire technique de Bitcoin et de son écosystème. Le projet est collaboratif et ouvert aux contributions, sous licence CC BY-NC-SA 4.0. Il est disponible gratuitement en ligne ou bien à la vente en version imprimée sur Amazon et Bitcoin Bazar.</p>
     </div>
   </div>
-  <div class="dict-section-buttons">
-    <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
-    <a href="https://bitcoinbazar.fr/" class="btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
-    <a href="{{ '/dictionnaire/' | relative_url }}" class="btn-secondary btn-sm">Explorer le dictionnaire</a>
-  </div>
+
+  <aside class="definition-cta definition-cta--landing">
+    <div class="definition-cta-row">
+      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
+      <div class="definition-cta-buttons">
+        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
+      </div>
+    </div>
+    <div class="definition-cta-row">
+      <p class="definition-cta-text">Explorez les définitions en ligne</p>
+      <div class="definition-cta-buttons">
+        <a href="{{ '/dictionnaire/' | relative_url }}" class="btn btn-secondary btn-sm">Explorer le dictionnaire</a>
+      </div>
+    </div>
+  </aside>
 </section>
 
 <section id="formations" class="portfolio-section">
@@ -78,7 +84,8 @@ image: /assets/img/social-card.png
 
   <div class="content-list">
     <h3 class="content-list-heading">Toutes les formations</h3>
-    {% for item in site.data.formations %}
+    {% assign sorted_formations = site.data.formations | sort: "title" %}
+    {% for item in sorted_formations %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{% if item.code %}{{ item.code }} — {% endif %}{{ item.title }}</span>
       <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
@@ -110,7 +117,8 @@ image: /assets/img/social-card.png
 
   <div class="content-list">
     <h3 class="content-list-heading">Tous les tutoriels et articles</h3>
-    {% for item in site.data.ecrits %}
+    {% assign sorted_ecrits = site.data.ecrits | sort: "title" %}
+    {% for item in sorted_ecrits %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{{ item.title }}</span>
       <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
@@ -142,7 +150,8 @@ image: /assets/img/social-card.png
 
   <div class="content-list">
     <h3 class="content-list-heading">Tous les podcasts</h3>
-    {% for item in site.data.audio-video %}
+    {% assign sorted_av = site.data.audio-video | sort: "title" %}
+    {% for item in sorted_av %}
     <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
       <span class="content-list-title">{{ item.title }}</span>
       <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
