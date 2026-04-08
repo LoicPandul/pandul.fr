@@ -1,0 +1,140 @@
+# Auto-genere par sync-dictionnaire.js — ne pas modifier manuellement
+total: 1408
+category_count: 19
+categories:
+  - name: "ATTAQUE"
+    slug: "attaque"
+    count: 35
+  - name: "BIP"
+    slug: "bip"
+    count: 197
+  - name: "COMMUNAUTÉ"
+    slug: "communaute"
+    count: 13
+  - name: "CONFIDENTIALITÉ"
+    slug: "confidentialite"
+    count: 66
+  - name: "COUCHE SUPÉRIEURE"
+    slug: "couche-superieure"
+    count: 57
+  - name: "CRYPTOGRAPHIE"
+    slug: "cryptographie"
+    count: 64
+  - name: "ÉCONOMIE ET RÉGULATION"
+    slug: "economie-et-regulation"
+    count: 58
+  - name: "HISTOIRE"
+    slug: "histoire"
+    count: 38
+  - name: "INFORMATIQUE"
+    slug: "informatique"
+    count: 61
+  - name: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+    count: 134
+  - name: "MINAGE"
+    slug: "minage"
+    count: 87
+  - name: "ORGANISATION"
+    slug: "organisation"
+    count: 37
+  - name: "OUTIL"
+    slug: "outil"
+    count: 49
+  - name: "PORTEFEUILLE"
+    slug: "portefeuille"
+    count: 121
+  - name: "PROTOCOLE"
+    slug: "protocole"
+    count: 168
+  - name: "RÉSEAU"
+    slug: "reseau"
+    count: 57
+  - name: "RGB"
+    slug: "rgb"
+    count: 37
+  - name: "SCRIPT"
+    slug: "script"
+    count: 113
+  - name: "SIDECHAIN"
+    slug: "sidechain"
+    count: 16
+letters:
+  - letter: "A"
+    slug: "a"
+    count: 64
+  - letter: "B"
+    slug: "b"
+    count: 334
+  - letter: "C"
+    slug: "c"
+    count: 132
+  - letter: "D"
+    slug: "d"
+    count: 45
+  - letter: "E"
+    slug: "e"
+    count: 39
+  - letter: "F"
+    slug: "f"
+    count: 41
+  - letter: "G"
+    slug: "g"
+    count: 29
+  - letter: "H"
+    slug: "h"
+    count: 33
+  - letter: "I"
+    slug: "i"
+    count: 18
+  - letter: "J"
+    slug: "j"
+    count: 10
+  - letter: "K"
+    slug: "k"
+    count: 7
+  - letter: "L"
+    slug: "l"
+    count: 48
+  - letter: "M"
+    slug: "m"
+    count: 63
+  - letter: "N"
+    slug: "n"
+    count: 30
+  - letter: "O"
+    slug: "o"
+    count: 119
+  - letter: "P"
+    slug: "p"
+    count: 91
+  - letter: "Q"
+    slug: "q"
+    count: 3
+  - letter: "R"
+    slug: "r"
+    count: 49
+  - letter: "S"
+    slug: "s"
+    count: 134
+  - letter: "T"
+    slug: "t"
+    count: 46
+  - letter: "U"
+    slug: "u"
+    count: 12
+  - letter: "V"
+    slug: "v"
+    count: 21
+  - letter: "W"
+    slug: "w"
+    count: 20
+  - letter: "X"
+    slug: "x"
+    count: 6
+  - letter: "Y"
+    slug: "y"
+    count: 2
+  - letter: "Z"
+    slug: "z"
+    count: 12
