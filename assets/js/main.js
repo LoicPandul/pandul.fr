@@ -1,6 +1,10 @@
 // Navigation flottante — masquage au scroll + ouverture liens externes
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Elements partages header + menu
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+
   // Header flottant : masque au scroll vers le bas, reapparait au scroll vers le haut
   const card = document.getElementById('headerCard');
   if (card) {
@@ -9,8 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function onScroll() {
       const y = window.pageYOffset || document.documentElement.scrollTop;
-      // Masquer apres 80px de defilement vers le bas
-      if (y > 80 && y > lastY) {
+      // Masquer apres 80px de defilement vers le bas (sauf si menu ouvert)
+      const menuOpen = navToggle && navToggle.classList.contains('open');
+      if (!menuOpen && y > 80 && y > lastY) {
         card.classList.add('hide');
       } else {
         card.classList.remove('hide');
@@ -28,8 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Menu hamburger mobile
-  const navToggle = document.getElementById('navToggle');
-  const siteNav = document.getElementById('siteNav');
   if (navToggle && siteNav) {
     navToggle.addEventListener('click', () => {
       const isOpen = navToggle.classList.toggle('open');

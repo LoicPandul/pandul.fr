@@ -1082,7 +1082,7 @@
 
 - title: "Seedkeeper x SeedSigner"
   url: "https://planb.academy/fr/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579"
-  description: "Utiliser Seedkeeper avec SeedSigner"
+  description: "Comment utiliser un Seedkeeper avec son SeedSigner ?"
   platform: "Plan ₿ Academy"
   type: "tutoriel"
   featured: true
@@ -1131,7 +1131,7 @@
 
 - title: "Sparrow Wallet"
   url: "https://planb.academy/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d"
-  description: "Le meilleur logiciel de portefeuille Bitcoin"
+  description: "Installer, configurer et utiliser Sparrow Wallet"
   platform: "Plan ₿ Academy"
   type: "tutoriel"
   featured: true
