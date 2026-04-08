@@ -6,7 +6,7 @@ permalink: /dictionnaire/
 <div class="dict-hero">
   <div class="dict-hero-left">
     <h1>Dictionnaire de Bitcoin</h1>
-    <p class="dict-stats"><span class="dict-stats-number">1408</span> définitions</p>
+    <p class="dict-stats"><span class="dict-stats-number">{{ site.data.dictionnaire-stats.total }}</span> définitions</p>
   </div>
   <div class="dict-hero-right">
     <p class="dict-intro">Le Dictionnaire de Bitcoin est un ouvrage open source qui recense l'ensemble des définitions couvrant le vocabulaire technique de Bitcoin et de son écosystème. Le projet est collaboratif et ouvert aux contributions, sous licence CC BY-NC-SA 4.0. Il est disponible gratuitement en ligne ou bien à la vente en version imprimée sur Amazon et Bitcoin Bazar.</p>
@@ -70,83 +70,13 @@ permalink: /dictionnaire/
   <div class="category-grid">
     <a href="/dictionnaire/lettre/a/" class="category-card category-card--all">
       <span class="category-card-name">Toutes les définitions</span>
-      <span class="category-card-count">1408 définitions</span>
+      <span class="category-card-count">{{ site.data.dictionnaire-stats.total }} définitions</span>
     </a>
-    <a href="/dictionnaire/categorie/attaque/" class="category-card">
-      <span class="category-card-name">Attaque</span>
-      <span class="category-card-count">35 définitions</span>
+    {% for cat in site.data.dictionnaire-stats.categories %}
+    <a href="/dictionnaire/categorie/{{ cat.slug }}/" class="category-card">
+      <span class="category-card-name">{{ cat.name }}</span>
+      <span class="category-card-count">{{ cat.count }} définitions</span>
     </a>
-    <a href="/dictionnaire/categorie/bip/" class="category-card">
-      <span class="category-card-name">BIP</span>
-      <span class="category-card-count">197 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/communaute/" class="category-card">
-      <span class="category-card-name">Communauté</span>
-      <span class="category-card-count">13 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/confidentialite/" class="category-card">
-      <span class="category-card-name">Confidentialité</span>
-      <span class="category-card-count">66 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/couche-superieure/" class="category-card">
-      <span class="category-card-name">Couche Supérieure</span>
-      <span class="category-card-count">57 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/cryptographie/" class="category-card">
-      <span class="category-card-name">Cryptographie</span>
-      <span class="category-card-count">64 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/economie-et-regulation/" class="category-card">
-      <span class="category-card-name">Économie et Régulation</span>
-      <span class="category-card-count">58 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/histoire/" class="category-card">
-      <span class="category-card-name">Histoire</span>
-      <span class="category-card-count">38 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/informatique/" class="category-card">
-      <span class="category-card-name">Informatique</span>
-      <span class="category-card-count">61 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/lightning-network/" class="category-card">
-      <span class="category-card-name">Lightning Network</span>
-      <span class="category-card-count">134 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/minage/" class="category-card">
-      <span class="category-card-name">Minage</span>
-      <span class="category-card-count">87 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/organisation/" class="category-card">
-      <span class="category-card-name">Organisation</span>
-      <span class="category-card-count">37 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/outil/" class="category-card">
-      <span class="category-card-name">Outil</span>
-      <span class="category-card-count">49 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/portefeuille/" class="category-card">
-      <span class="category-card-name">Portefeuille</span>
-      <span class="category-card-count">121 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/protocole/" class="category-card">
-      <span class="category-card-name">Protocole</span>
-      <span class="category-card-count">168 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/reseau/" class="category-card">
-      <span class="category-card-name">Réseau</span>
-      <span class="category-card-count">57 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/rgb/" class="category-card">
-      <span class="category-card-name">RGB</span>
-      <span class="category-card-count">37 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/script/" class="category-card">
-      <span class="category-card-name">Script</span>
-      <span class="category-card-count">113 définitions</span>
-    </a>
-    <a href="/dictionnaire/categorie/sidechain/" class="category-card">
-      <span class="category-card-name">Sidechain</span>
-      <span class="category-card-count">16 définitions</span>
-    </a>
+    {% endfor %}
   </div>
 </section>
