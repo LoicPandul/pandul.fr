@@ -42,7 +42,7 @@ image: /assets/img/social-card.png
     <div class="definition-cta-row">
       <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
       <div class="definition-cta-buttons">
-        <a href="https://bitcoinbazar.fr/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+        <a href="https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
         <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
       </div>
     </div>
