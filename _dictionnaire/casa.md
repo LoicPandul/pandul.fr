@@ -1,0 +1,24 @@
+---
+title: "CASA"
+slug: "casa"
+permalink: /dictionnaire/casa/
+category: "ORGANISATION"
+letter: "C"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "BULL BITCOIN"
+  slug: "bull-bitcoin"
+next_in_category:
+  title: "CHAINALYSIS"
+  slug: "chainalysis"
+cross_references:
+  - title: "MULTISIG"
+    slug: "multisig"
+  - title: "HARDWARE WALLET"
+    slug: "hardware-wallet"
+---
+
+Entreprise américaine proposant des solutions de sécurisation de bitcoins en multisig pour les particuliers. Casa offre un service où les clés privées sont réparties entre l'utilisateur (sur son *hardware wallet* et son téléphone) et Casa (qui détient une clé de récupération d'urgence). Ce modèle en 2-de-3 ou 3-de-5 permet de sécuriser ses fonds sans point unique de défaillance, tout en disposant d'une option de récupération en cas de perte d'un appareil.
+
+Casa propose également un protocole d'héritage intégré. L'utilisation se fait via une application mobile et le service fonctionne sur abonnement avec différents niveaux de sécurité.

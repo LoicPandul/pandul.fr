@@ -1,0 +1,22 @@
+---
+title: "LIGHTNING LABS"
+slug: "lightning-labs"
+permalink: /dictionnaire/lightning-labs/
+category: "ORGANISATION"
+letter: "L"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "LEDGER - ENTREPRISE"
+  slug: "ledger-entreprise"
+next_in_category:
+  title: "LIGHTSPARK"
+  slug: "lightspark"
+cross_references:
+  - title: "LND"
+    slug: "lnd"
+  - title: "LOOP"
+    slug: "loop"
+---
+
+Entreprise fondée en 2016 par Elizabeth Stark et Olaoluwa Osuntokun, spécialisée dans le développement d'infrastructures pour le Lightning Network. Lightning Labs est le principal mainteneur de LND, l'une des implémentations les plus répandues du protocole Lightning. L'entreprise développe également un écosystème d'outils complémentaires : Lightning Loop pour les *submarine swaps*, Lightning Pool pour la liquidité, Faraday pour l'analyse de nœud, Lightning Terminal pour l'interface graphique, et le protocole Taproot Assets pour l'émission d'actifs sur Bitcoin.

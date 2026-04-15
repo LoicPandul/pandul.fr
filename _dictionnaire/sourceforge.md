@@ -1,0 +1,20 @@
+---
+title: "SOURCEFORGE"
+slug: "sourceforge"
+permalink: /dictionnaire/sourceforge/
+category: "INFORMATIQUE"
+letter: "S"
+layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "SMT - SPARSE MERKLE TREE"
+  slug: "smt-sparse-merkle-tree"
+next_in_category:
+  title: "SPOF"
+  slug: "spof"
+cross_references:
+  - title: "GITHUB"
+    slug: "github"
+---
+
+Plateforme web d'hébergement et de distribution de logiciels *open source*, fondée en 1999. SourceForge a joué un rôle historique dans les débuts de Bitcoin : le projet y a été enregistré par Satoshi Nakamoto en novembre 2008, et la première version du logiciel (v0.1) y a été publiée en janvier 2009. La plateforme a également hébergé le forum de discussion initial de la communauté Bitcoin, ainsi que la liste de diffusion bitcoin-dev à ses débuts. Le projet Bitcoin a ensuite migré vers GitHub, devenu le principal outil de collaboration pour le développement du protocole.

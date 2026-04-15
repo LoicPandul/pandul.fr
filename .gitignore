@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .bundle/
+.claude/
+.planning/
+CLAUDE.md

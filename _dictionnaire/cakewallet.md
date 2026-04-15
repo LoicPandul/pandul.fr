@@ -1,0 +1,22 @@
+---
+title: "CAKE WALLET"
+slug: "cakewallet"
+permalink: /dictionnaire/cakewallet/
+category: "PORTEFEUILLE"
+letter: "C"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "CAHOOTS"
+  slug: "cahoots"
+next_in_category:
+  title: "CHAINE EXTERNE"
+  slug: "chaine-externe"
+cross_references:
+  - title: "PORTEFEUILLE"
+    slug: "portefeuille"
+  - title: "COINJOIN"
+    slug: "coinjoin"
+---
+
+Portefeuille open source disponible sur iOS, Android, macOS, Linux et Windows, initialement conçu pour Monero puis étendu à Bitcoin et d'autres cryptomonnaies. CakeWallet se distingue dans l'écosystème Bitcoin par son intégration de fonctionnalités de confidentialité, notamment le support des *Silent Payments* et de *Payjoin v2*. Le portefeuille est non-custodial et permet à l'utilisateur de conserver le contrôle de ses clés privées. Il propose un service d'échange intégré pour convertir entre différentes cryptomonnaies, ainsi qu'une intégration native de Tor pour renforcer la confidentialité au niveau du réseau.

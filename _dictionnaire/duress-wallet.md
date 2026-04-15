@@ -1,0 +1,25 @@
+---
+title: "DURESS WALLET"
+slug: "duress-wallet"
+permalink: /dictionnaire/duress-wallet/
+category: "PORTEFEUILLE"
+letter: "D"
+layout: definition
+french_term: "PORTEFEUILLE DE CONTRAINTE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "DÉRIVATION NORMALE"
+  slug: "derivation-normale"
+next_in_category:
+  title: "DUST"
+  slug: "dust"
+cross_references:
+  - title: "PASSPHRASE - BIP-0039"
+    slug: "passphrase-bip-0039"
+---
+
+Portefeuille secondaire conçu pour offrir un déni plausible en cas de contrainte physique. Lorsqu'un utilisateur est forcé de déverrouiller son *signing device* sous la menace (scénario dit « *5 dollars wrench attack* »), il saisit un code PIN spécial dit « PIN de contrainte » qui ouvre un portefeuille qui contient une somme réduite. L'agresseur ne peut pas déterminer si un autre portefeuille existe sur l'appareil.
+
+Le *duress wallet* dérive d'une seed ou d'un chemin de dérivation distinct de celui du portefeuille principal. Son interface et son fonctionnement sont identiques, ce qui empêche de distinguer les deux. Sur certains *signing devices* comme le Coldcard, cette fonctionnalité repose sur un PIN dédié ; sur d'autres appareils, la passphrase BIP-0039 remplit un rôle similaire en donnant accès à un portefeuille entièrement différent selon la passphrase saisie.
+
+Le principe suppose de maintenir un solde crédible dans le *duress wallet* pour que le leurre soit convaincant.

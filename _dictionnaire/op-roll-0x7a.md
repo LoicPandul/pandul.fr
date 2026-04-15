@@ -1,0 +1,22 @@
+---
+title: "OP_ROLL - 0X7A"
+slug: "op-roll-0x7a"
+permalink: /dictionnaire/op-roll-0x7a/
+category: "SCRIPT"
+letter: "O"
+layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_RIPEMD160 - 0XA6"
+  slug: "op-ripemd160-0xa6"
+next_in_category:
+  title: "OP_ROT - 0X7B"
+  slug: "op-rot-0x7b"
+cross_references:
+  - title: "OP_PICK - 0X79"
+    slug: "op-pick-0x79"
+  - title: "PILE"
+    slug: "pile"
+---
+
+Déplace un élément de la pile en haut de la pile, en fonction de la profondeur spécifiée par la valeur en haut de la pile avant l'opération. Par exemple, si la valeur en haut de la pile est `4`, `OP_ROLL` va sélectionner le cinquième élément de la pile en partant du sommet (l'indexation commence à `0`), et il va déplacer cette valeur au sommet. `OP_ROLL` joue le même rôle que `OP_PICK`, mis à part qu'il retire l'élément de sa position initiale.

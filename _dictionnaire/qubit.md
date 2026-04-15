@@ -1,0 +1,22 @@
+---
+title: "QUBIT"
+slug: "qubit"
+permalink: /dictionnaire/qubit/
+category: "INFORMATIQUE"
+letter: "Q"
+layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "QR CODE"
+  slug: "qr-code"
+next_in_category:
+  title: "RÉSISTANCE AU PARTITIONNEMENT"
+  slug: "resistance-au-partitionnement"
+cross_references:
+  - title: "BIT"
+    slug: "bit"
+  - title: "CRYPTOGRAPHIE"
+    slug: "cryptographie"
+---
+
+Unité d'information de base sur un ordinateur quantique. Ces qubits peuvent prendre la valeur de 0, la valeur de 1, ou bien une superposition du 0 et du 1. En utilisant cette superposition d'états avec d'autres phénomènes quantiques tels que l'intrication et l'interférence quantique, un ordinateur quantique peut paralléliser les processus de calculs, et donc résoudre certains problèmes spécifiques beaucoup plus rapidement.

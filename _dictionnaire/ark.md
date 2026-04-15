@@ -1,0 +1,27 @@
+---
+title: "ARK"
+slug: "ark"
+permalink: /dictionnaire/ark/
+category: "COUCHE SUPÉRIEURE"
+letter: "A"
+layout: definition
+category_slug: "couche-superieure"
+next_in_category:
+  title: "ASP - ARK SERVICE PROVIDER"
+  slug: "asp-ark-service-provider"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "COINJOIN"
+    slug: "coinjoin"
+  - title: "VTXO"
+    slug: "vtxo"
+---
+
+Protocole de couche supérieure de type joinpool sur Bitcoin, proposé par Burak Keceli en mai 2023 et implémenté à partir de 2024 par Ark Labs. Ark permet de partager des UTXO on-chain entre plusieurs utilisateurs via des *Virtual Transaction Outputs* (VTXO) afin d'améliorer le passage à l'échelle de Bitcoin.
+
+Le protocole s'articule autour d'*Ark Service Providers* (ASP), des opérateurs qui organisent périodiquement des « rounds » au cours desquels les VTXO des utilisateurs sont consolidés et ancrés dans de nouvelles transactions Bitcoin on-chain. Ce mécanisme empêche toute réserve fractionnaire. Les transferts entre utilisateurs d'un même ASP sont rapides, peu coûteux et offrent une confidentialité comparable à celle d'un coinjoin. Des paiements « hors round » sont également possibles pour un règlement immédiat, au prix d'une confiance temporaire envers l'ASP et l'expéditeur.
+
+Le protocole est non-custodial, mais les VTXO expirent après une période définie. Si l'utilisateur ne se manifeste pas avant l'expiration, l'ASP peut récupérer la liquidité. L'utilisateur conserve la possibilité d'effectuer une sortie unilatérale on-chain à tout moment.
+
+La version implémentée sans covenants, appelée *clArk*, émule les conditions de dépense par des multisignatures n-parmi-n entre participants d'un round, au prix d'une surcharge en bande passante et en stockage. L'ajout de covenants à Bitcoin améliorerait la scalabilité et réduirait l'interactivité requise. Ark est complémentaire du Lightning Network et interopérable via des passerelles.

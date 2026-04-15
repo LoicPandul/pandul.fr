@@ -1,0 +1,26 @@
+---
+title: "SWAP-IN POTENTIAM"
+slug: "swap-in-potentiam"
+permalink: /dictionnaire/swap-in-potentiam/
+category: "LIGHTNING NETWORK"
+letter: "S"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SUBMARINE SWAP"
+  slug: "submarine-swap"
+next_in_category:
+  title: "SWAPROOT"
+  slug: "swaproot"
+cross_references:
+  - title: "GOSSIP"
+    slug: "gossip"
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+---
+
+Protocole qui permet de transférer des bitcoins on-chain vers le Lightning Network de manière quasi instantanée, sans recourir aux canaux en 0-conf. Proposé par Jesse Posner et ZmnSCPxj en 2023, il repose sur une adresse on-chain partagée entre l'utilisateur (Alice) et un LSP (Bob).
+
+Cette adresse encode deux chemins de dépense : un chemin coopératif, où Alice et Bob signent conjointement pour déplacer les fonds, et un chemin de récupération unilatérale, où Alice peut reprendre ses bitcoins après l'expiration d'un *timelock*. Lorsque des fonds sont reçus et confirmés sur cette adresse, Alice peut, avec l'aide du LSP, les basculer immédiatement dans un canal Lightning existant ou nouveau, via le chemin coopératif. Si le LSP est indisponible, Alice conserve la possibilité de récupérer ses fonds on-chain après le délai prévu.
+
+L'avantage principal du *Swap-in Potentiam* est de réduire les exigences de confiance par rapport à d'autres méthodes d'ouverture instantanée de canaux. La copropriété temporaire des fonds et le *timelock* de sécurité garantissent que ni Alice ni le LSP ne peuvent voler les fonds. Le portefeuille Phoenix de la société ACINQ utilise une variante de ce protocole appelée « Swaproot », adaptée aux contraintes des terminaux mobiles dont la connectivité est intermittente.

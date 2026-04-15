@@ -1,0 +1,24 @@
+---
+title: "WALLET OF SATOSHI"
+slug: "wallet-of-satoshi"
+permalink: /dictionnaire/wallet-of-satoshi/
+category: "LIGHTNING NETWORK"
+letter: "W"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "VLS"
+  slug: "vls-validating-lightning-signer"
+next_in_category:
+  title: "WATCHTOWER"
+  slug: "watchtower"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "LNURL"
+    slug: "lnurl"
+---
+
+Portefeuille mobile spécialisé dans les paiements via le Lightning Network. Wallet of Satoshi est conçu pour offrir une expérience d'utilisation simplifiée : l'utilisateur peut envoyer et recevoir des paiements Lightning en quelques secondes, sans aucune configuration technique.
+
+Historiquement, Wallet of Satoshi fonctionnait sur un modèle *custodial* : l'entreprise détenait les clés privées et gérait les fonds au nom de l'utilisateur. Ce modèle simplifie l'utilisation, mais implique un compromis : l'utilisateur doit faire confiance au fournisseur pour la garde de ses bitcoins. Depuis 2025, WoS propose également en option une intégration du protocole Spark, permettant ainsi d'adopter un modèle *self-custodial*.

@@ -1,0 +1,22 @@
+---
+title: "SRC-20"
+slug: "src-20"
+permalink: /dictionnaire/src-20/
+category: "COUCHE SUPÉRIEURE"
+letter: "S"
+layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "SPARK TREE"
+  slug: "spark-tree"
+next_in_category:
+  title: "STAMPS"
+  slug: "stamps"
+cross_references:
+  - title: "STAMPS"
+    slug: "stamps"
+  - title: "BRC-20"
+    slug: "brc-20"
+---
+
+Norme de token fongible sur Bitcoin qui repose sur le protocole STAMPS pour inscrire les métadonnées directement dans les UTXO. Contrairement à la norme BRC-20, qui stocke ses données dans la partie *witness* des transactions (susceptible d'être élaguée par les nœuds), les données SRC-20 sont inscrites dans les sorties non dépensées, ce qui les rend permanentes et non supprimables.

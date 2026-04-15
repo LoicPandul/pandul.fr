@@ -1,0 +1,22 @@
+---
+title: "BITKEY"
+slug: "bitkey"
+permalink: /dictionnaire/bitkey/
+category: "PORTEFEUILLE"
+letter: "B"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "BITCOIN KEEPER"
+  slug: "bitcoin-keeper"
+next_in_category:
+  title: "BITKIT"
+  slug: "bitkit"
+cross_references:
+  - title: "HARDWARE WALLET"
+    slug: "hardware-wallet"
+  - title: "MULTISIG"
+    slug: "multisig"
+---
+
+Portefeuille matériel (*hardware wallet*) développé par Block, Inc. (anciennement Square), la société fondée par Jack Dorsey. Lancé en décembre 2023, Bitkey repose sur une architecture multisignature 2-de-3 qui répartit les clés entre le dispositif physique, une application mobile et un serveur de récupération chiffré géré par Block. Cette conception vise à simplifier la *self-custody* pour les utilisateurs non techniques en éliminant le besoin de gérer soi-même une phrase de récupération. Le dispositif se présente sous une forme compacte qui intègre un capteur d'empreinte digitale et communique avec l'application via NFC.

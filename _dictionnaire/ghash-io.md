@@ -1,0 +1,22 @@
+---
+title: "GHASH.IO"
+slug: "ghash-io"
+permalink: /dictionnaire/ghash-io/
+category: "MINAGE"
+letter: "G"
+layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "GETWORK"
+  slug: "getwork"
+next_in_category:
+  title: "HACHEUR"
+  slug: "hacheur"
+cross_references:
+  - title: "MINING POOL"
+    slug: "mining-pool"
+  - title: "ATTAQUE DES 51%"
+    slug: "attaque-des-51-pour-cent"
+---
+
+Ancienne pool de minage de Bitcoin opérée par la société CEX.IO, basée au Royaume-Uni. Ghash.io est principalement connue pour avoir brièvement dépassé 51 % du hashrate total du réseau Bitcoin en juin 2014, soulevant des craintes concrètes quant à la possibilité d'une attaque des 51 %. Bien que la pool n'ait pas exploité cette position dominante à des fins malveillantes, cet événement a constitué un signal d'alarme pour la communauté Bitcoin, illustrant les risques de centralisation liés aux pools de minage. De nombreux mineurs ont volontairement quitté Ghash.io dans les jours suivants afin de redistribuer le hashrate vers d'autres pools. Ghash.io a ensuite progressivement perdu de son importance avant de cesser ses activités.

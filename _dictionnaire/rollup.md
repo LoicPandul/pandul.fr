@@ -1,0 +1,22 @@
+---
+title: "ROLLUP"
+slug: "rollup"
+permalink: /dictionnaire/rollup/
+category: "COUCHE SUPÉRIEURE"
+letter: "R"
+layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "PASSIVE ASSETS"
+  slug: "passive-assets"
+next_in_category:
+  title: "ROUND ARK"
+  slug: "round-ark"
+cross_references:
+  - title: "CITREA"
+    slug: "citrea"
+  - title: "SURCOUCHE"
+    slug: "surcouche"
+---
+
+Solution de passage à l'échelle de couche 2 (*Layer 2*) qui exécute les transactions en dehors de la chaîne principale, puis publie les données et/ou des preuves de validité sur celle-ci. Le principe consiste à regrouper (*roll up*) de nombreuses transactions en lots traités hors chaîne, tout en ancrant périodiquement un résumé cryptographique sur la couche de base pour hériter de ses garanties de sécurité. Il existe deux grandes familles de rollups. Les *optimistic rollups* supposent les transactions valides par défaut et n'exigent une preuve qu'en cas de contestation (preuve de fraude). Les *ZK rollups* (ou *validity rollups*) publient à chaque lot une preuve cryptographique (SNARK ou STARK) attestant de la validité de toutes les transactions. L'intérêt principal est d'augmenter considérablement le débit transactionnel et de réduire les frais, sans sacrifier la sécurité offerte par la couche de base. Dans le contexte de Bitcoin, des projets comme Citrea ou les Brollups explorent cette approche en utilisant Bitcoin comme couche de disponibilité des données et de règlement final.

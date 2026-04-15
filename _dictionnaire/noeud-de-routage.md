@@ -1,0 +1,25 @@
+---
+title: "NŒUD DE ROUTAGE"
+slug: "noeud-de-routage"
+permalink: /dictionnaire/noeud-de-routage/
+category: "LIGHTNING NETWORK"
+letter: "N"
+layout: definition
+english_term: "ROUTING NODE"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "MPP - MULTI-PATH PAYMENTS"
+  slug: "mpp-multi-path-payments"
+next_in_category:
+  title: "NOEUD LIGHTNING"
+  slug: "noeud-lightning"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "HTLC"
+    slug: "htlc"
+---
+
+Nœud du Lightning Network qui achemine les paiements entre d'autres nœuds en servant d'intermédiaire dans le routage des transactions. Lorsqu'un paiement est envoyé entre deux utilisateurs qui ne partagent pas de canal direct, le réseau Lightning identifie un chemin composé d'un ou plusieurs nœuds de routage pour relayer les fonds de proche en proche via des HTLC. Chaque nœud de routage verrouille temporairement les fonds dans un canal, puis les transmet au nœud suivant, en percevant éventuellement de petits frais de routage en contrepartie de ce service. Les nœuds de routage jouent un rôle essentiel pour la connectivité du réseau Lightning, car ils permettent d'atteindre n'importe quel destinataire sans nécessiter de canal direct avec chaque contrepartie. Un bon nœud de routage maintient une liquidité suffisante et une bonne connectivité avec les autres nœuds du réseau.
+
+Par extension, opérer un nœud de routage peut constituer une stratégie pour un opérateur de nœud souhaitant générer des revenus grâce aux frais de routage.

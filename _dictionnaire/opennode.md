@@ -1,0 +1,20 @@
+---
+title: "OPENNODE"
+slug: "opennode"
+permalink: /dictionnaire/opennode/
+category: "ORGANISATION"
+letter: "O"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "NODL"
+  slug: "nodl"
+next_in_category:
+  title: "OPENSATS"
+  slug: "opensats"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+---
+
+Plateforme de traitement de paiements en bitcoins. OpenNode fournit une API qui permet aux commerçants et aux développeurs d'accepter des paiements en bitcoin, à la fois sur la chaîne principale et via le Lightning Network. La plateforme propose des pages de paiement, des liens de facturation et des outils d'intégration. Les commerçants utilisant ce service ont le choix de récupérer leurs fonds en bitcoins ou directement en monnaie fiat sur leur compte bancaire. À noter qu'OpenNode n'est pas un terminal de paiement en *self-custody*, contrairement à BTCPayServer par exemple.

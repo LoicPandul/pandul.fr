@@ -1,0 +1,24 @@
+---
+title: "BLOCK-RELAY-ONLY"
+slug: "block-relay-only"
+permalink: /dictionnaire/block-relay-only/
+category: "RÉSEAU"
+letter: "B"
+layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "BANLIST.JSON"
+  slug: "banlist-json"
+next_in_category:
+  title: "BLOOM FILTER"
+  slug: "bloom-filter"
+cross_references:
+  - title: "ECLIPSE"
+    slug: "eclipse"
+  - title: "PAIR SORTANT"
+    slug: "pair-sortant"
+---
+
+Type de connexion sortante dans Bitcoin Core qui ne relaie que les blocs, sans échanger de transactions ni d'adresses de nœuds. Depuis la version 0.19.0 (novembre 2019), chaque nœud établit par défaut 2 connexions *block-relay-only* en plus de ses 8 connexions sortantes classiques.
+
+Ces connexions renforcent la résistance au partitionnement du réseau et la protection contre les attaques éclipse, car elles augmentent la connectivité du nœud sans révéler d'information sur la topologie du réseau. En effet, les transactions et les adresses constituent les principaux vecteurs par lesquels un adversaire peut cartographier les liens entre nœuds. L'absence de ces échanges rend les connexions *block-relay-only* invisibles pour un espion qui analyse la propagation des transactions. Elles garantissent ainsi au nœud un accès à la blockchain légitime même si toutes ses connexions classiques sont compromises.

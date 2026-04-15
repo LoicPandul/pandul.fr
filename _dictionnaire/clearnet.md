@@ -1,0 +1,22 @@
+---
+title: "CLEARNET"
+slug: "clearnet"
+permalink: /dictionnaire/clearnet/
+category: "RÉSEAU"
+letter: "C"
+layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "BUCKETING"
+  slug: "bucketing"
+next_in_category:
+  title: "COMPACT BLOCK FILTERS"
+  slug: "compact-block-filters"
+cross_references:
+  - title: "TOR"
+    slug: "tor-the-onion-router"
+---
+
+Terme désignant l'internet conventionnel, par opposition aux réseaux superposés comme Tor ou I2P. Sur le *clearnet*, les communications transitent avec des adresses IP identifiables, ce qui les rend observables par les fournisseurs d'accès, les opérateurs réseau ou tout intermédiaire.
+
+Dans le contexte de Bitcoin et du Lightning Network, utiliser le *clearnet* signifie que l'adresse IP d'un nœud est directement visible par ses pairs et par les observateurs du réseau. De nombreux opérateurs de nœuds préfèrent se connecter exclusivement via Tor pour protéger leur identité, même si le *clearnet* offre des connexions plus rapides et plus stables. Certaines configurations hybrides permettent aux nœuds d'être accessibles à la fois sur Tor et sur le *clearnet*.

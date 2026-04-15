@@ -1,0 +1,27 @@
+---
+title: "LOTTERY MINING"
+slug: "lottery-mining"
+permalink: /dictionnaire/lottery-mining/
+category: "MINAGE"
+letter: "L"
+layout: definition
+french_term: "MINAGE PAR LOTERIE"
+category_slug: "minage"
+prev_in_category:
+  title: "IP REPORT"
+  slug: "ip-report"
+next_in_category:
+  title: "LUCK"
+  slug: "luck"
+cross_references:
+  - title: "SOLO MINING"
+    slug: "solo-mining"
+  - title: "BITAXE"
+    slug: "bitaxe"
+---
+
+Forme de *solo mining* dans laquelle un mineur utilise un appareil à faible hashrate pour tenter de trouver un bloc de manière autonome, sans rejoindre de pool. La probabilité de succès est extrêmement faible, mais la récompense en cas de découverte d'un bloc est perçue intégralement par le mineur.
+
+Les appareils utilisés sont généralement des ASIC compacts ou open-source comme le Bitaxe, dont le hashrate se situe autour de 0,5 à 1,2 TH/s selon le modèle. À cette puissance, les chances de résoudre un bloc sont d'environ une sur plusieurs millions par période de dix minutes. Certains mineurs se connectent à des services de *solo mining* comme Solo CKPool ou Braiins Solo, qui leur fournissent des *templates* de blocs et relaient les blocs valides au réseau, sans mutualiser les récompenses.
+
+La démarche relève davantage du hobby que d'une activité rentable. Ses adeptes la justifient par la contribution à la décentralisation du hashrate et par l'attrait d'une récompense intégrale en cas de succès.

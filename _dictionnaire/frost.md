@@ -1,0 +1,25 @@
+---
+title: "FROST"
+slug: "frost"
+permalink: /dictionnaire/frost/
+category: "CRYPTOGRAPHIE"
+letter: "F"
+layout: definition
+french_term: "SIGNATURES SCHNORR A SEUIL"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "FONCTION DE HACHAGE TAGUÉE"
+  slug: "fonction-de-hachage-taguee"
+next_in_category:
+  title: "GNPA"
+  slug: "gnpa"
+cross_references:
+  - title: "SCHNORR"
+    slug: "schnorr-protocole"
+  - title: "FROSTSNAP"
+    slug: "frostsnap"
+---
+
+Protocole de signatures à seuil Schnorr proposé par Chelsea Komlo et Ian Goldberg en 2020, dont l'acronyme signifie *Flexible Round-Optimized Schnorr Threshold Signatures*. FROST optimise le processus de signature collaborative en le réduisant à deux tours de communication entre les participants, voire à un seul tour lorsqu'un prétraitement des nonces est effectué.
+
+Le protocole repose sur un schéma à seuil (t, n) : parmi n participants qui détiennent chacun un fragment de la clé privée, au moins t d'entre eux doivent coopérer pour produire une signature valide. La signature produite est une signature Schnorr standard conforme au BIP-0340, indiscernable d'une signature émise par un paiement classique. Cette propriété est particulièrement intéressante dans le contexte de Taproot, car elle permet de réaliser des opérations multisignatures on-chain sans révéler la structure à seuil sous-jacente, ce qui améliore la confidentialité et réduit les frais de transaction.

@@ -1,0 +1,26 @@
+---
+title: "OP_CHECKSIGFROMSTACK - 0XCC"
+slug: "op-checksigfromstack-0xcc"
+permalink: /dictionnaire/op-checksigfromstack-0xcc/
+category: "SCRIPT"
+letter: "O"
+layout: definition
+category_slug: "script"
+prev_in_category:
+  title: "OP_CHECKSIGADD - 0XBA"
+  slug: "op-checksigadd-0xba"
+next_in_category:
+  title: "OP_CHECKSIGVERIFY - 0XAD"
+  slug: "op-checksigverify-0xad"
+cross_references:
+  - title: "BIP-0348"
+    slug: "bip-0348"
+  - title: "OP_CHECKSIG - 0XAC"
+    slug: "op-checksig-0xac"
+---
+
+Opcode `0xcc` proposé dans le BIP-0348 pour Tapscript, en remplacement de `OP_SUCCESS204`. Contrairement à `OP_CHECKSIG`, qui vérifie une signature sur un hash dérivé de la transaction courante, `OP_CHECKSIGFROMSTACK` permet de vérifier une signature Schnorr sur un message arbitraire fourni directement sur la pile.
+
+L'exécution commence par la lecture de trois éléments depuis le sommet de la pile : la clé publique (sommet), le message (deuxième position) et la signature (troisième position). Ces trois éléments sont ensuite retirés de la pile. Si la clé publique est vide, le script échoue immédiatement. Si elle fait 32 octets, elle est interprétée comme une clé BIP-0340 : une signature non vide est alors validée selon le schéma Schnorr contre cette clé et le message, et toute signature invalide provoque l'arrêt du script. Une signature vide pousse un vecteur vide sur la pile et l'exécution continue normalement. Une signature valide pousse la valeur `0x01`. Les clés d'une longueur différente de 0 et de 32 octets sont traitées comme des types inconnus, et leur vérification réussit systématiquement afin de permettre de futures extensions.
+
+Chaque vérification avec une signature non vide est comptabilisée dans le budget de sigops défini par le BIP-0342. Cette capacité à authentifier des données arbitraires ouvrirait des possibilités comme l'introspection de transaction, la délégation de droits de dépense et la construction de canaux Lightning Symmetry. Cette proposition est pour le moment toujours en brouillon, donc non implémentée sur Bitcoin.

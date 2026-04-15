@@ -1,0 +1,22 @@
+---
+title: "BITBANANA"
+slug: "bitbanana"
+permalink: /dictionnaire/bitbanana/
+category: "OUTIL"
+letter: "B"
+layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "BISQ"
+  slug: "bisq"
+next_in_category:
+  title: "BITCOIN CORE GUI-QML"
+  slug: "bitcoin-core-gui-qml"
+cross_references:
+  - title: "LND"
+    slug: "lnd"
+  - title: "NOEUD LIGHTNING"
+    slug: "noeud-lightning"
+---
+
+BitBanana est une application Android open source permettant de gérer à distance un nœud Lightning depuis son téléphone. Né comme un fork du portefeuille Zap Android (créé par Jack Mallers), le projet a été repris et renommé par le développeur Michael Wünsch pour poursuivre un développement indépendant. L'application offre une interface complète pour superviser et piloter son nœud : gestion des canaux, envoi et réception de paiements, consultation des logs et des statistiques de routage. BitBanana est compatible avec LND, Core Lightning et Nostr Wallet Connect, ce qui en fait un outil polyvalent pour les opérateurs de nœuds Lightning.

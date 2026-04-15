@@ -1,0 +1,22 @@
+---
+title: "DAEMON"
+slug: "daemon"
+permalink: /dictionnaire/daemon/
+category: "INFORMATIQUE"
+letter: "D"
+layout: definition
+category_slug: "informatique"
+prev_in_category:
+  title: "CPU - CENTRAL PROCESSING UNIT"
+  slug: "cpu-central-processing-unit"
+next_in_category:
+  title: "DÉPÔT"
+  slug: "depot"
+cross_references:
+  - title: "BITCOIND"
+    slug: "bitcoind"
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+---
+
+Type de programme informatique qui fonctionne en arrière-plan, indépendamment du contrôle de l'utilisateur. Ces programmes effectuent des tâches telles que la gestion de services réseau, la surveillance de systèmes, et la réponse à des requêtes sans nécessiter d'intervention directe. Dans le contexte de Bitcoin Core, le daemon s'appelle « `bitcoind` ». Il représente la version de Bitcoin Core sans interface utilisateur, qui fonctionne exclusivement en ligne de commande.

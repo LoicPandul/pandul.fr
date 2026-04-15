@@ -1,0 +1,25 @@
+---
+title: "CONFIDENTIAL TRANSACTIONS"
+slug: "confidential-transactions"
+permalink: /dictionnaire/confidential-transactions/
+category: "CRYPTOGRAPHIE"
+letter: "C"
+layout: definition
+french_term: "TRANSACTIONS CONFIDENTIELLES"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "CONDENSAT"
+  slug: "condensat"
+next_in_category:
+  title: "COURBE ELLIPTIQUE"
+  slug: "courbe-elliptique"
+cross_references:
+  - title: "ZKP - ZERO-KNOWLEDGE PROOF"
+    slug: "zkp-zero-knowledge-proof"
+  - title: "BORROMEAN RING SIGNATURES"
+    slug: "borromean-ring-signatures"
+---
+
+Protocole cryptographique implémenté sur le réseau Liquid qui permet de masquer les montants et les types d'actifs transférés dans une transaction, tout en permettant aux nœuds du réseau de vérifier sa validité. Les *Confidential Transactions* reposent sur des engagements de Pedersen (Pedersen *commitments*) pour dissimuler les valeurs, et sur des preuves de portée (*rangeproofs*) pour garantir que les montants engagés sont positifs et n'entraînent pas de création monétaire illégitime.
+
+Ce mécanisme a été proposé par Adam Back en 2013, puis formalisé et implémenté par Gregory Maxwell. Les CT sont déployées sur Liquid depuis son lancement en 2018. Les premières versions utilisaient des signatures en anneau de Borromée (Borromean *ring signatures*) pour les preuves de portée, avant d'adopter des preuves plus efficaces comme les Bulletproofs.

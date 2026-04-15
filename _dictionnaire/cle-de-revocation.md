@@ -1,0 +1,29 @@
+---
+title: "CLÉ DE RÉVOCATION"
+slug: "cle-de-revocation"
+permalink: /dictionnaire/cle-de-revocation/
+category: "LIGHTNING NETWORK"
+letter: "C"
+layout: definition
+english_term: "REVOCATION KEY"
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CIRCULAR REBALANCE"
+  slug: "circular-rebalance"
+next_in_category:
+  title: "CLN - C-LIGHTNING"
+  slug: "cln-c-lightning"
+cross_references:
+  - title: "TRANSACTION DE PÉNALITÉ"
+    slug: "transaction-de-penalite"
+math: true
+---
+
+Clé cryptographique utilisée dans le Lightning Network pour permettre la punition d'un pair qui publie un ancien état de canal. Chaque transaction d'engagement contient une sortie `to_local` qui offre deux chemins de dépense :
+* l'un soumis à un délai relatif (`OP_CHECKSEQUENCEVERIFY`) pour le propriétaire,
+* l'autre immédiatement dépensable par la contrepartie si elle détient la clé de révocation correspondante.
+
+La clé de révocation est construite de manière collaborative. Pour une transaction d'engagement donnée, Alice fournit un point d'engagement ($$C_A$$) et Bob fournit un point de base de révocation ($$R_B$$). La clé publique de révocation est calculée comme suit :
+$Rev\ =\ R_B \cdot SHA256(R_B\ \Vert\ C_A)\ +\ C_A \cdot SHA256(C_A\ \Vert\ R_B)$
+
+Ni Alice ni Bob ne peuvent dériver seuls la clé privée correspondante. Lorsque l'état du canal est mis à jour, Alice révèle le secret $$c_A$$ associé à son point d'engagement. Bob peut alors combiner $$c_A$$ avec son propre secret $$r_B$$ pour obtenir la clé privée de révocation et, le cas échéant, construire une transaction de pénalité.

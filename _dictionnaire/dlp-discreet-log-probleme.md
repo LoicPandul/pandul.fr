@@ -1,0 +1,24 @@
+---
+title: "DLP - DISCRETE LOGARITHM PROBLEM"
+slug: "dlp-discreet-log-probleme"
+permalink: /dictionnaire/dlp-discreet-log-probleme/
+category: "CRYPTOGRAPHIE"
+letter: "D"
+layout: definition
+french_term: "PROBLÈME DU LOGARITHME DISCRET"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "DKG"
+  slug: "dkg"
+next_in_category:
+  title: "ECDH"
+  slug: "ecdh"
+cross_references:
+  - title: "DIFFIE-HELLMAN"
+    slug: "diffie-hellman"
+  - title: "ECDSA"
+    slug: "ecdsa"
+math: true
+---
+
+Le problème du logarithme discret (DLP) est un problème mathématique sur lequel s'appuie la sécurité des algorithmes cryptographiques à clé publique, notamment ceux utilisés sur Bitcoin. Dans un groupe cyclique d'ordre $$q$$, avec un générateur $$g$$, si l'on a une équation de la forme $$g^x = h$$, alors $$x$$ est appelé le logarithme discret de $$h$$ par rapport à la base $$g$$, modulo $$q$$. En termes simples, il s'agit de déterminer l'exposant $$x$$ lorsqu'on connaît $$g$$, $$h$$, et $$q$$. Le logarithme discret est donc la réciproque de l'exponentielle dans un groupe cyclique fini. Cependant, pour de grandes valeurs de $$q$$, résoudre le problème du logarithme discret est considéré comme algorithmiquement difficile. Cette propriété est exploitée pour assurer la sécurité de nombreux protocoles cryptographiques, tels que le protocole de Diffie-Hellman pour l'échange de clés. Le logarithme discret est aussi utilisé dans la cryptographie à courbes elliptiques (ECC), entre autres dans l'algorithme ECDSA (*Elliptic Curve Digital Signature Algorithm*). Dans le contexte des courbes elliptiques, le problème du logarithme discret s'étend à la recherche d'un scalaire $$k$$ tel que $$k \cdot G = K$$, où $$G$$ et $$K$$ sont des points sur la courbe, et $$\cdot$$ représente l'opération de multiplication de points. Dans le contexte de Bitcoin, les transactions standards utilisent soit ECDSA, soit le protocole de Schnorr, afin de bloquer des UTXOs. Ils reposent tous deux sur l'impossibilité de calculer le logarithme discret.

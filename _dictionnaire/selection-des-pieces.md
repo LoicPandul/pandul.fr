@@ -1,0 +1,23 @@
+---
+title: "SÉLECTION DES PIÈCES"
+slug: "selection-des-pieces"
+permalink: /dictionnaire/selection-des-pieces/
+category: "PORTEFEUILLE"
+letter: "S"
+layout: definition
+english_term: "COIN SELECTION"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "SEGWIT V1"
+  slug: "segwit-v1"
+next_in_category:
+  title: "SELF-CUSTODY"
+  slug: "self-custody"
+cross_references:
+  - title: "COIN CONTROL"
+    slug: "coin-control"
+  - title: "KNAPSACK SOLVER"
+    slug: "knapsack-solver"
+---
+
+Processus par lequel un logiciel de portefeuille Bitcoin choisit quels UTXOs utiliser comme entrées pour satisfaire les sorties d'une transaction. La méthode de sélection des pièces est importante, car elle a des conséquences sur le coût d'une transaction et la confidentialité de l'utilisateur. Elle vise souvent à minimiser le nombre d'entrées utilisées, afin de réduire la taille de la transaction et les frais associés, tout en tentant de préserver la confidentialité en évitant de fusionner des pièces provenant de sources différentes (CIOH). Plusieurs méthodes existent pour la sélection des pièces, comme le *Knapsack Solver* ou le *Branch-and-Bound*. Lorsque la sélection des pièces est réalisée manuellement par l'utilisateur, on parle alors de « *Coin Control* ».

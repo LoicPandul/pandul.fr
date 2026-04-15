@@ -1,0 +1,22 @@
+---
+title: "BTKN"
+slug: "btkn"
+permalink: /dictionnaire/btkn/
+category: "COUCHE SUPÉRIEURE"
+letter: "B"
+layout: definition
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "BROLLUPS"
+  slug: "brollups"
+next_in_category:
+  title: "CASHU"
+  slug: "cashu"
+cross_references:
+  - title: "SPARK"
+    slug: "spark"
+  - title: "STABLECOIN"
+    slug: "stablecoin"
+---
+
+Standard de jetons (*tokens*) natif du protocole Spark, permettant l'émission et la gestion d'actifs numériques directement sur une couche supérieure de Bitcoin. Les BTKN peuvent représenter des stablecoins, des jetons de fidélité, des points de récompense ou tout autre actif tokenisé. Contrairement aux protocoles de jetons sur d'autres blockchains, les BTKN ne nécessitent pas de smart contracts ni de déploiement complexe : l'émetteur utilise le SDK de Spark pour créer un jeton, en émettre l'offre et effectuer des transferts.

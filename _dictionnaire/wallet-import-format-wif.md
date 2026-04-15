@@ -1,0 +1,22 @@
+---
+title: "WIF - WALLET IMPORT FORMAT"
+slug: "wallet-import-format-wif"
+permalink: /dictionnaire/wallet-import-format-wif/
+category: "PORTEFEUILLE"
+letter: "W"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "WATCH-ONLY WALLET"
+  slug: "watch-only-wallet"
+next_in_category:
+  title: "XPRV"
+  slug: "xprv"
+cross_references:
+  - title: "CLÉ PRIVÉE"
+    slug: "cle-privee"
+  - title: "BASE58CHECK"
+    slug: "base58check"
+---
+
+Méthode pour encoder une clé privée Bitcoin de manière à ce qu'elle puisse être importée ou exportée plus facilement entre différents portefeuilles. Le WIF est établi sur un encodage `Base58Check`, qui inclut des informations sur la version, la compression de la clé publique correspondante et une somme de contrôle pour la détection d'erreurs de saisie. Une clé privée WIF commence par les caractères `5` pour les clés non compressées, ou `K` et `L` pour les clés compressées, et contient tous les caractères nécessaires pour reconstituer la clé privée originale. Le format WIF fournit un moyen standardisé pour transférer une clé privée entre différents logiciels de portefeuille.

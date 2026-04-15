@@ -1,0 +1,20 @@
+---
+title: "FOUNDATION DEVICES"
+slug: "foundation-devices"
+permalink: /dictionnaire/foundation-devices/
+category: "ORGANISATION"
+letter: "F"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "FONDATION BITCOIN"
+  slug: "fondation-bitcoin"
+next_in_category:
+  title: "GALOY"
+  slug: "galoy"
+cross_references:
+  - title: "HARDWARE WALLET"
+    slug: "hardware-wallet"
+---
+
+Entreprise américaine cofondée en 2020 par Zach Herbert, Jacob Johnston, Ken Carpenter et Matt Beach à Boston, spécialisée dans la fabrication de matériel open source pour la sécurisation de bitcoins. Son produit phare, le Passport, est un portefeuille matériel (*hardware wallet*) fonctionnant de manière air-gapped via des QR codes et des cartes microSD, sans aucune connexion réseau directe. Foundation Devices développe également Envoy, une application mobile compagnon qui sert d'interface pour gérer le Passport et interagir avec le réseau Bitcoin. L'ensemble du matériel est assemblé aux États-Unis et le firmware est entièrement open source.

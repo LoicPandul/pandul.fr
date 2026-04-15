@@ -1,0 +1,24 @@
+---
+title: "CHANNEL.DB"
+slug: "channel-db"
+permalink: /dictionnaire/channel-db/
+category: "LIGHTNING NETWORK"
+letter: "C"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "CHANNEL RESERVE"
+  slug: "channel-reserve"
+next_in_category:
+  title: "CIRCULAR REBALANCE"
+  slug: "circular-rebalance"
+cross_references:
+  - title: "SCB - STATIC CHANNEL BACKUP"
+    slug: "scb-static-channel-backup"
+  - title: "TRANSACTION D'ENGAGEMENT"
+    slug: "transaction-d-engagement"
+---
+
+Base de données utilisée par LND pour stocker l'état complet de tous les canaux Lightning d'un nœud. Ce fichier est situé dans le répertoire `.lnd/data/graph/mainnet` et il contient la liste des canaux ouverts, les identifiants des pairs, les dernières transactions d'engagement pour chaque canal et les informations nécessaires pour punir un pair qui tenterait de diffuser un ancien état.
+
+Le fichier `channel.db` évolue en permanence : chaque paiement, chaque routage, chaque ouverture ou fermeture de canal modifie son contenu. C'est pourquoi il ne constitue pas un support de sauvegarde fiable au sens classique. Restaurer une version obsolète de `channel.db` expose l'opérateur au mécanisme de pénalité du protocole Lightning : les pairs peuvent considérer qu'un ancien état est diffusé et récupérer l'intégralité des fonds du canal. La seule utilisation sûre de `channel.db` pour une restauration est la récupération directe depuis une machine qui vient de tomber en panne, ce qui garantit que l'état est bien le plus récent. Pour une sauvegarde fiable, LND propose plutôt le mécanisme de SCB (*Static Channel Backup*).

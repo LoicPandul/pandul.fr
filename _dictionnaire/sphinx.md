@@ -1,0 +1,22 @@
+---
+title: "SPHINX"
+slug: "sphinx"
+permalink: /dictionnaire/sphinx/
+category: "LIGHTNING NETWORK"
+letter: "S"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "SIDECAR TICKET"
+  slug: "sidecar-ticket"
+next_in_category:
+  title: "SPLICING"
+  slug: "splicing"
+cross_references:
+  - title: "ROUTAGE EN OIGNON"
+    slug: "routage-en-oignon"
+  - title: "HTLC"
+    slug: "htlc"
+---
+
+Format de paquets cryptographiques utilisé par le Lightning Network pour acheminer les paiements de manière privée via le routage en oignon. Conçu à l'origine par George Danezis et Ian Goldberg en 2009 pour les réseaux de mixage, il encapsule les instructions de routage dans des couches de chiffrement successives. Chaque nœud intermédiaire ne peut déchiffrer que la couche qui lui est destinée, révélant uniquement le prochain saut sans connaître l'expéditeur ni le destinataire final.

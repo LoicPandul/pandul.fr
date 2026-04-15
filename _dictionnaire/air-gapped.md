@@ -1,0 +1,27 @@
+---
+title: "AIR-GAPPED"
+slug: "air-gapped"
+permalink: /dictionnaire/air-gapped/
+category: "PORTEFEUILLE"
+letter: "A"
+layout: definition
+french_term: "ISOLÉ DU RÉSEAU"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ADRESSE DE RÉCEPTION"
+  slug: "adresse-de-reception"
+next_in_category:
+  title: "AOPP"
+  slug: "aopp"
+cross_references:
+  - title: "COLD WALLET"
+    slug: "cold-wallet"
+  - title: "ADRESSE DE RÉCEPTION"
+    slug: "adresse-de-reception"
+---
+
+Qualifie un dispositif informatique qui est physiquement isolé de tout réseau, y compris Internet, le Wi-Fi, le Bluetooth ou toute autre connexion filaire ou sans fil. Dans le contexte de Bitcoin, un appareil air-gapped est utilisé pour sécuriser les clés privées en les gardant à l'écart de tout vecteur d'attaque en ligne.
+
+Le principe est simple : si un appareil n'est jamais connecté à un réseau, il devient extrêmement difficile pour un attaquant d'y accéder à distance pour extraire des informations sensibles. Un *hardware wallet* air-gapped signe les transactions hors ligne. Les données sont échangées avec l'ordinateur connecté à Internet par un moyen physique, typiquement via une carte microSD ou un QR code, sans jamais établir de connexion directe.
+
+Cette approche représente un des niveaux de sécurité les plus élevés pour la conservation de bitcoins. Des appareils comme le Coldcard, le Passport de Foundation Devices ou le Jade de Blockstream proposent ce mode de fonctionnement.

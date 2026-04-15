@@ -1,0 +1,24 @@
+---
+title: "LIBERTY RESERVE"
+slug: "liberty-reserve"
+permalink: /dictionnaire/liberty-reserve/
+category: "HISTOIRE"
+letter: "L"
+layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "HONG-KONG ROUNDTABLE"
+  slug: "hong-kong-roundtable"
+next_in_category:
+  title: "MTGOX"
+  slug: "mtgox"
+cross_references:
+  - title: "E-GOLD"
+    slug: "e-gold"
+  - title: "ECASH - DAVID CHAUM"
+    slug: "ecash-david-chaum"
+---
+
+Service de monnaie numérique basé au Costa Rica, fondé par Arthur Budovsky en 2006. Il permettait de créer des comptes avec une vérification d'identité minimale et de transférer des fonds libellés en « Liberty Reserve Dollars » (LR) ou en euros. Le service est devenu populaire pour les transactions illicites en raison de l'anonymat qu'il offrait. À son apogée, Liberty Reserve comptait plus d'un million d'utilisateurs dans le monde et aurait traité environ 55 millions de transactions.
+
+En mai 2013, le gouvernement américain a saisi le service et inculpé ses opérateurs, accusés d'avoir blanchi plus de 6 milliards de dollars. Avec la fermeture antérieure d'e-gold, cet épisode a confirmé que les systèmes de monnaie numérique centralisés restent vulnérables aux interventions étatiques. Bitcoin, grâce à son architecture décentralisée qui répartit le risque entre ses participants, vise à résister à ce type de fermeture.

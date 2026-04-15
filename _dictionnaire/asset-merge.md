@@ -1,0 +1,23 @@
+---
+title: "ASSET MERGE"
+slug: "asset-merge"
+permalink: /dictionnaire/asset-merge/
+category: "COUCHE SUPÉRIEURE"
+letter: "A"
+layout: definition
+french_term: "FUSION D'ACTIFS"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "ASSET ID"
+  slug: "asset-id"
+next_in_category:
+  title: "ASSET PROOF"
+  slug: "asset-proof"
+cross_references:
+  - title: "TAPROOT ASSETS PROTOCOL"
+    slug: "taproot-assets-protocol"
+  - title: "ASSET SPLIT"
+    slug: "asset-split"
+---
+
+Opération consistant à combiner deux actifs Taproot Assets du même type en un seul au sein d'une même sortie Taproot. Lors d'un *asset merge*, des actifs provenant de sorties Taproot distinctes sont regroupés dans un unique *Merkle-Sum Sparse Merkle Tree* engagé dans une nouvelle transaction. La somme totale à la racine de l'arbre reflète alors l'ensemble des actifs fusionnés. Cette opération est l'inverse d'un *asset split*. Elle permet de consolider des soldes fragmentés après plusieurs réceptions et de simplifier la gestion de l'arbre d'actifs d'un détenteur.

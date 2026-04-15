@@ -1,0 +1,22 @@
+---
+title: "SAT - SATOSHI"
+slug: "sat-satoshi"
+permalink: /dictionnaire/sat-satoshi/
+category: "ÉCONOMIE ET RÉGULATION"
+letter: "S"
+layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "RISQUE DE CONTREPARTIE"
+  slug: "risque-de-contrepartie"
+next_in_category:
+  title: "SEIGNEURIAGE"
+  slug: "seigneuriage"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "BTC"
+    slug: "btc"
+---
+
+Le satoshi, souvent abrégé en « sat », est la plus petite subdivision du bitcoin qui peut être enregistrée sur la blockchain. Il est nommé en l'honneur de l'inventeur de Bitcoin, Satoshi Nakamoto. Un seul bitcoin se divise en 100 000 000 sats, ce qui signifie qu'un satoshi équivaut à 0,00000001 bitcoin. En raison de sa petite valeur unitaire, le sat est souvent utilisé pour établir des prix, en particulier dans les petites transactions. Son utilisation est souvent préférée au BTC sur le Lightning Network.

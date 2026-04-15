@@ -3,40 +3,80 @@ title: "Dictionnaire"
 permalink: /dictionnaire/
 ---
 
-# Dictionnaire de Bitcoin
+<div class="dict-hero">
+  <div class="dict-hero-left">
+    <h1>Dictionnaire de Bitcoin</h1>
+    <p class="dict-stats"><span class="dict-stats-number">{{ site.data.dictionnaire-stats.total }}</span> définitions</p>
+  </div>
+  <div class="dict-hero-right">
+    <p class="dict-intro">Le Dictionnaire de Bitcoin est un ouvrage open source qui recense l'ensemble des définitions couvrant le vocabulaire technique de Bitcoin et de son écosystème. Le projet est collaboratif et ouvert aux contributions, sous licence CC BY-NC-SA 4.0. Il est disponible gratuitement en ligne ou bien à la vente en version imprimée sur Amazon et Bitcoin Bazar.</p>
+  </div>
+</div>
 
-## Tout le vocabulaire technique de Bitcoin.
+<aside class="definition-cta definition-cta--landing">
+  <div class="definition-cta-row">
+    <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
+    <div class="definition-cta-buttons">
+      <a href="https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+      <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
+    </div>
+  </div>
+  <div class="definition-cta-row">
+    <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
+    <div class="definition-cta-buttons">
+      <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
+    </div>
+  </div>
+</aside>
 
-Cet ouvrage recense tous les termes techniques en rapport avec Bitcoin ou son environnement, ainsi que les définitions correspondantes.
+<div class="dict-search dict-search--landing" role="search">
+  <div class="dict-search-inner">
+    <svg class="dict-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="search" class="dict-search-input" placeholder="Rechercher une définition..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchResults" aria-activedescendant="" aria-label="Rechercher une definition">
+    <ul id="searchResults" class="dict-search-results" role="listbox" aria-label="Résultats de recherche"></ul>
+  </div>
+</div>
 
-Rédigé par Loïc Morel, de Pandul, il est accessible gratuitement en version numérique sur [ce dépôt GitHub](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin). Ce livre sera également vendu imprimé sur Amazon plus tard (quand j'aurai le temps ^^). Si le projet intéresse et suscite de l'engagement, je publierai de nouvelles versions actualisées du Dictionnaire de Bitcoin. Ces mises à jour comprendront les modifications proposées par la communauté de contributeurs et les termes nouvellement apparus.
+<nav class="az-bar az-bar--landing" aria-label="Navigation alphabétique">
+  <a href="/dictionnaire/lettre/a/" class="az-letter">A</a>
+  <a href="/dictionnaire/lettre/b/" class="az-letter">B</a>
+  <a href="/dictionnaire/lettre/c/" class="az-letter">C</a>
+  <a href="/dictionnaire/lettre/d/" class="az-letter">D</a>
+  <a href="/dictionnaire/lettre/e/" class="az-letter">E</a>
+  <a href="/dictionnaire/lettre/f/" class="az-letter">F</a>
+  <a href="/dictionnaire/lettre/g/" class="az-letter">G</a>
+  <a href="/dictionnaire/lettre/h/" class="az-letter">H</a>
+  <a href="/dictionnaire/lettre/i/" class="az-letter">I</a>
+  <a href="/dictionnaire/lettre/j/" class="az-letter">J</a>
+  <a href="/dictionnaire/lettre/k/" class="az-letter">K</a>
+  <a href="/dictionnaire/lettre/l/" class="az-letter">L</a>
+  <a href="/dictionnaire/lettre/m/" class="az-letter">M</a>
+  <a href="/dictionnaire/lettre/n/" class="az-letter">N</a>
+  <a href="/dictionnaire/lettre/o/" class="az-letter">O</a>
+  <a href="/dictionnaire/lettre/p/" class="az-letter">P</a>
+  <a href="/dictionnaire/lettre/q/" class="az-letter">Q</a>
+  <a href="/dictionnaire/lettre/r/" class="az-letter">R</a>
+  <a href="/dictionnaire/lettre/s/" class="az-letter">S</a>
+  <a href="/dictionnaire/lettre/t/" class="az-letter">T</a>
+  <a href="/dictionnaire/lettre/u/" class="az-letter">U</a>
+  <a href="/dictionnaire/lettre/v/" class="az-letter">V</a>
+  <a href="/dictionnaire/lettre/w/" class="az-letter">W</a>
+  <a href="/dictionnaire/lettre/x/" class="az-letter">X</a>
+  <a href="/dictionnaire/lettre/y/" class="az-letter">Y</a>
+  <a href="/dictionnaire/lettre/z/" class="az-letter">Z</a>
+</nav>
 
-La méthode la plus simple pour le consulter est de télécharger le PDF disponible directement [à la racine du dépôt](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/blob/main/Dictionnaire%20de%20Bitcoin.pdf) ou [dans les releases](https://github.com/LoicPandul/Dictionnaire-de-Bitcoin/releases).
-
-À ce jour, le dictionnaire contient 846 définitions, mais j’ai encore de côté une liste d’environ 200 termes à définir. La rédaction n’est donc pas totalement terminée.
-
-<img src="../assets/img/cover-dictionnaire.png" 
-     alt="Cover — Dictionnaire de Bitcoin" 
-     style="width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(0,0,0,.25);" />
-
-Dictionnaire de Bitcoin est un projet ouvert. Vos contributions et relectures sont les bienvenues, notamment :
-
-- La suggestion de nouveaux termes à ajouter (avec ou sans définition) ;
-- La correction d'une définition qui vous semble erronée ou imprécise ;
-- La correction d'une faute d'orthographe ou d'une coquille ;
-- Toute autre suggestion de modification.
-
-L'utilisation de GitHub facilite la collaboration sur ce projet. Si vous souhaitez contribuer, voici comment procéder :
-
-1. Créez votre fork du projet ;
-2. Créez une nouvelle branche établie sur la branche main ;
-3. Rédigez vos suggestions de modification directement sur votre branche ;
-4. Proposez une Pull Request pour fusionner votre branche face à la branche main du dépôt source.
-
-Si vous n'êtes pas familier avec Git et GitHub, je vous ai préparé un tutoriel détaillé expliquant comment soumettre facilement des modifications via l'interface web de GitHub. Il est disponible sur mon site web :
-
-https://www.pandul.fr/post/contribuer-sur-le-dictionnaire-de-bitcoin
-
-Si vous souhaitez soutenir ce projet, vous pouvez aussi le partager sur les réseaux sociaux ou me faire un don sur mon addresse LN.
-
-Merci !
+<section class="category-grid-section">
+  <div class="category-grid">
+    <a href="/dictionnaire/lettre/a/" class="category-card category-card--all">
+      <span class="category-card-name">Toutes les définitions</span>
+      <span class="category-card-count">{{ site.data.dictionnaire-stats.total }} définitions</span>
+    </a>
+    {% for cat in site.data.dictionnaire-stats.categories %}
+    <a href="/dictionnaire/categorie/{{ cat.slug }}/" class="category-card">
+      <span class="category-card-name">{{ cat.name }}</span>
+      <span class="category-card-count">{{ cat.count }} définitions</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

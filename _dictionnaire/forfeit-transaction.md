@@ -1,0 +1,27 @@
+---
+title: "FORFEIT TRANSACTION"
+slug: "forfeit-transaction"
+permalink: /dictionnaire/forfeit-transaction/
+category: "COUCHE SUPÉRIEURE"
+letter: "F"
+layout: definition
+french_term: "TRANSACTION DE FORFAIT"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "FEDIMINT"
+  slug: "fedimint"
+next_in_category:
+  title: "INSCRIPTIONS"
+  slug: "inscriptions"
+cross_references:
+  - title: "ROUND ARK"
+    slug: "round-ark"
+  - title: "CONNECTOR"
+    slug: "connector"
+---
+
+Transaction par laquelle un utilisateur du protocole Ark cède la propriété de son VTXO d'entrée à l'*Ark Service Provider* (ASP) lors d'un round. L'ASP avançant la liquidité on-chain pour créer les nouveaux VTXO de sortie, il récupère en contrepartie les anciens VTXO des utilisateurs via ces transactions de forfait.
+
+La forfeit transaction exploite la clause de forfait (*forfeit clause*) inscrite dans la politique du VTXO, qui consiste en un multisig entre l'utilisateur et l'ASP. Sans mécanisme de protection supplémentaire, signer cette transaction reviendrait à céder son VTXO sans aucune garantie d'obtenir un nouveau VTXO en retour. Pour résoudre ce problème, un *connector output* issu de la transaction de round est ajouté comme entrée supplémentaire dans la forfeit transaction. Ce lien rend la transaction invalide tant que la transaction de round n'est pas confirmée on-chain, garantissant ainsi l'atomicité : l'utilisateur ne perd son ancien VTXO que si les nouveaux VTXO du round sont effectivement créés.
+
+Le mécanisme de la forfeit transaction est également repris dans le cadre des paiements OOR (*out-of-round*), où la clause de forfait est réutilisée pour transférer un VTXO directement à un autre utilisateur sans passer par un round.

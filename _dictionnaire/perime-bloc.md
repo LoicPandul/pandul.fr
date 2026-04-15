@@ -1,0 +1,23 @@
+---
+title: "PÉRIMÉ - BLOC"
+slug: "perime-bloc"
+permalink: /dictionnaire/perime-bloc/
+category: "PROTOCOLE"
+letter: "P"
+layout: definition
+english_term: "STALE - BLOCK"
+category_slug: "protocole"
+prev_in_category:
+  title: "P2P - PAIR-À-PAIR"
+  slug: "p2p-pair-a-pair"
+next_in_category:
+  title: "PÉRIODE DE MATURITÉ"
+  slug: "periode-de-maturite"
+cross_references:
+  - title: "ORPHELIN"
+    slug: "orphelin"
+  - title: "MINEUR"
+    slug: "mineur"
+---
+
+Fait référence à un bloc sans enfant : un bloc valide, mais exclu de la chaîne principale de Bitcoin. Il se produit lorsque deux mineurs trouvent un bloc valide sur une même hauteur de chaîne durant un court laps de temps et le diffusent sur le réseau. Les nœuds finissent par choisir un seul bloc à inclure dans la chaîne, selon le principe de la chaîne avec le plus de travail accumulé, rendant l'autre « orphelin », « obsolète » ou « périmé ».

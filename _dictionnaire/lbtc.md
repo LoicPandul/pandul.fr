@@ -1,0 +1,22 @@
+---
+title: "LBTC - LIQUID BITCOIN"
+slug: "lbtc"
+permalink: /dictionnaire/lbtc/
+category: "SIDECHAIN"
+letter: "L"
+layout: definition
+category_slug: "sidechain"
+prev_in_category:
+  title: "FONCTIONNAIRE"
+  slug: "fonctionnaire"
+next_in_category:
+  title: "LIQUID NETWORK"
+  slug: "liquid-network"
+cross_references:
+  - title: "LIQUID NETWORK"
+    slug: "liquid-network"
+  - title: "BTC"
+    slug: "btc"
+---
+
+Symbole boursier (*ticker*) qui désigne le bitcoin circulant sur le Liquid Network, la sidechain fédérée développée par Blockstream. Chaque L-BTC est créé par un processus d'ancrage bilatéral (*peg-in*) : des BTC sont verrouillés sur la chaîne principale dans une adresse contrôlée par la fédération, et un montant équivalent de L-BTC est émis sur Liquid. L'opération inverse (*peg-out*) détruit les L-BTC sur Liquid et libère les BTC correspondants sur la chaîne principale.

@@ -1,0 +1,22 @@
+---
+title: "NO2X"
+slug: "no2x"
+permalink: /dictionnaire/no2x/
+category: "HISTOIRE"
+letter: "N"
+layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "NAMECOIN"
+  slug: "namecoin"
+next_in_category:
+  title: "NYA - NEW YORK AGREEMENT"
+  slug: "nya-new-york-agreement"
+cross_references:
+  - title: "BLOCKSIZE WAR"
+    slug: "blocksize-war"
+  - title: "SEGWIT2X"
+    slug: "segwit2x"
+---
+
+Nom de la campagne lancée en août 2017 suite au verrouillage du soft fork SegWit dont le but est de convaincre les utilisateurs de ne pas implémenter le doublement de la taille des blocs de 1 Mo à 2 Mo tel que prévu dans la mise à jour SEGWIT2X.

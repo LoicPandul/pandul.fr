@@ -1,0 +1,26 @@
+---
+title: "GRAFTROOT"
+slug: "graftroot"
+permalink: /dictionnaire/graftroot/
+category: "PROTOCOLE"
+letter: "G"
+layout: definition
+category_slug: "protocole"
+prev_in_category:
+  title: "GENÈSE"
+  slug: "genese"
+next_in_category:
+  title: "GUISETTINGS.INI.BAK"
+  slug: "guisettings-ini-bak"
+cross_references:
+  - title: "TAPROOT"
+    slug: "taproot"
+  - title: "SCHNORR"
+    slug: "schnorr-protocole"
+---
+
+Proposition d'amélioration du protocole Bitcoin formulée par Gregory Maxwell en février 2018. Graftroot étend le concept de Taproot en y ajoutant un mécanisme de délégation des conditions de dépense. Avec Taproot, un groupe de participants qui partagent une clé agrégée peut soit dépenser directement avec cette clé, soit révéler un script alternatif contenu dans un arbre de Merkle. Graftroot permet en plus à ces participants de déléguer leur capacité de dépense à des scripts arbitraires en signant ces scripts avec leur clé agrégée.
+
+L'utilité principale de ce protocole réside dans l'absence de limite sur le nombre de conditions de dépense alternatives. Chaque délégation se matérialise par une simple signature Schnorr qui porte sur le script autorisé, sans surcoût proportionnel au nombre de scripts délégués. Dans Taproot, l'ajout de branches dans l'arbre de Merkle accroît la taille de la preuve de dépense, tandis que Graftroot maintient un coût constant.
+
+Graftroot n'a jamais été formalisé sous la forme d'un BIP et n'a pas été intégré au protocole Bitcoin.

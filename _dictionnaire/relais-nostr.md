@@ -1,0 +1,23 @@
+---
+title: "RELAIS NOSTR"
+slug: "relais-nostr"
+permalink: /dictionnaire/relais-nostr/
+category: "RÉSEAU"
+letter: "R"
+layout: definition
+english_term: "NOSTR RELAY"
+category_slug: "reseau"
+prev_in_category:
+  title: "POLITIQUE DE RELAIS DES TX"
+  slug: "politique-de-relais-des-tx"
+next_in_category:
+  title: "RÉSEAU BITCOIN"
+  slug: "reseau-bitcoin"
+cross_references:
+  - title: "NOSTR"
+    slug: "nostr"
+  - title: "P2P - PAIR-À-PAIR"
+    slug: "p2p-pair-a-pair"
+---
+
+Serveur qui constitue l'infrastructure de distribution du protocole Nostr. Un relais accepte les événements publiés par les clients via des connexions WebSocket, les stocke (temporairement ou de façon permanente) et les retransmet aux clients abonnés selon des filtres de requête. Contrairement à un serveur centralisé classique, un relais ne peut pas modifier le contenu des événements qu'il transmet, car ceux-ci sont signés cryptographiquement par leurs auteurs. Chaque relais applique ses propres politiques de modération, de stockage et d'accès. Il existe plusieurs types de relais : publics (ouverts à tous), privés (accès restreint), payants (nécessitant un abonnement) et spécialisés (dédiés à certains types de contenu). Un utilisateur Nostr se connecte généralement à plusieurs relais simultanément pour garantir la redondance et la résistance à la censure.

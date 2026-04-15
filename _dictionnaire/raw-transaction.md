@@ -1,0 +1,33 @@
+---
+title: "RAW TRANSACTION"
+slug: "raw-transaction"
+permalink: /dictionnaire/raw-transaction/
+category: "PORTEFEUILLE"
+letter: "R"
+layout: definition
+french_term: "TRANSACTION BRUTE / TRANSACTION SÉRIALISÉE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "PSBT"
+  slug: "psbt"
+next_in_category:
+  title: "RBF - REPLACE-BY-FEE"
+  slug: "rbf-replace-by-fee"
+cross_references:
+  - title: "TXID - TRANSACTION IDENTIFIER"
+    slug: "txid-transaction-identifier"
+  - title: "ARBRE DE MERKLE"
+    slug: "arbre-de-merkle"
+---
+
+Transaction Bitcoin construite et signée, qui se trouve dans sa forme binaire. Une transaction brute (*raw TX*) est la représentation finale d'une transaction, juste avant qu'elle ne soit diffusée sur le réseau. Cette transaction contient toutes les informations nécessaires à son inclusion dans un bloc :
+* La version ;
+* Le flag ;
+* Les inputs ;
+* Les outputs ;
+* Le locktime ;
+* Le witness.
+
+Ce que l'on appelle « *raw transaction* » représente les données brutes qui sont passées deux fois dans la fonction de hachage `SHA256` pour générer le TXID de la transaction. Pour les transactions SegWit, seule la sérialisation originale (sans le *marker*, le *flag* et le *witness*) est utilisée pour calculer le TXID. Ces données sont ensuite utilisées dans l'arbre de Merkle du bloc pour intégrer la transaction dans la blockchain.
+
+*Ce concept est également parfois nommé « Serialized Transaction ».*

@@ -1,0 +1,23 @@
+---
+title: "CRYPTANALYSE"
+slug: "cryptanalyse"
+permalink: /dictionnaire/cryptanalyse/
+category: "CRYPTOGRAPHIE"
+letter: "C"
+layout: definition
+english_term: "CRYPTANALYSIS"
+category_slug: "cryptographie"
+prev_in_category:
+  title: "COURBE ELLIPTIQUE"
+  slug: "courbe-elliptique"
+next_in_category:
+  title: "CRYPTER"
+  slug: "crypter"
+cross_references:
+  - title: "CRYPTOGRAPHIE"
+    slug: "cryptographie"
+  - title: "CRYPTOLOGIE"
+    slug: "cryptologie"
+---
+
+Étude des techniques mathématiques pour tenter de casser les techniques cryptographiques. Cela inclut les processus de recherche d'erreurs ou de faiblesses dans l'implémentation d'une méthode cryptographique ou dans la méthode cryptographique elle-même.

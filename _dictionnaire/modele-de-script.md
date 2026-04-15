@@ -1,0 +1,23 @@
+---
+title: "MODÈLE DE SCRIPT"
+slug: "modele-de-script"
+permalink: /dictionnaire/modele-de-script/
+category: "SCRIPT"
+letter: "M"
+layout: definition
+english_term: "SCRIPT TEMPLATE"
+category_slug: "script"
+prev_in_category:
+  title: "MINITAPSCRIPT"
+  slug: "minitapscript"
+next_in_category:
+  title: "MULTISIG"
+  slug: "multisig"
+cross_references:
+  - title: "SCRIPT"
+    slug: "script"
+  - title: "P2PKH"
+    slug: "p2pkh"
+---
+
+*Template* permettant l'utilisation de scripts standards. Un modèle de script est essentiellement une petite liste d'*opcodes* mis ensemble pour former une norme qui spécifie une manière d'établir des conditions de dépenses sur des bitcoins. Voici quelques exemples de modèles de script : P2PK, P2PKH, P2WPKH, P2SH...

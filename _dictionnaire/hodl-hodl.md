@@ -1,0 +1,22 @@
+---
+title: "HODL HODL"
+slug: "hodl-hodl"
+permalink: /dictionnaire/hodl-hodl/
+category: "ORGANISATION"
+letter: "H"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "GALOY"
+  slug: "galoy"
+next_in_category:
+  title: "HUMAN RIGHTS FOUNDATION"
+  slug: "human-rights-foundation"
+cross_references:
+  - title: "MULTISIG"
+    slug: "multisig"
+  - title: "PEACH"
+    slug: "peach"
+---
+
+Plateforme d'échange de bitcoins en pair-à-pair (P2P) qui permet aux utilisateurs d'acheter et de vendre des bitcoins directement entre eux, sans intermédiaire custodial. Fondée en 2016, Hodl Hodl se distingue des plateformes d'échange centralisées par le fait qu'elle ne détient jamais les fonds des utilisateurs. Les transactions sont sécurisées grâce à un système d'*escrow* multisig 2-de-3 : les bitcoins sont verrouillés dans une adresse multisignature associée à trois clés (acheteur, vendeur et Hodl Hodl), dont deux suffisent pour libérer les fonds. Ce mécanisme réduit le risque de contrepartie tout en permettant des échanges sans procédure KYC obligatoire. Hodl Hodl organise également la « Baltic Honeybadger Conference », un événement annuel dédié à Bitcoin.

@@ -1,0 +1,17 @@
+---
+title: "ZEROLINK"
+slug: "zerolink"
+permalink: /dictionnaire/zerolink/
+category: "CONFIDENTIALITÉ"
+letter: "Z"
+layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "WHIRLPOOL STAT TOOL"
+  slug: "whirlpool-stat-tool"
+cross_references:
+  - title: "CHAUMIAN COINJOIN"
+    slug: "chaumian-coinjoin"
+---
+
+Protocole de Chaumian coinjoin qui vise à briser toutes les liaisons entre des ensembles de pièces séparées à travers des techniques avancées de mixage. Le protocole ZeroLink se distingue par sa capacité à protéger l'anonymat des utilisateurs contre diverses formes d'analyses de chaîne au niveau de la transaction et du réseau. ZeroLink introduit un cadre pour les portefeuilles de coinjoin, avec l'utilisation de comptes pré-mix et post-mix ségrégués, ainsi qu'une technique de mixage propre : le Chaumian coinjoin. Les deux principales implémentations de ZeroLink ont été Wasabi Wallet (version 1.0) et Whirlpool, disponible sur Samourai Wallet et Sparrow Wallet. Ce protocole [a été introduit par nopara73 et TDevD en 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).

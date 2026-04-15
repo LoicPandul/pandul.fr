@@ -1,0 +1,22 @@
+---
+title: "LNP2PBOT"
+slug: "lnp2pbot"
+permalink: /dictionnaire/lnp2pbot/
+category: "OUTIL"
+letter: "L"
+layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "LNCLI"
+  slug: "lncli"
+next_in_category:
+  title: "MACHANKURA"
+  slug: "machankura"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "PEACH"
+    slug: "peach"
+---
+
+Bot Telegram open source qui permet d'acheter et de vendre des bitcoins en pair-à-pair (P2P) via le Lightning Network. LNP2PBot fonctionne directement dans l'application de messagerie Telegram, où les utilisateurs peuvent créer des offres d'achat ou de vente, et échanger des bitcoins contre des devises locales. Les transactions sont réalisées via le Lightning Network. Un système d'*escrow* intégré au bot sécurise les transactions : il retient temporairement les sats du vendeur jusqu'à confirmation du paiement en devise par l'acheteur.

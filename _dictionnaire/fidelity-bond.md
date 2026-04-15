@@ -1,0 +1,26 @@
+---
+title: "FIDELITY BOND"
+slug: "fidelity-bond"
+permalink: /dictionnaire/fidelity-bond/
+category: "CONFIDENTIALITÉ"
+letter: "F"
+layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ENTROPIE - ANALYSE DE CHAINE"
+  slug: "entropie-analyse"
+next_in_category:
+  title: "HEURISTIQUE D'ANALYSE"
+  slug: "heuristique-d-analyse"
+cross_references:
+  - title: "JOINMARKET"
+    slug: "joinmarket"
+  - title: "COINJOIN"
+    slug: "coinjoin"
+---
+
+Mécanisme par lequel un utilisateur sacrifie délibérément de la valeur en bitcoins pour rendre une identité cryptographique coûteuse à obtenir, ce qui dissuade les attaques Sybil. Le concept, proposé initialement par Peter Todd en 2013, a trouvé son application principale dans JoinMarket, où il renforce la confidentialité des coinjoins.
+
+Dans JoinMarket, un *maker* qui publie un *fidelity bond* de valeur élevée a une probabilité plus grande d'être sélectionné par les *takers* pour participer aux coinjoins, et donc de percevoir des frais. Le moyen le plus courant de créer un *fidelity bond* est d'envoyer des bitcoins vers une adresse verrouillée dans le temps via un `OP_CHECKLOCKTIMEVERIFY`. Ce qui est sacrifié n'est pas le capital lui-même, mais sa valeur temporelle : les bitcoins restent la propriété du *maker*, mais sont immobilisés jusqu'à l'expiration du verrou. Un détenteur long terme peut ainsi constituer un *fidelity bond* à coût quasi nul, puisqu'il ne comptait pas dépenser ses bitcoins avant l'échéance.
+
+Une alternative consiste à détruire des bitcoins en les envoyant vers une sortie `OP_RETURN`, rendant le sacrifice permanent et la preuve triviale à vérifier.

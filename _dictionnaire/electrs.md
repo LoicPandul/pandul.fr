@@ -1,0 +1,20 @@
+---
+title: "ELECTRS"
+slug: "electrs"
+permalink: /dictionnaire/electrs/
+category: "RÉSEAU"
+letter: "E"
+layout: definition
+category_slug: "reseau"
+prev_in_category:
+  title: "DNS SEEDS"
+  slug: "dns-seeds"
+next_in_category:
+  title: "ELECTRUM SERVER"
+  slug: "electrum-server"
+cross_references:
+  - title: "ELECTRUM SERVER"
+    slug: "electrum-server"
+---
+
+Implémentation *open-source* d'Electrum Server écrite en Rust. Le rôle d'un electrs est donc de maintenir un index complet des adresses et des transactions Bitcoin depuis la blockchain fournie par un nœud complet, afin de faire facilement et rapidement des requêtes depuis un logiciel de portefeuille (comme Electrum par exemple).

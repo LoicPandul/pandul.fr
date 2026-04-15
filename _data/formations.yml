@@ -1,0 +1,56 @@
+# Formations pour Plan B Academy
+# 6 cours complets - chaque entrée = 1 cours (pas de chapitres individuels)
+
+- title: "Mettre en place son premier noeud Bitcoin"
+  code: "BTC 202"
+  url: "https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426"
+  description: "Comprendre, installer, configurer et utiliser un noeud Bitcoin"
+  thumbnail: "/assets/img/pbn-btc202-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: true
+
+- title: "La confidentialité sur Bitcoin"
+  code: "BTC 204"
+  url: "https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c"
+  description: "Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin"
+  thumbnail: "/assets/img/pbn-btc204-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: true
+
+- title: "Architecture du portefeuille Bitcoin"
+  code: "CYP 201"
+  url: "https://planb.academy/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f"
+  description: "Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin."
+  thumbnail: "/assets/img/pbn-cyp201-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: true
+
+- title: "Mettre en place son premier noeud Lightning"
+  code: "LNP 202"
+  url: "https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c"
+  description: "Comprendre, installer, configurer et utiliser un noeud Lightning"
+  thumbnail: "/assets/img/pbn-lnp202-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: false
+
+- title: "Introduction au minage de Bitcoin"
+  code: "MIN 101"
+  url: "https://planb.academy/fr/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e"
+  description: "Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zéro"
+  thumbnail: "/assets/img/pbn-min101-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: false
+
+- title: "Améliorer sa sécurité numérique personnelle"
+  code: "SCU 202"
+  url: "https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1"
+  description: "Mettre en place un environnement numérique personnel sécurisé, stable et efficace."
+  thumbnail: "/assets/img/pbn-scu202-thumbnail.webp"
+  platform: "Plan ₿ Academy"
+  type: "formation"
+  featured: false

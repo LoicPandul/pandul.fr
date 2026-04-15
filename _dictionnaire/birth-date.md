@@ -1,0 +1,23 @@
+---
+title: "BIRTH DATE"
+slug: "birth-date"
+permalink: /dictionnaire/birth-date/
+category: "PORTEFEUILLE"
+letter: "B"
+layout: definition
+french_term: "DATE DE NAISSANCE"
+category_slug: "portefeuille"
+prev_in_category:
+  title: "ASHIGARU"
+  slug: "ashigaru"
+next_in_category:
+  title: "BITBOX"
+  slug: "bitbox"
+cross_references:
+  - title: "GRAINE"
+    slug: "graine"
+  - title: "GAP LIMIT"
+    slug: "gap-limit"
+---
+
+Fait référence à la date à laquelle un portefeuille a été créé. Cette information est importante lors de la restauration d'un portefeuille, car elle permet au logiciel de savoir à partir de quel bloc il doit commencer à chercher les transactions associées à ce portefeuille. En connaissant la date de naissance, le logiciel peut efficacement synchroniser et récupérer l'historique des transactions sans avoir à analyser l'ensemble de la blockchain depuis le bloc de Genèse.

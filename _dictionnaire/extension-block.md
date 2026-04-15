@@ -1,0 +1,27 @@
+---
+title: "EXTENSION BLOCK"
+slug: "extension-block"
+permalink: /dictionnaire/extension-block/
+category: "PROTOCOLE"
+letter: "E"
+layout: definition
+french_term: "BLOC D'EXTENSION"
+category_slug: "protocole"
+prev_in_category:
+  title: "EPHEMERAL ANCHORS"
+  slug: "ephemeral-anchors"
+next_in_category:
+  title: "FEE RATE - BITCOIN"
+  slug: "fee-rate-bitcoin"
+cross_references:
+  - title: "SEGWIT"
+    slug: "segwit"
+  - title: "SOFT FORK"
+    slug: "soft-fork"
+  - title: "BLOCKSIZE WAR"
+    slug: "blocksize-war"
+---
+
+Proposition qui vise à augmenter la capacité transactionnelle de Bitcoin par l'ajout d'un bloc secondaire rattaché au bloc principal via un engagement dans la transaction coinbase. Ce concept a été initialement proposé par Johnson Lau en 2013 sous le nom d'« *auxiliary blocks* », puis repris en mars 2017 par Christopher Jeffrey, Joseph Poon, Fedor Indutny et Stephen Pair, en pleine guerre des blocs. Dans ce mécanisme, un mineur inclut dans la coinbase une sortie `OP_RETURN` qui contient la racine de Merkle d'un bloc d'extension. Ce bloc secondaire dispose de son propre ensemble d'UTXO et de ses propres règles de consensus, tout en restant validé par les nœuds complets qui le prennent en charge. Les fonds circulent entre la chaîne principale et le bloc d'extension par des « transactions de résolution » qui consolident les entrées et les sorties entre les deux ensembles.
+
+Cette proposition n'a jamais été formalisée en BIP et n'a pas été activée. Elle a été critiquée pour sa complexité, pour ses effets similaires à ceux d'un hard fork du point de vue économique, et pour l'absence de bénéfices réels par rapport à SegWit.

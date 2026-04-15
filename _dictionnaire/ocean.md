@@ -1,0 +1,22 @@
+---
+title: "OCEAN"
+slug: "ocean"
+permalink: /dictionnaire/ocean/
+category: "MINAGE"
+letter: "O"
+layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "NERDMINER"
+  slug: "nerdminer"
+next_in_category:
+  title: "OFF-GRID"
+  slug: "off-grid"
+cross_references:
+  - title: "MINING POOL"
+    slug: "mining-pool"
+  - title: "MINAGE"
+    slug: "minage"
+---
+
+Pool de minage de Bitcoin lancée en novembre 2023 par Luke Dashjr, développeur historique de Bitcoin Core et Bitcoin Knots. Ocean se distingue par son approche axée sur la décentralisation du minage : les mineurs peuvent sélectionner ou construire eux-mêmes leurs propres *templates* de blocs, ce qui réduit la dépendance envers les opérateurs de pool centralisés. La pool utilise le système de rémunération TIDES (*Transparent Index of Distinct Extended Shares*), qui récompense les mineurs directement via les sorties des transactions *coinbase*. Le projet s'inscrit dans la continuité d'Eligius, la pool de minage que Luke Dashjr avait lancée en 2011.

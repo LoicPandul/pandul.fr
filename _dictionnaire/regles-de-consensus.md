@@ -1,0 +1,29 @@
+---
+title: "RÈGLES DE CONSENSUS"
+slug: "regles-de-consensus"
+permalink: /dictionnaire/regles-de-consensus/
+category: "PROTOCOLE"
+letter: "R"
+layout: definition
+english_term: "CONSENSUS RULES"
+category_slug: "protocole"
+prev_in_category:
+  title: "RÉCURSIF - COVENANT"
+  slug: "recursif-covenant"
+next_in_category:
+  title: "RÈGLES DE STANDARDISATION"
+  slug: "regles-de-standardisation"
+cross_references:
+  - title: "RÈGLES DE STANDARDISATION"
+    slug: "regles-de-standardisation"
+  - title: "SOFT FORK"
+    slug: "soft-fork"
+  - title: "POLITIQUE DE RELAIS"
+    slug: "politique-de-relais"
+---
+
+Règles fondamentales dans Bitcoin, assurant l'intégrité du système en dictant les critères de validation des transactions et des blocs. Ces règles sont partagées et appliquées de manière uniforme par tous les nœuds complets du réseau. Une transaction ou un bloc qui ne respecte pas les règles de consensus est systématiquement rejeté, indépendamment de toute autre considération. Par exemple, une transaction comportant une signature invalide pour l'un de ses *inputs* ne pourra jamais être incluse dans un bloc valide. Un bloc contenant une telle transaction serait lui-même considéré comme invalide par l'ensemble du réseau.
+
+Les règles de consensus se distinguent des règles de politique locale appliquées par chaque nœud (politique de relais, politique de mempool, règles de standardisation). Les règles de politique locales sont configurées individuellement par chaque nœud et peuvent varier de l'un à l'autre, tandis que les règles de consensus sont absolues et identiques pour tous. Ainsi, une transaction valide selon les règles de consensus pourra toujours être incluse dans un bloc, même si elle est jugée non standard par certains nœuds. À l'inverse, une transaction invalide par consensus ne pourra jamais être confirmée, quel que soit le contexte.
+
+Les règles de consensus constituent également la base sur laquelle reposent les soft forks : un soft fork consiste à restreindre les règles de consensus en rendant invalides des transactions ou des blocs qui étaient auparavant valides. Pour faciliter le déploiement d'un soft fork, les règles de standardisation sont souvent utilisées en amont pour rendre non standards les types de transactions qui seront ultérieurement rendus invalides par consensus, ce qui évite qu'un mineur non mis à jour n'inclue ces transactions dans un bloc.

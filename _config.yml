@@ -9,14 +9,14 @@ url: "https://pandul.fr"
 baseurl: ""
 
 permalink: pretty
+
+# Kramdown — proteger le contenu LaTeX ($$ delimiteurs)
+kramdown:
+  math_engine: mathjax
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-redirect-from
-
-exclude:
-  - post/
 
 include:
   - ".well-known"
@@ -30,8 +30,32 @@ social:
     - "https://x.com/Loic_Pandul"
     - "https://github.com/LoicPandul"
 
+# Collections dictionnaire, categorie, lettre
+collections:
+  dictionnaire:
+    output: true
+    permalink: /dictionnaire/:slug/
+  categorie:
+    output: true
+    permalink: /dictionnaire/categorie/:slug/
+  lettre:
+    output: true
+    permalink: /dictionnaire/lettre/:slug/
+
 # Collections par défaut
 defaults:
-  - scope: {path: ""} 
+  - scope: {path: ""}
     values:
       layout: "default"
+  - scope:
+      type: dictionnaire
+    values:
+      layout: "definition"
+  - scope:
+      type: categorie
+    values:
+      layout: "category"
+  - scope:
+      type: lettre
+    values:
+      layout: "letter"

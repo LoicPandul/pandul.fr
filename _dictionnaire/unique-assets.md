@@ -1,0 +1,23 @@
+---
+title: "UNIQUE ASSETS"
+slug: "unique-assets"
+permalink: /dictionnaire/unique-assets/
+category: "COUCHE SUPÉRIEURE"
+letter: "U"
+layout: definition
+french_term: "ACTIFS UNIQUES"
+category_slug: "couche-superieure"
+prev_in_category:
+  title: "TARO"
+  slug: "taro"
+next_in_category:
+  title: "UNIVERSE"
+  slug: "universe"
+cross_references:
+  - title: "TAPROOT ASSETS PROTOCOL"
+    slug: "taproot-assets-protocol"
+  - title: "ASSET SPLIT"
+    slug: "asset-split"
+---
+
+Actifs émis via le protocole Taproot Assets qui sont indivisibles et non interchangeables. Contrairement aux actifs fongibles (comme une monnaie), un actif unique ne peut pas être divisé en fractions, et chaque unité est distincte des autres. Ils sont comparables aux NFT (*non-fungible tokens*) d'autres protocoles. Les *unique assets* peuvent représenter des certificats, des titres de propriété, des objets de collection numériques ou tout élément nécessitant une identification individuelle sur la blockchain Bitcoin.

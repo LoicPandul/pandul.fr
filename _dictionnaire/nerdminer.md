@@ -1,0 +1,22 @@
+---
+title: "NERDMINER"
+slug: "nerdminer"
+permalink: /dictionnaire/nerdminer/
+category: "MINAGE"
+letter: "N"
+layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "MINING POOL"
+  slug: "mining-pool"
+next_in_category:
+  title: "OCEAN"
+  slug: "ocean"
+cross_references:
+  - title: "MINAGE"
+    slug: "minage"
+  - title: "ASIC"
+    slug: "asic"
+---
+
+Projet *open source* de minage solo de Bitcoin qui fonctionne sur des microcontrôleurs ESP32. Créé par BitMaker en 2022, il permet d'assembler un petit mineur à très faible consommation pour découvrir concrètement le fonctionnement du minage. L'appareil peut être connecté à une pool de minage solo comme Public Pool. Avec un *hashrate* d'environ 78 kH/s, les chances de trouver un bloc sont astronomiquement faibles, mais le projet a avant tout une vocation éducative et ludique. NerdMiner affiche sur son écran intégré des statistiques en temps réel sur le hachage et le réseau Bitcoin.

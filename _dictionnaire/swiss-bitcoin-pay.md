@@ -1,0 +1,26 @@
+---
+title: "SWISS BITCOIN PAY"
+slug: "swiss-bitcoin-pay"
+permalink: /dictionnaire/swiss-bitcoin-pay/
+category: "OUTIL"
+letter: "S"
+layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "START9"
+  slug: "start9"
+next_in_category:
+  title: "TAPD"
+  slug: "tapd"
+cross_references:
+  - title: "BTCPAY SERVER"
+    slug: "btcpay-server"
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+---
+
+Solution de terminal de paiement Bitcoin destinée aux commerçants et aux entreprises. Swiss Bitcoin Pay permet d'accepter des paiements en bitcoins, aussi bien *on-chain* que via le Lightning Network, à travers une application mobile ou une API intégrable dans les systèmes de caisse existants.
+
+Le service fonctionne sur un modèle hybride : il facilite la réception des paiements sans que le commerçant ait besoin de gérer lui-même un nœud ou une infrastructure technique, puis il reverse les encaissements automatiquement chaque jour. Les fonds reçus peuvent être conservés en bitcoins, convertis automatiquement en monnaie fiat, ou bien un *mix* des deux, selon les préférences du commerçant.
+
+Swiss Bitcoin Pay se positionne entre les solutions entièrement auto-hébergées comme BTCPay Server et les processeurs de paiement *custodians*, et offre un compromis entre simplicité d'utilisation et souveraineté sur les fonds.

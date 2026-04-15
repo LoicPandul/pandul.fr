@@ -1,0 +1,31 @@
+---
+title: "CHECKPOINTS"
+slug: "checkpoints"
+permalink: /dictionnaire/checkpoints/
+category: "PROTOCOLE"
+letter: "C"
+layout: definition
+french_term: "POINTS DE CONTROLE"
+category_slug: "protocole"
+prev_in_category:
+  title: "CHAINWORK"
+  slug: "chainwork"
+next_in_category:
+  title: "CISA"
+  slug: "cisa"
+cross_references:
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+  - title: "IBD - INITIAL BLOCK DOWNLOAD"
+    slug: "ibd-initial-block-download"
+  - title: "HEADERS-FIRST SYNC"
+    slug: "headers-first-sync"
+  - title: "ASSUME VALID"
+    slug: "assume-valid"
+---
+
+Empreintes de blocs spécifiques qui étaient codées en dur dans Bitcoin Core. Chaque checkpoint associait une hauteur de bloc à un hash attendu, et tout fork en dessous d'un checkpoint déjà synchronisé était rejeté.
+
+Introduit par Satoshi Nakamoto le 17 juillet 2010 (version 0.3.2), ce mécanisme visait à empêcher toute réécriture de la chaîne historique, même par un attaquant disposant d'une majorité de la puissance de calcul. En pratique, les checkpoints servaient surtout de protection anti-DoS lors de l'IBD : sans eux, un attaquant pouvait exploiter le bug du *time warp* pour submerger la mémoire d'un nouveau nœud avec des millions d'en-têtes à difficulté minimale. Mais ces checkpoints n'ajoutaient pas de réelle sécurité au consensus : si les checkpoints devaient influencer le choix de la chaîne, le système serait déjà compromis. Le dernier a été ajouté au bloc 295 000, en avril 2014.
+
+Les checkpoints ont été retirés dans Bitcoin Core 30.0 (octobre 2025), remplacés par le mécanisme de *headers presync* (août 2022) qui vérifie la preuve de travail d'une chaîne avant de stocker ses en-têtes, éliminant toute donnée codée en dur par les développeurs.

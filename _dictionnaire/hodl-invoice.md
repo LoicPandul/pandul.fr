@@ -1,0 +1,24 @@
+---
+title: "HODL INVOICE"
+slug: "hodl-invoice"
+permalink: /dictionnaire/hodl-invoice/
+category: "LIGHTNING NETWORK"
+letter: "H"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "GOSSIP"
+  slug: "gossip"
+next_in_category:
+  title: "HOSTED CHANNEL"
+  slug: "hosted-channel"
+cross_references:
+  - title: "PREIMAGE"
+    slug: "preimage"
+  - title: "HTLC"
+    slug: "htlc"
+---
+
+Type particulier de facture Lightning dans lequel le destinataire reçoit le paiement mais ne révèle pas immédiatement la *preimage* au réseau. Le paiement reste ainsi « suspendu » : les fonds sont bloqués dans les HTLC le long de la route, sans que le destinataire ne les encaisse définitivement. Le destinataire peut ensuite choisir de régler la facture en libérant la *preimage*, ou de l'annuler pour rembourser automatiquement l'expéditeur.
+
+Les *hodl invoices* sont utiles pour les dépôts remboursables, les enchères en ligne, les systèmes d'escrow ou tout mécanisme nécessitant une confirmation conditionnelle avant le règlement final. Elles exploitent la nature même des HTLC : tant que le secret n'est pas révélé, le paiement peut être annulé sans frais.

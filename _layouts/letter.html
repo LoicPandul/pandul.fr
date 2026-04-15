@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="dict-page">
+  <div class="dict-search" role="search">
+    <div class="dict-search-inner">
+      <svg class="dict-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" class="dict-search-input" placeholder="Rechercher une définition..." autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchResults" aria-activedescendant="" aria-label="Rechercher une definition">
+      <ul id="searchResults" class="dict-search-results" role="listbox" aria-label="Résultats de recherche"></ul>
+    </div>
+  </div>
+
+  <nav class="breadcrumbs" aria-label="Fil d'Ariane">
+    <ol>
+      <li><a href="/dictionnaire/">Dictionnaire</a></li>
+      <li aria-current="page">Lettre {{ page.letter }}</li>
+    </ol>
+  </nav>
+
+  <h1>Lettre {{ page.letter }}</h1>
+  <p class="dict-count">{{ page.definition_count }} définitions</p>
+
+  <nav class="az-bar" aria-label="Navigation alphabétique">
+    {%- assign az_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," -%}
+    {%- for letter in az_letters -%}
+      {%- if letter == page.letter -%}
+        <span class="az-letter az-letter--active" aria-current="page">{{ letter }}</span>
+      {%- else -%}
+        <a href="/dictionnaire/lettre/{{ letter | downcase }}/" class="az-letter">{{ letter }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
+
+  {%- if page.definition_count == 0 -%}
+    <p class="dict-empty">Aucune definition pour la lettre {{ page.letter }}.</p>
+  {%- else -%}
+    <div class="dict-list">
+      {%- assign sorted_defs = site.dictionnaire | where: "letter", page.letter | sort: "title" -%}
+      {%- for def in sorted_defs -%}
+        <div class="dict-list-item dict-list-item--with-badge">
+          <a href="{{ def.url }}" class="dict-list-item-title">{{ def.title }}</a>
+          <a href="/dictionnaire/categorie/{{ def.category_slug }}/" class="category-badge">{{ def.category }}</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  <aside class="definition-cta">
+    <div class="definition-cta-row">
+      <p class="definition-cta-heading">Ce dictionnaire existe en version imprimée</p>
+      <div class="definition-cta-buttons">
+        <a href="https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Bitcoin Bazar</a>
+        <a href="https://www.amazon.fr/dp/B0GV1N6S1W" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Acheter sur Amazon</a>
+      </div>
+    </div>
+    <div class="definition-cta-row">
+      <p class="definition-cta-text">Une erreur ? Une amélioration ?</p>
+      <div class="definition-cta-buttons">
+        <a href="https://github.com/LoicPandul/Dictionnaire-de-Bitcoin" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Contribuer sur GitHub</a>
+      </div>
+    </div>
+  </aside>
+</div>

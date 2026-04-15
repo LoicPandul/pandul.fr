@@ -1,0 +1,24 @@
+---
+title: "MAXIMALISTE"
+slug: "maximaliste"
+permalink: /dictionnaire/maximaliste/
+category: "COMMUNAUTÉ"
+letter: "M"
+layout: definition
+category_slug: "communaute"
+prev_in_category:
+  title: "MAINTENEUR PRINCIPAL - CORE"
+  slug: "mainteneur-principal-core"
+next_in_category:
+  title: "PREMIUM"
+  slug: "premium"
+cross_references:
+  - title: "ALTCOIN"
+    slug: "altcoin"
+  - title: "SHITCOIN"
+    slug: "shitcoin"
+  - title: "BITCOIN - B MAJUSCULE"
+    slug: "bitcoin-b-majuscule"
+---
+
+Terme qui désigne une personne convaincue que Bitcoin est la seule cryptomonnaie dotée d'une valeur fondamentale, et que les altcoins sont superflus, voire nuisibles. Le mot est issu de l'anglais *Bitcoin maximalist*, expression forgée par Vitalik Buterin dans un article de blog publié en novembre 2014. Initialement employée de manière péjorative pour critiquer une vision jugée étroite de l'écosystème des cryptomonnaies, l'étiquette a ensuite été revendiquée par ceux qu'elle désignait.

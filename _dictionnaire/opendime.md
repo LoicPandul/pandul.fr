@@ -1,0 +1,24 @@
+---
+title: "OPENDIME"
+slug: "opendime"
+permalink: /dictionnaire/opendime/
+category: "PORTEFEUILLE"
+letter: "O"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "OBJECTIF"
+  slug: "objectif"
+next_in_category:
+  title: "OUTPUT SCRIPT DESCRIPTORS"
+  slug: "output-script-descriptors"
+cross_references:
+  - title: "COINKITE"
+    slug: "coinkite"
+  - title: "SATSCARD"
+    slug: "satscard"
+  - title: "CASASCIUS"
+    slug: "casascius"
+---
+
+Dispositif USB à usage unique fabriqué par Coinkite, conçu comme un actif au porteur pour des bitcoins. L'Opendime génère une clé privée en interne lors de sa première utilisation. Cette clé n'est connue de personne. On peut ensuite envoyer des bitcoins sur l'adresse associée. Pour dépenser les bitcoins sécurisés par cette clé, il faut desceller physiquement le dispositif en insérant une pointe dans un trou prévu à cet effet sur le circuit imprimé. La clé privée est alors révélée au format WIF et l'utilisateur peut dépenser les fonds associés. Tant que le dispositif reste scellé, il peut être transmis de main en main sans générer de transaction on-chain. Le scellement physique permet de vérifier avec certitude, lors d'un échange, que la clé privée n'est pas connue du payeur, simplement en inspectant le dispositif.

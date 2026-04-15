@@ -1,0 +1,22 @@
+---
+title: "STRATUM V2"
+slug: "stratum-v2"
+permalink: /dictionnaire/stratum-v2/
+category: "MINAGE"
+letter: "S"
+layout: definition
+category_slug: "minage"
+prev_in_category:
+  title: "STRATUM"
+  slug: "stratum"
+next_in_category:
+  title: "TIDES"
+  slug: "tides"
+cross_references:
+  - title: "STRATUM"
+    slug: "stratum"
+  - title: "MINING POOL"
+    slug: "mining-pool"
+---
+
+Évolution de Stratum, le célèbre protocole réseau superposé à Bitcoin conçu pour le minage. Ce type de protocole est conçu pour optimiser la communication entre les mineurs individuels et les serveurs des pools de minage afin d'augmenter leur rentabilité. Développé par la pool Braiins (anciennement « Slush Pool »), Stratum V2 introduit plusieurs améliorations, notamment une communication plus efficace entre les mineurs et les pools de minage, réduisant ainsi la bande passante nécessaire. Il réduit également les besoins d'infrastructures pour les pools. En termes de sécurité, il ajoute une authentification cryptographique afin d'empêcher différentes attaques de l'homme du milieu, notamment les écoutes clandestines et la redirection malveillante du hashrate. Un aspect important de Stratum V2 est qu'il inclut des sous-protocoles permettant aux mineurs individuels de choisir leurs propres ensembles de transactions à inclure dans les blocs sur lesquels ils travaillent. Cette fonctionnalité donne plus de pouvoir aux mineurs individuels, contrairement au protocole original où les pools avaient un contrôle total sur le *block template*. Cette méthode permettrait ainsi de renforcer la décentralisation du processus de minage par les pools.

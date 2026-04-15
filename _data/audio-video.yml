@@ -1,0 +1,392 @@
+# Audio / Vidéo - Space Kek + Productions Découvre Bitcoin + Interviews
+# Chaque entrée = un contenu audio ou vidéo
+
+# =====================
+# Space Kek (podcast avec Théo Pantamis, Lounès Ksouri et Sosthène)
+# =====================
+
+- title: "2 ans de Taproot, TapMiniscript et proposition de surestarie"
+  url: "https://podcasts.apple.com/bo/podcast/space-kek-44-bitstream-minitapscript-et-2-ans-de-taproot/id1693844092?i=1000635095762"
+  description: "Space Kek 44 - Bitstream, MiniTapscript et 2 ans de Taproot"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Vulnérabilité sur Lightning et BitVM"
+  url: "https://twitter.com/louneskmt/status/1717262280901922903"
+  description: "Space Kek - Vulnérabilité sur Lightning et BitVM"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Sujets libres Q&A"
+  url: "https://twitter.com/Loic_Pandul/status/1710016961130713463?s=20"
+  description: "Space Kek - Sujets libres et questions-réponses"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les méthodes d'activation de soft forks sur Bitcoin"
+  url: "https://open.spotify.com/episode/6vUk1GjyUfKvGkQNMpP2nG?si=UZEBSGwDT82XlqwTQxkLXQ"
+  description: "Space Kek - Les méthodes d'activation de soft forks sur Bitcoin"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions techniques et sujets libres"
+  url: "https://open.spotify.com/episode/5h2nB69xFjFxkfNYALYQD8?si=UHQLOF6lS5-gwQRLoVvzAA"
+  description: "Space Kek - Questions techniques et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - OP_RETURN, Patoshi, Sidechains et Drivechains"
+  url: "https://open.spotify.com/episode/7sPr9SCQOhCF0FahYTBLeP?si=ZmM7tT42T9izcJQojVUGGg"
+  description: "Space Kek - OP_RETURN, Patoshi, Sidechains et Drivechains"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - PostMix Whirlpool, implémentations de noeuds et programmation sur LN"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-38---Summer-Kek-e287mq3"
+  description: "Space Kek 38 - PostMix Whirlpool, implémentations de noeuds et programmation sur LN"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - BIP322, LN address, horodatage et BTC bloqués"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-37---Summer-Kek-e287lo6"
+  description: "Space Kek 37 - BIP322, LN address, horodatage et BTC bloqués"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - BIP324, division du sat, Tor et anonymat"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-36---Summer-Kek-e287ll8"
+  description: "Space Kek 36 - BIP324, division du sat, Tor et anonymat"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - Outpout Descriptors, Taro et protocole Ark"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-35---Summer-Kek-e287lhm"
+  description: "Space Kek 35 - Outpout Descriptors, Taro et protocole Ark"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Summer Kek - SHA256, RGB et présentation Bleb Wallet"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-34---Summer-Kek-e287lct"
+  description: "Space Kek 34 - SHA256, RGB et présentation Bleb Wallet"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Bitcoin sujets libres et questions techniques"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-33---Bitcoin-Sujets-Libres--Questions-Tech-e287l77"
+  description: "Space Kek 33 - Bitcoin sujets libres et questions techniques"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Dérivations HD et clés étendues"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-32---Drivation-HD-de-cls-publiques-e287kpp"
+  description: "Space Kek 32 - Dérivations HD de clés publiques"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: true
+
+- title: "La machine d'états du protocole RGB"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-31---La-machine--tats-de-RGB-RGB-2-e2665pa"
+  description: "Space Kek 31 - La machine d'états de RGB (RGB 2)"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-30---Questions-et-sujets-libres-e25bg21/a-a9v7opn"
+  description: "Space Kek 30 - Questions et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les cold / hardware wallets"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-29---Cold--hardware-wallets-e24llq2/a-a9t3uif"
+  description: "Space Kek 29 - Cold et hardware wallets"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les piliers du protocole RGB"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-28-----Les-piliers-du-protocole-RGB-e24llou/a-a9t3u5n"
+  description: "Space Kek 28 - Les piliers du protocole RGB"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Sujets libres Q&A"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-27---Sujets-libres-QA-e23jm37/a-a9pp95m"
+  description: "Space Kek 27 - Sujets libres et questions-réponses"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les Discreet Log Contracts (DLC)"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-26---Discreet-Log-Contracts-e23d6s3/a-a9p3mno"
+  description: "Space Kek 26 - Les Discreet Log Contracts (DLC)"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Le futur du Lightning Network"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-25---Le-futur-du-Lightning-Network-e23d6ha/a-a9p3cdk"
+  description: "Space Kek 25 - Le futur du Lightning Network"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les compromis techniques de Bitcoin"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-24---Compromis-techniques-de-Bitcoin-e22le7h/a-a9mnqot"
+  description: "Space Kek 24 - Les compromis techniques de Bitcoin"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-23---Questions-et-sujets-libres-e220ldk/a-a9krd3e"
+  description: "Space Kek 23 - Questions et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Stratum V2"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-22---Stratum-V2-e211u13"
+  description: "Space Kek 22 - Stratum V2"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Les explorateurs de blocs"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-21---Explorateurs-de-blocs-e2065t7/a-a9fg221"
+  description: "Space Kek 21 - Les explorateurs de blocs"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-20---Questions-et-sujets-libres-e206968/a-a9fgbqu"
+  description: "Space Kek 20 - Questions et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Analyse de chaîne, anonsets et entropie"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji"
+  description: "Space Kek 19 - Analyse de chaîne, anonsets et entropie"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: true
+
+- title: "Routing Lightning 2/2"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-18---Routing-Lightning-22-e1v2ih9/a-a9bihpc"
+  description: "Space Kek 18 - Routing Lightning 2/2"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Routing Lightning 1/2"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-17---Routing-Lightning-12-e1ulen5/a-a9a7d0b"
+  description: "Space Kek 17 - Routing Lightning 1/2"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-16---Sujets-libres-e1ueq6s/a-a99icdn"
+  description: "Space Kek 16 - Sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Miniscript, avec Antoine Poinsot"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-15---MiniScript-avec-Antoine-Poinsot-e1u1tv4/a-a984qoq"
+  description: "Space Kek 15 - MiniScript avec Antoine Poinsot"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Payment channels (Lightning)"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-14---Payment-channels-Lightning-e1tt45n/a-a97jn3p"
+  description: "Space Kek 14 - Payment channels (Lightning)"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "SegWit"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-13---Segwit-e1tbj6i/a-a95mu0a"
+  description: "Space Kek 13 - SegWit"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-12---Questions-et-sujets-libres-e1s13hf/a-a912oi2"
+  description: "Space Kek 12 - Questions et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "IBD et consensus"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-11---IBD-et-consensus-e1rl1ss/a-a8vkof6"
+  description: "Space Kek 11 - IBD et consensus"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Coinjoins, avec Thibaud Maréchal"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-10---Coinjoin-e1r8rj6/a-a8u4t8m"
+  description: "Space Kek 10 - Coinjoins avec Thibaud Maréchal"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Questions et sujets libres"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-9---Questions-et-sujets-libres-e1qte55/a-a8so23e"
+  description: "Space Kek 9 - Questions et sujets libres"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Eltoo"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-8---Eltoo-e1qh63g/a-a8r9h6a"
+  description: "Space Kek 8 - Eltoo"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Prouver la possession de fonds sur Bitcoin"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-7---Prouver-la-possession-de-fonds-sur-Bitcoin-e1q9ljk/a-a8qdu0l"
+  description: "Space Kek 7 - Prouver la possession de fonds sur Bitcoin"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Erlay"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-6---Erlay-e1pubep/a-a8p551m"
+  description: "Space Kek 6 - Erlay"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Cross-Input Signature Aggregation (CISA)"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-5---Cross-Input-Signature-Aggregation-e1ph7hh/a-a8ni6t0"
+  description: "Space Kek 5 - Cross-Input Signature Aggregation (CISA)"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Taproot et la structure MAST, en passant par Generalized Taproot et Entroot"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-4---Taproot-et-la-structure-MAST--en-passant-par-Generalized-Taproot-et-Entroot-e1pa651/a-a8mn386"
+  description: "Space Kek 4 - Taproot et la structure MAST"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "MuSig 2"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-3---MuSig2-e1p5igv/a-a8m5sss"
+  description: "Space Kek 3 - MuSig 2"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "Le chiffrement et l'authentification des communications entre les noeuds du réseau Bitcoin"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-2---Le-chiffrement-et-lauthentification-des-communications-entre-les-nuds-du-rseau-Bitcoin-e1omshl/a-a8kf4qf"
+  description: "Space Kek 2 - Le chiffrement et l'authentification des communications entre les noeuds"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+- title: "BIP47 et Silent Payments, ou comment mettre fin au fléau qu'est la réutilisation d'adresses sur Bitcoin ?"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-1---BIP47-et-Silent-Payments--ou-comment-mettre-fin-au-flau-quest-la-rutilisation-dadresses-sur-Bitcoin-e1o7egq/a-a8io34a"
+  description: "Space Kek 1 - BIP47 et Silent Payments"
+  platform: "Space Kek"
+  type: "podcast"
+  featured: false
+
+# =====================
+# Productions pour Découvre Bitcoin
+# =====================
+
+- title: "Les bitcoins sont-ils fongibles"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--Les-bitcoins-sont-ils-fongibles-e21jfa3/a-a9jpkst"
+  description: "Checksum - Les bitcoins sont-ils fongibles"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+- title: "BIP47 et codes de paiement réutilisables"
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--BIP47-et-codes-de-paiement-rutilisables-e1unfeg/a-a9ae4pg"
+  description: "Checksum - BIP47 et codes de paiement réutilisables"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+- title: "Les chemins de dérivation d'un portefeuille Bitcoin."
+  url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/Checksum--Comprendre-les-chemins-de-drivation-dun-portefeuille-Bitcoin-e1r6rro/a-a8ttaif"
+  description: "Checksum - Comprendre les chemins de dérivation d'un portefeuille Bitcoin"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+- title: "Si t'as pas d'amis, utilise JoinBot !"
+  url: "https://decouvrebitcoin.fr/si-tas-pas-damis-utilises-joinbot/"
+  description: "Article sur l'utilisation de JoinBot pour les coinjoins"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+- title: "Tribune sur le KYC et l'identification des bitcoins onchain"
+  url: "https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/"
+  description: "Tribune sur le KYC et l'identification des bitcoins onchain"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+- title: "Formation CRYPTO-301 complète"
+  url: "https://academie.decouvrebitcoin.fr/courses/crypto-301-introduction-a-la-cryptographie/"
+  description: "Formation complète d'introduction à la cryptographie"
+  platform: "Decouvre Bitcoin"
+  type: "production"
+  featured: false
+
+# =====================
+# Podcasts et interviews divers
+# =====================
+
+- title: "Comment préserver sa confidentialité et son anonymat avec Bitcoin ?"
+  url: "https://www.youtube.com/watch?v=hsGWjjp-Mj4"
+  description: "Interview sur la confidentialité et l'anonymat avec Bitcoin"
+  platform: "How to Bitcoin"
+  type: "interview"
+  featured: false
+
+- title: "Space Cryptoast : UTXOs et confidentialité sur Bitcoin"
+  url: "https://x.com/CryptoastMedia/status/1788143368494567758"
+  description: "Space Cryptoast sur les UTXOs et la confidentialité sur Bitcoin"
+  platform: "Cryptoast"
+  type: "interview"
+  featured: true
+
+- title: "Protéger vos crypto avec les CoinJoins !"
+  url: "https://youtu.be/5mt4SLsIlL8"
+  description: "Explication des CoinJoins pour protéger sa confidentialité"
+  platform: "Grand Angle Bitcoin"
+  type: "interview"
+  featured: false
+
+- title: "Interview technique avec le docteur en mathématiques appliquées Théo Pantamis"
+  url: "https://youtu.be/c9MvtGJsEvY"
+  description: "Interview technique avec Théo Pantamis sur les mathématiques de Bitcoin"
+  platform: "Decouvre Bitcoin"
+  type: "interview"
+  featured: false

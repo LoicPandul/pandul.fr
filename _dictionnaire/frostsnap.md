@@ -1,0 +1,22 @@
+---
+title: "FROSTSNAP"
+slug: "frostsnap"
+permalink: /dictionnaire/frostsnap/
+category: "OUTIL"
+letter: "F"
+layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "FOUNTAIN"
+  slug: "fountain"
+next_in_category:
+  title: "FULCRUM"
+  slug: "fulcrum"
+cross_references:
+  - title: "MULTISIG"
+    slug: "multisig"
+  - title: "SCHNORR"
+    slug: "schnorr-protocole"
+---
+
+Frostsnap est un système de sécurité pour bitcoins reposant sur le protocole FROST (*Flexible Round-Optimized Schnorr Threshold Signatures*). Contrairement au multisig classique par script Bitcoin, FROST produit une unique signature Schnorr *on-chain*, indistinguable d'une transaction à signature simple, ce qui améliore la confidentialité et réduit les frais de transaction. L'équipe de Frostsnap, composée notamment de Nick Farrow et Lloyd Fournier, développe des dispositifs matériels dédiés qui se connectent en chaîne via USB-C. Le système permet d'ajouter ou de retirer des signataires après la génération des clés, sans modifier l'adresse publique. Le matériel et le logiciel sont entièrement *open source* sous licence MIT.

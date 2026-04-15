@@ -1,0 +1,22 @@
+---
+title: "NAMECOIN"
+slug: "namecoin"
+permalink: /dictionnaire/namecoin/
+category: "HISTOIRE"
+letter: "N"
+layout: definition
+category_slug: "histoire"
+prev_in_category:
+  title: "NAKAMOTO SATOSHI"
+  slug: "nakamoto-satoshi"
+next_in_category:
+  title: "NO2X"
+  slug: "no2x"
+cross_references:
+  - title: "ALTCOIN"
+    slug: "altcoin"
+  - title: "MINAGE FUSIONNÉ"
+    slug: "minage-fusionne"
+---
+
+Premier altcoin de l'histoire de Bitcoin lancé en avril 2011. Namecoin est un fork du code source de Bitcoin qui vise à fournir un système décentralisé d'enregistrement et de gestion de noms de domaine, en alternative au DNS (*Domain Name System*) traditionnel. Son principal cas d'usage est l'extension `.bit`, qui permet d'enregistrer des noms de domaine résistants à la censure directement sur la blockchain.

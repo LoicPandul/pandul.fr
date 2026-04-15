@@ -1,0 +1,48 @@
+---
+title: "BIP"
+slug: "bip"
+permalink: /dictionnaire/bip/
+category: "BIP"
+letter: "B"
+layout: definition
+french_term: "PROPOSITION D'AMÉLIORATION DE BITCOIN"
+category_slug: "bip"
+prev_in_category:
+  title: "APO - ANYPREVOUT"
+  slug: "apo-anyprevout"
+next_in_category:
+  title: "BIP-0001"
+  slug: "bip-0001"
+cross_references:
+  - title: "SOFT FORK"
+    slug: "soft-fork"
+  - title: "BIP-0001"
+    slug: "bip-0001"
+---
+
+Acronyme de « *Bitcoin Improvement Proposal* ». Un BIP est un document formel proposant une amélioration, une spécification technique ou une information relative au protocole Bitcoin et à son écosystème. Étant donné que Bitcoin ne possède pas d'entité centrale pour décider des mises à jour, les BIPs permettent à la communauté de suggérer, discuter et mettre en œuvre des améliorations de manière structurée et transparente.
+
+Chaque BIP détaille les objectifs de l'amélioration proposée, les justifications, les impacts potentiels sur la compatibilité, ainsi que les avantages et inconvénients. Les BIPs peuvent être rédigés par n'importe quel membre de la communauté. Ils sont principalement la propriété de leurs auteurs et représentent leur recommandation personnelle : un BIP individuel ne constitue pas un consensus communautaire ni une recommandation générale d'implémentation.
+
+Les éditeurs qui maintiennent le dépôt GitHub des BIPs sont : Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun et Ruben Somsen. Leur rôle est administratif et éditorial : ils vérifient le formatage, la pertinence et la qualité des propositions, mais n'évaluent pas si une proposition sera adoptée. Si quelqu'un propose une amélioration qui n'est pas acceptée dans le cadre formel des BIPs, il peut toujours la présenter directement à la communauté Bitcoin, voire créer un fork incluant sa modification. L'avantage du processus des BIPs réside dans sa formalité et sa centralisation, qui facilitent le débat pour éviter la division parmi les utilisateurs de Bitcoin, en cherchant à implémenter des mises à jour de manière consensuelle. À la fin, c'est bien le principe de majorité économique qui détermine les jeux de pouvoir au sein du protocole.
+
+Les BIPs sont classés en trois types (depuis le BIP-0003 qui a remplacé le BIP-0002 en 2025) :
+* `Specification BIPs` (anciennement « Standards Track ») : Définissent un ensemble de règles techniques décrivant une nouvelle fonctionnalité ou affectant l'interopérabilité des implémentations. Ils peuvent être implémentés et les implémentations peuvent être conformes à leur spécification. Ils doivent contenir une référence d'implémentation et des vecteurs de test avant d'atteindre le statut « Complete » ;
+* `Informational BIPs` : Décrivent un problème de conception, fournissent des recommandations générales ou des informations utiles à la communauté Bitcoin ;
+* `Process BIPs` : Décrivent un processus entourant Bitcoin ou proposent un changement de processus. Ils sont traités comme des documents vivants, modifiables indéfiniment par consensus approximatif sur la liste de diffusion.
+
+Les BIPs de type « Specification » et « Informational » peuvent être classifiés par couche (« Layer ») :
+* `Consensus (soft fork)` et `Consensus (hard fork)` : Concernent les règles de consensus de Bitcoin, telles que les modifications des règles de validation des blocs ou des transactions. Par exemple, les BIPs de SegWit et Taproot appartiennent à cette catégorie ;
+* `Peer Services` : Concerne le fonctionnement du réseau de nœuds Bitcoin, c'est-à-dire comment les nœuds se trouvent et communiquent entre eux sur Internet ;
+* `API/RPC` : Concerne les interfaces de programmation applicative (API) et les appels de procédure à distance (RPC) qui permettent aux logiciels Bitcoin d'interagir avec les nœuds ;
+* `Applications` : Concerne les applications construites par-dessus Bitcoin. Les BIPs de cette catégorie vont typiquement traiter les modifications au niveau des standards des portefeuilles Bitcoin.
+
+Le processus de soumission d'un BIP commence par la conceptualisation et la discussion de l'idée sur la liste de diffusion *Bitcoin Development Mailing List*. Les auteurs doivent d'abord vérifier que l'idée n'a pas déjà été proposée, puis la présenter publiquement pour recueillir un premier retour. Si l'idée est prometteuse et a suscité un intérêt suffisant dans la communauté, l'auteur rédige un BIP en respectant un format spécifique (MediaWiki ou Markdown) et le soumet via une Pull Request sur le dépôt GitHub des BIPs. Les éditeurs vérifient que la proposition respecte le formatage, est pertinente, a fait l'objet d'une discussion préalable sur la liste de diffusion, et est techniquement réalisable. Un numéro n'est attribué par un éditeur qu'après que la proposition a suscité un intérêt tangible dans la communauté. Les auteurs peuvent également nommer des « Deputies », des co-propriétaires du BIP qui les assistent dans le processus.
+
+Les BIPs passent par quatre statuts au cours de leur cycle de vie (simplifiés par le BIP-0003 depuis les neuf statuts du BIP-0002) :
+* Brouillon (`Draft`) : La proposition est en cours de rédaction et de discussion. Un BIP en « Draft » sans activité pendant un an peut être fermé si ses auteurs ne manifestent pas leur intention de poursuivre ;
+* Complet (`Complete`) : Les auteurs ont terminé le travail prévu, la proposition est claire, complète et prête pour adoption. Les BIP de type « Specification » doivent inclure une implémentation de référence et des vecteurs de test. Après ce statut, les modifications doivent rester mineures. C'est le statut final de la plupart des BIPs informationnels réussis ;
+* Déployé (`Deployed`) : Le BIP est activement utilisé dans l'écosystème. Ce statut est atteint sur présentation de preuves d'utilisation effective (déploiement en production par un projet établi, critères d'activation d'un soft fork remplis, etc.). Une fois déployé, le BIP est considéré comme final et ne devrait plus subir de modifications substantielles ;
+* Fermé (`Closed`) : Le BIP n'est plus activement développé ni utilisé et ne présente qu'un intérêt historique. Ce statut remplace les anciens statuts « Deferred », « Rejected », « Withdrawn », « Replaced » et « Obsolete ».
+
+Après avoir atteint le statut « Complete », tout changement doit être documenté dans une section « Changelog » et versionné selon un schéma sémantique.

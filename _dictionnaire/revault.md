@@ -1,0 +1,28 @@
+---
+title: "REVAULT"
+slug: "revault"
+permalink: /dictionnaire/revault/
+category: "PORTEFEUILLE"
+letter: "R"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "RBF - REPLACE-BY-FEE"
+  slug: "rbf-replace-by-fee"
+next_in_category:
+  title: "SATODIME"
+  slug: "satodime"
+cross_references:
+  - title: "VAULT"
+    slug: "vault"
+  - title: "WIZARDSARDINE"
+    slug: "wizardsardine"
+  - title: "LIANA"
+    slug: "liana"
+---
+
+Protocole open source de conservation de bitcoins conçu pour les organisations, développé par Wizardsardine. Revault repose sur un système de *vault* utilisant des transactions présignées et des multisignatures à seuil élevé, sans nécessiter de covenants ni de suppression de clés.
+
+Le protocole formalise l'interaction entre un portefeuille froid et les opérations courantes en permettant la délégation de fonds avec des politiques de restriction : limites de dépense, adresses autorisées, vérifications supplémentaires au-delà d'un certain montant. Chaque participant dispose de ses propres *watchtowers* qui surveillent le réseau et peuvent automatiquement annuler une tentative de dépense non conforme en diffusant des transactions d'urgence présignées. En cas de menace, l'ensemble des fonds peut être déplacé vers un portefeuille d'urgence par n'importe quel participant individuel.
+
+Le protocole a été conçu à partir de 2019 par Kevin Loaec et Antoine Poinsot et son premier démonstrateur technique a été publié en 2021.

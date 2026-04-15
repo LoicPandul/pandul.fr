@@ -1,0 +1,23 @@
+---
+title: "MILLISATOSHI"
+slug: "millisatoshi"
+permalink: /dictionnaire/millisatoshi/
+category: "LIGHTNING NETWORK"
+letter: "M"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "MAGMA"
+  slug: "magma"
+next_in_category:
+  title: "MPP - MULTI-PATH PAYMENTS"
+  slug: "mpp-multi-path-payments"
+cross_references:
+  - title: "MILLIBITCOIN"
+    slug: "millibitcoin"
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+math: true
+---
+
+Sous-unité du satoshi équivalant à un millième de satoshi, soit un cent-milliardième de bitcoin ($$10^{-11}$$ BTC). Le millisatoshi n'existe pas sur la blockchain Bitcoin, où le satoshi est l'unité indivisible minimale. En revanche, le Lightning Network utilise le millisatoshi comme unité de compte interne pour les paiements et le calcul des frais de routage, permettant une granularité plus fine.

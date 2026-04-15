@@ -1,0 +1,22 @@
+---
+title: "GREEN ADDRESSES"
+slug: "green-addresses"
+permalink: /dictionnaire/green-addresses/
+category: "PORTEFEUILLE"
+letter: "G"
+layout: definition
+category_slug: "portefeuille"
+prev_in_category:
+  title: "GREEN ADDRESS"
+  slug: "green-address"
+next_in_category:
+  title: "GREEN WALLET"
+  slug: "green-wallet"
+cross_references:
+  - title: "DOUBLE DÉPENSE"
+    slug: "double-depense"
+  - title: "ZEROCONF"
+    slug: "zeroconf"
+---
+
+Vieille proposition d'adresse Bitcoin dont les transactions qui en sont émises sont pré-approuvées par un tiers de confiance. Ce concept permet aux parties recevant des fonds via cette adresse de les considérer comme immédiatement fiables, sans attendre qu'elles soient incluses dans un bloc. Cela repose sur la confiance accordée au service qui contrôle la *green address*, car il garantit que les fonds envoyés n'ont pas été et ne seront pas double dépensés. Ce type de service était autrefois utilisé pour accélérer les transactions (zero-conf), mais il n'est plus utilisé de nos jours.

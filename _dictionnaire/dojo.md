@@ -1,0 +1,22 @@
+---
+title: "DOJO"
+slug: "dojo"
+permalink: /dictionnaire/dojo/
+category: "OUTIL"
+letter: "D"
+layout: definition
+category_slug: "outil"
+prev_in_category:
+  title: "COINOS"
+  slug: "coinos"
+next_in_category:
+  title: "ESPLORA"
+  slug: "esplora"
+cross_references:
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+  - title: "ASHIGARU"
+    slug: "ashigaru"
+---
+
+Serveur *backend* *open source* construit au-dessus de Bitcoin Core, orienté confidentialité et autonomie. Initialement développé par les équipes de Samourai Wallet, le projet Dojo est dorénavant maintenu par la communauté. Dojo sert de passerelle entre un portefeuille Bitcoin (comme Ashigaru) et le réseau Bitcoin, en permettant d'interroger les données de la blockchain et de diffuser des transactions via sa propre infrastructure. Il inclut Bitcoin Core, l'indexeur Fulcrum et l'explorateur BTC-RPC Explorer.

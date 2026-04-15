@@ -1,0 +1,22 @@
+---
+title: "DCA - DOLLAR COST AVERAGING"
+slug: "dca-dollar-cost-averaging"
+permalink: /dictionnaire/dca-dollar-cost-averaging/
+category: "ÉCONOMIE ET RÉGULATION"
+letter: "D"
+layout: definition
+category_slug: "economie-et-regulation"
+prev_in_category:
+  title: "DARWINISME MONÉTAIRE"
+  slug: "darwinisme-monetaire"
+next_in_category:
+  title: "DÉFLATION"
+  slug: "deflation"
+cross_references:
+  - title: "HODL"
+    slug: "hodl"
+  - title: "BEAR MARKET"
+    slug: "bear-market"
+---
+
+Stratégie d'investissement qui consiste à investir un montant fixe de monnaie fiat dans un actif spécifique à intervalles réguliers, indépendamment du prix de l'actif. Cette méthode permet de réduire l'impact de la volatilité sur l'investissement global en achetant plus d'unités quand les prix sont bas et moins quand ils sont élevés. Le DCA vise généralement à construire une position sur un actif sur le long terme en minimisant les risques. C'est une stratégie très populaire pour l'investissement dans le bitcoin.

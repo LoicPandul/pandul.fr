@@ -1,0 +1,22 @@
+---
+title: "NWC - NOSTR WALLET CONNECT"
+slug: "nwc-nostr-wallet-connect"
+permalink: /dictionnaire/nwc-nostr-wallet-connect/
+category: "LIGHTNING NETWORK"
+letter: "N"
+layout: definition
+category_slug: "lightning-network"
+prev_in_category:
+  title: "NOEUD LIGHTNING"
+  slug: "noeud-lightning"
+next_in_category:
+  title: "OFFER"
+  slug: "offer"
+cross_references:
+  - title: "LIGHTNING NETWORK"
+    slug: "lightning-network"
+  - title: "NOSTR"
+    slug: "nostr"
+---
+
+Protocole défini par le NIP-47 qui permet de contrôler un portefeuille Lightning à distance en utilisant Nostr comme couche de communication. NWC établit une connexion chiffrée entre un client Nostr et un portefeuille Lightning via les relais Nostr, permettant au client d'initier des paiements, de générer des factures et de consulter le solde sans que le portefeuille soit intégré directement dans l'application. La connexion est authentifiée par une paire de clés Nostr dédiée, et les messages échangés entre le client et le portefeuille sont chiffrés de bout en bout. NWC est particulièrement utile pour séparer l'interface utilisateur de la gestion des fonds : un utilisateur peut par exemple connecter son nœud Lightning personnel à n'importe quel client Nostr compatible, ce qui facilite l'envoi de zaps ou les paiements Lightning en déplacement, sans exposer ses clés privées à l'application.

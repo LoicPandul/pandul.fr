@@ -1,0 +1,22 @@
+---
+title: "BITCOIN FOG"
+slug: "bitcoin-fog"
+permalink: /dictionnaire/bitcoin-fog/
+category: "CONFIDENTIALITÉ"
+letter: "B"
+layout: definition
+category_slug: "confidentialite"
+prev_in_category:
+  title: "ANONSETS - ANONYMITY SETS"
+  slug: "anonsets-anonymity-sets"
+next_in_category:
+  title: "CHANGE AVOIDANCE"
+  slug: "change-avoidance"
+cross_references:
+  - title: "COINJOIN"
+    slug: "coinjoin"
+  - title: "MÉLANGEUR"
+    slug: "melangeur"
+---
+
+Service de mixage centralisé qui a opéré de 2011 à 2021. Bitcoin Fog offrait aux utilisateurs la possibilité d'accroître leur confidentialité en mélangeant leurs bitcoins avec ceux d'autres utilisateurs, dans le but de dissocier les pièces de leur historique de transactions. Étant donné sa nature centralisée, les utilisateurs devaient faire confiance à l'opérateur du service pour ne pas détourner les fonds et pour ne pas conserver de trace des opérations de mixage.

@@ -1,0 +1,22 @@
+---
+title: "BLOCKSTREAM"
+slug: "blockstream"
+permalink: /dictionnaire/blockstream/
+category: "ORGANISATION"
+letter: "B"
+layout: definition
+category_slug: "organisation"
+prev_in_category:
+  title: "ALBY"
+  slug: "alby"
+next_in_category:
+  title: "BTRUST"
+  slug: "btrust"
+cross_references:
+  - title: "LIQUID NETWORK"
+    slug: "liquid-network"
+  - title: "HASHCASH"
+    slug: "hashcash"
+---
+
+Entreprise spécialisée dans le développement de solutions autour de Bitcoin. Blockstream est à l'initiative de la sidechain Liquid, de l'implémentation du Lightning Network Core Lightning ou encore des portefeuilles Jade et Green. Elle est également connue pour employer des développeurs Bitcoin Core. La société Blockstream est actuellement dirigée par le cypherpunk et cryptographe Adam Back, l'inventeur de Hashcash, le protocole qui a inspiré la preuve de travail sur Bitcoin.

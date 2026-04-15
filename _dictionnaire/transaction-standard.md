@@ -1,0 +1,27 @@
+---
+title: "TRANSACTION STANDARD"
+slug: "transaction-standard"
+permalink: /dictionnaire/transaction-standard/
+category: "PROTOCOLE"
+letter: "T"
+layout: definition
+english_term: "STANDARD TRANSACTION"
+category_slug: "protocole"
+prev_in_category:
+  title: "TRANSACTION NON CONFIRMÉE"
+  slug: "transaction-non-confirmee"
+next_in_category:
+  title: "TX - TRANSACTION"
+  slug: "tx-transaction"
+cross_references:
+  - title: "MEMPOOL"
+    slug: "mempool"
+  - title: "BITCOIN CORE"
+    slug: "bitcoin-core"
+---
+
+Transaction Bitcoin qui, en plus de respecter les règles de consensus, entre également dans les règles de standardisation configurées par défaut sur les nœuds Bitcoin Core. Ces règles de standardisation sont imposées individuellement par chaque nœud Bitcoin, en plus des règles de consensus, pour définir la structure des transactions non confirmées qu'il accepte dans sa mempool et diffuse à ses pairs.
+
+Ces règles sont donc configurées et exécutées en local par chaque nœud et peuvent varier d'un nœud à l'autre. Elles s'appliquent exclusivement sur les transactions non confirmées. Ainsi, un nœud n'acceptera une transaction qu'il jugerait non standard que si celle-ci est déjà incluse dans un bloc valide. 
+
+Notons que la majorité des nœuds laissent les configurations par défaut telles que préétablies dans Bitcoin Core, engendrant de fait une homogénéité des règles de standardisation à travers le réseau. Une transaction qui, bien que conforme aux règles de consensus, ne respecte pas ces règles de standardisation, aura des difficultés à se propager sur le réseau. Elle pourra toutefois être incluse dans un bloc valide si jamais elle atteint un mineur. Dans la pratique, ces transactions, qualifiées de non standard, sont souvent transmises directement à un mineur par des voies externes au réseau pair-à-pair de Bitcoin. C'est souvent le seul moyen pour confirmer ce type de transaction. Par exemple, une transaction qui n'alloue aucuns frais est à la fois valide selon les règles de consensus et non standard, car la politique par défaut de Bitcoin Core pour le paramètre `minRelayTxFee` est de `0.000001` (en BTC/kvB).
