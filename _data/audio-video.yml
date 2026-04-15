@@ -238,10 +238,11 @@
 
 - title: "IBD et consensus"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-11---IBD-et-consensus-e1rl1ss/a-a8vkof6"
-  description: "Space Kek 11 - IBD et consensus"
+  description: "Comment le réseau Bitcoin télécharge la chaîne et se met d'accord"
   platform: "Space Kek"
   type: "podcast"
-  featured: false
+  featured: true
+  mobile_only: true
 
 - title: "Coinjoins, avec Thibaud Maréchal"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-10---Coinjoin-e1r8rj6/a-a8u4t8m"

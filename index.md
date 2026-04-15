@@ -65,8 +65,8 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_formations = site.data.formations | where: "featured", true %}
-    {% for item in featured_formations limit:3 %}
-    <a href="{{ item.url }}" class="content-card{% if item.thumbnail %} content-card--thumbnail{% endif %}" target="_blank" rel="noopener">
+    {% for item in featured_formations limit:4 %}
+    <a href="{{ item.url }}" class="content-card{% if item.thumbnail %} content-card--thumbnail{% endif %}{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       {% if item.thumbnail %}
       <div class="content-card-thumb">
         <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title }}" width="720" height="405" loading="lazy" decoding="async">
@@ -104,8 +104,8 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_ecrits = site.data.ecrits | where: "featured", true %}
-    {% for item in featured_ecrits limit:3 %}
-    <a href="{{ item.url }}" class="content-card" target="_blank" rel="noopener">
+    {% for item in featured_ecrits limit:4 %}
+    <a href="{{ item.url }}" class="content-card{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       <div class="content-card-body">
         <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
         <h3 class="content-card-title">{{ item.title }}</h3>
@@ -137,8 +137,8 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_av = site.data.audio-video | where: "featured", true %}
-    {% for item in featured_av limit:3 %}
-    <a href="{{ item.url }}" class="content-card" target="_blank" rel="noopener">
+    {% for item in featured_av limit:4 %}
+    <a href="{{ item.url }}" class="content-card{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       <div class="content-card-body">
         <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
         <h3 class="content-card-title">{{ item.title }}</h3>

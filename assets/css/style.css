@@ -1115,6 +1115,9 @@ section[id] { scroll-margin-top: 80px; }
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* Phase 13 — 4ème card featured visible uniquement en mobile (grille 2x2) */
+.content-card--mobile-only { display: none; }
+
 /* Carte de contenu */
 .content-card {
   display: flex;
@@ -1585,6 +1588,9 @@ section[id] { scroll-margin-top: 80px; }
   .content-list-item { font-size: 12px; }
   .content-list-title { font-size: 12px; }
   .content-list-item .platform-badge { font-size: 8.25px; }
+
+  /* Phase 13 — 4ème card featured réaffichée sur mobile */
+  .content-card--mobile-only { display: flex; }
 }
 
 @media (min-width: 720px) and (max-width: 979px) {

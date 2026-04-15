@@ -44,7 +44,8 @@
   thumbnail: "/assets/img/pbn-min101-thumbnail.webp"
   platform: "Plan ₿ Academy"
   type: "formation"
-  featured: false
+  featured: true
+  mobile_only: true
 
 - title: "Améliorer sa sécurité numérique personnelle"
   code: "SCU 202"
