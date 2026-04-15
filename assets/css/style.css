@@ -775,6 +775,7 @@ img {
   border-radius: var(--radius); background: var(--bg);
   text-decoration: none;
   transition: all 0.15s ease;
+  min-width: 0;
 }
 .category-card:hover {
   border-color: var(--accent);
@@ -794,6 +795,7 @@ img {
   font-family: var(--font-heading); font-weight: 700;
   font-size: clamp(16px, 1.05vw + 14px, 18px);
   color: var(--fg); letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
 }
 .category-card-count {
   font-family: var(--font-body); font-weight: 400;
