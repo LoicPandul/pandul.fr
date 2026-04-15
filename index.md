@@ -69,7 +69,7 @@ image: /assets/img/social-card.png
     <a href="{{ item.url }}" class="content-card{% if item.thumbnail %} content-card--thumbnail{% endif %}" target="_blank" rel="noopener">
       {% if item.thumbnail %}
       <div class="content-card-thumb">
-        <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title }}" loading="lazy">
+        <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title }}" width="720" height="405" loading="lazy" decoding="async">
       </div>
       {% endif %}
       <div class="content-card-body">

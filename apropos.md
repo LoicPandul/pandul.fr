@@ -10,9 +10,9 @@ redirect_from:
 
 <section class="about-hero">
   <div class="about-hero-photo">
-    <img src="{{ '/assets/img/profile.png' | relative_url }}"
+    <img src="{{ '/assets/img/profile.webp' | relative_url }}"
          alt="Portrait de Loïc Morel"
-         width="280" height="280" loading="eager" decoding="async">
+         width="560" height="560" loading="eager" decoding="async">
   </div>
   <div class="about-hero-text">
     <h1>Loïc Morel</h1>
