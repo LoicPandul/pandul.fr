@@ -677,6 +677,7 @@ img {
 
 /* Stats hero — two-column desktop, stacked mobile */
 .dict-hero { margin-bottom: var(--space-lg); }
+.site-main .wrap > .dict-hero { padding-top: var(--space-xl); }
 .dict-hero h1 { margin-top: 0; margin-bottom: var(--space-xs); }
 .dict-hero-left { flex-shrink: 0; }
 .dict-stats { font-family: var(--font-body); font-size: clamp(16px, 1.05vw + 14px, 18px); color: var(--muted); }
@@ -824,6 +825,7 @@ img {
   align-items: flex-start;
   gap: var(--space-2xl);
   margin-bottom: var(--space-2xl);
+  padding-top: var(--space-xl);
 }
 
 .about-hero-photo img {

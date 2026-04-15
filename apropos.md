@@ -36,7 +36,7 @@ redirect_from:
 </section>
 
 <section class="about-section">
-  <h2>Ce que je fais</h2>
+  <h2>Mes prestations</h2>
   <div class="about-grid">
     <div class="about-card">
       <h3>Rédaction spécialisée sur Bitcoin</h3>
