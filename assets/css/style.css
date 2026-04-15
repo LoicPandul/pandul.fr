@@ -1264,6 +1264,22 @@ section[id] { scroll-margin-top: 80px; }
   display: none;
 }
 
+/* Marquee scroll pour titres tronqués sur mobile (Phase 12) */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.content-list-title.is-marquee {
+  text-overflow: clip;
+}
+
+.content-list-title.is-marquee .marquee-track {
+  display: inline-block;
+  animation: marquee 12s linear infinite;
+  will-change: transform;
+}
+
 .content-list-toggle {
   display: flex;
   align-items: center;
@@ -1564,6 +1580,11 @@ section[id] { scroll-margin-top: 80px; }
   .category-nav-label { font-size: 14px; }
   .category-nav-count { font-size: 12px; }
   .section-header { flex-direction: column; gap: var(--space-xs); }
+
+  /* Phase 12 — réduction police titres et badges dans listes compactes */
+  .content-list-item { font-size: 12px; }
+  .content-list-title { font-size: 12px; }
+  .content-list-item .platform-badge { font-size: 8.25px; }
 }
 
 @media (min-width: 720px) and (max-width: 979px) {
@@ -1597,5 +1618,16 @@ section[id] { scroll-margin-top: 80px; }
   .about-social-link,
   .about-card {
     transition: none;
+  }
+
+  /* Phase 12 — marquee désactivé, fallback ellipsis */
+  .content-list-title.is-marquee .marquee-track {
+    animation: none;
+    transform: none;
+  }
+  .content-list-title.is-marquee {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }

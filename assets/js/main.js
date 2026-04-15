@@ -122,6 +122,53 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Marquee scroll titres tronques listes mobiles (Phase 12)
+  const MARQUEE_MQ = window.matchMedia('(max-width: 719px)');
+
+  function setupMarquee(title) {
+    // Retablir etat initial (texte brut sans .marquee-track)
+    const existingTrack = title.querySelector('.marquee-track');
+    if (existingTrack) {
+      const original = existingTrack.textContent.split('\u00A0\u00A0\u00A0\u00A0\u00A0')[0];
+      title.textContent = original;
+      title.classList.remove('is-marquee');
+    }
+
+    if (!MARQUEE_MQ.matches) return; // desktop : laisser ellipsis
+
+    // Detecter overflow apres retour a l'etat statique
+    if (title.scrollWidth <= title.clientWidth + 1) return;
+
+    // Overflow detecte : construire marquee
+    const originalText = title.textContent;
+    const gap = '\u00A0\u00A0\u00A0\u00A0\u00A0'; // 5 espaces insecables ~ 40px
+    title.innerHTML = '';
+    const track = document.createElement('span');
+    track.className = 'marquee-track';
+    track.textContent = originalText + gap + originalText + gap;
+    title.appendChild(track);
+    title.classList.add('is-marquee');
+  }
+
+  function scanMarquees() {
+    document.querySelectorAll('.content-list-item .content-list-title').forEach(setupMarquee);
+  }
+
+  scanMarquees();
+
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(scanMarquees, 150);
+  });
+
+  document.querySelectorAll('.content-list-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Delai pour laisser le reflow s'appliquer apres retrait de list-hidden
+      setTimeout(scanMarquees, 20);
+    });
+  });
+
   // Liens externes : ouvrir dans un nouvel onglet avec rel securise
   document.querySelectorAll('a[href]').forEach(a => {
     const href = a.getAttribute('href');
