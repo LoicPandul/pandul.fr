@@ -1570,12 +1570,10 @@ section[id] { scroll-margin-top: 80px; }
     font-size: 10px;
     padding: 3px 7px;
   }
-  /* Padding interne cartes vedettes -20% (16px → 13px / 24px → 19px) */
-  .content-card-body {
-    padding: 13px;
-  }
+  /* Padding interne cartes vedettes uniformisé mobile (référence formations : 13px) */
+  .content-card-body,
   .content-card:not(.content-card--thumbnail) .content-card-body {
-    padding: 19px;
+    padding: 13px;
   }
 
 .dict-search-results { left: -8px; right: -8px; }
