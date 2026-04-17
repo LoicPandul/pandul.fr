@@ -1540,6 +1540,23 @@ section[id] { scroll-margin-top: 80px; }
 .category-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .category-card { padding: 12px; }
 
+  /* Quick 260417-prm — réduction police cartes catégories dictionnaire (mobile uniquement) */
+  /* Cartes standards : -30% (16px base → 11px ; 14px base → 10px) */
+  .category-card-name {
+    font-size: 11px;
+    letter-spacing: -0.005em;
+  }
+  .category-card-count {
+    font-size: 10px;
+  }
+  /* "Toutes les définitions" : -10% seulement (plus grande que les autres) */
+  .category-card--all .category-card-name {
+    font-size: 14px;
+  }
+  .category-card--all .category-card-count {
+    font-size: 13px;
+  }
+
 .dict-search-results { left: -8px; right: -8px; }
 
 .about-hero {
