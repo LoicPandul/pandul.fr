@@ -116,10 +116,10 @@
 
 - title: "Ashigaru - Whirlpool Coinjoin"
   url: "https://planb.academy/fr/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef"
-  description: "Coinjoins Whirlpool avec Ashigaru"
+  description: "Comment faire des coinjoins sur Ashigaru ?"
   platform: "Plan ₿ Academy"
   type: "tutoriel"
-  featured: false
+  featured: true
 
 - title: "Ashigaru Terminal"
   url: "https://planb.academy/fr/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add"
@@ -480,10 +480,10 @@
 
 - title: "Dojo"
   url: "https://planb.academy/fr/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f"
-  description: "Installer et configurer Samourai Dojo"
+  description: "Un nœud Bitcoin open source orienté confidentialité et autonomie"
   platform: "Plan ₿ Academy"
   type: "tutoriel"
-  featured: false
+  featured: true
 
 - title: "Débordement de l'horodatage : Bitcoin s'arrêtera-t-il en 2106 ?"
   url: "https://www.bitstack-app.com/blog/debordement-horodatage-bitcoin-2106"
@@ -1058,7 +1058,6 @@
   platform: "Plan ₿ Academy"
   type: "tutoriel"
   featured: true
-  mobile_only: true
 
 - title: "Scripts, conditions, signatures... Comment les bitcoins sont-ils sécurisés ?"
   url: "https://www.bitstack-app.com/blog/comment-les-bitcoins-sont-ils-securises"

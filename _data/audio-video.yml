@@ -133,10 +133,10 @@
 
 - title: "Les Discreet Log Contracts (DLC)"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/SpaceKek-26---Discreet-Log-Contracts-e23d6s3/a-a9p3mno"
-  description: "Space Kek 26 - Les Discreet Log Contracts (DLC)"
+  description: "Comprendre le fonctionnement des DLC"
   platform: "Space Kek"
   type: "podcast"
-  featured: false
+  featured: true
 
 - title: "Le futur du Lightning Network"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin-replay/episodes/Space-Kek-25---Le-futur-du-Lightning-Network-e23d6ha/a-a9p3cdk"
@@ -210,10 +210,10 @@
 
 - title: "Miniscript, avec Antoine Poinsot"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-15---MiniScript-avec-Antoine-Poinsot-e1u1tv4/a-a984qoq"
-  description: "Space Kek 15 - MiniScript avec Antoine Poinsot"
+  description: "Découvrir et utiliser Miniscript pour son wallet"
   platform: "Space Kek"
   type: "podcast"
-  featured: false
+  featured: true
 
 - title: "Payment channels (Lightning)"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-14---Payment-channels-Lightning-e1tt45n/a-a97jn3p"
@@ -242,7 +242,6 @@
   platform: "Space Kek"
   type: "podcast"
   featured: true
-  mobile_only: true
 
 - title: "Coinjoins, avec Thibaud Maréchal"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-10---Coinjoin-e1r8rj6/a-a8u4t8m"

@@ -93,7 +93,7 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_ecrits = site.data.ecrits | where: "featured", true %}
-    {% for item in featured_ecrits limit:4 %}
+    {% for item in featured_ecrits limit:6 %}
     <a href="{{ item.url }}" class="content-card{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       <div class="content-card-body">
         <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
@@ -126,7 +126,7 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_av = site.data.audio-video | where: "featured", true %}
-    {% for item in featured_av limit:4 %}
+    {% for item in featured_av limit:6 %}
     <a href="{{ item.url }}" class="content-card{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       <div class="content-card-body">
         <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
