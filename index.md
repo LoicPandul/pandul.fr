@@ -65,7 +65,7 @@ image: /assets/img/social-card.png
 
   <div class="content-grid content-grid--featured">
     {% assign featured_formations = site.data.formations | where: "featured", true %}
-    {% for item in featured_formations limit:4 %}
+    {% for item in featured_formations limit:6 %}
     <a href="{{ item.url }}" class="content-card{% if item.thumbnail %} content-card--thumbnail{% endif %}{% if item.mobile_only %} content-card--mobile-only{% endif %}" target="_blank" rel="noopener">
       {% if item.thumbnail %}
       <div class="content-card-thumb">
@@ -78,17 +78,6 @@ image: /assets/img/social-card.png
         <h3 class="content-card-title">{{ item.title }}</h3>
         <p class="content-card-desc">{{ item.description }}</p>
       </div>
-    </a>
-    {% endfor %}
-  </div>
-
-  <div class="content-list">
-    <h3 class="content-list-heading">Toutes les formations</h3>
-    {% assign sorted_formations = site.data.formations | sort: "title" %}
-    {% for item in sorted_formations %}
-    <a href="{{ item.url }}" class="content-list-item" target="_blank" rel="noopener">
-      <span class="content-list-title">{% if item.code %}{{ item.code }} — {% endif %}{{ item.title }}</span>
-      <span class="platform-badge platform-badge--{{ item.platform | downcase | replace: ' ', '-' }}">{{ item.platform }}</span>
     </a>
     {% endfor %}
   </div>

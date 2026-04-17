@@ -35,7 +35,7 @@
   thumbnail: "/assets/img/pbn-lnp202-thumbnail.webp"
   platform: "Plan ₿ Academy"
   type: "formation"
-  featured: false
+  featured: true
 
 - title: "Introduction au minage de Bitcoin"
   code: "MIN 101"
@@ -45,13 +45,12 @@
   platform: "Plan ₿ Academy"
   type: "formation"
   featured: true
-  mobile_only: true
 
 - title: "Améliorer sa sécurité numérique personnelle"
   code: "SCU 202"
   url: "https://planb.academy/fr/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1"
-  description: "Mettre en place un environnement numérique personnel sécurisé, stable et efficace."
+  description: "Mettre en place un environnement numérique personnel sécurisé, stable et efficace"
   thumbnail: "/assets/img/pbn-scu202-thumbnail.webp"
   platform: "Plan ₿ Academy"
   type: "formation"
-  featured: false
+  featured: true
