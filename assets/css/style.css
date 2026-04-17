@@ -1557,6 +1557,15 @@ section[id] { scroll-margin-top: 80px; }
     font-size: 13px;
   }
 
+  /* Quick 260417-prm — réduction police cartes vedettes homepage (mobile uniquement) */
+  /* Titres -25% (~18px → 13px) et descriptions -15% (14px → 12px) */
+  .content-card-title {
+    font-size: 13px;
+  }
+  .content-card-desc {
+    font-size: 12px;
+  }
+
 .dict-search-results { left: -8px; right: -8px; }
 
 .about-hero {
