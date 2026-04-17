@@ -1557,13 +1557,25 @@ section[id] { scroll-margin-top: 80px; }
     font-size: 13px;
   }
 
-  /* Quick 260417-prm — réduction police cartes vedettes homepage (mobile uniquement) */
-  /* Titres -25% (~18px → 13px) et descriptions -15% (14px → 12px) */
+  /* Quick 260417-prm — ajustements cartes vedettes homepage (mobile uniquement) */
+  /* Titres 15px, descriptions -15% (14px → 12px) */
   .content-card-title {
-    font-size: 13px;
+    font-size: 15px;
   }
   .content-card-desc {
     font-size: 12px;
+  }
+  /* Badge plateforme (ex: Plan B Academy) -10% sur mobile */
+  .platform-badge {
+    font-size: 10px;
+    padding: 3px 7px;
+  }
+  /* Padding interne cartes vedettes -20% (16px → 13px / 24px → 19px) */
+  .content-card-body {
+    padding: 13px;
+  }
+  .content-card:not(.content-card--thumbnail) .content-card-body {
+    padding: 19px;
   }
 
 .dict-search-results { left: -8px; right: -8px; }
