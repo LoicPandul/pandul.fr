@@ -5,6 +5,13 @@
 # Space Kek (podcast avec Théo Pantamis, Lounès Ksouri et Sosthène)
 # =====================
 
+- title: "Bitcoin parviendra-t-il à se protéger de l'ordinateur quantique ?"
+  url: "https://www.youtube.com/live/rfyFu8HXnkU"
+  description: "Interview Cryptoast en live avec Marius"
+  platform: "Cryptoast"
+  type: "interview"
+  featured: true
+
 - title: "2 ans de Taproot, TapMiniscript et proposition de surestarie"
   url: "https://podcasts.apple.com/bo/podcast/space-kek-44-bitstream-minitapscript-et-2-ans-de-taproot/id1693844092?i=1000635095762"
   description: "Space Kek 44 - Bitstream, MiniTapscript et 2 ans de Taproot"
@@ -213,7 +220,7 @@
   description: "Découvrir et utiliser Miniscript pour son wallet"
   platform: "Space Kek"
   type: "podcast"
-  featured: true
+  featured: false
 
 - title: "Payment channels (Lightning)"
   url: "https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-14---Payment-channels-Lightning-e1tt45n/a-a97jn3p"
