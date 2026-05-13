@@ -1933,6 +1933,10 @@ section[id] { scroll-margin-top: 80px; }
 }
 
 @media (max-width: 719px) {
+  .bloc-zero-card-grid {
+    grid-template-columns: 1fr;
+  }
+
   .bloc-zero-principles {
     grid-template-columns: 1fr;
   }

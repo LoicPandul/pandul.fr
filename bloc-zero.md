@@ -120,7 +120,6 @@ image: /assets/img/social-card.png
       <div class="section-header-left">
         <h2 id="bloc-zero-topics">Les sujets discutés dans le groupe</h2>
       </div>
-      <span class="section-count">7 topics</span>
     </div>
     <div class="bloc-zero-topic-grid">
       <div class="bloc-zero-topic">
