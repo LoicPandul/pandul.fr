@@ -7,61 +7,76 @@ image: /assets/img/social-card.png
 
 <article class="bloc-zero-page">
   <section class="bloc-zero-hero" aria-labelledby="bloc-zero-title">
-    <div class="bloc-zero-hero-main">
-      <p class="bloc-zero-kicker">Cercle privé · Professionnels Bitcoin</p>
+    <div class="bloc-zero-hero-text">
+      <p class="bloc-zero-kicker">Cercle privé · professionnels Bitcoin</p>
       <h1 id="bloc-zero-title">BLOC ZERO</h1>
       <p class="bloc-zero-subtitle">Entre pros. Bitcoin only.</p>
-      <p class="bloc-zero-intro">Un groupe Telegram privé, gratuit et vérifié manuellement pour les personnes qui font de Bitcoin leur métier au quotidien.</p>
+      <p class="bloc-zero-intro">BLOC ZERO est un groupe Telegram privé et gratuit, réservé aux personnes dont l'activité principale tourne autour de Bitcoin. L'idée est simple : disposer d'un lieu permanent où les pros peuvent échanger entre pairs, sans bruit crypto, sans publicité et sans lien public qui circule partout.</p>
       <div class="bloc-zero-actions">
         <a href="https://x.com/Loic_Pandul" class="btn btn-primary" target="_blank" rel="noopener">Demander l'accès sur X</a>
         <a href="#criteres" class="btn btn-secondary">Voir les critères</a>
       </div>
     </div>
-    <aside class="bloc-zero-hero-aside" aria-label="Résumé BLOC ZERO">
-      <div class="bloc-zero-code">B0</div>
-      <dl class="bloc-zero-facts">
-        <div>
-          <dt>Plateforme</dt>
-          <dd>Telegram</dd>
-        </div>
-        <div>
-          <dt>Accès</dt>
-          <dd>Invitation manuelle</dd>
-        </div>
-        <div>
-          <dt>Prix</dt>
-          <dd>Gratuit</dd>
-        </div>
-      </dl>
-    </aside>
+    <figure class="bloc-zero-logo-card">
+      <img src="{{ '/assets/img/bloc-zero/txt-b0-noir-2048.png' | relative_url }}" alt="BLOC ZERO" width="7114" height="1049" loading="eager" decoding="async">
+      <figcaption>Communauté privée sur Telegram</figcaption>
+    </figure>
   </section>
+
+  <div class="bloc-zero-fact-grid" aria-label="Informations principales">
+    <div class="bloc-zero-fact">
+      <span class="bloc-zero-fact-label">Plateforme</span>
+      <span class="bloc-zero-fact-value">Telegram</span>
+    </div>
+    <div class="bloc-zero-fact">
+      <span class="bloc-zero-fact-label">Accès</span>
+      <span class="bloc-zero-fact-value">manuel</span>
+    </div>
+    <div class="bloc-zero-fact">
+      <span class="bloc-zero-fact-label">Prix</span>
+      <span class="bloc-zero-fact-value">gratuit</span>
+    </div>
+    <div class="bloc-zero-fact">
+      <span class="bloc-zero-fact-label">Positionnement</span>
+      <span class="bloc-zero-fact-value">Bitcoin only</span>
+    </div>
+  </div>
 
   <section class="bloc-zero-section bloc-zero-statement" aria-labelledby="bloc-zero-why">
     <div>
-      <h2 id="bloc-zero-why">Le lieu permanent des pros Bitcoin</h2>
+      <h2 id="bloc-zero-why">Pourquoi BLOC ZERO ?</h2>
     </div>
-    <p>La scène professionnelle Bitcoin francophone est éclatée : petites équipes, freelances isolés, créateurs, développeurs, services financiers, associations et startups avancent souvent chacun dans leur coin. BLOC ZERO crée un espace de confiance où les échanges peuvent continuer entre conférences, meetups et réseaux sociaux.</p>
+    <p>La scène professionnelle Bitcoin francophone reste assez éclatée. Il y a des conférences, des meetups et des échanges sur X, mais il manque un endroit plus continu, où les développeurs, les créateurs, les freelances, les salariés et les fondateurs peuvent parler de leur travail sans repartir de zéro à chaque discussion. Concrètement, BLOC ZERO sert à ça : créer un espace de confiance pour les gens qui font Bitcoin au quotidien.</p>
   </section>
 
   <section id="criteres" class="bloc-zero-section" aria-labelledby="bloc-zero-criteria">
     <div class="section-header">
       <div class="section-header-left">
-        <h2 id="bloc-zero-criteria">Pour qui ?</h2>
+        <h2 id="bloc-zero-criteria">À qui s'adresse le groupe ?</h2>
       </div>
-      <span class="section-count">Bitcoin only</span>
+      <span class="section-count">Accès vérifié</span>
     </div>
-    <div class="bloc-zero-grid bloc-zero-grid--three">
-      <div class="bloc-zero-card">
-        <h3>Opérateurs</h3>
-        <p>Employés de sociétés Bitcoin, wallets, exchanges, infrastructure, services financiers, éducation, associations et structures spécialisées.</p>
+    <div class="content-grid content-grid--featured bloc-zero-card-grid">
+      <div class="content-card bloc-zero-card">
+        <div class="content-card-body">
+          <span class="platform-badge">Sociétés</span>
+          <h3 class="content-card-title">Opérateurs Bitcoin</h3>
+          <p class="content-card-desc">Salariés d'exchanges, de wallets, d'acteurs d'infrastructure, de services financiers, de médias ou de structures éducatives spécialisées.</p>
+        </div>
       </div>
-      <div class="bloc-zero-card">
-        <h3>Indépendants</h3>
-        <p>Freelances, consultants, développeurs Bitcoin ou Lightning Network, créateurs de contenu, journalistes, auteurs et podcasteurs.</p>
+      <div class="content-card bloc-zero-card">
+        <div class="content-card-body">
+          <span class="platform-badge">Indépendants</span>
+          <h3 class="content-card-title">Freelances et créateurs</h3>
+          <p class="content-card-desc">Consultants, développeurs Bitcoin ou Lightning Network, journalistes, auteurs, podcasteurs, vidéastes et formateurs.</p>
+        </div>
       </div>
-      <div class="bloc-zero-card bloc-zero-card--strict">
-        <h3>Exclusivement Bitcoin</h3>
-        <p>Les activités principales liées aux altcoins, à la crypto généraliste ou au Web3 ne sont pas éligibles.</p>
+      <div class="content-card bloc-zero-card">
+        <div class="content-card-body">
+          <span class="platform-badge">Filtre</span>
+          <h3 class="content-card-title">Bitcoin, pas crypto</h3>
+          <p class="content-card-desc">Les profils dont l'activité principale se situe dans les altcoins, la crypto généraliste ou le Web3 ne sont pas éligibles.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -80,15 +95,15 @@ image: /assets/img/social-card.png
       </div>
       <div class="bloc-zero-principle" role="listitem">
         <span>02</span>
-        <p>Ce qui se dit dans BLOC ZERO reste dans BLOC ZERO.</p>
+        <p>Ce qui se dit dans le groupe reste dans le groupe.</p>
       </div>
       <div class="bloc-zero-principle" role="listitem">
         <span>03</span>
-        <p>Pas de sponsors, pas de publicité, pas de hiérarchie.</p>
+        <p>Pas de sponsors, pas de publicité, pas de lien public.</p>
       </div>
       <div class="bloc-zero-principle" role="listitem">
         <span>04</span>
-        <p>La qualité du cercle passe avant sa taille.</p>
+        <p>L'entrée reste manuelle, parce que la qualité du cercle compte plus que sa taille.</p>
       </div>
     </div>
   </section>
@@ -96,30 +111,30 @@ image: /assets/img/social-card.png
   <section class="bloc-zero-section" aria-labelledby="bloc-zero-access">
     <div class="section-header">
       <div class="section-header-left">
-        <h2 id="bloc-zero-access">Accès</h2>
+        <h2 id="bloc-zero-access">Comment entrer ?</h2>
       </div>
-      <span class="section-count">Vérification manuelle</span>
+      <span class="section-count">DM sur X</span>
     </div>
     <ol class="bloc-zero-steps">
       <li>
         <span class="bloc-zero-step-number">1</span>
         <div>
-          <h3>DM sur X</h3>
-          <p>Le candidat contacte l'admin de BLOC ZERO sur X avec un profil public permettant de comprendre son activité Bitcoin.</p>
+          <h3>Envoyer un DM</h3>
+          <p>Le candidat me contacte sur X avec un profil qui permet de comprendre son activité professionnelle autour de Bitcoin.</p>
         </div>
       </li>
       <li>
         <span class="bloc-zero-step-number">2</span>
         <div>
-          <h3>Vérification</h3>
-          <p>L'activité professionnelle, l'ancienneté du profil et les interactions dans l'écosystème sont vérifiées manuellement.</p>
+          <h3>Vérifier le profil</h3>
+          <p>Je regarde l'activité publique du compte, son ancienneté, le type de contenus publiés et les interactions avec l'écosystème.</p>
         </div>
       </li>
       <li>
         <span class="bloc-zero-step-number">3</span>
         <div>
-          <h3>Invitation Telegram</h3>
-          <p>Si le profil correspond, un lien Telegram unique et temporaire est envoyé en DM. Aucun lien public n'est diffusé.</p>
+          <h3>Envoyer l'invitation</h3>
+          <p>Si le profil correspond, j'envoie un lien Telegram unique et temporaire. Aucun membre ne peut inviter directement quelqu'un.</p>
         </div>
       </li>
     </ol>
@@ -128,22 +143,22 @@ image: /assets/img/social-card.png
   <section class="bloc-zero-section" aria-labelledby="bloc-zero-topics">
     <div class="section-header">
       <div class="section-header-left">
-        <h2 id="bloc-zero-topics">Topics Telegram</h2>
+        <h2 id="bloc-zero-topics">Les sujets du groupe</h2>
       </div>
-      <span class="section-count">7 espaces</span>
+      <span class="section-count">7 topics</span>
     </div>
     <div class="bloc-zero-topic-grid">
       <div class="bloc-zero-topic">
         <h3>Général</h3>
-        <p>Discussion libre, présentations et questions qui ne rentrent pas ailleurs.</p>
+        <p>Présentations, discussions libres et questions qui ne rentrent pas ailleurs.</p>
       </div>
       <div class="bloc-zero-topic">
         <h3>Bitcoin</h3>
-        <p>Protocole, Lightning Network, mining, BIPs et débats techniques.</p>
+        <p>Protocole, Lightning Network, mining, BIPs et discussions techniques.</p>
       </div>
       <div class="bloc-zero-topic">
         <h3>News</h3>
-        <p>Veille utile, signaux faibles, articles et actualité réglementaire.</p>
+        <p>Actualité Bitcoin, signaux faibles, articles utiles et veille réglementaire.</p>
       </div>
       <div class="bloc-zero-topic">
         <h3>Fisc & Admin</h3>
@@ -155,21 +170,24 @@ image: /assets/img/social-card.png
       </div>
       <div class="bloc-zero-topic">
         <h3>Projets & Entraide</h3>
-        <p>Retours, feedback, coups de main, lancements et entraide mutuelle.</p>
+        <p>Retours, feedback, coups de main, lancements et entraide entre membres.</p>
       </div>
       <div class="bloc-zero-topic">
         <h3>LLM</h3>
-        <p>IA appliquée à Bitcoin, automatisations et usages professionnels concrets.</p>
+        <p>Usages concrets de l'IA dans les métiers Bitcoin, automatisations et outils testés.</p>
       </div>
     </div>
   </section>
 
-  <section class="bloc-zero-section bloc-zero-final" aria-labelledby="bloc-zero-join">
-    <div>
-      <p class="bloc-zero-kicker">B0</p>
-      <h2 id="bloc-zero-join">Entrée fermée, accès simple.</h2>
-      <p>Pas de formulaire, pas de lien public, pas de canal vitrine. Un DM, une vérification, puis une invitation unique si le profil correspond.</p>
+  <aside class="definition-cta bloc-zero-final" aria-labelledby="bloc-zero-join">
+    <div class="definition-cta-row">
+      <p id="bloc-zero-join" class="definition-cta-heading">Vous travaillez principalement sur Bitcoin ?</p>
+      <div class="definition-cta-buttons">
+        <a href="https://x.com/Loic_Pandul" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Demander l'accès sur X</a>
+      </div>
     </div>
-    <a href="https://x.com/Loic_Pandul" class="btn btn-primary" target="_blank" rel="noopener">Envoyer un DM sur X</a>
-  </section>
+    <div class="definition-cta-row">
+      <p class="definition-cta-text">L'entrée se fait uniquement par vérification manuelle. Il n'existe pas de lien Telegram public.</p>
+    </div>
+  </aside>
 </article>
