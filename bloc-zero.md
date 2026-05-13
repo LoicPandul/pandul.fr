@@ -7,6 +7,9 @@ image: /assets/img/social-card.png
 
 <article class="bloc-zero-page">
   <section class="bloc-zero-hero" aria-labelledby="bloc-zero-title">
+    <figure class="bloc-zero-logo-card">
+      <img src="{{ '/assets/img/bloc-zero/b0-blanc-sur-orange-2048.png' | relative_url }}" alt="BLOC ZERO" width="2731" height="2731" loading="eager" decoding="async">
+    </figure>
     <div class="bloc-zero-hero-text">
       <h1 id="bloc-zero-title">BLOC ZERO</h1>
       <p class="bloc-zero-subtitle">Cercle privé des professionnels de Bitcoin</p>
@@ -15,9 +18,6 @@ image: /assets/img/social-card.png
         <a href="https://x.com/Loic_Pandul" class="btn btn-primary" target="_blank" rel="noopener">Demander l'accès sur X</a>
       </div>
     </div>
-    <figure class="bloc-zero-logo-card">
-      <img src="{{ '/assets/img/bloc-zero/txt-b0-blanc-sur-orange-2048.png' | relative_url }}" alt="BLOC ZERO" width="8192" height="2048" loading="eager" decoding="async">
-    </figure>
   </section>
 
   <section class="bloc-zero-section bloc-zero-statement" aria-labelledby="bloc-zero-why">
@@ -32,21 +32,20 @@ image: /assets/img/social-card.png
       <div class="section-header-left">
         <h2 id="bloc-zero-criteria">À qui s'adresse le groupe ?</h2>
       </div>
-      <span class="section-count">Accès vérifié</span>
     </div>
     <div class="content-grid content-grid--featured bloc-zero-card-grid">
       <div class="content-card bloc-zero-card">
         <div class="content-card-body">
           <span class="platform-badge">Entreprises</span>
-          <h3 class="content-card-title">Équipes Bitcoin</h3>
-          <p class="content-card-desc">Salariés, fondateurs et dirigeants de sociétés Bitcoin : exchanges, wallets, infrastructure, services financiers, médias ou éducation.</p>
+          <h3 class="content-card-title">Collaborateurs</h3>
+          <p class="content-card-desc">Salariés, fondateurs et dirigeants de sociétés de l'écosystème Bitcoin : exchanges, wallets, infrastructure, services financiers, médias...</p>
         </div>
       </div>
       <div class="content-card bloc-zero-card">
         <div class="content-card-body">
           <span class="platform-badge">Indépendants</span>
           <h3 class="content-card-title">Freelances et créateurs</h3>
-          <p class="content-card-desc">Consultants, développeurs Bitcoin ou Lightning Network, journalistes, auteurs, podcasteurs, vidéastes et formateurs.</p>
+          <p class="content-card-desc">Consultants, développeurs, journalistes, créateurs de contenus, auteurs, podcasteurs, monteurs, vidéastes, formateurs...</p>
         </div>
       </div>
       <div class="content-card bloc-zero-card">
@@ -64,7 +63,6 @@ image: /assets/img/social-card.png
       <div class="section-header-left">
         <h2 id="bloc-zero-values">Principes</h2>
       </div>
-      <span class="section-count">Règles simples</span>
     </div>
     <div class="bloc-zero-principles" role="list">
       <div class="bloc-zero-principle" role="listitem">
@@ -81,7 +79,7 @@ image: /assets/img/social-card.png
       </div>
       <div class="bloc-zero-principle" role="listitem">
         <span>04</span>
-        <p>Respect entre membres. En cas de manquement, je me réserve le droit de bannir.</p>
+        <p>Respect entre membres.</p>
       </div>
     </div>
   </section>
@@ -91,27 +89,26 @@ image: /assets/img/social-card.png
       <div class="section-header-left">
         <h2 id="bloc-zero-access">Comment entrer ?</h2>
       </div>
-      <span class="section-count">DM sur X</span>
     </div>
     <ol class="bloc-zero-steps">
       <li>
         <span class="bloc-zero-step-number">1</span>
         <div>
           <h3>M'envoyer un DM sur X</h3>
-          <p>Contacte-moi sur X en message direct. Je vérifie mes demandes régulièrement.</p>
+          <p>Contacte-moi sur X en message direct et décris rapidement ce que tu fais. Je vérifie mes demandes régulièrement.</p>
         </div>
       </li>
       <li>
         <span class="bloc-zero-step-number">2</span>
         <div>
           <h3>Je vérifie ton profil</h3>
-          <p>Je regarde si ton profil permet de comprendre clairement ton activité professionnelle autour de Bitcoin : ce que tu fais, avec qui tu travailles, ce que tu publies et comment tu interagis avec l'écosystème.</p>
+          <p>Je regarde si ton profil permet de comprendre ton activité professionnelle autour de Bitcoin.</p>
         </div>
       </li>
       <li>
         <span class="bloc-zero-step-number">3</span>
         <div>
-          <h3>Rejoins la communauté</h3>
+          <h3>Rejoins la communauté&nbsp;!</h3>
           <p>Si ton profil est valide, je t'envoie un lien unique d'invitation pour rejoindre la communauté.</p>
         </div>
       </li>
@@ -128,7 +125,7 @@ image: /assets/img/social-card.png
     <div class="bloc-zero-topic-grid">
       <div class="bloc-zero-topic">
         <h3>Général</h3>
-        <p>Présentations, discussions libres et questions qui ne rentrent pas ailleurs.</p>
+        <p>Présentations, discussions libres et questions diverses.</p>
       </div>
       <div class="bloc-zero-topic">
         <h3>Bitcoin</h3>
