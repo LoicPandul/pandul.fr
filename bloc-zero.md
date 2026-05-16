@@ -3,6 +3,7 @@ title: "BLOC ZERO - Communauté privée Bitcoin"
 description: "BLOC ZERO est un cercle privé et gratuit sur Telegram pour les professionnels dont l'activité principale tourne autour de Bitcoin."
 permalink: /bloc-zero/
 image: /assets/img/social-card.png
+published: false
 ---
 
 <article class="bloc-zero-page">
