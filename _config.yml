@@ -21,6 +21,9 @@ plugins:
 include:
   - ".well-known"
 
+# Cloudflare Web Analytics (D-09 — token public by design, OK to commit)
+analytics:
+  cloudflare_token: "48df3ac9740c4498836e138fc869e5f1"
 
 # Métadonnées SEO
 logo: "/assets/img/social-card.png"
