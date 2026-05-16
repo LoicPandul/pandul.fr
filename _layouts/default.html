@@ -35,7 +35,8 @@
         <nav class="site-nav" id="siteNav">
           <a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Accueil</a>
           <a class="{% if page.url contains '/dictionnaire/' %}active{% endif %}" href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
-          <a class="{% if page.url contains '/bloc-zero/' %}active{% endif %}" href="{{ '/bloc-zero/' | relative_url }}">BLOC ZERO</a>
+          {%- comment -%} BLOC ZERO link hidden until launch — see .planning/notes/bloc-zero-launch.md {%- endcomment -%}
+          {%- comment -%} <a class="{% if page.url contains '/bloc-zero/' %}active{% endif %}" href="{{ '/bloc-zero/' | relative_url }}">BLOC ZERO</a> {%- endcomment -%}
           <a class="{% if page.url contains '/a-propos/' %}active{% endif %}" href="{{ '/a-propos/' | relative_url }}">À propos</a>
           <span class="nav-social-row">
             <a class="icon" href="https://x.com/Loic_Pandul" target="_blank" rel="noopener" aria-label="X (anciennement Twitter)">
@@ -66,7 +67,8 @@
         <nav class="footer-nav">
           <a href="{{ '/' | relative_url }}">Accueil</a>
           <a href="{{ '/dictionnaire/' | relative_url }}">Dictionnaire</a>
-          <a href="{{ '/bloc-zero/' | relative_url }}">BLOC ZERO</a>
+          {%- comment -%} BLOC ZERO link hidden until launch — see .planning/notes/bloc-zero-launch.md {%- endcomment -%}
+          {%- comment -%} <a href="{{ '/bloc-zero/' | relative_url }}">BLOC ZERO</a> {%- endcomment -%}
           <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
         </nav>
         <div class="footer-info">
