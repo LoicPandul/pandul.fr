@@ -9,7 +9,23 @@
   <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
   <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
 
-  {%- seo -%}
+  {%- comment -%}
+    Phase 15 / Pitfall #1 workaround — strip jekyll-seo-tag's hardcoded JSON-LD block.
+    Le gem v2.8.0 ignore _includes/jekyll-seo-tag/template.html (template_path hardcodé
+    dans le gem source). On capture la sortie de {%- seo -%} puis on retire le bloc
+    <script type="application/ld+json">...</script> via split / reconstruction Liquid.
+    Toutes les autres balises (title, OG, Twitter, canonical, GSC, Bing) sont préservées.
+    Le JSON-LD sitewide sera émis Wave 1 par _includes/seo/jsonld-graph.html (D-01).
+    Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-01-SUMMARY.md
+  {%- endcomment -%}
+  {%- capture seo_html -%}{%- seo -%}{%- endcapture -%}
+  {%- assign seo_open_split = seo_html | split: '<script type="application/ld+json">' -%}
+  {%- if seo_open_split.size > 1 -%}
+    {%- assign seo_close_split = seo_open_split[1] | split: '</script>' -%}
+    {{- seo_open_split[0] -}}{{- seo_close_split[1] -}}
+  {%- else -%}
+    {{- seo_html -}}
+  {%- endif -%}
 
   {%- comment -%} KaTeX — chargement conditionnel {%- endcomment -%}
   {% if page.math %}
