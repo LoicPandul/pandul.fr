@@ -155,6 +155,72 @@ function hasLatex(content) {
 }
 
 /**
+ * Strip markdown formatting for plain-text sentence extraction (Pass 9, D-02).
+ * ORDRE CRITIQUE (T-04) : LaTeX d'abord, puis code fences, puis images/links,
+ * puis emphasis/code, puis blockquotes/lists.
+ * Preserve la ponctuation de fin de phrase pour permettre le split ulterieur.
+ * T-05 : implementee from scratch (aucune logique strip reutilisable n'existe).
+ */
+function stripMarkdownForExtract(content) {
+  if (!content || typeof content !== 'string') return '';
+  return content
+    .replace(/\$\$[\s\S]*?\$\$/g, '')          // LaTeX display math FIRST (T-04)
+    .replace(/\$[^$\n]+?\$/g, '')               // LaTeX inline math
+    .replace(/```[\s\S]*?```/g, '')             // code fences
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, '')       // images
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')    // links (keep visible text)
+    .replace(/\*\*([^*]+)\*\*/g, '$1')          // bold
+    .replace(/\*([^*\n]+)\*/g, '$1')            // italic
+    .replace(/`([^`\n]+)`/g, '$1')              // inline code
+    .replace(/^>\s*/gm, '')                     // blockquotes
+    .replace(/^[\s]*[-*]\s+/gm, '')             // list markers
+    .replace(/\s+/g, ' ')                       // collapse whitespace
+    .trim();
+}
+
+/**
+ * Pass 9 : calcule la description meta (70-155 chars) a partir du body Markdown source.
+ * Algorithme D-02 :
+ *   1. strip markdown via stripMarkdownForExtract()
+ *   2. split sur sentence terminators . ! ? suivis d'un espace + majuscule (latin OU accentuee)
+ *   3. si len(p1) dans [70, 155] -> use as is
+ *   4. si len(p1) < 70 -> concat phrases jusqu'a atteindre 70 (tronquer si depasse 155)
+ *   5. si len(p1) > 155 -> tronquer au dernier espace avant 152 + '...'
+ * Retourne null si aucun contenu parseable (jamais fabriquer fallback -- Pitfall C3 absolu).
+ */
+function computeMetaDescription(content) {
+  const stripped = stripMarkdownForExtract(content);
+  if (!stripped || stripped.length < 20) return null;
+
+  // Split on sentence terminators (period/exclamation/question + space + uppercase Latin or accented)
+  // Regex tolere espace normal ET non-breaking space U+00A0 (typographie francaise T-08).
+  const sentences = stripped.split(/(?<=[.!?])[\s ]+(?=[A-ZÀ-Ý])/);
+  if (sentences.length === 0) return null;
+
+  let result = sentences[0].trim();
+
+  // Case 1 : premiere phrase deja dans la fenetre
+  if (result.length >= 70 && result.length <= 155) return result;
+
+  // Case 2 : trop court -> concat phrases suivantes
+  let i = 1;
+  while (result.length < 70 && i < sentences.length) {
+    result = (result + ' ' + sentences[i].trim()).trim();
+    i++;
+  }
+
+  // Case 3 : tronquer si depasse 155
+  if (result.length > 155) {
+    const cut = result.lastIndexOf(' ', 152);
+    if (cut < 50) return null;  // can't truncate cleanly
+    result = result.substring(0, cut).replace(/[.,;:!?]+$/, '') + '...';
+  }
+
+  if (result.length < 70) return null;  // gave up -- corpus insuffisant
+  return result;
+}
+
+/**
  * Genere un slug URL-safe a partir d'une chaine.
  * Normalise les accents (NFD), filtre en alphanumerique, separe par tirets.
  * Utilise pour category_slug, letter slug, etc. (T-03-01).
@@ -175,6 +241,10 @@ function generateFrontMatter(def) {
   fm += `category: "${escapeYaml(def.category)}"\n`;
   fm += `letter: "${def.slug[0].toUpperCase()}"\n`;
   fm += `layout: definition\n`;
+
+  if (def.description) {
+    fm += `description: "${escapeYaml(def.description)}"\n`;
+  }
 
   if (def.english_term) {
     fm += `english_term: "${escapeYaml(def.english_term)}"\n`;
@@ -285,6 +355,30 @@ for (const def of definitions) {
 }
 
 console.log(`Passe 2 : cross-references resolues (${unresolvedCount} non resolues)`);
+
+// Passe 9 (D-01, D-02, SO-03) : calculer meta description sur le body source.
+// Precompute pour eviter regex en Liquid au build time (C5 mitigation).
+// Insere AVANT Pass 3 pour que les DEUX boucles de generation (Pass 3 ligne ~381
+// et Pass 5 re-gen ligne ~471) emettent automatiquement le field description.
+let descriptionComputed = 0;
+let descriptionOmitted = 0;
+for (const def of definitions) {
+  const defMdPath = path.join(def._sourceDir, 'definition.md');
+  if (!fs.existsSync(defMdPath)) {
+    descriptionOmitted++;
+    continue;
+  }
+  const rawBody = fs.readFileSync(defMdPath, 'utf8').replace(/\r\n/g, '\n');
+  const desc = computeMetaDescription(rawBody);
+  if (desc) {
+    def.description = desc;
+    descriptionComputed++;
+  } else {
+    descriptionOmitted++;
+    console.warn(`WARN Passe 9 : description omise pour ${def.slug} (corpus insuffisant)`);
+  }
+}
+console.log(`Passe 9 : meta description calculee (${descriptionComputed} ok, ${descriptionOmitted} omises)`);
 
 if (dryRun) {
   console.log('');
