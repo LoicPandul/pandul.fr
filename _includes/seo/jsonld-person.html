@@ -3,8 +3,7 @@
   Source : site.data.seo.person (Phase 14 D-03).
   @id stable : https://pandul.fr/#person-loic (immutable, Phase 16+ references).
   description ABSENTE (D-05 — person.description pas dans seo.yml ; ajout possible Phase 16-17 quand /a-propos/ aura un paragraphe matchable).
-  inLanguage hardcodé "fr" (site-wide constant).
   sameAs inclut Amazon author page (signal d'autorité Google Knowledge Graph).
   Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 4.
 {%- endcomment -%}
-{"@type":"Person","@id":"{{ site.data.seo.person.id }}","name":{{ site.data.seo.person.name | jsonify }},"alternateName":{{ site.data.seo.person.alternate_name | jsonify }},"url":"{{ site.data.seo.person.url }}","image":"{{ site.data.seo.person.image }}","jobTitle":{{ site.data.seo.person.job_title | jsonify }},"knowsAbout":[{%- for k in site.data.seo.person.knows_about -%}{{ k | jsonify }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}],"sameAs":[{%- for u in site.data.seo.person.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}],"worksFor":{"@id":"{{ site.data.seo.person.works_for_ref }}"},"inLanguage":"fr"}
+{"@type":"Person","@id":"{{ site.data.seo.person.id }}","name":{{ site.data.seo.person.name | jsonify }},"alternateName":{{ site.data.seo.person.alternate_name | jsonify }},"url":"{{ site.data.seo.person.url }}","image":"{{ site.data.seo.person.image }}","jobTitle":{{ site.data.seo.person.job_title | jsonify }},"knowsAbout":[{%- for k in site.data.seo.person.knows_about -%}{{ k | jsonify }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}],"sameAs":[{%- for u in site.data.seo.person.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}],"worksFor":{"@id":"{{ site.data.seo.person.works_for_ref }}"}}
