@@ -36,11 +36,13 @@ twitter:
 # Image globale par defaut (Open Graph fallback - D-05)
 image: "/assets/img/social-card.png"
 
-# Webmaster verifications (D-02, ST-04 - utiliser le bloc PAS top-level bing_site_verification)
-# Sera rempli avec les vraies valeurs en Plan 14-03b (demarche GSC + Bing)
+# Webmaster verifications (D-02, ST-04)
+# GSC : verification via Domain property DNS TXT (Cloudflare), auto-propagation a la propriete URL-prefix https://pandul.fr/
+# Bing : skipped Cas C (Plan 14-03b 2026-05-17) - a re-evaluer v1.3+ si besoin
+# Bloc conserve pour future utilisation - empty strings = jekyll-seo-tag n'emet pas les meta tags
 webmaster_verifications:
-  google: "REMPLIR_AVEC_TOKEN_GSC"
-  bing: "REMPLIR_AVEC_TOKEN_BING"
+  google: ""
+  bing: ""
 
 # Metadonnees SEO
 logo: "/assets/img/social-card.png"
