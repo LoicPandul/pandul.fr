@@ -98,7 +98,7 @@ const detail_budget_overflow = wrap(JSON.stringify({
     { '@type': 'Organization', '@id': 'https://pandul.fr/#b', 'inLanguage': 'fr' },
     { '@type': 'Person', '@id': 'https://pandul.fr/#c', 'inLanguage': 'fr' },
     { '@type': 'DefinedTerm', '@id': 'https://pandul.fr/d/x/#term', 'inLanguage': 'fr', 'name': 'X',
-      'description': 'X'.repeat(2200) },
+      'description': 'X'.repeat(3200) },
     { '@type': 'AboutPage', '@id': 'https://pandul.fr/d/x/#about', 'inLanguage': 'fr' }
   ]
 }));

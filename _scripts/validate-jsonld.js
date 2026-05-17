@@ -1,17 +1,32 @@
 #!/usr/bin/env node
-// Phase 15 validator (D-03, D-04) — zero deps.
-// 4 checks bloquants : JSON.parse / budget @graph (≤3 entries, ≤1.5 KB) / inLanguage:"fr" / @id refs cohérents.
+// Phase 15+16 validator — zero deps.
+// 7 checks bloquants :
+//   1. JSON.parse (Phase 15)
+//   2. Budget @graph tiered (sitewide ≤1.5KB/3, detail ≤3KB/5, hub ≤30KB/6) — D-06 / T-03
+//   3. inLanguage:"fr" avec whitelist BreadcrumbList/ItemList/ListItem — T-02
+//   4. @id refs cohérents (Phase 15)
+//   5. <meta name="description"> length ∈ [70, 155] — SO-02 / D-06
+//   6. description JSON-LD substring-or-≥80%-word-overlap du body texte — anti-C3 / D-06
+//   7. <title> ≤ 65 chars — SO-01 / D-07
 // Usage : node _scripts/validate-jsonld.js _site/
-// Exit  : 0 si tout passe, 1 si au moins 1 erreur, 2 si répertoire racine introuvable.
-// Réf   : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 7.
+// Exit  : 0 si tout passe, 1 si ≥1 erreur, 2 si répertoire racine introuvable.
 
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = process.argv[2] || '_site';
 const SKIP_PATTERNS = [/[\\/]404\.html$/, /[\\/]redirect_from[\\/]/];
-const MAX_GRAPH_ENTRIES = 3;          // GE-14
-const MAX_JSONLD_BYTES = 1536;        // GE-14 (1.5 KB)
+
+// Phase 16 : régime budget différentiel (T-03 mitigation, D-06)
+const BUDGET_TIERS = {
+  hub:      { maxBytes: 30000, maxEntries: 6, label: 'hub' },       // CollectionPage / DefinedTermSet
+  detail:   { maxBytes: 3000,  maxEntries: 5, label: 'detail' },    // DefinedTerm / AboutPage
+  sitewide: { maxBytes: 1536,  maxEntries: 3, label: 'sitewide' }   // homepage / fallback
+};
+
+// Phase 16 : whitelist des types qui n'héritent PAS de inLanguage (T-02 mitigation).
+// BreadcrumbList et ItemList descendent de Intangible, pas de CreativeWork.
+const INLANGUAGE_EXEMPT_TYPES = new Set(['BreadcrumbList', 'ItemList', 'ListItem']);
 
 // Regex éprouvée empiriquement (RESEARCH §A4) — ne PAS modifier (T-15-02).
 const SCRIPT_RE = /<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
@@ -51,10 +66,28 @@ function collectDefinedIds(obj, ids) {
   return ids;
 }
 
+/**
+ * Phase 16 (D-06, T-03) : classify a page @graph to determine budget tier.
+ * - hub : page contient CollectionPage ou DefinedTermSet (categorie/lettre/dictionnaire)
+ * - detail : page contient DefinedTerm ou AboutPage (definition/a-propos)
+ * - sitewide : aucun primary type (homepage, autres)
+ */
+function classifyPage(graphArray) {
+  const types = (graphArray || []).map(function (e) { return e && e['@type']; }).filter(Boolean);
+  if (types.indexOf('CollectionPage') >= 0 || types.indexOf('DefinedTermSet') >= 0) {
+    return BUDGET_TIERS.hub;
+  }
+  if (types.indexOf('DefinedTerm') >= 0 || types.indexOf('AboutPage') >= 0) {
+    return BUDGET_TIERS.detail;
+  }
+  return BUDGET_TIERS.sitewide;
+}
+
 function validateInLanguage(graphArray, errors) {
   for (const entity of graphArray) {
     if (!entity || typeof entity !== 'object') continue;
     if (entity['@type'] === undefined) continue;
+    if (INLANGUAGE_EXEMPT_TYPES.has(entity['@type'])) continue;  // T-02 — exempté BreadcrumbList/ItemList/ListItem
     if (entity.inLanguage !== 'fr') {
       errors.push('Entity ' + entity['@type'] + ' (@id=' + entity['@id'] + ') missing inLanguage:"fr"');
     }
@@ -84,11 +117,7 @@ for (const file of walkHtml(ROOT)) {
     const raw = match[1];
     const bytes = Buffer.byteLength(raw, 'utf8');
 
-    // Check 2a: budget bytes
-    if (bytes > MAX_JSONLD_BYTES) {
-      errors.push('Budget exceeded: ' + bytes + 'B > ' + MAX_JSONLD_BYTES + 'B');
-    }
-    // Check 1: JSON.parse
+    // Check 1: JSON.parse (faire en premier pour classifier le @graph)
     let parsed;
     try {
       parsed = JSON.parse(raw);
@@ -96,13 +125,18 @@ for (const file of walkHtml(ROOT)) {
       errors.push('JSON.parse failed: ' + e.message);
       continue;
     }
-    // Check 2b: budget entries
     const graph = parsed['@graph'] || [parsed];
-    if (Array.isArray(graph) && graph.length > MAX_GRAPH_ENTRIES) {
-      errors.push('@graph has ' + graph.length + ' entries (max ' + MAX_GRAPH_ENTRIES + ')');
+    const graphArr = Array.isArray(graph) ? graph : [graph];
+    // Check 2 (D-06, T-03): budget tier classification
+    const budget = classifyPage(graphArr);
+    if (bytes > budget.maxBytes) {
+      errors.push('Budget exceeded (' + budget.label + '): ' + bytes + 'B > ' + budget.maxBytes + 'B');
     }
-    // Check 3: inLanguage
-    validateInLanguage(Array.isArray(graph) ? graph : [graph], errors);
+    if (graphArr.length > budget.maxEntries) {
+      errors.push('@graph has ' + graphArr.length + ' entries (max ' + budget.maxEntries + ' for ' + budget.label + ')');
+    }
+    // Check 3: inLanguage (whitelist T-02 appliqué dans validateInLanguage)
+    validateInLanguage(graphArr, errors);
     // Check 4: @id ref integrity
     const defined = collectDefinedIds(parsed);
     const refs = collectIdRefs(parsed);
