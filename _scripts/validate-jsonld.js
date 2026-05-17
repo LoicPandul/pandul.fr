@@ -94,6 +94,29 @@ function validateInLanguage(graphArray, errors) {
   }
 }
 
+// Phase 16 (D-06, SO-02) — check #5 : meta description length ∈ [70, 155]
+const META_DESC_RE = /<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i;
+function checkMetaDescription(html, errors) {
+  const m = html.match(META_DESC_RE);
+  if (!m) return;  // pas de meta description → skip (404 et redirect_from déjà filtrés en amont)
+  const desc = m[1].trim();
+  const len = desc.length;
+  if (len < 70 || len > 155) {
+    errors.push('Meta description length ' + len + ' out of [70,155] : "' + desc.substring(0, 50) + '..."');
+  }
+}
+
+// Phase 16 (D-07, SO-01) — check #7 : title length ≤ 65 chars
+const TITLE_RE = /<title>([^<]*)<\/title>/i;
+function checkTitleLength(html, errors) {
+  const m = html.match(TITLE_RE);
+  if (!m) return;  // pas de title (improbable, mais skip safely)
+  const title = m[1].trim();
+  if (title.length > 65) {
+    errors.push('Title length ' + title.length + ' > 65 chars : "' + title + '"');
+  }
+}
+
 if (!fs.existsSync(ROOT)) {
   console.error('ERROR: root directory not found: ' + ROOT);
   console.error('Run "bundle exec jekyll build" first.');
@@ -148,6 +171,9 @@ for (const file of walkHtml(ROOT)) {
       }
     }
   }
+  // Phase 16 — checks page-level (un seul appel par fichier HTML, pas par JSON-LD block)
+  checkMetaDescription(html, errors);
+  checkTitleLength(html, errors);
   if (errors.length) {
     totalErrors += errors.length;
     console.error('\n' + file);

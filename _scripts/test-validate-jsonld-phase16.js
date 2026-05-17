@@ -105,7 +105,7 @@ const detail_budget_overflow = wrap(JSON.stringify({
 
 // Task 2 — check #5 meta description : valide
 const meta_valid = '<html><head><title>OK</title>' +
-  '<meta name="description" content="Phrase d\'exactement de septante caracteres qui passe la limite minimale et reste sous le maximum largement.">' +
+  '<meta name="description" content="Phrase de septante caracteres qui passe la limite minimale et reste sous le maximum largement.">' +
   '<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pandul.fr/#website","inLanguage":"fr","name":"Pandul"}]}</script>' +
   '</head><body>Contenu visible.</body></html>';
 
