@@ -1,0 +1,5 @@
+# Force LF line endings for shell scripts and git hooks.
+# Without this, Git for Windows (autocrlf=true) checks out these files with
+# CRLF, which breaks POSIX shells with errors like `$'\r': command not found`.
+.githooks/* text eol=lf
+*.sh text eol=lf
