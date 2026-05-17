@@ -1,0 +1,8 @@
+# robots.txt - pandul.fr
+# Posture : allow-all pour maximiser l'indexation et la citation par les LLM.
+# Decision actee 2026-05-16 (CONTEXT.md D-01).
+
+User-agent: *
+Allow: /
+
+Sitemap: https://pandul.fr/sitemap.xml
