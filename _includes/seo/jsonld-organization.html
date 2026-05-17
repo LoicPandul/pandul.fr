@@ -3,7 +3,6 @@
   Source : site.data.seo.organization (Phase 14 D-04).
   @id stable : https://pandul.fr/#organization (immutable, Phase 16+ references).
   description PRÉSENTE (single-source D-05) — vient de _data/seo.yml organization.description (tirets simples, pas d'em dash).
-  inLanguage hardcodé "fr" (site-wide constant — pas un champ data sur Organization).
   Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 3.
 {%- endcomment -%}
-{"@type":"Organization","@id":"{{ site.data.seo.organization.id }}","name":{{ site.data.seo.organization.name | jsonify }},"url":"{{ site.data.seo.organization.url }}","logo":"{{ site.data.seo.organization.logo }}","description":{{ site.data.seo.organization.description | jsonify }},"founder":{"@id":"{{ site.data.seo.organization.founder_ref }}"},"sameAs":[{%- for u in site.data.seo.organization.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}],"inLanguage":"fr"}
+{"@type":"Organization","@id":"{{ site.data.seo.organization.id }}","name":{{ site.data.seo.organization.name | jsonify }},"url":"{{ site.data.seo.organization.url }}","logo":"{{ site.data.seo.organization.logo }}","description":{{ site.data.seo.organization.description | jsonify }},"founder":{"@id":"{{ site.data.seo.organization.founder_ref }}"},"sameAs":[{%- for u in site.data.seo.organization.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]}
