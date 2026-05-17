@@ -5,6 +5,7 @@ permalink: /dictionnaire/dual-funding/
 category: "LIGHTNING NETWORK"
 letter: "D"
 layout: definition
+description: "Lors de l'ouverture d'un canal Lightning, le dual funding permet aux deux participants d'y bloquer des bitcoins."
 french_term: "FINANCEMENT DOUBLE"
 category_slug: "lightning-network"
 prev_in_category:

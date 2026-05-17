@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-point/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Identifiant unique d'un canal Lightning sur la blockchain Bitcoin. Il se compose du TXID de la transaction de financement du canal suivi de l'index de..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "CHANNEL LEASE"

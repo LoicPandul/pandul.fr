@@ -5,6 +5,7 @@ permalink: /dictionnaire/liquidites/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Désigne la capacité d'un canal de paiement Lightning à faire passer des transactions entre deux nœuds en fonction des bitcoins disponibles de chaque..."
 english_term: "LIQUIDITY - LIGHTNING"
 category_slug: "lightning-network"
 prev_in_category:

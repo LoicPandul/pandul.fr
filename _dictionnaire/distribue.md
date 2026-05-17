@@ -5,6 +5,7 @@ permalink: /dictionnaire/distribue/
 category: "RÉSEAU"
 letter: "D"
 layout: definition
+description: "Attribut d'un réseau informatique dans lequel le pouvoir de décision et le contrôle sont répartis de manière équitable entre tous les participants du..."
 english_term: "DISTRIBUTED"
 category_slug: "reseau"
 prev_in_category:

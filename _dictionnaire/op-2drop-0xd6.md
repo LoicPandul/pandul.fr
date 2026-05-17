@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-2drop-0xd6/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Supprime les deux éléments en haut de la pile. Autrement dit, OP_2DROP supprime le sommet de la pile et le deuxième élément de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_2 À OP_16 - 0X52 À 0X60"

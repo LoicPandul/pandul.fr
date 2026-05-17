@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-max-0xa4/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Sélectionne le plus grand des deux éléments en haut de la pile et le pousse sur la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_LESSTHANOREQUAL - 0XA1"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/dos-denial-of-service/
 category: "ATTAQUE"
 letter: "D"
 layout: definition
+description: "Attaque informatique qui vise à rendre une ressource (site web, nœud, service en ligne...) indisponible pour ses utilisateurs légitimes."
 french_term: "ATTAQUE PAR DÉNI DE SERVICE"
 category_slug: "attaque"
 prev_in_category:

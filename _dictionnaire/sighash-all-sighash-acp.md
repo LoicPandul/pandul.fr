@@ -5,6 +5,7 @@ permalink: /dictionnaire/sighash-all-sighash-acp/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Type de SigHash Flag (0x81) combiné avec le modificateur SIGHASH_ANYONECANPAY (SIGHASH_ACP) utilisé dans les signatures des transactions Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "SIGHASH_ALL"

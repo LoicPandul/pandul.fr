@@ -5,6 +5,7 @@ permalink: /dictionnaire/policy-miniscript/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "Langage de haut niveau orienté utilisateur permettant de spécifier simplement des conditions sous lesquelles un UTXO peut être débloqué dans le cadre de..."
 french_term: "POLITIQUE - MINISCRIPT"
 category_slug: "script"
 prev_in_category:

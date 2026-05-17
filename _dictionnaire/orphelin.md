@@ -5,6 +5,7 @@ permalink: /dictionnaire/orphelin/
 category: "PROTOCOLE"
 letter: "O"
 layout: definition
+description: "Théoriquement, un bloc orphelin désigne un bloc valide réceptionné par un nœud qui n'a pas encore acquis le bloc parent, c'est-à-dire le précédent dans..."
 english_term: "ORPHAN BLOCK"
 category_slug: "protocole"
 prev_in_category:

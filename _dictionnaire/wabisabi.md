@@ -5,6 +5,7 @@ permalink: /dictionnaire/wabisabi/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+description: "Protocole de coinjoins à coordinateur central utilisé sur le portefeuille Wasabi 2.0."
 category_slug: "confidentialite"
 prev_in_category:
   title: "VIRGIN BITCOIN"

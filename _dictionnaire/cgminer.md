@@ -5,6 +5,7 @@ permalink: /dictionnaire/cgminer/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Logiciel de minage open-source initialement développé pour le CPU et le GPU."
 category_slug: "minage"
 prev_in_category:
   title: "CANDIDAT - BLOC"

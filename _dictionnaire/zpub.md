@@ -5,6 +5,7 @@ permalink: /dictionnaire/zpub/
 category: "PORTEFEUILLE"
 letter: "Z"
 layout: definition
+description: "Préfixe de clé publique étendue pour les comptes SegWit V0 sur Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "ZPRV"

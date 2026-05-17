@@ -5,6 +5,7 @@ permalink: /dictionnaire/sweep-transaction/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Pattern ou modèle de transaction utilisé en analyse de chaîne pour déterminer la nature de la transaction."
 french_term: "TRANSACTION DE BALAYAGE"
 category_slug: "confidentialite"
 prev_in_category:

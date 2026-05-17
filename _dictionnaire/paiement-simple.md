@@ -5,6 +5,7 @@ permalink: /dictionnaire/paiement-simple/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Pattern (ou modèle) de transaction utilisé en analyse de chaîne qui se caractérise par la consommation d'un ou plusieurs UTXOs en inputs et la..."
 english_term: "SIMPLE PAYMENT"
 category_slug: "confidentialite"
 prev_in_category:

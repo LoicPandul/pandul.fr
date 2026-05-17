@@ -5,6 +5,7 @@ permalink: /dictionnaire/round-ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+description: "Processus périodique au cœur du protocole Ark par lequel l'Ark Service Provider (ASP) consolide les transactions VTXO des utilisateurs et les ancre sur..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "ROLLUP"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/mtp-median-time-past/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Concept utilisé dans le protocole Bitcoin pour déterminer une marge sur l'horodatage consensuel du réseau."
 french_term: "TEMPS MÉDIAN PASSÉ"
 category_slug: "protocole"
 prev_in_category:

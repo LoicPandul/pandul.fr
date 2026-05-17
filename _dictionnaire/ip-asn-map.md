@@ -5,6 +5,7 @@ permalink: /dictionnaire/ip-asn-map/
 category: "RÉSEAU"
 letter: "I"
 layout: definition
+description: "Fichier utilisé dans Bitcoin Core pour stocker l'ASMAP qui permet d'améliorer le bucketing (c'est-à-dire, le regroupement) des adresses IP, en se basant..."
 category_slug: "reseau"
 prev_in_category:
   title: "I2P"

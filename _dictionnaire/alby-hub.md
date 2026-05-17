@@ -5,6 +5,7 @@ permalink: /dictionnaire/alby-hub/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Application open-source qui permet de faire fonctionner un nœud Lightning Network personnel et de le connecter à diverses applications via le protocole..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "AEZEED"

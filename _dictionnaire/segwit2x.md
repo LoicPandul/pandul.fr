@@ -5,6 +5,7 @@ permalink: /dictionnaire/segwit2x/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+description: "Tentative controversée de hard fork visant à doubler la limite de taille des blocs sur Bitcoin, tout en intégrant SegWit."
 category_slug: "histoire"
 prev_in_category:
   title: "SATOSHIDICE"

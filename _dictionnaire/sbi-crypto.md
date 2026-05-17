@@ -5,6 +5,7 @@ permalink: /dictionnaire/sbi-crypto/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Pool de minage de Bitcoin basée à Tokyo, exploitée par SBI Crypto, filiale du groupe financier japonais SBI Holdings."
 category_slug: "minage"
 prev_in_category:
   title: "RSMPPS"

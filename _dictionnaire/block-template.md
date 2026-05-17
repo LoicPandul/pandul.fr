@@ -5,6 +5,7 @@ permalink: /dictionnaire/block-template/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Ensemble d'informations fournies par un nœud Bitcoin à un logiciel de minage ou une pool, contenant les données nécessaires pour construire un nouveau..."
 french_term: "MODÈLE DE BLOC"
 category_slug: "minage"
 prev_in_category:

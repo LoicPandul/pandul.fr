@@ -5,6 +5,7 @@ permalink: /dictionnaire/bsms/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Sigle de « Bitcoin Secure Multisig Setup ». BSMS est un protocole standardisé par le BIP-0129 qui permet de créer un portefeuille multisignatures de..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BRANCH-AND-BOUND"

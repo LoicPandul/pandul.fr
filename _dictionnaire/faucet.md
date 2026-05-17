@@ -5,6 +5,7 @@ permalink: /dictionnaire/faucet/
 category: "HISTOIRE"
 letter: "F"
 layout: definition
+description: "Site web ou application qui distribue gratuitement de petites quantités de bitcoins à ses visiteurs, généralement en échange de la résolution d'un..."
 french_term: "ROBINET"
 category_slug: "histoire"
 prev_in_category:

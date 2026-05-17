@@ -5,6 +5,7 @@ permalink: /dictionnaire/chaincode-labs/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+description: "Centre de recherche et développement sur Bitcoin fondé en 2014 par Alex Morcos et Suhas Daftuar à New York."
 category_slug: "organisation"
 prev_in_category:
   title: "CHAINALYSIS"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/effet-cantillon/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
+description: "Phénomène économique décrit par l'économiste irlando-français Richard Cantillon au XVIIIe siècle, selon lequel l'injection de nouvelle monnaie dans une..."
 english_term: "CANTILLON EFFECT"
 category_slug: "economie-et-regulation"
 prev_in_category:

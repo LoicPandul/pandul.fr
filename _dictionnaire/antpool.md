@@ -5,6 +5,7 @@ permalink: /dictionnaire/antpool/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "Pool de minage de Bitcoin fondée en 2014 par Bitmain Technologies, le principal fabricant de matériel de minage ASIC."
 category_slug: "minage"
 prev_in_category:
   title: "AIR COOLING"

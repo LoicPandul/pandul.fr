@@ -5,6 +5,7 @@ permalink: /dictionnaire/matt/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+description: "Proposition de soft fork dont le nom signifie « Merkleize All The Things » et qui vise à introduire des capacités de covenant et d'introspection limitée..."
 category_slug: "script"
 prev_in_category:
   title: "CONTROL BLOCK"

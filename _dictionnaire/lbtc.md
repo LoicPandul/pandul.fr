@@ -5,6 +5,7 @@ permalink: /dictionnaire/lbtc/
 category: "SIDECHAIN"
 letter: "L"
 layout: definition
+description: "Symbole boursier (ticker) qui désigne le bitcoin circulant sur le Liquid Network, la sidechain fédérée développée par Blockstream."
 category_slug: "sidechain"
 prev_in_category:
   title: "FONCTIONNAIRE"

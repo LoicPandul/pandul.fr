@@ -5,6 +5,7 @@ permalink: /dictionnaire/indexes-txindex/
 category: "PROTOCOLE"
 letter: "I"
 layout: definition
+description: "Fichiers dans Bitcoin Core qui sont dédiés à l'indexation de toutes les transactions présentes dans la blockchain."
 category_slug: "protocole"
 prev_in_category:
   title: "IMPLÉMENTATION DE BITCOIN"

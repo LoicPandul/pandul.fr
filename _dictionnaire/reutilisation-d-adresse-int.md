@@ -5,6 +5,7 @@ permalink: /dictionnaire/reutilisation-d-adresse-int/
 category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
+description: "On dit d'une réutilisation d'adresse qu'elle est « interne » lorsqu'elle survient au sein d'une même transaction en input et en output."
 english_term: "INTERNAL ADDRESS REUSE"
 category_slug: "confidentialite"
 prev_in_category:

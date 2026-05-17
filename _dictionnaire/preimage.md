@@ -5,6 +5,7 @@ permalink: /dictionnaire/preimage/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "En mathématiques, la préimage d'un élément par une fonction est l'ensemble des tels que ."
 french_term: "PRÉIMAGE"
 category_slug: "cryptographie"
 prev_in_category:

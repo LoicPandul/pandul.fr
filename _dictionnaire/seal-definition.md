@@ -5,6 +5,7 @@ permalink: /dictionnaire/seal-definition/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, la Seal Definition constitue la composante d'un Assignment qui relie explicitement un commitment à un UTXO détenu par le..."
 category_slug: "rgb"
 prev_in_category:
   title: "SCHEMA"

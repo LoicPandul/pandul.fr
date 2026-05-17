@@ -5,6 +5,7 @@ permalink: /dictionnaire/pathfinding/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Processus utilisé par un nœud pour déterminer le chemin optimal afin de router un paiement à travers le réseau de canaux Lightning."
 french_term: "RECHERCHE DE CHEMIN"
 category_slug: "lightning-network"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ctusd-citrea-usd/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Stablecoin natif de la plateforme Citrea, adossé au dollar américain à parité 1:1."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "COUNTERPARTY"

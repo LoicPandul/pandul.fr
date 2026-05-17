@@ -5,6 +5,7 @@ permalink: /dictionnaire/nbits/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Champ de 4 octets présent dans l'en-tête de chaque bloc Bitcoin, qui encode la cible de difficulté sous une forme compacte : le premier octet indique le..."
 category_slug: "protocole"
 prev_in_category:
   title: "NAT - NETWORK-ADJUSTED TIME"

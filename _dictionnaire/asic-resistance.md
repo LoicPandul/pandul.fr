@@ -5,6 +5,7 @@ permalink: /dictionnaire/asic-resistance/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "Propriété d'un algorithme de minage qui vise à limiter l'avantage des circuits intégrés spécialisés (ASIC) par rapport au matériel grand public, comme..."
 french_term: "RÉSISTANCE AUX ASIC"
 category_slug: "minage"
 prev_in_category:

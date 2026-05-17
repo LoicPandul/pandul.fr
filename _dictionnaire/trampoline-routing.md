@@ -5,6 +5,7 @@ permalink: /dictionnaire/trampoline-routing/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Méthode de routage Lightning qui permet à un nœud léger de déléguer la construction du chemin de paiement à un ou plusieurs nœuds intermédiaires..."
 french_term: "ROUTAGE TRAMPOLINE"
 category_slug: "lightning-network"
 prev_in_category:

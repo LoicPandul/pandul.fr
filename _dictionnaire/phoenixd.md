@@ -5,6 +5,7 @@ permalink: /dictionnaire/phoenixd/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Implémentation spécialisée d'un nœud Lightning (éclair), conçue pour envoyer et recevoir des paiements depuis un serveur."
 category_slug: "lightning-network"
 prev_in_category:
   title: "PHOENIX"

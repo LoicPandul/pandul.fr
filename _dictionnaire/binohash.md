@@ -5,6 +5,7 @@ permalink: /dictionnaire/binohash/
 category: "SCRIPT"
 letter: "B"
 layout: definition
+description: "Fonction de hachage résistante aux collisions pour les transactions Bitcoin, proposée par Robin Linus (ZeroSync) en 2026, qui permet une forme limitée..."
 category_slug: "script"
 next_in_category:
   title: "CONTRAT INTELLIGENT"

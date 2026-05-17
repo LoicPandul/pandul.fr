@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2sh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2SH est le sigle pour Pay to Script Hash (en français « payer au hachage du script »)."
 category_slug: "script"
 prev_in_category:
   title: "P2PKH"

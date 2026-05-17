@@ -5,6 +5,7 @@ permalink: /dictionnaire/finney-hal/
 category: "HISTOIRE"
 letter: "F"
 layout: definition
+description: "Harold T. Finney II, dit Hal Finney, est un cryptographe et développeur célèbre pour son rôle crucial dans les débuts de Bitcoin et ses contributions à..."
 category_slug: "histoire"
 prev_in_category:
   title: "FAUCET"

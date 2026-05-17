@@ -5,6 +5,7 @@ permalink: /dictionnaire/bloom-filter/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+description: "Structure de données probabiliste utilisée pour tester si un élément fait partie d'un ensemble."
 french_term: "FILTRE DE BLOOM"
 category_slug: "reseau"
 prev_in_category:

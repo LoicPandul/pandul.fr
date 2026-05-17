@@ -5,6 +5,7 @@ permalink: /dictionnaire/noise/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+description: "Framework cryptographique utilisé pour établir et authentifier les connexions entre nœuds Lightning."
 category_slug: "reseau"
 prev_in_category:
   title: "NIP"

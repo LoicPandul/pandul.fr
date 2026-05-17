@@ -5,6 +5,7 @@ permalink: /dictionnaire/stacker/
 category: "COMMUNAUTÉ"
 letter: "S"
 layout: definition
+description: "Terme utilisé dans la communauté Bitcoin pour désigner l'action d'accumuler régulièrement des sats."
 category_slug: "communaute"
 prev_in_category:
   title: "SLIP"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ripemd160/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+description: "Acronyme de RACE Integrity Primitives Evaluation Message Digest 160, où « RACE » signifie Research and development in Advanced Communications..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "RANGEPROOFS"

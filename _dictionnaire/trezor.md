@@ -5,6 +5,7 @@ permalink: /dictionnaire/trezor/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+description: "Marque de hardware wallets fabriqués par la société tchèque SatoshiLabs, lancée en 2014 avec le Trezor One, considéré comme le premier portefeuille..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "TPUB"

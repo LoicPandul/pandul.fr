@@ -5,6 +5,7 @@ permalink: /dictionnaire/btkn/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+description: "Standard de jetons (tokens) natif du protocole Spark, permettant l'émission et la gestion d'actifs numériques directement sur une couche supérieure de..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "BROLLUPS"

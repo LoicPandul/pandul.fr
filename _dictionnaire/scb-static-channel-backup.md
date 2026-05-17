@@ -5,6 +5,7 @@ permalink: /dictionnaire/scb-static-channel-backup/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Mécanisme de sauvegarde introduit par LND permettant de récupérer ses fonds en cas de perte de données d'un nœud Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "RUST-LIGHTNING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/dca-dollar-cost-averaging/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+description: "Stratégie d'investissement qui consiste à investir un montant fixe de monnaie fiat dans un actif spécifique à intervalles réguliers, indépendamment du..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "DARWINISME MONÉTAIRE"

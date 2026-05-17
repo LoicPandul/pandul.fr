@@ -5,6 +5,7 @@ permalink: /dictionnaire/whirlpool-stat-tool/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+description: "Logiciel en ligne de commandes développé par Samourai Wallet qui permet de fournir les anonsets prospectifs et rétrospectifs d'une pièce mixée au sein..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "WHIRLPOOL"

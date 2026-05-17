@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-12/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit un protocole de négociation de paiement Lightning plus flexible que BOLT-11."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-11"

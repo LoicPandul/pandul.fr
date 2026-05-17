@@ -5,6 +5,7 @@ permalink: /dictionnaire/revokeandack/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+description: "Message du protocole Lightning échangé entre deux pairs lors de la mise à jour de l'état d'un canal."
 category_slug: "lightning-network"
 prev_in_category:
   title: "RENDEZ-VOUS ROUTING"

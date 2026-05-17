@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnurl/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Protocole de communication qui spécifie un ensemble de fonctionnalités conçues pour simplifier les interactions entre les nœuds et les clients..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LND"

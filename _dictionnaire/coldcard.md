@@ -5,6 +5,7 @@ permalink: /dictionnaire/coldcard/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Famille de Hardware wallet fabriqués par la société canadienne Coinkite, conçus exclusivement pour Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "COLD WALLET"

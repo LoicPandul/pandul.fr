@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-pick-0x79/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique un élément de la pile et le place en haut de la pile, en fonction de la profondeur spécifiée par la valeur en haut de la pile avant l'opération."
 category_slug: "script"
 prev_in_category:
   title: "OP_OVER - 0X78"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/fpga/
 category: "MINAGE"
 letter: "F"
 layout: definition
+description: "Sigle de « Field-Programmable Gate Array ». Circuit intégré qui peut être reconfiguré après sa fabrication pour exécuter des opérations spécifiques."
 french_term: "RÉSEAU DE PORTES PROGRAMMABLES"
 category_slug: "minage"
 prev_in_category:

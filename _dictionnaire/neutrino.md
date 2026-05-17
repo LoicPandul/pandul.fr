@@ -5,6 +5,7 @@ permalink: /dictionnaire/neutrino/
 category: "OUTIL"
 letter: "N"
 layout: definition
+description: "Client léger Bitcoin écrit en Go et développé par Lightning Labs. Conçu pour les applications mobiles utilisant le Lightning Network, Neutrino..."
 category_slug: "outil"
 prev_in_category:
   title: "MYNODE"

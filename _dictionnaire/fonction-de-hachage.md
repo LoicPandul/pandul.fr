@@ -5,6 +5,7 @@ permalink: /dictionnaire/fonction-de-hachage/
 category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
+description: "Fonction mathématique qui prend une entrée de taille variable (appelée message) et produit une sortie de taille fixe (appelée hash, hachage, condensat..."
 english_term: "HASH FUNCTION"
 category_slug: "cryptographie"
 prev_in_category:

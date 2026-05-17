@@ -5,6 +5,7 @@ permalink: /dictionnaire/swap-in-potentiam/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Protocole qui permet de transférer des bitcoins on-chain vers le Lightning Network de manière quasi instantanée, sans recourir aux canaux en 0-conf."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SUBMARINE SWAP"

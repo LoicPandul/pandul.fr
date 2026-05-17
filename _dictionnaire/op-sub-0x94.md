@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-sub-0x94/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Soustrait les deux éléments au sommet de la pile. Il prend les deux valeurs en haut de la pile, il les soustrait et il les remplace par le résultat."
 category_slug: "script"
 prev_in_category:
   title: "OP_SIZE - 0X82"

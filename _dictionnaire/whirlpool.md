@@ -5,6 +5,7 @@ permalink: /dictionnaire/whirlpool/
 category: "CONFIDENTIALITÉ"
 letter: "W"
 layout: definition
+description: "Protocole de coinjoins chaumiens ZeroLink, développée par les équipes du portefeuille Samourai Wallet."
 category_slug: "confidentialite"
 prev_in_category:
   title: "WABISABI"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/zkp-zero-knowledge-proof/
 category: "CRYPTOGRAPHIE"
 letter: "Z"
 layout: definition
+description: "Méthode cryptographique permettant à une partie (le prouveur) de prouver à une autre partie (le vérificateur) qu'une information est vraie, sans révéler..."
 french_term: "PREUVE À DIVULGATION NULLE DE CONNAISSANCE"
 category_slug: "cryptographie"
 prev_in_category:

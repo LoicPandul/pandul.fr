@@ -5,6 +5,7 @@ permalink: /dictionnaire/green-addresses/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+description: "Vieille proposition d'adresse Bitcoin dont les transactions qui en sont émises sont pré-approuvées par un tiers de confiance."
 category_slug: "portefeuille"
 prev_in_category:
   title: "GREEN ADDRESS"

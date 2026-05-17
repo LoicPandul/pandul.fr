@@ -5,6 +5,7 @@ permalink: /dictionnaire/federation/
 category: "SIDECHAIN"
 letter: "F"
 layout: definition
+description: "Groupe de participants qui collaborent pour administrer un réseau ou un système, en établissant un compromis entre centralisation et décentralisation."
 english_term: "FEDERATION"
 category_slug: "sidechain"
 prev_in_category:

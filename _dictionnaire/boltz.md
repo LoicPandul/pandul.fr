@@ -5,6 +5,7 @@ permalink: /dictionnaire/boltz/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Service open source permettant de réaliser des submarine swaps et des atomic swaps de manière non-custodial entre Bitcoin on-chain, le Lightning Network..."
 category_slug: "outil"
 prev_in_category:
   title: "BITREFILL"

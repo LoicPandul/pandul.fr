@@ -5,6 +5,7 @@ permalink: /dictionnaire/tlv/
 category: "INFORMATIQUE"
 letter: "T"
 layout: definition
+description: "Format d'encodage de données type-length-value structuré en trois champs : un type identifiant la nature de l'information, une longueur indiquant la..."
 category_slug: "informatique"
 prev_in_category:
   title: "SURFACE D'ATTAQUE"

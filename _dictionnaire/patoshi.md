@@ -5,6 +5,7 @@ permalink: /dictionnaire/patoshi/
 category: "HISTOIRE"
 letter: "P"
 layout: definition
+description: "Fait référence à un motif distinct de nonces et d'horodatages observés dans les blocs minés au cours des premiers mois de l'existence de Bitcoin."
 category_slug: "histoire"
 prev_in_category:
   title: "NYA - NEW YORK AGREEMENT"

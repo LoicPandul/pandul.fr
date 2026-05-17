@@ -5,6 +5,7 @@ permalink: /dictionnaire/profondeur/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Dans le cadre des portefeuilles HD (déterministes et hiérarchiques), la profondeur désigne le niveau spécifique d'une clé (publique ou privée), d'un..."
 english_term: "DEPTH"
 category_slug: "portefeuille"
 prev_in_category:

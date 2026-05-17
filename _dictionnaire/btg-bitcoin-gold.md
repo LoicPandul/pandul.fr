@@ -5,6 +5,7 @@ permalink: /dictionnaire/btg-bitcoin-gold/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Système de cryptomonnaie créé à partir d'un hard fork de Bitcoin (BTC), qui a eu lieu le 24 octobre 2017 au bloc 491 407."
 category_slug: "histoire"
 prev_in_category:
   title: "BSV - BITCOIN SATOSHI VISION"

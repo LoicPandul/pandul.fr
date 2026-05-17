@@ -5,6 +5,7 @@ permalink: /dictionnaire/ancrage-bilateral/
 category: "SIDECHAIN"
 letter: "A"
 layout: definition
+description: "Mécanisme qui permet d'établir une connexion entre le système principal de Bitcoin et une sidechain (ou une drivechain), c'est-à-dire une chaîne latérale."
 english_term: "2WP - TWO-WAY PEG"
 category_slug: "sidechain"
 next_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/dusting-attack/
 category: "ATTAQUE"
 letter: "D"
 layout: definition
+description: "Attaque qui consiste à envoyer de minuscules quantités de bitcoins à un grand nombre d'adresses de réception."
 french_term: "ATTAQUE DE POUSSIÈRE"
 category_slug: "attaque"
 prev_in_category:

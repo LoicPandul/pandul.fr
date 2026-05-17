@@ -5,6 +5,7 @@ permalink: /dictionnaire/zmq-zeromq/
 category: "INFORMATIQUE"
 letter: "Z"
 layout: definition
+description: "Bibliothèque de messagerie asynchrone utilisée par Bitcoin Core pour notifier en temps réel d'autres logiciels de l'arrivée de nouveaux blocs et de..."
 category_slug: "informatique"
 prev_in_category:
   title: "VERSIONNAGE"

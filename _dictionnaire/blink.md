@@ -5,6 +5,7 @@ permalink: /dictionnaire/blink/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille Bitcoin mobile custodial, anciennement connu sous le nom de « Bitcoin Beach Wallet »."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BITKIT"

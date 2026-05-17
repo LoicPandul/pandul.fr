@@ -5,6 +5,7 @@ permalink: /dictionnaire/groth16/
 category: "CRYPTOGRAPHIE"
 letter: "G"
 layout: definition
+description: "Système de preuve à divulgation nulle de connaissance de type SNARK, proposé par le cryptographe Jens Groth en 2016."
 category_slug: "cryptographie"
 prev_in_category:
   title: "GNPA"

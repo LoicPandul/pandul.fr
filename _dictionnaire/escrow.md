@@ -5,6 +5,7 @@ permalink: /dictionnaire/escrow/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
+description: "Mécanisme par lequel des fonds sont confiés à un tiers de confiance qui les conserve jusqu'à ce que les conditions convenues entre les parties soient..."
 french_term: "SÉQUESTRE"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/signet/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Versions spécifiques du réseau Bitcoin conçues pour le développement et les tests."
 category_slug: "protocole"
 prev_in_category:
   title: "SIGNALING"

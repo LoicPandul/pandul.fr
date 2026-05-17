@@ -5,6 +5,7 @@ permalink: /dictionnaire/replay-attack/
 category: "ATTAQUE"
 letter: "R"
 layout: definition
+description: "Dans le contexte de Bitcoin, une replay attack se produit lorsqu'une transaction valide sur une blockchain est malicieusement reproduite sur une autre..."
 french_term: "ATTAQUE PAR REJEU"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cet/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Sigle de « Contract Execution Transaction ». C'est une transaction spécifique au sein d'un DLC qui permet le règlement final entre les parties en..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CBTC - CITREA BITCOIN"

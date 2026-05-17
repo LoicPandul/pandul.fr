@@ -5,6 +5,7 @@ permalink: /dictionnaire/cln-core-lightning/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Implémentation majeure du protocole Lightning Network écrite en langage C et Rust."
 category_slug: "lightning-network"
 prev_in_category:
   title: "CLN - C-LIGHTNING"

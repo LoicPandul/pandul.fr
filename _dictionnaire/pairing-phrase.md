@@ -5,6 +5,7 @@ permalink: /dictionnaire/pairing-phrase/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Suite de mots utilisée par le protocole Lightning Node Connect (LNC) pour authentifier et sécuriser une connexion distante à un nœud Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "OUTBOUND CAPACITY"

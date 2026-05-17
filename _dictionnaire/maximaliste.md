@@ -5,6 +5,7 @@ permalink: /dictionnaire/maximaliste/
 category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
+description: "Terme qui désigne une personne convaincue que Bitcoin est la seule cryptomonnaie dotée d'une valeur fondamentale, et que les altcoins sont superflus..."
 category_slug: "communaute"
 prev_in_category:
   title: "MAINTENEUR PRINCIPAL - CORE"

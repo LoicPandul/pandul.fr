@@ -5,6 +5,7 @@ permalink: /dictionnaire/peers-dat/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Fichier dans lequel Bitcoin Core sérialise les tables du module addrman : la table « new » (adresses découvertes mais pas encore testées) et la table «..."
 category_slug: "reseau"
 prev_in_category:
   title: "PEER DISCOVERY"

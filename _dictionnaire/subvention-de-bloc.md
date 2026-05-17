@@ -5,6 +5,7 @@ permalink: /dictionnaire/subvention-de-bloc/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Quantité de nouvelles unités pouvant être créées par le mineur qui résout un bloc."
 english_term: "BLOCK SUBSIDY"
 category_slug: "protocole"
 prev_in_category:

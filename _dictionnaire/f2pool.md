@@ -5,6 +5,7 @@ permalink: /dictionnaire/f2pool/
 category: "MINAGE"
 letter: "F"
 layout: definition
+description: "Pool de minage de Bitcoin fondée en avril 2013 par Chun Wang et Mao Shixing (« Discus Fish ») en Chine."
 category_slug: "minage"
 prev_in_category:
   title: "EXTRA-NONCE"

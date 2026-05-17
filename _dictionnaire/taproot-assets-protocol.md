@@ -5,6 +5,7 @@ permalink: /dictionnaire/taproot-assets-protocol/
 category: "COUCHE SUPÉRIEURE"
 letter: "T"
 layout: definition
+description: "Protocole développé par Lightning Labs permettant d'émettre des actifs sur la blockchain principale de Bitcoin, en tirant parti de la mise à jour Taproot."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SURCOUCHE"

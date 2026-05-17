@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-not-0x91/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Inverse la valeur booléenne du sommet de la pile : si cette valeur est non nulle, l'opérateur la remplace par 0, sinon par 1."
 category_slug: "script"
 prev_in_category:
   title: "OP_NOP - 0X61"

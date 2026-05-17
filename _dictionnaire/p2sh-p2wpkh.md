@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2sh-p2wpkh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2SH-P2WPKH est le sigle pour Pay to Script Hash - Pay to Witness Public Key Hash (en français « payer au hachage du script - payer au témoin du hachage..."
 category_slug: "script"
 prev_in_category:
   title: "P2SH"

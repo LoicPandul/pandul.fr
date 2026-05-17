@@ -5,6 +5,7 @@ permalink: /dictionnaire/github/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Plateforme de gestion et d'hébergement de code source qui facilite la collaboration entre développeurs."
 category_slug: "informatique"
 prev_in_category:
   title: "GIT"

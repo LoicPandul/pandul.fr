@@ -5,6 +5,7 @@ permalink: /dictionnaire/osint/
 category: "INFORMATIQUE"
 letter: "O"
 layout: definition
+description: "Acronyme de « Open Source Intelligence ». L'OSINT désigne la collecte et l'analyse d'informations disponibles publiquement à partir de sources..."
 category_slug: "informatique"
 prev_in_category:
   title: "OCTET"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/censorship-resistance/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Propriété d'un système qui le rend capable de fonctionner sans qu'aucune entité ne puisse empêcher des participants légitimes de l'utiliser."
 french_term: "RÉSISTANCE À LA CENSURE"
 category_slug: "protocole"
 prev_in_category:

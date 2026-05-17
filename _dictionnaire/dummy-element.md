@@ -5,6 +5,7 @@ permalink: /dictionnaire/dummy-element/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Fait référence à un élément supplémentaire et inutile consommé par les opcodes OP_CHECKMULTISIG et OP_CHECKMULTISIGVERIFY lors de la vérification des..."
 french_term: "ÉLÉMENT FACTICE"
 category_slug: "protocole"
 prev_in_category:

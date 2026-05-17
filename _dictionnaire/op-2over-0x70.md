@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-2over-0x70/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Copie les deux éléments qui se trouvent à la quatrième et à la troisième place en partant du haut de la pile, puis les place en haut de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_2DUP - 0X6E"

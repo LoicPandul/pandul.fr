@@ -5,6 +5,7 @@ permalink: /dictionnaire/onion-private-key/
 category: "RÉSEAU"
 letter: "O"
 layout: definition
+description: "Fichier anciennement utilisé dans Bitcoin Core pour stocker une clé privée associée à un service caché Tor V2 pour l'option -listenonion."
 category_slug: "reseau"
 prev_in_category:
   title: "ONION SERVICE"

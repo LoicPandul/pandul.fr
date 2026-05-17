@@ -5,6 +5,7 @@ permalink: /dictionnaire/btc/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Symbole boursier ou monétaire (ticker) utilisé pour représenter une unité de bitcoin sur les plateformes d'échange."
 category_slug: "protocole"
 prev_in_category:
   title: "BRANCHE - BITCOIN"

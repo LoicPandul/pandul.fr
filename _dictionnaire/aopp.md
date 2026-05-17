@@ -5,6 +5,7 @@ permalink: /dictionnaire/aopp/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+description: "Sigle de « Address Ownership Proof Protocol ». C'est un protocole controversé, conçu pour prouver automatiquement la propriété d'adresses Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "AIR-GAPPED"

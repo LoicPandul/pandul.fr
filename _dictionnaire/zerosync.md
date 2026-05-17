@@ -5,6 +5,7 @@ permalink: /dictionnaire/zerosync/
 category: "PROTOCOLE"
 letter: "Z"
 layout: definition
+description: "Projet développé pour tirer parti des ZKP (preuves à divulgation nulle de connaissance) dans l'écosystème Bitcoin, afin d'améliorer le passage à..."
 category_slug: "protocole"
 prev_in_category:
   title: "ZEROCONF"

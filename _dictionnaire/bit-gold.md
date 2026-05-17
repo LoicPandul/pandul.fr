@@ -5,6 +5,7 @@ permalink: /dictionnaire/bit-gold/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Système de monnaie numérique décentralisée conceptualisé par Nick Szabo en 1998 et décrit publiquement en 2005."
 category_slug: "histoire"
 prev_in_category:
   title: "BIG BLOCKERS"

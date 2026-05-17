@@ -5,6 +5,7 @@ permalink: /dictionnaire/peach/
 category: "ORGANISATION"
 letter: "P"
 layout: definition
+description: "Application mobile d'échange de bitcoins en pair à pair (P2P), fondée en 2022 en Suisse."
 category_slug: "organisation"
 prev_in_category:
   title: "OPENSATS"

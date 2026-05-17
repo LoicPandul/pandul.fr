@@ -5,6 +5,7 @@ permalink: /dictionnaire/vtxo/
 category: "COUCHE SUPÉRIEURE"
 letter: "V"
 layout: definition
+description: "Sigle de « Virtual Transaction Output ». Un VTXO est une part virtuelle d'un UTXO Bitcoin on-chain au sein du protocole Ark."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "UNIVERSE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/label-silent-payments/
 category: "CONFIDENTIALITÉ"
 letter: "L"
 layout: definition
+description: "Dans le cadre du protocole Silent Payments, les labels sont des entiers utilisés pour modifier l'adresse statique initiale, afin de créer de nombreuses..."
 french_term: "ÉTIQUETTE - SILENT PAYMENTS"
 category_slug: "confidentialite"
 prev_in_category:

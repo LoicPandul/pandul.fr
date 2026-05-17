@@ -5,6 +5,7 @@ permalink: /dictionnaire/hd-hierarchical-deterministic/
 category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
+description: "Se dit d'un portefeuille Bitcoin qui utilise une information unique (la graine ou « seed » en anglais) pour générer une multitude de paires de clés..."
 french_term: "DÉTERMINISTE ET HIÉRARCHIQUE"
 category_slug: "portefeuille"
 prev_in_category:

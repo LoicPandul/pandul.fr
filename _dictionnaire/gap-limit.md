@@ -5,6 +5,7 @@ permalink: /dictionnaire/gap-limit/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+description: "Paramètre utilisé dans les logiciels de portefeuille Bitcoin pour déterminer le nombre maximal d'adresses consécutives non utilisées à générer avant de..."
 french_term: "LIMITE DE CREUX"
 category_slug: "portefeuille"
 prev_in_category:

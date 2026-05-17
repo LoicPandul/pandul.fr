@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-knots/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Implémentation minoritaire du protocole Bitcoin. Bitcoin Knots est une alternative au logiciel de référence Bitcoin Core, proposant quelques règles et..."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN INQUISITION"

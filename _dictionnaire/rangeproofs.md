@@ -5,6 +5,7 @@ permalink: /dictionnaire/rangeproofs/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+description: "Type de preuve à divulgation nulle de connaissance (zero-knowledge proof) utilisé dans les Confidential Transactions pour démontrer qu'un montant engagé..."
 french_term: "PREUVES DE PORTÉE"
 category_slug: "cryptographie"
 prev_in_category:

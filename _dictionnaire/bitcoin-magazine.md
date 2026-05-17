@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-magazine/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+description: "Publication fondée en 2012 par Mihai Alisie et Vitalik Buterin (avant que ce dernier ne crée Ethereum), dédiée à l'actualité et à l'analyse de Bitcoin."
 category_slug: "communaute"
 prev_in_category:
   title: "BITCOIN BEACH"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/shards-lightning/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Dans le cadre des Multi-Path Payments (MPP) ou des Atomic Multi-Path Payments (AMP), un shard est une fraction d'un paiement global."
 french_term: "FRACTIONS"
 category_slug: "lightning-network"
 prev_in_category:

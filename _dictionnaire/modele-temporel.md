@@ -5,6 +5,7 @@ permalink: /dictionnaire/modele-temporel/
 category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
+description: "Certains comportements humains sont reconnaissables on-chain. Celui qui est le plus utile dans une analyse de chaîne, c'est peut-être votre rythme de..."
 english_term: "TEMPORAL TEMPLATE"
 category_slug: "confidentialite"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/little-endian/
 category: "INFORMATIQUE"
 letter: "L"
 layout: definition
+description: "Format de stockage de données dans les systèmes informatiques où les octets les moins significatifs (les « petits bouts ») sont placés en premier dans..."
 french_term: "PETIT-BOUTISTE"
 category_slug: "informatique"
 prev_in_category:

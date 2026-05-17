@@ -5,6 +5,7 @@ permalink: /dictionnaire/hard-fork/
 category: "PROTOCOLE"
 letter: "H"
 layout: definition
+description: "Modification des règles du protocole de manière non rétrocompatible. Cette modification donne lieu à une séparation définitive du réseau de nœuds..."
 category_slug: "protocole"
 prev_in_category:
   title: "HALVING"

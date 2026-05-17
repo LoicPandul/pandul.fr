@@ -5,6 +5,7 @@ permalink: /dictionnaire/off-chain/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Fait référence aux transactions ou activités plus ou moins liées à Bitcoin qui se produisent en dehors de la blockchain principale, mais qui disposent..."
 french_term: "HORS-CHAÎNE"
 category_slug: "couche-superieure"
 prev_in_category:

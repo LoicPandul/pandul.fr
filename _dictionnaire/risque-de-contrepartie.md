@@ -5,6 +5,7 @@ permalink: /dictionnaire/risque-de-contrepartie/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
+description: "Risque qu'un tiers auquel on a confié ses fonds ou avec lequel on a conclu un accord ne respecte pas ses obligations, entraînant une perte financière."
 english_term: "COUNTERPARTY RISK"
 category_slug: "economie-et-regulation"
 prev_in_category:

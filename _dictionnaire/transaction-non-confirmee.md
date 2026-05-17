@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-non-confirmee/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin qui a été diffusée sur le réseau, mais n'a pas encore été incluse dans un bloc par un mineur."
 english_term: "UNCONFIRMED TRANSACTION"
 category_slug: "protocole"
 prev_in_category:

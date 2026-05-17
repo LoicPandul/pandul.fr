@@ -5,6 +5,7 @@ permalink: /dictionnaire/shamir-secret-sharing-sss/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Schéma cryptographique de partage de secret conçu par Adi Shamir en 1979."
 french_term: "PARTAGE DE SECRET DE SHAMIR"
 category_slug: "cryptographie"
 prev_in_category:

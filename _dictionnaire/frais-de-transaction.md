@@ -5,6 +5,7 @@ permalink: /dictionnaire/frais-de-transaction/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Les frais de transaction représentent une somme qui vise à rémunérer les mineurs pour leur participation au mécanisme de la preuve de travail."
 english_term: "TRANSACTION FEES"
 category_slug: "protocole"
 prev_in_category:

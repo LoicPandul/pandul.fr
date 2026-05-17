@@ -5,6 +5,7 @@ permalink: /dictionnaire/politique-de-relais/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Ensemble de toutes les règles observées par le logiciel d'un nœud Bitcoin lors de ses interactions avec le réseau pair-à-pair."
 english_term: "RELAY POLICY"
 category_slug: "reseau"
 prev_in_category:

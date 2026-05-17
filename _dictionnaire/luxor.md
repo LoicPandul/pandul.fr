@@ -5,6 +5,7 @@ permalink: /dictionnaire/luxor/
 category: "MINAGE"
 letter: "L"
 layout: definition
+description: "Entreprise américaine fondée en 2017 par Nick Hansen, spécialisée dans les services d'infrastructure pour le minage de Bitcoin."
 category_slug: "minage"
 prev_in_category:
   title: "LUCK"

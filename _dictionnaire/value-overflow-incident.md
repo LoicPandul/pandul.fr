@@ -5,6 +5,7 @@ permalink: /dictionnaire/value-overflow-incident/
 category: "HISTOIRE"
 letter: "V"
 layout: definition
+description: "Bug exploité le 15 août 2010 sur le réseau Bitcoin, qui a conduit à la création de plus de 184 milliards de bitcoins dans une seule transaction."
 category_slug: "histoire"
 prev_in_category:
   title: "THE DAO"

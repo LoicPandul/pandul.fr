@@ -5,6 +5,7 @@ permalink: /dictionnaire/public-channel/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Canal Lightning annoncé au réseau via un message de channel announcement diffusé aux pairs."
 french_term: "CANAL PUBLIC"
 category_slug: "lightning-network"
 prev_in_category:

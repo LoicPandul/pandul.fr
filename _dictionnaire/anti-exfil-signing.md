@@ -5,6 +5,7 @@ permalink: /dictionnaire/anti-exfil-signing/
 category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
+description: "Protocole de signature qui empêche un hardware wallet compromis de faire fuiter la clé privée de l'utilisateur par le biais des signatures qu'il produit."
 french_term: "SIGNATURE ANTI-EXFILTRATION"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/fedimint/
 category: "COUCHE SUPÉRIEURE"
 letter: "F"
 layout: definition
+description: "Protocole de paiement et de gestion de bitcoins conçu pour améliorer la confidentialité et réduire les besoins envers la chaîne principale par la..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "EXIT TRANSACTION"

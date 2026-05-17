@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-pushdata1-0x4c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Pousse une certaine quantité de données sur la pile. Il est suivi d'un octet qui indique la longueur des données à pousser (jusqu'à 255 octets)."
 category_slug: "script"
 prev_in_category:
   title: "OP_PICK - 0X79"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/magical-bitcoin/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Ancien nom de la collection d'outils et de bibliothèques pour développeurs BDK."
 category_slug: "protocole"
 prev_in_category:
   title: "LOCK"

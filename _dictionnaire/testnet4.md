@@ -5,6 +5,7 @@ permalink: /dictionnaire/testnet4/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+description: "Quatrième itération du réseau de test public de Bitcoin, lancée en 2024 pour remplacer le testnet3 devenu dysfonctionnel après 13 ans de service."
 category_slug: "reseau"
 prev_in_category:
   title: "TESTNET RESET"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/single-sig/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Configuration de portefeuille Bitcoin dans laquelle une seule clé privée suffit pour signer une transaction et autoriser la dépense des fonds."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SIGNER À L'AVEUGLE"

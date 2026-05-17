@@ -5,6 +5,7 @@ permalink: /dictionnaire/time-dilation-attack/
 category: "ATTAQUE"
 letter: "T"
 layout: definition
+description: "Attaque sur le Lightning Network qui combine une attaque éclipse avec un ralentissement délibéré de la livraison des blocs à la victime."
 category_slug: "attaque"
 prev_in_category:
   title: "TIME WARP"

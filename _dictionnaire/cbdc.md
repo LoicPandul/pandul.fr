@@ -5,6 +5,7 @@ permalink: /dictionnaire/cbdc/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Sigle de « Central Bank Digital Currency » (monnaie numérique de banque centrale)."
 french_term: "MONNAIE NUMÉRIQUE DE BANQUE CENTRALE"
 category_slug: "economie-et-regulation"
 prev_in_category:

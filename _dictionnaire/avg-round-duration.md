@@ -5,6 +5,7 @@ permalink: /dictionnaire/avg-round-duration/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "La durée moyenne de tour est un indicateur utilisé pour estimer le temps nécessaire à une pool de minage pour trouver un bloc, en fonction de la..."
 french_term: "DURÉE MOYENNE DE TOUR"
 category_slug: "minage"
 prev_in_category:

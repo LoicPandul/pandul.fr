@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-endif-0x68/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Marque la fin d'une structure de contrôle conditionnelle initiée par un OP_IF ou un OP_NOTIF, normalement suivis par un ou plusieurs OP_ELSE."
 category_slug: "script"
 prev_in_category:
   title: "OP_ELSE - 0X67"

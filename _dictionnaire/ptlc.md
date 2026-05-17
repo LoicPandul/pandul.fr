@@ -5,6 +5,7 @@ permalink: /dictionnaire/ptlc/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Contrats conditionnels destinés à remplacer les HTLC (Hash Time Locked Contracts) pour le routage des paiements sur le Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "PROBING"

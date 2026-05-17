@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-lessthanorequal-0xa1/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux éléments au sommet de la pile et vérifie si le second élément est inférieur ou égal au premier."
 category_slug: "script"
 prev_in_category:
   title: "OP_LESSTHAN - 0X9F"

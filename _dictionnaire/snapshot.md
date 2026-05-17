@@ -5,6 +5,7 @@ permalink: /dictionnaire/snapshot/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Capture instantanée de l'état de l'UTXO set de Bitcoin à un bloc donné."
 category_slug: "protocole"
 prev_in_category:
   title: "SIMPLIFIED PAYMENT VERIFICATION"

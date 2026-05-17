@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-codeseparator-0xab/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Modifie le script de sortie en cours, en indiquant que seules les opérations qui suivent cet opcode seront prises en compte dans la vérification des..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKTEMPLATEVERIFY - 0XB3"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/proof-of-stake/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Mécanisme de consensus alternatif à la preuve de travail, dans lequel les validateurs sont sélectionnés pour proposer et confirmer des blocs en fonction..."
 french_term: "PREUVE D'ENJEU"
 category_slug: "protocole"
 prev_in_category:

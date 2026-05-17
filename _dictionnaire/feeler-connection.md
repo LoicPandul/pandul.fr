@@ -5,6 +5,7 @@ permalink: /dictionnaire/feeler-connection/
 category: "RÉSEAU"
 letter: "F"
 layout: definition
+description: "Connexion sortante éphémère que Bitcoin Core établit toutes les deux minutes, une fois les 10 connexions sortantes permanentes remplies (8 classiques et..."
 french_term: "CONNEXION SONDE"
 category_slug: "reseau"
 prev_in_category:

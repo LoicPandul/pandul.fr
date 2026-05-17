@@ -5,6 +5,7 @@ permalink: /dictionnaire/payment-hash/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Empreinte cryptographique de la preimage utilisée pour sécuriser un paiement sur le Lightning Network."
 french_term: "HACHAGE DE PAIEMENT"
 category_slug: "lightning-network"
 prev_in_category:

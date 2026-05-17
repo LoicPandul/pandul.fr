@@ -5,6 +5,7 @@ permalink: /dictionnaire/master-fingerprint/
 category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
+description: "Empreinte de 4 octets (32 bits) de la clé privée maîtresse dans un portefeuille hiérarchique déterministe (HD)."
 french_term: "EMPREINTE MAÎTRESSE"
 category_slug: "portefeuille"
 prev_in_category:

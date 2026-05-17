@@ -5,6 +5,7 @@ permalink: /dictionnaire/blocks-rev-dat/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Nom des fichiers dans Bitcoin Core qui stockent les informations nécessaires pour éventuellement annuler les modifications apportées à l'UTXO set par..."
 category_slug: "protocole"
 prev_in_category:
   title: "BLOCKS INDEX"

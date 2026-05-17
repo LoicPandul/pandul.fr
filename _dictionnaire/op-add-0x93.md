@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-add-0x93/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Additionne les deux éléments au sommet de la pile. Il prend les deux valeurs en haut de la pile, il les additionne et il les remplace par le résultat."
 category_slug: "script"
 prev_in_category:
   title: "OP_ABS - 0X90"

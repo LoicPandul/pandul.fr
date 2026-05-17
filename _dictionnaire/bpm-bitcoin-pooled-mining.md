@@ -5,6 +5,7 @@ permalink: /dictionnaire/bpm-bitcoin-pooled-mining/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Autre nom donné à la méthode « SCORE BASED METHOD » pour le calcul de la rémunération des mineurs dans le contexte des pools de minage."
 category_slug: "minage"
 prev_in_category:
   title: "BOSMINER"

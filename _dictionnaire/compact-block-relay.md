@@ -5,6 +5,7 @@ permalink: /dictionnaire/compact-block-relay/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+description: "Protocole introduit dans Bitcoin Core en 2016 via le BIP-0152 qui propose une méthode d'économie de bande passante pour les nœuds du réseau."
 category_slug: "reseau"
 prev_in_category:
   title: "COMPACT BLOCK FILTERS"

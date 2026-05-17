@@ -5,6 +5,7 @@ permalink: /dictionnaire/chemin-de-recuperation/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans un logiciel de portefeuille utilisant Miniscript, comme Liana par exemple, le ou les chemins de récupération désignent des ensembles de clés qui ne..."
 english_term: "RECOVERY PATH"
 category_slug: "portefeuille"
 prev_in_category:

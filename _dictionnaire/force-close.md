@@ -5,6 +5,7 @@ permalink: /dictionnaire/force-close/
 category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
+description: "Mécanisme de fermeture non coopérative d'un canal Lightning. Lorsque deux utilisateurs ouvrent un canal avec un multisig 2/2, chacun peut..."
 french_term: "FERMETURE FORCÉE"
 category_slug: "lightning-network"
 prev_in_category:

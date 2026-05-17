@@ -5,6 +5,7 @@ permalink: /dictionnaire/modele-de-transaction/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Un pattern de transaction est simplement un modèle ou une structure globale de transaction typique, que l'on peut retrouver sur la blockchain, et dont..."
 english_term: "TRANSACTION PATTERN"
 category_slug: "protocole"
 prev_in_category:

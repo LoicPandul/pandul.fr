@@ -5,6 +5,7 @@ permalink: /dictionnaire/joininbox/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+description: "Environnement Linux minimaliste conçu pour utiliser JoinMarket. JoininBox dispose d'un menu établi sur le terminal, et dispose de toutes les commandes..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "JAM"

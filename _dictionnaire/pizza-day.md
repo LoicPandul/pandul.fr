@@ -5,6 +5,7 @@ permalink: /dictionnaire/pizza-day/
 category: "HISTOIRE"
 letter: "P"
 layout: definition
+description: "Évènement célébré chaque 22 mai par la communauté Bitcoin qui commémore la première transaction de bitcoins contre un bien physique."
 category_slug: "histoire"
 prev_in_category:
   title: "PILULE ORANGE"

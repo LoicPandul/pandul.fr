@@ -5,6 +5,7 @@ permalink: /dictionnaire/pile/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "Dans le contexte du langage script utilisé pour apposer des conditions de dépense sur des UTXOs Bitcoin, la pile est une structure de données de type «..."
 english_term: "STACK"
 category_slug: "script"
 prev_in_category:

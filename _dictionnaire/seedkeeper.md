@@ -5,6 +5,7 @@ permalink: /dictionnaire/seedkeeper/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Carte à puce développée par Satochip pour sauvegarder de manière sécurisée des phrases mnémoniques et des mots de passe."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SECURE ELEMENT"

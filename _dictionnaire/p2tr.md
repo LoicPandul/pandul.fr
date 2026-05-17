@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2tr/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2TR est le sigle pour Pay to Taproot (en français « payer à la racine »)."
 category_slug: "script"
 prev_in_category:
   title: "P2SH-P2WSH"

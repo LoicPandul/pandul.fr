@@ -5,6 +5,7 @@ permalink: /dictionnaire/simplified-payment-verification/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Méthode permettant aux clients légers de vérifier les transactions Bitcoin sans télécharger l'intégralité de la blockchain."
 french_term: "VÉRIFICATION SIMPLIFIÉE DE PAIEMENT"
 category_slug: "protocole"
 prev_in_category:

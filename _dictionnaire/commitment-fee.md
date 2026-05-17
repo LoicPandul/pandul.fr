@@ -5,6 +5,7 @@ permalink: /dictionnaire/commitment-fee/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Frais inclus dans la transaction d'engagement (commitment transaction) d'un canal Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "CLN - CORE-LIGHTNING"

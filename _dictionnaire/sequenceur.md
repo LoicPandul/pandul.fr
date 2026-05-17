@@ -5,6 +5,7 @@ permalink: /dictionnaire/sequenceur/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Nœud spécialisé responsable de l'ordonnancement des transactions et de la production des blocs dans un rollup."
 english_term: "SEQUENCER"
 category_slug: "couche-superieure"
 prev_in_category:

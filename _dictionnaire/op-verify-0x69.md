@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-verify-0x69/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Exige que la valeur du sommet de la pile soit non nulle (vraie). La transaction est invalide si ce n'est pas le cas."
 category_slug: "script"
 prev_in_category:
   title: "OP_VER - 0X62"

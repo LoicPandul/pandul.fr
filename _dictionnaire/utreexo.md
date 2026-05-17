@@ -5,6 +5,7 @@ permalink: /dictionnaire/utreexo/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+description: "Protocole conçu par Tadge Dryja pour compacter l'UTXO set des nœuds Bitcoin à l'aide d'un accumulateur établi sur des arbres de Merkle."
 category_slug: "protocole"
 prev_in_category:
   title: "UASF"

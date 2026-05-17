@@ -5,6 +5,7 @@ permalink: /dictionnaire/watchtower/
 category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
+description: "Service externe qui surveille la blockchain Bitcoin à la place d'un nœud Lightning pour détecter toute tentative de triche sur ses canaux."
 french_term: "TOUR DE GARDE"
 category_slug: "lightning-network"
 prev_in_category:

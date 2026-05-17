@@ -5,6 +5,7 @@ permalink: /dictionnaire/btrust/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+description: "Organisation à but non lucratif fondée en février 2021 par Jack Dorsey et Jay-Z avec une dotation initiale de 500 bitcoins."
 category_slug: "organisation"
 prev_in_category:
   title: "BLOCKSTREAM"

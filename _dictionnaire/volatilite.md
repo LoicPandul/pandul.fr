@@ -5,6 +5,7 @@ permalink: /dictionnaire/volatilite/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "V"
 layout: definition
+description: "Mesure de l'amplitude des variations du prix d'un actif sur une période donnée."
 english_term: "VOLATILITY"
 category_slug: "economie-et-regulation"
 prev_in_category:

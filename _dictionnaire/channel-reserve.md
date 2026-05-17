@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-reserve/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Montant minimal que chaque partie d'un canal Lightning doit conserver de son côté et ne peut pas dépenser."
 french_term: "RÉSERVE DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

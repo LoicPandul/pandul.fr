@@ -5,6 +5,7 @@ permalink: /dictionnaire/chiffrer-chiffrement/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Méthode cryptographique permettant de convertir une information brute en information chiffrée."
 english_term: "ENCRYPT - ENCRYPTION"
 category_slug: "cryptographie"
 prev_in_category:

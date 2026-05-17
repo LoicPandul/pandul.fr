@@ -5,6 +5,7 @@ permalink: /dictionnaire/kyc-know-your-customer/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "K"
 layout: definition
+description: "Procédure réglementaire utilisée par certaines entreprises opérant sur Bitcoin pour vérifier l'identité de leurs clients dans le cadre de la lutte..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "KEYNÉSIANISME"

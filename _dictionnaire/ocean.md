@@ -5,6 +5,7 @@ permalink: /dictionnaire/ocean/
 category: "MINAGE"
 letter: "O"
 layout: definition
+description: "Pool de minage de Bitcoin lancée en novembre 2023 par Luke Dashjr, développeur historique de Bitcoin Core et Bitcoin Knots."
 category_slug: "minage"
 prev_in_category:
   title: "NERDMINER"

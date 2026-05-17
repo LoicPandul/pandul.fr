@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-qt/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Bitcoin QT est un client Bitcoin intégrant une interface graphique publié en novembre 2011."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN KNOTS"

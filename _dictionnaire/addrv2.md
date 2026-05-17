@@ -5,6 +5,7 @@ permalink: /dictionnaire/addrv2/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Évolution proposée avec le BIP-0155 du message addr sur le réseau Bitcoin."
 category_slug: "reseau"
 prev_in_category:
   title: "ADDRMAN"

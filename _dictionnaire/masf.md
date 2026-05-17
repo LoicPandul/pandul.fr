@@ -5,6 +5,7 @@ permalink: /dictionnaire/masf/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Sigle de « Miner-Activated Soft Fork ». Qualifie un soft fork dans Bitcoin lorsque son activation provient d'une action des mineurs."
 category_slug: "protocole"
 prev_in_category:
   title: "MALLÉABILITÉ - TRANSACTION"

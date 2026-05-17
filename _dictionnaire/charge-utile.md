@@ -5,6 +5,7 @@ permalink: /dictionnaire/charge-utile/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Dans le contexte général de l'informatique, une charge utile désigne les données essentielles transportées dans un paquet de données plus large."
 english_term: "PAYLOAD"
 category_slug: "informatique"
 prev_in_category:

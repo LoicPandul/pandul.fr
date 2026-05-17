@@ -5,6 +5,7 @@ permalink: /dictionnaire/premium/
 category: "COMMUNAUTÉ"
 letter: "P"
 layout: definition
+description: "Montant supplémentaire payé au-dessus du prix standard ou nominal d'un actif."
 french_term: "MAJORATION"
 category_slug: "communaute"
 prev_in_category:

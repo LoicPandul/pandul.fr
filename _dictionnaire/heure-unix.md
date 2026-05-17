@@ -5,6 +5,7 @@ permalink: /dictionnaire/heure-unix/
 category: "INFORMATIQUE"
 letter: "H"
 layout: definition
+description: "L'Heure Unix ou Temps Unix représente le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit UTC (Époque Unix)."
 english_term: "UNIX TIME"
 category_slug: "informatique"
 prev_in_category:

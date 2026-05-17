@@ -5,6 +5,7 @@ permalink: /dictionnaire/sentinel/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Application Android de portefeuille watch-only, initialement développée par l'équipe de Samourai Wallet et désormais maintenue par la communauté."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SELF-CUSTODY"

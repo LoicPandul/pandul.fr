@@ -5,6 +5,7 @@ permalink: /dictionnaire/ecdsa/
 category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
+description: "Sigle de « Elliptic Curve Digital Signature Algorithm ». C'est un algorithme de signature numérique établi sur la cryptographie à courbes elliptiques..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "ECDH"

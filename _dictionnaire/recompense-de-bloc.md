@@ -5,6 +5,7 @@ permalink: /dictionnaire/recompense-de-bloc/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Total des bitcoins récupérés par un mineur lorsqu'il trouve un bloc valide sur Bitcoin."
 english_term: "BLOCK REWARD"
 category_slug: "protocole"
 prev_in_category:

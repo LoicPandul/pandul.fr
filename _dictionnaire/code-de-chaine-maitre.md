@@ -5,6 +5,7 @@ permalink: /dictionnaire/code-de-chaine-maitre/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Désigne le code de chaîne associé à la clé maîtresse du portefeuille, à la base de l'arbre de dérivation de toutes les clés."
 english_term: "MASTER CHAIN CODE"
 category_slug: "portefeuille"
 prev_in_category:

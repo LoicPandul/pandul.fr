@@ -5,6 +5,7 @@ permalink: /dictionnaire/segwit-v0/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Version de script post-SegWit 0. Les scripts SegWit V0 représentent la première famille de scripts introduite avec la mise à jour SegWit de 2017."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SEEDXOR"

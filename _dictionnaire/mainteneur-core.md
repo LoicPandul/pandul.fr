@@ -5,6 +5,7 @@ permalink: /dictionnaire/mainteneur-core/
 category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
+description: "Dans le contexte du projet Bitcoin Core, l'implémentation majoritaire de nœuds sur le réseau Bitcoin, les mainteneurs sont des individus chargés de la..."
 english_term: "MAINTAINER"
 category_slug: "communaute"
 prev_in_category:

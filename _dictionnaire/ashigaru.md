@@ -5,6 +5,7 @@ permalink: /dictionnaire/ashigaru/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+description: "Portefeuille Bitcoin mobile orienté vers la confidentialité, issu d'un fork du code de Samourai Wallet après la saisie des serveurs par les autorités..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "AQUA"

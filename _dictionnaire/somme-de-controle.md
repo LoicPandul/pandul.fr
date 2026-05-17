@@ -5,6 +5,7 @@ permalink: /dictionnaire/somme-de-controle/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "La somme de contrôle est une valeur calculée à partir d'un ensemble de données, utilisée pour vérifier l'intégrité et la validité de ces données lors de..."
 english_term: "CHECKSUM"
 category_slug: "cryptographie"
 prev_in_category:

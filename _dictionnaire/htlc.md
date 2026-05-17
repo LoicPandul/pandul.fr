@@ -5,6 +5,7 @@ permalink: /dictionnaire/htlc/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+description: "Sigle de « Hashed Timelock Contract ». C'est un mécanisme de contrat intelligent principalement utilisé sur Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "HOSTED CHANNEL"

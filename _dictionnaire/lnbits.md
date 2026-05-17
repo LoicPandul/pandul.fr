@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnbits/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Application open source qui se place au-dessus de n'importe quelle source de financement Lightning (LND, Core Lightning, LNbits lui-même, etc.) et..."
 category_slug: "outil"
 prev_in_category:
   title: "LITD"

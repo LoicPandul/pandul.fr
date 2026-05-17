@@ -5,6 +5,7 @@ permalink: /dictionnaire/self-custody/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Désigne la pratique par laquelle un utilisateur garde le contrôle direct de ses clés privées, et donc de ses bitcoins, sans dépendre d'une entité..."
 french_term: "GARDE AUTONOME"
 category_slug: "portefeuille"
 prev_in_category:

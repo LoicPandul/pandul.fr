@@ -5,6 +5,7 @@ permalink: /dictionnaire/consensus-cleanup/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Proposition de soft fork (BIP-0054) regroupant plusieurs corrections de vulnérabilités anciennes dans les règles de consensus de Bitcoin."
 french_term: "NETTOYAGE DU CONSENSUS"
 category_slug: "protocole"
 prev_in_category:

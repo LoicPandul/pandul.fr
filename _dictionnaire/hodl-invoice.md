@@ -5,6 +5,7 @@ permalink: /dictionnaire/hodl-invoice/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+description: "Type particulier de facture Lightning dans lequel le destinataire reçoit le paiement mais ne révèle pas immédiatement la preimage au réseau."
 category_slug: "lightning-network"
 prev_in_category:
   title: "GOSSIP"

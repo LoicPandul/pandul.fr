@@ -5,6 +5,7 @@ permalink: /dictionnaire/minibits/
 category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
+description: "Portefeuille mobile dédié à l'eCash, qui utilise le protocole Cashu pour émettre des jetons numériques adossés à du bitcoin via le Lightning Network."
 category_slug: "portefeuille"
 prev_in_category:
   title: "MASTER FINGERPRINT"

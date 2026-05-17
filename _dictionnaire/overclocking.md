@@ -5,6 +5,7 @@ permalink: /dictionnaire/overclocking/
 category: "MINAGE"
 letter: "O"
 layout: definition
+description: "Pratique qui consiste à augmenter la fréquence de fonctionnement des puces ASICs utilisées pour le minage au-delà de leurs spécifications nominales."
 category_slug: "minage"
 prev_in_category:
   title: "ON-GRID"

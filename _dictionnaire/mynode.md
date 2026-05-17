@@ -5,6 +5,7 @@ permalink: /dictionnaire/mynode/
 category: "OUTIL"
 letter: "M"
 layout: definition
+description: "Logiciel open source qui permet de déployer facilement un nœud complet Bitcoin et Lightning."
 category_slug: "outil"
 prev_in_category:
   title: "MOSTRO"

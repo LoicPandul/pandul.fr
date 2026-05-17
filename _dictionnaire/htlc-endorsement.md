@@ -5,6 +5,7 @@ permalink: /dictionnaire/htlc-endorsement/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+description: "Mécanisme de réputation locale sur le Lightning Network conçu pour atténuer les attaques de blocage de canal (channel jamming)."
 french_term: "ENDOSSEMENT DE HTLC"
 category_slug: "lightning-network"
 prev_in_category:

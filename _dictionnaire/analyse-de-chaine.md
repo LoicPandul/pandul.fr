@@ -5,6 +5,7 @@ permalink: /dictionnaire/analyse-de-chaine/
 category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
+description: "Pratique qui regroupe toutes les méthodes permettant de tracer les flux de bitcoins sur la blockchain."
 english_term: "CHAIN ANALYSIS"
 category_slug: "confidentialite"
 prev_in_category:

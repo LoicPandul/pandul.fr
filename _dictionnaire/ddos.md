@@ -5,6 +5,7 @@ permalink: /dictionnaire/ddos/
 category: "ATTAQUE"
 letter: "D"
 layout: definition
+description: "Forme de DOS où l'attaque provient de multiples sources simultanément, rendant la défense plus complexe."
 french_term: "ATTAQUE PAR DÉNI DE SERVICE DISTRIBUÉ"
 category_slug: "attaque"
 prev_in_category:

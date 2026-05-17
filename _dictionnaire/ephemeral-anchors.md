@@ -5,6 +5,7 @@ permalink: /dictionnaire/ephemeral-anchors/
 category: "PROTOCOLE"
 letter: "E"
 layout: definition
+description: "Proposition de politique de relais qui autorise la diffusion de transactions à frais nuls sur le réseau, à condition qu'elles soient accompagnées d'une..."
 french_term: "SORTIES D'ANCRAGE ÉPHÉMÈRES"
 category_slug: "protocole"
 prev_in_category:

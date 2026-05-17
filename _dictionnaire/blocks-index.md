@@ -5,6 +5,7 @@ permalink: /dictionnaire/blocks-index/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Structure de données LevelDB dans Bitcoin Core qui catalogue des métadonnées sur tous les blocs."
 category_slug: "protocole"
 prev_in_category:
   title: "BLOCKCHAIN"

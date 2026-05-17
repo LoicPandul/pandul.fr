@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-over-0x78/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique le deuxième élément à partir du haut de la pile et le place sur le haut de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_NUMNOTEQUAL - 0X9E"

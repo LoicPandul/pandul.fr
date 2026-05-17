@@ -5,6 +5,7 @@ permalink: /dictionnaire/forced-address-reuse/
 category: "ATTAQUE"
 letter: "F"
 layout: definition
+description: "Attaque qui consiste à envoyer de minuscules quantités de bitcoins à un grand nombre d'adresses de réception."
 french_term: "RÉUTILISATION D'ADRESSE FORCÉE"
 category_slug: "attaque"
 prev_in_category:

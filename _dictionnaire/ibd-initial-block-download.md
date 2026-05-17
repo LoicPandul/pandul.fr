@@ -5,6 +5,7 @@ permalink: /dictionnaire/ibd-initial-block-download/
 category: "PROTOCOLE"
 letter: "I"
 layout: definition
+description: "Fait référence au processus par lequel un nœud télécharge et vérifie la blockchain depuis le bloc de Genèse, et se synchronise aux autres nœuds du..."
 french_term: "SYNCHRONISATION INITIALE"
 category_slug: "protocole"
 prev_in_category:

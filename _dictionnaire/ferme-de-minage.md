@@ -5,6 +5,7 @@ permalink: /dictionnaire/ferme-de-minage/
 category: "MINAGE"
 letter: "F"
 layout: definition
+description: "Installation où de nombreuses machines de minage (souvent, des ASICs) sont regroupées pour miner du bitcoin en participant au processus de la preuve de..."
 english_term: "MINING FARM"
 category_slug: "minage"
 prev_in_category:

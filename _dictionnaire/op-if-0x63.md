@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-if-0x63/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Exécute la portion suivante du script si la valeur au sommet de la pile est non nulle (vraie)."
 category_slug: "script"
 prev_in_category:
   title: "OP_HASH256 - 0XAA"

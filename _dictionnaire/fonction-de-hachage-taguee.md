@@ -5,6 +5,7 @@ permalink: /dictionnaire/fonction-de-hachage-taguee/
 category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
+description: "Variante de fonction de hachage utilisée dans le protocole Bitcoin (notamment dans Taproot) pour garantir la séparation des domaines."
 english_term: "TAGGED HASH FUNCTION"
 category_slug: "cryptographie"
 prev_in_category:

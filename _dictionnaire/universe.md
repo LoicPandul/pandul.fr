@@ -5,6 +5,7 @@ permalink: /dictionnaire/universe/
 category: "COUCHE SUPÉRIEURE"
 letter: "U"
 layout: definition
+description: "Dépôt de données servant de registre pour les actifs Taproot Assets. Un universe stocke et distribue les métadonnées, les preuves et l'historique de..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "UNIQUE ASSETS"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/air-cooling/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "Système de refroidissement utilisé pour les ASICs dans le cadre du minage de Bitcoin."
 french_term: "REFROIDISSEMENT À L'AIR"
 category_slug: "minage"
 next_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cioh/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Sigle de « Common Input Ownership Heuristic ». C'est une heuristique utilisée dans le domaine de l'analyse de chaîne sur Bitcoin qui suppose que toutes..."
 french_term: "HEURISTIQUE DE PROPRIÉTÉ COMMUNE DES ENTRÉES"
 category_slug: "confidentialite"
 prev_in_category:

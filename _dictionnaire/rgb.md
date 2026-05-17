@@ -5,6 +5,7 @@ permalink: /dictionnaire/rgb/
 category: "RGB"
 letter: "R"
 layout: definition
+description: "Système de contrats intelligents décentralisé et confidentiel, conçu pour fonctionner avec Bitcoin et le Lightning Network."
 category_slug: "rgb"
 prev_in_category:
   title: "REDEEM"

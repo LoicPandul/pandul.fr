@@ -5,6 +5,7 @@ permalink: /dictionnaire/berkeleydb/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Système de gestion de base de données intégrable avec une architecture de stockage clé-valeur."
 category_slug: "protocole"
 prev_in_category:
   title: "BECH32 ET BECH32M"

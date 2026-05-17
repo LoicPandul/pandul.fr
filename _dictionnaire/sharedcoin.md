@@ -5,6 +5,7 @@ permalink: /dictionnaire/sharedcoin/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Service de mixage de pièces Bitcoin lancé en 2013 par Blockchain.info, mais qui n'est plus en service aujourd'hui."
 category_slug: "confidentialite"
 prev_in_category:
   title: "SCORE DE BOLTZMANN"

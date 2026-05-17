@@ -5,6 +5,7 @@ permalink: /dictionnaire/pilule-orange/
 category: "HISTOIRE"
 letter: "P"
 layout: definition
+description: "Inspirée du film Matrix, cette pilule imaginaire éveille à la conscience de Bitcoin."
 english_term: "ORANGE PILL"
 category_slug: "histoire"
 prev_in_category:

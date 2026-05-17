@@ -5,6 +5,7 @@ permalink: /dictionnaire/paper-wallet/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Méthode de stockage hors ligne qui consiste à imprimer ou noter une paire de clés cryptographiques donnant accès à des bitcoins sur un papier (ou..."
 french_term: "PORTEFEUILLE PAPIER"
 category_slug: "portefeuille"
 prev_in_category:

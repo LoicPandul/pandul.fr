@@ -5,6 +5,7 @@ permalink: /dictionnaire/coins/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Nom de l'ancien dossier utilisé dans Bitcoin Core pour stocker l'UTXO set, remplacé par le dossier chainstate/ dans la version 0.8.0."
 category_slug: "protocole"
 prev_in_category:
   title: "COINBASE"

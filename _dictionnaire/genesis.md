@@ -5,6 +5,7 @@ permalink: /dictionnaire/genesis/
 category: "RGB"
 letter: "G"
 layout: definition
+description: "Dans le cadre du protocole RGB, la Genesis désigne l'ensemble des données initiales, régies par un schéma spécifique, qui établissent l'état de départ..."
 category_slug: "rgb"
 prev_in_category:
   title: "EXTRA TRANSACTION PROOF"

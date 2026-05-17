@@ -5,6 +5,7 @@ permalink: /dictionnaire/politique-de-relais-des-tx/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Sous-ensemble de la politique de relais qui regroupe l'ensemble des règles appliquées par un nœud Bitcoin spécifiquement pour le traitement et la..."
 english_term: "TRANSACTION RELAY POLICY"
 category_slug: "reseau"
 prev_in_category:

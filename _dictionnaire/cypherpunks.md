@@ -5,6 +5,7 @@ permalink: /dictionnaire/cypherpunks/
 category: "HISTOIRE"
 letter: "C"
 layout: definition
+description: "Communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur..."
 category_slug: "histoire"
 prev_in_category:
   title: "CASASCIUS"

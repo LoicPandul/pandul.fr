@@ -5,6 +5,7 @@ permalink: /dictionnaire/joinmarket/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+description: "Implémentation de coinjoin créée en 2015 par Chris Belcher. JoinMarket se distingue des autres implémentations de coinjoin par son modèle unique de mise..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "JOININBOX"

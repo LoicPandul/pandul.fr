@@ -5,6 +5,7 @@ permalink: /dictionnaire/eclipse/
 category: "ATTAQUE"
 letter: "E"
 layout: definition
+description: "Attaque qui consiste à isoler et à contrôler les communications d'un nœud dans un réseau en créant un environnement artificiel autour de lui."
 category_slug: "attaque"
 prev_in_category:
   title: "DUSTING ATTACK"

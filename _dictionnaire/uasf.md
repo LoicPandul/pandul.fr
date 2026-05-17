@@ -5,6 +5,7 @@ permalink: /dictionnaire/uasf/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+description: "Sigle de « User-Activated Soft Fork ». Qualifie un soft fork dans Bitcoin lorsqu'il est initié et appliqué par les utilisateurs du réseau via leurs..."
 category_slug: "protocole"
 prev_in_category:
   title: "TXID - TRANSACTION IDENTIFIER"

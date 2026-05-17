@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightning-labs/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+description: "Entreprise fondée en 2016 par Elizabeth Stark et Olaoluwa Osuntokun, spécialisée dans le développement d'infrastructures pour le Lightning Network."
 category_slug: "organisation"
 prev_in_category:
   title: "LEDGER - ENTREPRISE"

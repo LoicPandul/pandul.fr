@@ -5,6 +5,7 @@ permalink: /dictionnaire/address-spoofing/
 category: "ATTAQUE"
 letter: "A"
 layout: definition
+description: "Attaque où un acteur malveillant crée une adresse (ou tout autre identifiant de paiement) ressemblant fortement à celle de la victime."
 french_term: "USURPATION D'ADRESSE"
 category_slug: "attaque"
 next_in_category:

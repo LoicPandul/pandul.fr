@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoind-pid/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Fichier généré par le logiciel bitcoind (Bitcoin Daemon) lors de son exécution."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIND"

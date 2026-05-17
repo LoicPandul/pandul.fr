@@ -5,6 +5,7 @@ permalink: /dictionnaire/immersion-cooling/
 category: "MINAGE"
 letter: "I"
 layout: definition
+description: "Technique de refroidissement utilisée dans le cadre du minage, où les ASICs sont immergés dans un liquide non-conducteur pour dissiper la chaleur qu'ils..."
 french_term: "REFROIDISSEMENT PAR IMMERSION"
 category_slug: "minage"
 prev_in_category:

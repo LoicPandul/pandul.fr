@@ -5,6 +5,7 @@ permalink: /dictionnaire/knapsack-solver/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+description: "Ancienne méthode utilisée pour la sélection de pièces dans le portefeuille de Bitcoin Core avant la version 0.17."
 category_slug: "portefeuille"
 prev_in_category:
   title: "KEYSTORE"

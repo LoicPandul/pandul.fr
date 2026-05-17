@@ -5,6 +5,7 @@ permalink: /dictionnaire/base-arithmetique/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Une base est un système de numération qui utilise un nombre fixe de caractères pour représenter tous les nombres possibles."
 category_slug: "informatique"
 prev_in_category:
   title: "ASCII"

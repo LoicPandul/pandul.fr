@@ -5,6 +5,7 @@ permalink: /dictionnaire/swiss-bitcoin-pay/
 category: "OUTIL"
 letter: "S"
 layout: definition
+description: "Solution de terminal de paiement Bitcoin destinée aux commerçants et aux entreprises."
 category_slug: "outil"
 prev_in_category:
   title: "START9"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/covert-asicboost/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Version secrète d'AsicBoost. AsicBoost est une méthode d'optimisation algorithmique pour le minage de Bitcoin."
 category_slug: "minage"
 prev_in_category:
   title: "CONTROL BOARD"

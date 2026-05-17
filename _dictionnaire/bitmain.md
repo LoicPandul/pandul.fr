@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitmain/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Entreprise chinoise fondée en 2013 par Jihan Wu et Micree Zhan, spécialisée dans la conception de puces ASIC dédiées au minage de Bitcoin et la..."
 category_slug: "minage"
 prev_in_category:
   title: "BITAXE"

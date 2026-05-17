@@ -5,6 +5,7 @@ permalink: /dictionnaire/control-board/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Composant dans une machine de minage qui permet de gérer et de coordonner les opérations de l'appareil."
 french_term: "CARTE DE CONTRÔLE"
 category_slug: "minage"
 prev_in_category:

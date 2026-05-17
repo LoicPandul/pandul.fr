@@ -5,6 +5,7 @@ permalink: /dictionnaire/porte-derobee/
 category: "ATTAQUE"
 letter: "P"
 layout: definition
+description: "Une backdoor est un mécanisme secret qui permet de disposer d'un accès privilégié à un système informatique, un logiciel, une fonction, un algorithme ou..."
 english_term: "BACKDOOR"
 category_slug: "attaque"
 prev_in_category:

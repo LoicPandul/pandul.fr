@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-numnotequal-0x9e/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux éléments au sommet de la pile pour vérifier s'ils sont numériquement non égaux."
 category_slug: "script"
 prev_in_category:
   title: "OP_NUMEQUALVERIFY - 0X9D"

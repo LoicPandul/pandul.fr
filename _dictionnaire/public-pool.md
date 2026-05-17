@@ -5,6 +5,7 @@ permalink: /dictionnaire/public-pool/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Pool de minage solo open source pour Bitcoin, créée par Benjamin Wilson."
 category_slug: "minage"
 prev_in_category:
   title: "PROP - PROPORTIONAL"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-greaterthan-0xa0/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux éléments au sommet de la pile et vérifie si le premier élément est supérieur au deuxième."
 category_slug: "script"
 prev_in_category:
   title: "OP_FROMALTSTACK - 0X6C"

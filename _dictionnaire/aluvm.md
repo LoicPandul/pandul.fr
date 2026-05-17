@@ -5,6 +5,7 @@ permalink: /dictionnaire/aluvm/
 category: "RGB"
 letter: "A"
 layout: definition
+description: "Sigle de « Algorithmic Logic Unit Virtual Machine ». Machine virtuelle à registres spécifiquement conçue pour l'exécution déterministe de tâches de..."
 category_slug: "rgb"
 next_in_category:
   title: "ANCHOR"

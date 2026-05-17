@@ -5,6 +5,7 @@ permalink: /dictionnaire/utxo-set/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+description: "Désigne l'ensemble de tous les UTXOs existants à un moment donné. Autrement dit, c'est une grosse liste de tous les différents morceaux de bitcoins qui..."
 french_term: "ENSEMBLE D'UTXOS"
 category_slug: "protocole"
 prev_in_category:

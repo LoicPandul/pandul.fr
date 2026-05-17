@@ -5,6 +5,7 @@ permalink: /dictionnaire/point-d-entree/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Information permettant de lier une activité on-chain (une adresse, une transaction, un cluster...) à une forme d'identité appartenant à un utilisateur..."
 english_term: "ENTRY POINT"
 category_slug: "confidentialite"
 prev_in_category:

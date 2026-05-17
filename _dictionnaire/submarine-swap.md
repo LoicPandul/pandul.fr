@@ -5,6 +5,7 @@ permalink: /dictionnaire/submarine-swap/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Échange atomique entre des bitcoins on-chain et des bitcoins off-chain sur le Lightning Network, sans risque de contrepartie."
 french_term: "ÉCHANGE SOUS-MARIN"
 category_slug: "lightning-network"
 prev_in_category:

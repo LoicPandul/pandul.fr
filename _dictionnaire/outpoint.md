@@ -5,6 +5,7 @@ permalink: /dictionnaire/outpoint/
 category: "PROTOCOLE"
 letter: "O"
 layout: definition
+description: "Référence unique à une sortie de transaction (output). Il est constitué de deux éléments : txid : l'identifiant de la transaction qui a créé l'output ..."
 french_term: "POINT DE SORTIE"
 category_slug: "protocole"
 prev_in_category:

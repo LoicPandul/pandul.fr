@@ -5,6 +5,7 @@ permalink: /dictionnaire/keynesianisme/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "K"
 layout: definition
+description: "Courant de pensée économique fondé sur les travaux de l'économiste britannique John Maynard Keynes."
 english_term: "KEYNESIANISM"
 category_slug: "economie-et-regulation"
 prev_in_category:

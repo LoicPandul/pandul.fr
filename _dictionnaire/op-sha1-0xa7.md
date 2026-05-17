@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-sha1-0xa7/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend l'élément en haut de la pile et le remplace par son hachage en utilisant la fonction SHA1."
 category_slug: "script"
 prev_in_category:
   title: "OP_ROT - 0X7B"

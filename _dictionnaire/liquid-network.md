@@ -5,6 +5,7 @@ permalink: /dictionnaire/liquid-network/
 category: "SIDECHAIN"
 letter: "L"
 layout: definition
+description: "Sidechain de Bitcoin conçue par Blockstream pour fournir des transactions rapides et confidentielles."
 category_slug: "sidechain"
 prev_in_category:
   title: "LBTC - LIQUID BITCOIN"

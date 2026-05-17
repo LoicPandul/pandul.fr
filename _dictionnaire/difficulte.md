@@ -5,6 +5,7 @@ permalink: /dictionnaire/difficulte/
 category: "MINAGE"
 letter: "D"
 layout: definition
+description: "Paramètre ajustable qui détermine la complexité de la preuve de travail nécessaire pour ajouter un nouveau bloc à la blockchain et gagner la récompense..."
 english_term: "DIFFICULTY"
 category_slug: "minage"
 prev_in_category:

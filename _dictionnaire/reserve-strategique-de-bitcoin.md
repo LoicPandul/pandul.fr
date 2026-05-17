@@ -5,6 +5,7 @@ permalink: /dictionnaire/reserve-strategique-de-bitcoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
+description: "Stock de bitcoins constitué par un État, une institution ou une entreprise comme protection contre l'instabilité économique, la dépréciation monétaire..."
 french_term: "RÉSERVE STRATÉGIQUE DE BITCOIN"
 category_slug: "economie-et-regulation"
 prev_in_category:

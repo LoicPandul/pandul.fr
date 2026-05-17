@@ -5,6 +5,7 @@ permalink: /dictionnaire/fidelity-bond/
 category: "CONFIDENTIALITÉ"
 letter: "F"
 layout: definition
+description: "Mécanisme par lequel un utilisateur sacrifie délibérément de la valeur en bitcoins pour rendre une identité cryptographique coûteuse à obtenir, ce qui..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "ENTROPIE - ANALYSE DE CHAINE"

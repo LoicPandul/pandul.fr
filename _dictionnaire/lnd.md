@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnd/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Sigle de « Lightning Network Daemon ». C'est une implémentation majeure du protocole Lightning Network écrite en langage Go."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LNC - LIGHTNING NODE CONNECT"

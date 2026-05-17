@@ -5,6 +5,7 @@ permalink: /dictionnaire/limite-d-emission/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Plafond fixé pour la masse monétaire totale de BTC, établie à environ 21 millions d'unités."
 category_slug: "protocole"
 prev_in_category:
   title: "LIBSECP256K1"

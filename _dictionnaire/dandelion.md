@@ -5,6 +5,7 @@ permalink: /dictionnaire/dandelion/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+description: "Proposition qui vise à améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer la désanonymisation."
 category_slug: "confidentialite"
 prev_in_category:
   title: "COORDINATEUR DE COINJOIN"

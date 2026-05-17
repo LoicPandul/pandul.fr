@@ -5,6 +5,7 @@ permalink: /dictionnaire/terminal-consignement/
 category: "RGB"
 letter: "T"
 layout: definition
+description: "Dans le cadre du protocole RGB, le Terminal Consignment désigne le transfer consignment intégrant l'état final d'un contrat, obtenu par la State..."
 category_slug: "rgb"
 prev_in_category:
   title: "STATE TRANSITION"

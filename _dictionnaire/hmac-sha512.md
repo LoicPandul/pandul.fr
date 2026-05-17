@@ -5,6 +5,7 @@ permalink: /dictionnaire/hmac-sha512/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+description: "HMAC-SHA512 est l'acronyme de « Hash-based Message Authentication Code - Secure Hash Algorithm 512 »."
 category_slug: "cryptographie"
 prev_in_category:
   title: "HASH256"

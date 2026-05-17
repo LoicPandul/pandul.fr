@@ -5,6 +5,7 @@ permalink: /dictionnaire/panne-byzantine/
 category: "ATTAQUE"
 letter: "P"
 layout: definition
+description: "La panne byzantine, ou comportement byzantin, est tout comportement d'un système ne respectant pas ses propres spécifications, en donnant des résultats..."
 english_term: "BYZANTINE FAULT"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/chantools/
 category: "OUTIL"
 letter: "C"
 layout: definition
+description: "Outil en ligne de commande développé par Lightning Labs permettant de récupérer des fonds bloqués dans des canaux Lightning lorsque le nœud LND ne..."
 category_slug: "outil"
 prev_in_category:
   title: "BTCPAY SERVER"

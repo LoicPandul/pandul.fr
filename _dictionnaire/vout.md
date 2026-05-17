@@ -5,6 +5,7 @@ permalink: /dictionnaire/vout/
 category: "PROTOCOLE"
 letter: "V"
 layout: definition
+description: "Élément spécifique d'une transaction Bitcoin qui détermine la destination des fonds envoyés."
 category_slug: "protocole"
 prev_in_category:
   title: "VIN"

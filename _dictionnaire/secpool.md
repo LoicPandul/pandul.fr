@@ -5,6 +5,7 @@ permalink: /dictionnaire/secpool/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Pool de minage de Bitcoin principalement orientée vers le marché asiatique et russophone."
 category_slug: "minage"
 prev_in_category:
   title: "SCORE BASED METHOD"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-swap-0x7c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Échange les deux éléments en haut de la pile. L'élément qui était au sommet est déplacé en deuxième position, et l'élément qui était en deuxième..."
 category_slug: "script"
 prev_in_category:
   title: "OP_SUCCESS"

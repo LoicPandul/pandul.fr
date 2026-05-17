@@ -5,6 +5,7 @@ permalink: /dictionnaire/so-spark-operator/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Nœud individuel au sein de la Spark Entity (SE), participant au protocole de signature à seuil qui sécurise les transferts off-chain dans Spark."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SÉQUENCEUR"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/segwit-v1/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Version de script post-SegWit 1. Les scripts SegWit V1 représentent la seconde famille de scripts introduite après la mise à jour SegWit de 2017."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SEGWIT V0"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/gateway-node/
 category: "LIGHTNING NETWORK"
 letter: "G"
 layout: definition
+description: "Nœud de routage Lightning qui exploite des canaux privés (non annoncés) pour créer des opportunités de routage supplémentaires."
 french_term: "NŒUD PASSERELLE"
 category_slug: "lightning-network"
 prev_in_category:

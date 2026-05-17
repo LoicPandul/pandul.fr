@@ -5,6 +5,7 @@ permalink: /dictionnaire/slip/
 category: "COMMUNAUTÉ"
 letter: "S"
 layout: definition
+description: "Sigle de « SatoshiLabs Improvement Proposals ». C'est un ensemble de propositions visant à améliorer ou à standardiser l'utilisation de Bitcoin, émanant..."
 category_slug: "communaute"
 prev_in_category:
   title: "PREMIUM"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-roll-0x7a/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Déplace un élément de la pile en haut de la pile, en fonction de la profondeur spécifiée par la valeur en haut de la pile avant l'opération."
 category_slug: "script"
 prev_in_category:
   title: "OP_RIPEMD160 - 0XA6"

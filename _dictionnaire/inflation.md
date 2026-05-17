@@ -5,6 +5,7 @@ permalink: /dictionnaire/inflation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "I"
 layout: definition
+description: "Désigne l'augmentation de la masse monétaire en circulation, entraînant une baisse de la valeur de chaque unité de monnaie et une hausse des prix des..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "HYPERINFLATION"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/hsm/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+description: "Sigle de « Hardware Security Module » (module de sécurité matériel). Il s'agit d'un dispositif physique dédié à la gestion sécurisée de clés..."
 french_term: "MODULE DE SÉCURITÉ MATÉRIEL"
 category_slug: "cryptographie"
 prev_in_category:

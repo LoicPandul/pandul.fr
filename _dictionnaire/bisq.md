@@ -5,6 +5,7 @@ permalink: /dictionnaire/bisq/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Logiciel open source de plateforme d'échange décentralisée (DEX) permettant d'acheter et de vendre des bitcoins en pair-à-pair, sans intermédiaire..."
 category_slug: "outil"
 prev_in_category:
   title: "BDK - BITCOIN DEV KIT"

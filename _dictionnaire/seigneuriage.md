@@ -5,6 +5,7 @@ permalink: /dictionnaire/seigneuriage/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+description: "Revenu que tire un émetteur de monnaie de la différence entre la valeur faciale de la monnaie produite et son coût de production."
 english_term: "SEIGNIORAGE"
 category_slug: "economie-et-regulation"
 prev_in_category:

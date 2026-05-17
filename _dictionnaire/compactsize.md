@@ -5,6 +5,7 @@ permalink: /dictionnaire/compactsize/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Format d'encodage d'entiers non signés à longueur variable utilisé dans le protocole Bitcoin pour indiquer le nombre d'éléments ou la taille de certains..."
 category_slug: "protocole"
 prev_in_category:
   title: "COMMERÇANT"

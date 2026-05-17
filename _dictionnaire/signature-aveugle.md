@@ -5,6 +5,7 @@ permalink: /dictionnaire/signature-aveugle/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Les signatures aveugles de Chaum sont une forme de signature numérique où l'émetteur d'une signature ne connaît pas le contenu du message qu'il signe."
 english_term: "BLIND SIGNATURE"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/speedy-trial/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Méthode d'activation de soft fork initialement conceptualisée pour Taproot début 2021 par David A."
 category_slug: "protocole"
 prev_in_category:
   title: "SOFT FORK"

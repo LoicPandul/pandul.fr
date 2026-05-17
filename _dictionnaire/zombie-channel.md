@@ -5,6 +5,7 @@ permalink: /dictionnaire/zombie-channel/
 category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
+description: "Canal Lightning considéré comme inactif, généralement parce que le pair distant a subi une défaillance ou n'est plus en ligne depuis une période prolongée."
 french_term: "CANAL ZOMBIE"
 category_slug: "lightning-network"
 prev_in_category:

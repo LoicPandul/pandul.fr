@@ -5,6 +5,7 @@ permalink: /dictionnaire/loi-de-gresham/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
+description: "Principe économique selon lequel « la mauvaise monnaie chasse la bonne »."
 english_term: "GRESHAM'S LAW"
 category_slug: "economie-et-regulation"
 prev_in_category:

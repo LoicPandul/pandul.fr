@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-10/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit un mécanisme de découverte de nœuds Lightning basé sur le DNS."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-09"

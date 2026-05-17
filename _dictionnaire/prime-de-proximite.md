@@ -5,6 +5,7 @@ permalink: /dictionnaire/prime-de-proximite/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Dans le cadre du minage de Bitcoin, fait référence à l'avantage financier que les mineurs obtiennent en réduisant la latence des communications sur le..."
 english_term: "PROXIMITY PREMIUM"
 category_slug: "protocole"
 prev_in_category:

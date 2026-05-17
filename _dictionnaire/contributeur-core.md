@@ -5,6 +5,7 @@ permalink: /dictionnaire/contributeur-core/
 category: "COMMUNAUTÉ"
 letter: "C"
 layout: definition
+description: "Un contributeur dans le contexte de Bitcoin Core (l'implémentation majoritaire de nœuds sur le réseau Bitcoin) est une personne qui participe activement..."
 english_term: "CONTRIBUTOR"
 category_slug: "communaute"
 prev_in_category:

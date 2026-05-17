@@ -5,6 +5,7 @@ permalink: /dictionnaire/ownership/
 category: "RGB"
 letter: "O"
 layout: definition
+description: "Dans le cadre du protocole RGB, le terme Ownership désigne la propriété qui, à travers la Seal Definition pointant vers un UTXO Bitcoin, définit qui..."
 category_slug: "rgb"
 prev_in_category:
   title: "OWNED STATE"

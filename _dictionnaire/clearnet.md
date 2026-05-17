@@ -5,6 +5,7 @@ permalink: /dictionnaire/clearnet/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+description: "Terme désignant l'internet conventionnel, par opposition aux réseaux superposés comme Tor ou I2P."
 category_slug: "reseau"
 prev_in_category:
   title: "BUCKETING"

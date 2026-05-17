@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightning-service-provider/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Entreprise qui opère sur Lightning dont l'activité est de fournir des services de liquidité aux utilisateurs."
 french_term: "FOURNISSEUR DE SERVICE LIGHTNING"
 category_slug: "lightning-network"
 prev_in_category:

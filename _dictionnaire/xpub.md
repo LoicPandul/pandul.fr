@@ -5,6 +5,7 @@ permalink: /dictionnaire/xpub/
 category: "PORTEFEUILLE"
 letter: "X"
 layout: definition
+description: "Préfixe de clé publique étendue pour les comptes Legacy et SegWit V1 sur Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "XPRV"

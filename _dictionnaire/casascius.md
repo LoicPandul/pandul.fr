@@ -5,6 +5,7 @@ permalink: /dictionnaire/casascius/
 category: "HISTOIRE"
 letter: "C"
 layout: definition
+description: "Pièces physiques qui contiennent des bitcoins, créées à partir de 2011 par Mike Caldwell."
 category_slug: "histoire"
 prev_in_category:
   title: "BTG - BITCOIN GOLD"

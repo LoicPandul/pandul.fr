@@ -5,6 +5,7 @@ permalink: /dictionnaire/litecoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
+description: "Altcoin créé en 2011 par Charlie Lee, un ancien ingénieur de Google. Litecoin (LTC) est un fork du code source de Bitcoin avec quelques modifications de..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "LCB/FT"

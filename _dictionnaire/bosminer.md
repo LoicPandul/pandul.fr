@@ -5,6 +5,7 @@ permalink: /dictionnaire/bosminer/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Logiciel de minage open-source développé en Rust par Braiins en tant qu'alternative plus moderne à CGMiner."
 category_slug: "minage"
 prev_in_category:
   title: "BLOCK TEMPLATE"

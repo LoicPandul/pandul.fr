@@ -5,6 +5,7 @@ permalink: /dictionnaire/rollup/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+description: "Solution de passage à l'échelle de couche 2 (Layer 2) qui exécute les transactions en dehors de la chaîne principale, puis publie les données et/ou des..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "PASSIVE ASSETS"

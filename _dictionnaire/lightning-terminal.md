@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightning-terminal/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Interface graphique web développée par Lightning Labs pour administrer un nœud Lightning."
 category_slug: "outil"
 prev_in_category:
   title: "LIGHTNING NETWORK+"

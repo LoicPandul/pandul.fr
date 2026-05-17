@@ -5,6 +5,7 @@ permalink: /dictionnaire/lud/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Acronyme de « LNURL Document ». Les LUD sont des documents qui définissent des protocoles standardisés utilisés dans le cadre de LNURL."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LOOP OUT"

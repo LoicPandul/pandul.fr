@@ -5,6 +5,7 @@ permalink: /dictionnaire/fee-sniping/
 category: "ATTAQUE"
 letter: "F"
 layout: definition
+description: "Scénario d'attaque dans lequel des mineurs cherchent à réécrire un bloc récemment confirmé dans le but de récupérer les frais de transaction qu'il..."
 french_term: "CHASSE AUX FRAIS"
 category_slug: "attaque"
 prev_in_category:

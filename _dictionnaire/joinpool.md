@@ -5,6 +5,7 @@ permalink: /dictionnaire/joinpool/
 category: "COUCHE SUPÉRIEURE"
 letter: "J"
 layout: definition
+description: "Type de système de paiement en surcouche basé sur le partage de la propriété d'un ou plusieurs UTXO, sans besoin de confiance."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "INSCRIPTIONS"

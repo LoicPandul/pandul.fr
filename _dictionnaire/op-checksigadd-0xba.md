@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checksigadd-0xba/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Extrait les trois valeurs en haut de la pile : une clé publique, un CScriptNum n et une signature."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKSIG - 0XAC"

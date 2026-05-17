@@ -5,6 +5,7 @@ permalink: /dictionnaire/reutilisation-d-adresse/
 category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
+description: "La réutilisation d'adresse se réfère à la pratique d'utiliser une même adresse de réception pour bloquer plusieurs UTXOs, parfois au sein de plusieurs..."
 english_term: "ADDRESS REUSE"
 category_slug: "confidentialite"
 prev_in_category:

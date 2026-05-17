@@ -5,6 +5,7 @@ permalink: /dictionnaire/custody/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Dans le contexte de Bitcoin, se réfère à la détention et à la gestion des clés privées qui permettent le contrôle de bitcoins."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "CRYPTOMONNAIE"

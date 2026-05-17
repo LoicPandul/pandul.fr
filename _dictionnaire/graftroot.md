@@ -5,6 +5,7 @@ permalink: /dictionnaire/graftroot/
 category: "PROTOCOLE"
 letter: "G"
 layout: definition
+description: "Proposition d'amélioration du protocole Bitcoin formulée par Gregory Maxwell en février 2018."
 category_slug: "protocole"
 prev_in_category:
   title: "GENÈSE"

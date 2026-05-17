@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-2dup-0x6e/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique les deux éléments en haut de la pile, puis les place en haut de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_2DROP - 0XD6"

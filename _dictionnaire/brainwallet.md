@@ -5,6 +5,7 @@ permalink: /dictionnaire/brainwallet/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Méthode de sauvegarde d'un portefeuille Bitcoin qui consiste à ne conserver sa phrase mnémonique sur aucun support physique ou numérique, et à la..."
 french_term: "PORTEFEUILLE CERVEAU"
 category_slug: "portefeuille"
 prev_in_category:

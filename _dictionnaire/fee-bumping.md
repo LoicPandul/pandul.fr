@@ -5,6 +5,7 @@ permalink: /dictionnaire/fee-bumping/
 category: "PORTEFEUILLE"
 letter: "F"
 layout: definition
+description: "Ensemble de techniques qui permettent d'augmenter les frais d'une transaction déjà diffusée sur le réseau Bitcoin afin d'accélérer sa confirmation."
 french_term: "AUGMENTATION DES FRAIS"
 category_slug: "portefeuille"
 prev_in_category:

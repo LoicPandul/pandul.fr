@@ -5,6 +5,7 @@ permalink: /dictionnaire/schema/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, un Schema désigne un morceau de code déclaratif qui définit l'ensemble des variables, règles et logiques d'affaires..."
 category_slug: "rgb"
 prev_in_category:
   title: "RGB"

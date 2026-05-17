@@ -5,6 +5,7 @@ permalink: /dictionnaire/mining-management-software/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Logiciel dédié à la gestion et à l'optimisation des opérations de minage."
 french_term: "LOGICIEL DE GESTION DE MINAGE"
 category_slug: "minage"
 prev_in_category:

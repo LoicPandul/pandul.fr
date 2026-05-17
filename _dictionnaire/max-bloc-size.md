@@ -5,6 +5,7 @@ permalink: /dictionnaire/max-bloc-size/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Constante qui spécifie la taille maximale qu'un bloc peut avoir sur Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "MASF"

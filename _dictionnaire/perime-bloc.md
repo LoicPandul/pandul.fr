@@ -5,6 +5,7 @@ permalink: /dictionnaire/perime-bloc/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Fait référence à un bloc sans enfant : un bloc valide, mais exclu de la chaîne principale de Bitcoin."
 english_term: "STALE - BLOCK"
 category_slug: "protocole"
 prev_in_category:

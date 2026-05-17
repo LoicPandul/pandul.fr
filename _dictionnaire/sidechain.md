@@ -5,6 +5,7 @@ permalink: /dictionnaire/sidechain/
 category: "SIDECHAIN"
 letter: "S"
 layout: definition
+description: "Blockchain conçue pour fonctionner en parallèle avec la blockchain principale de Bitcoin."
 french_term: "CHAÎNE LATÉRALE / PARALLÈLE"
 category_slug: "sidechain"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checkmultisig-0xae/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Vérifie plusieurs signatures contre plusieurs clés publiques. Il prend en entrée une série de N clés publiques et M signatures, où M peut être inférieur..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKLOCKTIMEVERIFY - 0XB1"

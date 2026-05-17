@@ -5,6 +5,7 @@ permalink: /dictionnaire/mystery-shopper-payments/
 category: "ATTAQUE"
 letter: "M"
 layout: definition
+description: "Attaque dans laquelle un attaquant envoie un petit paiement légitime en bitcoins à sa cible pour obtenir des informations et tenter de compromettre sa..."
 french_term: "PAIEMENTS DE CLIENT MYSTÈRE"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/esplora/
 category: "OUTIL"
 letter: "E"
 layout: definition
+description: "Explorateur de blocs open source développé par Blockstream et accessible publiquement sur blockstream.info."
 category_slug: "outil"
 prev_in_category:
   title: "DOJO"

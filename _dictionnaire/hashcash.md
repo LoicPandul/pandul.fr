@@ -5,6 +5,7 @@ permalink: /dictionnaire/hashcash/
 category: "HISTOIRE"
 letter: "H"
 layout: definition
+description: "Système de preuve de travail conçu par Adam Back en 1997 pour lutter contre le spam et les attaques DoS."
 category_slug: "histoire"
 prev_in_category:
   title: "FINNEY HAL"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/tx-transaction/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Dans le contexte de Bitcoin, une transaction (abrégée « TX ») est une opération enregistrée sur la blockchain qui transfère la propriété de bitcoins..."
 category_slug: "protocole"
 prev_in_category:
   title: "TRANSACTION STANDARD"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/splicing/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Mécanisme du Lightning Network qui permet de redimensionner un canal de paiement sans le fermer, soit en y ajoutant des fonds (splice-in), soit en..."
 french_term: "RACCORDEMENT DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

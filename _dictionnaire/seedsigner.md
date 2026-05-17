@@ -5,6 +5,7 @@ permalink: /dictionnaire/seedsigner/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Projet open source de hardware wallet DIY (à assembler soi-même) basé sur un Raspberry Pi Zero, un écran et une caméra."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SEEDQR"

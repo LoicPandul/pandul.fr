@@ -5,6 +5,7 @@ permalink: /dictionnaire/ppa/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Sigle de « Power Purchase Agreement ». C'est un contrat à long terme entre une grosse ferme de minage de bitcoins et un fournisseur d'énergie, pour..."
 french_term: "CONTRAT D'ACHAT D'ÉNERGIE"
 category_slug: "minage"
 prev_in_category:

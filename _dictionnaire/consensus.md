@@ -5,6 +5,7 @@ permalink: /dictionnaire/consensus/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Mécanisme par lequel tous les nœuds du réseau Bitcoin parviennent à s'accorder sur l'état partagé de la blockchain."
 category_slug: "protocole"
 prev_in_category:
   title: "CONFIRMATION"

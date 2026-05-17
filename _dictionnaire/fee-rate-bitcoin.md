@@ -5,6 +5,7 @@ permalink: /dictionnaire/fee-rate-bitcoin/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Mesure du coût unitaire des frais d'une transaction Bitcoin, exprimée en satoshis par octet virtuel (sat/vB)."
 french_term: "TAUX DE FRAIS BITCOIN"
 category_slug: "protocole"
 prev_in_category:

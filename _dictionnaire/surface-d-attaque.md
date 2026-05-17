@@ -5,6 +5,7 @@ permalink: /dictionnaire/surface-d-attaque/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+description: "Désigne l'ensemble des points d'entrée potentiels qu'un attaquant peut exploiter pour accéder à un système."
 english_term: "ATTACK SURFACE"
 category_slug: "informatique"
 prev_in_category:

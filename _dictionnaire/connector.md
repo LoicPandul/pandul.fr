@@ -5,6 +5,7 @@ permalink: /dictionnaire/connector/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Sortie spéciale créée dans la transaction de round du protocole Ark pour garantir l'atomicité entre la cession des anciens VTXO (via les forfeit..."
 french_term: "CONNECTEUR"
 category_slug: "couche-superieure"
 prev_in_category:

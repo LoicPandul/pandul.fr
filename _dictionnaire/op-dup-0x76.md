@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-dup-0x76/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique le sommet de la pile. L'élément en haut de la pile est donc copié et la copie est placée en haut de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_DROP - 0X75"

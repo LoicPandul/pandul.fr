@@ -5,6 +5,7 @@ permalink: /dictionnaire/sidecar-ticket/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Jeton permettant au bénéficiaire d'un sidecar channel acheté sur Lightning Pool de revendiquer l'ouverture du canal."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SIDECAR CHANNEL"

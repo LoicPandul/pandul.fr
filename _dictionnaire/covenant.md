@@ -5,6 +5,7 @@ permalink: /dictionnaire/covenant/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Mécanisme qui permet d'imposer des conditions spécifiques sur la manière dont une pièce donnée peut être dépensée, y compris dans des transactions futures."
 category_slug: "protocole"
 prev_in_category:
   title: "COOKIE"

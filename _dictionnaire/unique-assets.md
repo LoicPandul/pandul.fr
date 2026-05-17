@@ -5,6 +5,7 @@ permalink: /dictionnaire/unique-assets/
 category: "COUCHE SUPÉRIEURE"
 letter: "U"
 layout: definition
+description: "Actifs émis via le protocole Taproot Assets qui sont indivisibles et non interchangeables."
 french_term: "ACTIFS UNIQUES"
 category_slug: "couche-superieure"
 prev_in_category:

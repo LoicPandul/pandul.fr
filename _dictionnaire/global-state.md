@@ -5,6 +5,7 @@ permalink: /dictionnaire/global-state/
 category: "RGB"
 letter: "G"
 layout: definition
+description: "Dans le cadre du protocole RGB, le Global State désigne l'ensemble des propriétés publiques d'un contrat, établies lors de la Genesis."
 category_slug: "rgb"
 prev_in_category:
   title: "GENESIS"

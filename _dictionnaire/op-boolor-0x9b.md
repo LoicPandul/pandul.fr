@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-boolor-0x9b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Reproduit le comportement d'une porte logique OR. Il prend deux valeurs au sommet de la pile et renvoie 1 si l'un ou l'autre des éléments ou les deux..."
 category_slug: "script"
 prev_in_category:
   title: "OP_BOOLAND - 0X9A"

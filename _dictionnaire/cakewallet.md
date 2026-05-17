@@ -5,6 +5,7 @@ permalink: /dictionnaire/cakewallet/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Portefeuille open source disponible sur iOS, Android, macOS, Linux et Windows, initialement conçu pour Monero puis étendu à Bitcoin et d'autres..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "CAHOOTS"

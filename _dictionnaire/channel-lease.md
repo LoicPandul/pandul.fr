@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-lease/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Contrat d'ouverture de canal Lightning pour une durée déterminée, négocié via la plateforme Lightning Pool."
 french_term: "LOCATION DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

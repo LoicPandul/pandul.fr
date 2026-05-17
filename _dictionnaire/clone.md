@@ -5,6 +5,7 @@ permalink: /dictionnaire/clone/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Dans le cadre de Git, consiste à créer une copie locale d'un dépôt distant."
 category_slug: "informatique"
 prev_in_category:
   title: "CLI"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ordinal-number/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Dans le cadre du protocole Ordinals, c'est un identifiant unique attribué à chaque sat en fonction de son ordre de minage."
 french_term: "NOMBRE ORDINAL"
 category_slug: "couche-superieure"
 prev_in_category:

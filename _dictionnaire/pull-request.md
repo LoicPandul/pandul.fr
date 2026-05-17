@@ -5,6 +5,7 @@ permalink: /dictionnaire/pull-request/
 category: "INFORMATIQUE"
 letter: "P"
 layout: definition
+description: "Dans le cadre de GitHub et d'autres plateformes d'hébergement de code, une Pull Request représente une demande faite par un contributeur pour intégrer..."
 french_term: "DEMANDE DE TIRAGE"
 category_slug: "informatique"
 prev_in_category:

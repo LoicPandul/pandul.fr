@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-notif-0x64/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Fonctionne de manière opposée à OP_IF, exécutant la portion suivante du script si la valeur au sommet de la pile est nulle (fausse)."
 category_slug: "script"
 prev_in_category:
   title: "OP_NOT - 0X91"

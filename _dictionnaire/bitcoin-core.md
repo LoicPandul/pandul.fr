@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-core/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Bitcoin Core est le logiciel open-source de référence pour le système Bitcoin, et constitue la principale implémentation du protocole Bitcoin à ce jour."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN - B MINUSCULE"

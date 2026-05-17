@@ -5,6 +5,7 @@ permalink: /dictionnaire/rust-lightning/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+description: "Bibliothèque Lightning développée en Rust, créée par Matt Corallo, puis adoptée et développée par Square Crypto (devenu Spiral)."
 category_slug: "lightning-network"
 prev_in_category:
   title: "REVOKEANDACK"

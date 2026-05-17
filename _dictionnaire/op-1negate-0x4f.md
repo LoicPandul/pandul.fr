@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-1negate-0x4f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Pousse la valeur -1 sur la pile. Cet opcode est utilisé dans les scripts pour représenter la valeur négative -1."
 category_slug: "script"
 prev_in_category:
   title: "OP_1ADD - 0X8B"

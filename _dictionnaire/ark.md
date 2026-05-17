@@ -5,6 +5,7 @@ permalink: /dictionnaire/ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Protocole de couche supérieure de type joinpool sur Bitcoin, proposé par Burak Keceli en mai 2023 et implémenté à partir de 2024 par Ark Labs."
 category_slug: "couche-superieure"
 next_in_category:
   title: "ASP - ARK SERVICE PROVIDER"

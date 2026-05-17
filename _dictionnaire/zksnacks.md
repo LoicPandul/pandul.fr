@@ -5,6 +5,7 @@ permalink: /dictionnaire/zksnacks/
 category: "ORGANISATION"
 letter: "Z"
 layout: definition
+description: "Société éditrice de Wasabi Wallet, un portefeuille Bitcoin desktop open source axé sur la confidentialité. zkSNACKs a développé le protocole WabiSabi..."
 category_slug: "organisation"
 prev_in_category:
   title: "ZBD"

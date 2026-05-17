@@ -5,6 +5,7 @@ permalink: /dictionnaire/krux/
 category: "OUTIL"
 letter: "K"
 layout: definition
+description: "Firmware open source qui transforme des appareils à microcontrôleur Kendryte K210, comme le Maix Amigo ou le M5StickV, en dispositifs de signature de..."
 category_slug: "outil"
 prev_in_category:
   title: "FULCRUM"

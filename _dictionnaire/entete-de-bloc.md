@@ -5,6 +5,7 @@ permalink: /dictionnaire/entete-de-bloc/
 category: "PROTOCOLE"
 letter: "E"
 layout: definition
+description: "L'entête de bloc est une structure de données servant de composant principal dans la construction d'un bloc Bitcoin."
 english_term: "BLOCK HEADER"
 category_slug: "protocole"
 prev_in_category:

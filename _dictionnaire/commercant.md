@@ -5,6 +5,7 @@ permalink: /dictionnaire/commercant/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Toute personne physique ou morale qui accepte d'échanger un bien ou un service contre des bitcoins."
 english_term: "MERCHANT"
 category_slug: "protocole"
 prev_in_category:

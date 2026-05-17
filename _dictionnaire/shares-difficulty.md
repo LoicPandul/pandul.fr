@@ -5,6 +5,7 @@ permalink: /dictionnaire/shares-difficulty/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Cible de difficulté supérieure à celle de Bitcoin (donc moins difficile), définie par une pool de minage pour qualifier un hash de share et évaluer la..."
 french_term: "DIFFICULTÉ DES PARTS"
 category_slug: "minage"
 prev_in_category:

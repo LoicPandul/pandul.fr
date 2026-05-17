@@ -5,6 +5,7 @@ permalink: /dictionnaire/src-20/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Norme de token fongible sur Bitcoin qui repose sur le protocole STAMPS pour inscrire les métadonnées directement dans les UTXO."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SPARK TREE"

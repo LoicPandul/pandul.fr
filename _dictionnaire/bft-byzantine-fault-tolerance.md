@@ -5,6 +5,7 @@ permalink: /dictionnaire/bft-byzantine-fault-tolerance/
 category: "ATTAQUE"
 letter: "B"
 layout: definition
+description: "Concept utilisé dans les systèmes distribués pour assurer un consensus fiable et sécurisé, même en présence de nœuds défectueux ou malveillants."
 french_term: "TOLÉRANCE AUX DÉFAUTS BYZANTINS"
 category_slug: "attaque"
 prev_in_category:

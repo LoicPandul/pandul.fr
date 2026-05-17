@@ -5,6 +5,7 @@ permalink: /dictionnaire/atomic-swap/
 category: "OUTIL"
 letter: "A"
 layout: definition
+description: "Technologie permettant un échange de cryptomonnaies directement entre deux parties, sans besoin de confiance et sans nécessiter d'intermédiaire."
 french_term: "ÉCHANGE ATOMIQUE"
 category_slug: "outil"
 prev_in_category:

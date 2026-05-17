@@ -5,6 +5,7 @@ permalink: /dictionnaire/braidpool/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Proposition de pool de minage décentralisée pour Bitcoin, conçue par Bob McElrath."
 category_slug: "minage"
 prev_in_category:
   title: "BPM - BITCOIN POOLED MINING"

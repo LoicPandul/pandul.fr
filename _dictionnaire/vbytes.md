@@ -5,6 +5,7 @@ permalink: /dictionnaire/vbytes/
 category: "PROTOCOLE"
 letter: "V"
 layout: definition
+description: "Unité de mesure utilisée pour évaluer la taille d'une transaction Bitcoin en tenant compte de la pondération introduite par SegWit."
 french_term: "OCTETS VIRTUELS"
 category_slug: "protocole"
 prev_in_category:

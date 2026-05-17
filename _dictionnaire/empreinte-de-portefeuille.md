@@ -5,6 +5,7 @@ permalink: /dictionnaire/empreinte-de-portefeuille/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+description: "Ensemble de caractéristiques distinctives observables dans les transactions effectuées par un même portefeuille Bitcoin."
 english_term: "WALLET FINGERPRINT"
 category_slug: "portefeuille"
 prev_in_category:

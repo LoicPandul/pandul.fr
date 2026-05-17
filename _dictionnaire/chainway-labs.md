@@ -5,6 +5,7 @@ permalink: /dictionnaire/chainway-labs/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+description: "Entreprise à l'origine du développement de Citrea, le premier ZK rollup déployé sur Bitcoin."
 category_slug: "organisation"
 prev_in_category:
   title: "CHAINCODE LABS"

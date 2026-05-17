@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-fromaltstack-0x6c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Retire le sommet de la pile alternative (alt stack) et le place sur le sommet de la pile principale (main stack)."
 category_slug: "script"
 prev_in_category:
   title: "OP_FALSE - 0X00"

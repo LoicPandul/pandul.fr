@@ -5,6 +5,7 @@ permalink: /dictionnaire/pedersen-commitment/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "Un Pedersen commitment est un type d'engagement cryptographique présentant la propriété d'être homomorphique vis-à-vis de l'opération d'addition."
 category_slug: "cryptographie"
 prev_in_category:
   title: "PBKDF2"

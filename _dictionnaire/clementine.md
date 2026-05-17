@@ -5,6 +5,7 @@ permalink: /dictionnaire/clementine/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Pont bidirectionnel à confiance minimisée développé par Chainway Labs pour le rollup Citrea."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CLARK - COVENANTLESS ARK"

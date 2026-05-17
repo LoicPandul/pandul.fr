@@ -5,6 +5,7 @@ permalink: /dictionnaire/bounty/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+description: "Récompense offerte pour la réalisation d'une tâche spécifique, souvent liée à l'amélioration ou à la sécurité d'un projet de logiciel."
 category_slug: "communaute"
 prev_in_category:
   title: "BITCOINTALK"

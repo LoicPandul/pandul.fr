@@ -5,6 +5,7 @@ permalink: /dictionnaire/algorithme/
 category: "INFORMATIQUE"
 letter: "A"
 layout: definition
+description: "Suite finie et non ambiguë d'instructions permettant de réaliser une tâche."
 english_term: "ALGORITHM"
 category_slug: "informatique"
 next_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/tweak/
 category: "CRYPTOGRAPHIE"
 letter: "T"
 layout: definition
+description: "Dans le domaine de la cryptographie, « tweaker » une clé publique consiste à modifier cette clé en utilisant une valeur additive appelée le « tweak » de..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "STÉGANOGRAPHIE"

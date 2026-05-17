@@ -5,6 +5,7 @@ permalink: /dictionnaire/segwit/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "SegWit, acronyme de « Segregated Witness » (Témoin Séparé), est une mise à jour du protocole Bitcoin introduite en août 2017."
 category_slug: "protocole"
 prev_in_category:
   title: "SCALABILITÉ"

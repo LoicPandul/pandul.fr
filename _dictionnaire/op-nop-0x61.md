@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-nop-0x61/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Ne produit aucun effet sur la pile ou l'état du script. Il ne fait aucun déplacement, aucune vérification, ni aucune modification."
 category_slug: "script"
 prev_in_category:
   title: "OP_NIP - 0X77"

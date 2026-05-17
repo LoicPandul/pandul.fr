@@ -5,6 +5,7 @@ permalink: /dictionnaire/hwi/
 category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
+description: "Sigle de « Hardware Wallet Interface ». C'est une interface standardisée permettant l'intégration et l'interaction entre des logiciels de gestion de..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "HD - HIERARCHICAL-DETERMINISTIC"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/vls-validating-lightning-signer/
 category: "LIGHTNING NETWORK"
 letter: "V"
 layout: definition
+description: "Sigle de « Validating Lightning Signer ». Bibliothèque open source en Rust qui sépare les clés privées d'un nœud Lightning du logiciel du nœud lui-même..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "TURBO CHANNEL"

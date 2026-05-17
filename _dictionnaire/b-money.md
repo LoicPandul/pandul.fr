@@ -5,6 +5,7 @@ permalink: /dictionnaire/b-money/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Concept de cryptomonnaie décentralisée proposé par Wei Dai en 1998. Ce système imaginait un réseau où les participants seraient identifiés uniquement..."
 category_slug: "histoire"
 prev_in_category:
   title: "ALERT SYSTEM"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/regtest/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Environnement de test privé pour Bitcoin permettant aux développeurs de créer un réseau Bitcoin local avec les mêmes règles de base que le testnet."
 french_term: "TEST DE RÉGRESSION"
 category_slug: "protocole"
 prev_in_category:

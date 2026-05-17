@@ -5,6 +5,7 @@ permalink: /dictionnaire/specter/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Suite logicielle open source dédiée à la gestion de portefeuilles Bitcoin, avec un accent particulier sur les configurations multisig."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SPARROW WALLET"

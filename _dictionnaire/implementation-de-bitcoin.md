@@ -5,6 +5,7 @@ permalink: /dictionnaire/implementation-de-bitcoin/
 category: "PROTOCOLE"
 letter: "I"
 layout: definition
+description: "Fait référence à un logiciel qui applique et suit les règles définies par le protocole Bitcoin."
 english_term: "BITCOIN IMPLEMENTATION"
 category_slug: "protocole"
 prev_in_category:

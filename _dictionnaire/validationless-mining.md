@@ -5,6 +5,7 @@ permalink: /dictionnaire/validationless-mining/
 category: "MINAGE"
 letter: "V"
 layout: definition
+description: "Pratique de minage qui consiste à commencer à travailler sur un nouveau bloc candidat dès la réception du hash de l'en-tête du bloc précédent, sans en..."
 french_term: "MINAGE SANS VALIDATION"
 category_slug: "minage"
 prev_in_category:

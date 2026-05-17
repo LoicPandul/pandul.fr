@@ -5,6 +5,7 @@ permalink: /dictionnaire/champion/
 category: "BIP"
 letter: "C"
 layout: definition
+description: "Dans le contexte du développement de Bitcoin Core (l'implémentation majoritaire de Bitcoin) le champion est la personne qui rédige et prend en charge la..."
 english_term: "CHAMPION - BIP"
 category_slug: "bip"
 prev_in_category:

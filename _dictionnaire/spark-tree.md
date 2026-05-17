@@ -5,6 +5,7 @@ permalink: /dictionnaire/spark-tree/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Structure arborescente offchain utilisée dans le protocole Spark pour étendre un UTXO unique en plusieurs sous-unités de valeur, afin de résoudre le..."
 french_term: "ARBRE SPARK"
 category_slug: "couche-superieure"
 prev_in_category:

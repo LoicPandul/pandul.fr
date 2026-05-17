@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2p-transport-v2/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Nouvelle version du protocole de transport Bitcoin P2P intégrant le chiffrement opportuniste pour améliorer la confidentialité et la sécurité des..."
 category_slug: "reseau"
 prev_in_category:
   title: "ONION_V3_PRIVATE_KEY"

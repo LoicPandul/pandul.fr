@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-txhash-0xbd/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode 0xbd proposé dans le BIP-0346 pour Tapscript, en remplacement de OP_SUCCESS189."
 category_slug: "script"
 prev_in_category:
   title: "OP_TUCK - 0X7D"

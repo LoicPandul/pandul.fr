@@ -5,6 +5,7 @@ permalink: /dictionnaire/ricochet/
 category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
+description: "Technique consistant à réaliser plusieurs transactions fictives vers soi-même pour simuler un transfert de propriété des bitcoins."
 category_slug: "confidentialite"
 prev_in_category:
   title: "RÉUTILISATION D'ADRESSE - INTERNE"

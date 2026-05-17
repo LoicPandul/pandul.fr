@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitbox/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Hardware wallet fabriqué par la société suisse Shift Crypto. Le modèle actuel, le BitBox02, existe en deux versions : une édition multi-crypto et une..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BIRTH DATE"

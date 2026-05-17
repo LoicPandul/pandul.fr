@@ -5,6 +5,7 @@ permalink: /dictionnaire/scriptsig/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Élément dans une transaction Bitcoin situé dans les inputs. Le scriptSig fournit les données nécessaires pour satisfaire les conditions posées par le..."
 category_slug: "script"
 prev_in_category:
   title: "SCRIPTPUBKEY"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/nversion/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Le champ nVersion dans une transaction Bitcoin sert à indiquer la version du format de transaction utilisé."
 category_slug: "protocole"
 prev_in_category:
   title: "NULLDUMMY"

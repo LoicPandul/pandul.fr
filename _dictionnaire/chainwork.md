@@ -5,6 +5,7 @@ permalink: /dictionnaire/chainwork/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Métrique qui quantifie le nombre total de hachages attendus pour produire une blockchain donnée."
 french_term: "TRAVAIL CUMULÉ"
 category_slug: "protocole"
 prev_in_category:

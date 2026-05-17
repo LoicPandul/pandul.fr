@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-toaltstack-0x6b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend le sommet de la pile principale (main stack) et le déplace vers la pile alternative (alt stack)."
 category_slug: "script"
 prev_in_category:
   title: "OP_SWAP - 0X7C"

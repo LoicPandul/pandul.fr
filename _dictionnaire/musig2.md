@@ -5,6 +5,7 @@ permalink: /dictionnaire/musig2/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+description: "Évolution de MuSig qui réduit de trois à deux le nombre de tours nécessaires pour produire une multisignature Schnorr agrégée."
 category_slug: "cryptographie"
 prev_in_category:
   title: "MUSIG-DN"

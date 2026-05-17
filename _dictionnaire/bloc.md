@@ -5,6 +5,7 @@ permalink: /dictionnaire/bloc/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Structure de données dans le système Bitcoin. Un bloc contient un ensemble de transactions valides et des métadonnées contenues dans son entête."
 english_term: "BLOCK"
 category_slug: "protocole"
 prev_in_category:

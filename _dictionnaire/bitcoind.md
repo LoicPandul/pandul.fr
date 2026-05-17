@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoind/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Acronyme de « Bitcoin Daemon ». C'est un logiciel qui implémente le protocole Bitcoin et permet aux utilisateurs d'exécuter un nœud pour des appels de..."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN.CONF"

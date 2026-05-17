@@ -5,6 +5,7 @@ permalink: /dictionnaire/betterhash/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Protocole de minage développé par Matt Corallo en 2018 pour essayer de contrer la centralisation croissante du minage sur les pools."
 category_slug: "minage"
 prev_in_category:
   title: "BEHIND-THE-METER"

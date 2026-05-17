@@ -5,6 +5,7 @@ permalink: /dictionnaire/prefixes-binaires/
 category: "INFORMATIQUE"
 letter: "P"
 layout: definition
+description: "Unités utilisées en informatique pour quantifier les multiples de tailles de données établis sur des puissances de 2."
 english_term: "BINARY PREFIXES"
 category_slug: "informatique"
 prev_in_category:

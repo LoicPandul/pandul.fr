@@ -5,6 +5,7 @@ permalink: /dictionnaire/jam/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+description: "JAM est une interface web pour JoinMarket axée sur la facilité d'utilisation."
 category_slug: "confidentialite"
 prev_in_category:
   title: "HEURISTIQUE D'ANALYSE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/libwally-core/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Bibliothèque cryptographique et utilitaire open source développée par Blockstream, conçue pour faciliter l'intégration de fonctions Bitcoin dans des..."
 category_slug: "outil"
 prev_in_category:
   title: "KRUX"

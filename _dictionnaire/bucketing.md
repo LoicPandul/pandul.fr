@@ -5,6 +5,7 @@ permalink: /dictionnaire/bucketing/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+description: "Méthode de répartition des adresses de pairs dans les tables du module addrman de Bitcoin Core."
 english_term: "BUCKETING"
 category_slug: "reseau"
 prev_in_category:

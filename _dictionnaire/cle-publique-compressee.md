@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-publique-compressee/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Une clé publique est utilisée dans les scripts (soit directement sous la forme d'une clé publique, soit sous la forme d'une adresse) pour recevoir et..."
 english_term: "COMPRESSED PUBLIC KEY"
 category_slug: "portefeuille"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/reseau-bitcoin/
 category: "RÉSEAU"
 letter: "R"
 layout: definition
+description: "Désigne l'infrastructure globale du système Bitcoin. Le réseau est constitué de l'ensemble des nœuds (ordinateurs) qui exécutent un logiciel..."
 english_term: "BITCOIN NETWORK"
 category_slug: "reseau"
 prev_in_category:

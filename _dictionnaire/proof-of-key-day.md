@@ -5,6 +5,7 @@ permalink: /dictionnaire/proof-of-key-day/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+description: "Initiative annuelle observée chaque 3 janvier (le jour de l'anniversaire du bloc de Genèse) qui encourage les détenteurs de bitcoins à retirer tous en..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "PREUVE DE RÉSERVES"

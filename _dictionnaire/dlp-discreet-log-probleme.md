@@ -5,6 +5,7 @@ permalink: /dictionnaire/dlp-discreet-log-probleme/
 category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
+description: "Le problème du logarithme discret (DLP) est un problème mathématique sur lequel s'appuie la sécurité des algorithmes cryptographiques à clé publique..."
 french_term: "PROBLÈME DU LOGARITHME DISCRET"
 category_slug: "cryptographie"
 prev_in_category:

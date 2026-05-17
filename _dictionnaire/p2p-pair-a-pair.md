@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2p-pair-a-pair/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Fait référence à un modèle de communication et de distribution de données dans lequel les participants, souvent appelés nœuds ou pairs, partagent leurs..."
 english_term: "P2P - PEER-TO-PEER"
 category_slug: "protocole"
 prev_in_category:

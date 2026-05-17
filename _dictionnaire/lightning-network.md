@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightning-network/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Protocole de couche supérieure, construit au-dessus du protocole Bitcoin, visant à permettre des transactions rapides et à faible coût."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LDK - LIGHTNING DEV KIT"

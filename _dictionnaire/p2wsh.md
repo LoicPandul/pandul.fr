@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2wsh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2WSH est le sigle pour Pay to Witness Script Hash (en français « payer au témoin du hachage du script »)."
 category_slug: "script"
 prev_in_category:
   title: "P2WPKH"

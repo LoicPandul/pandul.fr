@@ -5,6 +5,7 @@ permalink: /dictionnaire/turbo-channel/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Canal Lightning utilisable immédiatement, sans attendre les confirmations on-chain habituelles."
 category_slug: "lightning-network"
 prev_in_category:
   title: "TRIMMED HTLC"

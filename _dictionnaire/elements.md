@@ -5,6 +5,7 @@ permalink: /dictionnaire/elements/
 category: "SIDECHAIN"
 letter: "E"
 layout: definition
+description: "Plateforme blockchain open source permettant de déployer des sidechains fédérées rattachées à Bitcoin ou des blockchains autonomes."
 category_slug: "sidechain"
 prev_in_category:
   title: "DYNAFED - DYNAMIC FEDERATIONS"

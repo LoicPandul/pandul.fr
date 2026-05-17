@@ -5,6 +5,7 @@ permalink: /dictionnaire/alert-system/
 category: "HISTOIRE"
 letter: "A"
 layout: definition
+description: "Mécanisme historique de Bitcoin qui permettait de diffuser des messages d'urgence à l'ensemble des nœuds du réseau."
 french_term: "SYSTÈME D'ALERTE"
 category_slug: "histoire"
 next_in_category:

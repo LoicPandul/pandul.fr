@@ -5,6 +5,7 @@ permalink: /dictionnaire/altcoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Désigne toute cryptomonnaie autre que le bitcoin (BTC). Le terme « altcoin » est la contraction de « alternative » et de « coin » (pièce alternative)."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "AGORISME"

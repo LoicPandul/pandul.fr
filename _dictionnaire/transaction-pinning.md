@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-pinning/
 category: "ATTAQUE"
 letter: "T"
 layout: definition
+description: "Attaque qui consiste à rendre prohibitivement coûteux le remplacement d'une transaction en exploitant les protections des nœuds contre le gaspillage de..."
 french_term: "ÉPINGLAGE DE TRANSACTION"
 category_slug: "attaque"
 prev_in_category:

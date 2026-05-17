@@ -5,6 +5,7 @@ permalink: /dictionnaire/passport/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Hardware wallet fabriqué par la société américaine Foundation Devices, conçu exclusivement pour Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "PASSPHRASE - BIP-0039"

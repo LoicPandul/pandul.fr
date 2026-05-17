@@ -5,6 +5,7 @@ permalink: /dictionnaire/circular-rebalance/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Paiement qu'un nœud Lightning s'envoie à lui-même en empruntant un chemin passant par d'autres nœuds du réseau."
 french_term: "RÉÉQUILIBRAGE CIRCULAIRE"
 category_slug: "lightning-network"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/musig-dn/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+description: "Variante de MuSig proposée en 2020 par Jonas Nick, Tim Ruffing, Yannick Seurin et Pieter Wuille."
 category_slug: "cryptographie"
 prev_in_category:
   title: "MUSIG"

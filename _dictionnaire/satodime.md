@@ -5,6 +5,7 @@ permalink: /dictionnaire/satodime/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Carte NFC au porteur développée par Satochip, une entreprise belge. Le Satodime prend en charge jusqu'à trois « coffres » indépendants pour stocker des..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "REVAULT"

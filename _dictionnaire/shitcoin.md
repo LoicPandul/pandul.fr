@@ -5,6 +5,7 @@ permalink: /dictionnaire/shitcoin/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+description: "Expression péjorative fréquemment employée dans le monde des cryptomonnaies pour qualifier des altcoins jugés sans valeur ou sans avenir."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "SEIGNEURIAGE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cible-de-difficulte/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Le facteur de difficulté, aussi connu sous le nom de cible de difficulté, est un paramètre utilisé dans le mécanisme de consensus par preuve de travail..."
 english_term: "DIFFICULTY TARGET"
 category_slug: "minage"
 prev_in_category:

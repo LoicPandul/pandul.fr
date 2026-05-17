@@ -5,6 +5,7 @@ permalink: /dictionnaire/entropie-analyse/
 category: "CONFIDENTIALITÉ"
 letter: "E"
 layout: definition
+description: "Dans le contexte spécifique de l'analyse de chaîne, l'entropie est également le nom d'un indicateur, dérivé de l'entropie de Shannon, inventé par..."
 english_term: "ENTROPY - CHAIN ANALYSIS"
 category_slug: "confidentialite"
 prev_in_category:

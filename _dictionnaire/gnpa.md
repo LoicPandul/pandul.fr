@@ -5,6 +5,7 @@ permalink: /dictionnaire/gnpa/
 category: "CRYPTOGRAPHIE"
 letter: "G"
 layout: definition
+description: "Sigle de « Générateur de nombres pseudo-aléatoires ». Les GNPA sont une catégorie d'algorithmes utilisés pour générer des séquences de nombres..."
 english_term: "PRNG"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-success/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Les OP_SUCCESS représentent une série d'opcodes qui ont été désactivés par le passé et qui sont dorénavant réservés pour une utilisation future dans..."
 category_slug: "script"
 prev_in_category:
   title: "OP_SUB - 0X94"

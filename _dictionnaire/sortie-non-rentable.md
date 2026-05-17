@@ -5,6 +5,7 @@ permalink: /dictionnaire/sortie-non-rentable/
 category: "ATTAQUE"
 letter: "S"
 layout: definition
+description: "Fait référence à des montants de pièces bitcoin extrêmement petits qui sont trop minimes pour être envoyés dans une transaction, car les frais..."
 english_term: "UNECONOMICAL OUTPUT"
 category_slug: "attaque"
 prev_in_category:

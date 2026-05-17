@@ -5,6 +5,7 @@ permalink: /dictionnaire/merkle-sum-tree/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Variante d'un arbre de Merkle dans laquelle chaque nœud porte non seulement le hash des nœuds ou feuilles situés en dessous, mais également la somme de..."
 category_slug: "informatique"
 prev_in_category:
   title: "MERGE"

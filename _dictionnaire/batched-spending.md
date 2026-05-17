@@ -5,6 +5,7 @@ permalink: /dictionnaire/batched-spending/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Technique de dépense employée principalement par les entités ayant un volume élevé de transactions, comme les plateformes d'échange par exemple, pour..."
 french_term: "DÉPENSES GROUPÉES"
 category_slug: "protocole"
 prev_in_category:

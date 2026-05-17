@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2wpkh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2WPKH est le sigle pour Pay to Witness Public Key Hash (en français « payer au témoin du hachage de la clé publique »)."
 category_slug: "script"
 prev_in_category:
   title: "P2TR"

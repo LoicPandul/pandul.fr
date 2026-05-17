@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitvm/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+description: "Protocole introduit par Robin Linus en 2023, qui vise à étendre les capacités de développement applicatif de Bitcoin."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "ATLC"

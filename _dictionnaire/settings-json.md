@@ -5,6 +5,7 @@ permalink: /dictionnaire/settings-json/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Fichier utilisé dans Bitcoin Core pour stocker les paramètres dynamiques définis via l'interface graphique (GUI) ou via les RPCs."
 category_slug: "protocole"
 prev_in_category:
   title: "SEGWIT"

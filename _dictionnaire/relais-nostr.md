@@ -5,6 +5,7 @@ permalink: /dictionnaire/relais-nostr/
 category: "RÉSEAU"
 letter: "R"
 layout: definition
+description: "Serveur qui constitue l'infrastructure de distribution du protocole Nostr."
 english_term: "NOSTR RELAY"
 category_slug: "reseau"
 prev_in_category:

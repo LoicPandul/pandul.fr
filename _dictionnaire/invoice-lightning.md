@@ -5,6 +5,7 @@ permalink: /dictionnaire/invoice-lightning/
 category: "LIGHTNING NETWORK"
 letter: "I"
 layout: definition
+description: "Requête de paiement Lightning générée par le destinataire, qui contient toutes les informations nécessaires pour réaliser la transaction."
 french_term: "FACTURE"
 category_slug: "lightning-network"
 prev_in_category:

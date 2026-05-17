@@ -5,6 +5,7 @@ permalink: /dictionnaire/fibre/
 category: "RÉSEAU"
 letter: "F"
 layout: definition
+description: "Sigle de « Fast Internet Bitcoin Relay Engine ». C'est un protocole conçu par Matt Corallo en 2016 pour accélérer la diffusion des blocs Bitcoin à..."
 category_slug: "reseau"
 prev_in_category:
   title: "FEELER CONNECTION"

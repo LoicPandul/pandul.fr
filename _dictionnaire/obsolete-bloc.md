@@ -5,6 +5,7 @@ permalink: /dictionnaire/obsolete-bloc/
 category: "PROTOCOLE"
 letter: "O"
 layout: definition
+description: "Fait référence à un bloc sans enfant : un bloc valide, mais exclu de la chaîne principale de Bitcoin."
 english_term: "STALE / OBSOLETE - BLOCK"
 category_slug: "protocole"
 prev_in_category:

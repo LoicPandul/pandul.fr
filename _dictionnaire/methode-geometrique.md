@@ -5,6 +5,7 @@ permalink: /dictionnaire/methode-geometrique/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
 english_term: "GEOMETRIC METHOD"
 category_slug: "minage"
 prev_in_category:

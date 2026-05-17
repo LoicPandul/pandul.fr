@@ -5,6 +5,7 @@ permalink: /dictionnaire/bbqr/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Sigle de « Better Bitcoin QR ». Protocole qui permet d'encoder des fichiers trop volumineux pour un seul QR code en une série de QR codes successifs (QR..."
 category_slug: "informatique"
 prev_in_category:
   title: "BASE - ARITHMÉTIQUE"

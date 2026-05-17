@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Le coinjoin est une technique permettant de casser le traçage des bitcoins."
 category_slug: "confidentialite"
 prev_in_category:
   title: "CODE DE PAIMENT RÉUTILISABLE"

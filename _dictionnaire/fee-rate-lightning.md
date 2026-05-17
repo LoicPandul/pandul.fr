@@ -5,6 +5,7 @@ permalink: /dictionnaire/fee-rate-lightning/
 category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
+description: "Composante proportionnelle des frais de routage sur le Lightning Network."
 french_term: "TAUX DE FRAIS LIGHTNING"
 category_slug: "lightning-network"
 prev_in_category:

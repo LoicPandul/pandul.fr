@@ -5,6 +5,7 @@ permalink: /dictionnaire/percolation/
 category: "INFORMATIQUE"
 letter: "P"
 layout: definition
+description: "Fait référence à un modèle qui permet de comprendre la diffusion des informations (transactions et blocs) dans le réseau de nœuds Bitcoin."
 english_term: "PERCOLATION"
 category_slug: "informatique"
 prev_in_category:

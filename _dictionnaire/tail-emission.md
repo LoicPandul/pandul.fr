@@ -5,6 +5,7 @@ permalink: /dictionnaire/tail-emission/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Mécanisme de politique monétaire consistant à maintenir indéfiniment une récompense de bloc fixe après l'épuisement du calendrier d'émission initial..."
 category_slug: "protocole"
 prev_in_category:
   title: "SUBVENTION DE BLOC"

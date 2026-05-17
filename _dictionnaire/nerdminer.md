@@ -5,6 +5,7 @@ permalink: /dictionnaire/nerdminer/
 category: "MINAGE"
 letter: "N"
 layout: definition
+description: "Projet open source de minage solo de Bitcoin qui fonctionne sur des microcontrôleurs ESP32."
 category_slug: "minage"
 prev_in_category:
   title: "MINING POOL"

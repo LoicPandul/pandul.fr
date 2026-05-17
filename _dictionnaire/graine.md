@@ -5,6 +5,7 @@ permalink: /dictionnaire/graine/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+description: "Dans le cadre spécifique d'un portefeuille déterministe hiérarchique Bitcoin, une graine est une information de 512 bits issue d'un aléa."
 english_term: "SEED"
 category_slug: "portefeuille"
 prev_in_category:

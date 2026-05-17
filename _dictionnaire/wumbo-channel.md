@@ -5,6 +5,7 @@ permalink: /dictionnaire/wumbo-channel/
 category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
+description: "Canal Lightning de grande capacité, dépassant la limite historique de 16 777 215 satoshis (environ 0,168 BTC) imposée par défaut aux premiers nœuds."
 category_slug: "lightning-network"
 prev_in_category:
   title: "WATCHTOWER"

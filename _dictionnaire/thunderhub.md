@@ -5,6 +5,7 @@ permalink: /dictionnaire/thunderhub/
 category: "OUTIL"
 letter: "T"
 layout: definition
+description: "Interface web open source de gestion et de monitoring de nœuds Lightning Network basés sur LND."
 category_slug: "outil"
 prev_in_category:
   title: "THE EYE OF SATOSHI"

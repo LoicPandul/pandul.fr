@@ -5,6 +5,7 @@ permalink: /dictionnaire/checkpoints/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Empreintes de blocs spécifiques qui étaient codées en dur dans Bitcoin Core."
 french_term: "POINTS DE CONTROLE"
 category_slug: "protocole"
 prev_in_category:

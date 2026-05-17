@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-standard/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin qui, en plus de respecter les règles de consensus, entre également dans les règles de standardisation configurées par défaut sur les..."
 english_term: "STANDARD TRANSACTION"
 category_slug: "protocole"
 prev_in_category:

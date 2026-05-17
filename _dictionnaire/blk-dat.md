@@ -5,6 +5,7 @@ permalink: /dictionnaire/blk-dat/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Nom des fichiers dans Bitcoin Core qui stockent les données brutes des blocs de la blockchain."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIND.PID"

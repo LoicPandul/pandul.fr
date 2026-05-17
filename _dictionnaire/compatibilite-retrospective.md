@@ -5,6 +5,7 @@ permalink: /dictionnaire/compatibilite-retrospective/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Fait référence à la capacité d'une mise à jour des règles du protocole à maintenir la compatibilité avec les versions antérieures."
 english_term: "BACKWARD COMPATIBILITY"
 category_slug: "protocole"
 prev_in_category:

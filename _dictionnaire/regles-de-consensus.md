@@ -5,6 +5,7 @@ permalink: /dictionnaire/regles-de-consensus/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Règles fondamentales dans Bitcoin, assurant l'intégrité du système en dictant les critères de validation des transactions et des blocs."
 english_term: "CONSENSUS RULES"
 category_slug: "protocole"
 prev_in_category:

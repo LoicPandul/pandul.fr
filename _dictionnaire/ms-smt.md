@@ -5,6 +5,7 @@ permalink: /dictionnaire/ms-smt/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Le Merkle Sum Sparse Merkle Tree (MS-SMT) est une structure de données combinant les propriétés d'un Sparse Merkle Tree (SMT) et d'un Merkle Sum Tree."
 category_slug: "informatique"
 prev_in_category:
   title: "MIT X11"

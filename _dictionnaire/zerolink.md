@@ -5,6 +5,7 @@ permalink: /dictionnaire/zerolink/
 category: "CONFIDENTIALITÉ"
 letter: "Z"
 layout: definition
+description: "Protocole de Chaumian coinjoin qui vise à briser toutes les liaisons entre des ensembles de pièces séparées à travers des techniques avancées de mixage."
 category_slug: "confidentialite"
 prev_in_category:
   title: "WHIRLPOOL STAT TOOL"

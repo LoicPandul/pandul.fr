@@ -5,6 +5,7 @@ permalink: /dictionnaire/satochip/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+description: "Entreprise belge spécialisée dans la fabrication de portefeuilles matériels (hardware wallets) au format carte à puce."
 category_slug: "organisation"
 prev_in_category:
   title: "RISC ZERO"

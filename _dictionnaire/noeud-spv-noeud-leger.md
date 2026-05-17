@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud-spv-noeud-leger/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Un nœud SPV (Simplified Payment Verification), parfois nommé « nœud léger », est un client léger d'un nœud Bitcoin qui permet aux utilisateurs de..."
 english_term: "SPV NODE - LIGHTWEIGHT NODE"
 category_slug: "protocole"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cahoots/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans le cadre du portefeuille Samourai Wallet et d'autres logiciels de portefeuilles qui l'implémentent, un Cahoot désigne tous les types de..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BSMS"

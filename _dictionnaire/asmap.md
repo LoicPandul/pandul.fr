@@ -5,6 +5,7 @@ permalink: /dictionnaire/asmap/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Outil inventé par Gleb Naumenko et utilisé par Bitcoin Core pour améliorer la sécurité et la topologie du réseau Bitcoin en diversifiant les connexions..."
 category_slug: "reseau"
 prev_in_category:
   title: "ANCHORS.DAT"

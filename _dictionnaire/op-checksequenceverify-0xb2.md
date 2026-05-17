@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checksequenceverify-0xb2/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Rend la transaction invalide si une seule de ces caractéristiques est observée : La pile est vide ; La valeur du haut de la pile est inférieure à 0 ..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKMULTISIGVERIFY - 0XAF"

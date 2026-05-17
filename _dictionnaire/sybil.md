@@ -5,6 +5,7 @@ permalink: /dictionnaire/sybil/
 category: "ATTAQUE"
 letter: "S"
 layout: definition
+description: "Attaque informatique dans laquelle un individu ou une entité crée de multiples fausses identités dans un système pour exercer une influence indue ou..."
 category_slug: "attaque"
 prev_in_category:
   title: "SORTIE NON RENTABLE"

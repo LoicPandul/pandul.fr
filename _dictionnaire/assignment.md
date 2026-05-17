@@ -5,6 +5,7 @@ permalink: /dictionnaire/assignment/
 category: "RGB"
 letter: "A"
 layout: definition
+description: "Dans la logique du protocole RGB, un Assignment est l'équivalent d'une sortie de transaction (output) qui modifie, met à jour ou crée certaines..."
 category_slug: "rgb"
 prev_in_category:
   title: "ANCHOR"

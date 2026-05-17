@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2pk/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2PK est le sigle pour Pay to Public Key (en français « payer à une clé publique »)."
 category_slug: "script"
 prev_in_category:
   title: "P2MS"

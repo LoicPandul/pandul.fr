@@ -5,6 +5,7 @@ permalink: /dictionnaire/revault/
 category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
+description: "Protocole open source de conservation de bitcoins conçu pour les organisations, développé par Wizardsardine."
 category_slug: "portefeuille"
 prev_in_category:
   title: "RBF - REPLACE-BY-FEE"

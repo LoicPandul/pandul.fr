@@ -5,6 +5,7 @@ permalink: /dictionnaire/explorateur-de-bloc/
 category: "OUTIL"
 letter: "E"
 layout: definition
+description: "Outil en ligne ou en local qui permet de transformer les données brutes de la blockchain Bitcoin en un format structuré et facilement lisible par l'Homme."
 english_term: "BLOCK EXPLORER"
 category_slug: "outil"
 prev_in_category:

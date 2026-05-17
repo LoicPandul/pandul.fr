@@ -5,6 +5,7 @@ permalink: /dictionnaire/arbre-de-merkle/
 category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
+description: "Un Arbre de Merkle est un accumulateur cryptographique. C'est une méthode pour justifier l'appartenance d'une information donnée à un ensemble plus grand."
 english_term: "MERKLE TREE"
 category_slug: "cryptographie"
 prev_in_category:

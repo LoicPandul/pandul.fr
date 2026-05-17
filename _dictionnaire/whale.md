@@ -5,6 +5,7 @@ permalink: /dictionnaire/whale/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "W"
 layout: definition
+description: "Désigne un individu ou une entité qui possède une quantité très importante de bitcoins."
 french_term: "BALEINE"
 category_slug: "economie-et-regulation"
 prev_in_category:

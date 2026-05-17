@@ -5,6 +5,7 @@ permalink: /dictionnaire/asicboost/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "Méthode d'optimisation algorithmique inventée en 2016, conçue pour augmenter l'efficacité du minage de Bitcoin d'environ 20 % en réduisant la quantité..."
 category_slug: "minage"
 prev_in_category:
   title: "ASIC RESISTANCE"

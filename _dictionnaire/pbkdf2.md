@@ -5,6 +5,7 @@ permalink: /dictionnaire/pbkdf2/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "PBKDF2 est le sigle de Password-Based Key Derivation Function 2. C'est une méthode pour créer des clés cryptographiques à partir d'un mot de passe en..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "PAY-TO-CONTRACT"

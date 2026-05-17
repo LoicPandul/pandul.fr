@@ -5,6 +5,7 @@ permalink: /dictionnaire/eclair/
 category: "LIGHTNING NETWORK"
 letter: "E"
 layout: definition
+description: "Implémentation majeure du protocole Lightning Network écrite en langage Scala."
 category_slug: "lightning-network"
 prev_in_category:
   title: "DUAL FUNDING"

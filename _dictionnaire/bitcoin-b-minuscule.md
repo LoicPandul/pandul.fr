@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-b-minuscule/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Le bitcoin (écrit avec un « b » minuscule) fait référence à l'unité monétaire utilisée pour les échanges sur le système de cash électronique Bitcoin..."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN - B MAJUSCULE"

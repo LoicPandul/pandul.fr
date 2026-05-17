@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-dev/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Liste de diffusion d'e-mail dédiée au développement du protocole Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN-CLI"

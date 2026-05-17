@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-optech/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+description: "Organisation à but non lucratif qui se concentre sur le partage d'informations techniques pour les entreprises utilisant Bitcoin."
 category_slug: "communaute"
 prev_in_category:
   title: "BITCOIN MAGAZINE"

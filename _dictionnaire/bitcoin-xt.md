@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-xt/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Fork de Bitcoin lancé en 2015 par le célèbre développeur Mike Hearn et soutenu par Gavin Andresen (ancien mainteneur principal de Bitcoin suite au..."
 category_slug: "histoire"
 prev_in_category:
   title: "BITCOIN UNLIMITED"

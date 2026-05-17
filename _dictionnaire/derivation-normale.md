@@ -5,6 +5,7 @@ permalink: /dictionnaire/derivation-normale/
 category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
+description: "Processus de génération de clés enfants dans les portefeuilles HD. La dérivation normale utilise la clé publique parent comme entrée pour la fonction..."
 english_term: "NORMAL DERIVATION"
 category_slug: "portefeuille"
 prev_in_category:

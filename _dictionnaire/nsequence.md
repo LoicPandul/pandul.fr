@@ -5,6 +5,7 @@ permalink: /dictionnaire/nsequence/
 category: "SCRIPT"
 letter: "N"
 layout: definition
+description: "Le champ nSequence dans une entrée de transaction Bitcoin est utilisé pour indiquer la manière dont cette entrée est verrouillée dans le temps."
 category_slug: "script"
 prev_in_category:
   title: "NLOCKTIME"

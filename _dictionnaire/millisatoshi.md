@@ -5,6 +5,7 @@ permalink: /dictionnaire/millisatoshi/
 category: "LIGHTNING NETWORK"
 letter: "M"
 layout: definition
+description: "Sous-unité du satoshi équivalant à un millième de satoshi, soit un cent-milliardième de bitcoin ( BTC)."
 category_slug: "lightning-network"
 prev_in_category:
   title: "MAGMA"

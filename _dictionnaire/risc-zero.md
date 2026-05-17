@@ -5,6 +5,7 @@ permalink: /dictionnaire/risc-zero/
 category: "ORGANISATION"
 letter: "R"
 layout: definition
+description: "Entreprise et framework open source spécialisés dans la création de preuves à divulgation nulle de connaissance à usage général."
 category_slug: "organisation"
 prev_in_category:
   title: "PEACH"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/demeurage/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Coût associé à la détention d'une monnaie. Par extension, le demeurage désigne parfois un mécanisme monétaire dans lequel la détention prolongée d'une..."
 english_term: "DEMURRAGE"
 category_slug: "protocole"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/blinded-paths/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Technique de routage Lightning qui masque une partie du chemin de paiement afin de protéger l'identité du destinataire."
 french_term: "CHEMINS MASQUÉS"
 category_slug: "lightning-network"
 prev_in_category:

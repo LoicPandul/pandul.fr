@@ -5,6 +5,7 @@ permalink: /dictionnaire/bit-unite/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
+description: "Dans le contexte de Bitcoin, le terme « bit » est aussi utilisé pour désigner une subdivision monétaire du bitcoin."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "BEAR MARKET"

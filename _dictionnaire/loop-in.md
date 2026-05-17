@@ -5,6 +5,7 @@ permalink: /dictionnaire/loop-in/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Opération proposée par le service Lightning Loop qui permet de convertir des bitcoins on-chain en liquidité sortante dans un canal Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LOOP"

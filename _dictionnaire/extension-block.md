@@ -5,6 +5,7 @@ permalink: /dictionnaire/extension-block/
 category: "PROTOCOLE"
 letter: "E"
 layout: definition
+description: "Proposition qui vise à augmenter la capacité transactionnelle de Bitcoin par l'ajout d'un bloc secondaire rattaché au bloc principal via un engagement..."
 french_term: "BLOC D'EXTENSION"
 category_slug: "protocole"
 prev_in_category:

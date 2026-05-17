@@ -5,6 +5,7 @@ permalink: /dictionnaire/block-relay-only/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+description: "Type de connexion sortante dans Bitcoin Core qui ne relaie que les blocs, sans échanger de transactions ni d'adresses de nœuds."
 category_slug: "reseau"
 prev_in_category:
   title: "BANLIST.JSON"

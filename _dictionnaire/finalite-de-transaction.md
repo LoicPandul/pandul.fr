@@ -5,6 +5,7 @@ permalink: /dictionnaire/finalite-de-transaction/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Concept qui désigne le moment à partir duquel une transaction est considérée comme irréversible et définitivement inscrite dans la blockchain."
 english_term: "TRANSACTION FINALITY"
 category_slug: "protocole"
 prev_in_category:

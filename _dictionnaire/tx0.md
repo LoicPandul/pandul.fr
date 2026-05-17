@@ -5,6 +5,7 @@ permalink: /dictionnaire/tx0/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+description: "Transaction préparatoire spécifique au protocole Whirlpool, qui constitue la première étape avant les cycles de coinjoin."
 category_slug: "confidentialite"
 prev_in_category:
   title: "TUMBLEBIT"

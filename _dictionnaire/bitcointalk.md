@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcointalk/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+description: "Forum en ligne dédié aux discussions sur Bitcoin. Ouvert en novembre 2009 par Satoshi Nakamoto, ce forum prend la suite de l'espace de discussion dédié..."
 category_slug: "communaute"
 prev_in_category:
   title: "BITCOIN OPTECH"

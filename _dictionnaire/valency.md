@@ -5,6 +5,7 @@ permalink: /dictionnaire/valency/
 category: "RGB"
 letter: "V"
 layout: definition
+description: "Dans le cadre du protocole RGB, une Valency désigne un droit public qui ne nécessite pas le stockage explicite d'un état, mais qui peut être..."
 category_slug: "rgb"
 prev_in_category:
   title: "TRANSITION BUNDLE"

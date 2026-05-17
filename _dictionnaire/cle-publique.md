@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-publique/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "La clé publique est un élément utilisé dans la cryptographie asymétrique."
 english_term: "PUBLIC KEY"
 category_slug: "portefeuille"
 prev_in_category:

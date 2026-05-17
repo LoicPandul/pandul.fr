@@ -5,6 +5,7 @@ permalink: /dictionnaire/asset-proof/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Preuve cryptographique permettant de vérifier l'existence, la propriété et la provenance d'un actif émis via le protocole Taproot Assets."
 french_term: "PREUVE D'ACTIF"
 category_slug: "couche-superieure"
 prev_in_category:

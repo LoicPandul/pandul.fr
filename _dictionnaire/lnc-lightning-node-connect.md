@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnc-lightning-node-connect/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Protocole développé par Lightning Labs permettant de se connecter à distance à un nœud Lightning via un serveur proxy, sans exposer le nœud directement..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LIQUIDITY SWAP"

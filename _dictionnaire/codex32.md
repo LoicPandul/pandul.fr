@@ -5,6 +5,7 @@ permalink: /dictionnaire/codex32/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Schéma d'encodage et de sauvegarde de graines BIP-0032 sur papier, spécifié dans le BIP-0093."
 category_slug: "portefeuille"
 prev_in_category:
   title: "CODE DE CHAINE MAITRE"

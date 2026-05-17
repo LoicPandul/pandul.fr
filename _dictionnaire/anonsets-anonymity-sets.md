@@ -5,6 +5,7 @@ permalink: /dictionnaire/anonsets-anonymity-sets/
 category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
+description: "Les anonsets servent d'indicateurs pour évaluer le degré de confidentialité d'un UTXO particulier."
 french_term: "ENSEMBLES D'ANONYMAT"
 category_slug: "confidentialite"
 prev_in_category:

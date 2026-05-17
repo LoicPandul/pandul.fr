@@ -5,6 +5,7 @@ permalink: /dictionnaire/debug-log/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Fichier contenant l'historique des événements de Bitcoin Core. Il contient des données de journalisation, telles que les messages d'erreur, les..."
 category_slug: "protocole"
 prev_in_category:
   title: "DB.LOG"

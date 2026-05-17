@@ -5,6 +5,7 @@ permalink: /dictionnaire/diffusion/
 category: "RÉSEAU"
 letter: "D"
 layout: definition
+description: "Processus par lequel les informations, comme les transactions et les blocs, sont transmises de nœud en nœud à travers le réseau Bitcoin."
 english_term: "PROPAGATION / BROADCAST"
 category_slug: "reseau"
 prev_in_category:

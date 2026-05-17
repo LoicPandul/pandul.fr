@@ -5,6 +5,7 @@ permalink: /dictionnaire/dustrelayfee/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Règle de standardisation utilisée par les nœuds du réseau pour déterminer ce qu'ils considèrent comme la « limite de poussière » (dust limit)."
 category_slug: "protocole"
 prev_in_category:
   title: "DUST LIMIT"

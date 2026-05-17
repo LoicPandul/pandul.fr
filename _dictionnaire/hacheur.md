@@ -5,6 +5,7 @@ permalink: /dictionnaire/hacheur/
 category: "MINAGE"
 letter: "H"
 layout: definition
+description: "Dans le contexte des pools de minage, les participants sont souvent désignés sous le terme de « hacheurs »."
 english_term: "HASHER"
 category_slug: "minage"
 prev_in_category:

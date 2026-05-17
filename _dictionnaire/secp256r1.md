@@ -5,6 +5,7 @@ permalink: /dictionnaire/secp256r1/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Nom donné à une courbe elliptique définie par le standard NIST pour la cryptographie à clé publique."
 category_slug: "cryptographie"
 prev_in_category:
   title: "SECP256K1"

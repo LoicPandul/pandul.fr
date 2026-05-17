@@ -5,6 +5,7 @@ permalink: /dictionnaire/colored-coins/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Méthode proposée en 2012 par Yoni Assia, Vitalik Buterin et Meni Rosenfeld permettant de représenter et gérer des actifs non natifs sur la blockchain..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CLEMENTINE"

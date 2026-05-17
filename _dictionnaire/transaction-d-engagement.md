@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-d-engagement/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Dans le contexte d'un canal bidirectionnel au sein de Lightning, la transaction d'engagement est une transaction que les deux parties créent et signent..."
 english_term: "COMMITMENT TRANSACTION"
 category_slug: "lightning-network"
 prev_in_category:

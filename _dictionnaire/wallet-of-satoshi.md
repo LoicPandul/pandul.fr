@@ -5,6 +5,7 @@ permalink: /dictionnaire/wallet-of-satoshi/
 category: "LIGHTNING NETWORK"
 letter: "W"
 layout: definition
+description: "Portefeuille mobile spécialisé dans les paiements via le Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "VLS"

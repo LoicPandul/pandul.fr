@@ -5,6 +5,7 @@ permalink: /dictionnaire/rsk/
 category: "SIDECHAIN"
 letter: "R"
 layout: definition
+description: "Chaîne latérale (sidechain) de Bitcoin conçue pour l'exécution de smart contracts compatibles avec Ethereum."
 category_slug: "sidechain"
 prev_in_category:
   title: "PEG-OUT"

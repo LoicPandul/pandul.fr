@@ -5,6 +5,7 @@ permalink: /dictionnaire/daemon/
 category: "INFORMATIQUE"
 letter: "D"
 layout: definition
+description: "Type de programme informatique qui fonctionne en arrière-plan, indépendamment du contrôle de l'utilisateur."
 category_slug: "informatique"
 prev_in_category:
   title: "CPU - CENTRAL PROCESSING UNIT"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/decentralisation/
 category: "RÉSEAU"
 letter: "D"
 layout: definition
+description: "Principe d'organisation d'un système dans lequel aucune entité unique ne détient le contrôle ni l'autorité sur l'ensemble du fonctionnement."
 english_term: "DECENTRALIZATION"
 category_slug: "reseau"
 prev_in_category:

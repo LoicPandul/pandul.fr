@@ -5,6 +5,7 @@ permalink: /dictionnaire/shor-algorithme/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+description: "Algorithme quantique inventé en 1994 par Peter Shor permettant de factoriser de grands entiers en produit de nombres premiers en temps polynomial."
 english_term: "SHOR'S ALGORITHM"
 category_slug: "informatique"
 prev_in_category:

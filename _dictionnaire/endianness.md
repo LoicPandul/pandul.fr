@@ -5,6 +5,7 @@ permalink: /dictionnaire/endianness/
 category: "INFORMATIQUE"
 letter: "E"
 layout: definition
+description: "Désigne l'ordre dans lequel une séquence d'octets est arrangée et interprétée en informatique."
 french_term: "BOUTISME"
 category_slug: "informatique"
 prev_in_category:

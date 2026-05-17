@@ -5,6 +5,7 @@ permalink: /dictionnaire/fonctionnaire/
 category: "SIDECHAIN"
 letter: "F"
 layout: definition
+description: "Dans le cadre de la sidechain Liquid, les fonctionnaires sont des nœuds pilotés par des entités chargées de gérer le système."
 english_term: "FUNCTIONARIES"
 category_slug: "sidechain"
 prev_in_category:

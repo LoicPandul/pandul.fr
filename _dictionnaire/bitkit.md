@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitkit/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille Bitcoin mobile en self-custody développé par Synonym, qui combine les paiements on-chain et Lightning Network dans une même application."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BITKEY"

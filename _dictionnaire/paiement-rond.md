@@ -5,6 +5,7 @@ permalink: /dictionnaire/paiement-rond/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Heuristique interne d'analyse de chaîne sur Bitcoin qui permet d'émettre une hypothèse sur la nature des sorties d'une transaction en se basant sur les..."
 english_term: "ROUND PAYMENT"
 category_slug: "confidentialite"
 prev_in_category:

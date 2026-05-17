@@ -5,6 +5,7 @@ permalink: /dictionnaire/counterparty/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Méta-protocole open source lancé en janvier 2014 qui permettait de créer et d'échanger des actifs numériques directement sur la blockchain Bitcoin."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CONNECTOR"

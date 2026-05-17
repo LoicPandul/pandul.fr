@@ -5,6 +5,7 @@ permalink: /dictionnaire/xmr-monero/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "X"
 layout: definition
+description: "Cryptomonnaie alternative (altcoin) lancée en avril 2014, axée sur la confidentialité des transactions."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "XBT"

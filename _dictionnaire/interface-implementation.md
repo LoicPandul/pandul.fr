@@ -5,6 +5,7 @@ permalink: /dictionnaire/interface-implementation/
 category: "RGB"
 letter: "I"
 layout: definition
+description: "Dans le cadre du protocole RGB, l'Interface Implementation désigne l'ensemble des déclarations établissant la correspondance entre une Interface et un..."
 category_slug: "rgb"
 prev_in_category:
   title: "INTERFACE"

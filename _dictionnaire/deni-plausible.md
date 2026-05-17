@@ -5,6 +5,7 @@ permalink: /dictionnaire/deni-plausible/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+description: "Principe selon lequel un utilisateur peut nier de manière crédible la possession ou le contrôle de certains bitcoins, car il existe plusieurs..."
 english_term: "PLAUSIBLE DENIABILITY"
 category_slug: "confidentialite"
 prev_in_category:

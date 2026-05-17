@@ -5,6 +5,7 @@ permalink: /dictionnaire/ancestor-mining/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+description: "Autre nom parfois donné à CPFP (Child-Pay-For-Parent). Le minage des ancêtres est le principe selon lequel un mineur ne choisit pas une transaction..."
 french_term: "MINAGE DES ANCÊTRES"
 category_slug: "protocole"
 prev_in_category:

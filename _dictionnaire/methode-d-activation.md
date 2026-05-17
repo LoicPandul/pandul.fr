@@ -5,6 +5,7 @@ permalink: /dictionnaire/methode-d-activation/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Une méthode d'activation est le processus par lequel la communauté d'utilisateurs décide de l'implémentation d'un soft fork sur le protocole Bitcoin, en..."
 english_term: "ACTIVATION METHOD"
 category_slug: "protocole"
 prev_in_category:

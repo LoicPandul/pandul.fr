@@ -5,6 +5,7 @@ permalink: /dictionnaire/spark/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Protocole de couche supérieure open source construit sur Bitcoin, développé par Lightspark, conçu pour permettre des transactions instantanées et à très..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SO - SPARK OPERATOR"

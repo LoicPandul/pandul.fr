@@ -5,6 +5,7 @@ permalink: /dictionnaire/script/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Langage de programmation à piles utilisé pour établir des conditions de dépense, et donc, indirectement, sécuriser des bitcoins."
 category_slug: "script"
 prev_in_category:
   title: "REDEEMSCRIPT"

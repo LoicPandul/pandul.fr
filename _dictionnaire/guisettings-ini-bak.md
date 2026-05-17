@@ -5,6 +5,7 @@ permalink: /dictionnaire/guisettings-ini-bak/
 category: "PROTOCOLE"
 letter: "G"
 layout: definition
+description: "Fichier dans Bitcoin Core utilisé pour stocker une sauvegarde des paramètres de l'interface graphique (GUI)."
 category_slug: "protocole"
 prev_in_category:
   title: "GRAFTROOT"

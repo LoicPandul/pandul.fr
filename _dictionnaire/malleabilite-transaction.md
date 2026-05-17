@@ -5,6 +5,7 @@ permalink: /dictionnaire/malleabilite-transaction/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Se réfère à la possibilité de modifier légèrement la structure d'une transaction Bitcoin, sans en altérer l'effet, mais tout en changeant l'identifiant..."
 english_term: "TRANSACTION MALLEABILITY"
 category_slug: "protocole"
 prev_in_category:

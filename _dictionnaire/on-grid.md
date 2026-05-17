@@ -5,6 +5,7 @@ permalink: /dictionnaire/on-grid/
 category: "MINAGE"
 letter: "O"
 layout: definition
+description: "Désigne une opération de minage de Bitcoin qui est connectée au réseau électrique général."
 french_term: "RACCORDÉ AU RÉSEAU"
 category_slug: "minage"
 prev_in_category:

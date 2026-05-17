@@ -5,6 +5,7 @@ permalink: /dictionnaire/rendez-vous-routing/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+description: "Technique de routage Lightning conçue pour protéger l'identité du destinataire d'un paiement."
 french_term: "ROUTAGE RENDEZ-VOUS"
 category_slug: "lightning-network"
 prev_in_category:

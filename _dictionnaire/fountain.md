@@ -5,6 +5,7 @@ permalink: /dictionnaire/fountain/
 category: "OUTIL"
 letter: "F"
 layout: definition
+description: "Application de podcast intégrant des paiements Lightning selon le modèle value-for-value."
 category_slug: "outil"
 prev_in_category:
   title: "EXPLORATEUR DE BLOC"

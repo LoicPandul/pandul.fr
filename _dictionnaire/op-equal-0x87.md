@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-equal-0x87/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux valeurs les plus hautes de la pile et pousse 1 sur la pile si elles sont égales, sinon pousse 0."
 category_slug: "script"
 prev_in_category:
   title: "OP_ENDIF - 0X68"

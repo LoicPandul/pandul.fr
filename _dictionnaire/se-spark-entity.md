@@ -5,6 +5,7 @@ permalink: /dictionnaire/se-spark-entity/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Groupe d'opérateurs responsables de la gestion des clés partagées et des opérations de signature au sein du protocole Spark."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "RUNES"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/resynchronisation/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Se réfère à un phénomène dans lequel la blockchain subit une modification de sa structure à cause de l'existence de blocs concurrents à une même hauteur."
 english_term: "REORGANIZATION"
 category_slug: "protocole"
 prev_in_category:

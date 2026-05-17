@@ -5,6 +5,7 @@ permalink: /dictionnaire/arbitrage/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Pratique consistant à exploiter les différences de prix du BTC (ou de tout autre actif) entre différentes plateformes d'échange pour réaliser un profit."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "AML - ANTI-MONEY LAUNDERING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/runes/
 category: "COUCHE SUPÉRIEURE"
 letter: "R"
 layout: definition
+description: "Protocole développé par la même équipe que les Ordinals qui permet l'utilisation de transactions Bitcoin pour graver, frapper et transférer des actifs..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "ROUND ARK"

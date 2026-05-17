@@ -5,6 +5,7 @@ permalink: /dictionnaire/dojo/
 category: "OUTIL"
 letter: "D"
 layout: definition
+description: "Serveur backend open source construit au-dessus de Bitcoin Core, orienté confidentialité et autonomie."
 category_slug: "outil"
 prev_in_category:
   title: "COINOS"

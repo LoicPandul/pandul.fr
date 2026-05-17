@@ -5,6 +5,7 @@ permalink: /dictionnaire/weight-unit/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+description: "Unité de mesure introduite par SegWit (BIP-0141) pour quantifier l'espace qu'une transaction ou un bloc occupe par rapport à la limite maximale autorisée."
 french_term: "UNITÉ DE POIDS"
 category_slug: "protocole"
 prev_in_category:

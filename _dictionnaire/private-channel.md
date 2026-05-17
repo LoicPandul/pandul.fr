@@ -5,6 +5,7 @@ permalink: /dictionnaire/private-channel/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Canal Lightning qui n'est pas annoncé au réseau et donc absent du graphe des nœuds publics."
 french_term: "CANAL PRIVÉ"
 category_slug: "lightning-network"
 prev_in_category:

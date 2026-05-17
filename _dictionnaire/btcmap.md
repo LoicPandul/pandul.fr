@@ -5,6 +5,7 @@ permalink: /dictionnaire/btcmap/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Carte interactive open source qui recense les commerces et services acceptant le bitcoin à travers le monde."
 category_slug: "outil"
 prev_in_category:
   title: "BOS - BALANCE OF SATOSHIS"

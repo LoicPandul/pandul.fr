@@ -5,6 +5,7 @@ permalink: /dictionnaire/sighash-single-0x03/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Type de SigHash Flag utilisé dans les signatures des transactions Bitcoin pour indiquer que la signature s'applique à tous les inputs de la transaction..."
 category_slug: "protocole"
 prev_in_category:
   title: "SIGHASH_NONE | SIGHASH_ACP"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/extra-transaction-proof/
 category: "RGB"
 letter: "E"
 layout: definition
+description: "Dans le cadre du protocole RGB, l'ETP constitue la partie de l'Anchor qui intègre les données complémentaires indispensables à la validation d'un..."
 category_slug: "rgb"
 prev_in_category:
   title: "ENGRAVING"

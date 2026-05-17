@@ -5,6 +5,7 @@ permalink: /dictionnaire/libsecp256k1/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Bibliothèque C de haute performance et de haute sécurité pour les signatures numériques et d'autres primitives cryptographiques sur la courbe elliptique..."
 category_slug: "protocole"
 prev_in_category:
   title: "LIBBITCOIN"

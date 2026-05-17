@@ -5,6 +5,7 @@ permalink: /dictionnaire/brc-20/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+description: "Standard permettant l'interaction avec des jetons non natifs sur Bitcoin, basé sur les inscriptions du protocole Ordinals."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "BLIND ORACLE"

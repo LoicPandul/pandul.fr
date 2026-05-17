@@ -5,6 +5,7 @@ permalink: /dictionnaire/rbf-replace-by-fee/
 category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
+description: "Mécanisme transactionnel permettant à l'expéditeur de remplacer une transaction par une autre avec des frais plus élevés, afin d'accélérer la..."
 french_term: "REMPLACEMENT PAR LES FRAIS"
 category_slug: "portefeuille"
 prev_in_category:

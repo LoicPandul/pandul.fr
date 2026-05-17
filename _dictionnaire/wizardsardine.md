@@ -5,6 +5,7 @@ permalink: /dictionnaire/wizardsardine/
 category: "COMMUNAUTÉ"
 letter: "W"
 layout: definition
+description: "Entreprise spécialisée dans la sécurité et la conservation de bitcoins, fondée en 2020 par Kevin Loaec et Antoine Poinsot, et incorporée aux Açores..."
 category_slug: "communaute"
 prev_in_category:
   title: "STACKER"

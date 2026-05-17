@@ -5,6 +5,7 @@ permalink: /dictionnaire/frost/
 category: "CRYPTOGRAPHIE"
 letter: "F"
 layout: definition
+description: "Protocole de signatures à seuil Schnorr proposé par Chelsea Komlo et Ian Goldberg en 2020, dont l'acronyme signifie Flexible Round-Optimized Schnorr..."
 french_term: "SIGNATURES SCHNORR A SEUIL"
 category_slug: "cryptographie"
 prev_in_category:

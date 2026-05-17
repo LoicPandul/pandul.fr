@@ -5,6 +5,7 @@ permalink: /dictionnaire/bulletproofs/
 category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
+description: "Système de preuves à divulgation nulle de connaissance (zero-knowledge proofs) utilisé notamment dans les Confidential Transactions pour vérifier qu'un..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "BORROMEAN RING SIGNATURES"

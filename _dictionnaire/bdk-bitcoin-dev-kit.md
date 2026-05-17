@@ -5,6 +5,7 @@ permalink: /dictionnaire/bdk-bitcoin-dev-kit/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Kit de développement (SDK) pour les portefeuilles sur Bitcoin. BDK est une collection de bibliothèques et d'outils destinés aux développeurs, permettant..."
 category_slug: "outil"
 prev_in_category:
   title: "ATOMIC SWAP"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-08/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit la couche de transport chiffrée et authentifiée du Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-07"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/shards-rgb/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, un Shard représente une branche distincte au sein du graphe orienté acyclique (DAG) qui retrace l'historique des State..."
 category_slug: "rgb"
 prev_in_category:
   title: "SEAL DEFINITION"

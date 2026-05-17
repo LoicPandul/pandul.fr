@@ -5,6 +5,7 @@ permalink: /dictionnaire/embranchement-naturel/
 category: "PROTOCOLE"
 letter: "E"
 layout: definition
+description: "Séparation temporaire de la blockchain résultant de la diffusion quasi simultanée de plusieurs blocs par différents mineurs à une même hauteur."
 english_term: "NATURAL BRANCHING / CHAINSPLIT"
 category_slug: "protocole"
 prev_in_category:

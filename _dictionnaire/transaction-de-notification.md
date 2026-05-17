@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-de-notification/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin spécifique utilisée dans le cadre du protocole BIP-0047 (codes de paiement réutilisables)."
 english_term: "NOTIFICATION TRANSACTION"
 category_slug: "confidentialite"
 prev_in_category:

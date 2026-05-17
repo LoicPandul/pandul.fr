@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-announcement/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Message diffusé sur le réseau Lightning pour signaler l'existence d'un nouveau canal de paiement aux autres nœuds."
 french_term: "ANNONCE DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

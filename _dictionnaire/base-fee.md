@@ -5,6 +5,7 @@ permalink: /dictionnaire/base-fee/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Composante fixe des frais de routage sur le Lightning Network. Lorsqu'un nœud transmet un paiement pour le compte d'un autre, il peut prélever des frais..."
 french_term: "FRAIS DE BASE"
 category_slug: "lightning-network"
 prev_in_category:

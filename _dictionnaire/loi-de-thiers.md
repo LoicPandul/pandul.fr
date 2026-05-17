@@ -5,6 +5,7 @@ permalink: /dictionnaire/loi-de-thiers/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
+description: "Principe économique inverse de la loi de Gresham, selon lequel « la bonne monnaie chasse la mauvaise »."
 english_term: "THIERS' LAW"
 category_slug: "economie-et-regulation"
 prev_in_category:

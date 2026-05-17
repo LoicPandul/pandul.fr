@@ -5,6 +5,7 @@ permalink: /dictionnaire/minage/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Action de participer à la preuve de travail (Proof-of-Work) du système Bitcoin."
 english_term: "MINING"
 category_slug: "minage"
 prev_in_category:

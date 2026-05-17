@@ -5,6 +5,7 @@ permalink: /dictionnaire/mempool-dat/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Nom du fichier de données utilisé par le logiciel Bitcoin Core pour stocker l'état actuel de la mempool, qui est l'ensemble des transactions non..."
 category_slug: "protocole"
 prev_in_category:
   title: "MEMPOOL"

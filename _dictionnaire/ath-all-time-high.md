@@ -5,6 +5,7 @@ permalink: /dictionnaire/ath-all-time-high/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Désigne le niveau le plus élevé jamais atteint par l'élément étudié. Souvent, l'ATH désigne le plus haut niveau de prix du bitcoin en comparaison avec..."
 french_term: "PLUS HAUT HISTORIQUE"
 category_slug: "economie-et-regulation"
 prev_in_category:

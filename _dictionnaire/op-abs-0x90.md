@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-abs-0x90/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Remplace l'élément supérieur de la pile par sa valeur absolue. Cette opération supprime le signe de l'élément, transformant toute valeur négative en..."
 category_slug: "script"
 prev_in_category:
   title: "OP_3DUP - 0X6F"

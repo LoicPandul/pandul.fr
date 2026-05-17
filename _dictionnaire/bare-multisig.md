@@ -5,6 +5,7 @@ permalink: /dictionnaire/bare-multisig/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Modèle de script standard P2MS utilisé pour établir des conditions de dépense sur un UTXO."
 french_term: "MULTISIG BRUT"
 category_slug: "protocole"
 prev_in_category:

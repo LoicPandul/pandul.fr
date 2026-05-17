@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-etendue/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Suite de caractères qui combine une clé (publique ou privée), son code de chaîne associé et une série de métadonnées."
 english_term: "EXTENDED KEY"
 category_slug: "portefeuille"
 prev_in_category:

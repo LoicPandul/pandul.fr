@@ -5,6 +5,7 @@ permalink: /dictionnaire/cryptographie/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Discipline qui incarne les principes, les moyens et les méthodes de transformation des informations, notamment avec des techniques mathématiques, afin..."
 english_term: "CRYPTOGRAPHY"
 category_slug: "cryptographie"
 prev_in_category:

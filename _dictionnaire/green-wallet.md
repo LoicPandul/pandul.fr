@@ -5,6 +5,7 @@ permalink: /dictionnaire/green-wallet/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+description: "Logiciel de portefeuille Bitcoin disponible sur PC, Android et iOS développé par Blockstream depuis l'acquisition du logiciel GreenAddress en 2016."
 category_slug: "portefeuille"
 prev_in_category:
   title: "GREEN ADDRESSES"

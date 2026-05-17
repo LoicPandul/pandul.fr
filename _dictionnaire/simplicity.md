@@ -5,6 +5,7 @@ permalink: /dictionnaire/simplicity/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Langage de programmation bas niveau conçu par Russell O'Connor chez Blockstream pour exprimer des contrats sur des blockchains qui reposent sur le..."
 category_slug: "script"
 prev_in_category:
   title: "SCRIPTWITNESS"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/pps-plus/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Sigle de « Pay Per Share Plus ». Méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage, qui combine les approches PPS et..."
 category_slug: "minage"
 prev_in_category:
   title: "PPS - PAY PER SHARE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/scalabilite/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Fait référence à la capacité de Bitcoin à gérer une augmentation du volume de transactions tout en maintenant des performances acceptables."
 english_term: "SCALABILITY"
 category_slug: "protocole"
 prev_in_category:

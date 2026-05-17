@@ -5,6 +5,7 @@ permalink: /dictionnaire/qr-code/
 category: "INFORMATIQUE"
 letter: "Q"
 layout: definition
+description: "Type de code-barres en deux dimensions pouvant être scanné rapidement par des appareils mobiles."
 category_slug: "informatique"
 prev_in_category:
   title: "PULL REQUEST"

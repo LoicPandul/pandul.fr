@@ -5,6 +5,7 @@ permalink: /dictionnaire/dust/
 category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
+description: "Fait référence à des montants de pièces bitcoin extrêmement petits qui sont trop minimes pour être envoyés dans une transaction, car les frais de..."
 french_term: "POUSSIÈRE"
 category_slug: "portefeuille"
 prev_in_category:

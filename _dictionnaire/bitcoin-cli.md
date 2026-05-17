@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-cli/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Bitcoin-cli, acronyme pour « Bitcoin Command Line Interface », est une interface de ligne de commande conçue pour interagir avec une instance de Bitcoin..."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN QT"

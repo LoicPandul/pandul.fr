@@ -5,6 +5,7 @@ permalink: /dictionnaire/stratum-v2/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Évolution de Stratum, le célèbre protocole réseau superposé à Bitcoin conçu pour le minage."
 category_slug: "minage"
 prev_in_category:
   title: "STRATUM"

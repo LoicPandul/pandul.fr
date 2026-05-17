@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-hash160-0xa9/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend l'élément en haut de la pile et le remplace par son hachage en utilisant successivement les fonctions SHA256 puis RIPEMD160."
 category_slug: "script"
 prev_in_category:
   title: "OP_GREATERTHANOREQUAL - 0XA2"

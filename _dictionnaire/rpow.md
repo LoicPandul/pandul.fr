@@ -5,6 +5,7 @@ permalink: /dictionnaire/rpow/
 category: "HISTOIRE"
 letter: "R"
 layout: definition
+description: "Sigle de « Reusable Proofs Of Work ». C'est un système de monnaie électronique par transfert de jetons établis sur des preuves de travail, développé et..."
 category_slug: "histoire"
 prev_in_category:
   title: "PIZZA DAY"

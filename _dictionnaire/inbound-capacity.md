@@ -5,6 +5,7 @@ permalink: /dictionnaire/inbound-capacity/
 category: "LIGHTNING NETWORK"
 letter: "I"
 layout: definition
+description: "Désigne la quantité maximale de bitcoins qu'un nœud peut recevoir à travers un canal spécifique sur le Lightning Network."
 french_term: "CAPACITÉ ENTRANTE"
 category_slug: "lightning-network"
 prev_in_category:

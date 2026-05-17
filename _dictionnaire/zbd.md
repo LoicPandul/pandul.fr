@@ -5,6 +5,7 @@ permalink: /dictionnaire/zbd/
 category: "ORGANISATION"
 letter: "Z"
 layout: definition
+description: "Entreprise fondée en 2019 spécialisée dans l'intégration de paiements Lightning dans l'industrie du jeu vidéo."
 category_slug: "organisation"
 prev_in_category:
   title: "VOLTAGE"

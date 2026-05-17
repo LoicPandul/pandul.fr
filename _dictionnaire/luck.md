@@ -5,6 +5,7 @@ permalink: /dictionnaire/luck/
 category: "MINAGE"
 letter: "L"
 layout: definition
+description: "Indicateur utilisé dans les pools de minage pour mesurer la performance d'une pool par rapport à ses attentes théoriques."
 french_term: "CHANCE"
 category_slug: "minage"
 prev_in_category:

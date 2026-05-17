@@ -5,6 +5,7 @@ permalink: /dictionnaire/btcd-btc-suite/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Implémentation minoritaire du protocole Bitcoin. BTCD est une alternative au logiciel majoritaire Bitcoin Core (notamment Bitcoind)."
 category_slug: "protocole"
 prev_in_category:
   title: "BTC"

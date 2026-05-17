@@ -5,6 +5,7 @@ permalink: /dictionnaire/wallets-db-log/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+description: "Fichier journal dans Bitcoin Core spécifique à la base de données des portefeuilles."
 category_slug: "protocole"
 prev_in_category:
   title: "WALLET.DAT"

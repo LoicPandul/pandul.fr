@@ -5,6 +5,7 @@ permalink: /dictionnaire/recursif-covenant/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Un covenant récursif sur Bitcoin est un type de contrat intelligent qui impose des conditions non seulement sur la transaction actuelle, mais aussi sur..."
 english_term: "RECURSIVE - COVENANT"
 category_slug: "protocole"
 prev_in_category:

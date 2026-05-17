@@ -5,6 +5,7 @@ permalink: /dictionnaire/blocksize-war/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Désigne une période de débat intense et de conflit au sein de la communauté Bitcoin entre 2015 et 2017."
 french_term: "GUERRE DE LA TAILLE DES BLOCS"
 category_slug: "histoire"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/spof/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+description: "Un point de défaillance unique (SPOF, de l'anglais « Single Point of Failure ») désigne dans le domaine informatique un composant ou un élément d'un..."
 french_term: "POINT DE DÉFAILLANCE UNIQUE"
 category_slug: "informatique"
 prev_in_category:

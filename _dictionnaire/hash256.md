@@ -5,6 +5,7 @@ permalink: /dictionnaire/hash256/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+description: "Fonction cryptographique utilisée pour diverses applications sur Bitcoin."
 category_slug: "cryptographie"
 prev_in_category:
   title: "HASH160"

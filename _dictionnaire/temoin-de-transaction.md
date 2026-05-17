@@ -5,6 +5,7 @@ permalink: /dictionnaire/temoin-de-transaction/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Fait référence à une composante des transactions Bitcoin qui a été déplacée avec le soft fork SegWit afin de résoudre le problème de la malléabilité des..."
 english_term: "TRANSACTION WITNESS"
 category_slug: "protocole"
 prev_in_category:

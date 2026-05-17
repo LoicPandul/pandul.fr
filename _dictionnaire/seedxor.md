@@ -5,6 +5,7 @@ permalink: /dictionnaire/seedxor/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Méthode de fractionnement d'une phrase de récupération Bitcoin en plusieurs parties à l'aide de l'opération XOR, introduite par Coinkite pour les..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SEEDSIGNER"

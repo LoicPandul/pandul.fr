@@ -5,6 +5,7 @@ permalink: /dictionnaire/ip-report/
 category: "MINAGE"
 letter: "I"
 layout: definition
+description: "Bouton présent sur les ASICs qui permet de trouver rapidement l'adresse IP de la machine sur le réseau local."
 category_slug: "minage"
 prev_in_category:
   title: "IMMERSION COOLING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/portefeuille-chaud/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Un portefeuille chaud est un dispositif logiciel dédié à la sécurisation et à la gestion des clés privées d'un portefeuille Bitcoin."
 english_term: "HOT WALLET / SOFTWARE WALLET"
 category_slug: "portefeuille"
 prev_in_category:

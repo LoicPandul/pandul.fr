@@ -5,6 +5,7 @@ permalink: /dictionnaire/extra-nonce/
 category: "MINAGE"
 letter: "E"
 layout: definition
+description: "Champ utilisé dans le scriptSig de la transaction coinbase d'un bloc, qui permet d'avoir un plus grand nombre de possibilités à tester pour avoir un..."
 category_slug: "minage"
 prev_in_category:
   title: "ESMPPS"

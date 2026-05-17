@@ -5,6 +5,7 @@ permalink: /dictionnaire/udp-user-datagram-protocol/
 category: "RÉSEAU"
 letter: "U"
 layout: definition
+description: "Protocole de communication utilisé sur Internet qui permet l'envoi de messages (datagrammes) entre ordinateurs sans établir de connexion préalable..."
 category_slug: "reseau"
 prev_in_category:
   title: "TOR"

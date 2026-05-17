@@ -5,6 +5,7 @@ permalink: /dictionnaire/ledger/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Nom parfois utilisé pour désigner le registre public et distribué qui enregistre toutes les transactions effectuées sur Bitcoin, c'est-à-dire, la..."
 french_term: "GRAND LIVRE / REGISTRE"
 category_slug: "protocole"
 prev_in_category:

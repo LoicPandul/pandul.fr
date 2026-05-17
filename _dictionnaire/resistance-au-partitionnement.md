@@ -5,6 +5,7 @@ permalink: /dictionnaire/resistance-au-partitionnement/
 category: "INFORMATIQUE"
 letter: "R"
 layout: definition
+description: "Capacité du réseau Bitcoin à rester unifié et à maintenir le consensus entre les utilisateurs, en maintenant des connexions et en évitant la séparation..."
 english_term: "PARTITION TOLERANCE"
 category_slug: "informatique"
 prev_in_category:

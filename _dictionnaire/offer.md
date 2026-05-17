@@ -5,6 +5,7 @@ permalink: /dictionnaire/offer/
 category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
+description: "Dans le cadre de BOLT-12, les « offers » sont des QR codes statiques pour effectuer plusieurs paiements sur le Lightning Network."
 french_term: "OFFRE / DEMANDE DE PAIEMENT RÉUTILISABLE"
 category_slug: "lightning-network"
 prev_in_category:

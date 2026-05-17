@@ -5,6 +5,7 @@ permalink: /dictionnaire/fulcrum/
 category: "OUTIL"
 letter: "F"
 layout: definition
+description: "Implémentation d'un serveur Electrum développée en C++ par Calin Culianu, initialement pour Bitcoin Cash, et publiée sous licence GPLv3."
 category_slug: "outil"
 prev_in_category:
   title: "FROSTSNAP"

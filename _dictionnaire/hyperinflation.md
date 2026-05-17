@@ -5,6 +5,7 @@ permalink: /dictionnaire/hyperinflation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
+description: "Phénomène économique caractérisé par une hausse des prix extrêmement rapide et incontrôlable."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "HYPER-BITCOINISATION"

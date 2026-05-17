@@ -5,6 +5,7 @@ permalink: /dictionnaire/anchors-dat/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Fichier utilisé dans le client Bitcoin Core pour stocker les adresses IP des nœuds sortants de type block-relay-only auxquels un client était connecté..."
 category_slug: "reseau"
 prev_in_category:
   title: "ADDRV2"

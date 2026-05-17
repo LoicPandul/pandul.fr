@@ -5,6 +5,7 @@ permalink: /dictionnaire/probing/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Technique consistant à envoyer des paiements sur le Lightning Network sans intention de les finaliser, dans le but de découvrir des informations sur le..."
 french_term: "SONDAGE"
 category_slug: "lightning-network"
 prev_in_category:

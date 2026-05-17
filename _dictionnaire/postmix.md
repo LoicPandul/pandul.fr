@@ -5,6 +5,7 @@ permalink: /dictionnaire/postmix/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Compte qui regroupe les UTXOs qui ont participé à au moins un cycle de coinjoin dans le protocole Whirlpool."
 category_slug: "confidentialite"
 prev_in_category:
   title: "POOL DE COINJOIN"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/fork-git/
 category: "INFORMATIQUE"
 letter: "F"
 layout: definition
+description: "Dans le cadre de Git, représente la création d'une copie d'un dépôt existant sur un nouveau compte, permettant ainsi à l'utilisateur de modifier, tester..."
 category_slug: "informatique"
 prev_in_category:
   title: "ENDIANNESS"

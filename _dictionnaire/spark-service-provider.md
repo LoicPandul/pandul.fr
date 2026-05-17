@@ -5,6 +5,7 @@ permalink: /dictionnaire/spark-service-provider/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Fournisseur de services au sein de l'écosystème Spark, dont le rôle principal est de faciliter les dépôts et retraits entre la couche principale de..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SPARK"

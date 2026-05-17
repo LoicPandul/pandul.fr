@@ -5,6 +5,7 @@ permalink: /dictionnaire/tapscript/
 category: "SCRIPT"
 letter: "T"
 layout: definition
+description: "Mise à jour qui a pour objet de modifier certains opcodes du langage de script classique de Bitcoin, afin de définir le nouveau langage de script..."
 category_slug: "script"
 prev_in_category:
   title: "SIMPLICITY"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/code-de-chaine/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans le contexte de la dérivation hiérarchique et déterministe (HD) des portefeuilles Bitcoin, le code de chaîne est une valeur de sel cryptographique..."
 english_term: "CHAIN CODE"
 category_slug: "portefeuille"
 prev_in_category:

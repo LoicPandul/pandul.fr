@@ -5,6 +5,7 @@ permalink: /dictionnaire/umbrel/
 category: "OUTIL"
 letter: "U"
 layout: definition
+description: "Système d'exploitation pour serveurs personnels permettant d'auto-héberger des applications, dont un nœud Bitcoin et un nœud Lightning."
 category_slug: "outil"
 prev_in_category:
   title: "THUNDERHUB"

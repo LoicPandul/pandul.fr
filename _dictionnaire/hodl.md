@@ -5,6 +5,7 @@ permalink: /dictionnaire/hodl/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
+description: "Terme populaire dans la communauté Bitcoin qui désigne le fait de conserver ses bitcoins sur le long terme, malgré la volatilité des marchés, et de ne..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "FONGIBILITÉ"

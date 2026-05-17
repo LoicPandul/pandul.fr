@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-else-0x67/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Modifie le flux d'exécution dans un script conditionnel : il indique que les opérations qui le suivent doivent être exécutées si la condition précédente..."
 category_slug: "script"
 prev_in_category:
   title: "OP_DUP - 0X76"

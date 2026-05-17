@@ -5,6 +5,7 @@ permalink: /dictionnaire/diffie-hellman/
 category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
+description: "Méthode cryptographique permettant à deux parties de générer un secret partagé sur un canal de communication non sécurisé."
 category_slug: "cryptographie"
 prev_in_category:
   title: "CRYPTOLOGIE"

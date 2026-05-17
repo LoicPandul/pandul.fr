@@ -5,6 +5,7 @@ permalink: /dictionnaire/race-attack/
 category: "ATTAQUE"
 letter: "R"
 layout: definition
+description: "Forme de double dépense qui exploite le délai de propagation des transactions sur le réseau Bitcoin."
 french_term: "ATTAQUE PAR COURSE"
 category_slug: "attaque"
 prev_in_category:

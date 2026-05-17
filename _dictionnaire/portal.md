@@ -5,6 +5,7 @@ permalink: /dictionnaire/portal/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Hardware wallet Bitcoin open source développé par TwentyTwo Devices, qui fonctionne entièrement via NFC, sans câble ni batterie."
 category_slug: "portefeuille"
 prev_in_category:
   title: "PHRASE DE RÉCUPÉRATION"

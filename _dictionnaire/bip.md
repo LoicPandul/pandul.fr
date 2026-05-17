@@ -5,6 +5,7 @@ permalink: /dictionnaire/bip/
 category: "BIP"
 letter: "B"
 layout: definition
+description: "Acronyme de « Bitcoin Improvement Proposal ». Un BIP est un document formel proposant une amélioration, une spécification technique ou une information..."
 french_term: "PROPOSITION D'AMÉLIORATION DE BITCOIN"
 category_slug: "bip"
 prev_in_category:

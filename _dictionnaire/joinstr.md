@@ -5,6 +5,7 @@ permalink: /dictionnaire/joinstr/
 category: "CONFIDENTIALITÉ"
 letter: "J"
 layout: definition
+description: "Protocole de coinjoin décentralisé qui utilise Nostr comme couche de communication."
 category_slug: "confidentialite"
 prev_in_category:
   title: "JOINMARKET"

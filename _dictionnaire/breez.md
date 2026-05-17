@@ -5,6 +5,7 @@ permalink: /dictionnaire/breez/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Portefeuille mobile Lightning Network non-custodial qui permet d'envoyer et de recevoir des paiements en bitcoins de manière quasi instantanée."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-12"

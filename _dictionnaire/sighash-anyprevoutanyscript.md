@@ -5,6 +5,7 @@ permalink: /dictionnaire/sighash-anyprevoutanyscript/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Variante du SigHash Flag modificateur SIGHASH_ANYPREVOUT dans Bitcoin, introduite dans le BIP-0118."
 category_slug: "protocole"
 prev_in_category:
   title: "SIGHASH_ANYPREVOUT"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-ver-0x62/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Permettait de pousser la version du protocole sur la pile. Cet opcode a été désactivé, car s'il avait été utilisé, chaque mise à jour aurait conduit à..."
 category_slug: "script"
 prev_in_category:
   title: "OP_VAULT - 0XBB"

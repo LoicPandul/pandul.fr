@@ -5,6 +5,7 @@ permalink: /dictionnaire/modele-de-script/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+description: "Template permettant l'utilisation de scripts standards. Un modèle de script est essentiellement une petite liste d'opcodes mis ensemble pour former une..."
 english_term: "SCRIPT TEMPLATE"
 category_slug: "script"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/stark/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Système de preuve cryptographique dont l'acronyme signifie Scalable Transparent ARgument of Knowledge."
 category_slug: "cryptographie"
 prev_in_category:
   title: "SOMME DE CONTRÔLE"

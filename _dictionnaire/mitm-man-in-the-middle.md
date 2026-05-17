@@ -5,6 +5,7 @@ permalink: /dictionnaire/mitm-man-in-the-middle/
 category: "ATTAQUE"
 letter: "M"
 layout: definition
+description: "Attaque dans laquelle un acteur malveillant se place clandestinement entre deux parties qui communiquent, afin d'intercepter et potentiellement de..."
 french_term: "HDM - ATTAQUE DE L'HOMME DU MILIEU"
 category_slug: "attaque"
 prev_in_category:

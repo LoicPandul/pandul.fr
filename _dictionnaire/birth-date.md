@@ -5,6 +5,7 @@ permalink: /dictionnaire/birth-date/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Fait référence à la date à laquelle un portefeuille a été créé. Cette information est importante lors de la restauration d'un portefeuille, car elle..."
 french_term: "DATE DE NAISSANCE"
 category_slug: "portefeuille"
 prev_in_category:

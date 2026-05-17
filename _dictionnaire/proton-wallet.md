@@ -5,6 +5,7 @@ permalink: /dictionnaire/proton-wallet/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Portefeuille Bitcoin open source en self-custody développé par Proton, l'entreprise suisse connue pour ses services axés sur la confidentialité."
 category_slug: "portefeuille"
 prev_in_category:
   title: "PROFONDEUR"

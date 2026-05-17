@@ -5,6 +5,7 @@ permalink: /dictionnaire/pplns-pay-per-last-n-shares/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
 category_slug: "minage"
 prev_in_category:
   title: "PPA"

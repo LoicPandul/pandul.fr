@@ -5,6 +5,7 @@ permalink: /dictionnaire/hashrate-hijacking/
 category: "ATTAQUE"
 letter: "H"
 layout: definition
+description: "Attaque qui consiste à détourner la puissance de calcul d'un mineur vers une destination contrôlée par l'attaquant, sans que le mineur en soit conscient."
 french_term: "DÉTOURNEMENT DE HASHRATE"
 category_slug: "attaque"
 prev_in_category:

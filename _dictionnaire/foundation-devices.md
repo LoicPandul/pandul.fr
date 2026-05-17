@@ -5,6 +5,7 @@ permalink: /dictionnaire/foundation-devices/
 category: "ORGANISATION"
 letter: "F"
 layout: definition
+description: "Entreprise américaine cofondée en 2020 par Zach Herbert, Jacob Johnston, Ken Carpenter et Matt Beach à Boston, spécialisée dans la fabrication de..."
 category_slug: "organisation"
 prev_in_category:
   title: "FONDATION BITCOIN"

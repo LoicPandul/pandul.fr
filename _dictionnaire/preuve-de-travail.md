@@ -5,6 +5,7 @@ permalink: /dictionnaire/preuve-de-travail/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Mécanisme de protection face aux attaques Sybil, qui se caractérisent par la multiplication de fausses identités, dans le but de prendre un avantage..."
 english_term: "POW - PROOF OF WORK"
 category_slug: "protocole"
 prev_in_category:

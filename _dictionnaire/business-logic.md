@@ -5,6 +5,7 @@ permalink: /dictionnaire/business-logic/
 category: "RGB"
 letter: "B"
 layout: definition
+description: "Dans le cadre du protocole RGB, la Business Logic regroupe l'ensemble des règles et des opérations internes d'un contrat, décrites par son schéma..."
 french_term: "LOGIQUE MÉTIER"
 category_slug: "rgb"
 prev_in_category:

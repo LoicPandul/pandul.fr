@@ -5,6 +5,7 @@ permalink: /dictionnaire/drivechain/
 category: "SIDECHAIN"
 letter: "D"
 layout: definition
+description: "Forme spécifique de sidechain où les mineurs de la blockchain principale (Bitcoin) ont un rôle direct dans la gouvernance de l'ancrage bilatéral et..."
 category_slug: "sidechain"
 prev_in_category:
   title: "BLOCKSIGNERS"

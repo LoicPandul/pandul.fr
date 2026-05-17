@@ -5,6 +5,7 @@ permalink: /dictionnaire/output-linking/
 category: "CONFIDENTIALITÉ"
 letter: "O"
 layout: definition
+description: "Synonyme parfois utilisé pour parler de réutilisation d'adresse. L'output linking se réfère à la pratique d'utiliser une même adresse de réception pour..."
 french_term: "LIAISON DE SORTIES"
 category_slug: "confidentialite"
 prev_in_category:

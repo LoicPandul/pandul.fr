@@ -5,6 +5,7 @@ permalink: /dictionnaire/human-rights-foundation/
 category: "ORGANISATION"
 letter: "H"
 layout: definition
+description: "Organisation non partisane à but non lucratif fondée en 2005 par Thor Halvorssen, dédiée à la promotion des droits de l'homme dans le monde, avec un..."
 french_term: "FONDATION DES DROITS DE L'HOMME"
 category_slug: "organisation"
 prev_in_category:

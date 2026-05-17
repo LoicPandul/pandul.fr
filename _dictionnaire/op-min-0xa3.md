@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-min-0xa3/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Sélectionne le plus petit des deux éléments en haut de la pile et le pousse sur la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_MAX - 0XA4"

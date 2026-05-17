@@ -5,6 +5,7 @@ permalink: /dictionnaire/lock/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Fichier utilisé dans Bitcoin Core pour le verrouillage du répertoire de données."
 category_slug: "protocole"
 prev_in_category:
   title: "LIMITE D'ÉMISSION"

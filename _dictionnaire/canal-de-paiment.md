@@ -5,6 +5,7 @@ permalink: /dictionnaire/canal-de-paiment/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Dans le cadre du Lightning Network, un canal de paiement est une connexion bidirectionnelle entre deux nœuds Lightning qui permet de faire des échanges..."
 english_term: "PAYMENT CHANNEL"
 category_slug: "lightning-network"
 prev_in_category:

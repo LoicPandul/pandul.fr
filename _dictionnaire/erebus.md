@@ -5,6 +5,7 @@ permalink: /dictionnaire/erebus/
 category: "ATTAQUE"
 letter: "E"
 layout: definition
+description: "Forme très sophistiquée d'attaque contre le réseau Bitcoin qui permet à un fournisseur de services Internet malveillant d'isoler des nœuds Bitcoin..."
 category_slug: "attaque"
 prev_in_category:
   title: "ECLIPSE"

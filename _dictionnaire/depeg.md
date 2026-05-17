@@ -5,6 +5,7 @@ permalink: /dictionnaire/depeg/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+description: "Fait référence à la situation où la valeur d'un actif numérique, typiquement une reconnaissance de dette, se désolidarise de l'actif sous-jacent auquel..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "DÉFLATION"

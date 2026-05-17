@@ -5,6 +5,7 @@ permalink: /dictionnaire/raspiblitz/
 category: "OUTIL"
 letter: "R"
 layout: definition
+description: "Projet open source qui permet de déployer un nœud complet Bitcoin et Lightning sur un Raspberry Pi."
 category_slug: "outil"
 prev_in_category:
   title: "POLAR"

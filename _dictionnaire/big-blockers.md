@@ -5,6 +5,7 @@ permalink: /dictionnaire/big-blockers/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Nom donné aux partisans de l'augmentation de la taille des blocs durant la Blocksize War entre 2015 et 2017."
 category_slug: "histoire"
 prev_in_category:
   title: "BCH - BITCOIN CASH"

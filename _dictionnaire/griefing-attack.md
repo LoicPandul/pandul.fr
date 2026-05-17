@@ -5,6 +5,7 @@ permalink: /dictionnaire/griefing-attack/
 category: "ATTAQUE"
 letter: "G"
 layout: definition
+description: "Attaque sur le Lightning Network dans laquelle un acteur malveillant sature un ou plusieurs canaux de paiement avec des HTLC qui ne se résolvent jamais..."
 category_slug: "attaque"
 prev_in_category:
   title: "GOLDFINGER"

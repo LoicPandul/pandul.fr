@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitrefill/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Service en ligne sans KYC qui permet d'acheter des cartes cadeaux, des recharges téléphoniques et des abonnements en utilisant des bitcoins."
 category_slug: "outil"
 prev_in_category:
   title: "BITCOINJ"

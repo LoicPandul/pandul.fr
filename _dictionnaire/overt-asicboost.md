@@ -5,6 +5,7 @@ permalink: /dictionnaire/overt-asicboost/
 category: "MINAGE"
 letter: "O"
 layout: definition
+description: "Version ouverte et transparente d'AsicBoost. AsicBoost est une technique d'optimisation algorithmique utilisée dans le minage de Bitcoin."
 category_slug: "minage"
 prev_in_category:
   title: "OVERCLOCKING"

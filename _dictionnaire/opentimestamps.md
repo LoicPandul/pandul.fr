@@ -5,6 +5,7 @@ permalink: /dictionnaire/opentimestamps/
 category: "OUTIL"
 letter: "O"
 layout: definition
+description: "Protocole open source d'horodatage décentralisé, développé par Peter Todd."
 category_slug: "outil"
 prev_in_category:
   title: "NEUTRINO"

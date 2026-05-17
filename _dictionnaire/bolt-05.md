@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-05/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le comportement des nœuds Lightning lorsqu'un canal est fermé on-chain."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-04"

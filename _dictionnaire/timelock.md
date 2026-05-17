@@ -5,6 +5,7 @@ permalink: /dictionnaire/timelock/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Primitive de contrat intelligent qui permet de définir une condition temporelle à remplir pour qu'une transaction puisse être ajoutée à un bloc."
 french_term: "VERROUILLAGE TEMPOREL"
 category_slug: "protocole"
 prev_in_category:

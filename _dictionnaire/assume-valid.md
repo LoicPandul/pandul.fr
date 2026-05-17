@@ -5,6 +5,7 @@ permalink: /dictionnaire/assume-valid/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+description: "Paramètre de configuration dans le client majoritaire Bitcoin Core qui permet à un nœud qui vient d'être initialisé (mais qui n'a pas encore fait l'IBD)..."
 category_slug: "protocole"
 prev_in_category:
   title: "ASSUME UTXO"

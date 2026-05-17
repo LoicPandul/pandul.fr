@@ -5,6 +5,7 @@ permalink: /dictionnaire/small-blockers/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+description: "Nom donné aux partisans du maintien de la taille des blocs de Bitcoin à un niveau bas durant la Blocksize War entre 2015 et 2017, afin de préserver la..."
 category_slug: "histoire"
 prev_in_category:
   title: "SEGWIT2X"

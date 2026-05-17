@@ -5,6 +5,7 @@ permalink: /dictionnaire/tapsigner/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+description: "Carte NFC de signature de transactions Bitcoin fabriquée par Coinkite."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SPECTER"

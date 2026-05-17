@@ -5,6 +5,7 @@ permalink: /dictionnaire/amboss/
 category: "OUTIL"
 letter: "A"
 layout: definition
+description: "Amboss est une plateforme d'analyse et de monitoring du Lightning Network, fondée en 2021 par Jesse Shrader et Anthony Potdevin."
 category_slug: "outil"
 next_in_category:
   title: "ATOMIC SWAP"

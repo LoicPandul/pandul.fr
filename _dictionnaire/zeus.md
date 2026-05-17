@@ -5,6 +5,7 @@ permalink: /dictionnaire/zeus/
 category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
+description: "Application mobile open source qui permet de gérer un nœud Lightning Network depuis un téléphone."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ZAP"

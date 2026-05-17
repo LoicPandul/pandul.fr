@@ -5,6 +5,7 @@ permalink: /dictionnaire/pay-to-contract/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "Protocole cryptographique qui permet d'engager des données arbitraires dans une clé publique Bitcoin, de sorte que le paiement effectué vers cette clé..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "NONCE"

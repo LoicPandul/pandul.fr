@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-09/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui établit le registre centralisé des feature bits utilisés dans le Lightning Network pour signaler les fonctionnalités supportées par..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-08"

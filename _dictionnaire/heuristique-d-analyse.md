@@ -5,6 +5,7 @@ permalink: /dictionnaire/heuristique-d-analyse/
 category: "CONFIDENTIALITÉ"
 letter: "H"
 layout: definition
+description: "Une heuristique d'analyse de chaîne sur Bitcoin est une famille de méthodes empiriques utilisées pour tracer les flux de bitcoins sur la blockchain en..."
 english_term: "ANALYSIS HEURISTIC"
 category_slug: "confidentialite"
 prev_in_category:

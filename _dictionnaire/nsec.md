@@ -5,6 +5,7 @@ permalink: /dictionnaire/nsec/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+description: "Encodage Bech32 (NIP-19) d'une clé secrète (privée) Nostr, avec le préfixe nsec."
 category_slug: "reseau"
 prev_in_category:
   title: "NPUB"

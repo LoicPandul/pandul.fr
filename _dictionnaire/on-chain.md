@@ -5,6 +5,7 @@ permalink: /dictionnaire/on-chain/
 category: "PROTOCOLE"
 letter: "O"
 layout: definition
+description: "Désigne les transactions enregistrées directement sur la blockchain Bitcoin."
 french_term: "SUR-CHAÎNE"
 category_slug: "protocole"
 prev_in_category:

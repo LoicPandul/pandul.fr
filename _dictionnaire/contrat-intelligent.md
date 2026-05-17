@@ -5,6 +5,7 @@ permalink: /dictionnaire/contrat-intelligent/
 category: "SCRIPT"
 letter: "C"
 layout: definition
+description: "Programme qui s'exécute automatiquement lorsque certaines conditions prédéfinies sont remplies."
 english_term: "SMART CONTRACT"
 category_slug: "script"
 prev_in_category:

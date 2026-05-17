@@ -5,6 +5,7 @@ permalink: /dictionnaire/index-key/
 category: "PORTEFEUILLE"
 letter: "I"
 layout: definition
+description: "Dans le contexte d'un portefeuille HD, fait référence au numéro séquentiel attribué à une clé enfant générée à partir d'une clé parent."
 french_term: "NUMÉRO DE CLÉ"
 category_slug: "portefeuille"
 prev_in_category:

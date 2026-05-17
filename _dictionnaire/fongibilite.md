@@ -5,6 +5,7 @@ permalink: /dictionnaire/fongibilite/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "F"
 layout: definition
+description: "Propriété d'une monnaie qui assure que chaque unité est interchangeable et indistinguable d'une autre unité similaire."
 english_term: "FUNGIBILITY"
 category_slug: "economie-et-regulation"
 prev_in_category:

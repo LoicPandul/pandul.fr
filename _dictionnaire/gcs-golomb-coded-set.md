@@ -5,6 +5,7 @@ permalink: /dictionnaire/gcs-golomb-coded-set/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Structure de données probabiliste utilisée dans le BIP-0158 pour construire les compact block filters sur Bitcoin."
 category_slug: "informatique"
 prev_in_category:
   title: "FOSS"

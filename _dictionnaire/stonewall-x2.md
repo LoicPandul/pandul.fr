@@ -5,6 +5,7 @@ permalink: /dictionnaire/stonewall-x2/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Forme spécifique de transaction Bitcoin visant à accroître la confidentialité des utilisateurs lors d'une dépense, par la collaboration avec une tierce..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "STONEWALL"

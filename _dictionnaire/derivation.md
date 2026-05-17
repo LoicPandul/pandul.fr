@@ -5,6 +5,7 @@ permalink: /dictionnaire/derivation/
 category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
+description: "Désigne le processus de génération de paires de clés enfants à partir d'une paire de clés parent (clé privée et clé publique) et d'un code de chaîne au..."
 english_term: "DERIVATION"
 category_slug: "portefeuille"
 prev_in_category:

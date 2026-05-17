@@ -5,6 +5,7 @@ permalink: /dictionnaire/hydro-cooling/
 category: "MINAGE"
 letter: "H"
 layout: definition
+description: "Système de refroidissement pour les ASICs qui utilise un circuit fermé où de l'eau circule à travers des blocs de refroidissement, des tuyaux, puis un..."
 french_term: "REFROIDISSEMENT À L'EAU"
 category_slug: "minage"
 prev_in_category:

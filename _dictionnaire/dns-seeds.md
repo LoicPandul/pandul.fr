@@ -5,6 +5,7 @@ permalink: /dictionnaire/dns-seeds/
 category: "RÉSEAU"
 letter: "D"
 layout: definition
+description: "Points de connexion initiaux pour les nouveaux nœuds Bitcoin qui rejoignent le réseau."
 category_slug: "reseau"
 prev_in_category:
   title: "DISTRIBUÉ"

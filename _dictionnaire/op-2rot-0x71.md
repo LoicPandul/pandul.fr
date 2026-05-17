@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-2rot-0x71/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Déplace les deux éléments qui se trouvent à la sixième et à la cinquième place du sommet de la pile vers le sommet."
 category_slug: "script"
 prev_in_category:
   title: "OP_2OVER - 0X70"

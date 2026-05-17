@@ -5,6 +5,7 @@ permalink: /dictionnaire/x-only-public-keys/
 category: "CRYPTOGRAPHIE"
 letter: "X"
 layout: definition
+description: "Format de clé publique sur la courbe elliptique secp256k1 dans lequel seule la coordonnée du point est conservée, sans l'octet de préfixe qui indique..."
 french_term: "CLÉS PUBLIQUES X-ONLY"
 category_slug: "cryptographie"
 prev_in_category:

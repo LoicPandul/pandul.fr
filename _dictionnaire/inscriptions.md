@@ -5,6 +5,7 @@ permalink: /dictionnaire/inscriptions/
 category: "COUCHE SUPÉRIEURE"
 letter: "I"
 layout: definition
+description: "Dans le cadre de la théorie des Ordinals, les inscriptions sont des contenus arbitraires gravés sur des sats, transformant ces derniers en artefacts..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "FORFEIT TRANSACTION"

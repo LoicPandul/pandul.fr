@@ -5,6 +5,7 @@ permalink: /dictionnaire/state-extension/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, une State Extension désigne une opération contractuelle permettant d'initier une mise à jour de l'état d'un contrat via..."
 category_slug: "rgb"
 prev_in_category:
   title: "STASH"

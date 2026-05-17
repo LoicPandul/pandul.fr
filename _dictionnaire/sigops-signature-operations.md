@@ -5,6 +5,7 @@ permalink: /dictionnaire/sigops-signature-operations/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Désigne les opérations de signature numérique nécessaires pour valider les transactions."
 french_term: "OPÉRATIONS DE SIGNATURE"
 category_slug: "protocole"
 prev_in_category:

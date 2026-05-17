@@ -5,6 +5,7 @@ permalink: /dictionnaire/big-endian/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Format de stockage de données dans les systèmes informatiques où les octets les plus significatifs (les « gros bouts ») sont placés en premier dans..."
 french_term: "GROS-BOUTISTE"
 category_slug: "informatique"
 prev_in_category:

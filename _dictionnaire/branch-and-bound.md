@@ -5,6 +5,7 @@ permalink: /dictionnaire/branch-and-bound/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Méthode utilisée pour la sélection de pièces dans le portefeuille de Bitcoin Core depuis la version 0.17 et inventée par Murch."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BRAINWALLET"

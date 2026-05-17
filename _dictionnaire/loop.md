@@ -5,6 +5,7 @@ permalink: /dictionnaire/loop/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Service développé par Lightning Labs conçu pour faciliter l'équilibrage de liquidités dans les canaux Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LNURL"

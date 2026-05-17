@@ -5,6 +5,7 @@ permalink: /dictionnaire/consignment/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Dans le cadre du protocole RGB, regroupe les données échangées entre les parties, soumises à la Client-side Validation."
 category_slug: "rgb"
 prev_in_category:
   title: "COMMITMENT"

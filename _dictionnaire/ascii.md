@@ -5,6 +5,7 @@ permalink: /dictionnaire/ascii/
 category: "INFORMATIQUE"
 letter: "A"
 layout: definition
+description: "Sigle de « American Standard Code for Information Interchange ». C'est un système de codage de caractères pour les ordinateurs."
 category_slug: "informatique"
 prev_in_category:
   title: "API"

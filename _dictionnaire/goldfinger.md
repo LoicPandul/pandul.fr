@@ -5,6 +5,7 @@ permalink: /dictionnaire/goldfinger/
 category: "ATTAQUE"
 letter: "G"
 layout: definition
+description: "Scénario hypothétique sur le système Bitcoin où un acteur malveillant contrôle plus de 50 % de la puissance de calcul totale du minage (hashrate)."
 category_slug: "attaque"
 prev_in_category:
   title: "FORCED ADDRESS REUSE"

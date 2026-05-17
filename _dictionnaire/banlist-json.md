@@ -5,6 +5,7 @@ permalink: /dictionnaire/banlist-json/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+description: "Nom du fichier utilisé par le logiciel Bitcoin Core pour enregistrer les adresses IP des nœuds qui ont été bannis par l'utilisateur."
 category_slug: "reseau"
 prev_in_category:
   title: "BANLIST.DAT"

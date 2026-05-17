@@ -5,6 +5,7 @@ permalink: /dictionnaire/qubit/
 category: "INFORMATIQUE"
 letter: "Q"
 layout: definition
+description: "Unité d'information de base sur un ordinateur quantique. Ces qubits peuvent prendre la valeur de 0, la valeur de 1, ou bien une superposition du 0 et du 1."
 category_slug: "informatique"
 prev_in_category:
   title: "QR CODE"

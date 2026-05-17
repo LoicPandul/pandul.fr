@@ -5,6 +5,7 @@ permalink: /dictionnaire/change/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans le cadre des transactions Bitcoin, fait référence à l'UTXO créé avec les fonds restants après que le paiement effectif a été satisfait."
 category_slug: "portefeuille"
 prev_in_category:
   title: "CHAINE INTERNE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/conteneur/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Dans le cadre du minage, un conteneur est une structure modulaire utilisée pour héberger et opérer un grand nombre d'ASICs."
 english_term: "CONTAINER"
 category_slug: "minage"
 prev_in_category:

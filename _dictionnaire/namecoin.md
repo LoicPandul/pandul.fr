@@ -5,6 +5,7 @@ permalink: /dictionnaire/namecoin/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+description: "Premier altcoin de l'histoire de Bitcoin lancé en avril 2011. Namecoin est un fork du code source de Bitcoin qui vise à fournir un système décentralisé..."
 category_slug: "histoire"
 prev_in_category:
   title: "NAKAMOTO SATOSHI"

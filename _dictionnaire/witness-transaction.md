@@ -5,6 +5,7 @@ permalink: /dictionnaire/witness-transaction/
 category: "RGB"
 letter: "W"
 layout: definition
+description: "Dans le cadre du protocole RGB, la Witness Transaction désigne la transaction Bitcoin qui clôt le Single-use Seal autour d'un message intégrant un Multi..."
 category_slug: "rgb"
 prev_in_category:
   title: "VALENCY"

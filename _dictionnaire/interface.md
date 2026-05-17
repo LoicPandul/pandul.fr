@@ -5,6 +5,7 @@ permalink: /dictionnaire/interface/
 category: "RGB"
 letter: "I"
 layout: definition
+description: "Dans le cadre du protocole RGB, l'Interface désigne l'ensemble des instructions qui décodent les données binaires compilées dans un Schema ou au sein..."
 category_slug: "rgb"
 prev_in_category:
   title: "GLOBAL STATE"

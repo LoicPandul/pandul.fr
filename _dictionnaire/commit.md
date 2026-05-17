@@ -5,6 +5,7 @@ permalink: /dictionnaire/commit/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Dans le cadre de Git, représente une capture instantanée des modifications apportées à l'ensemble de fichiers d'un dépôt."
 category_slug: "informatique"
 prev_in_category:
   title: "CLONE"

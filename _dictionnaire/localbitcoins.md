@@ -5,6 +5,7 @@ permalink: /dictionnaire/localbitcoins/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+description: "Plateforme d'échange de bitcoins en pair à pair, fondée en juin 2012 par Jeremias Kangas en Finlande."
 category_slug: "organisation"
 prev_in_category:
   title: "LNP/BP"

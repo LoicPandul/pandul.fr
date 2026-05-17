@@ -5,6 +5,7 @@ permalink: /dictionnaire/behind-the-meter/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Dans le cadre du minage de Bitcoin, désigne l'électricité produite et directement distribuée à une ferme, sans passer par le réseau public."
 french_term: "DERRIÈRE LE COMPTEUR"
 category_slug: "minage"
 prev_in_category:

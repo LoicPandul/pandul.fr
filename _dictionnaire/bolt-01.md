@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-01/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le protocole de base de la messagerie entre nœuds Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-00"

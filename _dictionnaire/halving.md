@@ -5,6 +5,7 @@ permalink: /dictionnaire/halving/
 category: "PROTOCOLE"
 letter: "H"
 layout: definition
+description: "Le terme « halving » (division par deux) fait référence à un événement programmé qui réduit de moitié la récompense attribuée aux mineurs pour chaque..."
 category_slug: "protocole"
 prev_in_category:
   title: "GUISETTINGS.INI.BAK"

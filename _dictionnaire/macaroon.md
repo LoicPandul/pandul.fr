@@ -5,6 +5,7 @@ permalink: /dictionnaire/macaroon/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Mécanisme d'authentification conçu pour sécuriser l'accès à des services sur des systèmes distribués."
 category_slug: "informatique"
 prev_in_category:
   title: "LITTLE-ENDIAN"

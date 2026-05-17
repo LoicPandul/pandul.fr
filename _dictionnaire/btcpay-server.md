@@ -5,6 +5,7 @@ permalink: /dictionnaire/btcpay-server/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Processeur de paiement open-source qui permet aux commerçants et aux utilisateurs d'accepter des paiements en bitcoins sans dépendre d'un tiers pour le..."
 category_slug: "outil"
 prev_in_category:
   title: "BTCMAP"

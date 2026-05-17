@@ -5,6 +5,7 @@ permalink: /dictionnaire/c-plus-plus/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Langage de programmation polyvalent, évoluant du C, connu pour sa puissance et sa flexibilité."
 category_slug: "informatique"
 prev_in_category:
   title: "BRANCHE - GIT"

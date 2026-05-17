@@ -5,6 +5,7 @@ permalink: /dictionnaire/cryptanalyse/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Étude des techniques mathématiques pour tenter de casser les techniques cryptographiques."
 english_term: "CRYPTANALYSIS"
 category_slug: "cryptographie"
 prev_in_category:

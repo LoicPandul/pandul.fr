@@ -5,6 +5,7 @@ permalink: /dictionnaire/coordinateur-de-coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Serveur central qui met en relation les utilisateurs souhaitant faire des coinjoins et qui coordonne la construction des transactions collaboratives..."
 english_term: "COINJOIN COORDINATOR"
 category_slug: "confidentialite"
 prev_in_category:

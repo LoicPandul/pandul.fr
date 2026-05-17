@@ -5,6 +5,7 @@ permalink: /dictionnaire/etf/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
+description: "Un ETF (Exchange-Traded Fund) est un fonds d'investissement coté en bourse qui réplique la performance d'un actif ou d'un panier d'actifs."
 french_term: "FONDS NÉGOCIÉ EN BOURSE"
 category_slug: "economie-et-regulation"
 prev_in_category:

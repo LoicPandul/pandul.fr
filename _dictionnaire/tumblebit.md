@@ -5,6 +5,7 @@ permalink: /dictionnaire/tumblebit/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+description: "Concept de hub de paiement anonyme compatible avec Bitcoin proposé en 2016 par Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro et..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "TRANSACTION DE NOTIFICATION"

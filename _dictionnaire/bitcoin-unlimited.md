@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-unlimited/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Proposition de mise à jour du protocole Bitcoin apparue à la fin de l'été 2016, visant à augmenter la taille des blocs de manière flexible via un hard..."
 category_slug: "histoire"
 prev_in_category:
   title: "BITCOIN JESUS"

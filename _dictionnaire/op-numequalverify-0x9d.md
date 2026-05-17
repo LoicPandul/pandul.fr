@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-numequalverify-0x9d/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Combine les opérations OP_NUMEQUAL et OP_VERIFY. Il compare numériquement les deux éléments au sommet de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_NUMEQUAL - 0X9C"

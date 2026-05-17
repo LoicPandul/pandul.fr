@@ -5,6 +5,7 @@ permalink: /dictionnaire/utxo/
 category: "PROTOCOLE"
 letter: "U"
 layout: definition
+description: "Sigle de Unspent Transaction Output. Un UTXO est une sortie de transaction qui n'a pas encore été dépensée, c'est-à-dire utilisée comme entrée pour une..."
 category_slug: "protocole"
 prev_in_category:
   title: "UTREEXO"

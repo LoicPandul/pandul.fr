@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-de-penalite/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin utilisée sur le Lightning Network pour punir un pair qui a publié une ancienne transaction d'engagement révoquée sur la blockchain."
 english_term: "PENALTY TRANSACTION"
 category_slug: "lightning-network"
 prev_in_category:

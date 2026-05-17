@@ -5,6 +5,7 @@ permalink: /dictionnaire/miniscript/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+description: "Framework permettant de fournir un cadre pour programmer des scripts de manière sécurisée sur Bitcoin."
 category_slug: "script"
 prev_in_category:
   title: "MATT"

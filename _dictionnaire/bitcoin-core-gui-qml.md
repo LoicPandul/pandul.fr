@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-core-gui-qml/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Projet en cours de création d'une application de portefeuille et de nœud Bitcoin établie sur Bitcoin Core, mais avec une interface graphique intuitive..."
 category_slug: "outil"
 prev_in_category:
   title: "BITBANANA"

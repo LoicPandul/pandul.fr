@@ -5,6 +5,7 @@ permalink: /dictionnaire/taproot/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Mise à jour majeure du protocole Bitcoin, adoptée par le biais d'un soft fork en novembre 2021."
 category_slug: "protocole"
 prev_in_category:
   title: "TAIL EMISSION"

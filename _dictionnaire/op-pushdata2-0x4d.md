@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-pushdata2-0x4d/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Permet de pousser une grande quantité de données sur la pile. Il est suivi de deux octets (petit-boutistes) qui spécifient la longueur des données à..."
 category_slug: "script"
 prev_in_category:
   title: "OP_PUSHDATA1 - 0X4C"

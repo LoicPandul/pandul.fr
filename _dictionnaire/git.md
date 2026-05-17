@@ -5,6 +5,7 @@ permalink: /dictionnaire/git/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Système de contrôle de version distribué conçu pour gérer tout type de projet logiciel avec efficacité."
 category_slug: "informatique"
 prev_in_category:
   title: "GCS - GOLOMB-CODED SET"

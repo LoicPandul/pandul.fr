@@ -5,6 +5,7 @@ permalink: /dictionnaire/compte/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans les portefeuilles HD (déterministes hiérarchiques), un compte représente une couche de dérivation à la profondeur 3 selon le BIP-0032."
 english_term: "ACCOUNT"
 category_slug: "portefeuille"
 prev_in_category:

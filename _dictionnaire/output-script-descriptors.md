@@ -5,6 +5,7 @@ permalink: /dictionnaire/output-script-descriptors/
 category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
+description: "Les output script descriptors, ou simplement descriptors, sont des expressions structurées qui décrivent intégralement un script de sortie..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "OPENDIME"

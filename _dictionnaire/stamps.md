@@ -5,6 +5,7 @@ permalink: /dictionnaire/stamps/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Protocole qui permet d'intégrer des données d'image formatées directement sur la blockchain Bitcoin via des transactions multisignatures brutes (P2MS)."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "SRC-20"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/praxeologie/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+description: "Science générale de l'action humaine, développée par Ludwig von Mises dans le cadre de l'École autrichienne d'économie."
 english_term: "PRAXEOLOGY"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/silk-road/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+description: "Silk Road était une plateforme du dark web fondée par Ross Ulbricht, également connu sous le pseudonyme de Dread Pirate Roberts."
 category_slug: "organisation"
 prev_in_category:
   title: "SATOSHILABS"

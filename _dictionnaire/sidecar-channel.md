@@ -5,6 +5,7 @@ permalink: /dictionnaire/sidecar-channel/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Canal Lightning ouvert par un tiers (partie A) au bénéfice d'un autre utilisateur (partie B), vers un nœud de routage (partie C)."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SHARDS - LIGHTNING"

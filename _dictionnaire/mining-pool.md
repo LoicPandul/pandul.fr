@@ -5,6 +5,7 @@ permalink: /dictionnaire/mining-pool/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Fait référence à un ensemble de mineurs qui collaborent en combinant leur puissance de calcul pour participer à la recherche de preuves de travail..."
 french_term: "COOPÉRATIVE DE MINAGE"
 category_slug: "minage"
 prev_in_category:

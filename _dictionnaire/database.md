@@ -5,6 +5,7 @@ permalink: /dictionnaire/database/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Ancien dossier contenant des bases de données pour le portefeuille Bitcoin Core."
 category_slug: "protocole"
 prev_in_category:
   title: "COVENANT"

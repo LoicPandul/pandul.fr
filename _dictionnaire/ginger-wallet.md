@@ -5,6 +5,7 @@ permalink: /dictionnaire/ginger-wallet/
 category: "PORTEFEUILLE"
 letter: "G"
 layout: definition
+description: "Ginger Wallet est un portefeuille Bitcoin desktop open source axé sur la confidentialité."
 category_slug: "portefeuille"
 prev_in_category:
   title: "GAP LIMIT"

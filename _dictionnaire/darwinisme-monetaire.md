@@ -5,6 +5,7 @@ permalink: /dictionnaire/darwinisme-monetaire/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+description: "Concept qui applique la théorie de la sélection naturelle de Darwin au domaine monétaire."
 english_term: "MONETARY DARWINISM"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/base58check/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "La Base58Check est un encodage utilisé dans le système Bitcoin pour représenter les adresses de réception Legacy et certaines autres données, telles que..."
 category_slug: "protocole"
 prev_in_category:
   title: "BARE-MULTISIG"

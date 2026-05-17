@@ -5,6 +5,7 @@ permalink: /dictionnaire/redeemscript/
 category: "SCRIPT"
 letter: "R"
 layout: definition
+description: "Script qui définit les conditions spécifiques que doivent remplir les inputs pour débloquer les fonds associés à un output P2SH."
 category_slug: "script"
 prev_in_category:
   title: "POLICY - MINISCRIPT"

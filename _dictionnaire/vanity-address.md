@@ -5,6 +5,7 @@ permalink: /dictionnaire/vanity-address/
 category: "PORTEFEUILLE"
 letter: "V"
 layout: definition
+description: "Adresse de réception personnalisée qui contient une séquence spécifique de caractères choisie par l'utilisateur, généralement pour des raisons esthétiques."
 french_term: "ADRESSE PERSONNALISÉE"
 category_slug: "portefeuille"
 prev_in_category:

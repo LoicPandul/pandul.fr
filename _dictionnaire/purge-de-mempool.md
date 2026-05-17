@@ -5,6 +5,7 @@ permalink: /dictionnaire/purge-de-mempool/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Événement au cours duquel un nœud Bitcoin supprime une partie des transactions en attente dans sa mempool."
 category_slug: "protocole"
 prev_in_category:
   title: "PROOF OF STAKE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/spread-wst/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Dans le logiciel Whirlpool Stat Tool, le spread est un indicateur permettant de mesurer l'homogénéité du processus de mixage du point de vue d'une pièce..."
 french_term: "DIFFUSION - WST"
 category_slug: "confidentialite"
 prev_in_category:

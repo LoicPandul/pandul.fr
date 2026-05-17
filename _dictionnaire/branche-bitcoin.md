@@ -5,6 +5,7 @@ permalink: /dictionnaire/branche-bitcoin/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Dans le cadre de Bitcoin, une branche est une suite de blocs valides dans laquelle chaque nouveau bloc est lié au précédent."
 english_term: "BRANCH - BITCOIN"
 category_slug: "protocole"
 prev_in_category:

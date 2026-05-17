@@ -5,6 +5,7 @@ permalink: /dictionnaire/psan/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+description: "Sigle de « Prestataire de Services sur Actifs Numériques ». Statut réglementaire français introduit par la loi PACTE du 22 mai 2019, définissant le..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "PROOF-OF-KEY DAY"

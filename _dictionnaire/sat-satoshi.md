@@ -5,6 +5,7 @@ permalink: /dictionnaire/sat-satoshi/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "S"
 layout: definition
+description: "Le satoshi, souvent abrégé en « sat », est la plus petite subdivision du bitcoin qui peut être enregistrée sur la blockchain."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "RISQUE DE CONTREPARTIE"

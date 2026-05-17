@@ -5,6 +5,7 @@ permalink: /dictionnaire/point-generateur/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "Point fixe sur une courbe elliptique qui sert de base pour toutes les opérations de cryptographie à clé publique."
 english_term: "GENERATOR POINT"
 category_slug: "cryptographie"
 prev_in_category:

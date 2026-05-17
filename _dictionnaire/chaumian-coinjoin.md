@@ -5,6 +5,7 @@ permalink: /dictionnaire/chaumian-coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Protocole de coinjoin qui utilise les signatures aveugles de David Chaum et Tor pour les communications entre les participants et le serveur du..."
 french_term: "COINJOIN CHAUMIEN"
 category_slug: "confidentialite"
 prev_in_category:

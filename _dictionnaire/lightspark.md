@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightspark/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+description: "Entreprise cofondée par David Marcus, anciennement à la tête de PayPal et du projet Libra/Diem chez Meta, avec pour mission de construire une..."
 category_slug: "organisation"
 prev_in_category:
   title: "LIGHTNING LABS"

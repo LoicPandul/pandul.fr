@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinos/
 category: "OUTIL"
 letter: "C"
 layout: definition
+description: "Application web (PWA) qui permet d'envoyer, recevoir et accepter des paiements en bitcoins via on-chain, Lightning Network, Liquid et Ecash, directement..."
 category_slug: "outil"
 prev_in_category:
   title: "CHANTOOLS"

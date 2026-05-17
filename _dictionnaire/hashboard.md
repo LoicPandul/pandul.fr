@@ -5,6 +5,7 @@ permalink: /dictionnaire/hashboard/
 category: "MINAGE"
 letter: "H"
 layout: definition
+description: "Carte électronique qui constitue le composant principal d'un mineur ASIC."
 category_slug: "minage"
 prev_in_category:
   title: "HACHEUR"

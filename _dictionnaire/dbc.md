@@ -5,6 +5,7 @@ permalink: /dictionnaire/dbc/
 category: "RGB"
 letter: "D"
 layout: definition
+description: "Sigle de « Deterministic Bitcoin Commitments ». C'est un ensemble de règles permettant d'inscrire de manière prouvable et unique un engagement dans une..."
 category_slug: "rgb"
 prev_in_category:
   title: "CONTRAT RGB"

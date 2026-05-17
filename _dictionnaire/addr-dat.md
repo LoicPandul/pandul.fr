@@ -5,6 +5,7 @@ permalink: /dictionnaire/addr-dat/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Nom de l'ancien fichier utilisé dans Bitcoin Core pour stocker des informations sur les pairs (c'est-à-dire, les nœuds) du réseau avec lesquels le nœud..."
 category_slug: "reseau"
 prev_in_category:
   title: "ADDR"

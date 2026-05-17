@@ -5,6 +5,7 @@ permalink: /dictionnaire/effet-de-reseau/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
+description: "Phénomène économique dans lequel la valeur ou l'utilité d'un produit ou d'un service augmente à mesure que le nombre de ses utilisateurs croît."
 english_term: "NETWORK EFFECT"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-greaterthanorequal-0xa2/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux éléments au sommet de la pile et vérifie si le second élément est supérieur ou égal au premier."
 category_slug: "script"
 prev_in_category:
   title: "OP_GREATERTHAN - 0XA0"

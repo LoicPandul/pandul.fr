@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-privee/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Une clé privée est un élément fondamental de la cryptographie asymétrique."
 english_term: "PRIVATE KEY"
 category_slug: "portefeuille"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/tcp/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+description: "Sigle de « Transmission Control Protocol ». C'est un protocole de communication conçu pour assurer une transmission de données fiable sur Internet."
 category_slug: "reseau"
 prev_in_category:
   title: "SEED NODES"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/scriptwitness/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Élément dans les entrées de transactions SegWit qui contient les signatures et les clés publiques nécessaires pour déverrouiller les bitcoins envoyés..."
 category_slug: "script"
 prev_in_category:
   title: "SCRIPTSIG"

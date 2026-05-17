@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinbase/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "La transaction coinbase est une transaction spéciale et unique incluse dans chaque bloc de la blockchain Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "CLUSTER MEMPOOL"

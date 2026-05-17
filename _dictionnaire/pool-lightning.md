@@ -5,6 +5,7 @@ permalink: /dictionnaire/pool-lightning/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Service développé par Lightning Labs. C'est une sorte de marché pour les liquidités dans les canaux Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "PHOENIXD"

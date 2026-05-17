@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-fog/
 category: "CONFIDENTIALITÉ"
 letter: "B"
 layout: definition
+description: "Service de mixage centralisé qui a opéré de 2011 à 2021. Bitcoin Fog offrait aux utilisateurs la possibilité d'accroître leur confidentialité en..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "ANONSETS - ANONYMITY SETS"

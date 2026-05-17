@@ -5,6 +5,7 @@ permalink: /dictionnaire/time-warp/
 category: "ATTAQUE"
 letter: "T"
 layout: definition
+description: "Attaque théorique sur le mécanisme d'ajustement de la difficulté de Bitcoin qui exploite une faille dans la manière dont les horodatages des blocs sont..."
 french_term: "DISTORSION TEMPORELLE"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/input/
 category: "PROTOCOLE"
 letter: "I"
 layout: definition
+description: "Dans le contexte de Bitcoin, un input (entrée) au sein d'une transaction fait référence aux UTXOs (Unspent Transaction Outputs) utilisés comme fonds..."
 french_term: "ENTRÉE"
 category_slug: "protocole"
 prev_in_category:

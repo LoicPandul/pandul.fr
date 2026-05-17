@@ -5,6 +5,7 @@ permalink: /dictionnaire/fee-estimates-dat/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Fichier dans Bitcoin Core qui stocke des données estimées sur les frais de transaction, compilées par le logiciel à partir des transactions récentes et..."
 category_slug: "protocole"
 prev_in_category:
   title: "FEE RATE - BITCOIN"

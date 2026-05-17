@@ -5,6 +5,7 @@ permalink: /dictionnaire/apo-anyprevout/
 category: "BIP"
 letter: "A"
 layout: definition
+description: "Nom donné au BIP-0118 qui propose d'ajouter deux nouveaux SigHash Flag modificateurs, nommés SIGHASH_ANYPREVOUT et SIGHASH_ANYPREVOUTANYSCRIPT."
 category_slug: "bip"
 next_in_category:
   title: "BIP"

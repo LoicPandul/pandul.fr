@@ -5,6 +5,7 @@ permalink: /dictionnaire/ecash-xec/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+description: "Système de cryptomonnaie, précédemment connu sous le nom de Bitcoin Cash ABC (BCHA), issu d'un hard fork de Bitcoin Cash (BCH)."
 category_slug: "histoire"
 prev_in_category:
   title: "ECASH - DAVID CHAUM"

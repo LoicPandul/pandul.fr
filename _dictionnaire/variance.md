@@ -5,6 +5,7 @@ permalink: /dictionnaire/variance/
 category: "MINAGE"
 letter: "V"
 layout: definition
+description: "Dans le cadre du minage, désigne les fluctuations des revenus d'un mineur dues à la nature probabiliste de la recherche de blocs valides."
 category_slug: "minage"
 prev_in_category:
   title: "VALIDATIONLESS MINING"

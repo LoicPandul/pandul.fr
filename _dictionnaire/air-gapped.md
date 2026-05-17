@@ -5,6 +5,7 @@ permalink: /dictionnaire/air-gapped/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+description: "Qualifie un dispositif informatique qui est physiquement isolé de tout réseau, y compris Internet, le Wi-Fi, le Bluetooth ou toute autre connexion..."
 french_term: "ISOLÉ DU RÉSEAU"
 category_slug: "portefeuille"
 prev_in_category:

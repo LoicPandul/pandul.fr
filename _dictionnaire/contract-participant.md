@@ -5,6 +5,7 @@ permalink: /dictionnaire/contract-participant/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Dans le cadre de RGB, un Contract Participant est un acteur prenant part aux opérations relatives au contrat."
 category_slug: "rgb"
 prev_in_category:
   title: "CONTRACT OPERATION"

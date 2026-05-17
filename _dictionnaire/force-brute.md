@@ -5,6 +5,7 @@ permalink: /dictionnaire/force-brute/
 category: "ATTAQUE"
 letter: "F"
 layout: definition
+description: "Méthode de cryptanalyse pour trouver un mot de passe ou une clé qui consiste à essayer par tâtonnement toutes les combinaisons possibles de clés ou de..."
 english_term: "BRUTE FORCE ATTACK"
 category_slug: "attaque"
 prev_in_category:

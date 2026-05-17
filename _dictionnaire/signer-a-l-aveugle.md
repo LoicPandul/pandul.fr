@@ -5,6 +5,7 @@ permalink: /dictionnaire/signer-a-l-aveugle/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Processus où un utilisateur signe une transaction Bitcoin sans pouvoir vérifier précisément les détails de ce qu'il signe."
 english_term: "BLIND SIGNING"
 category_slug: "portefeuille"
 prev_in_category:

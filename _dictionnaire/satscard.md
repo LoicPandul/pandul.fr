@@ -5,6 +5,7 @@ permalink: /dictionnaire/satscard/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Carte NFC au porteur fabriquée par Coinkite. La Satscard permet de transférer physiquement des bitcoins de main en main sans transaction on-chain au..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SATODIME"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/peg-out/
 category: "SIDECHAIN"
 letter: "P"
 layout: definition
+description: "Mécanisme inverse du peg-in, par lequel des jetons qui circulent sur une sidechain sont détruits afin de libérer les bitcoins correspondants sur la..."
 french_term: "ANCRAGE SORTANT"
 category_slug: "sidechain"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-size-0x82/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Mesure la taille en nombre d'octets de l'élément en haut de la pile et renvoie cette taille au sommet de la pile, sans pour autant modifier l'élément..."
 category_slug: "script"
 prev_in_category:
   title: "OP_SHA256 - 0XA8"

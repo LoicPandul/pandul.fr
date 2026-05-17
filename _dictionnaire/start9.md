@@ -5,6 +5,7 @@ permalink: /dictionnaire/start9/
 category: "OUTIL"
 letter: "S"
 layout: definition
+description: "Entreprise américaine (Start9 Labs, Inc.) développant StartOS, un système d'exploitation libre pour serveurs personnels."
 category_slug: "outil"
 prev_in_category:
   title: "SPARKSCAN"

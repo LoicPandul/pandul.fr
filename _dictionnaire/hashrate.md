@@ -5,6 +5,7 @@ permalink: /dictionnaire/hashrate/
 category: "MINAGE"
 letter: "H"
 layout: definition
+description: "Indicateur de la puissance de calcul du réseau, mesurée en hachages par seconde (H/s)."
 french_term: "TAUX DE HACHAGE"
 category_slug: "minage"
 prev_in_category:

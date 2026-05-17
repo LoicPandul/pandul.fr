@@ -5,6 +5,7 @@ permalink: /dictionnaire/courbe-elliptique/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Dans le contexte de la cryptographie, une courbe elliptique est une courbe algébrique définie par une équation de la forme ."
 english_term: "ELLIPTIC CURVE"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-sha256-0xa8/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend l'élément en haut de la pile et le remplace par son hachage en utilisant la fonction SHA256."
 category_slug: "script"
 prev_in_category:
   title: "OP_SHA1 - 0XA7"

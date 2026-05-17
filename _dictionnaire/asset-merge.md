@@ -5,6 +5,7 @@ permalink: /dictionnaire/asset-merge/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Opération consistant à combiner deux actifs Taproot Assets du même type en un seul au sein d'une même sortie Taproot."
 french_term: "FUSION D'ACTIFS"
 category_slug: "couche-superieure"
 prev_in_category:

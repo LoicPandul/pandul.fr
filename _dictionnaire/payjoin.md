@@ -5,6 +5,7 @@ permalink: /dictionnaire/payjoin/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "PAIEMENT SIMPLE"

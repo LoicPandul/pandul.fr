@@ -5,6 +5,7 @@ permalink: /dictionnaire/peeling-chain/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Motif de transaction sur la blockchain dans lequel un montant important de bitcoins est progressivement distribué à travers une longue série de..."
 french_term: "CHAÎNE D'ÉPLUCHAGE"
 category_slug: "confidentialite"
 prev_in_category:

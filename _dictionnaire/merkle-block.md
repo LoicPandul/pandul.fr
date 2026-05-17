@@ -5,6 +5,7 @@ permalink: /dictionnaire/merkle-block/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Structure de données utilisée dans le cadre du BIP-0037 (Transaction Bloom Filtering) pour fournir une preuve compacte de l'inclusion de transactions..."
 category_slug: "protocole"
 prev_in_category:
   title: "MEMPOOL.DAT"

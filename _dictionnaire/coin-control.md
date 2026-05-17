@@ -5,6 +5,7 @@ permalink: /dictionnaire/coin-control/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Fonctionnalité présente dans certains logiciels de portefeuille Bitcoin, qui donne aux utilisateurs la capacité de sélectionner manuellement les UTXOs..."
 french_term: "CONTRÔLE DES PIÈCES"
 category_slug: "portefeuille"
 prev_in_category:

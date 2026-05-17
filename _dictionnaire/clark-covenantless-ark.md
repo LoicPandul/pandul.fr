@@ -5,6 +5,7 @@ permalink: /dictionnaire/clark-covenantless-ark/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Version du protocole Ark implémentable sans nécessiter l'ajout de covenants à Bitcoin via un soft fork."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CITREA"

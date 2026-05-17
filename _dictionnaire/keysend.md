@@ -5,6 +5,7 @@ permalink: /dictionnaire/keysend/
 category: "LIGHTNING NETWORK"
 letter: "K"
 layout: definition
+description: "Méthode de paiement sur le Lightning Network permettant d'envoyer des fonds directement vers la clé publique d'un nœud, sans que le destinataire ait..."
 french_term: "PAIEMENT SPONTANÉ"
 category_slug: "lightning-network"
 prev_in_category:

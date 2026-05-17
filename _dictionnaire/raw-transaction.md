@@ -5,6 +5,7 @@ permalink: /dictionnaire/raw-transaction/
 category: "PORTEFEUILLE"
 letter: "R"
 layout: definition
+description: "Transaction Bitcoin construite et signée, qui se trouve dans sa forme binaire."
 french_term: "TRANSACTION BRUTE / TRANSACTION SÉRIALISÉE"
 category_slug: "portefeuille"
 prev_in_category:

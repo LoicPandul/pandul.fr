@@ -5,6 +5,7 @@ permalink: /dictionnaire/contract-state/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Dans le cadre de RGB, le Contract State correspond à l'état courant d'un contrat à un instant donné."
 category_slug: "rgb"
 prev_in_category:
   title: "CONTRACT RIGHTS"

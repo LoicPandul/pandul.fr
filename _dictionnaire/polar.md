@@ -5,6 +5,7 @@ permalink: /dictionnaire/polar/
 category: "OUTIL"
 letter: "P"
 layout: definition
+description: "Outil de simulation locale du Lightning Network destiné au développement et aux tests."
 category_slug: "outil"
 prev_in_category:
   title: "OPENTIMESTAMPS"

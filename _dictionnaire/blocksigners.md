@@ -5,6 +5,7 @@ permalink: /dictionnaire/blocksigners/
 category: "SIDECHAIN"
 letter: "B"
 layout: definition
+description: "Dans le contexte de Liquid (sidechain de Bitcoin), ce sont les entités responsables de la construction et de la validation des blocs au sein de cette..."
 french_term: "SIGNATAIRES DE BLOCS"
 category_slug: "sidechain"
 prev_in_category:

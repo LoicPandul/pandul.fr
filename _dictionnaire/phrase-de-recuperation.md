@@ -5,6 +5,7 @@ permalink: /dictionnaire/phrase-de-recuperation/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Une phrase de récupération, également parfois nommée mnémonique, seed phrase, ou phrase secrète, est une séquence composée habituellement de 12 ou de 24..."
 english_term: "MNEMONIC PHRASE"
 category_slug: "portefeuille"
 prev_in_category:

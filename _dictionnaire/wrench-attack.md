@@ -5,6 +5,7 @@ permalink: /dictionnaire/wrench-attack/
 category: "ATTAQUE"
 letter: "W"
 layout: definition
+description: "Attaque physique qui vise à contraindre un détenteur de bitcoins à céder ses fonds sous la menace ou par la violence."
 french_term: "ATTAQUE À LA CLÉ À MOLETTE"
 category_slug: "attaque"
 prev_in_category:

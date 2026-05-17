@@ -5,6 +5,7 @@ permalink: /dictionnaire/darkwallet/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+description: "Logiciel de portefeuille Bitcoin axé sur la confidentialité, lancé par Amir Taaki et Cody Wilson en 2014, fonctionnant comme une extension pour le..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "DANDELION"

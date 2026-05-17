@@ -5,6 +5,7 @@ permalink: /dictionnaire/hyper-bitcoinisation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "H"
 layout: definition
+description: "Concept théorique décrivant un processus d'adoption massive et irréversible de Bitcoin comme monnaie dominante au niveau mondial, remplaçant..."
 english_term: "HYPERBITCOINIZATION"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/liquidity-ads/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Mécanisme du protocole Lightning Network qui permet aux opérateurs de noeuds d'annoncer leur disponibilité à fournir de la liquidité entrante en échange..."
 french_term: "ANNONCES DE LIQUIDITÉ"
 category_slug: "lightning-network"
 prev_in_category:

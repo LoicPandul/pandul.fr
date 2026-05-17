@@ -5,6 +5,7 @@ permalink: /dictionnaire/sortie-la-plus-grande/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Heuristique d'analyse de chaîne interne. Lorsque l'on repère un écart suffisamment large entre 2 sorties de transaction sur un modèle de paiement..."
 english_term: "LARGEST OUTPUT"
 category_slug: "confidentialite"
 prev_in_category:

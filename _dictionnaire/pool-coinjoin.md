@@ -5,6 +5,7 @@ permalink: /dictionnaire/pool-coinjoin/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Dans le contexte des coinjoins, une pool est un groupe d'utilisateurs qui s'accorde à mélanger leurs UTXOs de manière homogène pour casser leurs..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "POINT D'ENTRÉE"

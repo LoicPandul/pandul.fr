@@ -5,6 +5,7 @@ permalink: /dictionnaire/canaan/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Entreprise fondée en 2013 par Nangeng Zhang, spécialisée dans la fabrication de machines de minage de bitcoins."
 category_slug: "minage"
 prev_in_category:
   title: "BRAIINS POOL"

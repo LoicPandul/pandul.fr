@@ -5,6 +5,7 @@ permalink: /dictionnaire/attaque-de-finney/
 category: "ATTAQUE"
 letter: "A"
 layout: definition
+description: "Type de double dépense qui cible les transactions à zéro confirmation."
 english_term: "FINNEY ATTACK"
 category_slug: "attaque"
 prev_in_category:

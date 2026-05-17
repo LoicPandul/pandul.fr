@@ -5,6 +5,7 @@ permalink: /dictionnaire/aezeed/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Format de phrase de récupération spécifique à LND, utilisé pour générer et sauvegarder les clés privées du portefeuille onchain associé à un nœud..."
 category_slug: "lightning-network"
 next_in_category:
   title: "ALBY HUB"

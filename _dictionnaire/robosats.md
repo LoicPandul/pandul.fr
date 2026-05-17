@@ -5,6 +5,7 @@ permalink: /dictionnaire/robosats/
 category: "OUTIL"
 letter: "R"
 layout: definition
+description: "Plateforme d'échange open source qui permet d'acheter et de vendre des bitcoins en pair-à-pair via le Lightning Network, sans vérification d'identité..."
 category_slug: "outil"
 prev_in_category:
   title: "RASPIBLITZ"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/electrum-lightning/
 category: "LIGHTNING NETWORK"
 letter: "E"
 layout: definition
+description: "Implémentation du Lightning Network écrite en Python spécifiquement pour le logiciel Electrum."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ECLAIR"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/mainteneur-principal-core/
 category: "COMMUNAUTÉ"
 letter: "M"
 layout: definition
+description: "Le mainteneur principal était un rôle au sein de la hiérarchie sur Bitcoin Core."
 english_term: "LEAD MAINTAINER"
 category_slug: "communaute"
 prev_in_category:

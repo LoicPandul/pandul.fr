@@ -5,6 +5,7 @@ permalink: /dictionnaire/lightning-network-plus/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Lightning Network+ est un service en ligne qui facilite la création de liquidity swaps sur le Lightning Network."
 category_slug: "outil"
 prev_in_category:
   title: "LIBWALLY-CORE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/adresse-statique/
 category: "CONFIDENTIALITÉ"
 letter: "A"
 layout: definition
+description: "Dans le cadre des Silent Payments, désigne un identifiant unique qui permet de recevoir des paiements sans pour autant produire de réutilisation..."
 english_term: "STATIC ADDRESS"
 category_slug: "confidentialite"
 next_in_category:

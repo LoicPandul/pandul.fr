@@ -5,6 +5,7 @@ permalink: /dictionnaire/vanitygen/
 category: "OUTIL"
 letter: "V"
 layout: definition
+description: "Premier logiciel open source en ligne de commande utilisé pour créer des adresses de réception personnalisées (vanity address)."
 category_slug: "outil"
 prev_in_category:
   title: "UMBREL"

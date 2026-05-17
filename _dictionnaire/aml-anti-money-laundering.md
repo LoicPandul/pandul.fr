@@ -5,6 +5,7 @@ permalink: /dictionnaire/aml-anti-money-laundering/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Désigne l'ensemble des procédures, lois et régulations destinées à prévenir le blanchiment d'argent."
 french_term: "LUTTE CONTRE LE BLANCHIMENT D'ARGENT"
 category_slug: "economie-et-regulation"
 prev_in_category:

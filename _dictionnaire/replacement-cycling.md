@@ -5,6 +5,7 @@ permalink: /dictionnaire/replacement-cycling/
 category: "ATTAQUE"
 letter: "R"
 layout: definition
+description: "Attaque qui exploite les règles de remplacement de transactions (RBF) pour retirer une transaction non confirmée des mempools des nœuds complets, sans..."
 category_slug: "attaque"
 prev_in_category:
   title: "RACE ATTACK"

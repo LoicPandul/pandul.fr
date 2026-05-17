@@ -5,6 +5,7 @@ permalink: /dictionnaire/cours-legal/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Statut juridique attribué à une monnaie par un État, qui oblige tout créancier à l'accepter en paiement d'une dette."
 english_term: "LEGAL TENDER"
 category_slug: "economie-et-regulation"
 prev_in_category:

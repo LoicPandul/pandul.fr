@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-vault-0xbb/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode 0xbb proposé dans le BIP-0345 pour Tapscript, en remplacement de OP_SUCCESS187."
 category_slug: "script"
 prev_in_category:
   title: "OP_TXHASH - 0XBD"

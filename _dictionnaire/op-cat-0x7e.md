@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-cat-0x7e/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Permet de concaténer les deux éléments en haut de la pile (c'est-à-dire de les mettre bout-à-bout)."
 category_slug: "script"
 prev_in_category:
   title: "OP_BOOLOR - 0X9B"

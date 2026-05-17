@@ -5,6 +5,7 @@ permalink: /dictionnaire/exit-transaction/
 category: "COUCHE SUPÉRIEURE"
 letter: "E"
 layout: definition
+description: "Transaction Bitcoin pré-signée permettant à un utilisateur de retirer unilatéralement ses fonds depuis Spark (ou une statechain) vers la couche..."
 french_term: "TRANSACTION DE SORTIE"
 category_slug: "couche-superieure"
 prev_in_category:

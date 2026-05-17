@@ -5,6 +5,7 @@ permalink: /dictionnaire/seedqr/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Format de représentation d'une phrase de récupération sous forme de QR code."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SEEDKEEPER"

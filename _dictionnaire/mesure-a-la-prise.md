@@ -5,6 +5,7 @@ permalink: /dictionnaire/mesure-a-la-prise/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Dans le cadre de l'industrie du minage, désigne la mesure de la consommation électrique réelle d'un ASIC, directement à son point de connexion..."
 english_term: "MEASURE AT THE WALL"
 category_slug: "minage"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/nlocktime/
 category: "SCRIPT"
 letter: "N"
 layout: definition
+description: "Champ de 4 octets intégré dans chaque transaction Bitcoin, qui spécifie soit une hauteur de bloc absolue (si sa valeur est inférieure à 500 000 000)..."
 category_slug: "script"
 prev_in_category:
   title: "MULTISIG"

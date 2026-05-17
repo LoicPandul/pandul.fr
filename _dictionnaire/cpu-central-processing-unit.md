@@ -5,6 +5,7 @@ permalink: /dictionnaire/cpu-central-processing-unit/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Composant principal d'un ordinateur responsable de l'exécution des instructions machines des logiciels."
 french_term: "PROCESSEUR"
 category_slug: "informatique"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checkhashverify-chv/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Nouvel opcode proposé en 2012 dans le BIP-0017 par Luke Dashjr qui permet de disposer des mêmes fonctionnalités que OP_EVAL ou P2SH."
 category_slug: "script"
 prev_in_category:
   title: "OP_CAT - 0X7E"

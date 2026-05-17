@@ -5,6 +5,7 @@ permalink: /dictionnaire/banlist-dat/
 category: "RÉSEAU"
 letter: "B"
 layout: definition
+description: "Nom de l'ancien fichier utilisé par le logiciel Bitcoin Core pour enregistrer les adresses IP des nœuds qui ont été bannis par l'utilisateur."
 category_slug: "reseau"
 prev_in_category:
   title: "ASMAP"

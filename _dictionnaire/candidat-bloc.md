@@ -5,6 +5,7 @@ permalink: /dictionnaire/candidat-bloc/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Un bloc candidat est un bloc en cours de création par un mineur participant au processus de minage du système Bitcoin."
 english_term: "CANDIDATE BLOCK"
 category_slug: "minage"
 prev_in_category:

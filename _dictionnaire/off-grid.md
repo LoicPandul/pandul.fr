@@ -5,6 +5,7 @@ permalink: /dictionnaire/off-grid/
 category: "MINAGE"
 letter: "O"
 layout: definition
+description: "Désigne une opération de minage de Bitcoin qui fonctionne de manière autonome, sans être connectée au réseau électrique principal."
 french_term: "HORS RÉSEAU"
 category_slug: "minage"
 prev_in_category:

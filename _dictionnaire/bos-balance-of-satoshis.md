@@ -5,6 +5,7 @@ permalink: /dictionnaire/bos-balance-of-satoshis/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Outil en ligne de commande développé par Alex Bosworth pour gérer et optimiser un nœud Lightning fonctionnant sous LND."
 category_slug: "outil"
 prev_in_category:
   title: "BOLTZ"

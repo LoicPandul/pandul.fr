@@ -5,6 +5,7 @@ permalink: /dictionnaire/machankura/
 category: "OUTIL"
 letter: "M"
 layout: definition
+description: "Machankura est un service qui permet d'envoyer et de recevoir des bitcoins par téléphone, sans connexion internet, grâce au protocole USSD."
 category_slug: "outil"
 prev_in_category:
   title: "LNP2PBOT"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-11/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le format d'encodage des factures de paiement Lightning (payment requests), conçu pour être compatible avec les codes QR."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-10"

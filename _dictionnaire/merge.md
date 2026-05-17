@@ -5,6 +5,7 @@ permalink: /dictionnaire/merge/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Dans le cadre de Git, représente l'action d'intégrer les modifications d'une branche à une autre, typiquement de ramener les développements d'une..."
 french_term: "FUSIONNER"
 category_slug: "informatique"
 prev_in_category:

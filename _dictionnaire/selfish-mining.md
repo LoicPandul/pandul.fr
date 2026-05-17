@@ -5,6 +5,7 @@ permalink: /dictionnaire/selfish-mining/
 category: "ATTAQUE"
 letter: "S"
 layout: definition
+description: "Stratégie (ou attaque) dans le minage, où un mineur ou un groupe de mineurs conserve intentionnellement des blocs avec une preuve de travail valide sans..."
 french_term: "MINAGE ÉGOÏSTE"
 category_slug: "attaque"
 prev_in_category:

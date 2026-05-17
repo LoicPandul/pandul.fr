@@ -5,6 +5,7 @@ permalink: /dictionnaire/sighash-anyprevout/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Proposition d'implémentation d'un nouveau SigHash Flag modificateur dans Bitcoin, introduite avec le BIP-0118."
 category_slug: "protocole"
 prev_in_category:
   title: "SIGHASH_ALL | SIGHASH_ACP"

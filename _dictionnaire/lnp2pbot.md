@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnp2pbot/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Bot Telegram open source qui permet d'acheter et de vendre des bitcoins en pair-à-pair (P2P) via le Lightning Network."
 category_slug: "outil"
 prev_in_category:
   title: "LNCLI"

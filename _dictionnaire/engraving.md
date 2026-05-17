@@ -5,6 +5,7 @@ permalink: /dictionnaire/engraving/
 category: "RGB"
 letter: "E"
 layout: definition
+description: "Dans le cadre du protocole RGB, l'engraving désigne une chaîne de données optionnelle que peuvent inscrire successivement les détenteurs d'un contrat..."
 category_slug: "rgb"
 prev_in_category:
   title: "DIRECTED ACYCLIC GRAPH"

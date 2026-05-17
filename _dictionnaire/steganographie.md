@@ -5,6 +5,7 @@ permalink: /dictionnaire/steganographie/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "La stéganographie est une technique consistant à dissimuler une information sensible dans un objet ou média de couverture d'apparence anodine..."
 english_term: "STEGANOGRAPHY"
 category_slug: "cryptographie"
 prev_in_category:

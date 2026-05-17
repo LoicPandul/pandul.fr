@@ -5,6 +5,7 @@ permalink: /dictionnaire/cluster-mempool/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Proposition de refonte de la gestion de la mempool dans Bitcoin Core. La cluster mempool organise les transactions non confirmées en « grappes »..."
 category_slug: "protocole"
 prev_in_category:
   title: "CISA"

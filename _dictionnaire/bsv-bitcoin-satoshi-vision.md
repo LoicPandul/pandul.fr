@@ -5,6 +5,7 @@ permalink: /dictionnaire/bsv-bitcoin-satoshi-vision/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Système de cryptomonnaie issu d'un hard fork de Bitcoin Cash (BCH), lui-même un fork de Bitcoin (BTC)."
 category_slug: "histoire"
 prev_in_category:
   title: "BLOCKSIZE WAR"

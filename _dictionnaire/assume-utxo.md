@@ -5,6 +5,7 @@ permalink: /dictionnaire/assume-utxo/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+description: "Fonctionnalité du client majoritaire Bitcoin Core qui permet à un nœud qui vient d'être initialisé (mais qui n'a pas encore fait l'IBD) de reporter la..."
 category_slug: "protocole"
 prev_in_category:
   title: "ANNEX"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/seed-nodes/
 category: "RÉSEAU"
 letter: "S"
 layout: definition
+description: "Liste statique de nœuds Bitcoin publics, intégrée directement dans le code source de Bitcoin Core (bitcoin/src/chainparamsseeds.h)."
 category_slug: "reseau"
 prev_in_category:
   title: "ROUTAGE EN OIGNON"

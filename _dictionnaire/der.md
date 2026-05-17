@@ -5,6 +5,7 @@ permalink: /dictionnaire/der/
 category: "INFORMATIQUE"
 letter: "D"
 layout: definition
+description: "Acronyme de Distinguished Encoding Rules. C'est un sous-ensemble strict des règles d'encodage ASN.1 définies dans la spécification ITU-T X.690, 2002 et..."
 category_slug: "informatique"
 prev_in_category:
   title: "DÉPÔT"

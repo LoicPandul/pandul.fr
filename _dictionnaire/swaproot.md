@@ -5,6 +5,7 @@ permalink: /dictionnaire/swaproot/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Protocole de dépôt on-chain vers un canal Lightning conçu par ACINQ et déployé dans le portefeuille Phoenix en février 2024."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SWAP-IN POTENTIAM"

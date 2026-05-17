@@ -5,6 +5,7 @@ permalink: /dictionnaire/bit/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Le mot « bit » est la contraction des termes « binary » et « digit » en anglais."
 french_term: "CHIFFRE BINAIRE"
 category_slug: "informatique"
 prev_in_category:

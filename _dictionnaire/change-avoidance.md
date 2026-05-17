@@ -5,6 +5,7 @@ permalink: /dictionnaire/change-avoidance/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Stratégie de gestion des UTXOs qui consiste à sélectionner les entrées d'une transaction de manière à éliminer ou minimiser le besoin de créer un output..."
 french_term: "ÉVITEMENT DU CHANGE"
 category_slug: "confidentialite"
 prev_in_category:

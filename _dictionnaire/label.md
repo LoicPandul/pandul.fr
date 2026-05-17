@@ -5,6 +5,7 @@ permalink: /dictionnaire/label/
 category: "PORTEFEUILLE"
 letter: "L"
 layout: definition
+description: "Étiquette ou annotation attribuée à un UTXO dans un portefeuille Bitcoin pour se souvenir de sa provenance."
 french_term: "ÉTIQUETTE"
 category_slug: "portefeuille"
 prev_in_category:

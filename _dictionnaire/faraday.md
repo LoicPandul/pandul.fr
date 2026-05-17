@@ -5,6 +5,7 @@ permalink: /dictionnaire/faraday/
 category: "LIGHTNING NETWORK"
 letter: "F"
 layout: definition
+description: "Outil développé par Lightning Labs conçu pour extraire des données d'un nœud LND et les analyser afin d'assister son opérateur."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ELTOO"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bch-bitcoin-cash/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Système de cryptomonnaie issu d'un hard fork de Bitcoin (BTC) réalisé le 1er août 2017 au bloc 478 558."
 category_slug: "histoire"
 prev_in_category:
   title: "B-MONEY"

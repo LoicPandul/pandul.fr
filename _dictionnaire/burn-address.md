@@ -5,6 +5,7 @@ permalink: /dictionnaire/burn-address/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Adresse Bitcoin vers laquelle des fonds sont envoyés de manière irréversible, sans possibilité de les dépenser par la suite."
 french_term: "ADRESSE DE BRÛLAGE"
 category_slug: "protocole"
 prev_in_category:

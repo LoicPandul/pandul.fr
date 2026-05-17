@@ -5,6 +5,7 @@ permalink: /dictionnaire/evenement-nostr/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+description: "Unité fondamentale de données dans le protocole Nostr. Toute information transmise sur le réseau Nostr (publication de texte, mise à jour de profil..."
 english_term: "NOSTR EVENT"
 category_slug: "reseau"
 prev_in_category:

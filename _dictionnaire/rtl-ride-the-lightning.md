@@ -5,6 +5,7 @@ permalink: /dictionnaire/rtl-ride-the-lightning/
 category: "OUTIL"
 letter: "R"
 layout: definition
+description: "Interface web open source permettant de gérer un nœud Lightning via un navigateur."
 category_slug: "outil"
 prev_in_category:
   title: "ROBOSATS"

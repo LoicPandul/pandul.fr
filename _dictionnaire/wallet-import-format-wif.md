@@ -5,6 +5,7 @@ permalink: /dictionnaire/wallet-import-format-wif/
 category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
+description: "Méthode pour encoder une clé privée Bitcoin de manière à ce qu'elle puisse être importée ou exportée plus facilement entre différents portefeuilles."
 category_slug: "portefeuille"
 prev_in_category:
   title: "WATCH-ONLY WALLET"

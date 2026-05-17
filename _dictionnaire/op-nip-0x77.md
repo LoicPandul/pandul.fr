@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-nip-0x77/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Supprime l'élément situé juste en dessous du sommet de la pile (le second en partant du haut)."
 category_slug: "script"
 prev_in_category:
   title: "OP_NEGATE - 0X8F"

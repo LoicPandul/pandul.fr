@@ -5,6 +5,7 @@ permalink: /dictionnaire/braiins-pool/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Pool de minage de Bitcoin exploitée par l'entreprise tchèque Braiins. Créée en 2010 par Marek Palatinus (« Slush »), c'est la toute première pool de..."
 category_slug: "minage"
 prev_in_category:
   title: "BRAIDPOOL"

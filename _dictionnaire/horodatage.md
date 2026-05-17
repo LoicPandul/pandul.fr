@@ -5,6 +5,7 @@ permalink: /dictionnaire/horodatage/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+description: "L'horodatage, ou « timestamp » en anglais, est un mécanisme qui consiste à associer un repère temporel précis à un événement, une donnée ou un message."
 english_term: "TIMESTAMP"
 category_slug: "cryptographie"
 prev_in_category:

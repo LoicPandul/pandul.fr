@@ -5,6 +5,7 @@ permalink: /dictionnaire/synonym/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+description: "Entreprise technologique fondée par John Carvalho, axée sur le développement de logiciels et de protocoles qui favorisent une économie pair-à-pair..."
 category_slug: "organisation"
 prev_in_category:
   title: "SPIRAL"

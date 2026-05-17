@@ -5,6 +5,7 @@ permalink: /dictionnaire/atomic-multi-path-payments/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Version améliorée des MPP (Multi-Path Payments) où chaque fragment de paiement possède un secret partiel distinct, ce qui garantit que la transaction..."
 french_term: "PAIEMENTS MULTICHEMINS ATOMIQUES"
 category_slug: "lightning-network"
 prev_in_category:

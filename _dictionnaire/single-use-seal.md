@@ -5,6 +5,7 @@ permalink: /dictionnaire/single-use-seal/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Désigne une promesse d'engagement cryptographique relative à un message encore inconnu, lequel sera révélé une seule fois à l'avenir et devra être..."
 category_slug: "rgb"
 prev_in_category:
   title: "SHARDS - RGB"

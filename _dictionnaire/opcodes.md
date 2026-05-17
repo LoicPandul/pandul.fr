@@ -5,6 +5,7 @@ permalink: /dictionnaire/opcodes/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Ensemble des commandes utilisées dans le système script de Bitcoin. Script est un langage de programmation à piles utilisé pour établir des conditions..."
 french_term: "CODES OPÉRATOIRES"
 category_slug: "script"
 prev_in_category:

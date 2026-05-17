@@ -5,6 +5,7 @@ permalink: /dictionnaire/opensats/
 category: "ORGANISATION"
 letter: "O"
 layout: definition
+description: "Organisation à but non lucratif fondée en 2021, dédiée au financement de projets libres et open source liés à Bitcoin."
 category_slug: "organisation"
 prev_in_category:
   title: "OPENNODE"

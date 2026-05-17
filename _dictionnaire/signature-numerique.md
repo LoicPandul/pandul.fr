@@ -5,6 +5,7 @@ permalink: /dictionnaire/signature-numerique/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Preuve cryptographique qui démontre la possession d'une clé privée spécifique, associée à une clé publique unique, sans avoir à la divulguer."
 english_term: "DIGITAL SIGNATURE"
 category_slug: "cryptographie"
 prev_in_category:

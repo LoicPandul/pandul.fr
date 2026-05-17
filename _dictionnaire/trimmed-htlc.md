@@ -5,6 +5,7 @@ permalink: /dictionnaire/trimmed-htlc/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Sur le Lightning Network, un HTLC est dit « trimmed » lorsque sa valeur est trop faible pour justifier la création d'un output dédié dans la transaction..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "TRANSACTION DE PÉNALITÉ"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/blockstream/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+description: "Entreprise spécialisée dans le développement de solutions autour de Bitcoin."
 category_slug: "organisation"
 prev_in_category:
   title: "ALBY"

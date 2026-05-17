@@ -5,6 +5,7 @@ permalink: /dictionnaire/jit-routing/
 category: "LIGHTNING NETWORK"
 letter: "J"
 layout: definition
+description: "Technique proposée par René Pickhardt en 2019 qui permet à un nœud de routage Lightning de rééquilibrer ses canaux à la volée pour transmettre un..."
 french_term: "ROUTAGE JIT"
 category_slug: "lightning-network"
 prev_in_category:

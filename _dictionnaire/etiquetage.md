@@ -5,6 +5,7 @@ permalink: /dictionnaire/etiquetage/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+description: "Pratique qui consiste à attribuer une annotation ou une étiquette à un UTXO spécifique dans un portefeuille Bitcoin."
 english_term: "LABELING"
 category_slug: "portefeuille"
 prev_in_category:

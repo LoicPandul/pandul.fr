@@ -5,6 +5,7 @@ permalink: /dictionnaire/frostsnap/
 category: "OUTIL"
 letter: "F"
 layout: definition
+description: "Frostsnap est un système de sécurité pour bitcoins reposant sur le protocole FROST (Flexible Round-Optimized Schnorr Threshold Signatures)."
 category_slug: "outil"
 prev_in_category:
   title: "FOUNTAIN"

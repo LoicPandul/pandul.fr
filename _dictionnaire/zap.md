@@ -5,6 +5,7 @@ permalink: /dictionnaire/zap/
 category: "LIGHTNING NETWORK"
 letter: "Z"
 layout: definition
+description: "Micro-paiement en bitcoin effectué via le Lightning Network et associé cryptographiquement à un événement Nostr."
 category_slug: "lightning-network"
 prev_in_category:
   title: "WUMBO CHANNEL"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/sparkscan/
 category: "OUTIL"
 letter: "S"
 layout: definition
+description: "Explorateur et suite d'analyse publique dédiée au protocole Spark. Sparkscan permet de consulter les adresses, les transactions, les jetons (BTKN) et..."
 category_slug: "outil"
 prev_in_category:
   title: "SDK - SOFTWARE DEVELOPMENT KIT"

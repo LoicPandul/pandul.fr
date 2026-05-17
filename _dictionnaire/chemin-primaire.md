@@ -5,6 +5,7 @@ permalink: /dictionnaire/chemin-primaire/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans un logiciel de portefeuille utilisant Miniscript, comme Liana par exemple, le chemin primaire fait référence à l'ensemble de clés permettant des..."
 english_term: "PRIMARY PATH"
 category_slug: "portefeuille"
 prev_in_category:

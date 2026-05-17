@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-3dup-0x6f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique les trois éléments en haut de la pile, puis les place en haut de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_2SWAP - 0X72"

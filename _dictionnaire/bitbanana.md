@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitbanana/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "BitBanana est une application Android open source permettant de gérer à distance un nœud Lightning depuis son téléphone."
 category_slug: "outil"
 prev_in_category:
   title: "BISQ"

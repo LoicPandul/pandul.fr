@@ -5,6 +5,7 @@ permalink: /dictionnaire/iou/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "I"
 layout: definition
+description: "Sigle de l'anglais _I Owe You_ (« Je te dois ») utilisé dans le contexte de Bitcoin pour désigner des actifs numériques qui sont adossés à des actifs..."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "INFLATION"

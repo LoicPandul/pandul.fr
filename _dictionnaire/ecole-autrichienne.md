@@ -5,6 +5,7 @@ permalink: /dictionnaire/ecole-autrichienne/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "E"
 layout: definition
+description: "École de pensée économique qui théorise le marché comme un ensemble d'interactions individuelles volontaires, souligne la spontanéité de l'ordre..."
 english_term: "AUSTRIAN SCHOOL OF ECONOMICS"
 category_slug: "economie-et-regulation"
 prev_in_category:

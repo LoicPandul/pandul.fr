@@ -5,6 +5,7 @@ permalink: /dictionnaire/mainnet/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Désigne le réseau principal où les transactions réelles de Bitcoin sont enregistrées et exécutées."
 category_slug: "protocole"
 prev_in_category:
   title: "MAGICAL BITCOIN"

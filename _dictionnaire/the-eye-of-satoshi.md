@@ -5,6 +5,7 @@ permalink: /dictionnaire/the-eye-of-satoshi/
 category: "OUTIL"
 letter: "T"
 layout: definition
+description: "Implémentation open source de watchtower pour le Lightning Network. Une watchtower surveille en permanence la blockchain Bitcoin au nom d'un utilisateur..."
 category_slug: "outil"
 prev_in_category:
   title: "TAPD"

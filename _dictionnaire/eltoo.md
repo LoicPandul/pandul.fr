@@ -5,6 +5,7 @@ permalink: /dictionnaire/eltoo/
 category: "LIGHTNING NETWORK"
 letter: "E"
 layout: definition
+description: "Protocole généraliste pour les secondes couches de Bitcoin qui permet de définir la manière de gérer conjointement la propriété d'un UTXO."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ELECTRUM LIGHTNING"

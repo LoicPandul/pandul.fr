@@ -5,6 +5,7 @@ permalink: /dictionnaire/stratum/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Protocole réseau superposé à Bitcoin spécifiquement conçu pour optimiser la communication entre les mineurs individuels et les serveurs des pools de..."
 category_slug: "minage"
 prev_in_category:
   title: "STALE SHARE"

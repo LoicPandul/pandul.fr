@@ -5,6 +5,7 @@ permalink: /dictionnaire/hardware-wallet/
 category: "PORTEFEUILLE"
 letter: "H"
 layout: definition
+description: "Un hardware wallet, ou portefeuille matériel, est un dispositif électronique dédié à la sécurisation et à la gestion des clés privées d'un portefeuille..."
 french_term: "PORTEFEUILLE MATÉRIEL"
 category_slug: "portefeuille"
 prev_in_category:

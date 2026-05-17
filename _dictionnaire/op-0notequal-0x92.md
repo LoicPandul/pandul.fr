@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-0notequal-0x92/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Vérifie si l'élément au sommet de la pile est différent de zéro. Si l'élément est autre que zéro, il pousse 1 (vrai) sur la pile, sinon, il pousse 0..."
 category_slug: "script"
 prev_in_category:
   title: "OP_0 - 0X00"

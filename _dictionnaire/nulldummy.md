@@ -5,6 +5,7 @@ permalink: /dictionnaire/nulldummy/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Règle de consensus introduite avec le BIP-0147 dans le soft fork SegWit qui exige que l'élément factice (« dummy element ») utilisé dans les opcodes..."
 category_slug: "protocole"
 prev_in_category:
   title: "NULL DATA"

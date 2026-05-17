@@ -5,6 +5,7 @@ permalink: /dictionnaire/psbt/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Sigle de « Partially Signed Bitcoin Transaction ». C'est une spécification introduite avec le BIP-0174 pour standardiser la manière dont les..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "PROTON WALLET"

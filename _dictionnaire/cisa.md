@@ -5,6 +5,7 @@ permalink: /dictionnaire/cisa/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Acronyme de « Cross-Input Signature Aggregation ». C'est une proposition technique qui a pour objectif d'optimiser la taille des transactions Bitcoin en..."
 category_slug: "protocole"
 prev_in_category:
   title: "CHECKPOINTS"

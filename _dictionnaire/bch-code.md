@@ -5,6 +5,7 @@ permalink: /dictionnaire/bch-code/
 category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
+description: "Classe de codes de correction d'erreurs utilisés pour détecter et corriger des erreurs dans une séquence de données."
 french_term: "CODE BCH"
 category_slug: "cryptographie"
 prev_in_category:

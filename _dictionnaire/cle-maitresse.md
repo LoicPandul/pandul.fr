@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-maitresse/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans le cadre des portefeuilles HD (déterministes et hiérarchiques) la clé privée maîtresse est une clé privée unique dérivée depuis la graine (seed) du..."
 english_term: "MASTER KEY"
 category_slug: "portefeuille"
 prev_in_category:

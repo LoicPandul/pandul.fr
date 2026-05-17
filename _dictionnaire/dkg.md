@@ -5,6 +5,7 @@ permalink: /dictionnaire/dkg/
 category: "CRYPTOGRAPHIE"
 letter: "D"
 layout: definition
+description: "Type de protocole qui permet à un ensemble de n participants de générer collectivement une paire de clés cryptographiques, sans recourir à un tiers de..."
 french_term: "GENERATION DISTRIBUEE DE CLES"
 category_slug: "cryptographie"
 prev_in_category:

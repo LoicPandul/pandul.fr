@@ -5,6 +5,7 @@ permalink: /dictionnaire/solo-mining/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Pratique de minage dans laquelle un mineur utilise ses propres équipements pour chercher des preuves de travail valides de manière autonome, sans..."
 french_term: "MINAGE EN SOLO"
 category_slug: "minage"
 prev_in_category:

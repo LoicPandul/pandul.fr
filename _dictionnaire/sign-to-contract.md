@@ -5,6 +5,7 @@ permalink: /dictionnaire/sign-to-contract/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Protocole cryptographique qui permet d'engager des données arbitraires dans le nonce d'une signature numérique, sans que cet engagement soit visible de..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "SHAMIR SECRET SHARING - SSS"

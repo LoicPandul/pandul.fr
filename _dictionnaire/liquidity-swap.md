@@ -5,6 +5,7 @@ permalink: /dictionnaire/liquidity-swap/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Mécanisme d'ouverture coordonnée de canaux Lightning dans lequel plusieurs opérateurs de nœuds s'engagent mutuellement à ouvrir des canaux les uns vers..."
 french_term: "ÉCHANGE DE LIQUIDITÉ"
 category_slug: "lightning-network"
 prev_in_category:

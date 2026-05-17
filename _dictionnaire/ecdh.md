@@ -5,6 +5,7 @@ permalink: /dictionnaire/ecdh/
 category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
+description: "Méthode d'échange de clés cryptographiques établie sur les principes de l'échange de clés Diffie-Hellman, mais qui utilise des courbes elliptiques pour..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "DLP - DISCRETE LOGARITHM PROBLEM"

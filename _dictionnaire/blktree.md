@@ -5,6 +5,7 @@ permalink: /dictionnaire/blktree/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Nom de l'ancien dossier utilisé dans Bitcoin Core pour cataloguer les métadonnées sur tous les blocs."
 category_slug: "protocole"
 prev_in_category:
   title: "BLKINDEX.DAT"

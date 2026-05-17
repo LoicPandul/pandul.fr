@@ -5,6 +5,7 @@ permalink: /dictionnaire/jade/
 category: "PORTEFEUILLE"
 letter: "J"
 layout: definition
+description: "Hardware wallet fabriqué par Blockstream, conçu pour sécuriser des clés privées Bitcoin et compatible avec le réseau Liquid."
 category_slug: "portefeuille"
 prev_in_category:
   title: "INDEX - KEY"

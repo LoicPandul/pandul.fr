@@ -5,6 +5,7 @@ permalink: /dictionnaire/blixt-wallet/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille Lightning open source et non-custodial pour Android et iOS."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BLINK"

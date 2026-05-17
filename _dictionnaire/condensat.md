@@ -5,6 +5,7 @@ permalink: /dictionnaire/condensat/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "En cryptographie, désigne le résultat (ou l'output) produit par l'application d'une fonction de hachage cryptographique à un ensemble de données."
 english_term: "DIGEST / HASH"
 category_slug: "cryptographie"
 prev_in_category:

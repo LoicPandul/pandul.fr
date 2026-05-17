@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checkmultisigverify-0xaf/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Combine un OP_CHECKMULTISIG et un OP_VERIFY. Il prend plusieurs signatures et clés publiques pour vérifier que M parmi N signatures sont valides, comme..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKMULTISIG - 0XAE"

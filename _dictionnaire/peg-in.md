@@ -5,6 +5,7 @@ permalink: /dictionnaire/peg-in/
 category: "SIDECHAIN"
 letter: "P"
 layout: definition
+description: "Mécanisme par lequel la valeur de bitcoins est transférée depuis la blockchain principale vers une sidechain."
 french_term: "ANCRAGE ENTRANT"
 category_slug: "sidechain"
 prev_in_category:

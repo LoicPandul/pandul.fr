@@ -5,6 +5,7 @@ permalink: /dictionnaire/redeem/
 category: "RGB"
 letter: "R"
 layout: definition
+description: "Dans le cadre du protocole RGB, dans une State Extension, le terme Redeem désigne l'action de récupérer ou d'exploiter une Valency préalablement déclarée."
 category_slug: "rgb"
 prev_in_category:
   title: "OWNERSHIP"

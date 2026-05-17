@@ -5,6 +5,7 @@ permalink: /dictionnaire/compact-block-filters/
 category: "RÉSEAU"
 letter: "C"
 layout: definition
+description: "Mécanisme permettant aux clients légers de vérifier si un bloc contient des transactions les concernant, sans télécharger l'intégralité de la blockchain..."
 category_slug: "reseau"
 prev_in_category:
   title: "CLEARNET"

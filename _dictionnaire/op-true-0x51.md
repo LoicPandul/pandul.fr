@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-true-0x51/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Identique à OP_1. Il pousse la valeur 1 sur la pile. Il est souvent utilisé pour représenter la valeur booléenne vrai dans les scripts."
 category_slug: "script"
 prev_in_category:
   title: "OP_TOALTSTACK - 0X6B"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/pair-sortant/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Nœud vers lequel votre propre nœud Bitcoin établit activement une connexion."
 english_term: "OUTBOUND PEER / OUTGOING CONNECTION"
 category_slug: "reseau"
 prev_in_category:

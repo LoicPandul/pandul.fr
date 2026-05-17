@@ -5,6 +5,7 @@ permalink: /dictionnaire/crypto-actif/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Terme utilisé dans un contexte juridique et réglementaire pour désigner les divers types de cryptomonnaies, dont le bitcoin."
 english_term: "CRYPTO-ASSET"
 category_slug: "economie-et-regulation"
 prev_in_category:

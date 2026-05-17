@@ -5,6 +5,7 @@ permalink: /dictionnaire/owned-state/
 category: "RGB"
 letter: "O"
 layout: definition
+description: "Dans le cadre du protocole RGB, l'Owned State désigne la portion du Contract State encapsulée dans un Assignment et explicitement associée à un..."
 category_slug: "rgb"
 prev_in_category:
   title: "MULTI PROTOCOL COMMITMENT"

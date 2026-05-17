@@ -5,6 +5,7 @@ permalink: /dictionnaire/concatenation/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Dans le contexte de la cryptographie et des systèmes informatiques, désigne le processus d'assemblage de deux opérandes, en les mettant bout à bout..."
 english_term: "CONCATENATION"
 category_slug: "informatique"
 prev_in_category:

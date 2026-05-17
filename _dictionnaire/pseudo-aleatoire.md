@@ -5,6 +5,7 @@ permalink: /dictionnaire/pseudo-aleatoire/
 category: "CRYPTOGRAPHIE"
 letter: "P"
 layout: definition
+description: "Cet adjectif est employé pour décrire une séquence de nombres qui, bien qu'étant le résultat d'un processus déterministe, affiche des caractéristiques..."
 english_term: "PSEUDO-RANDOM"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitkey/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille matériel (hardware wallet) développé par Block, Inc. (anciennement Square), la société fondée par Jack Dorsey."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BITCOIN KEEPER"

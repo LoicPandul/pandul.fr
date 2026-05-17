@@ -5,6 +5,7 @@ permalink: /dictionnaire/mostro/
 category: "OUTIL"
 letter: "M"
 layout: definition
+description: "Protocole d'échange pair-à-pair de bitcoins sans KYC, construit sur Nostr."
 category_slug: "outil"
 prev_in_category:
   title: "MEMPOOL.SPACE"

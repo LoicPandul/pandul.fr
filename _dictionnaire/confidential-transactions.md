@@ -5,6 +5,7 @@ permalink: /dictionnaire/confidential-transactions/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Protocole cryptographique implémenté sur le réseau Liquid qui permet de masquer les montants et les types d'actifs transférés dans une transaction, tout..."
 french_term: "TRANSACTIONS CONFIDENTIELLES"
 category_slug: "cryptographie"
 prev_in_category:

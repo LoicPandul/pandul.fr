@@ -5,6 +5,7 @@ permalink: /dictionnaire/forfeit-transaction/
 category: "COUCHE SUPÉRIEURE"
 letter: "F"
 layout: definition
+description: "Transaction par laquelle un utilisateur du protocole Ark cède la propriété de son VTXO d'entrée à l'Ark Service Provider (ASP) lors d'un round."
 french_term: "TRANSACTION DE FORFAIT"
 category_slug: "couche-superieure"
 prev_in_category:

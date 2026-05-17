@@ -5,6 +5,7 @@ permalink: /dictionnaire/taproot-channel/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Canal Lightning ancré dans une sortie Taproot (P2TR), plutôt que dans une sortie SegWit classique (P2WSH)."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SWAPROOT"

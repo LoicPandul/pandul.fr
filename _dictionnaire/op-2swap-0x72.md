@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-2swap-0x72/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Échange les deux éléments situés au sommet de la pile avec les deux éléments situés juste en dessous d'eux."
 category_slug: "script"
 prev_in_category:
   title: "OP_2ROT - 0X71"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-lessthan-0x9f/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Compare les deux éléments au sommet de la pile et vérifie si le second élément est inférieur au premier."
 category_slug: "script"
 prev_in_category:
   title: "OP_INTERNALKEY - 0XCB"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/musig/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+description: "Protocole de multisignature Schnorr n-de-n proposé en 2018 par Gregory Maxwell, Andrew Poelstra, Yannick Seurin et Pieter Wuille."
 category_slug: "cryptographie"
 prev_in_category:
   title: "MAST"

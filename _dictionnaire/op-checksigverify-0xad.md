@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checksigverify-0xad/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Effectue la même opération que OP_CHECKSIG, mais si la vérification de la signature échoue, le script s'arrête immédiatement avec une erreur et la..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKSIGFROMSTACK - 0XCC"

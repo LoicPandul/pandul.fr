@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinswap/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Protocole permettant un transfert secret de propriété entre des utilisateurs."
 category_slug: "confidentialite"
 prev_in_category:
   title: "COINSHUFFLE"

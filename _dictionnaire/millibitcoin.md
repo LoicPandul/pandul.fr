@@ -5,6 +5,7 @@ permalink: /dictionnaire/millibitcoin/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Sous-unité du bitcoin équivalant à un millième de bitcoin, soit 0,001 BTC ou 100 000 satoshis."
 category_slug: "protocole"
 prev_in_category:
   title: "MÉTHODE D'ACTIVATION"

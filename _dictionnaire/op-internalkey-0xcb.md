@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-internalkey-0xcb/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode proposé dans le BIP-0349 pour être ajouté à Tapscript (0xcb), qui pousse la clé interne Taproot (internal key) sur la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_IFDUP - 0X73"

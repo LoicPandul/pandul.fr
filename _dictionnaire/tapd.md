@@ -5,6 +5,7 @@ permalink: /dictionnaire/tapd/
 category: "OUTIL"
 letter: "T"
 layout: definition
+description: "Logiciel daemon qui constitue l'implémentation de référence du protocole Taproot Assets, développé par Lightning Labs. tapd permet de créer (mint)..."
 category_slug: "outil"
 prev_in_category:
   title: "SWISS BITCOIN PAY"

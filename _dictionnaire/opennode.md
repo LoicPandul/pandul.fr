@@ -5,6 +5,7 @@ permalink: /dictionnaire/opennode/
 category: "ORGANISATION"
 letter: "O"
 layout: definition
+description: "Plateforme de traitement de paiements en bitcoins. OpenNode fournit une API qui permet aux commerçants et aux développeurs d'accepter des paiements en..."
 category_slug: "organisation"
 prev_in_category:
   title: "NODL"

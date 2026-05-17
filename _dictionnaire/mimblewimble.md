@@ -5,6 +5,7 @@ permalink: /dictionnaire/mimblewimble/
 category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
+description: "Protocole qui vise à améliorer la confidentialité et le passage à l'échelle des transactions."
 category_slug: "confidentialite"
 prev_in_category:
   title: "MÉLANGEUR"

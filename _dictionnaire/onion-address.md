@@ -5,6 +5,7 @@ permalink: /dictionnaire/onion-address/
 category: "RÉSEAU"
 letter: "O"
 layout: definition
+description: "Adresse spéciale utilisée pour accéder à un onion service sur le réseau Tor."
 french_term: "ADRESSE ONION"
 category_slug: "reseau"
 prev_in_category:

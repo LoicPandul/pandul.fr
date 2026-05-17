@@ -5,6 +5,7 @@ permalink: /dictionnaire/control-block/
 category: "SCRIPT"
 letter: "C"
 layout: definition
+description: "Structure de données fournie dans le témoin d'une transaction P2TR lors d'une dépense par chemin de script (script path spend), telle que définie dans..."
 french_term: "BLOC DE CONTROLE"
 category_slug: "script"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/satoshidice/
 category: "HISTOIRE"
 letter: "S"
 layout: definition
+description: "Site de jeu d'argent en bitcoins, lancé en avril 2012 par Erik Voorhees."
 category_slug: "histoire"
 prev_in_category:
   title: "RPOW"

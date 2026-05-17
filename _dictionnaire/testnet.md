@@ -5,6 +5,7 @@ permalink: /dictionnaire/testnet/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Version alternative de Bitcoin utilisée exclusivement à des fins de test et de développement."
 category_slug: "protocole"
 prev_in_category:
   title: "TÉMOIN DE TRANSACTION"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cryptologie/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Science mathématique qui traite de la cryptanalyse et de la cryptographie."
 english_term: "CRYPTOLOGY"
 category_slug: "cryptographie"
 prev_in_category:

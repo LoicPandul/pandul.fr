@@ -5,6 +5,7 @@ permalink: /dictionnaire/shares/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Dans le cadre des pools de minage, une share est un indicateur utilisé pour quantifier la contribution d'un mineur individuel au sein de la pool."
 french_term: "PARTS"
 category_slug: "minage"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/digital-artifacts/
 category: "COUCHE SUPÉRIEURE"
 letter: "D"
 layout: definition
+description: "Dans le contexte du protocole Ordinals, c'est un sat qui a été inscrit avec des données spécifiques via le mécanisme d'inscriptions."
 french_term: "ARTEFACT NUMÉRIQUE"
 category_slug: "couche-superieure"
 prev_in_category:

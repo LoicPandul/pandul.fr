@@ -5,6 +5,7 @@ permalink: /dictionnaire/nip/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+description: "Spécification technique qui définit une fonctionnalité, un format ou un comportement attendu dans le protocole Nostr."
 category_slug: "reseau"
 prev_in_category:
   title: "MINISKETCH"

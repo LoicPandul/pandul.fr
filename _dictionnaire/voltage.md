@@ -5,6 +5,7 @@ permalink: /dictionnaire/voltage/
 category: "ORGANISATION"
 letter: "V"
 layout: definition
+description: "Plateforme d'infrastructure cloud dédiée au Lightning Network. Voltage permet aux entreprises et aux développeurs de déployer et de gérer des nœuds..."
 category_slug: "organisation"
 prev_in_category:
   title: "TWENTYTWO DEVICES"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/racine-de-merkle/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+description: "Condensat ou « top hash » d'un arbre de Merkle, qui représente un résumé de toutes les informations présentes dans l'arbre."
 english_term: "MERKLE ROOT"
 category_slug: "cryptographie"
 prev_in_category:

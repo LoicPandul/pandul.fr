@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-ifdup-0x73/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Duplique le sommet de la pile si celui-ci est non nul. Si la valeur en haut de la pile est vraie (c'est-à-dire non nulle), cette valeur est dupliquée..."
 category_slug: "script"
 prev_in_category:
   title: "OP_IF - 0X63"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-return-0x6a/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Signale un script invalide, ce qui rend l'output qui le contient non dépensable de manière prouvée."
 category_slug: "script"
 prev_in_category:
   title: "OP_PUSHDATA4 - 0X4E"

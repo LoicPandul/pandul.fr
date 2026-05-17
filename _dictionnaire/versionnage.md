@@ -5,6 +5,7 @@ permalink: /dictionnaire/versionnage/
 category: "INFORMATIQUE"
 letter: "V"
 layout: definition
+description: "Dans le contexte de Bitcoin, désigne le processus d'assignation de versions spécifiques à divers éléments du protocole, afin de faciliter leur suivi..."
 english_term: "VERSIONING"
 category_slug: "informatique"
 prev_in_category:

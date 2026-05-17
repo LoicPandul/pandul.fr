@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-02/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le protocole pair-à-pair de gestion des canaux Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-01"

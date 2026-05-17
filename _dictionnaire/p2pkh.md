@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2pkh/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2PKH est le sigle pour Pay to Public Key Hash (en français « payer au hachage d'une clé publique »)."
 category_slug: "script"
 prev_in_category:
   title: "P2PK"

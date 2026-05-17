@@ -5,6 +5,7 @@ permalink: /dictionnaire/nat-network-adjusted-time/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Estimation du temps universel établie sur les horloges des nœuds du réseau."
 french_term: "TEMPS AJUSTÉ PAR LE RÉSEAU"
 category_slug: "protocole"
 prev_in_category:

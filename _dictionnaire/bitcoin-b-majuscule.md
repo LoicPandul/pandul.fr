@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-b-majuscule/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Bitcoin est le nom du système de cash électronique pair-à-pair créé par Satoshi Nakamoto en 2009."
 category_slug: "protocole"
 prev_in_category:
   title: "BERKELEYDB"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/multi-protocol-commitment/
 category: "RGB"
 letter: "M"
 layout: definition
+description: "Dans le cadre du protocole RGB, le MPC désigne la structure d'arbre de Merkle conçue pour intégrer, au sein d'une unique transaction Bitcoin, plusieurs..."
 category_slug: "rgb"
 prev_in_category:
   title: "INVOICE RGB"

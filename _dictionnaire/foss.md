@@ -5,6 +5,7 @@ permalink: /dictionnaire/foss/
 category: "INFORMATIQUE"
 letter: "F"
 layout: definition
+description: "Acronyme de « Free and Open Source Software ». Cela désigne un logiciel sous licence autorisant quiconque à l'exécuter pour tout usage, à l'étudier, à..."
 category_slug: "informatique"
 prev_in_category:
   title: "FORK - GIT"

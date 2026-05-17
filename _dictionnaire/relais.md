@@ -5,6 +5,7 @@ permalink: /dictionnaire/relais/
 category: "MINAGE"
 letter: "R"
 layout: definition
+description: "Dans le contexte de la preuve de travail sur le réseau Bitcoin, désigne un outil dont la fonction principale est de relayer les nouveaux blocs valides..."
 english_term: "RELAY"
 category_slug: "minage"
 prev_in_category:

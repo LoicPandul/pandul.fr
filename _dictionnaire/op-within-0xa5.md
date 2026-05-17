@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-within-0xa5/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Vérifie si le premier élément en haut de la pile se trouve dans l'intervalle défini par les deuxième et troisième éléments supérieurs."
 category_slug: "script"
 prev_in_category:
   title: "OP_VERIFY - 0X69"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ten31/
 category: "ORGANISATION"
 letter: "T"
 layout: definition
+description: "Fonds de capital-risque spécialisé dans l'investissement dans les entreprises de l'écosystème Bitcoin."
 category_slug: "organisation"
 prev_in_category:
   title: "SYNONYM"

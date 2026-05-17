@@ -5,6 +5,7 @@ permalink: /dictionnaire/cle-de-revocation/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Clé cryptographique utilisée dans le Lightning Network pour permettre la punition d'un pair qui publie un ancien état de canal."
 english_term: "REVOCATION KEY"
 category_slug: "lightning-network"
 prev_in_category:

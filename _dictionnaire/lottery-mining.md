@@ -5,6 +5,7 @@ permalink: /dictionnaire/lottery-mining/
 category: "MINAGE"
 letter: "L"
 layout: definition
+description: "Forme de solo mining dans laquelle un mineur utilise un appareil à faible hashrate pour tenter de trouver un bloc de manière autonome, sans rejoindre de..."
 french_term: "MINAGE PAR LOTERIE"
 category_slug: "minage"
 prev_in_category:

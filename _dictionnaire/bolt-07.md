@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-07/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le protocole de découverte pair-à-pair du réseau Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-05"

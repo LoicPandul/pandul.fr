@@ -5,6 +5,7 @@ permalink: /dictionnaire/transition-bundle/
 category: "RGB"
 letter: "T"
 layout: definition
+description: "Dans le cadre du protocole RGB, un Transition Bundle désigne un regroupement de State Transitions appartenant à un même contrat, toutes engagées..."
 category_slug: "rgb"
 prev_in_category:
   title: "TERMINAL CONSIGNEMENT"

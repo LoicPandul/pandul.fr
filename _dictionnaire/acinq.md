@@ -5,6 +5,7 @@ permalink: /dictionnaire/acinq/
 category: "ORGANISATION"
 letter: "A"
 layout: definition
+description: "Entreprise française spécialisée dans le développement de solutions pour le Lightning Network."
 category_slug: "organisation"
 next_in_category:
   title: "ALBY"

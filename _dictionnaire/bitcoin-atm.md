@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-atm/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
+description: "Borne physique qui permet d'acheter ou, dans certains cas, de vendre des bitcoins en échange de monnaie fiduciaire (espèces ou carte bancaire)."
 french_term: "DISTRIBUTEUR DE BITCOINS"
 category_slug: "economie-et-regulation"
 prev_in_category:

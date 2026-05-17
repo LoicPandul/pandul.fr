@@ -5,6 +5,7 @@ permalink: /dictionnaire/asic/
 category: "MINAGE"
 letter: "A"
 layout: definition
+description: "Un ASIC est un composant électronique conçu pour exécuter une fonction spécifique avec une efficacité optimale."
 french_term: "CIRCUIT INTÉGRÉ SPÉCIFIQUE À UNE APPLICATION"
 category_slug: "minage"
 prev_in_category:

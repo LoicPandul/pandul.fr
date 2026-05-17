@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checksig-0xac/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Vérifie la validité d'une signature par rapport à une clé publique donnée."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKSEQUENCEVERIFY - 0XB2"

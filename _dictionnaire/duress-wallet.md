@@ -5,6 +5,7 @@ permalink: /dictionnaire/duress-wallet/
 category: "PORTEFEUILLE"
 letter: "D"
 layout: definition
+description: "Portefeuille secondaire conçu pour offrir un déni plausible en cas de contrainte physique."
 french_term: "PORTEFEUILLE DE CONTRAINTE"
 category_slug: "portefeuille"
 prev_in_category:

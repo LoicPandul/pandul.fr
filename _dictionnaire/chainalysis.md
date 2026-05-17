@@ -5,6 +5,7 @@ permalink: /dictionnaire/chainalysis/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+description: "Entreprise américaine fondée en 2014, spécialisée dans l'analyse de la blockchain et le traçage des transactions de cryptomonnaies."
 category_slug: "organisation"
 prev_in_category:
   title: "CASA"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/npub/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+description: "Format d'encodage de la clé publique Nostr en Bech32, défini par le NIP-19."
 category_slug: "reseau"
 prev_in_category:
   title: "NOSTR"

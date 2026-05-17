@@ -5,6 +5,7 @@ permalink: /dictionnaire/ajustement-de-la-difficulte/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+description: "L'ajustement de la difficulté est un processus périodique qui redéfinit la cible de difficulté pour le mécanisme de la preuve de travail (le minage) sur..."
 english_term: "DIFFICULTY ADJUSTMENT"
 category_slug: "protocole"
 next_in_category:

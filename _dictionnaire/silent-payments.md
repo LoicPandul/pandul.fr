@@ -5,6 +5,7 @@ permalink: /dictionnaire/silent-payments/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Méthode pour utiliser des adresses Bitcoin statiques afin de recevoir des paiements sans pour autant produire de réutilisation d'adresse, sans..."
 french_term: "PAIEMENTS SILENCIEUX"
 category_slug: "confidentialite"
 prev_in_category:

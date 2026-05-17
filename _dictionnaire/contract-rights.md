@@ -5,6 +5,7 @@ permalink: /dictionnaire/contract-rights/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Les Contract Rights désignent les différents droits que peuvent exercer les acteurs d'un contrat RGB."
 category_slug: "rgb"
 prev_in_category:
   title: "CONTRACT PARTICIPANT"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/watchmen/
 category: "SIDECHAIN"
 letter: "W"
 layout: definition
+description: "Dans le cadre de Liquid (une sidechain de Bitcoin), ce sont des entités chargées de maintenir l'ancrage du L-BTC, le jeton natif de Liquid, en gérant et..."
 french_term: "GARDIENS"
 category_slug: "sidechain"
 prev_in_category:

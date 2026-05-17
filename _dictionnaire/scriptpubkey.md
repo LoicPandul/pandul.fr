@@ -5,6 +5,7 @@ permalink: /dictionnaire/scriptpubkey/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Script situé dans la partie sortie (output) d'une transaction Bitcoin qui définit les conditions sous lesquelles l'UTXO associé peut être dépensé."
 category_slug: "script"
 prev_in_category:
   title: "SCRIPTLESS SCRIPTS"

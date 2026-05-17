@@ -5,6 +5,7 @@ permalink: /dictionnaire/actif-au-porteur/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Bien ou instrument financier dont la propriété est déterminée uniquement par la possession physique, sans nécessiter l'intervention d'un registre..."
 english_term: "BEARER ASSET"
 category_slug: "economie-et-regulation"
 next_in_category:

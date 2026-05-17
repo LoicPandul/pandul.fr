@@ -5,6 +5,7 @@ permalink: /dictionnaire/stuckless-payment/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Proposition visant à résoudre le problème des paiements bloqués sur le Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SPLICING"

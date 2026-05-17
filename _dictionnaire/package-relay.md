@@ -5,6 +5,7 @@ permalink: /dictionnaire/package-relay/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Amélioration du protocole de relais de Bitcoin qui permet aux nœuds de transmettre et d'évaluer des groupes de transactions interdépendantes de manière..."
 french_term: "RELAIS DE PAQUETS"
 category_slug: "reseau"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/outbound-capacity/
 category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
+description: "Désigne la quantité maximale de bitcoins qu'un nœud peut envoyer à travers un canal spécifique sur le Lightning Network."
 french_term: "CAPACITÉ SORTANTE"
 category_slug: "lightning-network"
 prev_in_category:

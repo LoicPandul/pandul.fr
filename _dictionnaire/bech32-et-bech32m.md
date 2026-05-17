@@ -5,6 +5,7 @@ permalink: /dictionnaire/bech32-et-bech32m/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Bech32 et Bech32m sont deux formats d'encodage d'adresse pour recevoir des bitcoins."
 category_slug: "protocole"
 prev_in_category:
   title: "BCOIN"

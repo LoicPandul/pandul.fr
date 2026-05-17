@@ -5,6 +5,7 @@ permalink: /dictionnaire/sparrow-wallet/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Logiciel de portefeuille Bitcoin pour ordinateur (Windows, macOS, Linux), conçu pour les utilisateurs qui souhaitent un contrôle complet sur leurs..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "SINGLE-SIG"

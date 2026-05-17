@@ -5,6 +5,7 @@ permalink: /dictionnaire/blue-wallet/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille Bitcoin mobile open source disponible sur iOS et Android."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BLIXT WALLET"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud-de-routage/
 category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
+description: "Nœud du Lightning Network qui achemine les paiements entre d'autres nœuds en servant d'intermédiaire dans le routage des transactions."
 english_term: "ROUTING NODE"
 category_slug: "lightning-network"
 prev_in_category:

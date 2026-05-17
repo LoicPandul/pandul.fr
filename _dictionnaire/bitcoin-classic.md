@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-classic/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Proposition de fork du protocole lancée en janvier 2016 à la suite de l'abandon de Bitcoin XT."
 category_slug: "histoire"
 prev_in_category:
   title: "BIT GOLD"

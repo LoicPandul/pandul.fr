@@ -5,6 +5,7 @@ permalink: /dictionnaire/contrat-rgb/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Désigne un ensemble de droits exécutés numériquement entre plusieurs acteurs via le protocole RGB."
 category_slug: "rgb"
 prev_in_category:
   title: "CONTRACT STATE"

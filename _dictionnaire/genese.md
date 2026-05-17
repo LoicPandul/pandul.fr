@@ -5,6 +5,7 @@ permalink: /dictionnaire/genese/
 category: "PROTOCOLE"
 letter: "G"
 layout: definition
+description: "Le bloc de Genèse est le premier bloc du système Bitcoin. Il incarne le lancement concret de Bitcoin."
 english_term: "GENESIS BLOCK"
 category_slug: "protocole"
 prev_in_category:

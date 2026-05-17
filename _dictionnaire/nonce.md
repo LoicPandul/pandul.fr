@@ -5,6 +5,7 @@ permalink: /dictionnaire/nonce/
 category: "CRYPTOGRAPHIE"
 letter: "N"
 layout: definition
+description: "Dans le contexte de l'informatique, le terme « nonce » désigne un nombre utilisé seulement une seule fois, puis remplacé."
 category_slug: "cryptographie"
 prev_in_category:
   title: "MUSIG2"

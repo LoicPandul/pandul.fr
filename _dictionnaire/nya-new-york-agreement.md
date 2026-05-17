@@ -5,6 +5,7 @@ permalink: /dictionnaire/nya-new-york-agreement/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+description: "Réunion privée qui s'est tenue en 2017, rassemblant plus de 50 entreprises de l'écosystème Bitcoin, à la suite de la conférence Consensus 2017."
 french_term: "ACCORD DE NEW YORK"
 category_slug: "histoire"
 prev_in_category:

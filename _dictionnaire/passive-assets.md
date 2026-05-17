@@ -5,6 +5,7 @@ permalink: /dictionnaire/passive-assets/
 category: "COUCHE SUPÉRIEURE"
 letter: "P"
 layout: definition
+description: "Dans le protocole Taproot Assets, les actifs passifs désignent les actifs que l'expéditeur conserve dans son arbre d'actifs (asset tree) lorsqu'il..."
 french_term: "ACTIFS PASSIFS"
 category_slug: "couche-superieure"
 prev_in_category:

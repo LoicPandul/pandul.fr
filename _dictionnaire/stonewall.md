@@ -5,6 +5,7 @@ permalink: /dictionnaire/stonewall/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Forme spécifique de transaction Bitcoin visant à accroître la confidentialité des utilisateurs lors d'une dépense en imitant un coinjoin entre deux..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "STEALTH ADDRESS"

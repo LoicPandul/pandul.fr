@@ -5,6 +5,7 @@ permalink: /dictionnaire/branche-git/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Dans le cadre de Git, représente une séparation du flux de travail principal, permettant le développement en parallèle, sans affecter la branche..."
 english_term: "BRANCH - GIT"
 category_slug: "informatique"
 prev_in_category:

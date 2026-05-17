@@ -5,6 +5,7 @@ permalink: /dictionnaire/hexadecimal/
 category: "INFORMATIQUE"
 letter: "H"
 layout: definition
+description: "Système de numération en base 16, qui utilise donc 16 symboles distincts pour représenter les nombres."
 category_slug: "informatique"
 prev_in_category:
   title: "HEURE UNIX"

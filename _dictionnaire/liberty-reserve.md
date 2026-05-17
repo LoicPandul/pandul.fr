@@ -5,6 +5,7 @@ permalink: /dictionnaire/liberty-reserve/
 category: "HISTOIRE"
 letter: "L"
 layout: definition
+description: "Service de monnaie numérique basé au Costa Rica, fondé par Arthur Budovsky en 2006."
 category_slug: "histoire"
 prev_in_category:
   title: "HONG-KONG ROUNDTABLE"

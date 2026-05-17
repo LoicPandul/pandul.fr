@@ -5,6 +5,7 @@ permalink: /dictionnaire/galoy/
 category: "ORGANISATION"
 letter: "G"
 layout: definition
+description: "Entreprise fondée en 2019 par Nicolas Burtey et Chris Hunter, développant une infrastructure bancaire Bitcoin open source."
 category_slug: "organisation"
 prev_in_category:
   title: "FOUNDATION DEVICES"

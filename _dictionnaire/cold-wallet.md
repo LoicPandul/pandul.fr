@@ -5,6 +5,7 @@ permalink: /dictionnaire/cold-wallet/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Synonyme de « hardware wallet ». Un hardware wallet, ou portefeuille matériel, est un dispositif électronique dédié à la sécurisation et à la gestion..."
 french_term: "PORTEFEUILLE FROID"
 category_slug: "portefeuille"
 prev_in_category:

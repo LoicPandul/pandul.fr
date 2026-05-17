@@ -5,6 +5,7 @@ permalink: /dictionnaire/oracle/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Source d'informations tierce qui fournit des données du monde réel pouvant être interprétées sur Bitcoin."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "OOR PAYMENT"

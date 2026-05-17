@@ -5,6 +5,7 @@ permalink: /dictionnaire/mineur/
 category: "MINAGE"
 letter: "M"
 layout: definition
+description: "Dans le contexte de Bitcoin, un mineur fait référence à une personne qui gère une mine, c'est-à-dire un ordinateur engagé dans le processus de minage..."
 english_term: "MINER"
 category_slug: "minage"
 prev_in_category:

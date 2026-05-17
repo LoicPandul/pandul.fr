@@ -5,6 +5,7 @@ permalink: /dictionnaire/mtgox/
 category: "HISTOIRE"
 letter: "M"
 layout: definition
+description: "Plateforme d'échange de bitcoins fondée en 2010 par Jed McCaleb à Tokyo, au Japon, puis rachetée par Mark Karpelès en 2011."
 category_slug: "histoire"
 prev_in_category:
   title: "LIBERTY RESERVE"

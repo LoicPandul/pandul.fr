@@ -5,6 +5,7 @@ permalink: /dictionnaire/latence/
 category: "RÉSEAU"
 letter: "L"
 layout: definition
+description: "Délai entre l'émission et la réception d'une information. En informatique, elle représente le temps nécessaire pour que des données voyagent entre deux..."
 english_term: "LATENCY"
 category_slug: "reseau"
 prev_in_category:

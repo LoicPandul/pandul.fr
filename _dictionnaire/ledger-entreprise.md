@@ -5,6 +5,7 @@ permalink: /dictionnaire/ledger-entreprise/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+description: "Entreprise française fondée en 2014 qui fabrique des hardware wallets pour sécuriser les clés privées de bitcoins."
 category_slug: "organisation"
 prev_in_category:
   title: "JAN3"

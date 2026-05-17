@@ -5,6 +5,7 @@ permalink: /dictionnaire/oboe-off-by-one-error/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Erreur de logique où une boucle itère une fois de trop ou de moins, souvent due à une mauvaise utilisation des opérateurs de comparaison ou de mauvais..."
 french_term: "ERREUR DE DÉCALAGE UNITAIRE"
 category_slug: "script"
 prev_in_category:

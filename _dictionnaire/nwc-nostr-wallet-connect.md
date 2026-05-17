@@ -5,6 +5,7 @@ permalink: /dictionnaire/nwc-nostr-wallet-connect/
 category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
+description: "Protocole défini par le NIP-47 qui permet de contrôler un portefeuille Lightning à distance en utilisant Nostr comme couche de communication."
 category_slug: "lightning-network"
 prev_in_category:
   title: "NOEUD LIGHTNING"

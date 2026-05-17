@@ -5,6 +5,7 @@ permalink: /dictionnaire/autoloop/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Fonctionnalité de Lightning Loop qui automatise les opérations de Loop In et de Loop Out en fonction de seuils prédéfinis."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ATOMIC MULTI-PATH PAYMENTS"

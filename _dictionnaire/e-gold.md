@@ -5,6 +5,7 @@ permalink: /dictionnaire/e-gold/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+description: "Système de monnaie numérique adossée à l'or, fondé en 1996 par Douglas Jackson et Barry Downey."
 category_slug: "histoire"
 prev_in_category:
   title: "DIGICASH"

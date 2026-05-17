@@ -5,6 +5,7 @@ permalink: /dictionnaire/minitapscript/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+description: "Version de Miniscript pour Tapscript. Tapscript dispose de quelques différences notables avec Script dans sa version originale."
 category_slug: "script"
 prev_in_category:
   title: "MINISCRIPT"

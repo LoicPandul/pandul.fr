@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitaxe/
 category: "MINAGE"
 letter: "B"
 layout: definition
+description: "Projet open source de mineur de Bitcoin miniature basé sur une puce ASIC."
 category_slug: "minage"
 prev_in_category:
   title: "BETTERHASH"

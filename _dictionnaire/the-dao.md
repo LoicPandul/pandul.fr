@@ -5,6 +5,7 @@ permalink: /dictionnaire/the-dao/
 category: "HISTOIRE"
 letter: "T"
 layout: definition
+description: "Projet lancé en 2016 sur Ethereum, qui visait à créer un fonds d'investissement autonome géré par des smart contracts."
 category_slug: "histoire"
 prev_in_category:
   title: "SMALL BLOCKERS"

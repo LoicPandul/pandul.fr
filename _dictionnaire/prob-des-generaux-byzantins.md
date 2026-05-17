@@ -5,6 +5,7 @@ permalink: /dictionnaire/prob-des-generaux-byzantins/
 category: "ATTAQUE"
 letter: "P"
 layout: definition
+description: "Problème formulé pour la première fois par Leslie Lamport, Robert Shostak et Marshall Pease dans le magazine spécialisé ACM Transactions on Programming..."
 english_term: "BYZANTINE GENERALS PROBLEM"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/agorisme/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "A"
 layout: definition
+description: "Philosophie politique fondée par Samuel Edward Konkin III dans les années 1970."
 english_term: "AGORISM"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/double-depense/
 category: "ATTAQUE"
 letter: "D"
 layout: definition
+description: "Attaque où un utilisateur malveillant tente d'utiliser le même UTXO (Unspent Transaction Output) plus d'une fois afin de s'enrichir sur les..."
 english_term: "DOUBLE SPENDING ATTACK"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-collaborative/
 category: "CONFIDENTIALITÉ"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin qui implique plusieurs entités différentes en input de la transaction."
 english_term: "COLLABORATIVE TRANSACTION"
 category_slug: "confidentialite"
 prev_in_category:

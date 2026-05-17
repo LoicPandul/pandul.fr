@@ -5,6 +5,7 @@ permalink: /dictionnaire/foundry-usa/
 category: "MINAGE"
 letter: "F"
 layout: definition
+description: "Pool de minage de Bitcoin basée aux États-Unis, exploitée par Foundry Digital, une filiale de Digital Currency Group (DCG)."
 category_slug: "minage"
 prev_in_category:
   title: "FERME DE MINAGE"

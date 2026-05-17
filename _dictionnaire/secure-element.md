@@ -5,6 +5,7 @@ permalink: /dictionnaire/secure-element/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Puce électronique résistante aux attaques physiques, conçue pour stocker des données sensibles et exécuter des opérations cryptographiques dans un..."
 french_term: "ÉLÉMENT SÉCURISÉ"
 category_slug: "portefeuille"
 prev_in_category:

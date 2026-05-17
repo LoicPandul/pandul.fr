@@ -5,6 +5,7 @@ permalink: /dictionnaire/tor-the-onion-router/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+description: "Réseau de serveurs relais (nodes) qui permet d'anonymiser l'origine des connexions TCP sur internet."
 category_slug: "reseau"
 prev_in_category:
   title: "TESTNET4"

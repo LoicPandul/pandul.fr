@@ -5,6 +5,7 @@ permalink: /dictionnaire/output/
 category: "PROTOCOLE"
 letter: "O"
 layout: definition
+description: "Dans le contexte de Bitcoin, un output au sein d'une transaction fait référence aux _Unspent Transaction Outputs_ (UTXOs) qui sont créés comme fonds de..."
 french_term: "SORTIE"
 category_slug: "protocole"
 prev_in_category:

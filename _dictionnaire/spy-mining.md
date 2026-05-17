@@ -5,6 +5,7 @@ permalink: /dictionnaire/spy-mining/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Pratique dans laquelle un mineur ou une pool de minage se connecte à une pool concurrente afin de recevoir le hash de l'en-tête de bloc dès qu'un..."
 french_term: "MINAGE ESPION"
 category_slug: "minage"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/retention-de-bloc/
 category: "ATTAQUE"
 letter: "R"
 layout: definition
+description: "Attaque spécifique au minage dans une pool. C'est une pratique malveillante où un participant de la pool trouve un bloc avec une preuve de travail..."
 english_term: "BLOCK WITHHOLDING"
 category_slug: "attaque"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/hauteur-de-bloc/
 category: "PROTOCOLE"
 letter: "H"
 layout: definition
+description: "Désigne le numéro de séquence d'un bloc particulier par rapport au premier bloc, connu sous le nom de « bloc de Genèse », qui est indexé à la hauteur zéro."
 english_term: "BLOCK HEIGHT"
 category_slug: "protocole"
 prev_in_category:

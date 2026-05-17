@@ -5,6 +5,7 @@ permalink: /dictionnaire/minisketch/
 category: "RÉSEAU"
 letter: "M"
 layout: definition
+description: "Bibliothèque de réconciliation d'ensembles (set reconciliation) développée principalement par Pieter Wuille (sipa)."
 category_slug: "reseau"
 prev_in_category:
   title: "MAGIC NETWORK"

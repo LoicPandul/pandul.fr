@@ -5,6 +5,7 @@ permalink: /dictionnaire/async-payments/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Mécanisme qui permet d'envoyer un paiement Lightning à un destinataire qui n'est pas en ligne au moment de l'envoi."
 french_term: "PAIEMENTS ASYNCHRONES"
 category_slug: "lightning-network"
 prev_in_category:

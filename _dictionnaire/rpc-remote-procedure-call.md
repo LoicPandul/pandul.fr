@@ -5,6 +5,7 @@ permalink: /dictionnaire/rpc-remote-procedure-call/
 category: "INFORMATIQUE"
 letter: "R"
 layout: definition
+description: "Protocole informatique permettant à un programme d'exécuter une procédure sur un autre ordinateur distant, comme si elle était exécutée localement."
 french_term: "APPEL DE PROCÉDURE À DISTANCE"
 category_slug: "informatique"
 prev_in_category:

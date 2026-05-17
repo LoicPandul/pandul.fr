@@ -5,6 +5,7 @@ permalink: /dictionnaire/vulnerabilite-de-murch-zawy/
 category: "PROTOCOLE"
 letter: "V"
 layout: definition
+description: "Attaque théorique sur le mécanisme d'ajustement de la difficulté de Bitcoin, décrite par Zawy et formalisée par Murch (Mark Erhardt) en août 2024."
 english_term: "MURCH-ZAWY VULNERABILITY"
 category_slug: "protocole"
 prev_in_category:

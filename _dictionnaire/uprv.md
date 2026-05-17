@@ -5,6 +5,7 @@ permalink: /dictionnaire/uprv/
 category: "PORTEFEUILLE"
 letter: "U"
 layout: definition
+description: "Préfixe de clé privée étendue pour les comptes Nested SegWit sur Bitcoin Testnet."
 category_slug: "portefeuille"
 prev_in_category:
   title: "TYPE DE DEVISE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/cbtc-citrea-bitcoin/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Représentation native du bitcoin sur le rollup Citrea. Le cBTC (Citrea Bitcoin) est la devise native utilisée pour payer les frais de gas et effectuer..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CASHU"

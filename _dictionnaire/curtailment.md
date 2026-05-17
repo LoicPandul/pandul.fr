@@ -5,6 +5,7 @@ permalink: /dictionnaire/curtailment/
 category: "MINAGE"
 letter: "C"
 layout: definition
+description: "Désigne la réduction volontaire de la consommation d'électricité d'une ferme de minage en éteignant des machines."
 french_term: "RÉDUCTION - MINAGE"
 category_slug: "minage"
 prev_in_category:

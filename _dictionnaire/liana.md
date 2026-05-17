@@ -5,6 +5,7 @@ permalink: /dictionnaire/liana/
 category: "PORTEFEUILLE"
 letter: "L"
 layout: definition
+description: "Logiciel de gestion de portefeuille Bitcoin open source développé par la société Wizardsardine (fondée par Kevin Loaec et Antoine Poinsot)."
 category_slug: "portefeuille"
 prev_in_category:
   title: "LABEL"

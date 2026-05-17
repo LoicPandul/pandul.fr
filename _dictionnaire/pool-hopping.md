@@ -5,6 +5,7 @@ permalink: /dictionnaire/pool-hopping/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Désigne la pratique de certains mineurs consistant à changer fréquemment de pool de minage pour maximiser leurs gains."
 french_term: "SAUT DE COOPÉRATIVES"
 category_slug: "minage"
 prev_in_category:

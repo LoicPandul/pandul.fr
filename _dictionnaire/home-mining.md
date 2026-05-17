@@ -5,6 +5,7 @@ permalink: /dictionnaire/home-mining/
 category: "MINAGE"
 letter: "H"
 layout: definition
+description: "Pratique qui consiste à exploiter, en tant que particulier, un ou plusieurs ASIC dans un environnement résidentiel plutôt que dans un centre de données..."
 french_term: "MINAGE À DOMICILE"
 category_slug: "minage"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-00/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Document d'introduction et d'index des spécifications BOLT (Basis of Lightning Technology)."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT"

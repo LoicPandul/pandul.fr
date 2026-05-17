@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud-complet/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Ordinateur qui exécute un client du protocole Bitcoin, et qui télécharge, vérifie et stocke la totalité de la blockchain, soit l'historique complet des..."
 english_term: "FULL NODE"
 category_slug: "protocole"
 prev_in_category:

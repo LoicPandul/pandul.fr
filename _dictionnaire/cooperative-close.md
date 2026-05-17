@@ -5,6 +5,7 @@ permalink: /dictionnaire/cooperative-close/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Fermeture d'un canal Lightning réalisée avec l'accord mutuel des deux parties."
 french_term: "FERMETURE COOPÉRATIVE"
 category_slug: "lightning-network"
 prev_in_category:

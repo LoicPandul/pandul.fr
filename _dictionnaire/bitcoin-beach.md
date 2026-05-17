@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-beach/
 category: "COMMUNAUTÉ"
 letter: "B"
 layout: definition
+description: "Initiative communautaire lancée dans le village d'El Zonte, sur la côte pacifique du Salvador, qui a transformé cette petite localité en la première..."
 category_slug: "communaute"
 next_in_category:
   title: "BITCOIN MAGAZINE"

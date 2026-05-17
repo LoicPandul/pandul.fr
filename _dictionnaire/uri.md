@@ -5,6 +5,7 @@ permalink: /dictionnaire/uri/
 category: "INFORMATIQUE"
 letter: "U"
 layout: definition
+description: "Sigle de « Uniform Resource Identifier ». C'est un format de chaîne de caractères standardisé utilisé pour identifier une ressource sur Internet."
 category_slug: "informatique"
 prev_in_category:
   title: "UNIX"

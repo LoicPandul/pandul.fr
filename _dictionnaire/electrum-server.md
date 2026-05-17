@@ -5,6 +5,7 @@ permalink: /dictionnaire/electrum-server/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+description: "Indexeur implémenté sur un nœud complet Bitcoin qui permet aux logiciels de portefeuilles Electrum (ou tout autre portefeuille les prenant en charge) de..."
 category_slug: "reseau"
 prev_in_category:
   title: "ELECTRS"

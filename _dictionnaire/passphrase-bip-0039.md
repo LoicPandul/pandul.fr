@@ -5,6 +5,7 @@ permalink: /dictionnaire/passphrase-bip-0039/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Mot de passe optionnel qui, combiné à la phrase de récupération, offre une couche de sécurité supplémentaire pour les portefeuilles Bitcoin..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "PAPER WALLET"

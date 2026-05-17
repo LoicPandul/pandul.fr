@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Acronyme de « Basis of Lightning Technology ». C'est une série de spécifications destinées à permettre l'interopérabilité de Lightning entre les..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BLIP-0055"

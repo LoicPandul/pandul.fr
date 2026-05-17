@@ -5,6 +5,7 @@ permalink: /dictionnaire/dynamic-federations/
 category: "SIDECHAIN"
 letter: "D"
 layout: definition
+description: "Mécanisme de gouvernance déployé sur le réseau Liquid qui permet de modifier la composition de la fédération de fonctionnaires sans interrompre le..."
 french_term: "FÉDÉRATIONS DYNAMIQUES"
 category_slug: "sidechain"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-breach/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Tentative de triche sur le Lightning Network, dans laquelle un pair publie une ancienne transaction d'engagement (commitment transaction) pour tenter de..."
 french_term: "VIOLATION DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

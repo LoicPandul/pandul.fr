@@ -5,6 +5,7 @@ permalink: /dictionnaire/brollups/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+description: "Concept de rollup natif sur Bitcoin proposé par Burak en juin 2024. Contrairement aux rollups optimistes ou à base de preuves à divulgation nulle de..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "BRC-20"

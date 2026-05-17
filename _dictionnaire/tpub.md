@@ -5,6 +5,7 @@ permalink: /dictionnaire/tpub/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+description: "Préfixe de clé publique étendue pour les comptes Legacy et SegWit V1 sur Bitcoin Testnet."
 category_slug: "portefeuille"
 prev_in_category:
   title: "TPRV"

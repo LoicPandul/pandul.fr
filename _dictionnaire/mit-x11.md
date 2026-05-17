@@ -5,6 +5,7 @@ permalink: /dictionnaire/mit-x11/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Licence de logiciel libre très permissive qui autorise les utilisateurs à copier, modifier, fusionner, publier, distribuer, sous-licencier et vendre le..."
 category_slug: "informatique"
 prev_in_category:
   title: "MÉTADONNÉES"

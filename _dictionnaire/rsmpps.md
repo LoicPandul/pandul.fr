@@ -5,6 +5,7 @@ permalink: /dictionnaire/rsmpps/
 category: "MINAGE"
 letter: "R"
 layout: definition
+description: "Sigle de « Recent Shared Maximum Pay Per Share ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
 category_slug: "minage"
 prev_in_category:
   title: "RIOT PLATFORMS"

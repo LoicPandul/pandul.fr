@@ -5,6 +5,7 @@ permalink: /dictionnaire/confirmation/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Correspond au nombre de blocs pour lesquels une transaction bénéficie de leur sécurité."
 category_slug: "protocole"
 prev_in_category:
   title: "COMPATIBILITÉ RÉTROSPECTIVE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/oap-open-assets-protocol/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Le Protocole Open Assets (OAP), conçu par Flavien Charlon en 2013, représente la première mise en œuvre fonctionnelle des Colored Coins."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "NFT"

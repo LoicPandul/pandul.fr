@@ -5,6 +5,7 @@ permalink: /dictionnaire/hong-kong-roundtable/
 category: "HISTOIRE"
 letter: "H"
 layout: definition
+description: "Évènement historique de la Blocksize War qui s'est tenu le 20 février 2016 à Hong-Kong."
 category_slug: "histoire"
 prev_in_category:
   title: "HASHCASH"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bear-market/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
+description: "Période prolongée durant laquelle le prix d'un actif, tel que le bitcoin, diminue par rapport à une monnaie fiat, typiquement le dollar américain."
 french_term: "MARCHÉ BAISSIER"
 category_slug: "economie-et-regulation"
 prev_in_category:

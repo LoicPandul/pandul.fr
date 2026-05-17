@@ -5,6 +5,7 @@ permalink: /dictionnaire/sighash-flag/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Paramètre dans une transaction Bitcoin permettant de déterminer les composants d'une transaction (inputs et outputs) couvertes par la signature..."
 category_slug: "protocole"
 prev_in_category:
   title: "SETTINGS.JSON"

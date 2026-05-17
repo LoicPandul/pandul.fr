@@ -5,6 +5,7 @@ permalink: /dictionnaire/code-de-paiment-reutilisable/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Dans le BIP-0047, un code de paiement réutilisable est un identifiant statique généré à partir d'un portefeuille Bitcoin permettant d'engager une..."
 english_term: "REUSABLE PAYMENT CODE"
 category_slug: "confidentialite"
 prev_in_category:

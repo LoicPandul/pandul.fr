@@ -5,6 +5,7 @@ permalink: /dictionnaire/xor/
 category: "CRYPTOGRAPHIE"
 letter: "X"
 layout: definition
+description: "Sigle de l'opération « Exclusive or ». C'est une fonction fondamentale de la logique booléenne."
 french_term: "OU EXCLUSIF"
 category_slug: "cryptographie"
 prev_in_category:

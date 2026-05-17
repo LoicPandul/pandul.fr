@@ -5,6 +5,7 @@ permalink: /dictionnaire/virgin-bitcoin/
 category: "CONFIDENTIALITÉ"
 letter: "V"
 layout: definition
+description: "Unité de bitcoin fraîchement émise dans une transaction coinbase (récompense de bloc) et qui n'a encore jamais été dépensée dans une transaction..."
 french_term: "BITCOIN VIERGE"
 category_slug: "confidentialite"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/annex/
 category: "PROTOCOLE"
 letter: "A"
 layout: definition
+description: "Champ optionnel réservé dans la structure de témoin (witness) des entrées SegWit v1 (Taproot), défini par le BIP-0341."
 french_term: "ANNEXE"
 category_slug: "protocole"
 prev_in_category:

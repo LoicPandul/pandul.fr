@@ -5,6 +5,7 @@ permalink: /dictionnaire/preference-temporelle/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+description: "Concept de l'économie autrichienne qui décrit la tendance des individus à préférer la satisfaction immédiate à la satisfaction future."
 english_term: "TIME PREFERENCE"
 category_slug: "economie-et-regulation"
 prev_in_category:

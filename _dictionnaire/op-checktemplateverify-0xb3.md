@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checktemplateverify-0xb3/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode 0xb3 proposé dans le BIP-0119, en remplacement de OP_NOP4. Il impose que la transaction de dépense corresponde exactement à un gabarit prédéfini..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKSIGVERIFY - 0XAD"

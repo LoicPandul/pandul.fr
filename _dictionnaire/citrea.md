@@ -5,6 +5,7 @@ permalink: /dictionnaire/citrea/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Premier rollup à preuves à divulgation nulle de connaissance (ZK rollup) déployé sur Bitcoin, développé par Chainway Labs."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "CET"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/magic-network/
 category: "RÉSEAU"
 letter: "M"
 layout: definition
+description: "Constantes utilisées dans le protocole Bitcoin pour identifier le réseau spécifique (mainnet, testnet, regtest...) d'un message échangé entre des nœuds."
 category_slug: "reseau"
 prev_in_category:
   title: "LATENCE"

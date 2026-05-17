@@ -5,6 +5,7 @@ permalink: /dictionnaire/asp-ark-service-provider/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Opérateur du protocole Ark, responsable de la gestion des VTXO et de l'ancrage périodique des transactions sur la blockchain Bitcoin."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "ARK"

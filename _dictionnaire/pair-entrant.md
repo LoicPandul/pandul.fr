@@ -5,6 +5,7 @@ permalink: /dictionnaire/pair-entrant/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Nœud du réseau Bitcoin qui lance une connexion vers votre nœud sans intervention de votre part."
 english_term: "INBOUND PEER / INCOMING CONNECTION"
 category_slug: "reseau"
 prev_in_category:

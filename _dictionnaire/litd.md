@@ -5,6 +5,7 @@ permalink: /dictionnaire/litd/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Démon (daemon) qui regroupe plusieurs outils Lightning Labs en un seul processus : LND, Loop, Pool, Faraday et Taproot Assets."
 category_slug: "outil"
 prev_in_category:
   title: "LIGHTNING TERMINAL"

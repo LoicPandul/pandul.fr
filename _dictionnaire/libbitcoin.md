@@ -5,6 +5,7 @@ permalink: /dictionnaire/libbitcoin/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Ensemble de bibliothèques écrites en C++ conçues pour créer des applications en lien avec Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "LEVELDB"

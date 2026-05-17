@@ -5,6 +5,7 @@ permalink: /dictionnaire/xbt/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "X"
 layout: definition
+description: "Symbole boursier et monétaire (ticker) utilisé pour représenter le bitcoin, conforme à la norme ISO 4217 qui régit les codes monétaires."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "WHALE"

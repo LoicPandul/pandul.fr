@@ -5,6 +5,7 @@ permalink: /dictionnaire/twentytwo-devices/
 category: "ORGANISATION"
 letter: "T"
 layout: definition
+description: "Entreprise fondée par Alekos Filini qui développe le Portal, un hardware wallet au format plat qui communique avec les smartphones exclusivement via..."
 category_slug: "organisation"
 prev_in_category:
   title: "TEN31"

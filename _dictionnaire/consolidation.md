@@ -5,6 +5,7 @@ permalink: /dictionnaire/consolidation/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Transaction spécifique dans laquelle plusieurs petits UTXOs sont fusionnés en entrée pour former un seul et plus gros UTXO en sortie."
 category_slug: "portefeuille"
 prev_in_category:
   title: "COMPTE"

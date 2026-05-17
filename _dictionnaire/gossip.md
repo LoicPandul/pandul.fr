@@ -5,6 +5,7 @@ permalink: /dictionnaire/gossip/
 category: "LIGHTNING NETWORK"
 letter: "G"
 layout: definition
+description: "Gossip désigne un algorithme distribué pair-à-pair (P2P) pour diffuser l'information de manière épidémique à tous les agents du réseau."
 french_term: "BAVARDAGE"
 category_slug: "lightning-network"
 prev_in_category:

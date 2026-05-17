@@ -5,6 +5,7 @@ permalink: /dictionnaire/full-rbf/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Politique de mempool qui permet le remplacement de toute transaction non confirmée par une autre transaction qui dépense au moins un même input, mais..."
 category_slug: "protocole"
 prev_in_category:
   title: "FRAIS DE TRANSACTION"

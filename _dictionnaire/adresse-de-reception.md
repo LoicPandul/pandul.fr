@@ -5,6 +5,7 @@ permalink: /dictionnaire/adresse-de-reception/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+description: "Information utilisée pour recevoir des bitcoins. Une adresse est généralement construite en hachant une clé publique, à l'aide de SHA256 et de..."
 english_term: "BITCOIN ADDRESS"
 category_slug: "portefeuille"
 next_in_category:

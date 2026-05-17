@@ -5,6 +5,7 @@ permalink: /dictionnaire/hash160/
 category: "CRYPTOGRAPHIE"
 letter: "H"
 layout: definition
+description: "Fonction cryptographique utilisée sur Bitcoin notamment pour générer des adresses de réception Legacy et SegWit v0."
 category_slug: "cryptographie"
 prev_in_category:
   title: "GROTH16"

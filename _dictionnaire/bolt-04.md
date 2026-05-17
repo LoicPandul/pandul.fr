@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-04/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit le protocole de routage en oignon du Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-03"

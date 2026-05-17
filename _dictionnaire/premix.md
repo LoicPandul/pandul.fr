@@ -5,6 +5,7 @@ permalink: /dictionnaire/premix/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Compte intermédiaire dans le protocole Whirlpool qui contient les UTXOs issus de la Tx0 en attente de leur premier cycle de coinjoin."
 category_slug: "confidentialite"
 prev_in_category:
   title: "POSTMIX"

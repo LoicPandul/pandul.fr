@@ -5,6 +5,7 @@ permalink: /dictionnaire/unix/
 category: "INFORMATIQUE"
 letter: "U"
 layout: definition
+description: "Famille de systèmes d'exploitation multitâche développée à partir de 1969 par Bell Labs."
 category_slug: "informatique"
 prev_in_category:
   title: "TLV"

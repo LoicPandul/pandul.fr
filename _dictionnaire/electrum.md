@@ -5,6 +5,7 @@ permalink: /dictionnaire/electrum/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+description: "Portefeuille Bitcoin fondé en novembre 2011 par Thomas Voegtlin, qui permet aux utilisateurs de gérer leurs fonds sans télécharger l'intégralité de la..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "DUST"

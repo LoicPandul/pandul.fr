@@ -5,6 +5,7 @@ permalink: /dictionnaire/nostr/
 category: "RÉSEAU"
 letter: "N"
 layout: definition
+description: "Protocole ouvert et décentralisé de communication, dont l'acronyme signifie Notes and Other Stuff Transmitted by Relays."
 category_slug: "reseau"
 prev_in_category:
   title: "NOISE"

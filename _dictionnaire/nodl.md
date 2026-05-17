@@ -5,6 +5,7 @@ permalink: /dictionnaire/nodl/
 category: "ORGANISATION"
 letter: "N"
 layout: definition
+description: "Entreprise fondée fin 2018 qui conçoit des nœuds Bitcoin et Lightning Network clé en main, sous forme de boîtiers matériels prêts à l'emploi."
 category_slug: "organisation"
 prev_in_category:
   title: "MIT DCI"

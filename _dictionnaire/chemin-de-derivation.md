@@ -5,6 +5,7 @@ permalink: /dictionnaire/chemin-de-derivation/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans le cadre des portefeuilles déterministes et hiérarchiques (HD), un chemin de dérivation désigne la séquence d'index utilisée pour dériver des clés..."
 english_term: "DERIVATION PATH"
 category_slug: "portefeuille"
 prev_in_category:

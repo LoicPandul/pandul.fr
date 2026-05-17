@@ -5,6 +5,7 @@ permalink: /dictionnaire/grpc/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Framework d'appels de procédures distantes (Remote Procedure Call) développé par Google. gRPC utilise le format Protocol Buffers pour sérialiser les..."
 category_slug: "informatique"
 prev_in_category:
   title: "GPL"

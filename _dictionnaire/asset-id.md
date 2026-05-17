@@ -5,6 +5,7 @@ permalink: /dictionnaire/asset-id/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Identifiant unique de 32 octets attribué à chaque actif émis via le protocole Taproot Assets."
 french_term: "IDENTIFIANT D'ACTIF"
 category_slug: "couche-superieure"
 prev_in_category:

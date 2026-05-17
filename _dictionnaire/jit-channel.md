@@ -5,6 +5,7 @@ permalink: /dictionnaire/jit-channel/
 category: "LIGHTNING NETWORK"
 letter: "J"
 layout: definition
+description: "Canal Lightning ouvert à la volée par un fournisseur de services Lightning (LSP) au moment où un paiement entrant arrive pour un client qui ne dispose..."
 french_term: "CANAL JIT"
 category_slug: "lightning-network"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/sourceforge/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+description: "Plateforme web d'hébergement et de distribution de logiciels open source, fondée en 1999."
 category_slug: "informatique"
 prev_in_category:
   title: "SMT - SPARSE MERKLE TREE"

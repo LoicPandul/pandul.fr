@@ -5,6 +5,7 @@ permalink: /dictionnaire/periode-de-maturite/
 category: "PROTOCOLE"
 letter: "P"
 layout: definition
+description: "Délai nécessaire avant qu'une récompense de bloc ne soit dépensable par le mineur qui l'a reçue."
 english_term: "MATURITY PERIOD"
 category_slug: "protocole"
 prev_in_category:

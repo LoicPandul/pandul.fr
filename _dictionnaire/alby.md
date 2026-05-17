@@ -5,6 +5,7 @@ permalink: /dictionnaire/alby/
 category: "ORGANISATION"
 letter: "A"
 layout: definition
+description: "Entreprise spécialisée dans les solutions de paiement Lightning. Alby propose un écosystème de produits complémentaires : Alby Hub, un nœud Lightning..."
 category_slug: "organisation"
 prev_in_category:
   title: "ACINQ"

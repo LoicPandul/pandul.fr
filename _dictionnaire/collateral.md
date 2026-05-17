@@ -5,6 +5,7 @@ permalink: /dictionnaire/collateral/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Actif donné en garantie par un emprunteur à un prêteur pour sécuriser un prêt ou une obligation financière."
 english_term: "COLLATERAL"
 category_slug: "economie-et-regulation"
 prev_in_category:

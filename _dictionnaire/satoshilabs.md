@@ -5,6 +5,7 @@ permalink: /dictionnaire/satoshilabs/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+description: "Entreprise tchèque fondée en 2013 par Marek Palatinus et Pavol Rusnák, connue pour avoir créé le Trezor, le tout premier portefeuille matériel (hardware..."
 category_slug: "organisation"
 prev_in_category:
   title: "SATOCHIP"

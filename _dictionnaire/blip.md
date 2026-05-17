@@ -5,6 +5,7 @@ permalink: /dictionnaire/blip/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Acronyme de « Bitcoin Lightning Improvement Proposal ». Les bLIP sont des propositions de standardisation pour des fonctionnalités du Lightning Network..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BLINDED PATHS"

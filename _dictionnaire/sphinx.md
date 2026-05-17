@@ -5,6 +5,7 @@ permalink: /dictionnaire/sphinx/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Format de paquets cryptographiques utilisé par le Lightning Network pour acheminer les paiements de manière privée via le routage en oignon."
 category_slug: "lightning-network"
 prev_in_category:
   title: "SIDECAR TICKET"

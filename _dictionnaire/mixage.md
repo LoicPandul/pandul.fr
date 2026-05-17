@@ -5,6 +5,7 @@ permalink: /dictionnaire/mixage/
 category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
+description: "Dans le domaine général des mathématiques, le mixage ou le mélange se réfère à la propriété d'un système dynamique où, après un certain temps, toutes..."
 english_term: "MIXING"
 category_slug: "confidentialite"
 prev_in_category:

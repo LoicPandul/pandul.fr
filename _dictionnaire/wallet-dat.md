@@ -5,6 +5,7 @@ permalink: /dictionnaire/wallet-dat/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+description: "Fichier dans Bitcoin Core qui stocke des informations sur le portefeuille de l'utilisateur, telles que les clés privées et les transactions effectuées."
 category_slug: "protocole"
 prev_in_category:
   title: "VULNERABILITE DE MURCH-ZAWY"

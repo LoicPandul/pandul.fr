@@ -5,6 +5,7 @@ permalink: /dictionnaire/doxxic-change/
 category: "CONFIDENTIALITÉ"
 letter: "D"
 layout: definition
+description: "Output de change issu d'une transaction Tx0 dans le protocole Whirlpool, qui représente un risque pour la confidentialité de l'utilisateur."
 category_slug: "confidentialite"
 prev_in_category:
   title: "DÉNI PLAUSIBLE"

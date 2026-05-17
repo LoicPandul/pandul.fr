@@ -5,6 +5,7 @@ permalink: /dictionnaire/cookie/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Fichier utilisé pour l'authentification RPC (Remote Procedure Call) dans Bitcoin Core."
 category_slug: "protocole"
 prev_in_category:
   title: "CONSENSUS CLEANUP"

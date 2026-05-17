@@ -5,6 +5,7 @@ permalink: /dictionnaire/chacha20-poly1305/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "Algorithme de chiffrement authentifié avec données associées qui combine le chiffre de flux ChaCha20 et le code d'authentification de message Poly1305."
 category_slug: "cryptographie"
 prev_in_category:
   title: "BULLETPROOFS"

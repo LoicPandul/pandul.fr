@@ -5,6 +5,7 @@ permalink: /dictionnaire/no2x/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+description: "Nom de la campagne lancée en août 2017 suite au verrouillage du soft fork SegWit dont le but est de convaincre les utilisateurs de ne pas implémenter le..."
 category_slug: "histoire"
 prev_in_category:
   title: "NAMECOIN"

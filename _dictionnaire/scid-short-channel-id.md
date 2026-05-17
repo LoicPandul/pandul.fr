@@ -5,6 +5,7 @@ permalink: /dictionnaire/scid-short-channel-id/
 category: "LIGHTNING NETWORK"
 letter: "S"
 layout: definition
+description: "Identifiant compact utilisé sur le Lightning Network pour référencer de manière unique un canal de paiement."
 french_term: "IDENTIFIANT COURT DE CANAL"
 category_slug: "lightning-network"
 prev_in_category:

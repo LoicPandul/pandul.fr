@@ -5,6 +5,7 @@ permalink: /dictionnaire/regles-de-standardisation/
 category: "PROTOCOLE"
 letter: "R"
 layout: definition
+description: "Sous-ensemble de la politique de mempool, constitué des règles adoptées individuellement par chaque nœud Bitcoin, en plus des règles de consensus, pour..."
 english_term: "STANDARDNESS RULES"
 category_slug: "protocole"
 prev_in_category:

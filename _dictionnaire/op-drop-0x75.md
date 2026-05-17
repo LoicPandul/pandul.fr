@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-drop-0x75/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Supprime l'élément situé au sommet de la pile. OP_DROP permet d'enlever des données devenues inutiles au cours de l'exécution du script."
 category_slug: "script"
 prev_in_category:
   title: "OP_DEPTH - 0X74"

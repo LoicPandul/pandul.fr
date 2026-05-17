@@ -5,6 +5,7 @@ permalink: /dictionnaire/capacite-de-canal-lightning/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Quantité de bitcoins bloqués sur une adresse multisignatures qui représente un canal de paiement sur le Lightning Network."
 english_term: "LIGHTNING CHANNEL CAPACITY"
 category_slug: "lightning-network"
 prev_in_category:

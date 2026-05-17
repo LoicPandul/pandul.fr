@@ -5,6 +5,7 @@ permalink: /dictionnaire/dgm/
 category: "MINAGE"
 letter: "D"
 layout: definition
+description: "Sigle de « Double Geometric Method ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
 category_slug: "minage"
 prev_in_category:
   title: "CURTAILMENT"

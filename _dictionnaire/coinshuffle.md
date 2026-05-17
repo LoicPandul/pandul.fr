@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinshuffle/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Protocole de mixage de bitcoins proposé en 2014 par Tim Ruffing, Pedro Moreno-Sanchez et Aniket Kate, inspiré de l'idée formalisée par Gregory Maxwell."
 category_slug: "confidentialite"
 prev_in_category:
   title: "COINMUX"

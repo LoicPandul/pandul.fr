@@ -5,6 +5,7 @@ permalink: /dictionnaire/atlc/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Sigle de « Anchor Timelock Contracts ». C'est un paiement conditionnel utilisé dans le cadre du protocole Ark pour fournir un calendrier de paiement..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "ASSET SPLIT"

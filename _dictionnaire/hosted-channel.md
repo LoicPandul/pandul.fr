@@ -5,6 +5,7 @@ permalink: /dictionnaire/hosted-channel/
 category: "LIGHTNING NETWORK"
 letter: "H"
 layout: definition
+description: "Canal Lightning qui n'est pas ancré dans une transaction on-chain, contrairement aux canaux classiques."
 french_term: "CANAL HÉBERGÉ"
 category_slug: "lightning-network"
 prev_in_category:

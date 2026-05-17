@@ -5,6 +5,7 @@ permalink: /dictionnaire/lnp-bp/
 category: "ORGANISATION"
 letter: "L"
 layout: definition
+description: "Association à but non lucratif suisse fondée en 2019 par Maxim Orlovsky et Giacomo Zucco."
 category_slug: "organisation"
 prev_in_category:
   title: "LIGHTSPARK"

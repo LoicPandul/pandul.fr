@@ -5,6 +5,7 @@ permalink: /dictionnaire/objectif/
 category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
+description: "Dans les portefeuilles déterministes et hiérarchiques (HD), l'objectif, défini par le BIP-0043, représente un niveau de dérivation spécifique."
 english_term: "PURPOSE"
 category_slug: "portefeuille"
 prev_in_category:

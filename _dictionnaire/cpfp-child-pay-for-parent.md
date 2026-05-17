@@ -5,6 +5,7 @@ permalink: /dictionnaire/cpfp-child-pay-for-parent/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Mécanisme transactionnel visant à accélérer la confirmation d'une transaction Bitcoin, tout comme le fait Replace-by-Fee (RBF), mais du côté du..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "CONSOLIDATION"

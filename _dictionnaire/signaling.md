@@ -5,6 +5,7 @@ permalink: /dictionnaire/signaling/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Mécanisme par lequel les mineurs indiquent leur soutien ou leur préparation à une proposition de soft fork sur Bitcoin."
 french_term: "SIGNALISATION"
 category_slug: "protocole"
 prev_in_category:

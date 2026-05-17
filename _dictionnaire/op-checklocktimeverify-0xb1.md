@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checklocktimeverify-0xb1/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Rend la transaction invalide sauf si toutes ces conditions sont réunies : La pile n'est pas vide ; La valeur du haut de la pile est supérieure ou égale..."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKHASHVERIFY - CHV"

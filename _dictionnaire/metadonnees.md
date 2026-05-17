@@ -5,6 +5,7 @@ permalink: /dictionnaire/metadonnees/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Dans le domaine général de l'informatique, cela désigne les données qui fournissent des informations sur d'autres données."
 english_term: "METADATA"
 category_slug: "informatique"
 prev_in_category:

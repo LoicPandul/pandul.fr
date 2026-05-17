@@ -5,6 +5,7 @@ permalink: /dictionnaire/oor-payment/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Mécanisme de paiement instantané au sein du protocole Ark permettant de transférer des VTXO entre utilisateurs sans attendre le prochain round."
 french_term: "PAIEMENT HORS ROUND"
 category_slug: "couche-superieure"
 prev_in_category:

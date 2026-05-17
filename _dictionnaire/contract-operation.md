@@ -5,6 +5,7 @@ permalink: /dictionnaire/contract-operation/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Dans le cadre du protocole RGB, désigne une mise à jour de l'état du contrat effectuée selon les règles du Schema."
 category_slug: "rgb"
 prev_in_category:
   title: "CONSIGNMENT"

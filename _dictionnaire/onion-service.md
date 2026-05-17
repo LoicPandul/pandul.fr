@@ -5,6 +5,7 @@ permalink: /dictionnaire/onion-service/
 category: "RÉSEAU"
 letter: "O"
 layout: definition
+description: "Service hébergé sur le réseau Tor, accessible uniquement via une adresse .onion, sans exposer l'adresse IP du serveur."
 french_term: "SERVICE CACHÉ"
 category_slug: "reseau"
 prev_in_category:

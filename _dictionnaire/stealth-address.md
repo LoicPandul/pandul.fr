@@ -5,6 +5,7 @@ permalink: /dictionnaire/stealth-address/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Technique de confidentialité qui permet à un destinataire de recevoir des paiements sur des adresses à usage unique, dérivées à la volée par..."
 french_term: "ADRESSE FURTIVE"
 category_slug: "confidentialite"
 prev_in_category:

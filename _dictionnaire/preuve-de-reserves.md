@@ -5,6 +5,7 @@ permalink: /dictionnaire/preuve-de-reserves/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "P"
 layout: definition
+description: "Mécanisme utilisé par les plateformes d'échanges de bitcoins pour démontrer qu'elles détiennent bien les actifs de leurs clients."
 english_term: "PROOF OF RESERVES"
 category_slug: "economie-et-regulation"
 prev_in_category:

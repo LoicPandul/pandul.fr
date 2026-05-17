@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-keeper/
 category: "PORTEFEUILLE"
 letter: "B"
 layout: definition
+description: "Portefeuille Bitcoin open source développé par BitHyve, spécialisé dans le multisig."
 category_slug: "portefeuille"
 prev_in_category:
   title: "BITBOX"

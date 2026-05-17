@@ -5,6 +5,7 @@ permalink: /dictionnaire/multisig/
 category: "SCRIPT"
 letter: "M"
 layout: definition
+description: "Les portefeuilles multisignatures, souvent abrégés « multisig », sont conçus pour renforcer la sécurisation de bitcoins en exigeant plusieurs signatures..."
 category_slug: "script"
 prev_in_category:
   title: "MODÈLE DE SCRIPT"

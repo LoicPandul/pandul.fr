@@ -5,6 +5,7 @@ permalink: /dictionnaire/getblocktemplate/
 category: "MINAGE"
 letter: "G"
 layout: definition
+description: "Protocole de communication entre un nœud Bitcoin et un logiciel de minage, défini dans le BIP-0022 et le BIP-0023."
 category_slug: "minage"
 prev_in_category:
   title: "FPPS - FULL PAY PER SHARE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/riot-platforms/
 category: "MINAGE"
 letter: "R"
 layout: definition
+description: "Entreprise américaine de minage de Bitcoin cotée au NASDAQ sous le symbole RIOT."
 category_slug: "minage"
 prev_in_category:
   title: "RELAIS"

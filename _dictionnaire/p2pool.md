@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2pool/
 category: "MINAGE"
 letter: "P"
 layout: definition
+description: "Protocole de pool de minage décentralisé pour Bitcoin, conçu pour éliminer le besoin d'un opérateur central."
 category_slug: "minage"
 prev_in_category:
   title: "OVERT ASICBOOST"

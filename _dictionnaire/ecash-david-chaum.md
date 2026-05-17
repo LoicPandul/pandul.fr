@@ -5,6 +5,7 @@ permalink: /dictionnaire/ecash-david-chaum/
 category: "HISTOIRE"
 letter: "E"
 layout: definition
+description: "Protocole proposé par David Chaum en 1982, qui est un des premiers systèmes de monnaie numérique conçu pour préserver l'anonymat des utilisateurs."
 category_slug: "histoire"
 prev_in_category:
   title: "E-GOLD"

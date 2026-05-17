@@ -5,6 +5,7 @@ permalink: /dictionnaire/bolt-03/
 category: "LIGHTNING NETWORK"
 letter: "B"
 layout: definition
+description: "Spécification qui définit les formats exacts des transactions Bitcoin et des scripts utilisés dans les canaux Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "BOLT-02"

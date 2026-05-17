@@ -5,6 +5,7 @@ permalink: /dictionnaire/score-de-boltzmann/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Indicateur utilisé pour évaluer le niveau de confidentialité d'une transaction Bitcoin."
 english_term: "BOLTZMANN SCORE"
 category_slug: "confidentialite"
 prev_in_category:

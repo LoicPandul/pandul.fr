@@ -5,6 +5,7 @@ permalink: /dictionnaire/scriptless-scripts/
 category: "SCRIPT"
 letter: "S"
 layout: definition
+description: "Concept initialement développé par Andrew Poelstra qui permet l'exécution de contrats intelligents sans exposer explicitement la logique du contrat sur..."
 french_term: "SCRIPTS SANS SCRIPT"
 category_slug: "script"
 prev_in_category:

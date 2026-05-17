@@ -5,6 +5,7 @@ permalink: /dictionnaire/transaction-de-financement/
 category: "LIGHTNING NETWORK"
 letter: "T"
 layout: definition
+description: "Transaction Bitcoin on-chain qui marque l'ouverture d'un canal de paiement sur le Lightning Network."
 english_term: "FUNDING TRANSACTION"
 category_slug: "lightning-network"
 prev_in_category:

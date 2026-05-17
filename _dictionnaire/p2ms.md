@@ -5,6 +5,7 @@ permalink: /dictionnaire/p2ms/
 category: "SCRIPT"
 letter: "P"
 layout: definition
+description: "P2MS est le sigle pour Pay to Multisig (en français « payer aux multiples signatures »)."
 category_slug: "script"
 prev_in_category:
   title: "OPCODES"

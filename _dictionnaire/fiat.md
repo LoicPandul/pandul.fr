@@ -5,6 +5,7 @@ permalink: /dictionnaire/fiat/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "F"
 layout: definition
+description: "Monnaie, souvent étatique, dont le cours est imposé par la force publique."
 category_slug: "economie-et-regulation"
 prev_in_category:
   title: "ETF"

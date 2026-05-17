@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-hash256-0xaa/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend l'élément en haut de la pile et le remplace par son hachage en utilisant deux fois la fonction SHA256."
 category_slug: "script"
 prev_in_category:
   title: "OP_HASH160 - 0XA9"

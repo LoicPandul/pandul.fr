@@ -5,6 +5,7 @@ permalink: /dictionnaire/addr/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Message réseau anciennement utilisé sur Bitcoin pour communiquer les adresses des nœuds qui acceptent des connexions entrantes."
 category_slug: "reseau"
 next_in_category:
   title: "ADDR.DAT"

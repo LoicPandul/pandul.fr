@@ -5,6 +5,7 @@ permalink: /dictionnaire/invoice-rgb/
 category: "RGB"
 letter: "I"
 layout: definition
+description: "Dans le cadre du protocole RGB, une Invoice se présente sous la forme d'une URI préfixée par rgb:, qui intègre les informations indispensables à la..."
 category_slug: "rgb"
 prev_in_category:
   title: "INTERFACE IMPLEMENTATION"

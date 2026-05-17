@@ -5,6 +5,7 @@ permalink: /dictionnaire/cryptomonnaie/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "C"
 layout: definition
+description: "Qualificatif générique donné à toute forme de monnaie, d'actif, de crédit ou d'unité numérique au sein d'un système informatique dans lequel on utilise..."
 english_term: "CRYPTOCURRENCY"
 category_slug: "economie-et-regulation"
 prev_in_category:

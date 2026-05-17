@@ -5,6 +5,7 @@ permalink: /dictionnaire/vexl/
 category: "OUTIL"
 letter: "V"
 layout: definition
+description: "Application mobile open source qui permet d'acheter et de vendre du bitcoin en pair à pair, sans vérification d'identité (KYC)."
 category_slug: "outil"
 prev_in_category:
   title: "VANITYGEN"

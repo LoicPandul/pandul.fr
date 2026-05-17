@@ -5,6 +5,7 @@ permalink: /dictionnaire/smt-sparse-merkle-tree/
 category: "INFORMATIQUE"
 letter: "S"
 layout: definition
+description: "Structure de données qui étend les propriétés d'un arbre de Merkle classique en permettant de produire des preuves de non-inclusion en plus des preuves..."
 category_slug: "informatique"
 prev_in_category:
   title: "SHOR"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/client-side-validation/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Processus par lequel chaque partie (client) vérifie un ensemble de données échangées en privé, selon les règles d'un protocole."
 french_term: "VALIDATION CÔTÉ CLIENT"
 category_slug: "rgb"
 prev_in_category:

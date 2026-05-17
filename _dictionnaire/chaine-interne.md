@@ -5,6 +5,7 @@ permalink: /dictionnaire/chaine-interne/
 category: "PORTEFEUILLE"
 letter: "C"
 layout: definition
+description: "Dans la dérivation des portefeuilles déterministes et hiérarchiques, la chaîne interne est une branche de dérivation utilisée pour générer des adresses..."
 english_term: "INTERNAL KEYCHAIN"
 category_slug: "portefeuille"
 prev_in_category:

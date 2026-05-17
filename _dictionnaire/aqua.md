@@ -5,6 +5,7 @@ permalink: /dictionnaire/aqua/
 category: "PORTEFEUILLE"
 letter: "A"
 layout: definition
+description: "Portefeuille mobile développé par JAN3, disponible sur iOS et Android, conçu pour simplifier l'utilisation de Bitcoin, du Lightning Network et du réseau..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "AOPP"

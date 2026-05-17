@@ -5,6 +5,7 @@ permalink: /dictionnaire/mpp-multi-path-payments/
 category: "LIGHTNING NETWORK"
 letter: "M"
 layout: definition
+description: "Terme générique pour désigner toutes les techniques de paiement sur Lightning qui permettent de fractionner une transaction en plusieurs petites parties..."
 french_term: "PAIEMENTS MULTICHEMINS"
 category_slug: "lightning-network"
 prev_in_category:

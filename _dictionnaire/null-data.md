@@ -5,6 +5,7 @@ permalink: /dictionnaire/null-data/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Type de transaction Bitcoin qui permet d'insérer une petite quantité de données arbitraires grâce à un OP_RETURN."
 category_slug: "protocole"
 prev_in_category:
   title: "NOEUD SPV - NOEUD LÉGER"

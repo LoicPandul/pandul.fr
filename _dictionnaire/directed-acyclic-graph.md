@@ -5,6 +5,7 @@ permalink: /dictionnaire/directed-acyclic-graph/
 category: "RGB"
 letter: "D"
 layout: definition
+description: "Un DAG est une structure mathématique composée de nœuds interconnectés par des arcs orientés, sans former de cycle, ce qui permet un ordonnancement..."
 french_term: "GRAPHE ORIENTÉ ACYCLIQUE"
 category_slug: "rgb"
 prev_in_category:

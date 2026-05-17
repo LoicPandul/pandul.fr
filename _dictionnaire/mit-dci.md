@@ -5,6 +5,7 @@ permalink: /dictionnaire/mit-dci/
 category: "ORGANISATION"
 letter: "M"
 layout: definition
+description: "Programme de recherche du MIT Media Lab consacré aux monnaies numériques et aux technologies de registre distribué."
 category_slug: "organisation"
 prev_in_category:
   title: "LOCALBITCOINS"

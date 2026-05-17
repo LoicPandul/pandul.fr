@@ -5,6 +5,7 @@ permalink: /dictionnaire/statechain/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Mécanisme de couche supérieure sur Bitcoin permettant de transférer la propriété d'un UTXO hors chaîne, sans diffuser de transaction on-chain."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "STAMPS"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-conf/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Fichier de configuration utilisé pour personnaliser le fonctionnement d'un nœud Bitcoin exécutant le client Bitcoin Core."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN-DEV"

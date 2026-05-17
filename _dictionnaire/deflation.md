@@ -5,6 +5,7 @@ permalink: /dictionnaire/deflation/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "D"
 layout: definition
+description: "Phénomène économique caractérisé par une baisse générale et durable du niveau des prix des biens et des services."
 english_term: "DEFLATION"
 category_slug: "economie-et-regulation"
 prev_in_category:

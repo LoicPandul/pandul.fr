@@ -5,6 +5,7 @@ permalink: /dictionnaire/chainstate/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Nom technique donné au dossier utilisé pour stocker l'UTXO set sur Bitcoin Core."
 category_slug: "protocole"
 prev_in_category:
   title: "CHAINSPLIT"

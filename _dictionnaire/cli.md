@@ -5,6 +5,7 @@ permalink: /dictionnaire/cli/
 category: "INFORMATIQUE"
 letter: "C"
 layout: definition
+description: "Acronyme de « Command Line Interface », ou « interface en ligne de commande » en français."
 category_slug: "informatique"
 prev_in_category:
   title: "CHARGE UTILE"

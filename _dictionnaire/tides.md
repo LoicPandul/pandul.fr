@@ -5,6 +5,7 @@ permalink: /dictionnaire/tides/
 category: "MINAGE"
 letter: "T"
 layout: definition
+description: "Sigle de « Transparent Index Of Distinct Extended Shares ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de..."
 category_slug: "minage"
 prev_in_category:
   title: "STRATUM V2"

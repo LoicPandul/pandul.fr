@@ -5,6 +5,7 @@ permalink: /dictionnaire/lncli/
 category: "OUTIL"
 letter: "L"
 layout: definition
+description: "Interface en ligne de commande fournie avec LND pour administrer un nœud Lightning."
 category_slug: "outil"
 prev_in_category:
   title: "LNBITS"

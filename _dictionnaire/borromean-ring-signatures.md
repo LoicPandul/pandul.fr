@@ -5,6 +5,7 @@ permalink: /dictionnaire/borromean-ring-signatures/
 category: "CRYPTOGRAPHIE"
 letter: "B"
 layout: definition
+description: "Protocole cryptographique de signatures en anneau qui permet à un signataire de prouver qu'il détient une clé privée parmi un ensemble de clés..."
 french_term: "SIGNATURES EN ANNEAU DE BORROMÉE"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-checksigfromstack-0xcc/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode 0xcc proposé dans le BIP-0348 pour Tapscript, en remplacement de OP_SUCCESS204."
 category_slug: "script"
 prev_in_category:
   title: "OP_CHECKSIGADD - 0XBA"

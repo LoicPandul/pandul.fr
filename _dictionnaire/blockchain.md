@@ -5,6 +5,7 @@ permalink: /dictionnaire/blockchain/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "La blockchain est le nom communément donné au serveur d'horodatage distribué du système Bitcoin."
 french_term: "CHAÎNE DE BLOCS"
 category_slug: "protocole"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/headers-first-sync/
 category: "RÉSEAU"
 letter: "H"
 layout: definition
+description: "Méthode de synchronisation initiale (IBD) introduite dans Bitcoin Core 0.10.0, qui consiste à télécharger d'abord les en-têtes de tous les blocs avant..."
 french_term: "SYNCHRONISATION ENTÊTES D'ABORD"
 category_slug: "reseau"
 prev_in_category:

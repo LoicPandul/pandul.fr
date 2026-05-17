@@ -5,6 +5,7 @@ permalink: /dictionnaire/bcoin/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Implémentation alternative du protocole Bitcoin développée en JavaScript pour Node.js."
 category_slug: "protocole"
 prev_in_category:
   title: "BATCHED SPENDING"

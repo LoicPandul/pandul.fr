@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinjumble/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Logiciel développé par Chris Belcher et lancé en août 2014, conçu pour faciliter l'utilisation de coinjoins avec une GUI."
 category_slug: "confidentialite"
 prev_in_category:
   title: "COINJOIN"

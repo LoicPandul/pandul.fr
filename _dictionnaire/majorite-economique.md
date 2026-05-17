@@ -5,6 +5,7 @@ permalink: /dictionnaire/majorite-economique/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Désigne la plus grande proportion de l'activité économique liée à la monnaie bitcoin, générée par les commerçants."
 english_term: "ECONOMIC MAJORITY"
 category_slug: "protocole"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ordinals-theory/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Protocole externe à Bitcoin qui attribue des numéros de série aux sats (la plus petite unité de bitcoin), qui permettent de les tracer de manière..."
 french_term: "THÉORIE DES ORDINALS"
 category_slug: "couche-superieure"
 prev_in_category:

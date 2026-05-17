@@ -5,6 +5,7 @@ permalink: /dictionnaire/gnu/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Projet initié en 1983 par Richard Stallman pour créer un système d'exploitation libre, compatible avec Unix."
 category_slug: "informatique"
 prev_in_category:
   title: "GITLAB"

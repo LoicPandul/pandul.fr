@@ -5,6 +5,7 @@ permalink: /dictionnaire/portefeuille/
 category: "PORTEFEUILLE"
 letter: "P"
 layout: definition
+description: "Outil logiciel spécialement conçu pour sécuriser et gérer les clés privées d'un utilisateur."
 english_term: "WALLET"
 category_slug: "portefeuille"
 prev_in_category:

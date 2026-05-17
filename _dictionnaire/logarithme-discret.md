@@ -5,6 +5,7 @@ permalink: /dictionnaire/logarithme-discret/
 category: "CRYPTOGRAPHIE"
 letter: "L"
 layout: definition
+description: "Le logarithme discret est un problème mathématique qui est utilisé dans certains algorithmes cryptographiques à clé publique."
 english_term: "DISCRETE LOGARITHM"
 category_slug: "cryptographie"
 prev_in_category:

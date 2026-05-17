@@ -5,6 +5,7 @@ permalink: /dictionnaire/phoenix/
 category: "LIGHTNING NETWORK"
 letter: "P"
 layout: definition
+description: "Logiciel de portefeuille mobile self-custodial conçu pour simplifier et rendre plus accessible les transactions sur le protocole Lightning."
 category_slug: "lightning-network"
 prev_in_category:
   title: "PAYMENT HASH"

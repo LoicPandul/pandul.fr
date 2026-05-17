@@ -5,6 +5,7 @@ permalink: /dictionnaire/key-teleport/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+description: "Fonctionnalité des Coldcard qui permet le transfert chiffré de données confidentielles entre deux appareils."
 category_slug: "portefeuille"
 prev_in_category:
   title: "JBOK"

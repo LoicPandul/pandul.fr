@@ -5,6 +5,7 @@ permalink: /dictionnaire/entropie/
 category: "CRYPTOGRAPHIE"
 letter: "E"
 layout: definition
+description: "L'entropie, dans le contexte de la cryptographie et de l'information, est une mesure quantitative de l'incertitude ou de l'imprévisibilité associée à..."
 english_term: "ENTROPY"
 category_slug: "cryptographie"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-equalverify-0x88/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Combine les fonctions de OP_EQUAL et OP_VERIFY. Il vérifie d'abord l'égalité des deux valeurs supérieures de la pile, puis exige que le résultat soit..."
 category_slug: "script"
 prev_in_category:
   title: "OP_EQUAL - 0X87"

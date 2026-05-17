@@ -5,6 +5,7 @@ permalink: /dictionnaire/oxt/
 category: "CONFIDENTIALITÉ"
 letter: "O"
 layout: definition
+description: "Outil d'analyse exploratoire de la blockchain Bitcoin, créé par LaurentMT puis acquis par Samourai Wallet."
 category_slug: "confidentialite"
 prev_in_category:
   title: "OUTPUT LINKING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ldk-lightning-dev-kit/
 category: "LIGHTNING NETWORK"
 letter: "L"
 layout: definition
+description: "Kit de développement (SDK) pour Lightning. LDK est une collection de bibliothèques et d'outils destinés aux développeurs pour intégrer facilement..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "L402"

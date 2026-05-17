@@ -5,6 +5,7 @@ permalink: /dictionnaire/roast/
 category: "CRYPTOGRAPHIE"
 letter: "R"
 layout: definition
+description: "Protocole de signatures à seuil Schnorr asynchrone, dont l'acronyme signifie Robust Asynchronous Schnorr Threshold signatures."
 category_slug: "cryptographie"
 prev_in_category:
   title: "RIPEMD160"

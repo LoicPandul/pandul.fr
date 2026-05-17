@@ -5,6 +5,7 @@ permalink: /dictionnaire/getwork/
 category: "MINAGE"
 letter: "G"
 layout: definition
+description: "Ancien protocole de minage pour Bitcoin créé en 2010 par m0mchil. Getwork permettait aux mineurs de recevoir des données de travail de la part d'un nœud..."
 category_slug: "minage"
 prev_in_category:
   title: "GETBLOCKTEMPLATE"

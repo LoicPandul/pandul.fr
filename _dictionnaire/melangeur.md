@@ -5,6 +5,7 @@ permalink: /dictionnaire/melangeur/
 category: "CONFIDENTIALITÉ"
 letter: "M"
 layout: definition
+description: "Service centralisé permettant de casser l'historique de pièces Bitcoin en mélangeant les fonds de plusieurs utilisateurs."
 english_term: "MIXER"
 category_slug: "confidentialite"
 prev_in_category:

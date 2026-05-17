@@ -5,6 +5,7 @@ permalink: /dictionnaire/hrp-human-readable-part/
 category: "INFORMATIQUE"
 letter: "H"
 layout: definition
+description: "Le HRP, pour « Human Readable Part » (partie lisible par l'homme), est un composant des adresses de réception bech32 et bech32m (SegWit v0 et SegWit v1)."
 category_slug: "informatique"
 prev_in_category:
   title: "HEXADÉCIMAL"

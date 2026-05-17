@@ -5,6 +5,7 @@ permalink: /dictionnaire/issue/
 category: "INFORMATIQUE"
 letter: "I"
 layout: definition
+description: "Dans le cadre de GitHub et d'autres plateformes d'hébergement de code, une issue est un rapport qui signale un bug, propose une amélioration ou suggère..."
 category_slug: "informatique"
 prev_in_category:
   title: "HRP - HUMAN READABLE PART"

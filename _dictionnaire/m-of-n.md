@@ -5,6 +5,7 @@ permalink: /dictionnaire/m-of-n/
 category: "PORTEFEUILLE"
 letter: "M"
 layout: definition
+description: "Désigne un portefeuille ou un script multisignatures à seuil. Pour renforcer la sécurité de bitcoins, on peut utiliser un système de sécurisation..."
 french_term: "M-DE-N"
 category_slug: "portefeuille"
 prev_in_category:

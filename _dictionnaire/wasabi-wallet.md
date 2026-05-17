@@ -5,6 +5,7 @@ permalink: /dictionnaire/wasabi-wallet/
 category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
+description: "Portefeuille Bitcoin axé sur la confidentialité offrant des fonctionnalités telles que le coinjoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "VPUB"

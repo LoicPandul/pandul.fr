@@ -5,6 +5,7 @@ permalink: /dictionnaire/politique-de-mempool/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Sous-ensemble de la politique de relais des transactions qui regroupe l'ensemble des règles appliquées par un nœud Bitcoin pour déterminer quelles..."
 english_term: "MEMPOOL POLICY"
 category_slug: "reseau"
 prev_in_category:

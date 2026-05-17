@@ -5,6 +5,7 @@ permalink: /dictionnaire/bull-bitcoin/
 category: "ORGANISATION"
 letter: "B"
 layout: definition
+description: "Plateforme d'échange de bitcoins canadienne fondée par Francis Pouliot."
 category_slug: "organisation"
 prev_in_category:
   title: "BTRUST"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/white-paper/
 category: "HISTOIRE"
 letter: "W"
 layout: definition
+description: "Rapport ou guide qui informe les lecteurs de manière concise sur une question complexe."
 french_term: "LIVRE BLANC"
 category_slug: "histoire"
 prev_in_category:

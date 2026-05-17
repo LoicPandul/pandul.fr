@@ -5,6 +5,7 @@ permalink: /dictionnaire/hodl-hodl/
 category: "ORGANISATION"
 letter: "H"
 layout: definition
+description: "Plateforme d'échange de bitcoins en pair-à-pair (P2P) qui permet aux utilisateurs d'acheter et de vendre des bitcoins directement entre eux, sans..."
 category_slug: "organisation"
 prev_in_category:
   title: "GALOY"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Dans le réseau Bitcoin, un nœud est un ordinateur qui exécute un client du protocole Bitcoin (comme Bitcoin Core par exemple)."
 english_term: "NODE"
 category_slug: "protocole"
 prev_in_category:

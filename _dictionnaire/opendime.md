@@ -5,6 +5,7 @@ permalink: /dictionnaire/opendime/
 category: "PORTEFEUILLE"
 letter: "O"
 layout: definition
+description: "Dispositif USB à usage unique fabriqué par Coinkite, conçu comme un actif au porteur pour des bitcoins."
 category_slug: "portefeuille"
 prev_in_category:
   title: "OBJECTIF"

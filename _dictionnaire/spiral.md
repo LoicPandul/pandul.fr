@@ -5,6 +5,7 @@ permalink: /dictionnaire/spiral/
 category: "ORGANISATION"
 letter: "S"
 layout: definition
+description: "Filiale de Block Inc. (anciennement Square) dédiée au financement et au développement de projets Bitcoin open source."
 category_slug: "organisation"
 prev_in_category:
   title: "SILK ROAD"

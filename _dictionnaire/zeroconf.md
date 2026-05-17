@@ -5,6 +5,7 @@ permalink: /dictionnaire/zeroconf/
 category: "PROTOCOLE"
 letter: "Z"
 layout: definition
+description: "Pratique risquée consistant à considérer une transaction Bitcoin comme définitive, et à procéder à l'exécution de l'acte associé en contrepartie (tel..."
 category_slug: "protocole"
 prev_in_category:
   title: "WTXID"

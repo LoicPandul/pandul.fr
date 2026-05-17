@@ -5,6 +5,7 @@ permalink: /dictionnaire/soroban/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction Cahoots."
 category_slug: "confidentialite"
 prev_in_category:
   title: "SILENT PAYMENTS"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-eval/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Opcode proposé par Gavin Andresen en 2011. Il prend le script situé au sommet de la pile, l'exécute comme s'il faisait partie du scriptPubKey, et place..."
 category_slug: "script"
 prev_in_category:
   title: "OP_EQUALVERIFY - 0X88"

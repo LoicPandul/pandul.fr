@@ -5,6 +5,7 @@ permalink: /dictionnaire/peer-discovery/
 category: "RÉSEAU"
 letter: "P"
 layout: definition
+description: "Processus par lequel les nœuds du réseau Bitcoin se connectent à d'autres nœuds pour obtenir des informations."
 french_term: "DÉCOUVERTE DES PAIRS"
 category_slug: "reseau"
 prev_in_category:

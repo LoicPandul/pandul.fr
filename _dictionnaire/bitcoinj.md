@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoinj/
 category: "OUTIL"
 letter: "B"
 layout: definition
+description: "Bibliothèque open source qui implémente le protocole Bitcoin en Java, créée par Mike Hearn en 2011."
 category_slug: "outil"
 prev_in_category:
   title: "BITCOIN CORE GUI-QML"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/wtxid/
 category: "PROTOCOLE"
 letter: "W"
 layout: definition
+description: "Extension du TXID traditionnel, incluant les données de témoin (witness) introduites avec SegWit."
 category_slug: "protocole"
 prev_in_category:
   title: "WEIGHT UNIT - WU"

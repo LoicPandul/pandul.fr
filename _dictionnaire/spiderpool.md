@@ -5,6 +5,7 @@ permalink: /dictionnaire/spiderpool/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Pool de minage de Bitcoin fondée en Chine. SpiderPool compte parmi les principales pools de minage au monde en termes de hashrate."
 category_slug: "minage"
 prev_in_category:
   title: "SOLO MINING"

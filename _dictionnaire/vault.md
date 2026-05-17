@@ -5,6 +5,7 @@ permalink: /dictionnaire/vault/
 category: "PORTEFEUILLE"
 letter: "V"
 layout: definition
+description: "Mécanisme de sécurité avancé pour la conservation de bitcoins, fondé sur un processus de dépense en deux étapes qui impose un délai entre l'annonce d'un..."
 french_term: "COFFRE-FORT"
 category_slug: "portefeuille"
 prev_in_category:

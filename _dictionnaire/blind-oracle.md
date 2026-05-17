@@ -5,6 +5,7 @@ permalink: /dictionnaire/blind-oracle/
 category: "COUCHE SUPÉRIEURE"
 letter: "B"
 layout: definition
+description: "Protocole cryptographique dans lequel un oracle exécute des opérations (signature, chiffrement) sur un message confidentiel transmis par un utilisateur..."
 french_term: "ORACLE AVEUGLE"
 category_slug: "couche-superieure"
 prev_in_category:

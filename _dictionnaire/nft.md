@@ -5,6 +5,7 @@ permalink: /dictionnaire/nft/
 category: "COUCHE SUPÉRIEURE"
 letter: "N"
 layout: definition
+description: "Acronyme de Non-Fungible Token. Un NFT représente une unité de bitcoin qui, par des utilisateurs d'un protocole externe à Bitcoin, est interprétée non..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "JOINPOOL"

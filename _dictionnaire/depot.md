@@ -5,6 +5,7 @@ permalink: /dictionnaire/depot/
 category: "INFORMATIQUE"
 letter: "D"
 layout: definition
+description: "Structure de données centrale utilisée dans Git où sont stockées les informations de versionnage d'un projet."
 english_term: "REPOSITORY / REPO"
 category_slug: "informatique"
 prev_in_category:

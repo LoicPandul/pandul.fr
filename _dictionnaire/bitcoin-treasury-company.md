@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-treasury-company/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "B"
 layout: definition
+description: "Entreprise cotée en bourse qui place le bitcoin au centre de sa stratégie de trésorerie, en accumulant des bitcoins sur son bilan plutôt que de..."
 french_term: "SOCIÉTÉ DE TRÉSORERIE BITCOIN"
 category_slug: "economie-et-regulation"
 prev_in_category:

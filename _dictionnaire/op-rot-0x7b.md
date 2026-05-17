@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-rot-0x7b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Déplace au sommet de la pile le troisième élément à partir du sommet de la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_ROLL - 0X7A"

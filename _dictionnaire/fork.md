@@ -5,6 +5,7 @@ permalink: /dictionnaire/fork/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Le terme de « fork » revêt plusieurs significations dans le cadre de Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "FLAG DAY"

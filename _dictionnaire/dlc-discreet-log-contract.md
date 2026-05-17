@@ -5,6 +5,7 @@ permalink: /dictionnaire/dlc-discreet-log-contract/
 category: "COUCHE SUPÉRIEURE"
 letter: "D"
 layout: definition
+description: "Type de contrat intelligent sur Bitcoin qui permet l'exécution de conditions contractuelles à partir du résultat d'événements externes, validés par un..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "DIGITAL ARTIFACTS"

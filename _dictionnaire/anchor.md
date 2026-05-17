@@ -5,6 +5,7 @@ permalink: /dictionnaire/anchor/
 category: "RGB"
 letter: "A"
 layout: definition
+description: "Dans le cadre du protocole RGB, un Anchor représente un ensemble de données côté client permettant de prouver l'inclusion d'un engagement unique dans..."
 category_slug: "rgb"
 prev_in_category:
   title: "ALUVM"

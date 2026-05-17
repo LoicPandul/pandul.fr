@@ -5,6 +5,7 @@ permalink: /dictionnaire/minage-fusionne/
 category: "SIDECHAIN"
 letter: "M"
 layout: definition
+description: "Technique de consensus de sidechain permettant aux mineurs de Bitcoin de travailler simultanément sur la chaîne principale et sur une ou plusieurs..."
 english_term: "MM - MERGED MINING"
 category_slug: "sidechain"
 prev_in_category:

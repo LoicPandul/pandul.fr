@@ -5,6 +5,7 @@ permalink: /dictionnaire/reserves-fractionnaires/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "R"
 layout: definition
+description: "Principe de la finance traditionnelle selon lequel les banques ne gardent qu'une fraction des dépôts de leurs clients en tant que réserve disponible, et..."
 english_term: "FRACTIONAL RESERVES"
 category_slug: "economie-et-regulation"
 prev_in_category:

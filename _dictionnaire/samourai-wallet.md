@@ -5,6 +5,7 @@ permalink: /dictionnaire/samourai-wallet/
 category: "CONFIDENTIALITÉ"
 letter: "S"
 layout: definition
+description: "Logiciel de portefeuille Bitcoin pour appareils mobiles Android axé sur la confidentialité."
 category_slug: "confidentialite"
 prev_in_category:
   title: "RICOCHET"

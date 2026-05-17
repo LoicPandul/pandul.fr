@@ -5,6 +5,7 @@ permalink: /dictionnaire/mempool/
 category: "PROTOCOLE"
 letter: "M"
 layout: definition
+description: "Contraction des termes « memory » et « pool ». Cela désigne un espace virtuel dans lequel les transactions Bitcoin en attente d'inclusion dans un bloc..."
 category_slug: "protocole"
 prev_in_category:
   title: "MAX_BLOC_SIZE"

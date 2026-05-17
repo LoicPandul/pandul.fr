@@ -5,6 +5,7 @@ permalink: /dictionnaire/flag-day/
 category: "PROTOCOLE"
 letter: "F"
 layout: definition
+description: "Méthode d'activation de soft fork utilisée dans les premières années de Bitcoin."
 category_slug: "protocole"
 prev_in_category:
   title: "FINALITÉ DE TRANSACTION"

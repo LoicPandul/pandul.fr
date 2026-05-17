@@ -5,6 +5,7 @@ permalink: /dictionnaire/chainsplit/
 category: "PROTOCOLE"
 letter: "C"
 layout: definition
+description: "Nom parfois donné à un embranchement naturel, c'est-à-dire une séparation temporaire de la blockchain résultant de la diffusion quasi simultanée de..."
 category_slug: "protocole"
 prev_in_category:
   title: "CENSORSHIP RESISTANCE"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/surcouche/
 category: "COUCHE SUPÉRIEURE"
 letter: "S"
 layout: definition
+description: "Protocole ou réseau construit en supplément, en s'empilant sur le réseau Bitcoin principal."
 english_term: "LAYER"
 category_slug: "couche-superieure"
 prev_in_category:

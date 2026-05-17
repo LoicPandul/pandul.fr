@@ -5,6 +5,7 @@ permalink: /dictionnaire/stale-share/
 category: "MINAGE"
 letter: "S"
 layout: definition
+description: "Dans le cadre d'une pool de minage, une stale share est une share (part de travail) soumise par un mineur après qu'un nouveau bloc a déjà été trouvé..."
 french_term: "PART PÉRIMÉE"
 category_slug: "minage"
 prev_in_category:

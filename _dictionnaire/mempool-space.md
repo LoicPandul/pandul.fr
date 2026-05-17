@@ -5,6 +5,7 @@ permalink: /dictionnaire/mempool-space/
 category: "OUTIL"
 letter: "M"
 layout: definition
+description: "Explorateur de blocs et visualiseur de mempool open source pour Bitcoin, accessible à l'adresse mempool.space."
 category_slug: "outil"
 prev_in_category:
   title: "MACHANKURA"

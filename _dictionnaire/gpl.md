@@ -5,6 +5,7 @@ permalink: /dictionnaire/gpl/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Sigle de « GNU General Public License ». C'est une série de licences de logiciel libre initialement créée par la Free Software Foundation."
 category_slug: "informatique"
 prev_in_category:
   title: "GNU"

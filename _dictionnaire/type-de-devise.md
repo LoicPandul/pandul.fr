@@ -5,6 +5,7 @@ permalink: /dictionnaire/type-de-devise/
 category: "PORTEFEUILLE"
 letter: "T"
 layout: definition
+description: "Dans le cadre des portefeuilles déterministes et hiérarchiques (HD), le type de devise (coin type en anglais) est un niveau de dérivation qui permet de..."
 english_term: "COIN TYPE"
 category_slug: "portefeuille"
 prev_in_category:

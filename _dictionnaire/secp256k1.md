@@ -5,6 +5,7 @@ permalink: /dictionnaire/secp256k1/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Nom donné à une courbe elliptique spécifique utilisée dans le cadre du protocole Bitcoin pour l'implémentation des algorithmes de signatures numériques..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "SCHNORR"

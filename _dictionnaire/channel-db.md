@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-db/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Base de données utilisée par LND pour stocker l'état complet de tous les canaux Lightning d'un nœud."
 category_slug: "lightning-network"
 prev_in_category:
   title: "CHANNEL RESERVE"

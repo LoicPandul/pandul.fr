@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinmux/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Implémentation de coinjoin développée en 2014. Coinmux est un protocole de mixage de bitcoins décentralisé et trustless, qui ne nécessite ni la..."
 category_slug: "confidentialite"
 prev_in_category:
   title: "COINJUMBLE"

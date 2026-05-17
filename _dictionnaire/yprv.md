@@ -5,6 +5,7 @@ permalink: /dictionnaire/yprv/
 category: "PORTEFEUILLE"
 letter: "Y"
 layout: definition
+description: "Préfixe de clé privée étendue pour les comptes Nested SegWit sur Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "XPUB"

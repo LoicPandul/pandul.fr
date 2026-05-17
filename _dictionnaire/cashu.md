@@ -5,6 +5,7 @@ permalink: /dictionnaire/cashu/
 category: "COUCHE SUPÉRIEURE"
 letter: "C"
 layout: definition
+description: "Protocole open-source de monnaie électronique chaumienne, similaire au système eCash de David Chaum, mais qui fonctionne sur Bitcoin et le Lightning..."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "BTKN"

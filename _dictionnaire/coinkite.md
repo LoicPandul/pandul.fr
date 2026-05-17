@@ -5,6 +5,7 @@ permalink: /dictionnaire/coinkite/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+description: "Entreprise canadienne fondée en 2012, spécialisée dans la fabrication de matériel de sécurité pour Bitcoin."
 category_slug: "organisation"
 prev_in_category:
   title: "CHAINWAY LABS"

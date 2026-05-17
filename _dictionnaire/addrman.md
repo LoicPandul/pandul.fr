@@ -5,6 +5,7 @@ permalink: /dictionnaire/addrman/
 category: "RÉSEAU"
 letter: "A"
 layout: definition
+description: "Module de Bitcoin Core qui gère les adresses des pairs connus sur le réseau."
 category_slug: "reseau"
 prev_in_category:
   title: "ADDR.DAT"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/adaptor-signature/
 category: "CRYPTOGRAPHIE"
 letter: "A"
 layout: definition
+description: "Méthode cryptographique permettant de combiner une vraie signature avec une signature supplémentaire (appelée « adaptor signature ») pour révéler une..."
 category_slug: "cryptographie"
 next_in_category:
   title: "ANTI-EXFIL SIGNING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/routage-en-oignon/
 category: "RÉSEAU"
 letter: "R"
 layout: definition
+description: "Technique de communication qui consiste à encapsuler un message dans plusieurs couches de chiffrement successives, à la manière des pelures d'un oignon."
 english_term: "ONION ROUTING"
 category_slug: "reseau"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/digicash/
 category: "HISTOIRE"
 letter: "D"
 layout: definition
+description: "Entreprise fondée en 1989 par le cryptographe David Chaum, pionnière dans le domaine des paiements électroniques anonymes."
 category_slug: "histoire"
 prev_in_category:
   title: "CYPHERPUNKS"

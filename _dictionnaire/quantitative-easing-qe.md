@@ -5,6 +5,7 @@ permalink: /dictionnaire/quantitative-easing-qe/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "Q"
 layout: definition
+description: "Politique monétaire non conventionnelle par laquelle une banque centrale achète massivement des actifs financiers, principalement des obligations d'État..."
 french_term: "ASSOUPLISSEMENT QUANTITATIF"
 category_slug: "economie-et-regulation"
 prev_in_category:

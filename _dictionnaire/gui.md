@@ -5,6 +5,7 @@ permalink: /dictionnaire/gui/
 category: "INFORMATIQUE"
 letter: "G"
 layout: definition
+description: "Acronyme de « Graphical User Interface », ou « interface graphique utilisateur » en français."
 french_term: "INTERFACE GRAPHIQUE UTILISATEUR"
 category_slug: "informatique"
 prev_in_category:

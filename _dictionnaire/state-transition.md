@@ -5,6 +5,7 @@ permalink: /dictionnaire/state-transition/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, la State Transition désigne l'opération permettant de faire évoluer l'état d'un contrat vers une nouvelle configuration."
 category_slug: "rgb"
 prev_in_category:
   title: "STATE EXTENSION"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud-elague/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Nœud complet qui exécute un élagage de la blockchain. Cela consiste à supprimer de manière progressive les blocs les plus anciens, après les avoir..."
 english_term: "PRUNED NODE"
 category_slug: "protocole"
 prev_in_category:

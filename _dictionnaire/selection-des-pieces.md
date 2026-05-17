@@ -5,6 +5,7 @@ permalink: /dictionnaire/selection-des-pieces/
 category: "PORTEFEUILLE"
 letter: "S"
 layout: definition
+description: "Processus par lequel un logiciel de portefeuille Bitcoin choisit quels UTXOs utiliser comme entrées pour satisfaire les sorties d'une transaction."
 english_term: "COIN SELECTION"
 category_slug: "portefeuille"
 prev_in_category:

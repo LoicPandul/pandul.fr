@@ -5,6 +5,7 @@ permalink: /dictionnaire/testnet-reset/
 category: "RÉSEAU"
 letter: "T"
 layout: definition
+description: "Opération consistant à relancer le réseau de test de Bitcoin avec un nouveau bloc genesis, effaçant ainsi l'historique et les soldes existants."
 category_slug: "reseau"
 prev_in_category:
   title: "TCP"

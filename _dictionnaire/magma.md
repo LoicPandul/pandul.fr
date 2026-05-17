@@ -5,6 +5,7 @@ permalink: /dictionnaire/magma/
 category: "LIGHTNING NETWORK"
 letter: "M"
 layout: definition
+description: "Place de marché de liquidité pour le Lightning Network développée par Amboss Technologies."
 category_slug: "lightning-network"
 prev_in_category:
   title: "LUD"

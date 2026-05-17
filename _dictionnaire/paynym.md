@@ -5,6 +5,7 @@ permalink: /dictionnaire/paynym/
 category: "CONFIDENTIALITÉ"
 letter: "P"
 layout: definition
+description: "Identifiant unique lié à un portefeuille Bitcoin qui implémente cette option."
 category_slug: "confidentialite"
 prev_in_category:
   title: "PAYJOIN"

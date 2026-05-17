@@ -5,6 +5,7 @@ permalink: /dictionnaire/jbok/
 category: "PORTEFEUILLE"
 letter: "J"
 layout: definition
+description: "Les portefeuilles JBOK, acronyme pour « Just a Bunch Of Keys » (en français « juste un trousseau de clés »), font référence aux vieux portefeuilles..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "JADE"

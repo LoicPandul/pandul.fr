@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-booland-0x9a/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Reproduit le comportement d'une porte logique AND. Il prend deux valeurs au sommet de la pile et renvoie 1 seulement si les deux valeurs sont non nulles."
 category_slug: "script"
 prev_in_category:
   title: "OP_ADD - 0X93"

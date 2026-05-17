@@ -5,6 +5,7 @@ permalink: /dictionnaire/reutilisation-d-adresse-ext/
 category: "CONFIDENTIALITÉ"
 letter: "R"
 layout: definition
+description: "On dit d'une réutilisation d'adresse qu'elle est « externe » lorsqu'elle survient sur plusieurs transactions différentes."
 english_term: "EXTERNAL ADDRESS REUSE"
 category_slug: "confidentialite"
 prev_in_category:

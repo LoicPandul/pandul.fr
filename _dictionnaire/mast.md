@@ -5,6 +5,7 @@ permalink: /dictionnaire/mast/
 category: "CRYPTOGRAPHIE"
 letter: "M"
 layout: definition
+description: "Sigle de « Merklized Alternative Script Trees ». Technique employant un arbre de Merkle pour résumer un nombre arbitraire de conditions de dépenses..."
 category_slug: "cryptographie"
 prev_in_category:
   title: "LOGARITHME DISCRET"

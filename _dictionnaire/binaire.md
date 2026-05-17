@@ -5,6 +5,7 @@ permalink: /dictionnaire/binaire/
 category: "INFORMATIQUE"
 letter: "B"
 layout: definition
+description: "Système de numération en base 2, qui utilise le 0 et le 1 pour représenter l'information."
 english_term: "BINARY"
 category_slug: "informatique"
 prev_in_category:

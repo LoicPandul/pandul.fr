@@ -5,6 +5,7 @@ permalink: /dictionnaire/sdk-software-development-kit/
 category: "OUTIL"
 letter: "S"
 layout: definition
+description: "Ensemble d'outils logiciels fournissant les ressources nécessaires aux développeurs pour créer des applications sur une plateforme spécifique."
 category_slug: "outil"
 prev_in_category:
   title: "RUST BITCOIN"

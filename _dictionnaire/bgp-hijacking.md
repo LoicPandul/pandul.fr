@@ -5,6 +5,7 @@ permalink: /dictionnaire/bgp-hijacking/
 category: "ATTAQUE"
 letter: "B"
 layout: definition
+description: "Attaque où un acteur malveillant manipule les annonces BGP pour rediriger le trafic Internet vers son propre réseau."
 french_term: "DÉTOURNEMENT BGP"
 category_slug: "attaque"
 prev_in_category:

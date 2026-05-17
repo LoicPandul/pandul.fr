@@ -5,6 +5,7 @@ permalink: /dictionnaire/nested-segwit/
 category: "PROTOCOLE"
 letter: "N"
 layout: definition
+description: "Standard de scripts utilisé pour envelopper des scripts SegWit natifs, au sein d'un script P2SH."
 french_term: "SEGWIT IMBRIQUÉ"
 category_slug: "protocole"
 prev_in_category:

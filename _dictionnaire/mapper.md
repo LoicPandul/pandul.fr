@@ -5,6 +5,7 @@ permalink: /dictionnaire/mapper/
 category: "INFORMATIQUE"
 letter: "M"
 layout: definition
+description: "Dans le contexte de l'informatique, mapper désigne le processus d'associer des éléments d'un ensemble de données à des éléments d'un autre ensemble de..."
 english_term: "TO MAP"
 category_slug: "informatique"
 prev_in_category:

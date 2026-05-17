@@ -5,6 +5,7 @@ permalink: /dictionnaire/noeud-lightning/
 category: "LIGHTNING NETWORK"
 letter: "N"
 layout: definition
+description: "Ordinateur qui exécute une implémentation du Lightning Network (Eclair, LND, Core Lightning...)."
 english_term: "LIGHTNING NODE"
 category_slug: "lightning-network"
 prev_in_category:

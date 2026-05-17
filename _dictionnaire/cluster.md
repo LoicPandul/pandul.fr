@@ -5,6 +5,7 @@ permalink: /dictionnaire/cluster/
 category: "CONFIDENTIALITÉ"
 letter: "C"
 layout: definition
+description: "Dans le cadre de l'analyse de chaîne, un cluster est un ensemble d'adresses de réception qui sont associées à une même entité par un analyste."
 category_slug: "confidentialite"
 prev_in_category:
   title: "CIOH"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/ghash-io/
 category: "MINAGE"
 letter: "G"
 layout: definition
+description: "Ancienne pool de minage de Bitcoin opérée par la société CEX.IO, basée au Royaume-Uni."
 category_slug: "minage"
 prev_in_category:
   title: "GETWORK"

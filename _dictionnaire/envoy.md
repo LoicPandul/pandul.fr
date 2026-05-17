@@ -5,6 +5,7 @@ permalink: /dictionnaire/envoy/
 category: "PORTEFEUILLE"
 letter: "E"
 layout: definition
+description: "Application mobile développée par Foundation Devices. Envoy sert à la fois de portefeuille Bitcoin autonome et d'interface compagnon pour le hardware..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "EMPREINTE DE PORTEFEUILLE"

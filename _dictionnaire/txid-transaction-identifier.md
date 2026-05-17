@@ -5,6 +5,7 @@ permalink: /dictionnaire/txid-transaction-identifier/
 category: "PROTOCOLE"
 letter: "T"
 layout: definition
+description: "Identifiant unique associé à chaque transaction Bitcoin. Il est généré en calculant le hachage SHA256d des données de la transaction."
 french_term: "IDENTIFIANT DE TRANSACTION"
 category_slug: "protocole"
 prev_in_category:

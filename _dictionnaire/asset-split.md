@@ -5,6 +5,7 @@ permalink: /dictionnaire/asset-split/
 category: "COUCHE SUPÉRIEURE"
 letter: "A"
 layout: definition
+description: "Opération consistant à diviser un actif Taproot Assets en deux parties réparties dans des sorties Taproot distinctes."
 french_term: "DIVISION D'ACTIFS"
 category_slug: "couche-superieure"
 prev_in_category:

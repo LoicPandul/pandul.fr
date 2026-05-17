@@ -5,6 +5,7 @@ permalink: /dictionnaire/nunchuk/
 category: "PORTEFEUILLE"
 letter: "N"
 layout: definition
+description: "Logiciel de portefeuille Bitcoin spécialisé dans le multisig, disponible sur ordinateur et mobile (iOS, Android)."
 category_slug: "portefeuille"
 prev_in_category:
   title: "MINIBITS"

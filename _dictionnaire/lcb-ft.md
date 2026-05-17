@@ -5,6 +5,7 @@ permalink: /dictionnaire/lcb-ft/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "L"
 layout: definition
+description: "La lutte contre le blanchiment des capitaux et le financement du terrorisme (LCB/FT) fait référence aux mesures réglementaires adoptées pour prévenir..."
 english_term: "AML/CFT"
 category_slug: "economie-et-regulation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/market-cap/
 category: "ÉCONOMIE ET RÉGULATION"
 letter: "M"
 layout: definition
+description: "Représente la valeur totale d'un actif en circulation, comme le bitcoin."
 french_term: "CAPITALISATION BOURSIÈRE"
 category_slug: "economie-et-regulation"
 prev_in_category:

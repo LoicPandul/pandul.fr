@@ -5,6 +5,7 @@ permalink: /dictionnaire/keystore/
 category: "PORTEFEUILLE"
 letter: "K"
 layout: definition
+description: "Dans le contexte d'un logiciel de portefeuille Bitcoin, un keystore est une structure qui regroupe les informations nécessaires au suivi et à..."
 category_slug: "portefeuille"
 prev_in_category:
   title: "KEY TELEPORT"

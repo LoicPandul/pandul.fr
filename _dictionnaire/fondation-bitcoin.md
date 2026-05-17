@@ -5,6 +5,7 @@ permalink: /dictionnaire/fondation-bitcoin/
 category: "ORGANISATION"
 letter: "F"
 layout: definition
+description: "Organisation à but non lucratif fondée en septembre 2012. Ses membres fondateurs sont Gavin Andresen, Charlie Shrem, Mark Karpelès, Peter Vessenes..."
 english_term: "BITCOIN FOUNDATION"
 category_slug: "organisation"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/leveldb/
 category: "PROTOCOLE"
 letter: "L"
 layout: definition
+description: "Bibliothèque de stockage de clés-valeurs légère, rapide et open-source, conçue par Google."
 category_slug: "protocole"
 prev_in_category:
   title: "LEDGER"

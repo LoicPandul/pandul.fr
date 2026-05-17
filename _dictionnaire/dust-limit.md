@@ -5,6 +5,7 @@ permalink: /dictionnaire/dust-limit/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Désigne le seuil en sats en deçà duquel un UTXO est considéré comme de la « poussière » (dust) par un nœud du réseau."
 french_term: "LIMITE DE POUSSIÈRE"
 category_slug: "protocole"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/onion-message/
 category: "LIGHTNING NETWORK"
 letter: "O"
 layout: definition
+description: "Messages légers et flexibles transmis entre pairs sur le Lightning Network en utilisant le routage en oignon, sans nécessiter l'envoi de fonds ni le..."
 french_term: "MESSAGE EN OIGNON"
 category_slug: "lightning-network"
 prev_in_category:

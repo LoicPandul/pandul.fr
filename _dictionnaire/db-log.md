@@ -5,6 +5,7 @@ permalink: /dictionnaire/db-log/
 category: "PROTOCOLE"
 letter: "D"
 layout: definition
+description: "Ancien fichier d'erreur BDB (BerkeleyDB) du portefeuille Bitcoin Core déplacé dans le dossier wallets/ depuis la version 0.16."
 category_slug: "protocole"
 prev_in_category:
   title: "DATABASE/"

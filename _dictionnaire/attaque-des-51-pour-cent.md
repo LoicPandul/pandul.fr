@@ -5,6 +5,7 @@ permalink: /dictionnaire/attaque-des-51-pour-cent/
 category: "ATTAQUE"
 letter: "A"
 layout: definition
+description: "Scénario hypothétique sur le système Bitcoin où un acteur malveillant contrôle plus de 50 % de la puissance de calcul totale du minage (hashrate)."
 english_term: "51% ATTACK"
 category_slug: "attaque"
 prev_in_category:

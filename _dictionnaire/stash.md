@@ -5,6 +5,7 @@ permalink: /dictionnaire/stash/
 category: "RGB"
 letter: "S"
 layout: definition
+description: "Dans le cadre du protocole RGB, le Stash désigne l'ensemble des données stockées côté client par un utilisateur pour un ou plusieurs contrats."
 category_slug: "rgb"
 prev_in_category:
   title: "SINGLE-USE SEAL"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-jesus/
 category: "HISTOIRE"
 letter: "B"
 layout: definition
+description: "Surnom donné à l'entrepreneur et investisseur Roger Ver, qui a été un promoteur de Bitcoin dès le début des années 2010."
 category_slug: "histoire"
 prev_in_category:
   title: "BITCOIN CLASSIC"

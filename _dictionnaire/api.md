@@ -5,6 +5,7 @@ permalink: /dictionnaire/api/
 category: "INFORMATIQUE"
 letter: "A"
 layout: definition
+description: "Sigle de « Application Programming Interface ». Dans le contexte général de l'informatique, une API est un ensemble de règles et de spécifications que..."
 french_term: "INTERFACE DE PROGRAMMATION"
 category_slug: "informatique"
 prev_in_category:

@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-factories/
 category: "LIGHTNING NETWORK"
 letter: "C"
 layout: definition
+description: "Mécanisme avancé en cours de travail sur Lightning, permettant la création et la gestion de plusieurs canaux de paiement à partir d'un seul UTXO."
 category_slug: "lightning-network"
 prev_in_category:
   title: "CHANNEL BREACH"

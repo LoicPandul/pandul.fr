@@ -5,6 +5,7 @@ permalink: /dictionnaire/snark/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Système de preuve cryptographique dont l'acronyme signifie Succinct Non-interactive ARgument of Knowledge."
 category_slug: "cryptographie"
 prev_in_category:
   title: "SIGNATURE NUMÉRIQUE"

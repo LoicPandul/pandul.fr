@@ -5,6 +5,7 @@ permalink: /dictionnaire/watch-only-wallet/
 category: "PORTEFEUILLE"
 letter: "W"
 layout: definition
+description: "Un watch-only wallet est un type de logiciel qui permet à un utilisateur de voir les transactions associées à une clé ou un ensemble de clés Bitcoin..."
 french_term: "PORTEFEUILLE EN LECTURE SEULE"
 category_slug: "portefeuille"
 prev_in_category:

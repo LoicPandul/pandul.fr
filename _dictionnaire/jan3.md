@@ -5,6 +5,7 @@ permalink: /dictionnaire/jan3/
 category: "ORGANISATION"
 letter: "J"
 layout: definition
+description: "Entreprise fondée en 2022 par Samson Mow, ancien directeur stratégique de Blockstream."
 category_slug: "organisation"
 prev_in_category:
   title: "HUMAN RIGHTS FOUNDATION"

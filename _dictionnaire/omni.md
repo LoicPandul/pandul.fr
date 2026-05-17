@@ -5,6 +5,7 @@ permalink: /dictionnaire/omni/
 category: "COUCHE SUPÉRIEURE"
 letter: "O"
 layout: definition
+description: "Omni Layer (ex-Mastercoin) est une plateforme open-source et décentralisée de création et gestion d'actifs sur la blockchain Bitcoin."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "OFF-CHAIN"

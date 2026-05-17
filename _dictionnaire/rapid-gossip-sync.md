@@ -5,6 +5,7 @@ permalink: /dictionnaire/rapid-gossip-sync/
 category: "LIGHTNING NETWORK"
 letter: "R"
 layout: definition
+description: "Protocole de synchronisation du graphe des canaux Lightning qui permet à un nœud de rattraper l'état du réseau en téléchargeant un instantané compact..."
 category_slug: "lightning-network"
 prev_in_category:
   title: "PUBLIC CHANNEL"

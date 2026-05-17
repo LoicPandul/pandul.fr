@@ -5,6 +5,7 @@ permalink: /dictionnaire/soft-fork/
 category: "PROTOCOLE"
 letter: "S"
 layout: definition
+description: "Modification des règles du protocole de manière rétrocompatible. Contrairement au hard fork, le soft fork ne donne pas lieu à une séparation du réseau..."
 category_slug: "protocole"
 prev_in_category:
   title: "SNAPSHOT"

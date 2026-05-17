@@ -5,6 +5,7 @@ permalink: /dictionnaire/aperture/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Reverse proxy HTTP 402 développé par Lightning Labs, conçu pour permettre l'accès payant à des services web via le Lightning Network."
 category_slug: "lightning-network"
 prev_in_category:
   title: "ANCHOR OUTPUTS"

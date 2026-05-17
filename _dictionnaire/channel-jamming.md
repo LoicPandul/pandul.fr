@@ -5,6 +5,7 @@ permalink: /dictionnaire/channel-jamming/
 category: "ATTAQUE"
 letter: "C"
 layout: definition
+description: "Attaque par déni de service sur le Lightning Network qui consiste à bloquer la capacité de routage d'un ou plusieurs canaux de paiement pendant une..."
 french_term: "BROUILLAGE DE CANAL"
 category_slug: "attaque"
 prev_in_category:

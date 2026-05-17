@@ -5,6 +5,7 @@ permalink: /dictionnaire/bitcoin-inquisition/
 category: "PROTOCOLE"
 letter: "B"
 layout: definition
+description: "Fork logiciel de Bitcoin Core qui vise à tester l'intégration de nouvelles propositions d'amélioration de Bitcoin dans un environnement contrôlé sur des..."
 category_slug: "protocole"
 prev_in_category:
   title: "BITCOIN CORE"

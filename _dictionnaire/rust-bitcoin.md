@@ -5,6 +5,7 @@ permalink: /dictionnaire/rust-bitcoin/
 category: "OUTIL"
 letter: "R"
 layout: definition
+description: "Bibliothèque open source écrite en Rust pour manipuler les structures de données et les messages du protocole Bitcoin."
 category_slug: "outil"
 prev_in_category:
   title: "RTL - RIDE THE LIGHTNING"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/casa/
 category: "ORGANISATION"
 letter: "C"
 layout: definition
+description: "Entreprise américaine proposant des solutions de sécurisation de bitcoins en multisig pour les particuliers."
 category_slug: "organisation"
 prev_in_category:
   title: "BULL BITCOIN"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/commitment/
 category: "RGB"
 letter: "C"
 layout: definition
+description: "Un Commitment (au sens cryptographique) est un objet mathématique, noté , dérivé de façon déterministe à partir d'une opération sur une donnée..."
 french_term: "ENGAGEMENT"
 category_slug: "rgb"
 prev_in_category:

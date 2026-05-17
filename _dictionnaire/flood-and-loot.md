@@ -5,6 +5,7 @@ permalink: /dictionnaire/flood-and-loot/
 category: "ATTAQUE"
 letter: "F"
 layout: definition
+description: "Attaque sur le Lightning Network qui exploite le mécanisme des HTLC pour voler des fonds."
 category_slug: "attaque"
 prev_in_category:
   title: "FEE SNIPING"

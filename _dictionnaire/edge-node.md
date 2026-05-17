@@ -5,6 +5,7 @@ permalink: /dictionnaire/edge-node/
 category: "COUCHE SUPÉRIEURE"
 letter: "E"
 layout: definition
+description: "Nœud de routage spécialisé servant d'intermédiaire entre les portefeuilles Taproot Assets et le réseau Lightning classique."
 french_term: "NŒUD DE BORDURE"
 category_slug: "couche-superieure"
 prev_in_category:

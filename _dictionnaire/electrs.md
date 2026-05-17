@@ -5,6 +5,7 @@ permalink: /dictionnaire/electrs/
 category: "RÉSEAU"
 letter: "E"
 layout: definition
+description: "Implémentation open-source d'Electrum Server écrite en Rust. Le rôle d'un electrs est donc de maintenir un index complet des adresses et des..."
 category_slug: "reseau"
 prev_in_category:
   title: "DNS SEEDS"

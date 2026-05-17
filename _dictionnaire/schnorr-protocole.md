@@ -5,6 +5,7 @@ permalink: /dictionnaire/schnorr-protocole/
 category: "CRYPTOGRAPHIE"
 letter: "S"
 layout: definition
+description: "Le protocole de Schnorr est un algorithme de signatures électroniques établi sur la cryptographie sur les courbes elliptiques (ECC)."
 english_term: "SCHNORR PROTOCOL"
 category_slug: "cryptographie"
 prev_in_category:

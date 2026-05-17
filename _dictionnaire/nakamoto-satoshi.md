@@ -5,6 +5,7 @@ permalink: /dictionnaire/nakamoto-satoshi/
 category: "HISTOIRE"
 letter: "N"
 layout: definition
+description: "Pseudonyme de la personne ou du groupe qui a créé Bitcoin et écrit son livre blanc original en 2008 (White Paper)."
 category_slug: "histoire"
 prev_in_category:
   title: "MTGOX"

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-ripemd160-0xa6/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "Prend l'élément en haut de la pile et le remplace par son hachage en utilisant la fonction RIPEMD160."
 category_slug: "script"
 prev_in_category:
   title: "OP_RETURN - 0X6A"

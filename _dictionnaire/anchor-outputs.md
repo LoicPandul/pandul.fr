@@ -5,6 +5,7 @@ permalink: /dictionnaire/anchor-outputs/
 category: "LIGHTNING NETWORK"
 letter: "A"
 layout: definition
+description: "Proposition qui vise à améliorer la gestion des frais de transaction dans le cadre des canaux Lightning."
 french_term: "SORTIES D'ANCRAGE"
 category_slug: "lightning-network"
 prev_in_category:
