@@ -117,6 +117,63 @@ function checkTitleLength(html, errors) {
   }
 }
 
+// Phase 16 (D-06, check #6, anti-C3) — extraction du body texte d'une page HTML
+function extractBodyText(html) {
+  const bodyMatch = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
+  if (!bodyMatch) return '';
+  let body = bodyMatch[1];
+  body = body.replace(/<script\b[\s\S]*?<\/script>/gi, '');
+  body = body.replace(/<style\b[\s\S]*?<\/style>/gi, '');
+  body = body.replace(/<!--[\s\S]*?-->/g, '');
+  body = body.replace(/<[^>]+>/g, ' ');
+  body = body.replace(/&nbsp;/g, ' ')
+             .replace(/&amp;/g, '&')
+             .replace(/&lt;/g, '<')
+             .replace(/&gt;/g, '>')
+             .replace(/&#39;/g, "'")
+             .replace(/&quot;/g, '"');
+  return body.replace(/\s+/g, ' ').trim();
+}
+
+// Phase 16 — normalisation case + diacritique-insensible pour comparison
+function normalizeForCompare(s) {
+  return s.toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')  // strip diacritics (combining marks)
+    .replace(/[^\w\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Phase 16 — word overlap ratio (set intersection / set size of needle), mots > 2 chars seulement
+function wordOverlap(needle, haystack) {
+  const nwords = new Set(normalizeForCompare(needle).split(/\s+/).filter(function (w) { return w.length > 2; }));
+  const hwords = new Set(normalizeForCompare(haystack).split(/\s+/).filter(function (w) { return w.length > 2; }));
+  if (nwords.size === 0) return 1;
+  let hits = 0;
+  nwords.forEach(function (w) { if (hwords.has(w)) hits++; });
+  return hits / nwords.size;
+}
+
+// Phase 16 — check #6 : every description in @graph must substring-or-≥80%-overlap body text (anti-C3 / seuil 0.8)
+function checkDescriptionVsVisible(html, parsedGraph, errors) {
+  const body = extractBodyText(html);
+  if (!body) return;  // page sans body — skip
+  const normBody = normalizeForCompare(body);
+  for (const entity of parsedGraph) {
+    if (!entity || typeof entity !== 'object') continue;
+    if (!entity.description || typeof entity.description !== 'string') continue;
+    const desc = entity.description;
+    const normDesc = normalizeForCompare(desc);
+    if (normDesc.length === 0) continue;
+    if (normBody.indexOf(normDesc) >= 0) continue;  // PASS — substring direct
+    const overlap = wordOverlap(desc, body);
+    if (overlap < 0.8) {
+      errors.push('Entity ' + entity['@type'] + ' description not in body (overlap=' + (overlap * 100).toFixed(0) + '%) : "' + desc.substring(0, 60) + '..."');
+    }
+  }
+}
+
 if (!fs.existsSync(ROOT)) {
   console.error('ERROR: root directory not found: ' + ROOT);
   console.error('Run "bundle exec jekyll build" first.');
@@ -170,6 +227,8 @@ for (const file of walkHtml(ROOT)) {
         errors.push('Dangling @id reference: "' + ref + '" (not in @graph, not absolute IRI)');
       }
     }
+    // Check 6 (Phase 16, D-06, anti-C3) : description JSON-LD doit substring/overlap le body texte
+    checkDescriptionVsVisible(html, graphArr, errors);
   }
   // Phase 16 — checks page-level (un seul appel par fichier HTML, pas par JSON-LD block)
   checkMetaDescription(html, errors);
