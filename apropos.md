@@ -1,7 +1,7 @@
 ---
 title: "À propos"
 permalink: /a-propos/
-description: "Rédacteur — articles et formations sur Bitcoin."
+description: "J'écris des contenus pédagogiques, techniques et éditoriaux : articles, formations et tutoriels sur Bitcoin et son environnement."
 image: "/assets/img/social-card.png"
 seo_aboutpage: true   # D-02 routing flag - réservé Phase 15, consommé Phase 16 (GE-07)
 redirect_from:

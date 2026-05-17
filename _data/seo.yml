@@ -62,3 +62,17 @@ keywords:
   - "Lightning Network"
   - "Loïc Morel"
   - "Pandul"
+
+# Phase 16 — description per-page pour DefinedTermSet (D-03, D-09)
+# Source : dict-intro paragraph visible sur dictionnaire.md ligne 15 (variante loicizer ∈ [70, 155]).
+# Mots-clés single-source : dictionnaire, open source, collaboratif, recense, vocabulaire,
+# technique, Bitcoin, écosystème, disponible, gratuitement, en ligne.
+# Longueur : 147 chars (cible 70-155 — SO-02 + check #5 validator Plan 02).
+dictionnaire:
+  description: "Un dictionnaire open source et collaboratif qui recense le vocabulaire technique de Bitcoin et de son écosystème. Disponible gratuitement en ligne."
+
+# Phase 16 — description per-page pour AboutPage (D-03)
+# Source : about-intro paragraph visible sur apropos.md ligne 21 (réutilisation verbatim).
+# Longueur : 129 chars (cible 70-155). Single-source garantie (verbatim du visible).
+aboutpage:
+  description: "J'écris des contenus pédagogiques, techniques et éditoriaux : articles, formations et tutoriels sur Bitcoin et son environnement."
