@@ -1,6 +1,9 @@
 title: "Loïc Morel - Pandul"
-description: "Rédacteur Bitcoin"
-author: "Loïc Morel"
+description: "Pandul - Pédagogie Bitcoin par Loïc Morel. Tutoriels, articles, podcasts, dictionnaire interactif de 1408 définitions et formations pour comprendre Bitcoin en profondeur."
+author:
+  name: "Loïc Morel"
+  twitter: "Loic_Pandul"
+  url: "https://pandul.fr/a-propos/"
 lang: fr
 timezone: Europe/Paris
 
@@ -10,7 +13,7 @@ baseurl: ""
 
 permalink: pretty
 
-# Kramdown — proteger le contenu LaTeX ($$ delimiteurs)
+# Kramdown - proteger le contenu LaTeX ($$ delimiteurs)
 kramdown:
   math_engine: mathjax
 plugins:
@@ -21,11 +24,25 @@ plugins:
 include:
   - ".well-known"
 
-# Cloudflare Web Analytics (D-09 — token public by design, OK to commit)
+# Cloudflare Web Analytics (D-09 - token public by design, OK to commit)
 analytics:
   cloudflare_token: "48df3ac9740c4498836e138fc869e5f1"
 
-# Métadonnées SEO
+# Twitter Card (jekyll-seo-tag - D-02, ST-04)
+twitter:
+  username: "Loic_Pandul"
+  card: "summary_large_image"
+
+# Image globale par defaut (Open Graph fallback - D-05)
+image: "/assets/img/social-card.png"
+
+# Webmaster verifications (D-02, ST-04 - utiliser le bloc PAS top-level bing_site_verification)
+# Sera rempli avec les vraies valeurs en Plan 14-03b (demarche GSC + Bing)
+webmaster_verifications:
+  google: "REMPLIR_AVEC_TOKEN_GSC"
+  bing: "REMPLIR_AVEC_TOKEN_BING"
+
+# Metadonnees SEO
 logo: "/assets/img/social-card.png"
 social:
   name: "Loïc Morel - Pandul"
@@ -45,7 +62,7 @@ collections:
     output: true
     permalink: /dictionnaire/lettre/:slug/
 
-# Collections par défaut
+# Collections par defaut
 defaults:
   - scope: {path: ""}
     values:
@@ -54,11 +71,17 @@ defaults:
       type: dictionnaire
     values:
       layout: "definition"
+      sitemap:
+        priority: 0.8       # definitions - levier SEO principal (D-08)
   - scope:
       type: categorie
     values:
       layout: "category"
+      sitemap:
+        priority: 0.7       # categories (D-08)
   - scope:
       type: lettre
     values:
       layout: "letter"
+      sitemap:
+        priority: 0.5       # lettres A-Z (D-08)

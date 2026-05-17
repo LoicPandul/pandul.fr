@@ -9,7 +9,7 @@ organization:
   legal_name: "Ei Loïc Morel"
   url: "https://pandul.fr/"
   logo: "https://pandul.fr/assets/img/social-card.png"
-  description: "Pandul - Pédagogie Bitcoin par Loïc Morel. Tutoriels, articles, dictionnaire interactif et formations pour comprendre Bitcoin."
+  description: "Pandul - Pédagogie Bitcoin par Loïc Morel. Tutoriels, articles, podcasts, dictionnaire interactif de 1408 définitions et formations pour comprendre Bitcoin en profondeur."
   founding_date: "2021"
   founder_ref: "https://pandul.fr/#person-loic"  # reference Person par @id
   same_as:
