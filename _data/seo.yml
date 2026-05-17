@@ -1,0 +1,64 @@
+# _data/seo.yml - Donnees SEO consommees par les includes JSON-LD (Phase 15-16).
+# Pour Phase 14, ce fichier est depose en avance. Aucun layout ne le consomme encore.
+
+# Organisation (Pandul) - D-04
+organization:
+  type: "Organization"
+  id: "https://pandul.fr/#organization"
+  name: "Pandul"
+  legal_name: "Ei Loïc Morel"
+  url: "https://pandul.fr/"
+  logo: "https://pandul.fr/assets/img/social-card.png"
+  description: "Pandul - Pédagogie Bitcoin par Loïc Morel. Tutoriels, articles, dictionnaire interactif et formations pour comprendre Bitcoin."
+  founding_date: "2021"
+  founder_ref: "https://pandul.fr/#person-loic"  # reference Person par @id
+  same_as:
+    - "https://x.com/Loic_Pandul"
+    - "https://github.com/LoicPandul"
+
+# Person (Loïc Morel) - D-03
+person:
+  type: "Person"
+  id: "https://pandul.fr/#person-loic"
+  name: "Loïc Morel"
+  alternate_name: "Pandul"
+  url: "https://pandul.fr/a-propos/"
+  image: "https://pandul.fr/assets/img/profile.png"
+  job_title: "Pédagogue Bitcoin"
+  knows_about:
+    - "Bitcoin"
+    - "Lightning Network"
+    - "Cryptographie"
+    - "Confidentialité numérique"
+  same_as:
+    - "https://x.com/Loic_Pandul"
+    - "https://github.com/LoicPandul"
+    - "https://www.amazon.fr/stores/Loïc-Morel/author/B0GX5ZYL9F"
+  works_for_ref: "https://pandul.fr/#organization"
+
+# Open Graph defaults - D-05
+og:
+  default_image: "/assets/img/social-card.png"
+  default_image_width: 1200       # a verifier Phase 17 (SO-06)
+  default_image_height: 630       # a verifier Phase 17 (SO-06)
+  default_image_alt: "Pandul - Pédagogie Bitcoin par Loïc Morel"
+  default_locale: "fr_FR"
+  site_name: "Pandul"
+
+# WebSite (Phase 15 GE-02)
+website:
+  type: "WebSite"
+  id: "https://pandul.fr/#website"
+  url: "https://pandul.fr/"
+  name: "Pandul"
+  in_language: "fr"
+  publisher_ref: "https://pandul.fr/#organization"
+
+# Keywords site-wide (informationnel, peu utilise par moteurs modernes mais utile pour audit)
+keywords:
+  - "Bitcoin"
+  - "pédagogie Bitcoin"
+  - "dictionnaire Bitcoin"
+  - "Lightning Network"
+  - "Loïc Morel"
+  - "Pandul"
