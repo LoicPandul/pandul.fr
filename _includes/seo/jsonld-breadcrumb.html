@@ -1,6 +1,32 @@
 {%- comment -%}
-  Phase 16 placeholder : BreadcrumbList fragment (GE-05).
-  Sera consommé par jsonld-graph.html quand page.layout est definition, category, ou letter.
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : BreadcrumbList fragment (GE-05, D-11, T-02).
+  Paramétré via le paramètre 'items' passé à l'include (string comma-separated).
+  Levels acceptés : 'dictionary', 'category', 'letter', 'page'.
+  Usage :
+    {%- include seo/jsonld-breadcrumb.html items='dictionary,category,page' -%}  (definition)
+    {%- include seo/jsonld-breadcrumb.html items='dictionary,page' -%}            (category)
+    {%- include seo/jsonld-breadcrumb.html items='dictionary,letter' -%}          (letter)
+  T-02 : pas de langue déclarée (BreadcrumbList descend de Intangible, pas CreativeWork).
+  Le dernier ListItem omet le field URL (Google guidance : current page).
 {%- endcomment -%}
+{%- assign parts = include.items | split: ',' -%}
+{
+"@type":"BreadcrumbList",
+"@id":"{{ site.url }}{{ page.url }}#breadcrumb",
+"itemListElement":[
+{%- for part in parts -%}
+{%- assign pos = forloop.index -%}
+{%- assign is_last = forloop.last -%}
+{%- if part == 'dictionary' -%}
+{"@type":"ListItem","position":{{ pos }},"name":"Dictionnaire"{%- unless is_last -%},"item":"{{ site.url }}/dictionnaire/"{%- endunless -%}}
+{%- elsif part == 'category' -%}
+{"@type":"ListItem","position":{{ pos }},"name":{{ page.category | jsonify }}{%- unless is_last -%},"item":"{{ site.url }}/dictionnaire/categorie/{{ page.category_slug }}/"{%- endunless -%}}
+{%- elsif part == 'letter' -%}
+{"@type":"ListItem","position":{{ pos }},"name":"Lettre {{ page.letter }}"{%- unless is_last -%},"item":"{{ site.url }}/dictionnaire/lettre/{{ page.letter | downcase }}/"{%- endunless -%}}
+{%- elsif part == 'page' -%}
+{"@type":"ListItem","position":{{ pos }},"name":{{ page.title | jsonify }}}
+{%- endif -%}
+{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
+}
