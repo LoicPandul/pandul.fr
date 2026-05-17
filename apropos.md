@@ -3,6 +3,7 @@ title: "À propos"
 permalink: /a-propos/
 description: "Rédacteur — articles et formations sur Bitcoin."
 image: "/assets/img/social-card.png"
+seo_aboutpage: true   # D-02 routing flag - réservé Phase 15, consommé Phase 16 (GE-07)
 redirect_from:
   - /apropos/
   - /about/
