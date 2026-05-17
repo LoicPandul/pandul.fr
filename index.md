@@ -2,6 +2,8 @@
 title: "Loïc Morel - Contenus pédagogiques sur Bitcoin"
 description: "Formations, tutoriels, articles et podcasts sur Bitcoin par Loïc Morel. Dictionnaire de définitions techniques sur Bitcoin."
 image: /assets/img/social-card.png
+sitemap:
+  priority: 1.0       # D-08 niveau 4/5 - homepage (empreinte documentaire, plugin v1.4 n'emet pas <priority>)
 ---
 
 <section class="hero-section">

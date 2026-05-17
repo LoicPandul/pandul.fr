@@ -1,6 +1,8 @@
 ---
 title: "Dictionnaire"
 permalink: /dictionnaire/
+sitemap:
+  priority: 0.9       # D-08 niveau 5/5 - hub dictionnaire (empreinte documentaire)
 ---
 
 <div class="dict-hero">
