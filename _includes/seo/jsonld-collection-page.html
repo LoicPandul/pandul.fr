@@ -1,6 +1,14 @@
 {%- comment -%}
-  Phase 16 placeholder : CollectionPage fragment (GE-06).
-  Sera consommé par jsonld-graph.html quand page.layout est category ou letter.
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : CollectionPage fragment (GE-06, D-03).
+  Émis sur _layouts/category.html ET _layouts/letter.html.
+  D-03 : pas de prose libre (catégories/lettres n'ont pas de prose visible rédigée — fabriquer = C3).
+  inLanguage:fr valide ici (CollectionPage descend de CreativeWork).
 {%- endcomment -%}
+{
+"@type":"CollectionPage",
+"@id":"{{ site.url }}{{ page.url }}#collection",
+"url":"{{ site.url }}{{ page.url }}",
+"name":{%- if page.layout == 'letter' -%}"Lettre {{ page.letter }}"{%- else -%}{{ page.title | jsonify }}{%- endif -%},
+"inLanguage":"fr",
+"isPartOf":{"@id":"{{ site.url }}/dictionnaire/#defined-term-set"}
+}
