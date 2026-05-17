@@ -1,6 +1,18 @@
 {%- comment -%}
-  Phase 16 placeholder : AboutPage fragment (GE-07).
-  Sera consommé par jsonld-graph.html quand page.seo_aboutpage == true (flag posé sur apropos.md Task 5).
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : AboutPage fragment (GE-07, D-12).
+  Émis sur /a-propos/ uniquement (flag page.seo_aboutpage: true).
+  mainEntity = @id ref vers Person Loïc (single-source Phase 15).
+  description = site.data.seo.aboutpage.description (Plan 04 — verbatim about-intro OU loicizer variant).
+  inLanguage:fr valide ici (AboutPage descend de CreativeWork).
 {%- endcomment -%}
+{
+"@type":"AboutPage",
+"@id":"{{ site.url }}/a-propos/#aboutpage",
+"url":"{{ site.url }}/a-propos/",
+"name":{{ page.title | jsonify }},
+{%- if site.data.seo.aboutpage.description -%}
+"description":{{ site.data.seo.aboutpage.description | jsonify }},
+{%- endif -%}
+"inLanguage":"fr",
+"mainEntity":{"@id":"{{ site.data.seo.person.id }}"}
+}

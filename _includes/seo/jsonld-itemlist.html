@@ -1,6 +1,26 @@
 {%- comment -%}
-  Phase 16 placeholder : ItemList fragment (GE-06).
-  Sera consommé par jsonld-graph.html quand page.layout est category ou letter.
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : ItemList fragment (GE-06, D-04, T-02).
+  Full items (pas de cap, D-04). Ordre alphabétique sur name (cohérent layout visible).
+  T-02 : aucune langue déclarée (ItemList descend de Intangible).
+  Scope auto-détecté via page.layout (category ou letter) — pas besoin de variable explicite.
 {%- endcomment -%}
+{%- if page.layout == 'category' -%}
+{%- assign items_collection = site.dictionnaire | where: "category", page.title | sort: "title" -%}
+{%- elsif page.layout == 'letter' -%}
+{%- assign items_collection = site.dictionnaire | where: "letter", page.letter | sort: "title" -%}
+{%- else -%}
+{%- assign items_collection = "" | split: "" -%}
+{%- endif -%}
+{
+"@type":"ItemList",
+"@id":"{{ site.url }}{{ page.url }}#itemlist",
+"name":{%- if page.layout == 'letter' -%}"Lettre {{ page.letter }}"{%- else -%}{{ page.title | jsonify }}{%- endif -%},
+"numberOfItems":{{ items_collection | size }},
+"itemListOrder":"https://schema.org/ItemListOrderAscending",
+"itemListElement":[
+{%- for def in items_collection -%}
+{"@type":"ListItem","position":{{ forloop.index }},"name":{{ def.title | jsonify }},"url":"{{ site.url }}{{ def.url }}"}
+{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
+}

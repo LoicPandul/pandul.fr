@@ -1,21 +1,39 @@
 {%- comment -%}
   ============================================================
-  Orchestrator JSON-LD @graph (Phase 15, D-01 / GE-01 / GE-02)
+  Orchestrator JSON-LD @graph (Phase 15 D-01 + Phase 16 hybrid routing)
   Émet un unique <script type="application/ld+json"> par page.
   ============================================================
-  - Sitewide entities (toutes les pages, layout: default chaîne) :
-      WebSite, Organization, Person
-  - Phase 16 ajoutera : DefinedTerm, BreadcrumbList, DefinedTermSet,
-    CollectionPage, ItemList, AboutPage (via layout-detection + flags).
-  - Source data : _data/seo.yml (Phase 14 D-03/D-04/D-05).
-  - @id stables (immutable IRIs) : voir _data/seo.yml.
-  - Convention : un fragment = un objet JSON sans <script> wrapper.
-  - Forecast budget ~1130 bytes (RESEARCH §Budget Enforcement A2).
-  - Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 1.
+  Sitewide (toutes pages) : WebSite, Organization, Person
+  Layout-conditional (Phase 16) :
+    - definition  -> DefinedTerm + BreadcrumbList
+    - category    -> CollectionPage + ItemList + BreadcrumbList
+    - letter      -> CollectionPage + ItemList + BreadcrumbList
+  Flag-conditional (Phase 16) :
+    - seo_definedtermset (dictionnaire.md) -> DefinedTermSet
+    - seo_aboutpage      (apropos.md)      -> AboutPage
+  Budget par tier (validator Plan 02) :
+    - sitewide-only (homepage, 404) <=1.5 KB / 3 entries
+    - detail (definition, aboutpage) <=3 KB / 5 entries
+    - hub (category, letter, dictionnaire) <=30 KB / 6 entries
+  T-01 : DefinedTermSet sans field count.
+  T-02 : BreadcrumbList et ItemList sans déclaration de langue.
 {%- endcomment -%}
 {%- capture jsonld_website -%}{%- include seo/jsonld-website.html -%}{%- endcapture -%}
 {%- capture jsonld_organization -%}{%- include seo/jsonld-organization.html -%}{%- endcapture -%}
 {%- capture jsonld_person -%}{%- include seo/jsonld-person.html -%}{%- endcapture -%}
+{%- if page.layout == 'definition' -%}
+{%- capture jsonld_extra -%},{%- include seo/jsonld-defined-term.html -%},{%- include seo/jsonld-breadcrumb.html items='dictionary,category,page' -%}{%- endcapture -%}
+{%- elsif page.layout == 'category' -%}
+{%- capture jsonld_extra -%},{%- include seo/jsonld-collection-page.html -%},{%- include seo/jsonld-itemlist.html -%},{%- include seo/jsonld-breadcrumb.html items='dictionary,page' -%}{%- endcapture -%}
+{%- elsif page.layout == 'letter' -%}
+{%- capture jsonld_extra -%},{%- include seo/jsonld-collection-page.html -%},{%- include seo/jsonld-itemlist.html -%},{%- include seo/jsonld-breadcrumb.html items='dictionary,letter' -%}{%- endcapture -%}
+{%- elsif page.seo_definedtermset -%}
+{%- capture jsonld_extra -%},{%- include seo/jsonld-defined-term-set.html -%}{%- endcapture -%}
+{%- elsif page.seo_aboutpage -%}
+{%- capture jsonld_extra -%},{%- include seo/jsonld-aboutpage.html -%}{%- endcapture -%}
+{%- else -%}
+{%- capture jsonld_extra -%}{%- endcapture -%}
+{%- endif -%}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{{ jsonld_website }},{{ jsonld_organization }},{{ jsonld_person }}]}
+{"@context":"https://schema.org","@graph":[{{ jsonld_website }},{{ jsonld_organization }},{{ jsonld_person }}{{ jsonld_extra }}]}
 </script>

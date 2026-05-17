@@ -1,6 +1,25 @@
 {%- comment -%}
-  Phase 16 placeholder : DefinedTerm fragment (GE-03).
-  Sera consommé par jsonld-graph.html quand page.layout == definition.
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : DefinedTerm fragment (GE-03, GE-09, D-03, D-13).
+  Consommé par jsonld-graph.html quand page.layout == 'definition'.
+  description = page.description (single source, Pass 9 Plan 01).
+  alternateName : string si un seul english_term/french_term, array si les deux (D-13).
+  inDefinedTermSet : @id ref vers DefinedTermSet (cross-reference inverse, D-05).
 {%- endcomment -%}
+{
+"@type":"DefinedTerm",
+"@id":"{{ site.url }}{{ page.url }}#term",
+"name":{{ page.title | jsonify }},
+{%- if page.english_term and page.french_term -%}
+"alternateName":[{{ page.english_term | jsonify }},{{ page.french_term | jsonify }}],
+{%- elsif page.english_term -%}
+"alternateName":{{ page.english_term | jsonify }},
+{%- elsif page.french_term -%}
+"alternateName":{{ page.french_term | jsonify }},
+{%- endif -%}
+{%- if page.description -%}
+"description":{{ page.description | jsonify }},
+{%- endif -%}
+"url":"{{ site.url }}{{ page.url }}",
+"inLanguage":"fr",
+"inDefinedTermSet":{"@id":"{{ site.url }}/dictionnaire/#defined-term-set"}
+}
