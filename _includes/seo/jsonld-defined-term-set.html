@@ -1,6 +1,18 @@
 {%- comment -%}
-  Phase 16 placeholder : DefinedTermSet fragment (GE-04).
-  Sera consommé par jsonld-graph.html quand page.seo_definedtermset == true (flag posé sur dictionnaire.md Task 5).
-  Pas d'output Phase 15 — l'include retourne string vide.
-  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-CONTEXT.md §D-02 routing.
+  Phase 16 : DefinedTermSet fragment (GE-04, D-05).
+  Émis sur /dictionnaire/ uniquement (flag page.seo_definedtermset: true).
+  Minimal volontairement : pas de liste complète (D-05 — duplique sitemap, explose budget).
+  T-01 résolu : pas de field count (non valide Schema.org).
+  Cross-référence inverse : chaque DefinedTerm pointe vers ce set via inDefinedTermSet (D-05).
 {%- endcomment -%}
+{
+"@type":"DefinedTermSet",
+"@id":"{{ site.url }}/dictionnaire/#defined-term-set",
+"name":"Dictionnaire de Bitcoin",
+{%- if site.data.seo.dictionnaire.description -%}
+"description":{{ site.data.seo.dictionnaire.description | jsonify }},
+{%- endif -%}
+"url":"{{ site.url }}/dictionnaire/",
+"inLanguage":"fr",
+"publisher":{"@id":"{{ site.data.seo.organization.id }}"}
+}
