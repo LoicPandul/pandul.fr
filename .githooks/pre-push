@@ -1,0 +1,49 @@
+#!/bin/sh
+# ============================================================
+# Phase 15 pre-push hook (D-03 / GE-13)
+# ============================================================
+# Bloque tout `git push` qui livrerait du JSON-LD cassé en prod.
+# Loïc travaille direct sur main + GH Pages auto-deploy → seul un
+# hook local prévient un déploiement cassé (post-push trop tard).
+#
+# Flow :
+#   1. bundle exec jekyll build --quiet  (régénère _site/, si Gemfile présent)
+#      Fallback : jekyll build --quiet   (Plan 01 empirical : pas de Gemfile dans pandul.fr)
+#   2. node _scripts/validate-jsonld.js _site/  (4 checks D-04)
+#   3. Refus du push si l'un des deux échoue
+#
+# Setup one-time (à exécuter une fois par device) :
+#   git config core.hooksPath .githooks
+#
+# Bypass d'urgence (à NE PAS utiliser par défaut) :
+#   git push --no-verify
+#
+# Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 8
+# ============================================================
+set -e
+
+echo "[pre-push] Building Jekyll site..."
+if command -v bundle >/dev/null 2>&1 && [ -f Gemfile ]; then
+  # Préférence : bundle exec jekyll build --quiet (versions verrouillées via Gemfile.lock)
+  if ! bundle exec jekyll build --quiet; then
+    echo "[pre-push] BLOCKED: bundle exec jekyll build failed"
+    exit 1
+  fi
+else
+  # Fallback : jekyll direct (pandul.fr n'a pas de Gemfile aujourd'hui — Plan 01 SUMMARY)
+  if ! jekyll build --quiet; then
+    echo "[pre-push] BLOCKED: jekyll build failed"
+    exit 1
+  fi
+fi
+
+echo "[pre-push] Validating JSON-LD..."
+if ! node _scripts/validate-jsonld.js _site/; then
+  echo "[pre-push] BLOCKED: JSON-LD validation failed (see errors above)"
+  echo "[pre-push] Fix the JSON-LD source files and try again."
+  echo "[pre-push] Bypass: git push --no-verify (NOT recommended — defeats GE-13 safety)."
+  exit 1
+fi
+
+echo "[pre-push] OK — JSON-LD valid, push proceeding."
+exit 0
