@@ -20,7 +20,7 @@ const imagesDir = path.join(rootDir, 'assets', 'img', 'dictionnaire');
 
 let passed = 0;
 let failed = 0;
-const totalTests = 6;
+const totalTests = 7;
 
 function pass(num, msg) {
   console.log(`[${num}/${totalTests}] PASS: ${msg}`);
@@ -259,6 +259,101 @@ if (imagePathsOk && filesWithImages > 0) {
   fail(6, 'aucun fichier avec images trouve');
 } else {
   fail(6, `chemin non recrit dans ${imagePathError}`);
+}
+
+// --- Test 7 : description SEO (Pass 9, DI-05) sur N=10 echantillons ---
+// 5 random + 5 edge case (D-10).
+// Edge case cibles : terme court (<=3 chars), terme long (>=30 chars),
+// terme avec hyphen+digits (BIP-XX), definition LaTeX-heavy (math: true),
+// categorie marginale.
+
+// Selectionner 5 random
+const randomSamples = pickRandom(mdFiles, 5);
+
+// Selectionner 5 edge case en scannant les 1408
+const allFiles = mdFiles.slice();
+let shortTitle = null, longTitle = null, bipDigit = null, mathHeavy = null, marginalCat = null;
+
+for (const file of allFiles) {
+  const filePath = path.join(dictDir, file);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const fm = extractFrontMatter(content);
+  if (!fm) continue;
+  const titleMatch = fm.match(/^title:\s*"([^"]+)"$/m);
+  if (!titleMatch) continue;
+  const title = titleMatch[1];
+  const hasMath = /^math:\s*true/m.test(fm);
+  const catMatch = fm.match(/^category:\s*"([^"]+)"$/m);
+  const cat = catMatch ? catMatch[1] : '';
+
+  if (!shortTitle && title.length <= 3) shortTitle = file;
+  if (!longTitle && title.length >= 30) longTitle = file;
+  if (!bipDigit && /^BIP-?\d+/i.test(title)) bipDigit = file;
+  if (!mathHeavy && hasMath) mathHeavy = file;
+  if (!marginalCat && (cat === 'MUSIQUE' || cat === 'CULTURE' || cat === 'HISTOIRE')) marginalCat = file;
+
+  if (shortTitle && longTitle && bipDigit && mathHeavy && marginalCat) break;
+}
+
+const edgeSamples = [shortTitle, longTitle, bipDigit, mathHeavy, marginalCat].filter(Boolean);
+const samples = randomSamples.concat(edgeSamples);
+
+let descValid = true;
+let descError = '';
+let descChecked = 0;
+let descOmittedInSample = 0;
+
+for (const file of samples) {
+  if (!file) continue;
+  const filePath = path.join(dictDir, file);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const fm = extractFrontMatter(content);
+  if (!fm) {
+    descValid = false;
+    descError = `${file}: front matter introuvable`;
+    break;
+  }
+  const descMatch = fm.match(/^description:\s*"((?:[^"\\]|\\.)*)"$/m);
+  if (!descMatch) {
+    // description omise par Pass 9 (corpus insuffisant) -- tolere
+    // Sur N=10, si TOUS sont omis -> probablement bug Pass 9 ; si 1-2 omis -> tolere.
+    descOmittedInSample++;
+    continue;
+  }
+  // Unescape les \" YAML pour mesurer la vraie longueur
+  const desc = descMatch[1].replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+  const len = desc.length;
+  if (len < 70 || len > 155) {
+    descValid = false;
+    descError = `${file}: description length ${len} hors [70, 155] : "${desc.substring(0, 50)}..."`;
+    break;
+  }
+  // Pas de markdown brut
+  if (/\*\*|(?<!\\)\*[^*]|\[[^\]]+\]\(http|`[^`]+`/.test(desc)) {
+    descValid = false;
+    descError = `${file}: description contient du markdown brut : "${desc.substring(0, 50)}..."`;
+    break;
+  }
+  // Au moins 3 mots significatifs (>3 chars)
+  const words = desc.split(/\s+/).filter(w => w.length > 3);
+  if (words.length < 3) {
+    descValid = false;
+    descError = `${file}: description contient moins de 3 mots significatifs (${words.length})`;
+    break;
+  }
+  descChecked++;
+}
+
+// Si TOUS les samples sont omis -> bug Pass 9 (regression)
+if (descValid && descChecked === 0 && samples.length > 0) {
+  descValid = false;
+  descError = `aucun des ${samples.length} echantillons n'a de description (regression Pass 9 ?)`;
+}
+
+if (descValid) {
+  pass(7, `description SEO valide sur ${descChecked}/${samples.length} echantillons (${descOmittedInSample} omis)`);
+} else {
+  fail(7, descError);
 }
 
 // === Resultat final ===
