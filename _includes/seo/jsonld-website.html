@@ -1,0 +1,10 @@
+{%- comment -%}
+  Fragment JSON-LD WebSite (Phase 15, D-01, GE-02).
+  Source : site.data.seo.website (Phase 14 D-04, augmented Phase 15).
+  @id stable : https://pandul.fr/#website (immutable, Phase 16+ references).
+  Pas de description (D-05 anti-fabrication, website.description absent dans seo.yml).
+  Pas de SearchAction (D-06 skip définitif).
+  inLanguage source : site.data.seo.website.in_language ("fr" — single-source).
+  Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 2.
+{%- endcomment -%}
+{"@type":"WebSite","@id":"{{ site.data.seo.website.id }}","url":"{{ site.data.seo.website.url }}","name":{{ site.data.seo.website.name | jsonify }},"inLanguage":"{{ site.data.seo.website.in_language }}","publisher":{"@id":"{{ site.data.seo.website.publisher_ref }}"}}

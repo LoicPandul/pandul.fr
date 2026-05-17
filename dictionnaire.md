@@ -3,6 +3,7 @@ title: "Dictionnaire"
 permalink: /dictionnaire/
 sitemap:
   priority: 0.9       # D-08 niveau 5/5 - hub dictionnaire (empreinte documentaire)
+seo_definedtermset: true   # D-02 routing flag - réservé Phase 15, consommé Phase 16 (GE-04)
 ---
 
 <div class="dict-hero">
