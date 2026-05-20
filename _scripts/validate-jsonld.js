@@ -26,8 +26,8 @@ const BUDGET_TIERS = {
 
 // Phase 16 : whitelist des types qui n'héritent PAS de inLanguage (T-02 mitigation).
 // BreadcrumbList, ItemList, ListItem : descendent de Intangible.
-// Organization, Person : descendent de Thing (pas CreativeWork) — inLanguage ne s'applique pas sémantiquement.
-const INLANGUAGE_EXEMPT_TYPES = new Set(['BreadcrumbList', 'ItemList', 'ListItem', 'Organization', 'Person']);
+// Organization, Person, DefinedTerm : descendent de Thing/Intangible (pas CreativeWork) — Schema.org Validator les warn sinon.
+const INLANGUAGE_EXEMPT_TYPES = new Set(['BreadcrumbList', 'ItemList', 'ListItem', 'Organization', 'Person', 'DefinedTerm']);
 
 // Regex éprouvée empiriquement (RESEARCH §A4) — ne PAS modifier (T-15-02).
 const SCRIPT_RE = /<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
