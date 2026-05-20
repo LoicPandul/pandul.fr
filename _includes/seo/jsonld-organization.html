@@ -1,8 +1,8 @@
 {%- comment -%}
-  Fragment JSON-LD Organization (Phase 15, D-01, GE-02).
+  Fragment JSON-LD Organization (Phase 15, D-01, GE-02 ; corrigé Phase 16 closure).
   Source : site.data.seo.organization (Phase 14 D-04).
   @id stable : https://pandul.fr/#organization (immutable, Phase 16+ references).
-  description PRÉSENTE (single-source D-05) — vient de _data/seo.yml organization.description (tirets simples, pas d'em dash).
+  description retirée (Phase 16 closure fix #2) : optionnelle sur Organization, et le texte sitewide ne pouvait pas être verbatim dans le body de chaque page (anti-C3, check #6 du validator).
   Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 3.
 {%- endcomment -%}
-{"@type":"Organization","@id":"{{ site.data.seo.organization.id }}","name":{{ site.data.seo.organization.name | jsonify }},"url":"{{ site.data.seo.organization.url }}","logo":"{{ site.data.seo.organization.logo }}","description":{{ site.data.seo.organization.description | jsonify }},"founder":{"@id":"{{ site.data.seo.organization.founder_ref }}"},"sameAs":[{%- for u in site.data.seo.organization.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]}
+{"@type":"Organization","@id":"{{ site.data.seo.organization.id }}","name":{{ site.data.seo.organization.name | jsonify }},"url":"{{ site.data.seo.organization.url }}","logo":"{{ site.data.seo.organization.logo }}","founder":{"@id":"{{ site.data.seo.organization.founder_ref }}"},"sameAs":[{%- for u in site.data.seo.organization.same_as -%}"{{ u }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]}
