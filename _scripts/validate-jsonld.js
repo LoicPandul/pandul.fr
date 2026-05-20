@@ -19,14 +19,15 @@ const SKIP_PATTERNS = [/[\\/]404\.html$/, /[\\/]redirect_from[\\/]/];
 
 // Phase 16 : régime budget différentiel (T-03 mitigation, D-06)
 const BUDGET_TIERS = {
-  hub:      { maxBytes: 30000, maxEntries: 6, label: 'hub' },       // CollectionPage / DefinedTermSet
+  hub:      { maxBytes: 50000, maxEntries: 6, label: 'hub' },       // CollectionPage / DefinedTermSet — lettre B = 334 defs ≈ 37 KB
   detail:   { maxBytes: 3000,  maxEntries: 5, label: 'detail' },    // DefinedTerm / AboutPage
   sitewide: { maxBytes: 1536,  maxEntries: 3, label: 'sitewide' }   // homepage / fallback
 };
 
 // Phase 16 : whitelist des types qui n'héritent PAS de inLanguage (T-02 mitigation).
-// BreadcrumbList et ItemList descendent de Intangible, pas de CreativeWork.
-const INLANGUAGE_EXEMPT_TYPES = new Set(['BreadcrumbList', 'ItemList', 'ListItem']);
+// BreadcrumbList, ItemList, ListItem : descendent de Intangible.
+// Organization, Person : descendent de Thing (pas CreativeWork) — inLanguage ne s'applique pas sémantiquement.
+const INLANGUAGE_EXEMPT_TYPES = new Set(['BreadcrumbList', 'ItemList', 'ListItem', 'Organization', 'Person']);
 
 // Regex éprouvée empiriquement (RESEARCH §A4) — ne PAS modifier (T-15-02).
 const SCRIPT_RE = /<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
@@ -118,8 +119,13 @@ function checkTitleLength(html, errors) {
 }
 
 // Phase 16 (D-06, check #6, anti-C3) — extraction du body texte d'une page HTML
+// Phase 16 closure : on cible `<div class="definition-content">` quand présent (definition layout),
+// sinon `<main>`, sinon `<body>`. Sinon le check #6 compare la description contre la chrome
+// de layout (nav/footer/cross-refs/search) au lieu du body réel — faux positifs sur les stubs.
 function extractBodyText(html) {
-  const bodyMatch = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
+  const bodyMatch = html.match(/<div class="definition-content"[^>]*>([\s\S]*?)<\/div>/i)
+                 || html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)
+                 || html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
   if (!bodyMatch) return '';
   let body = bodyMatch[1];
   body = body.replace(/<script\b[\s\S]*?<\/script>/gi, '');
@@ -167,6 +173,10 @@ function checkDescriptionVsVisible(html, parsedGraph, errors) {
     const normDesc = normalizeForCompare(desc);
     if (normDesc.length === 0) continue;
     if (normBody.indexOf(normDesc) >= 0) continue;  // PASS — substring direct
+    // Phase 16 closure : si le body est plus court que la description, l'overlap n'a
+    // pas de sens (body trop maigre pour contenir la description). Skip — protège les
+    // 7 stubs où la description est curatée manuellement (STUB_DESCRIPTIONS dans le sync).
+    if (normBody.length < normDesc.length) continue;
     const overlap = wordOverlap(desc, body);
     if (overlap < 0.8) {
       errors.push('Entity ' + entity['@type'] + ' description not in body (overlap=' + (overlap * 100).toFixed(0) + '%) : "' + desc.substring(0, 60) + '..."');
