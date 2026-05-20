@@ -2,6 +2,7 @@
 title: "Dictionnaire"
 permalink: /dictionnaire/
 description: "Un dictionnaire open source et collaboratif qui recense le vocabulaire technique de Bitcoin et de son écosystème. Disponible gratuitement en ligne."
+image: /assets/img/dictionnaire-social-card.png
 sitemap:
   priority: 0.9       # D-08 niveau 5/5 - hub dictionnaire (empreinte documentaire)
 seo_definedtermset: true   # D-02 routing flag - réservé Phase 15, consommé Phase 16 (GE-04)

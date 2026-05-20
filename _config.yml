@@ -73,17 +73,20 @@ defaults:
       type: dictionnaire
     values:
       layout: "definition"
+      image: "/assets/img/dictionnaire-social-card.png"
       sitemap:
         priority: 0.8       # definitions - levier SEO principal (D-08)
   - scope:
       type: categorie
     values:
       layout: "category"
+      image: "/assets/img/dictionnaire-social-card.png"
       sitemap:
         priority: 0.7       # categories (D-08)
   - scope:
       type: lettre
     values:
       layout: "letter"
+      image: "/assets/img/dictionnaire-social-card.png"
       sitemap:
         priority: 0.5       # lettres A-Z (D-08)
