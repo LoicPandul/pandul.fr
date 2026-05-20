@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-1add-0x8b/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "OP_1ADD (0x8b) est un opcode Bitcoin Script qui ajoute 1 à la valeur entière située en haut de la pile d'exécution."
 category_slug: "script"
 prev_in_category:
   title: "OP_1 - 0X51"

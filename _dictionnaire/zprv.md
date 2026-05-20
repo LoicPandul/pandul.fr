@@ -5,6 +5,7 @@ permalink: /dictionnaire/zprv/
 category: "PORTEFEUILLE"
 letter: "Z"
 layout: definition
+description: "ZPRV est le préfixe d'une clé privée étendue utilisée pour dériver les comptes SegWit V0 (P2WPKH natif) sur Bitcoin."
 category_slug: "portefeuille"
 prev_in_category:
   title: "YPUB"

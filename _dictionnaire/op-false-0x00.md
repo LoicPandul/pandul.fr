@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-false-0x00/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "OP_FALSE (0x00) est un opcode Bitcoin Script identique à OP_0 — il empile une valeur nulle (interprétée comme « faux ») sur la pile."
 category_slug: "script"
 prev_in_category:
   title: "OP_EVAL"

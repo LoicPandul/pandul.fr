@@ -5,6 +5,7 @@ permalink: /dictionnaire/taro/
 category: "COUCHE SUPÉRIEURE"
 letter: "T"
 layout: definition
+description: "Taro est l'ancien nom du protocole Taproot Assets Protocol, qui permet d'émettre des actifs natifs sur Bitcoin via Taproot."
 category_slug: "couche-superieure"
 prev_in_category:
   title: "TAPROOT ASSETS PROTOCOL"

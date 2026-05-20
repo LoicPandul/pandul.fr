@@ -35,6 +35,21 @@ const outputDir = path.join(rootDir, '_dictionnaire');
 const imagesOutputBase = path.join(rootDir, 'assets', 'img', 'dictionnaire');
 const searchIndexPath = path.join(rootDir, 'assets', 'data', 'search-index.json');
 
+// Phase 16 closure (fix #4) : descriptions manuelles pour 7 stubs dont le body source
+// est trop court pour que Pass 9 extraie ≥70 chars (D-02 anti-C3). Loïc-authored.
+// Stopgap tant que les bodies sources dans le repo Dictionnaire ne sont pas étendus.
+// Si Pass 9 réussit à extraire ≥70 chars un jour (body source étendu), l'entrée ici
+// est ignorée — l'extraction body-grounded gagne toujours.
+const STUB_DESCRIPTIONS = {
+  'cln-c-lightning': '« CLN » désigne aujourd\'hui Core-Lightning. « C-Lightning » est l\'ancien nom de cette implémentation Lightning Network.',
+  'crypter': '« Crypter » est un anglicisme qui n\'existe pas en français. Le terme correct pour parler du chiffrement de données est « chiffrer ».',
+  'op-1add-0x8b': 'OP_1ADD (0x8b) est un opcode Bitcoin Script qui ajoute 1 à la valeur entière située en haut de la pile d\'exécution.',
+  'op-1sub-0x8c': 'OP_1SUB (0x8c) est un opcode Bitcoin Script qui soustrait 1 à la valeur entière située en haut de la pile d\'exécution.',
+  'op-false-0x00': 'OP_FALSE (0x00) est un opcode Bitcoin Script identique à OP_0 — il empile une valeur nulle (interprétée comme « faux ») sur la pile.',
+  'taro': 'Taro est l\'ancien nom du protocole Taproot Assets Protocol, qui permet d\'émettre des actifs natifs sur Bitcoin via Taproot.',
+  'zprv': 'ZPRV est le préfixe d\'une clé privée étendue utilisée pour dériver les comptes SegWit V0 (P2WPKH natif) sur Bitcoin.'
+};
+
 // --- Verification du dossier source ---
 
 if (!fs.existsSync(definitionsSourceDir)) {
@@ -361,6 +376,7 @@ console.log(`Passe 2 : cross-references resolues (${unresolvedCount} non resolue
 // Insere AVANT Pass 3 pour que les DEUX boucles de generation (Pass 3 ligne ~381
 // et Pass 5 re-gen ligne ~471) emettent automatiquement le field description.
 let descriptionComputed = 0;
+let descriptionStub = 0;
 let descriptionOmitted = 0;
 for (const def of definitions) {
   const defMdPath = path.join(def._sourceDir, 'definition.md');
@@ -373,12 +389,15 @@ for (const def of definitions) {
   if (desc) {
     def.description = desc;
     descriptionComputed++;
+  } else if (STUB_DESCRIPTIONS[def.slug]) {
+    def.description = STUB_DESCRIPTIONS[def.slug];
+    descriptionStub++;
   } else {
     descriptionOmitted++;
     console.warn(`WARN Passe 9 : description omise pour ${def.slug} (corpus insuffisant)`);
   }
 }
-console.log(`Passe 9 : meta description calculee (${descriptionComputed} ok, ${descriptionOmitted} omises)`);
+console.log(`Passe 9 : meta description calculee (${descriptionComputed} body, ${descriptionStub} stubs, ${descriptionOmitted} omises)`);
 
 if (dryRun) {
   console.log('');

@@ -5,6 +5,7 @@ permalink: /dictionnaire/op-1sub-0x8c/
 category: "SCRIPT"
 letter: "O"
 layout: definition
+description: "OP_1SUB (0x8c) est un opcode Bitcoin Script qui soustrait 1 à la valeur entière située en haut de la pile d'exécution."
 category_slug: "script"
 prev_in_category:
   title: "OP_1NEGATE - 0X4F"

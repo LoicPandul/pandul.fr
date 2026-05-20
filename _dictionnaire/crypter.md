@@ -5,6 +5,7 @@ permalink: /dictionnaire/crypter/
 category: "CRYPTOGRAPHIE"
 letter: "C"
 layout: definition
+description: "« Crypter » est un anglicisme qui n'existe pas en français. Le terme correct pour parler du chiffrement de données est « chiffrer »."
 category_slug: "cryptographie"
 prev_in_category:
   title: "CRYPTANALYSE"
