@@ -22,9 +22,25 @@
   {%- assign seo_open_split = seo_html | split: '<script type="application/ld+json">' -%}
   {%- if seo_open_split.size > 1 -%}
     {%- assign seo_close_split = seo_open_split[1] | split: '</script>' -%}
-    {{- seo_open_split[0] -}}{{- seo_close_split[1] -}}
+    {%- capture seo_clean -%}{{- seo_open_split[0] -}}{{- seo_close_split[1] -}}{%- endcapture -%}
   {%- else -%}
-    {{- seo_html -}}
+    {%- assign seo_clean = seo_html -%}
+  {%- endif -%}
+  {%- comment -%}
+    Phase 16 closure fix #3 — override homepage <title> to ≤65 chars (SO-01).
+    jekyll-seo-tag concatène "{page.title} | {site.title}" → 68 chars sur la homepage.
+    On strip le <title>...</title> émis et on émet une version courte (page.title seul, sans suffix site.title).
+  {%- endcomment -%}
+  {%- if page.url == "/" -%}
+    {%- assign title_split = seo_clean | split: '<title>' -%}
+    {%- if title_split.size > 1 -%}
+      {%- assign title_close = title_split[1] | split: '</title>' -%}
+      {{- title_split[0] -}}<title>{{ page.title }}</title>{{- title_close[1] -}}
+    {%- else -%}
+      {{- seo_clean -}}
+    {%- endif -%}
+  {%- else -%}
+    {{- seo_clean -}}
   {%- endif -%}
 
   {%- include seo/meta.html -%}
