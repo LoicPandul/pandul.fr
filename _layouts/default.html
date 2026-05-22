@@ -27,6 +27,12 @@
     {%- assign seo_clean = seo_html -%}
   {%- endif -%}
   {%- comment -%}
+    Phase 17 Wave 3 fix — Twitter Cards spec requires name="twitter:*" not property="twitter:*".
+    Le gem v2.8.0 hardcode property= pour twitter:image et twitter:title (le reste utilise name=).
+    On corrige la sortie capturée avant emission pour que X compose preview rende l'image.
+  {%- endcomment -%}
+  {%- assign seo_clean = seo_clean | replace: '<meta property="twitter:image"', '<meta name="twitter:image"' | replace: '<meta property="twitter:title"', '<meta name="twitter:title"' -%}
+  {%- comment -%}
     Phase 16 closure fix #3 — override homepage <title> to ≤65 chars (SO-01).
     jekyll-seo-tag concatène "{page.title} | {site.title}" → 68 chars sur la homepage.
     On strip le <title>...</title> émis et on émet une version courte (page.title seul, sans suffix site.title).
