@@ -41,6 +41,6 @@ OP_EQUALVERIFY
 OP_CHECKSIG
 ```
 
-![](/assets/img/dictionnaire/scriptsig/image-1.png)
+![ScriptSig en input avec cadenas ouvert et ScriptPubKey verrouillant l'output : le couple valide la dépense d'un UTXO.](/assets/img/dictionnaire/scriptsig/image-1.png)
 
 *Le `scriptSig` est également parfois nommé « unlocking script » ou « script de déverrouillage » en français.*

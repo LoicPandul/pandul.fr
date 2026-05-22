@@ -23,4 +23,4 @@ cross_references:
 
 On dit d'une réutilisation d'adresse qu'elle est « externe » lorsqu'elle survient sur plusieurs transactions différentes. Dans cette configuration, la réutilisation d'adresse externe est une heuristique d'analyse de chaîne qui permet d'émettre une hypothèse vraisemblable selon laquelle toutes ces adresses appartiennent à une même entité.
 
-![](/assets/img/dictionnaire/reutilisation-d-adresse-ext/image-1.png)
+![Réutilisation externe : la même adresse bc1q...xyz apparaît dans trois transactions distinctes, signe d'un propriétaire commun.](/assets/img/dictionnaire/reutilisation-d-adresse-ext/image-1.png)

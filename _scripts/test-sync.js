@@ -238,8 +238,8 @@ for (const file of mdFiles) {
   filesWithImages++;
 
   for (const ref of imageRefs) {
-    // Extraire le chemin
-    const pathMatch = ref.match(/\(([^)]+)\)/);
+    // Extraire le chemin (apres le dernier "](" pour eviter de capturer les parens dans l'alt text)
+    const pathMatch = ref.match(/\]\(([^)]+)\)$/);
     if (!pathMatch) continue;
     const imgPath = pathMatch[1];
 
