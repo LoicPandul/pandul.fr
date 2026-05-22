@@ -39,8 +39,8 @@ person:
 # Open Graph defaults - D-05
 og:
   default_image: "/assets/img/social-card.png"
-  default_image_width: 1200       # a verifier Phase 17 (SO-06)
-  default_image_height: 630       # a verifier Phase 17 (SO-06)
+  default_image_width: 2560       # verifie Phase 17 SO-06 — aligne sur dimensions PNG reelles, re-export 1200x630 deferred v1.3 (D-12)
+  default_image_height: 1440      # verifie Phase 17 SO-06 — aligne sur dimensions PNG reelles, re-export 1200x630 deferred v1.3 (D-12)
   default_image_alt: "Pandul - Pédagogie Bitcoin par Loïc Morel"
   default_locale: "fr_FR"
   site_name: "Pandul"
