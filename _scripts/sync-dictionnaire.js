@@ -16,6 +16,46 @@ const path = require('path');
 
 // --- Parsing des arguments CLI ---
 
+// Passe 10 (Phase 18 D-Sanit-01..03) : strip patterns de prompt injection du body Markdown
+// avant serialisation finale. Defensif — pas critical-path. Probabilite d'occurrence
+// legitime ≈ 0 vu scope dictionnaire Bitcoin pur. Idempotent.
+// Patterns (D-Sanit-01) :
+//   - html_comment          : commentaires HTML multi-ligne
+//   - ignore_instructions   : instructions explicites "ignore previous instructions" + variantes
+//   - role_marker           : roles fake "system:" / "assistant:" / "user:" en start-of-line
+//   - identity_affirmation  : "you are now/a/an X" / "act as X" / "pretend to be" / "roleplay as"
+// Note Rule 1 fix : "act as" et "you are" elargis a "act as <mot>" / "you are <mot>" pour
+// couvrir "act as Satoshi", "act as bot", "you are a bot", etc. Le scope Bitcoin pur garantit
+// faux positifs nuls (aucune definition n'utilise "you are now/a/an X" ou "act as X" en EN).
+const SANITIZATION_PATTERNS = [
+  { name: 'html_comment',          regex: /<!--[\s\S]*?-->/g },
+  { name: 'ignore_instructions',   regex: /\b(ignore|disregard|forget)\s+(previous|the\s+above|all)\s+(instructions|prompts)\b/gi },
+  { name: 'role_marker',           regex: /(^|\n)\s*(system|assistant|user)\s*:/gi },
+  { name: 'identity_affirmation',  regex: /\b(you\s+are\s+(now|a|an|\w+)|act\s+as\s+\w+|pretend\s+to\s+be|roleplay\s+as)\b/gi }
+];
+
+function sanitizeBody(body) {
+  if (!body || typeof body !== 'string') return { sanitized: body || '', hits: [] };
+  const hits = [];
+  let sanitized = body;
+  for (const { name, regex } of SANITIZATION_PATTERNS) {
+    sanitized = sanitized.replace(regex, (match) => {
+      hits.push({ pattern: name, match: match.substring(0, 60) });
+      return '';
+    });
+  }
+  return { sanitized, hits };
+}
+
+// Exports for testability (Phase 18 Task 1)
+module.exports = { sanitizeBody, SANITIZATION_PATTERNS };
+
+// Si require'd depuis un test (test-sync.js Test 8), ne pas executer le sync principal
+// (qui ecrirait 1408 fichiers et tenterait de lire le repo source Dictionnaire).
+if (require.main !== module) {
+  return;
+}
+
 const args = process.argv.slice(2);
 let sourcePath = path.resolve('..', 'Dictionnaire');
 let dryRun = false;
@@ -371,6 +411,10 @@ for (const def of definitions) {
 
 console.log(`Passe 2 : cross-references resolues (${unresolvedCount} non resolues)`);
 
+// Passe 10 — accumulateur global pour summary final (D-Sanit-03)
+// (SANITIZATION_PATTERNS + sanitizeBody declares plus haut, before require.main guard)
+const sanitizationHits = [];
+
 // Passe 9 (D-01, D-02, SO-03) : calculer meta description sur le body source.
 // Precompute pour eviter regex en Liquid au build time (C5 mitigation).
 // Insere AVANT Pass 3 pour que les DEUX boucles de generation (Pass 3 ligne ~381
@@ -439,6 +483,14 @@ for (const def of definitions) {
 
   // Convertir les delimiteurs LaTeX $...$ en $$...$$ pour kramdown
   content = convertLatexDelimiters(content);
+
+  // Passe 10 — sanitization anti-prompt-injection (D-Sanit-02)
+  const sanRes3 = sanitizeBody(content);
+  content = sanRes3.sanitized;
+  for (const hit of sanRes3.hits) {
+    console.log(`[Pass 10] ${def.slug}: stripped "${hit.pattern}" → "${hit.match}..."`);
+    sanitizationHits.push({ slug: def.slug, pass: 3, ...hit });
+  }
 
   // Generer le front matter
   const frontMatter = generateFrontMatter(def);
@@ -519,6 +571,13 @@ for (const def of definitions) {
   }
   content = rewriteImagePaths(content, def.slug);
   content = convertLatexDelimiters(content);
+  // Passe 10 — sanitization anti-prompt-injection (re-applied in Pass 5 re-gen, D-Sanit-02)
+  const sanRes5 = sanitizeBody(content);
+  content = sanRes5.sanitized;
+  for (const hit of sanRes5.hits) {
+    console.log(`[Pass 10] ${def.slug}: stripped "${hit.pattern}" → "${hit.match}..."`);
+    sanitizationHits.push({ slug: def.slug, pass: 5, ...hit });
+  }
   const frontMatter = generateFrontMatter(def);
   const outputFile = path.join(outputDir, `${def.slug}.md`);
   const fileContent = frontMatter + '\n\n' + content;
@@ -647,6 +706,16 @@ for (const letter of alphabet) {
 const statsPath = path.join(dataDir2, 'dictionnaire-stats.yml');
 fs.writeFileSync(statsPath, statsYaml.replace(/\r\n/g, '\n'), 'utf8');
 console.log(`Passe 8 : _data/dictionnaire-stats.yml genere (${definitions.length} definitions, ${categoryGroups.size} categories)`);
+
+// Passe 10 summary (D-Sanit-03)
+if (sanitizationHits.length === 0) {
+  console.log(`[Pass 10] No injection patterns detected (${definitions.length} definitions clean)`);
+} else {
+  const breakdown = {};
+  for (const h of sanitizationHits) breakdown[h.pattern] = (breakdown[h.pattern] || 0) + 1;
+  const affectedSlugs = new Set(sanitizationHits.map(h => h.slug)).size;
+  console.log(`[Pass 10 summary] Stripped ${sanitizationHits.length} occurrences across ${affectedSlugs} definitions (${JSON.stringify(breakdown)})`);
+}
 
 // Stats finales
 console.log('');
