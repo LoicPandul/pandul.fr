@@ -1,0 +1,31 @@
+---
+permalink: /llms.txt
+layout: null
+sitemap: false
+---
+# Pandul
+
+> {{ site.data.seo.person.description }}
+
+Pandul est le projet pédagogique Bitcoin de Loïc Morel. Le site rassemble formations, tutoriels, articles, podcasts et un dictionnaire interactif de {{ site.data.dictionnaire-stats.total }} définitions techniques sur Bitcoin et son écosystème.
+
+## Pages clés
+
+- [Accueil - Pandul](https://pandul.fr/) : catalogue de contenus pédagogiques Bitcoin de Loïc Morel (formations Plan B Academy, tutoriels Bitstack, podcasts Space Kek, productions Découvre Bitcoin).
+- [Dictionnaire Bitcoin](https://pandul.fr/dictionnaire/) : {{ site.data.dictionnaire-stats.total }} définitions techniques sur Bitcoin, organisées en {{ site.data.dictionnaire-stats.category_count }} catégories thématiques et navigables de A à Z.
+- [À propos](https://pandul.fr/a-propos/) : biographie de Loïc Morel, prestations de rédaction et de conception pédagogique sur Bitcoin.
+- [Bloc Zéro](https://pandul.fr/bloc-zero/) : page dédiée au livre Bloc Zéro de Loïc Morel.
+
+## Dictionnaire
+
+Le Dictionnaire de Bitcoin est un ouvrage open source et collaboratif qui recense le vocabulaire technique de Bitcoin et de son écosystème. Disponible gratuitement en ligne.
+
+- {{ site.data.dictionnaire-stats.total }} définitions
+- {{ site.data.dictionnaire-stats.category_count }} catégories thématiques
+- 26 lettres de l'alphabet
+- URL : https://pandul.fr/dictionnaire/
+
+## Catégories
+
+{% for cat in site.data.dictionnaire-stats.categories %}- [{{ cat.name }}](https://pandul.fr/dictionnaire/categorie/{{ cat.slug }}/) : {{ cat.count }} définitions de la catégorie {{ cat.name }}.
+{% endfor %}

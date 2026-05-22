@@ -17,11 +17,15 @@ organization:
     - "https://github.com/LoicPandul"
 
 # Person (Loïc Morel) - D-03
+# Phase 18 — description ancrée sur apropos.md visible (lignes 20-21 : "Rédacteur spécialisé
+# sur Bitcoin" + "J'écris des contenus pédagogiques, techniques et éditoriaux..."), loicizer
+# rédigée. Single-source convention Phase 15 D-05 + anti-fabrication Phase 16 D-03. 145 chars.
 person:
   type: "Person"
   id: "https://pandul.fr/#person-loic"
   name: "Loïc Morel"
   alternate_name: "Pandul"
+  description: "Loïc Morel, rédacteur spécialisé sur Bitcoin. Articles, formations et tutoriels pédagogiques et techniques sur Bitcoin et son environnement."
   url: "https://pandul.fr/a-propos/"
   image: "https://pandul.fr/assets/img/profile.png"
   job_title: "Pédagogue Bitcoin"
