@@ -24,6 +24,14 @@ plugins:
 include:
   - ".well-known"
 
+exclude:
+  - "CLAUDE.md"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "_scripts/"
+  - ".githooks/"
+
 # Cloudflare Web Analytics (D-09 - token public by design, OK to commit)
 analytics:
   cloudflare_token: "48df3ac9740c4498836e138fc869e5f1"
