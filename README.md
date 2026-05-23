@@ -2,5 +2,5 @@
 
 Loïc Morel
 
-Blog et dictionnaire : Licence CC BY-SA 4.0
-https://creativecommons.org/licenses/by-sa/4.0/deed.fr
+Blog et dictionnaire : Licence CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
