@@ -7,6 +7,8 @@ seo_aboutpage: true   # D-02 routing flag - réservé Phase 15, consommé Phase 
 redirect_from:
   - /apropos/
   - /about/
+  - /ressources/
+  - /ressources
 ---
 
 <section class="about-hero">
