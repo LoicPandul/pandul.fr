@@ -6,7 +6,7 @@
 /* Polices */
 @font-face {
   font-family: "Outfit";
-  src: url("../fonts/Outfit-Variable.ttf") format("truetype-variations");
+  src: url("../fonts/Outfit-Variable.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter-Variable.ttf") format("truetype-variations");
+  src: url("../fonts/Inter-Variable.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
