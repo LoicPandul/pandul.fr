@@ -498,6 +498,28 @@ hr {
   filter: invert(42%) sepia(93%) saturate(1700%) hue-rotate(8deg) brightness(90%) contrast(95%);
 }
 
+/* Clé publique minisign (vérification des releases logicielles) */
+.footer-key {
+  color: var(--muted, #666666);
+  font-size: 12px;
+  margin: var(--space-md) 0 0;
+}
+
+.footer-key code {
+  display: inline-block;
+  font-family: ui-monospace, "SF Mono", Consolas, monospace;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--muted, #666666);
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--line, #E5E5E5);
+  border-radius: 6px;
+  padding: 3px 8px;
+  user-select: all;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+
 .copyright {
   color: var(--muted, #666666);
   font-size: 14px;
