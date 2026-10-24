@@ -1,0 +1,206 @@
+---
+title: "Loïc Morel, rédacteur technique Bitcoin et développeur"
+description: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin et développeur : tutoriels, formations, documentation et logiciels open source."
+image: /assets/img/social-card.png
+redirect_from:
+  - /a-propos/
+  - /apropos/
+  - /about/
+  - /ressources/
+  - /ressources
+sitemap:
+  priority: 1.0
+---
+{%- assign nb_ecrits = site.data.ecrits | size -%}
+{%- assign nb_formations = site.data.formations | size -%}
+{%- assign nb_audio = site.data.audio-video | size -%}
+{%- assign defs = site.data.definitions -%}
+{%- assign def0 = defs[0] -%}
+
+<section class="hero" aria-labelledby="titre">
+  <figure class="hero-photo">
+    <img src="{{ '/assets/img/v3/loic-morel-800.webp' | relative_url }}"
+         srcset="{{ '/assets/img/v3/loic-morel-480.webp' | relative_url }} 480w, {{ '/assets/img/v3/loic-morel-800.webp' | relative_url }} 800w"
+         sizes="(max-width: 760px) 100vw, 47vw"
+         alt="Portrait de Loïc Morel" width="800" height="1000" fetchpriority="high">
+  </figure>
+  <h1 class="hero-name" id="titre">Loïc Morel</h1>
+  <div class="hero-entry">
+    <p class="hero-phon"><span lang="fr-fonipa">/lɔ.ik mɔ.ʁɛl/</span> <i>n. pr.</i></p>
+    <p class="hero-def">Rédacteur technique spécialisé sur Bitcoin, et développeur. J'écris des tutoriels, des formations et de la documentation, et je code des logiciels Bitcoin open source.</p>
+    <p class="hero-actions">
+      <a class="btn" href="mailto:info@pandul.fr">M'écrire</a>
+      <a class="link" href="#clients">Voir mes clients</a>
+    </p>
+  </div>
+</section>
+
+<section class="act" id="activites" aria-labelledby="t-activites">
+  <div class="grid act-intro">
+    <h2 class="h2 act-title" id="t-activites" data-reveal>Ce que je fais</h2>
+    <ul class="act-facts" data-reveal>
+      <li>Marseille</li>
+      <li>À mon compte depuis 2021</li>
+      <li><a href="mailto:info@pandul.fr">info@pandul.fr</a></li>
+    </ul>
+    <div class="act-statement">
+      <p data-reveal>Bitcoin m'a accroché en 2020, par sa technique, sa monnaie et ce qu'il change à la liberté de chacun. En 2021, Bitstack m'a confié son blog, puis d'autres clients ont suivi.</p>
+      <p class="soft" data-reveal>Aujourd'hui, j'écris pour deux publics&nbsp;: les débutants qui découvrent Bitcoin, et les développeurs qui l'intègrent dans leurs logiciels. Et je code mes propres outils.</p>
+    </div>
+  </div>
+
+  <article class="trade trade--write grid">
+    <div class="trade-text">
+      <h3 class="h3" data-reveal>Rédaction et pédagogie</h3>
+      <p data-reveal>Articles, tutoriels, formations complètes, scripts de vidéos et de podcasts. Je pars de zéro et j'avance marche par marche, avec des exemples concrets, sans rien supposer d'évident.</p>
+      <dl class="figures" data-reveal>
+        <div><dt>{{ nb_ecrits }}</dt><dd>tutoriels et articles publiés</dd></div>
+        <div><dt>{{ nb_formations }}</dt><dd>formations pour Plan ₿ Academy</dd></div>
+        <div><dt>{{ nb_audio }}</dt><dd>podcasts, vidéos et interviews</dd></div>
+      </dl>
+    </div>
+    <ul class="covers" aria-label="Mes formations sur Plan ₿ Academy">
+      {%- for f in site.data.formations -%}
+      <li data-reveal>
+        <a href="{{ f.url }}" rel="noopener">
+          <img src="{{ f.thumbnail | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async">
+          <span><b>{{ f.code }}</b> {{ f.title }}</span>
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </article>
+
+  <article class="trade trade--docs grid">
+    <figure class="trade-shot" data-reveal>
+      <img src="{{ '/assets/img/v3/second-bark-pay-1600.webp' | relative_url }}"
+           srcset="{{ '/assets/img/v3/second-bark-pay-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-1600.webp' | relative_url }} 1600w"
+           sizes="(max-width: 760px) 100vw, 58vw"
+           alt="Page d'accueil de la documentation de Bark Pay sur second.tech" width="1600" height="867" loading="lazy" decoding="async">
+      <figcaption>La documentation de Bark Pay, chez Second.</figcaption>
+    </figure>
+    <div class="trade-text">
+      <h3 class="h3" data-reveal>Documentation technique</h3>
+      <p data-reveal>Guides d'installation, références de SDK, notes de version. Je lis le code source avant d'écrire, et je teste chaque commande pour qu'elle marche du premier coup chez le lecteur.</p>
+      <p data-reveal>En ce moment&nbsp;: la documentation de Bark chez Second, et celle du portefeuille Liana chez Wizard Sardine.</p>
+    </div>
+  </article>
+
+  <article class="trade trade--code grid">
+    <div class="trade-text">
+      <h3 class="h3" data-reveal>Développement</h3>
+      <p data-reveal>Je conçois et je code des logiciels Bitcoin open source, comme <a href="https://gerfaut-wallet.com">Gerfaut</a>, un portefeuille watch-only pour Android et ordinateur.</p>
+      <p data-reveal>Chaque version que je publie est signée avec ma clé minisign. Vous pouvez donc vérifier vous-même que le fichier téléchargé est bien le mien.</p>
+    </div>
+    <figure class="trade-code" data-reveal>
+      <pre><code>minisign -Vm &lt;fichier&gt; -P RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></pre>
+      <figcaption>Vérifier une version signée avec ma clé publique.</figcaption>
+    </figure>
+  </article>
+
+  <div class="also grid">
+    <h3 class="h3" data-reveal>Et aussi</h3>
+    <ul data-reveal>
+      <li>Relecture technique et fact-checking</li>
+      <li>Conception de parcours de formation</li>
+      <li>Ligne éditoriale et gestion d'un blog</li>
+      <li>Livraison en Markdown sur GitHub, dans Google Docs ou dans votre CMS</li>
+    </ul>
+  </div>
+</section>
+
+<section class="clients" id="clients" aria-labelledby="t-clients">
+  <h2 class="clients-title" id="t-clients" data-reveal>Ils me font <span>confiance</span></h2>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      {%- for k in (1..2) -%}
+      <ul>
+        {%- for g in site.data.clients -%}{%- for c in g.clients -%}
+        <li>{%- if c.logo -%}<span class="logo" style="--logo:url('{{ '/assets/img/clients/' | append: c.logo | relative_url }}');--r:{{ c.ratio }}"></span>{%- else -%}<span class="logo-txt">{{ c.nom }}</span>{%- endif -%}</li>
+        {%- endfor -%}{%- endfor -%}
+      </ul>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <table class="ledger">
+    <caption class="sr">Mes clients, de 2021 à aujourd'hui</caption>
+    <thead class="sr">
+      <tr><th scope="col">Période</th><th scope="col">Client</th><th scope="col">Travail</th><th scope="col">Volume</th></tr>
+    </thead>
+    {%- for g in site.data.clients %}
+    <tbody>
+      {%- for c in g.clients %}
+      <tr data-reveal>
+        <th scope="row" class="ledger-period">{% if forloop.first %}{{ g.periode }}{% endif %}</th>
+        <td class="ledger-client">
+          {%- if c.url -%}<a href="{{ c.url }}" rel="noopener">{{ c.nom }}</a>{%- else -%}<span>{{ c.nom }}</span>{%- endif -%}
+        </td>
+        <td class="ledger-work">{{ c.travail }}</td>
+        <td class="ledger-count">
+          {%- for n in c.comptes -%}
+            {%- assign src = site.data[n.source] | where: "platform", n.platform -%}
+            {%- if n.type -%}{%- assign src = src | where: "type", n.type -%}{%- endif -%}
+            <span>{{ src | size }} {{ n.libelle }}</span>
+          {%- endfor -%}
+        </td>
+      </tr>
+      {%- endfor %}
+    </tbody>
+    {%- endfor %}
+  </table>
+</section>
+
+<section class="projects" id="projets" aria-labelledby="t-projets">
+  <h2 class="h2" id="t-projets" data-reveal>Projets</h2>
+
+  <article class="proj proj--dict grid" aria-labelledby="t-dico">
+    <div class="entry" data-reveal>
+      <div class="entry-card" id="definition" aria-live="polite" data-base="{{ site.dictionnaire_url }}">
+        <p class="entry-term"><a href="{{ site.dictionnaire_url }}/{{ def0.s }}/" id="def-term">{{ def0.t }}</a></p>
+        <p class="entry-text" id="def-text">{{ def0.d }}</p>
+      </div>
+      <p class="entry-actions">
+        <button class="btn btn-ghost" type="button" id="def-next" hidden>Une autre définition</button>
+        <a class="link" href="{{ site.dictionnaire_url }}/{{ def0.s }}/" id="def-link">Lire la définition complète</a>
+      </p>
+      <script type="application/json" id="def-data">{{ defs | jsonify }}</script>
+    </div>
+    <div class="proj-text">
+      <h3 class="h3" id="t-dico" data-reveal>Dictionnaire de Bitcoin</h3>
+      <p data-reveal>Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin, de l'adresse de réception au zero-knowledge proof. Le dictionnaire est open source, gratuit en ligne et sous licence CC BY-NC-SA 4.0.</p>
+      <p data-reveal>Il existe aussi en livre imprimé, sur <a href="https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin" rel="noopener">Bitcoin Bazar</a> et sur <a href="https://amzn.to/4cxaOA8" rel="noopener">Amazon</a>.</p>
+      <p data-reveal><a class="btn" href="{{ site.dictionnaire_url }}/">Ouvrir le dictionnaire</a></p>
+    </div>
+  </article>
+
+  <article class="proj proj--gerfaut grid" aria-labelledby="t-gerfaut">
+    <figure class="proj-desk" data-reveal>
+      <video src="{{ '/assets/img/v3/gerfaut-visite.mp4' | relative_url }}" poster="{{ '/assets/img/v3/gerfaut-visite.webp' | relative_url }}"
+             width="1280" height="720" muted loop playsinline controls preload="none" aria-label="Premier lancement de Gerfaut sur ordinateur : l'écran d'accueil, puis l'ajout d'un portefeuille"></video>
+      <figcaption>Le premier lancement de Gerfaut sur ordinateur.</figcaption>
+    </figure>
+    <figure class="proj-phone" data-reveal>
+      <img src="{{ '/assets/img/v3/gerfaut-android-480.webp' | relative_url }}"
+           alt="Gerfaut sur Android : la liste des portefeuilles surveillés" width="480" height="784" loading="lazy" decoding="async">
+    </figure>
+    <div class="proj-text">
+      <h3 class="h3" id="t-gerfaut" data-reveal>Gerfaut</h3>
+      <p data-reveal>Un portefeuille Bitcoin watch-only pour Android et ordinateur. Gerfaut suit vos portefeuilles à partir de leur descripteur ou de leur clé publique, et vous prévient quand des fonds bougent. Il ne détient jamais aucune clé privée.</p>
+      <p data-reveal>Open source, gratuit, en bêta publique.</p>
+      <p data-reveal><a class="btn" href="https://gerfaut-wallet.com">Découvrir Gerfaut</a></p>
+    </div>
+  </article>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="t-contact">
+  <h2 class="h2 contact-title" id="t-contact" data-reveal>Me joindre</h2>
+  <ul class="rows">
+    <li><a href="mailto:info@pandul.fr"><span class="row-main">info@pandul.fr</span><span class="row-tag">E-mail</span></a></li>
+    <li><a href="https://x.com/Loic_Pandul" rel="me noopener"><span class="row-main">@Loic_Pandul</span><span class="row-tag">X</span></a></li>
+    <li><a href="https://github.com/LoicPandul" rel="me noopener"><span class="row-main">LoicPandul</span><span class="row-tag">GitHub</span></a></li>
+    <li><a href="lightning:sats@pandul.fr"><span class="row-main">sats@pandul.fr</span><span class="row-tag">Lightning</span></a></li>
+    <li><span class="row-plain"><span class="row-main">Marseille</span><span class="row-tag">Ville</span></span></li>
+  </ul>
+</section>

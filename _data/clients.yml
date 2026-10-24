@@ -1,0 +1,65 @@
+# Clients affichés dans « Ils me font confiance », par période.
+# logo : fichier de assets/img/clients/ (monochrome, recoloré en CSS) ; ratio = largeur / hauteur du logo.
+# Sans logo officiel, le nom seul est affiché.
+# compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
+
+- periode: "Depuis 2026"
+  clients:
+    - nom: "Second"
+      logo: "second.svg"
+      ratio: 2.9
+      travail: "Documentation de Bark : le portefeuille, le SDK, barkd et Bark Pay"
+      url: "https://second.tech/docs"
+    - nom: "Liana"
+      logo: "liana.svg"
+      ratio: 4.1
+      travail: "Documentation du portefeuille Liana"
+      url: "https://lianawallet.com"
+    - nom: "Wizard Sardine"
+      logo: "wizardsardine.svg"
+      ratio: 8.43
+      travail: "Rédaction technique pour le blog"
+      url: "https://wizardsardine.com/blog/"
+
+- periode: "2021 à 2025"
+  clients:
+    - nom: "Plan ₿ Network"
+      logo: "planb.svg"
+      ratio: 5.33
+      travail: "Formations, tutoriels et maintenance du dépôt de contenus"
+      comptes:
+        - {source: "formations", platform: "Plan ₿ Academy", libelle: "formations"}
+        - {source: "ecrits", platform: "Plan ₿ Academy", libelle: "tutoriels"}
+      url: "https://planb.network"
+    - nom: "Bitstack"
+      logo: "bitstack.svg"
+      ratio: 6.43
+      travail: "Articles du blog, depuis sa création"
+      comptes:
+        - {source: "ecrits", platform: "Bitstack", libelle: "articles"}
+      url: "https://www.bitstack-app.com"
+    - nom: "Space Kek"
+      travail: "Podcast technique sur Bitcoin"
+      comptes:
+        - {source: "audio-video", platform: "Space Kek", libelle: "épisodes"}
+    - nom: "Découvre Bitcoin"
+      logo: "decouvrebitcoin.webp"
+      ratio: 9.34
+      travail: "Vidéos pédagogiques, dont la formation CRYPTO-301"
+      comptes:
+        - {source: "audio-video", platform: "Decouvre Bitcoin", type: "production", libelle: "vidéos"}
+      url: "https://decouvrebitcoin.fr"
+    - nom: "Cryptoast"
+      logo: "cryptoast.svg"
+      ratio: 1
+      travail: "Interviews : confidentialité, UTXO, ordinateur quantique"
+      comptes:
+        - {source: "audio-video", platform: "Cryptoast", libelle: "interviews"}
+      url: "https://cryptoast.fr"
+    - nom: "Grand Angle Bitcoin"
+      logo: "grandangle.webp"
+      ratio: 2.64
+      travail: "Interview sur les CoinJoins"
+      url: "https://www.youtube.com/@grandanglebitcoin"
+    - nom: "How to Bitcoin"
+      travail: "Interview sur la confidentialité avec Bitcoin"

@@ -1,0 +1,827 @@
+[
+{
+"t": "MYSTERY SHOPPER PAYMENTS",
+"s": "mystery-shopper-payments",
+"d": "Attaque dans laquelle un attaquant envoie un petit paiement légitime en bitcoins à sa cible pour obtenir des informations et tenter de compromettre sa..."
+},
+{
+"t": "ATTAQUE DE FINNEY",
+"s": "attaque-de-finney",
+"d": "Type de double dépense qui cible les transactions à zéro confirmation."
+},
+{
+"t": "PROBLÈME DES GÉNÉRAUX BYZANTINS",
+"s": "prob-des-generaux-byzantins",
+"d": "Problème formulé pour la première fois par Leslie Lamport, Robert Shostak et Marshall Pease dans le magazine spécialisé ACM Transactions on Programming..."
+},
+{
+"t": "FORCE BRUTE",
+"s": "force-brute",
+"d": "Méthode de cryptanalyse pour trouver un mot de passe ou une clé qui consiste à essayer par tâtonnement toutes les combinaisons possibles de clés ou de..."
+},
+{
+"t": "DUSTING ATTACK",
+"s": "dusting-attack",
+"d": "Attaque qui consiste à envoyer de minuscules quantités de bitcoins à un grand nombre d'adresses de réception."
+},
+{
+"t": "WRENCH ATTACK",
+"s": "wrench-attack",
+"d": "Attaque physique qui vise à contraindre un détenteur de bitcoins à céder ses fonds sous la menace ou par la violence."
+},
+{
+"t": "BGP HIJACKING",
+"s": "bgp-hijacking",
+"d": "Attaque où un acteur malveillant manipule les annonces BGP pour rediriger le trafic Internet vers son propre réseau."
+},
+{
+"t": "DOUBLE DÉPENSE",
+"s": "double-depense",
+"d": "Attaque où un utilisateur malveillant tente d'utiliser le même UTXO (Unspent Transaction Output) plus d'une fois afin de s'enrichir sur les..."
+},
+{
+"t": "SELFISH MINING",
+"s": "selfish-mining",
+"d": "Stratégie (ou attaque) dans le minage, où un mineur ou un groupe de mineurs conserve intentionnellement des blocs avec une preuve de travail valide sans..."
+},
+{
+"t": "BIP",
+"s": "bip",
+"d": "Acronyme de « Bitcoin Improvement Proposal ». Un BIP est un document formel proposant une amélioration, une spécification technique ou une information..."
+},
+{
+"t": "APO - ANYPREVOUT",
+"s": "apo-anyprevout",
+"d": "Nom donné au BIP-0118 qui propose d'ajouter deux nouveaux SigHash Flag modificateurs, nommés SIGHASH_ANYPREVOUT et SIGHASH_ANYPREVOUTANYSCRIPT."
+},
+{
+"t": "CHAMPION",
+"s": "champion",
+"d": "Dans le contexte du développement de Bitcoin Core (l'implémentation majoritaire de Bitcoin) le champion est la personne qui rédige et prend en charge la..."
+},
+{
+"t": "STACKER",
+"s": "stacker",
+"d": "Terme utilisé dans la communauté Bitcoin pour désigner l'action d'accumuler régulièrement des sats."
+},
+{
+"t": "BOUNTY",
+"s": "bounty",
+"d": "Récompense offerte pour la réalisation d'une tâche spécifique, souvent liée à l'amélioration ou à la sécurité d'un projet de logiciel."
+},
+{
+"t": "PREMIUM",
+"s": "premium",
+"d": "Montant supplémentaire payé au-dessus du prix standard ou nominal d'un actif."
+},
+{
+"t": "MAINTENEUR PRINCIPAL - CORE",
+"s": "mainteneur-principal-core",
+"d": "Le mainteneur principal était un rôle au sein de la hiérarchie sur Bitcoin Core."
+},
+{
+"t": "BITCOINTALK",
+"s": "bitcointalk",
+"d": "Forum en ligne dédié aux discussions sur Bitcoin. Ouvert en novembre 2009 par Satoshi Nakamoto, ce forum prend la suite de l'espace de discussion dédié..."
+},
+{
+"t": "WIZARDSARDINE",
+"s": "wizardsardine",
+"d": "Entreprise spécialisée dans la sécurité et la conservation de bitcoins, fondée en 2020 par Kevin Loaec et Antoine Poinsot, et incorporée aux Açores..."
+},
+{
+"t": "MAINTENEUR - CORE",
+"s": "mainteneur-core",
+"d": "Dans le contexte du projet Bitcoin Core, l'implémentation majoritaire de nœuds sur le réseau Bitcoin, les mainteneurs sont des individus chargés de la..."
+},
+{
+"t": "MAXIMALISTE",
+"s": "maximaliste",
+"d": "Terme qui désigne une personne convaincue que Bitcoin est la seule cryptomonnaie dotée d'une valeur fondamentale, et que les altcoins sont superflus..."
+},
+{
+"t": "BITCOIN MAGAZINE",
+"s": "bitcoin-magazine",
+"d": "Publication fondée en 2012 par Mihai Alisie et Vitalik Buterin (avant que ce dernier ne crée Ethereum), dédiée à l'actualité et à l'analyse de Bitcoin."
+},
+{
+"t": "FIDELITY BOND",
+"s": "fidelity-bond",
+"d": "Mécanisme par lequel un utilisateur sacrifie délibérément de la valeur en bitcoins pour rendre une identité cryptographique coûteuse à obtenir, ce qui..."
+},
+{
+"t": "SOROBAN",
+"s": "soroban",
+"d": "Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction Cahoots."
+},
+{
+"t": "BITCOIN FOG",
+"s": "bitcoin-fog",
+"d": "Service de mixage centralisé qui a opéré de 2011 à 2021. Bitcoin Fog offrait aux utilisateurs la possibilité d'accroître leur confidentialité en..."
+},
+{
+"t": "RICOCHET",
+"s": "ricochet",
+"d": "Technique consistant à réaliser plusieurs transactions fictives vers soi-même pour simuler un transfert de propriété des bitcoins."
+},
+{
+"t": "CIOH",
+"s": "cioh",
+"d": "Sigle de « Common Input Ownership Heuristic ». C'est une heuristique utilisée dans le domaine de l'analyse de chaîne sur Bitcoin qui suppose que toutes..."
+},
+{
+"t": "WHIRLPOOL STAT TOOL",
+"s": "whirlpool-stat-tool",
+"d": "Logiciel en ligne de commandes développé par Samourai Wallet qui permet de fournir les anonsets prospectifs et rétrospectifs d'une pièce mixée au sein..."
+},
+{
+"t": "OXT",
+"s": "oxt",
+"d": "Outil d'analyse exploratoire de la blockchain Bitcoin, créé par LaurentMT puis acquis par Samourai Wallet."
+},
+{
+"t": "WHIRLPOOL",
+"s": "whirlpool",
+"d": "Protocole de coinjoins chaumiens ZeroLink, développée par les équipes du portefeuille Samourai Wallet."
+},
+{
+"t": "PAYNYM",
+"s": "paynym",
+"d": "Identifiant unique lié à un portefeuille Bitcoin qui implémente cette option."
+},
+{
+"t": "TARO",
+"s": "taro",
+"d": "Taro est l'ancien nom du protocole Taproot Assets Protocol, qui permet d'émettre des actifs natifs sur Bitcoin via Taproot."
+},
+{
+"t": "ROLLUP",
+"s": "rollup",
+"d": "Solution de passage à l'échelle de couche 2 (Layer 2) qui exécute les transactions en dehors de la chaîne principale, puis publie les données et/ou des..."
+},
+{
+"t": "CASHU",
+"s": "cashu",
+"d": "Protocole open-source de monnaie électronique chaumienne, similaire au système eCash de David Chaum, mais qui fonctionne sur Bitcoin et le Lightning..."
+},
+{
+"t": "STATECHAIN",
+"s": "statechain",
+"d": "Mécanisme de couche supérieure sur Bitcoin permettant de transférer la propriété d'un UTXO hors chaîne, sans diffuser de transaction on-chain."
+},
+{
+"t": "SURCOUCHE",
+"s": "surcouche",
+"d": "Protocole ou réseau construit en supplément, en s'empilant sur le réseau Bitcoin principal."
+},
+{
+"t": "COLORED COINS",
+"s": "colored-coins",
+"d": "Méthode proposée en 2012 par Yoni Assia, Vitalik Buterin et Meni Rosenfeld permettant de représenter et gérer des actifs non natifs sur la blockchain..."
+},
+{
+"t": "PASSIVE ASSETS",
+"s": "passive-assets",
+"d": "Dans le protocole Taproot Assets, les actifs passifs désignent les actifs que l'expéditeur conserve dans son arbre d'actifs (asset tree) lorsqu'il..."
+},
+{
+"t": "BITVM",
+"s": "bitvm",
+"d": "Protocole introduit par Robin Linus en 2023, qui vise à étendre les capacités de développement applicatif de Bitcoin."
+},
+{
+"t": "JOINPOOL",
+"s": "joinpool",
+"d": "Type de système de paiement en surcouche basé sur le partage de la propriété d'un ou plusieurs UTXO, sans besoin de confiance."
+},
+{
+"t": "PREIMAGE",
+"s": "preimage",
+"d": "En mathématiques, la préimage d'un élément par une fonction est l'ensemble des tels que ."
+},
+{
+"t": "RANGEPROOFS",
+"s": "rangeproofs",
+"d": "Type de preuve à divulgation nulle de connaissance (zero-knowledge proof) utilisé dans les Confidential Transactions pour démontrer qu'un montant engagé..."
+},
+{
+"t": "PEDERSEN COMMITMENT",
+"s": "pedersen-commitment",
+"d": "Un Pedersen commitment est un type d'engagement cryptographique présentant la propriété d'être homomorphique vis-à-vis de l'opération d'addition."
+},
+{
+"t": "NONCE",
+"s": "nonce",
+"d": "Dans le contexte de l'informatique, le terme « nonce » désigne un nombre utilisé seulement une seule fois, puis remplacé."
+},
+{
+"t": "ECDH",
+"s": "ecdh",
+"d": "Méthode d'échange de clés cryptographiques établie sur les principes de l'échange de clés Diffie-Hellman, mais qui utilise des courbes elliptiques pour..."
+},
+{
+"t": "MAST",
+"s": "mast",
+"d": "Sigle de « Merklized Alternative Script Trees ». Technique employant un arbre de Merkle pour résumer un nombre arbitraire de conditions de dépenses..."
+},
+{
+"t": "TWEAK",
+"s": "tweak",
+"d": "Dans le domaine de la cryptographie, « tweaker » une clé publique consiste à modifier cette clé en utilisant une valeur additive appelée le « tweak » de..."
+},
+{
+"t": "CRYPTOGRAPHIE",
+"s": "cryptographie",
+"d": "Discipline qui incarne les principes, les moyens et les méthodes de transformation des informations, notamment avec des techniques mathématiques, afin..."
+},
+{
+"t": "CHACHA20-POLY1305",
+"s": "chacha20-poly1305",
+"d": "Algorithme de chiffrement authentifié avec données associées qui combine le chiffre de flux ChaCha20 et le code d'authentification de message Poly1305."
+},
+{
+"t": "NO2X",
+"s": "no2x",
+"d": "Nom de la campagne lancée en août 2017 suite au verrouillage du soft fork SegWit dont le but est de convaincre les utilisateurs de ne pas implémenter le..."
+},
+{
+"t": "BITCOIN JESUS",
+"s": "bitcoin-jesus",
+"d": "Surnom donné à l'entrepreneur et investisseur Roger Ver, qui a été un promoteur de Bitcoin dès le début des années 2010."
+},
+{
+"t": "VALUE OVERFLOW INCIDENT",
+"s": "value-overflow-incident",
+"d": "Bug exploité le 15 août 2010 sur le réseau Bitcoin, qui a conduit à la création de plus de 184 milliards de bitcoins dans une seule transaction."
+},
+{
+"t": "FAUCET",
+"s": "faucet",
+"d": "Site web ou application qui distribue gratuitement de petites quantités de bitcoins à ses visiteurs, généralement en échange de la résolution d'un..."
+},
+{
+"t": "BCH - BITCOIN CASH",
+"s": "bch-bitcoin-cash",
+"d": "Système de cryptomonnaie issu d'un hard fork de Bitcoin (BTC) réalisé le 1er août 2017 au bloc 478 558."
+},
+{
+"t": "NYA - NEW YORK AGREEMENT",
+"s": "nya-new-york-agreement",
+"d": "Réunion privée qui s'est tenue en 2017, rassemblant plus de 50 entreprises de l'écosystème Bitcoin, à la suite de la conférence Consensus 2017."
+},
+{
+"t": "WHITE PAPER",
+"s": "white-paper",
+"d": "Rapport ou guide qui informe les lecteurs de manière concise sur une question complexe."
+},
+{
+"t": "PATOSHI",
+"s": "patoshi",
+"d": "Fait référence à un motif distinct de nonces et d'horodatages observés dans les blocs minés au cours des premiers mois de l'existence de Bitcoin."
+},
+{
+"t": "CYPHERPUNKS",
+"s": "cypherpunks",
+"d": "Communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur..."
+},
+{
+"t": "ALGORITHME",
+"s": "algorithme",
+"d": "Suite finie et non ambiguë d'instructions permettant de réaliser une tâche."
+},
+{
+"t": "QR CODE",
+"s": "qr-code",
+"d": "Type de code-barres en deux dimensions pouvant être scanné rapidement par des appareils mobiles."
+},
+{
+"t": "UNIX",
+"s": "unix",
+"d": "Famille de systèmes d'exploitation multitâche développée à partir de 1969 par Bell Labs."
+},
+{
+"t": "VERSIONNAGE",
+"s": "versionnage",
+"d": "Dans le contexte de Bitcoin, désigne le processus d'assignation de versions spécifiques à divers éléments du protocole, afin de faciliter leur suivi..."
+},
+{
+"t": "CLI",
+"s": "cli",
+"d": "Acronyme de « Command Line Interface », ou « interface en ligne de commande » en français."
+},
+{
+"t": "ENDIANNESS",
+"s": "endianness",
+"d": "Désigne l'ordre dans lequel une séquence d'octets est arrangée et interprétée en informatique."
+},
+{
+"t": "PRÉFIXES BINAIRES",
+"s": "prefixes-binaires",
+"d": "Unités utilisées en informatique pour quantifier les multiples de tailles de données établis sur des puissances de 2."
+},
+{
+"t": "MERGE",
+"s": "merge",
+"d": "Dans le cadre de Git, représente l'action d'intégrer les modifications d'une branche à une autre, typiquement de ramener les développements d'une..."
+},
+{
+"t": "ZMQ - ZEROMQ",
+"s": "zmq-zeromq",
+"d": "Bibliothèque de messagerie asynchrone utilisée par Bitcoin Core pour notifier en temps réel d'autres logiciels de l'arrivée de nouveaux blocs et de..."
+},
+{
+"t": "L402",
+"s": "l402",
+"d": "L402, anciennement connu sous le nom de LSAT (Lightning Service Authentication Token), est un standard d'authentification et de paiement pour les..."
+},
+{
+"t": "NŒUD DE ROUTAGE",
+"s": "noeud-de-routage",
+"d": "Nœud du Lightning Network qui achemine les paiements entre d'autres nœuds en servant d'intermédiaire dans le routage des transactions."
+},
+{
+"t": "SCID - SHORT CHANNEL ID",
+"s": "scid-short-channel-id",
+"d": "Identifiant compact utilisé sur le Lightning Network pour référencer de manière unique un canal de paiement."
+},
+{
+"t": "CHANNEL ACCEPTOR",
+"s": "channel-acceptor",
+"d": "Mécanisme de LND permettant de définir une logique personnalisée pour accepter ou refuser automatiquement les demandes d'ouverture de canal entrantes."
+},
+{
+"t": "BLIP-0039",
+"s": "blip-0039",
+"d": "bLIP qui introduit un nouveau champ étiqueté b dans les factures BOLT-11 pour transmettre des chemins de paiement masqués (blinded paths)."
+},
+{
+"t": "BASE FEE",
+"s": "base-fee",
+"d": "Composante fixe des frais de routage sur le Lightning Network. Lorsqu'un nœud transmet un paiement pour le compte d'un autre, il peut prélever des frais..."
+},
+{
+"t": "GATEWAY NODE",
+"s": "gateway-node",
+"d": "Nœud de routage Lightning qui exploite des canaux privés (non annoncés) pour créer des opportunités de routage supplémentaires."
+},
+{
+"t": "ZAP",
+"s": "zap",
+"d": "Micro-paiement en bitcoin effectué via le Lightning Network et associé cryptographiquement à un événement Nostr."
+},
+{
+"t": "KEYSEND",
+"s": "keysend",
+"d": "Méthode de paiement sur le Lightning Network permettant d'envoyer des fonds directement vers la clé publique d'un nœud, sans que le destinataire ait..."
+},
+{
+"t": "BRAIINS POOL",
+"s": "braiins-pool",
+"d": "Pool de minage de Bitcoin exploitée par l'entreprise tchèque Braiins. Créée en 2010 par Marek Palatinus (« Slush »), c'est la toute première pool de..."
+},
+{
+"t": "CANAAN",
+"s": "canaan",
+"d": "Entreprise fondée en 2013 par Nangeng Zhang, spécialisée dans la fabrication de machines de minage de bitcoins."
+},
+{
+"t": "ESMPPS",
+"s": "esmpps",
+"d": "Sigle de « Equalized Shared Maximum Pay Per Share ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
+},
+{
+"t": "MINAGE",
+"s": "minage",
+"d": "Action de participer à la preuve de travail (Proof-of-Work) du système Bitcoin."
+},
+{
+"t": "MÉTHODE GÉOMÉTRIQUE",
+"s": "methode-geometrique",
+"d": "Méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
+},
+{
+"t": "SPY MINING",
+"s": "spy-mining",
+"d": "Pratique dans laquelle un mineur ou une pool de minage se connecte à une pool concurrente afin de recevoir le hash de l'en-tête de bloc dès qu'un..."
+},
+{
+"t": "CIBLE DE DIFFICULTÉ",
+"s": "cible-de-difficulte",
+"d": "Le facteur de difficulté, aussi connu sous le nom de cible de difficulté, est un paramètre utilisé dans le mécanisme de consensus par preuve de travail..."
+},
+{
+"t": "ASIC RESISTANCE",
+"s": "asic-resistance",
+"d": "Propriété d'un algorithme de minage qui vise à limiter l'avantage des circuits intégrés spécialisés (ASIC) par rapport au matériel grand public, comme..."
+},
+{
+"t": "GETBLOCKTEMPLATE",
+"s": "getblocktemplate",
+"d": "Protocole de communication entre un nœud Bitcoin et un logiciel de minage, défini dans le BIP-0022 et le BIP-0023."
+},
+{
+"t": "LIGHTNING LABS",
+"s": "lightning-labs",
+"d": "Entreprise fondée en 2016 par Elizabeth Stark et Olaoluwa Osuntokun, spécialisée dans le développement d'infrastructures pour le Lightning Network."
+},
+{
+"t": "PEACH",
+"s": "peach",
+"d": "Application mobile d'échange de bitcoins en pair à pair (P2P), fondée en 2022 en Suisse."
+},
+{
+"t": "ZKSNACKS",
+"s": "zksnacks",
+"d": "Société éditrice de Wasabi Wallet, un portefeuille Bitcoin desktop open source axé sur la confidentialité. zkSNACKs a développé le protocole WabiSabi..."
+},
+{
+"t": "COINKITE",
+"s": "coinkite",
+"d": "Entreprise canadienne fondée en 2012, spécialisée dans la fabrication de matériel de sécurité pour Bitcoin."
+},
+{
+"t": "FOUNDATION DEVICES",
+"s": "foundation-devices",
+"d": "Entreprise américaine cofondée en 2020 par Zach Herbert, Jacob Johnston, Ken Carpenter et Matt Beach à Boston, spécialisée dans la fabrication de..."
+},
+{
+"t": "BLOCKSTREAM",
+"s": "blockstream",
+"d": "Entreprise spécialisée dans le développement de solutions autour de Bitcoin."
+},
+{
+"t": "FONDATION BITCOIN",
+"s": "fondation-bitcoin",
+"d": "Organisation à but non lucratif fondée en septembre 2012. Ses membres fondateurs sont Gavin Andresen, Charlie Shrem, Mark Karpelès, Peter Vessenes..."
+},
+{
+"t": "TEN31",
+"s": "ten31",
+"d": "Fonds de capital-risque spécialisé dans l'investissement dans les entreprises de l'écosystème Bitcoin."
+},
+{
+"t": "NODL",
+"s": "nodl",
+"d": "Entreprise fondée fin 2018 qui conçoit des nœuds Bitcoin et Lightning Network clé en main, sous forme de boîtiers matériels prêts à l'emploi."
+},
+{
+"t": "BITCOINJ",
+"s": "bitcoinj",
+"d": "Bibliothèque open source qui implémente le protocole Bitcoin en Java, créée par Mike Hearn en 2011."
+},
+{
+"t": "THE EYE OF SATOSHI",
+"s": "the-eye-of-satoshi",
+"d": "Implémentation open source de watchtower pour le Lightning Network. Une watchtower surveille en permanence la blockchain Bitcoin au nom d'un utilisateur..."
+},
+{
+"t": "START9",
+"s": "start9",
+"d": "Entreprise américaine (Start9 Labs, Inc.) développant StartOS, un système d'exploitation libre pour serveurs personnels."
+},
+{
+"t": "COINOS",
+"s": "coinos",
+"d": "Application web (PWA) qui permet d'envoyer, recevoir et accepter des paiements en bitcoins via on-chain, Lightning Network, Liquid et Ecash, directement..."
+},
+{
+"t": "LIGHTNING NETWORK+",
+"s": "lightning-network-plus",
+"d": "Lightning Network+ est un service en ligne qui facilite la création de liquidity swaps sur le Lightning Network."
+},
+{
+"t": "LIBWALLY-CORE",
+"s": "libwally-core",
+"d": "Bibliothèque cryptographique et utilitaire open source développée par Blockstream, conçue pour faciliter l'intégration de fonctions Bitcoin dans des..."
+},
+{
+"t": "FOUNTAIN",
+"s": "fountain",
+"d": "Application de podcast intégrant des paiements Lightning selon le modèle value-for-value."
+},
+{
+"t": "FULCRUM",
+"s": "fulcrum",
+"d": "Implémentation d'un serveur Electrum développée en C++ par Calin Culianu, initialement pour Bitcoin Cash, et publiée sous licence GPLv3."
+},
+{
+"t": "BITCOIN CORE GUI-QML",
+"s": "bitcoin-core-gui-qml",
+"d": "Projet en cours de création d'une application de portefeuille et de nœud Bitcoin établie sur Bitcoin Core, mais avec une interface graphique intuitive..."
+},
+{
+"t": "SPECTER",
+"s": "specter",
+"d": "Suite logicielle open source dédiée à la gestion de portefeuilles Bitcoin, avec un accent particulier sur les configurations multisig."
+},
+{
+"t": "XPUB",
+"s": "xpub",
+"d": "Préfixe de clé publique étendue pour les comptes Legacy et SegWit V1 sur Bitcoin."
+},
+{
+"t": "TREZOR",
+"s": "trezor",
+"d": "Marque de hardware wallets fabriqués par la société tchèque SatoshiLabs, lancée en 2014 avec le Trezor One, considéré comme le premier portefeuille..."
+},
+{
+"t": "GAP LIMIT",
+"s": "gap-limit",
+"d": "Paramètre utilisé dans les logiciels de portefeuille Bitcoin pour déterminer le nombre maximal d'adresses consécutives non utilisées à générer avant de..."
+},
+{
+"t": "DURESS WALLET",
+"s": "duress-wallet",
+"d": "Portefeuille secondaire conçu pour offrir un déni plausible en cas de contrainte physique."
+},
+{
+"t": "SÉLECTION DES PIÈCES",
+"s": "selection-des-pieces",
+"d": "Processus par lequel un logiciel de portefeuille Bitcoin choisit quels UTXOs utiliser comme entrées pour satisfaire les sorties d'une transaction."
+},
+{
+"t": "BITKEY",
+"s": "bitkey",
+"d": "Portefeuille matériel (hardware wallet) développé par Block, Inc. (anciennement Square), la société fondée par Jack Dorsey."
+},
+{
+"t": "GREEN WALLET",
+"s": "green-wallet",
+"d": "Logiciel de portefeuille Bitcoin disponible sur PC, Android et iOS développé par Blockstream depuis l'acquisition du logiciel GreenAddress en 2016."
+},
+{
+"t": "CODE DE CHAINE",
+"s": "code-de-chaine",
+"d": "Dans le contexte de la dérivation hiérarchique et déterministe (HD) des portefeuilles Bitcoin, le code de chaîne est une valeur de sel cryptographique..."
+},
+{
+"t": "GENÈSE",
+"s": "genese",
+"d": "Le bloc de Genèse est le premier bloc du système Bitcoin. Il incarne le lancement concret de Bitcoin."
+},
+{
+"t": "DUSTRELAYFEE",
+"s": "dustrelayfee",
+"d": "Règle de standardisation utilisée par les nœuds du réseau pour déterminer ce qu'ils considèrent comme la « limite de poussière » (dust limit)."
+},
+{
+"t": "PREUVE DE TRAVAIL",
+"s": "preuve-de-travail",
+"d": "Mécanisme de protection face aux attaques Sybil, qui se caractérisent par la multiplication de fausses identités, dans le but de prendre un avantage..."
+},
+{
+"t": "BITCOIN QT",
+"s": "bitcoin-qt",
+"d": "Bitcoin QT est un client Bitcoin intégrant une interface graphique publié en novembre 2011."
+},
+{
+"t": "BASE58CHECK",
+"s": "base58check",
+"d": "La Base58Check est un encodage utilisé dans le système Bitcoin pour représenter les adresses de réception Legacy et certaines autres données, telles que..."
+},
+{
+"t": "MTP - MEDIAN TIME PAST",
+"s": "mtp-median-time-past",
+"d": "Concept utilisé dans le protocole Bitcoin pour déterminer une marge sur l'horodatage consensuel du réseau."
+},
+{
+"t": "WALLET.DAT",
+"s": "wallet-dat",
+"d": "Fichier dans Bitcoin Core qui stocke des informations sur le portefeuille de l'utilisateur, telles que les clés privées et les transactions effectuées."
+},
+{
+"t": "LIBSECP256K1",
+"s": "libsecp256k1",
+"d": "Bibliothèque C de haute performance et de haute sécurité pour les signatures numériques et d'autres primitives cryptographiques sur la courbe elliptique..."
+},
+{
+"t": "DB.LOG",
+"s": "db-log",
+"d": "Ancien fichier d'erreur BDB (BerkeleyDB) du portefeuille Bitcoin Core déplacé dans le dossier wallets/ depuis la version 0.16."
+},
+{
+"t": "OWNERSHIP",
+"s": "ownership",
+"d": "Dans le cadre du protocole RGB, le terme Ownership désigne la propriété qui, à travers la Seal Definition pointant vers un UTXO Bitcoin, définit qui..."
+},
+{
+"t": "CONTRACT RIGHTS",
+"s": "contract-rights",
+"d": "Les Contract Rights désignent les différents droits que peuvent exercer les acteurs d'un contrat RGB."
+},
+{
+"t": "INVOICE RGB",
+"s": "invoice-rgb",
+"d": "Dans le cadre du protocole RGB, une Invoice se présente sous la forme d'une URI préfixée par rgb:, qui intègre les informations indispensables à la..."
+},
+{
+"t": "SHARDS - RGB",
+"s": "shards-rgb",
+"d": "Dans le cadre du protocole RGB, un Shard représente une branche distincte au sein du graphe orienté acyclique (DAG) qui retrace l'historique des State..."
+},
+{
+"t": "SCHEMA",
+"s": "schema",
+"d": "Dans le cadre du protocole RGB, un Schema désigne un morceau de code déclaratif qui définit l'ensemble des variables, règles et logiques d'affaires..."
+},
+{
+"t": "ENGRAVING",
+"s": "engraving",
+"d": "Dans le cadre du protocole RGB, l'engraving désigne une chaîne de données optionnelle que peuvent inscrire successivement les détenteurs d'un contrat..."
+},
+{
+"t": "CONTRACT PARTICIPANT",
+"s": "contract-participant",
+"d": "Dans le cadre de RGB, un Contract Participant est un acteur prenant part aux opérations relatives au contrat."
+},
+{
+"t": "STATE EXTENSION",
+"s": "state-extension",
+"d": "Dans le cadre du protocole RGB, une State Extension désigne une opération contractuelle permettant d'initier une mise à jour de l'état d'un contrat via..."
+},
+{
+"t": "EXTRA TRANSACTION PROOF",
+"s": "extra-transaction-proof",
+"d": "Dans le cadre du protocole RGB, l'ETP constitue la partie de l'Anchor qui intègre les données complémentaires indispensables à la validation d'un..."
+},
+{
+"t": "I2P",
+"s": "i2p",
+"d": "Réseau de communication anonyme conçu pour assurer la confidentialité des échanges sur Internet."
+},
+{
+"t": "ONION SERVICE",
+"s": "onion-service",
+"d": "Service hébergé sur le réseau Tor, accessible uniquement via une adresse .onion, sans exposer l'adresse IP du serveur."
+},
+{
+"t": "BLOCK-RELAY-ONLY",
+"s": "block-relay-only",
+"d": "Type de connexion sortante dans Bitcoin Core qui ne relaie que les blocs, sans échanger de transactions ni d'adresses de nœuds."
+},
+{
+"t": "DNS SEEDS",
+"s": "dns-seeds",
+"d": "Points de connexion initiaux pour les nouveaux nœuds Bitcoin qui rejoignent le réseau."
+},
+{
+"t": "POLITIQUE DE RELAIS",
+"s": "politique-de-relais",
+"d": "Ensemble de toutes les règles observées par le logiciel d'un nœud Bitcoin lors de ses interactions avec le réseau pair-à-pair."
+},
+{
+"t": "BANLIST.DAT",
+"s": "banlist-dat",
+"d": "Nom de l'ancien fichier utilisé par le logiciel Bitcoin Core pour enregistrer les adresses IP des nœuds qui ont été bannis par l'utilisateur."
+},
+{
+"t": "NPUB",
+"s": "npub",
+"d": "Format d'encodage de la clé publique Nostr en Bech32, défini par le NIP-19."
+},
+{
+"t": "ONION_PRIVATE_KEY",
+"s": "onion-private-key",
+"d": "Fichier anciennement utilisé dans Bitcoin Core pour stocker une clé privée associée à un service caché Tor V2 pour l'option -listenonion."
+},
+{
+"t": "NSEC",
+"s": "nsec",
+"d": "Encodage Bech32 (NIP-19) d'une clé secrète (privée) Nostr, avec le préfixe nsec."
+},
+{
+"t": "CONTROL BLOCK",
+"s": "control-block",
+"d": "Structure de données fournie dans le témoin d'une transaction P2TR lors d'une dépense par chemin de script (script path spend), telle que définie dans..."
+},
+{
+"t": "MATT",
+"s": "matt",
+"d": "Proposition de soft fork dont le nom signifie « Merkleize All The Things » et qui vise à introduire des capacités de covenant et d'introspection limitée..."
+},
+{
+"t": "OP_2DUP - 0X6E",
+"s": "op-2dup-0x6e",
+"d": "Duplique les deux éléments en haut de la pile, puis les place en haut de la pile."
+},
+{
+"t": "OP_2 À OP_16 - 0X52 À 0X60",
+"s": "op-2-a-op-16-0x52-a-0x60",
+"d": "Les opcodes de OP_2 jusqu'à OP_16 poussent les valeurs numériques respectives de 2 à 16 sur la pile."
+},
+{
+"t": "OP_FROMALTSTACK - 0X6C",
+"s": "op-fromaltstack-0x6c",
+"d": "Retire le sommet de la pile alternative (alt stack) et le place sur le sommet de la pile principale (main stack)."
+},
+{
+"t": "SCRIPTSIG",
+"s": "scriptsig",
+"d": "Élément dans une transaction Bitcoin situé dans les inputs. Le scriptSig fournit les données nécessaires pour satisfaire les conditions posées par le..."
+},
+{
+"t": "P2WSH",
+"s": "p2wsh",
+"d": "P2WSH est le sigle pour Pay to Witness Script Hash (en français « payer au témoin du hachage du script »)."
+},
+{
+"t": "SCRIPTPUBKEY",
+"s": "scriptpubkey",
+"d": "Script situé dans la partie sortie (output) d'une transaction Bitcoin qui définit les conditions sous lesquelles l'UTXO associé peut être dépensé."
+},
+{
+"t": "OP_RETURN - 0X6A",
+"s": "op-return-0x6a",
+"d": "Signale un script invalide, ce qui rend l'output qui le contient non dépensable de manière prouvée."
+},
+{
+"t": "PEG-IN",
+"s": "peg-in",
+"d": "Mécanisme par lequel la valeur de bitcoins est transférée depuis la blockchain principale vers une sidechain."
+},
+{
+"t": "ELEMENTS",
+"s": "elements",
+"d": "Plateforme blockchain open source permettant de déployer des sidechains fédérées rattachées à Bitcoin ou des blockchains autonomes."
+},
+{
+"t": "MINAGE FUSIONNÉ",
+"s": "minage-fusionne",
+"d": "Technique de consensus de sidechain permettant aux mineurs de Bitcoin de travailler simultanément sur la chaîne principale et sur une ou plusieurs..."
+},
+{
+"t": "WATCHMEN",
+"s": "watchmen",
+"d": "Dans le cadre de Liquid (une sidechain de Bitcoin), ce sont des entités chargées de maintenir l'ancrage du L-BTC, le jeton natif de Liquid, en gérant et..."
+},
+{
+"t": "DYNAFED - DYNAMIC FEDERATIONS",
+"s": "dynamic-federations",
+"d": "Mécanisme de gouvernance déployé sur le réseau Liquid qui permet de modifier la composition de la fédération de fonctionnaires sans interrompre le..."
+},
+{
+"t": "FONCTIONNAIRE",
+"s": "fonctionnaire",
+"d": "Dans le cadre de la sidechain Liquid, les fonctionnaires sont des nœuds pilotés par des entités chargées de gérer le système."
+},
+{
+"t": "ANCRAGE BILATÉRAL",
+"s": "ancrage-bilateral",
+"d": "Mécanisme qui permet d'établir une connexion entre le système principal de Bitcoin et une sidechain (ou une drivechain), c'est-à-dire une chaîne latérale."
+},
+{
+"t": "BLOCKSIGNERS",
+"s": "blocksigners",
+"d": "Dans le contexte de Liquid (sidechain de Bitcoin), ce sont les entités responsables de la construction et de la validation des blocs au sein de cette..."
+},
+{
+"t": "LIQUID NETWORK",
+"s": "liquid-network",
+"d": "Sidechain de Bitcoin conçue par Blockstream pour fournir des transactions rapides et confidentielles."
+},
+{
+"t": "FIAT",
+"s": "fiat",
+"d": "Monnaie, souvent étatique, dont le cours est imposé par la force publique."
+},
+{
+"t": "ACTIF AU PORTEUR",
+"s": "actif-au-porteur",
+"d": "Bien ou instrument financier dont la propriété est déterminée uniquement par la possession physique, sans nécessiter l'intervention d'un registre..."
+},
+{
+"t": "STABLECOIN",
+"s": "stablecoin",
+"d": "Catégorie de cryptomonnaie conçue pour maintenir une valeur stable par rapport à un actif référence, souvent une monnaie étatique comme le dollar..."
+},
+{
+"t": "ÉCOLE AUTRICHIENNE",
+"s": "ecole-autrichienne",
+"d": "École de pensée économique qui théorise le marché comme un ensemble d'interactions individuelles volontaires, souligne la spontanéité de l'ordre..."
+},
+{
+"t": "LOI DE GRESHAM",
+"s": "loi-de-gresham",
+"d": "Principe économique selon lequel « la mauvaise monnaie chasse la bonne »."
+},
+{
+"t": "ETF",
+"s": "etf",
+"d": "Un ETF (Exchange-Traded Fund) est un fonds d'investissement coté en bourse qui réplique la performance d'un actif ou d'un panier d'actifs."
+},
+{
+"t": "AML - ANTI-MONEY LAUNDERING",
+"s": "aml-anti-money-laundering",
+"d": "Désigne l'ensemble des procédures, lois et régulations destinées à prévenir le blanchiment d'argent."
+},
+{
+"t": "KYC - KNOW YOUR CUSTOMER",
+"s": "kyc-know-your-customer",
+"d": "Procédure réglementaire utilisée par certaines entreprises opérant sur Bitcoin pour vérifier l'identité de leurs clients dans le cadre de la lutte..."
+},
+{
+"t": "WHALE",
+"s": "whale",
+"d": "Désigne un individu ou une entité qui possède une quantité très importante de bitcoins."
+}
+]
