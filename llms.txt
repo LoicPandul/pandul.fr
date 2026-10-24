@@ -3,29 +3,31 @@ permalink: /llms.txt
 layout: null
 sitemap: false
 ---
-# Pandul
+# Loïc Morel (Pandul)
 
-> {{ site.data.seo.person.description }}
+> Loïc Morel, rédacteur technique spécialisé sur Bitcoin et développeur, basé à Marseille. Il écrit des tutoriels, des formations et de la documentation, et il code des logiciels Bitcoin open source.
 
-Pandul est le projet pédagogique Bitcoin de Loïc Morel. Le site rassemble formations, tutoriels, articles, podcasts et un dictionnaire interactif de {{ site.data.dictionnaire-stats.total }} définitions techniques sur Bitcoin et son écosystème.
+pandul.fr est le site personnel de Loïc Morel. Pandul est le nom de son entreprise individuelle.
 
-## Pages clés
+## Activités
 
-- [Accueil - Pandul](https://pandul.fr/) : catalogue de contenus pédagogiques Bitcoin de Loïc Morel (formations Plan B Academy, tutoriels Bitstack, podcasts Space Kek, productions Découvre Bitcoin).
-- [Dictionnaire Bitcoin](https://pandul.fr/dictionnaire/) : {{ site.data.dictionnaire-stats.total }} définitions techniques sur Bitcoin, organisées en {{ site.data.dictionnaire-stats.category_count }} catégories thématiques et navigables de A à Z.
-- [À propos](https://pandul.fr/a-propos/) : biographie de Loïc Morel, prestations de rédaction et de conception pédagogique sur Bitcoin.
-- [Bloc Zéro](https://pandul.fr/bloc-zero/) : page dédiée au livre Bloc Zéro de Loïc Morel.
+- Rédaction et pédagogie : {{ site.data.ecrits | size }} tutoriels et articles, {{ site.data.formations | size }} formations pour Plan ₿ Academy, {{ site.data.audio-video | size }} podcasts, vidéos et interviews.
+- Documentation technique : documentation de Bark chez Second, documentation du portefeuille Liana chez Wizard Sardine.
+- Développement : Gerfaut, un portefeuille Bitcoin watch-only pour Android et ordinateur.
 
-## Dictionnaire
+## Clients
+{% for g in site.data.clients %}
+{{ g.periode }} :
+{% for c in g.clients %}- {{ c.nom }} : {{ c.travail }}
+{% endfor %}{% endfor %}
+## Projets
 
-Le Dictionnaire de Bitcoin est un ouvrage open source et collaboratif qui recense le vocabulaire technique de Bitcoin et de son écosystème. Disponible gratuitement en ligne.
+- [Dictionnaire de Bitcoin]({{ site.dictionnaire_url }}/) : plus de 1 400 définitions du vocabulaire technique de Bitcoin, open source, sous licence CC BY-NC-SA 4.0. Les anciennes adresses https://pandul.fr/dictionnaire/... redirigent vers ce site.
+- [Gerfaut](https://gerfaut-wallet.com) : portefeuille Bitcoin watch-only, open source et gratuit.
 
-- {{ site.data.dictionnaire-stats.total }} définitions
-- {{ site.data.dictionnaire-stats.category_count }} catégories thématiques
-- 26 lettres de l'alphabet
-- URL : https://pandul.fr/dictionnaire/
+## Contact
 
-## Catégories
-
-{% for cat in site.data.dictionnaire-stats.categories %}- [{{ cat.name }}](https://pandul.fr/dictionnaire/categorie/{{ cat.slug }}/) : {{ cat.count }} définitions de la catégorie {{ cat.name }}.
-{% endfor %}
+- E-mail : info@pandul.fr
+- X : https://x.com/Loic_Pandul
+- GitHub : https://github.com/LoicPandul
+- Lightning : sats@pandul.fr
