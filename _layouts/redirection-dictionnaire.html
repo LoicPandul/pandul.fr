@@ -1,0 +1,22 @@
+{%- comment -%}
+  Ancienne URL du dictionnaire : renvoie vers le même chemin sur site.dictionnaire_url.
+  /dictionnaire/                    -> <domaine>/
+  /dictionnaire/<slug>/             -> <domaine>/<slug>/
+  /dictionnaire/categorie/<slug>/   -> <domaine>/categorie/<slug>/
+  /dictionnaire/lettre/<lettre>/    -> <domaine>/lettre/<lettre>/
+{%- endcomment -%}
+{%- assign chemin = page.url | remove_first: '/dictionnaire' -%}
+{%- assign cible = site.dictionnaire_url | append: chemin -%}
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Le Dictionnaire de Bitcoin a déménagé</title>
+<link rel="canonical" href="{{ cible }}">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={{ cible }}">
+</head>
+<body>
+<p>Le Dictionnaire de Bitcoin a déménagé : <a href="{{ cible }}">{{ cible }}</a></p>
+</body>
+</html>

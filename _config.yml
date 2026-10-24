@@ -1,9 +1,9 @@
 title: "Loïc Morel - Pandul"
-description: "Pédagogie Bitcoin par Loïc Morel : tutoriels, articles, podcasts, formations et un dictionnaire interactif de 1408 définitions."
+description: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin et développeur : tutoriels, formations, documentation et logiciels Bitcoin."
 author:
   name: "Loïc Morel"
   twitter: "Loic_Pandul"
-  url: "https://pandul.fr/a-propos/"
+  url: "https://pandul.fr/"
 lang: fr
 timezone: Europe/Paris
 
@@ -60,41 +60,24 @@ social:
     - "https://x.com/Loic_Pandul"
     - "https://github.com/LoicPandul"
 
-# Collections dictionnaire, categorie, lettre
-collections:
-  dictionnaire:
-    output: true
-    permalink: /dictionnaire/:slug/
-  categorie:
-    output: true
-    permalink: /dictionnaire/categorie/:slug/
-  lettre:
-    output: true
-    permalink: /dictionnaire/lettre/:slug/
+# Le Dictionnaire de Bitcoin vit sur son propre domaine.
+# Seule source de son adresse : les redirections et les liens du site la lisent ici.
+# Sans barre oblique finale.
+dictionnaire_url: "https://dictionnaire-bitcoin.example"
 
-# Collections par defaut
+# Anciennes URL /dictionnaire/... : une page de redirection par URL (_redirections/),
+# vers le même chemin sur dictionnaire_url, sans le préfixe /dictionnaire.
+collections:
+  redirections:
+    output: true
+    permalink: /dictionnaire/:path/
+
 defaults:
   - scope: {path: ""}
     values:
       layout: "default"
   - scope:
-      type: dictionnaire
+      type: redirections
     values:
-      layout: "definition"
-      image: "/assets/img/dictionnaire-social-card.png"
-      sitemap:
-        priority: 0.8       # definitions - levier SEO principal (D-08)
-  - scope:
-      type: categorie
-    values:
-      layout: "category"
-      image: "/assets/img/dictionnaire-social-card.png"
-      sitemap:
-        priority: 0.7       # categories (D-08)
-  - scope:
-      type: lettre
-    values:
-      layout: "letter"
-      image: "/assets/img/dictionnaire-social-card.png"
-      sitemap:
-        priority: 0.5       # lettres A-Z (D-08)
+      layout: "redirection-dictionnaire"
+      sitemap: false
