@@ -258,8 +258,11 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
   cursor: pointer;
 }
 @media (max-width: 959px) {
-  .bar-nav, .bar-cta { display: none; }
+  .bar-nav { display: none; }
   .bar-menu { display: inline-flex; align-items: center; }
+  /* au doigt, « M'écrire » reste dans la barre dès le premier écran, à côté du menu */
+  .bar-cta { min-height: 40px; padding: 0 14px; }
+  .bar.is-top .bar-cta { opacity: 1; transform: none; pointer-events: auto; }
 }
 
 /* Menu téléphone */
@@ -399,10 +402,10 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
 .slide { display: block; transform: translate3d(var(--sx, 0px), 0, 0); }
 .slide + .slide { align-self: flex-end; }
 .clients-lead { margin-top: clamp(32px, 4vw, 56px); max-width: 40ch; }
-@media (min-width: 1200px) {
-  .clients-head { position: relative; }
-  /* l'accroche tient dans le vide laissé à gauche de « confiance » (environ 3,5 fois la taille du titre) */
-  .clients-lead { position: absolute; left: 0; bottom: 0.4em; max-width: min(50ch, calc(100% - 3.5 * var(--s-display) - 48px)); margin: 0; }
+@media (min-width: 960px) {
+  /* les deux lignes du titre en escalier : « confiance » part sous « me font », le titre se lit d'un bloc */
+  .slide + .slide { align-self: flex-start; margin-left: 1.32em; }
+  .clients-lead { max-width: 52ch; }
 }
 
 .brands { display: grid; gap: clamp(48px, 5vw, 80px); margin-top: clamp(48px, 5vw, 80px); }
@@ -581,6 +584,7 @@ a.brand-link:focus-visible { color: var(--ink); }
 .works-key { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0 0; padding: 0; list-style: none; font: 560 var(--s-small)/1.3 var(--font-ui); color: var(--pale); }
 .works-key li { display: inline-flex; align-items: flex-end; gap: 8px; }
 .works-key i { display: block; width: 2px; height: var(--kh); background: var(--paper); }
+.works-key li:first-child { color: var(--paper); font-weight: 640; }
 .works-groups span.is-pinned::before { content: "\2190\00a0"; }
 /* repère de groupe : toujours sous le premier trait du groupe ; le nom, lui, reste dans la réglette */
 .works-groups span { border-left: 0 !important; padding-left: 0 !important; }
@@ -708,7 +712,6 @@ a.brand-link:focus-visible { color: var(--ink); }
     transition: background-color var(--t-ui), color var(--t-ui);
   }
   .trades-tabs a.is-current { background: var(--mark); color: var(--ink); }
-  .trades-tabs a:first-child { margin-left: -6px; }
   /* un onglet touché amène le métier sous la barre d'onglets, pas dessous */
   .trade { scroll-margin-top: 72px; }
 }
@@ -849,8 +852,10 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 
 .gerfaut { display: grid; gap: 32px; margin-top: var(--section); }
 .gerfaut-band { position: relative; margin: 0 calc(-1 * var(--margin)); }
-.gerfaut-stage { position: relative; overflow: hidden; background: var(--plate); padding: clamp(32px, 6vw, 96px) 22% 0 clamp(20px, 6vw, 96px); }
+.gerfaut-stage { position: relative; overflow: hidden; background: var(--plate); padding: clamp(32px, 6vw, 96px) 22% 0 var(--margin); }
 .gerfaut-desk { display: block; width: 100%; height: auto; transform-origin: 50% 100%; }
+/* la fenêtre coupée par le bas du bandeau s'y fond, au lieu d'un bord net au milieu d'une carte */
+.gerfaut-desk { -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent); mask-image: linear-gradient(to bottom, #000 72%, transparent); } /* taste-skill-ignore : masque de fondu */
 .gerfaut-phone { position: absolute; right: clamp(20px, 5vw, 80px); bottom: -6%; width: 19%; margin: 0; }
 .gerfaut-phone img { width: 100%; height: auto; display: block; }
 @media (max-width: 599px) {
@@ -874,6 +879,7 @@ html:not(.js) .blinds { display: none; }
 }
 .gerfaut-text > p { max-width: 56ch; }
 .gerfaut-text .title { margin-bottom: 20px; }
+.gerfaut-text .note { font-size: var(--s-body); }
 @media (min-width: 960px) {
   .gerfaut { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); row-gap: 0; }
   .gerfaut-band { grid-column: 1 / 13; }
@@ -921,8 +927,8 @@ html:not(.js) .blinds { display: none; }
   .contact > * { grid-column: 1 / 13; }
   .contact > .contact-title { grid-column: 1 / 10; grid-row: 1; }
   .contact > .contact-lead { grid-column: 1 / 8; grid-row: 2; }
-  /* le portrait en lignes se pose sur la ligne de base de l'adresse, comme un mot de plus */
-  .contact > .contact-photo { grid-column: 9 / 13; grid-row: 1 / 4; align-self: end; width: 100%; max-width: 400px; margin: 0 0 0.1em; justify-self: end; }
+  /* le portrait en lignes se tient à droite du titre et de l'accroche, posé sur la dernière ligne de l'accroche */
+  .contact > .contact-photo { grid-column: 9 / 13; grid-row: 1 / 3; align-self: end; width: 100%; max-width: 440px; margin: 0; justify-self: end; }
   .contact > .contact-mail { grid-column: 1 / 10; grid-row: 3; }
 }
 .contact-copy { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 28px 0 0; min-height: 52px; }
@@ -958,15 +964,15 @@ html.js .foot-name.is-live .foot-name-text { display: none; }
 .foot-legal p { margin: 0; }
 .foot-key code { font-family: var(--font-code); font-size: var(--s-small); color: var(--paper); word-break: break-all; }
 .foot-links { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 22px; margin: 0; padding: 0; }
-.foot-links a { display: inline-block; min-width: 44px; padding: 12px 0; color: var(--paper); text-align: center; }
+.foot-links a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: var(--paper); }
 .foot-key code { margin-right: 12px; white-space: nowrap; }
 @media (max-width: 599px) {
   .only-wide { display: none; }
-  .foot-key code { display: block; margin: 0 0 12px; }
+  .foot-key code { display: block; margin: 0 0 12px; font-size: 1rem; }
 }
 .foot-copy { min-height: 44px; padding: 0 12px; border: 0; background: var(--paper); color: var(--ink); font: 640 var(--s-small)/1 var(--font-ui); cursor: pointer; vertical-align: middle; }
 @media (hover: hover) { .foot-copy:hover { background: var(--mark); } }
-.foot-links .link::after { bottom: 8px; }
+.foot-links .link::after { bottom: 10px; }
 @media (min-width: 960px) {
   .foot-legal { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "copy links" "key key"; align-items: center; column-gap: 40px; }
   .foot-legal > p:first-child { grid-area: copy; }

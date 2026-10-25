@@ -279,7 +279,10 @@ function initWorks() {
   const key = document.createElement('ul');
   key.className = 'works-key';
   key.setAttribute('aria-hidden', 'true');
-  [['formation', 18], ['tutoriel', 13], ['article', 10], ['podcast, vidéo, interview', 7]].forEach(([t, h]) => {
+  const head = document.createElement('li');
+  head.textContent = 'Hauteur du trait\u00a0:';
+  key.appendChild(head);
+  [['formation', 32], ['tutoriel', 24], ['article', 18], ['podcast, vidéo, interview', 12]].forEach(([t, h]) => {
     const li = document.createElement('li');
     const i = document.createElement('i'); i.style.setProperty('--kh', h + 'px');
     li.append(i, t);
