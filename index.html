@@ -143,7 +143,7 @@ sitemap:
     <article class="trade" aria-labelledby="t-redaction">
       <h3 class="title" id="t-redaction" data-reveal>Rédaction et pédagogie</h3>
       <p data-reveal style="--d:1">Articles, tutoriels, formations complètes, scripts de vidéos et de podcasts. Je pars de zéro et j'avance marche par marche, avec des exemples concrets, sans rien supposer d'évident.</p>
-      <dl class="figures" data-reveal style="--d:2">
+      <dl class="figures" data-reveal style="--d:2" data-count>
         <div><dt>{{ nb_ecrits }}</dt><dd>tutoriels et articles</dd></div>
         <div><dt>{{ nb_formations }}</dt><dd>formations complètes</dd></div>
         <div><dt>{{ nb_audio }}</dt><dd>podcasts, vidéos et interviews</dd></div>
@@ -152,7 +152,7 @@ sitemap:
       <ul class="courses" data-reveal style="--d:1">
         {%- for f in site.data.formations %}
         {%- assign code = f.code | downcase | remove: " " %}
-        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/formations/' | append: code | append: '.webp' | relative_url }}" alt="" width="480" height="270" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title">{{ f.title }}</span></a></li>
+        <li><a href="{{ f.url }}" rel="noopener"><img class="line-reveal" src="{{ '/assets/img/formations/' | append: code | append: '.webp' | relative_url }}" alt="" width="480" height="270" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title">{{ f.title }}</span></a></li>
         {%- endfor %}
       </ul>
     </article>

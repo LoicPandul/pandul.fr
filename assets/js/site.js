@@ -110,6 +110,7 @@ function initTradesIndex() {
   const trades = $$('.trade[aria-labelledby]');
   if (!links.length || !trades.length) return;
   const tabs = $('.trades-tabs');
+  const index = $('.trades-index');
   let cur = '';
   // le métier lu est le dernier dont le titre a passé la ligne de lecture :
   // juste sous la barre d'onglets au doigt, aux deux cinquièmes de l'écran sinon
@@ -117,6 +118,11 @@ function initTradesIndex() {
     const line = tabs && tabs.offsetParent !== null ? tabs.getBoundingClientRect().bottom + 12 : window.innerHeight * 0.4;
     let id = trades[0].getAttribute('aria-labelledby');
     for (const t of trades) if (t.getBoundingClientRect().top <= line) id = t.getAttribute('aria-labelledby');
+    // trait de progression le long de l'index : la part des trois métiers déjà lue
+    if (index) {
+      const a = trades[0].getBoundingClientRect().top, b = trades[trades.length - 1].getBoundingClientRect().bottom;
+      index.style.setProperty('--tp', clamp((line - a) / Math.max(1, b - a)).toFixed(3));
+    }
     if (id === cur) return;
     cur = id;
     links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
@@ -518,6 +524,28 @@ function initGerfaut() {
   });
 }
 
+/* ---------- Chiffres qui se comptent au défilement ---------- */
+function initCount() {
+  const box = $('[data-count]');
+  if (!box || reduce) return;
+  const nums = $$('dt', box).map((dt) => ({ dt, n: parseInt(dt.textContent, 10) || 0 }));
+  // le lecteur d'écran lit le chiffre final, jamais un chiffre en cours de comptage
+  nums.forEach((x) => { x.dt.setAttribute('aria-label', String(x.n)); x.dt.textContent = '0'; });
+  // le comptage part quand les chiffres arrivent dans l'écran et finit toujours sur la vraie valeur
+  new IntersectionObserver((en, io) => {
+    if (!en[0].isIntersecting) return;
+    io.disconnect();
+    const t0 = performance.now();
+    const tick = (t) => {
+      const k = clamp((t - t0) / 1100);
+      const e = 1 - Math.pow(1 - k, 3);
+      nums.forEach((x) => { x.dt.textContent = String(Math.round(x.n * e)); });
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, { threshold: 0.6 }).observe(box);
+}
+
 /* ---------- Titres en lignes : ils s'écrivent ligne par ligne au défilement ---------- */
 function initLineReveal() {
   const els = $$('.line-reveal');
@@ -764,6 +792,7 @@ initSlides();
 initWorks();
 initDict();
 initGerfaut();
+initCount();
 initLineReveal();
 initLenis();
 kick();
