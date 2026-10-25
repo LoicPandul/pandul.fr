@@ -108,3 +108,67 @@ Principaux reproches : capture de Gerfaut encore coupée et agrandie au-delà du
 ## Round 7 (25 octobre 2026)
 
 Corrections du round 6 : fenêtre de bureau et téléphone de Gerfaut entiers dans le bandeau, posés sur la marge, sans agrandissement ni fondu ; légende des traits sur une ligne (grille 2 × 2 au téléphone) ; logos agrandis d'environ 25 %, périodes « Aujourd'hui » et « De 2021 à 2025 » en taille de texte ; barre de position jaune sous la réglette au doigt ; boutons de l'accueil sous l'accroche au téléphone ; nom de l'accueil plus grand sur ordinateur ; Contact compacté sur les écrans de 800 px de haut ; liens des notes à 44 px.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,5 |
+| Ils me font confiance | 8,0 | 8,0 |
+| Ce que je fais | 7,5 | 7,8 |
+| Projets | 8,0 | 8,0 |
+| Contact | 8,2 | 8,5 |
+| Pied de page | 8,3 | 8,5 |
+| **Global** | **8,0** | **8,3** |
+
+Principaux reproches : « Ce que je fais » sans mouvement, onglets serrés au bord, titre des clients trop haut à 1280 × 800, note du livre imprimé aux lignes écartées, vides dans le bandeau de Gerfaut, portrait de Contact petit à 1440, cibles de la barre à 40 px.
+
+## Round 8 (25 octobre 2026)
+
+Corrections du round 7 : chiffres qui se comptent à l'entrée, vignettes des formations dessinées en lignes au défilement, trait de progression le long de l'index des métiers, onglets répartis sur la largeur au téléphone, titre des clients réduit sur les écrans bas, notes en liens en ligne, bandeau de Gerfaut resserré, portrait de Contact agrandi, cibles de la barre à 44 px.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,5 |
+| Ils me font confiance | 8,0 | 7,7 |
+| Ce que je fais | 8,0 | 8,3 |
+| Projets | 7,7 | 7,9 |
+| Contact | 8,2 | 8,5 |
+| Pied de page | 8,5 | 8,7 |
+| **Global** | **8,1** | **8,2** |
+
+Principaux reproches : bandeau de Gerfaut avant son titre, moitié droite vide à côté du titre des clients, wizardsardine seul sur sa ligne au téléphone, onglets écartés à 768 px, portrait de Contact petit au téléphone, pas de « M'écrire » dans la barre au chargement, traits de la réglette pâles.
+
+## Round 9 (25 octobre 2026)
+
+Corrections du round 8 : texte de Gerfaut avant le bandeau, accroche des clients dans la colonne de droite, wizardsardine sur toute la ligne au téléphone, onglets groupés à 768 px, portrait de Contact agrandi au téléphone, « M'écrire » dans la barre dès le chargement, réglette plus haute (traits de 3 px sur ordinateur), légende en 16 px.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,3 |
+| Ils me font confiance | 6,8 | 6,8 |
+| Ce que je fais | 7,8 | 8,2 |
+| Projets | 7,8 | 8,2 |
+| Contact | 8,0 | 8,0 |
+| Pied de page | 8,6 | 8,7 |
+| **Global** | **7,6** | **7,8** |
+
+Principal reproche : traits de la réglette invisibles, bleu sur bleu (règle CSS cassée au round 8). Aussi : « M'écrire » deux fois dans le premier écran du téléphone, onglets coupés à droite, lettre du dictionnaire trop haute.
+
+## Round 10 (25 octobre 2026)
+
+Corrections du round 9 : règle des traits réparée, bouton « M'écrire » de l'accueil retiré au téléphone (il reste dans la barre), onglets ajustés au téléphone, lettre du dictionnaire ramenée à 68 % de l'écran, cibles de 44 px pour l'index et le nom.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,0 |
+| Ils me font confiance | 8,0 | 8,3 |
+| Ce que je fais | 7,3 | 7,8 |
+| Projets | 7,5 | 8,0 |
+| Contact | 8,3 | 8,5 |
+| Pied de page | 8,3 | 8,6 |
+| **Global** | **8,0** | **8,2** |
+
+Principaux reproches : « Ce que je fais » reste la section la plus plate (texte et chiffres), section Projets longue, petits textes pâles sur le bleu de la réglette, navigation d'ordinateur discrète.
+
+## Bilan
+
+Du round 5 au round 10, la note globale reste entre 8,0 et 8,3, et une même section bouge de 0,5 point d'un relecteur à l'autre sans changement de code (Accueil sur ordinateur : 8,5 au round 8, 8,0 au round 10). L'objectif de 8,5 partout n'est pas atteint. Atteints sur au moins un round : Accueil, Contact et pied de page sur ordinateur, pied de page sur téléphone. La section qui tire tout vers le bas est « Ce que je fais » : il lui faudrait un vrai visuel par métier, pas une retouche de plus.
