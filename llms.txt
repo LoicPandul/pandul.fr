@@ -13,7 +13,7 @@ pandul.fr est le site personnel de Loïc Morel. Pandul est le nom de son entrepr
 
 - Rédaction et pédagogie : {{ site.data.ecrits | size }} tutoriels et articles, {{ site.data.formations | size }} formations pour Plan ₿ Academy, {{ site.data.audio-video | size }} podcasts, vidéos et interviews.
 - Documentation technique : documentation de Bark chez Second, documentation du portefeuille Liana chez Wizard Sardine.
-- Développement : Gerfaut, un portefeuille Bitcoin watch-only pour Android et ordinateur.
+- Développement : Gerfaut, un portefeuille Bitcoin watch-only pour Android, Linux, macOS et Windows, dont chaque version est signée avec minisign.
 
 ## Clients
 {% for g in site.data.clients %}
