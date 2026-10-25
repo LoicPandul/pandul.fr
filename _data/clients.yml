@@ -3,7 +3,7 @@
 # Sans logo officiel (Space Kek, How to Bitcoin), le logo est le nom composé en Mona Sans, en attendant le vrai.
 # compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
 
-- periode: "Depuis 2026"
+- periode: "Aujourd'hui"
   clients:
     - nom: "Second"
       logo: "second.svg"
@@ -22,7 +22,7 @@
       travail: "Rédaction technique pour le blog"
       url: "https://wizardsardine.com/blog/"
 
-- periode: "2021 à 2025"
+- periode: "De 2021 à 2025"
   clients:
     - nom: "Plan ₿ Academy"
       logo: "planb.svg"

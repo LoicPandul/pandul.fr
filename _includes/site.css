@@ -260,9 +260,8 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
 @media (max-width: 959px) {
   .bar-nav { display: none; }
   .bar-menu { display: inline-flex; align-items: center; }
-  /* au doigt, « M'écrire » reste dans la barre dès le premier écran, à côté du menu */
+  /* au doigt, « M'écrire » rejoint la barre une fois passés les boutons du premier écran */
   .bar-cta { min-height: 40px; padding: 0 14px; }
-  .bar.is-top .bar-cta { opacity: 1; transform: none; pointer-events: auto; }
 }
 
 /* Menu téléphone */
@@ -329,14 +328,14 @@ main > section { padding: var(--section) var(--margin) 0; }
 .hero-stage { margin: 28px calc(-1 * var(--margin)) 0; }
 .hero-stage .stage-box { height: min(45svh, 118vw); }
 @media (max-width: 959px) {
-  /* téléphone et tablette : le nom, l'accroche, le portrait, puis le texte et les boutons */
-  .hero { grid-template-areas: "name" "lead" "stage" "body" "actions"; }
+  /* téléphone et tablette : le nom, l'accroche et les boutons dans le premier écran, puis le portrait et le texte */
+  .hero { grid-template-areas: "name" "lead" "actions" "stage" "body"; }
   .hero-text { display: contents; }
   .hero-name { grid-area: name; margin-top: clamp(20px, 5vw, 40px); }
   .hero-stage { grid-area: stage; margin-top: 20px; }
-  .hero-stage .stage-box { height: min(46svh, 104vw); }
+  .hero-stage .stage-box { height: min(44svh, 104vw); }
   .hero-lead { grid-area: lead; margin-top: 16px; }
-  .hero-actions { grid-area: actions; margin-top: 24px; }
+  .hero-actions { grid-area: actions; margin-top: 20px; }
   .hero-body { grid-area: body; margin-top: 28px; }
 }
 @media (max-width: 599px) {
@@ -373,7 +372,7 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
     justify-content: center;
     padding: 40px 0 72px;
   }
-  .hero-name { flex-direction: column; }
+  .hero-name { flex-direction: column; font-size: clamp(10.5rem, 13vw, 13rem); }
   .hero-stage {
     grid-column: 7 / 13;
     margin: 0;
@@ -409,9 +408,9 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
 }
 
 .brands { display: grid; gap: clamp(48px, 5vw, 80px); margin-top: clamp(48px, 5vw, 80px); }
-.brands-row { display: grid; gap: 24px; --k: 70px; --hmax: 52px; --box: 60px; }
-.brands-row--now { --k: 92px; --hmax: 64px; --box: 72px; }
-.brands-period { font: 680 var(--s-small)/1.3 var(--font-ui); padding-top: 0.5em; align-self: start; }
+.brands-row { display: grid; gap: 24px; --k: 86px; --hmax: 62px; --box: 72px; }
+.brands-row--now { --k: 112px; --hmax: 78px; --box: 86px; }
+.brands-period { font: 720 var(--s-body)/1.3 var(--font-ui); padding-top: 0.5em; align-self: start; }
 .brands-list {
   list-style: none;
   margin: 0; padding: 0;
@@ -582,9 +581,20 @@ a.brand-link:focus-visible { color: var(--ink); }
 .works-groups span[data-row="1"] { top: 1.6em; }
 .works-legend { margin: 10px 0 0; font: 560 var(--s-small)/1.45 var(--font-ui); color: var(--pale); max-width: 70ch; }
 .works-key { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0 0; padding: 0; list-style: none; font: 560 var(--s-small)/1.3 var(--font-ui); color: var(--pale); }
-.works-key li { display: inline-flex; align-items: flex-end; gap: 8px; }
+.works-key li { display: inline-flex; align-items: flex-end; gap: 8px; line-height: 1; }
 .works-key i { display: block; width: 2px; height: var(--kh); background: var(--paper); }
 .works-key li:first-child { color: var(--paper); font-weight: 640; }
+@media (max-width: 599px) {
+  /* téléphone : la légende en grille de deux colonnes, sous son titre */
+  .works-key { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px var(--gutter); }
+  .works-key li:first-child { grid-column: 1 / -1; }
+}
+/* téléphone : où l'on est parmi les 246 */
+.works-map { display: none; }
+@media (max-width: 959px) {
+  .works-map { display: block; position: relative; height: 3px; margin-top: 4px; background: rgb(201 211 234 / 0.3); }
+  .works-map i { position: absolute; top: 0; left: calc(var(--p, 0) * 92%); width: 8%; height: 100%; background: var(--mark); }
+}
 .works-groups span.is-pinned::before { content: "\2190\00a0"; }
 /* repère de groupe : toujours sous le premier trait du groupe ; le nom, lui, reste dans la réglette */
 .works-groups span { border-left: 0 !important; padding-left: 0 !important; }
@@ -837,8 +847,8 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 .defn-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin: 0; }
 .defn-actions .link { font: 640 var(--s-small)/1.4 var(--font-ui); display: inline-block; padding: 12px 0; }
 .defn-actions .link::after { bottom: 10px; }
-.note .link { display: inline-block; padding: 8px 0; }
-.note .link::after { bottom: 6px; }
+.note .link { display: inline-block; padding: 11px 0; }
+.note .link::after { bottom: 9px; }
 .defn.is-changing .defn-text, .defn.is-changing .defn-term { opacity: 0.25; }
 .defn-term { transition: opacity var(--t-ui) ease; }
 .dict-text .note { margin-top: 24px; }
@@ -852,15 +862,15 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 
 .gerfaut { display: grid; gap: 32px; margin-top: var(--section); }
 .gerfaut-band { position: relative; margin: 0 calc(-1 * var(--margin)); }
-.gerfaut-stage { position: relative; overflow: hidden; background: var(--plate); padding: clamp(32px, 6vw, 96px) 22% 0 var(--margin); }
+/* la fenêtre de bureau entière, sur la marge, et le téléphone entier qui la chevauche à droite */
+.gerfaut-stage { position: relative; overflow: hidden; background: var(--plate); padding: clamp(40px, 5.5vw, 88px) 15% clamp(40px, 5.5vw, 88px) var(--margin); }
 .gerfaut-desk { display: block; width: 100%; height: auto; transform-origin: 50% 100%; }
-/* la fenêtre coupée par le bas du bandeau s'y fond, au lieu d'un bord net au milieu d'une carte */
-.gerfaut-desk { -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent); mask-image: linear-gradient(to bottom, #000 72%, transparent); } /* taste-skill-ignore : masque de fondu */
-.gerfaut-phone { position: absolute; right: clamp(20px, 5vw, 80px); bottom: -6%; width: 19%; margin: 0; }
+.gerfaut-desk { border-radius: 10px; }
+.gerfaut-phone { position: absolute; right: var(--margin); bottom: clamp(20px, 2.75vw, 44px); width: 17%; margin: 0; }
 .gerfaut-phone img { width: 100%; height: auto; display: block; }
 @media (max-width: 599px) {
   /* téléphone : la capture Android d'abord, celle de bureau est trop petite pour être lue */
-  .gerfaut-stage { padding: 32px 0 0; display: flex; justify-content: center; overflow: hidden; }
+  .gerfaut-stage { padding: 32px 0; display: flex; justify-content: center; overflow: hidden; }
   .gerfaut-desk { display: none; }
   .gerfaut-phone { position: static; width: 56%; }
 }
@@ -892,6 +902,13 @@ html:not(.js) .blinds { display: none; }
 .contact { margin-top: var(--section); padding-bottom: clamp(96px, 10vw, 128px) !important; background: var(--ink); color: var(--paper); }
 .contact-lead { margin-top: clamp(28px, 3vw, 44px); max-width: 38ch; }
 .contact-mail { margin: clamp(40px, 6vw, 88px) 0 0; }
+/* écran d'ordinateur bas (800 px) : le titre, l'adresse et le bouton tiennent ensemble */
+@media (min-width: 960px) and (max-height: 860px) {
+  .contact { padding-top: 80px !important; }
+  .contact-title { font-size: min(var(--s-display), 15.5svh); }
+  .contact-mail { margin-top: 48px; }
+  .contact-mail a { font-size: min(var(--s-display), 15.5svh); }
+}
 .contact-mail a {
   position: relative;
   isolation: isolate;

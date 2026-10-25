@@ -282,13 +282,19 @@ function initWorks() {
   const head = document.createElement('li');
   head.textContent = 'Hauteur du trait\u00a0:';
   key.appendChild(head);
-  [['formation', 32], ['tutoriel', 24], ['article', 18], ['podcast, vidéo, interview', 12]].forEach(([t, h]) => {
+  [['formation', 32], ['tutoriel', 24], ['article', 17], ['audio et vidéo', 11]].forEach(([t, h]) => {
     const li = document.createElement('li');
     const i = document.createElement('i'); i.style.setProperty('--kh', h + 'px');
     li.append(i, t);
     key.appendChild(li);
   });
   rail.after(key);
+  // au doigt, une barre de position : la partie des 246 que l'on regarde
+  const map = document.createElement('div');
+  map.className = 'works-map';
+  map.setAttribute('aria-hidden', 'true');
+  map.appendChild(document.createElement('i'));
+  rail.appendChild(map);
 
   let current = -1;
   const set = (i, fromScroll) => {
@@ -303,6 +309,7 @@ function initWorks() {
     openEl.href = it.u;
     openEl.setAttribute('aria-label', `Ouvrir \u00ab\u00a0${it.t}\u00a0\u00bb`);
     track.setAttribute('aria-valuenow', String(i + 1));
+    map.style.setProperty('--p', (i / Math.max(1, N - 1)).toFixed(4));
     track.setAttribute('aria-valuetext', `${it.t}, ${groups[it.g].name}`);
     if (!wide() && !fromScroll) track.scrollTo({ left: i * 8, behavior: reduce ? 'auto' : 'smooth' });
   };
@@ -505,7 +512,8 @@ function initGerfaut() {
       b.style.visibility = e < 0.01 ? 'hidden' : '';
     });
     desk.dataset.d = drift.toFixed(3);
-    desk.style.transform = `translate3d(0, ${((0.5 - drift) * 36).toFixed(1)}px, 0) scale(1.06)`;
+    // dérive lente, sans agrandir : la fenêtre reste entière dans le bandeau
+    desk.style.transform = `translate3d(0, ${((0.5 - drift) * 20).toFixed(1)}px, 0)`;
     return false;
   });
 }
