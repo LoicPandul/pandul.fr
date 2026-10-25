@@ -50,10 +50,15 @@ void main(){
 
   // Loupe : agrandit ce qui est sous le curseur.
   vec2 d = p - uMouse;
-  // loupe en barre de lecture : plus large que haute (uLensShape = étirement horizontal, vertical)
-  float r = length(d / uLensShape);
-  // bord net : pas de zone de transition où les lignes se tasseraient
-  float lens = uLens * (1.0 - smoothstep(uLensR * 0.96, uLensR, r));
+  // loupe : un rectangle arrondi (barre de lecture, uLensShape = étirement horizontal, vertical) ou un cercle ;
+  // distance exacte au bord, en pixels, pour un bord net et un filet d'un pixel
+  vec2 hb = uLensR * uLensShape;
+  float rc = uLensShape.x == uLensShape.y ? hb.y : hb.y * 0.42;
+  vec2 dq = abs(d) - hb + rc;
+  float sd = length(max(dq, 0.0)) + min(max(dq.x, dq.y), 0.0) - rc;
+  float lensOn = uLens * step(0.5, uLensR);
+  float lens = lensOn * (1.0 - smoothstep(-1.0, 0.0, sd));
+  float ring = lensOn * (1.0 - smoothstep(0.35, 1.1, abs(sd + 0.5)));
   q = mix(p, uMouse + d / uMag, lens);
 
   // Ondulation légère liée à la vitesse de défilement, onde d'un toucher.
@@ -127,7 +132,7 @@ void main(){
   }
   vec3 bg = mix(uPaper, uMark, hi);
   vec3 lineCol = mix(uInk, uMark, lit);
-  gl_FragColor = vec4(mix(bg, lineCol, ink), 1.0);
+  gl_FragColor = vec4(mix(mix(bg, lineCol, ink), uInk, ring), 1.0);
 }`;
 
 const UNIFORMS = ['uMark', 'uRes', 'uDpr', 'uFigA', 'uFigB', 'uInv', 'uMorph', 'uText', 'uHasText', 'uAmp', 'uHasAmp', 'uAmpRows',
@@ -497,7 +502,17 @@ export function portraitCanvas(img, w, h, o = {}) {
   c.width = Math.max(2, Math.round(w * scale)); c.height = Math.max(2, Math.round(h * scale));
   const x = c.getContext('2d');
   x.fillStyle = o.bg || '#c4c4c4'; x.fillRect(0, 0, c.width, c.height);
-  const ir = img.naturalWidth / img.naturalHeight;
+  const iw = img.naturalWidth, ih = img.naturalHeight;
+  if (o.crop) {
+    // cadrage : la zone [x, y, largeur, hauteur] (en fractions de la photo) tient entière dans le panneau,
+    // centrée, son bas posé sur le bas du panneau ; le reste de la photo déborde ou laisse voir le fond uni
+    const [fx, fy, fw, fh] = o.crop;
+    const sw = fw * iw, sh = fh * ih;
+    const k = Math.min(c.width / sw, c.height / sh);
+    x.drawImage(img, c.width / 2 - (fx * iw + sw / 2) * k, c.height - (fy * ih + sh) * k, iw * k, ih * k);
+    return c;
+  }
+  const ir = iw / ih;
   let dh = c.height * (o.height || 0.94), dw = dh * ir;
   if (dw > c.width * 1.12) { dw = c.width * 1.12; dh = dw / ir; }
   x.drawImage(img, (c.width - dw) / 2, c.height - dh, dw, dh);

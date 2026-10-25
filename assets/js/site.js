@@ -107,17 +107,24 @@ function initBar() {
 /* ---------- Index des métiers : surligne celui qu'on lit ---------- */
 function initTradesIndex() {
   const links = $$('[data-index]');
-  if (!links.length) return;
-  links.filter((a) => a.dataset.index === 't-redaction').forEach((a) => a.classList.add('is-current'));
-  const map = new Map(links.map((a) => [a.dataset.index, a]));
-  const io = new IntersectionObserver((entries) => {
-    for (const en of entries) {
-      if (!en.isIntersecting) continue;
-      const id = en.target.getAttribute('aria-labelledby');
-      links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
-    }
-  }, { rootMargin: '-35% 0px -55% 0px' });
-  $$('.trade[aria-labelledby]').forEach((t) => io.observe(t));
+  const trades = $$('.trade[aria-labelledby]');
+  if (!links.length || !trades.length) return;
+  const tabs = $('.trades-tabs');
+  let cur = '';
+  // le métier lu est le dernier dont le titre a passé la ligne de lecture :
+  // juste sous la barre d'onglets au doigt, aux deux cinquièmes de l'écran sinon
+  const update = () => {
+    const line = tabs && tabs.offsetParent !== null ? tabs.getBoundingClientRect().bottom + 12 : window.innerHeight * 0.4;
+    let id = trades[0].getAttribute('aria-labelledby');
+    for (const t of trades) if (t.getBoundingClientRect().top <= line) id = t.getAttribute('aria-labelledby');
+    if (id === cur) return;
+    cur = id;
+    links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
+  };
+  let raf = 0;
+  window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; update(); }); }, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+  update();
 }
 
 /* ---------- Menu téléphone ---------- */
@@ -232,6 +239,7 @@ function initWorks() {
   const ticks = items.map((it) => {
     const s = document.createElement('span');
     s.className = 'tick' + (it.first ? ' is-group' : '');
+    s.dataset.k = it.k;
     s.appendChild(document.createElement('i'));
     track.appendChild(s);
     return s;
@@ -267,6 +275,17 @@ function initWorks() {
   }
   labelEls.forEach(() => { const m = document.createElement('b'); labels.appendChild(m); markEls.push(m); });
   rail.append(track, labels);
+  // légende des hauteurs : un trait par type de contenu
+  const key = document.createElement('ul');
+  key.className = 'works-key';
+  key.setAttribute('aria-hidden', 'true');
+  [['formation', 18], ['tutoriel', 13], ['article', 10], ['podcast, vidéo, interview', 7]].forEach(([t, h]) => {
+    const li = document.createElement('li');
+    const i = document.createElement('i'); i.style.setProperty('--kh', h + 'px');
+    li.append(i, t);
+    key.appendChild(li);
+  });
+  rail.after(key);
 
   let current = -1;
   const set = (i, fromScroll) => {
@@ -294,6 +313,7 @@ function initWorks() {
       const ends = [-Infinity, -Infinity];
       labelEls.forEach((l, gi) => {
         const mk = markEls[gi];
+        l.classList.remove('is-pinned');
         if (l.classList.contains('is-small')) { l.style.visibility = 'hidden'; if (mk) mk.style.visibility = 'hidden'; return; }
         const x = (starts[gi] / N) * w;
         const lw = l.offsetWidth;
@@ -313,7 +333,10 @@ function initWorks() {
         let x = sp + starts[gi] * 8 - track.scrollLeft;
         // le nom du groupe en cours reste collé au bord gauche tant que son groupe défile
         const next = gi + 1 < labelEls.length ? sp + starts[gi + 1] * 8 - track.scrollLeft : Infinity;
-        if (x < 0 && next > l.offsetWidth + 16) x = 0;
+        const pinned = x < 0 && next > l.offsetWidth + 16;
+        if (pinned) x = 0;
+        // collé au bord, son repère est sorti de l'écran : une flèche dit que le groupe a commencé plus à gauche
+        l.classList.toggle('is-pinned', pinned);
         const hide = x > tw || x + l.offsetWidth < 0 || l.classList.contains('is-small');
         l.style.visibility = hide ? 'hidden' : '';
         l.style.transform = `translateX(${(x + 8).toFixed(1)}px)`;
@@ -541,7 +564,7 @@ async function initStages() {
       const items = works ? works.items : [{ t: 'Bitcoin', u: '#', g: 0, k: '' }];
       const words = items.flatMap((it, ti) => it.t.split(/[ \t\n]+/).filter(Boolean).map((w) => ({ w, ti })));
       st = new LineStage(el, {
-        figure: (w, h) => ({ canvas: portraitCanvas(img, w, h, { bg: '#9e9e9e', height: w < 600 ? 0.98 : 1.16 }), invert: true }),
+        figure: (w, h) => ({ canvas: portraitCanvas(img, w, h, { bg: '#9e9e9e', crop: w < 600 ? [0.17, -0.04, 0.63, 0.82] : [0.146, -0.05, 0.68, 0.85] }), invert: true }),
         words, pitch: [5.5, 4.6], thick: [0.06, 0.86], lensR: [44, 34], lensShape: [3.4, 1], mag: 2.6, vignette: 1, drawn: reduce, drawK: 7, drawC: 5.3,
       });
       st.items = items;

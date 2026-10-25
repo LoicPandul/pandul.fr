@@ -201,7 +201,7 @@ sitemap:
     </div>
     <div class="dict-text">
       <h3 class="title" id="t-dico" data-reveal>Dictionnaire de Bitcoin</h3>
-      <p data-reveal style="--d:1">Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin, de l'adresse de réception au zero-knowledge proof. Le dictionnaire est open source, gratuit en ligne et publié sous licence CC BY-NC-SA 4.0.</p>
+      <p data-reveal style="--d:1">Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin, de l'adresse de réception au zero-knowledge proof. Le dictionnaire est open source, gratuit en ligne et publié sous licence <span class="nowrap">CC BY-NC-SA 4.0</span>.</p>
       <div class="defn" data-reveal style="--d:2" data-dict data-base="{{ site.dictionnaire_url }}" data-src="{{ '/assets/data/definitions.json' | relative_url }}">
         <p class="defn-term"><mark><a href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-term>{{ def0.t }}</a></mark></p>
         <p class="defn-text" data-dict-text aria-live="polite">{{ def0.d }}</p>
@@ -244,10 +244,10 @@ sitemap:
 
 <section class="contact" id="contact" aria-labelledby="t-contact">
   <figure class="contact-photo" data-reveal="wipe" style="--d:1">
-    <img src="{{ '/assets/img/lignes/portrait-contact.webp' | relative_url }}" alt="Loïc Morel" width="480" height="480" fetchpriority="low" decoding="async">
+    <img src="{{ '/assets/img/lignes/portrait-contact.webp' | relative_url }}" alt="Loïc Morel, dessiné en lignes" width="720" height="647" fetchpriority="low" decoding="async">
   </figure>
   <h2 class="display contact-title line-reveal" id="t-contact">Un sujet à expliquer&nbsp;?</h2>
-  <p class="lead contact-lead" data-reveal style="--d:1">Pour un article, une formation, une documentation ou une relecture, écrivez-moi directement.</p>
+  <p class="lead contact-lead" data-reveal style="--d:1">Pour un article, une formation, une documentation ou une relecture, <span class="nowrap">écrivez-moi</span> directement.</p>
   <p class="contact-mail"><a class="line-reveal" href="mailto:info@pandul.fr">info@pandul.fr</a></p>
   <p class="contact-copy" data-reveal style="--d:2">
     <button class="btn btn-paper" type="button" data-copy="info@pandul.fr" hidden>Copier l'adresse</button>
@@ -257,6 +257,6 @@ sitemap:
     <div><dt>X</dt><dd><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">@Loic_Pandul</a></dd></div>
     <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/LoicPandul" rel="me noopener">LoicPandul</a></dd></div>
     <div><dt>Lightning</dt><dd><a class="link" href="lightning:sats@pandul.fr">sats@pandul.fr</a></dd></div>
-    <div><dt>Ville</dt><dd>Marseille</dd></div>
+    <div><dt>Ville</dt><dd><span>Marseille</span></dd></div>
   </dl>
 </section>

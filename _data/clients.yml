@@ -18,7 +18,7 @@
     - nom: "Wizard Sardine"
       logo: "wizardsardine.svg"
       ratio: 8.43
-      optique: 1.18
+      optique: 1.32
       travail: "Rédaction technique pour le blog"
       url: "https://wizardsardine.com/blog/"
 
@@ -27,6 +27,7 @@
     - nom: "Plan ₿ Academy"
       logo: "planb.svg"
       ratio: 5.33
+      optique: 1.14
       travail: "Formations, tutoriels et maintenance du dépôt de contenus"
       comptes:
         - {source: "formations", platform: "Plan ₿ Academy", libelle: "formations"}
