@@ -51,7 +51,7 @@
     <a class="bar-name" href="{{ '/' | relative_url }}">Loïc Morel</a>
     <nav class="bar-nav" aria-label="Sections">
       <a href="{{ '/#clients' | relative_url }}" data-nav="clients">Clients</a>
-      <a href="{{ '/#activites' | relative_url }}" data-nav="activites">Activités</a>
+      <a href="{{ '/#activites' | relative_url }}" data-nav="activites">Ce que je fais</a>
       <a href="{{ '/#projets' | relative_url }}" data-nav="projets">Projets</a>
       <a href="{{ '/#contact' | relative_url }}" data-nav="contact">Contact</a>
       <span class="bar-mark" aria-hidden="true"></span>
@@ -67,7 +67,7 @@
     </div>
     <nav class="menu-nav" aria-label="Sections">
       <a href="{{ '/#clients' | relative_url }}" style="--i:0">Clients</a>
-      <a href="{{ '/#activites' | relative_url }}" style="--i:1">Activités</a>
+      <a href="{{ '/#activites' | relative_url }}" style="--i:1">Ce que je fais</a>
       <a href="{{ '/#projets' | relative_url }}" style="--i:2">Projets</a>
       <a href="{{ '/#contact' | relative_url }}" style="--i:3">Contact</a>
     </nav>
@@ -80,17 +80,18 @@
 
   <footer class="foot" id="fin">
     <div class="foot-name stage" data-stage="name" aria-hidden="true">
-      <p class="foot-name-text"><span>Loïc</span> <span>Morel</span></p>
+      <div class="foot-name-text">
+        <span class="foot-name-wide">{% include nom-ligne.svg %}</span>
+        <span class="foot-name-narrow">{% include nom-deux-lignes.svg %}</span>
+      </div>
       <canvas></canvas>
     </div>
     <div class="foot-legal">
       <p>© 2021-{{ site.time | date: '%Y' }} Ei Loïc Morel (Pandul), 96 Rue Paradis, 13006 Marseille</p>
-      <p class="foot-key">Clé publique minisign&nbsp;: <code>RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></p>
-      <ul class="foot-links" aria-label="Liens">
+      <p class="foot-key">Clé minisign&nbsp;: <code title="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O">RWTz3c4g…GlqTR3O</code><button class="foot-copy" type="button" data-copy="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O" data-copy-label="Clé copiée" aria-label="Copier la clé publique minisign complète" hidden>Copier la clé</button></p>
+      <ul class="foot-links" aria-label="Mes projets">
         <li><a class="link" href="{{ site.dictionnaire_url }}/">Dictionnaire de Bitcoin</a></li>
         <li><a class="link" href="https://gerfaut-wallet.com">Gerfaut</a></li>
-        <li><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">X</a></li>
-        <li><a class="link" href="https://github.com/LoicPandul" rel="me noopener">GitHub</a></li>
       </ul>
     </div>
   </footer>

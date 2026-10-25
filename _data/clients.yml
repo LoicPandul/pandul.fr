@@ -18,12 +18,13 @@
     - nom: "Wizard Sardine"
       logo: "wizardsardine.svg"
       ratio: 8.43
+      optique: 1.18
       travail: "Rédaction technique pour le blog"
       url: "https://wizardsardine.com/blog/"
 
 - periode: "2021 à 2025"
   clients:
-    - nom: "Plan ₿ Network"
+    - nom: "Plan ₿ Academy"
       logo: "planb.svg"
       ratio: 5.33
       travail: "Formations, tutoriels et maintenance du dépôt de contenus"
@@ -40,7 +41,7 @@
       url: "https://www.bitstack-app.com"
     - nom: "Space Kek"
       logo: "spacekek.svg"
-      ratio: 3.98
+      ratio: 5.69
       travail: "Podcast technique sur Bitcoin"
       comptes:
         - {source: "audio-video", platform: "Space Kek", libelle: "épisodes"}
@@ -52,8 +53,8 @@
         - {source: "audio-video", platform: "Decouvre Bitcoin", type: "production", libelle: "vidéos"}
       url: "https://decouvrebitcoin.fr"
     - nom: "Cryptoast"
-      logo: "cryptoast.svg"
-      ratio: 1
+      logo: "cryptoast-nom.svg"
+      ratio: 6.15
       travail: "Interviews : confidentialité, UTXO, ordinateur quantique"
       comptes:
         - {source: "audio-video", platform: "Cryptoast", libelle: "interviews"}
@@ -65,5 +66,5 @@
       url: "https://www.youtube.com/@grandanglebitcoin"
     - nom: "How to Bitcoin"
       logo: "howtobitcoin.svg"
-      ratio: 5.43
+      ratio: 9.35
       travail: "Interview sur la confidentialité avec Bitcoin"

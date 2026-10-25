@@ -34,17 +34,20 @@ sitemap:
       <noscript><img class="stage-fallback" src="{{ '/assets/img/lignes/portrait-encre.webp' | relative_url }}" width="800" height="1000" alt="Portrait de Loïc Morel"></noscript>
       <canvas aria-hidden="true"></canvas>
     </div>
-    <figcaption class="stage-caption">
-      Mon visage, écrit avec les titres de mes {{ nb_total }} contenus publiés.
-      <span class="only-hover">Passez la souris dessus pour les lire.</span>
-      <span class="only-touch">Glissez le doigt dessus pour les lire.</span>
+    <figcaption class="stage-caption" aria-live="polite">
+      <span class="stage-default">Mon visage, écrit avec les titres de mes {{ nb_total }} contenus publiés.
+        <span class="only-hover">Passez la souris sur une ligne pour lire son titre, cliquez pour l'ouvrir.</span>
+        <span class="only-touch">Touchez une ligne pour lire son titre.</span></span>
+      <span class="stage-current" hidden><a class="stage-title" href="#" data-stage-title></a> <span class="stage-meta" data-stage-meta></span></span>
     </figcaption>
   </figure>
 </section>
 
 <section class="clients" id="clients" aria-labelledby="t-clients">
-  <h2 class="display clients-title" id="t-clients"><span class="slide" data-slide="-1">Ils me font</span> <span class="slide" data-slide="1">confiance</span></h2>
-  <p class="lead clients-lead" data-reveal>Depuis 2021, des exchanges, des médias, des plateformes de formation et des équipes qui développent des logiciels Bitcoin me confient leurs contenus.</p>
+  <div class="clients-head">
+    <h2 class="display clients-title line-reveal" id="t-clients"><span class="slide" data-slide="-1">Ils me font</span> <span class="slide" data-slide="1">confiance</span></h2>
+    <p class="lead clients-lead" data-reveal>Depuis 2021, des exchanges, des médias, des plateformes de formation et des équipes qui développent des logiciels Bitcoin me confient leurs contenus.</p>
+  </div>
 
   <div class="brands">
     {%- for g in site.data.clients %}
@@ -55,7 +58,7 @@ sitemap:
         <li class="brand" data-reveal style="--d:{{ forloop.index0 }}">
           {%- capture marque -%}
             {%- if c.logo -%}
-            <span class="brand-mark" style="--logo:url('{{ '/assets/img/clients/' | append: c.logo | relative_url }}');--r:{{ c.ratio }}"></span><span class="sr">{{ c.nom }}</span>
+            <span class="brand-mark" style="--logo:url('{{ '/assets/img/clients/' | append: c.logo | relative_url }}');--r:{{ c.ratio }};--o:{{ c.optique | default: 1 }}"></span><span class="sr">{{ c.nom }}</span>
             {%- else -%}
             <span class="brand-type">{{ c.nom }}</span>
             {%- endif -%}
@@ -65,16 +68,19 @@ sitemap:
           {%- else -%}
           <span class="brand-link brand-link--static">{{ marque }}</span>
           {%- endif %}
-          <p class="brand-work">{{ c.travail }}</p>
-          {%- if c.comptes %}
-          <p class="brand-count">
-            {%- for n in c.comptes -%}
-              {%- assign src = site.data[n.source] | where: "platform", n.platform -%}
-              {%- if n.type -%}{%- assign src = src | where: "type", n.type -%}{%- endif -%}
-              {{ src | size }} {{ n.libelle }}{% unless forloop.last %}, {% endunless %}
-            {%- endfor -%}
-          </p>
-          {%- endif %}
+          <div class="brand-text">
+            <p class="brand-name">{{ c.nom }}</p>
+            <p class="brand-work">{{ c.travail }}</p>
+            {%- if c.comptes %}
+            <p class="brand-count">
+              {%- for n in c.comptes -%}
+                {%- assign src = site.data[n.source] | where: "platform", n.platform -%}
+                {%- if n.type -%}{%- assign src = src | where: "type", n.type -%}{%- endif -%}
+                {{ src | size }} {{ n.libelle }}{% unless forloop.last %}, {% endunless %}
+              {%- endfor -%}
+            </p>
+            {%- endif %}
+          </div>
         </li>
         {%- endfor %}
       </ul>
@@ -84,17 +90,16 @@ sitemap:
 
   <div class="works" data-works>
     <div class="works-head">
-      <h3 class="title" id="t-works" data-reveal>{{ nb_total }} contenus publiés</h3>
-      <p class="works-intro" data-reveal>Chaque trait est un tutoriel, un article, une formation, un épisode de podcast, une vidéo ou une interview. Parcourez la réglette pour lire les titres, puis ouvrez celui qui vous intéresse.</p>
+      <h3 class="works-heading" id="t-works" data-reveal><span class="works-num">{{ nb_total }}</span> <span class="works-label">contenus publiés</span></h3>
+      <p class="works-intro" data-reveal>Chaque trait est un tutoriel, un article, une formation, un épisode de podcast, une vidéo ou une interview. <span class="only-hover">Survolez la réglette pour lire les titres, cliquez pour en garder un, puis ouvrez-le.</span><span class="only-touch">Faites glisser la réglette du doigt pour lire les titres, puis ouvrez celui qui vous intéresse.</span></p>
     </div>
     <div class="works-read" aria-live="polite" hidden>
       <p class="works-title"><mark data-works-title></mark></p>
-      <p class="works-meta" data-works-meta></p>
-      <a class="btn btn-sm works-open" href="#" data-works-open>Ouvrir</a>
+      <p class="works-line"><span class="works-meta" data-works-meta></span> <a class="btn btn-sm works-open" href="#" data-works-open>Ouvrir</a></p>
     </div>
     <div class="works-rail" data-works-rail hidden></div>
     <details class="works-all">
-      <summary>Voir la liste des {{ nb_total }} contenus</summary>
+      <summary>Voir la liste complète des {{ nb_total }} contenus publiés</summary>
       <div class="works-lists">
         {%- assign groupes = "Plan ₿ Academy;Bitstack;Space Kek;Decouvre Bitcoin;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
         {%- for g in groupes -%}
@@ -107,7 +112,7 @@ sitemap:
           <h4>{{ nom }} <span>{{ items | size }}</span></h4>
           <ul>
             {%- for w in items %}
-            <li><a href="{{ w.url }}" rel="noopener" data-kind="{{ w.type }}">{{ w.title }}</a></li>
+            <li><a href="{{ w.url }}" rel="noopener" data-kind="{{ w.type }}">{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}</a></li>
             {%- endfor %}
           </ul>
         </section>
@@ -119,7 +124,7 @@ sitemap:
 
 <section class="trades" id="activites" aria-labelledby="t-activites">
   <div class="trades-head">
-    <h2 class="display" id="t-activites" data-reveal>Ce que je fais</h2>
+    <h2 class="display line-reveal" id="t-activites">Ce que je fais</h2>
     <p class="lead" data-reveal style="--d:1">Bitcoin m'a accroché en 2020, par sa technique, sa monnaie et sa philosophie. En 2021, Bitstack m'a confié son blog, puis d'autres clients ont suivi.</p>
     <ul class="trades-index" aria-label="Mes trois métiers" data-reveal style="--d:2">
       <li><a href="#t-redaction" data-index="t-redaction">Rédaction et pédagogie</a></li>
@@ -127,6 +132,12 @@ sitemap:
       <li><a href="#t-dev" data-index="t-dev">Développement</a></li>
     </ul>
   </div>
+
+  <nav class="trades-tabs" aria-label="Mes trois métiers">
+    <a href="#t-redaction" data-index="t-redaction">Rédaction</a>
+    <a href="#t-docs" data-index="t-docs">Documentation</a>
+    <a href="#t-dev" data-index="t-dev">Développement</a>
+  </nav>
 
   <div class="trades-list">
     <article class="trade" aria-labelledby="t-redaction">
@@ -150,9 +161,9 @@ sitemap:
       <h3 class="title" id="t-docs" data-reveal>Documentation technique</h3>
       <p data-reveal style="--d:1">Guides d'installation, références de SDK, notes de version. Je lis le code source avant d'écrire, et je teste chaque commande pour qu'elle fonctionne du premier coup chez le lecteur.</p>
       <p data-reveal style="--d:2">En ce moment, j'écris la documentation de Bark chez Second, et celle du portefeuille Liana chez Wizard Sardine.</p>
-      <figure class="plate" data-reveal style="--d:2">
-        <img src="{{ '/assets/img/v3/second-bark-pay-1600.webp' | relative_url }}"
-             srcset="{{ '/assets/img/v3/second-bark-pay-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-1600.webp' | relative_url }} 1600w"
+      <figure class="plate" data-reveal="wipe" style="--d:2">
+        <img src="{{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }}"
+             srcset="{{ '/assets/img/v3/second-bark-pay-encre-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }} 1600w"
              sizes="(min-width: 960px) 52vw, 100vw"
              alt="Page d'accueil de la documentation de Bark Pay sur le site de Second" width="1600" height="867" fetchpriority="low" decoding="async">
         <figcaption>La documentation de Bark Pay, sur le site de Second.</figcaption>
@@ -163,19 +174,20 @@ sitemap:
       <h3 class="title" id="t-dev" data-reveal>Développement</h3>
       <p data-reveal style="--d:1">Je conçois et je code des logiciels Bitcoin open source, comme <a class="link" href="https://gerfaut-wallet.com">Gerfaut</a>, un portefeuille watch-only pour Android, Linux, macOS et Windows.</p>
       <p data-reveal style="--d:2">Chaque version que je publie est signée avec ma clé minisign. Vous pouvez donc vérifier vous-même que le fichier téléchargé vient bien de moi.</p>
-      <figure class="plate plate-code" data-reveal style="--d:2">
+      <figure class="plate plate-code" data-reveal="wipe" style="--d:2">
         <pre><code>minisign -Vm &lt;fichier&gt; -P RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></pre>
         <figcaption>Vérifier un fichier signé avec ma clé publique.</figcaption>
       </figure>
     </article>
 
-    <p class="trades-also" data-reveal>Je fais aussi de la relecture technique et du fact-checking, je conçois des parcours de formation et je tiens la ligne éditoriale d'un blog. Je livre en Markdown sur GitHub, dans Google Docs ou directement dans votre CMS.</p>
+    <h3 class="title trades-also-title" data-reveal>Et aussi</h3>
+    <p class="trades-also" data-reveal style="--d:1">Je fais aussi de la relecture technique et du fact-checking, je conçois des parcours de formation et je tiens la ligne éditoriale d'un blog. Je livre en Markdown sur GitHub, dans Google Docs ou directement dans votre CMS.</p>
   </div>
 </section>
 
 <section class="projects" id="projets" aria-labelledby="t-projets">
   <div class="projects-head">
-    <h2 class="display" id="t-projets" data-reveal>Projets</h2>
+    <h2 class="display line-reveal" id="t-projets">Projets</h2>
     <p class="lead" data-reveal style="--d:1">En dehors de mes clients, je construis mes propres outils, gratuits et open source.</p>
   </div>
 
@@ -185,6 +197,7 @@ sitemap:
         <p class="dict-letter" data-dict-letter>{{ lettre0 }}</p>
         <canvas></canvas>
       </div>
+      <p class="stage-caption dict-caption"><span data-dict-caption-letter>{{ lettre0 }}</span>, comme <span data-dict-caption-term>{{ def0.t }}</span>.</p>
     </div>
     <div class="dict-text">
       <h3 class="title" id="t-dico" data-reveal>Dictionnaire de Bitcoin</h3>
@@ -194,7 +207,7 @@ sitemap:
         <p class="defn-text" data-dict-text aria-live="polite">{{ def0.d }}</p>
         <p class="defn-actions">
           <a class="link" href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-link>Lire la définition complète</a>
-          <button class="btn btn-plate btn-sm" type="button" data-dict-next hidden>Une autre définition</button>
+          <button class="btn btn-sm" type="button" data-dict-next hidden>Une autre définition</button>
         </p>
       </div>
       <p class="actions" data-reveal style="--d:3"><a class="btn" href="{{ site.dictionnaire_url }}/" data-magnetic>Ouvrir le dictionnaire</a></p>
@@ -204,12 +217,15 @@ sitemap:
 
   <article class="gerfaut" aria-labelledby="t-gerfaut">
     <figure class="gerfaut-band" data-gerfaut>
-      <video src="{{ '/assets/media/gerfaut-accueil.mp4' | relative_url }}" poster="{{ '/assets/media/gerfaut-accueil.webp' | relative_url }}"
-             width="1280" height="720" muted loop playsinline preload="none"
-             aria-label="Premier lancement de Gerfaut sur ordinateur : les quatre écrans d'accueil."></video>
-      <div class="blinds" aria-hidden="true"></div>
-      <button class="video-toggle" type="button" data-video-toggle hidden>Mettre en pause</button>
-      <figcaption>Le premier lancement de Gerfaut sur ordinateur.</figcaption>
+      <div class="gerfaut-stage">
+        <img class="gerfaut-desk" src="{{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }}"
+             srcset="{{ '/assets/img/gerfaut/bureau-900.webp' | relative_url }} 900w, {{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }} 1600w"
+             sizes="(min-width: 960px) 78vw, 100vw" width="1600" height="811" fetchpriority="low" decoding="async"
+             alt="Gerfaut sur ordinateur, écran « Broadcast » : une transaction prête à être diffusée, avec le schéma de ses entrées et de ses sorties">
+        <div class="gerfaut-phone"><img src="{{ '/assets/img/gerfaut/android-520.webp' | relative_url }}" alt="Gerfaut sur Android : la liste des portefeuilles surveillés et leurs soldes" width="520" height="1095" fetchpriority="low" decoding="async"></div>
+        <div class="blinds" aria-hidden="true"></div>
+      </div>
+      <figcaption><span class="only-wide">Gerfaut sur ordinateur : diffuser une transaction signée ailleurs et la suivre jusqu'à sa confirmation. </span>Sur Android : les portefeuilles surveillés et leurs soldes.</figcaption>
     </figure>
     <div class="gerfaut-text">
       <h3 class="title" id="t-gerfaut" data-reveal>Gerfaut</h3>
@@ -217,23 +233,26 @@ sitemap:
       <p class="note" data-reveal style="--d:2">En bêta publique.</p>
       <p class="actions" data-reveal style="--d:2"><a class="btn" href="https://gerfaut-wallet.com" data-magnetic>Découvrir Gerfaut</a></p>
     </div>
-    <figure class="gerfaut-phone" data-reveal style="--d:1">
-      <img src="{{ '/assets/img/v3/gerfaut-android-480.webp' | relative_url }}" alt="Gerfaut sur Android : un portefeuille surveillé, avec son solde et ses transactions" width="480" height="784" fetchpriority="low" decoding="async">
-    </figure>
+    <ul class="gerfaut-facts" aria-label="Ce que fait Gerfaut">
+      <li data-reveal style="--d:1">Il lit les descripteurs, les xpub, les adresses seules, les multisig et Miniscript.</li>
+      <li data-reveal style="--d:2">Il passe par votre propre nœud, Electrum ou Esplora, avec Tor intégré.</li>
+      <li data-reveal style="--d:3">Une seule sauvegarde chiffrée pour l'ordinateur et le téléphone.</li>
+      <li data-reveal style="--d:4">Sur Android&nbsp;: widgets, notifications en direct et mode discret.</li>
+    </ul>
   </article>
 </section>
 
 <section class="contact" id="contact" aria-labelledby="t-contact">
-  <h2 class="display contact-title" id="t-contact" data-reveal>Un sujet à expliquer&nbsp;?</h2>
+  <figure class="contact-photo" data-reveal="wipe" style="--d:1">
+    <img src="{{ '/assets/img/lignes/portrait-contact.webp' | relative_url }}" alt="Loïc Morel" width="480" height="480" fetchpriority="low" decoding="async">
+  </figure>
+  <h2 class="display contact-title line-reveal" id="t-contact">Un sujet à expliquer&nbsp;?</h2>
   <p class="lead contact-lead" data-reveal style="--d:1">Pour un article, une formation, une documentation ou une relecture, écrivez-moi directement.</p>
-  <p class="contact-mail" data-reveal style="--d:2"><a href="mailto:info@pandul.fr">info@pandul.fr</a></p>
+  <p class="contact-mail"><a class="line-reveal" href="mailto:info@pandul.fr">info@pandul.fr</a></p>
   <p class="contact-copy" data-reveal style="--d:2">
     <button class="btn btn-paper" type="button" data-copy="info@pandul.fr" hidden>Copier l'adresse</button>
     <span class="copy-status" role="status" data-copy-status></span>
   </p>
-  <figure class="contact-photo" data-reveal style="--d:2">
-    <img src="{{ '/assets/img/lignes/portrait-contact.webp' | relative_url }}" alt="Loïc Morel" width="560" height="700" fetchpriority="low" decoding="async">
-  </figure>
   <dl class="channels" data-reveal style="--d:3">
     <div><dt>X</dt><dd><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">@Loic_Pandul</a></dd></div>
     <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/LoicPandul" rel="me noopener">LoicPandul</a></dd></div>

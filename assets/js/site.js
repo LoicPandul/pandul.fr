@@ -76,13 +76,16 @@ function initBar() {
   const bar = $('[data-bar]');
   if (!bar) return;
   let lastY = scroll.y;
+  const heroName = $('.hero-name');
   frames.add(() => {
     const y = scroll.y;
+    if (heroName) bar.classList.toggle('is-top', heroName.getBoundingClientRect().bottom > barHeight());
     const menuOpen = $('#menu')?.open;
     if (!menuOpen) {
       if (y > 240 && y > lastY + 4) bar.classList.add('is-hidden');
       else if (y < lastY - 4 || y < 120) bar.classList.remove('is-hidden');
     }
+    html.classList.toggle('bar-shown', !bar.classList.contains('is-hidden'));
     lastY = y;
     return false;
   });
@@ -105,6 +108,7 @@ function initBar() {
 function initTradesIndex() {
   const links = $$('[data-index]');
   if (!links.length) return;
+  links.filter((a) => a.dataset.index === 't-redaction').forEach((a) => a.classList.add('is-current'));
   const map = new Map(links.map((a) => [a.dataset.index, a]));
   const io = new IntersectionObserver((entries) => {
     for (const en of entries) {
@@ -153,20 +157,24 @@ function initMagnetic() {
 
 /* ---------- Copier l'adresse ---------- */
 function initCopy() {
-  const btn = $('[data-copy]');
+  if (!navigator.clipboard) return;
   const status = $('[data-copy-status]');
-  if (!btn || !navigator.clipboard) return;
-  btn.hidden = false;
-  let timer;
-  btn.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(btn.dataset.copy);
-      status.textContent = 'Adresse copiée.';
-    } catch (e) {
-      status.textContent = 'Copie impossible\u00a0: sélectionnez l’adresse ci-dessus.';
-    }
-    clearTimeout(timer);
-    timer = setTimeout(() => { status.textContent = ''; }, 2400);
+  $$('[data-copy]').forEach((btn) => {
+    btn.hidden = false;
+    const label = btn.textContent;
+    let timer;
+    btn.addEventListener('click', async () => {
+      let msg;
+      try { await navigator.clipboard.writeText(btn.dataset.copy); msg = btn.dataset.copyLabel || 'Adresse copiée.'; }
+      catch (e) {
+        msg = 'Copie impossible\u00a0: le texte est sélectionné, copiez-le à la main.';
+        const target = btn.closest('.contact') ? $('.contact-mail a') : btn.previousElementSibling;
+        if (target) { const r = document.createRange(); r.selectNodeContents(target); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); }
+      }
+      if (btn.dataset.copyLabel) btn.textContent = msg; else if (status) status.textContent = msg;
+      clearTimeout(timer);
+      timer = setTimeout(() => { if (btn.dataset.copyLabel) btn.textContent = label; else if (status) status.textContent = ''; }, 2400);
+    });
   });
 }
 
@@ -240,6 +248,24 @@ function initWorks() {
     labels.appendChild(l);
     return l;
   });
+  // les repères de groupe (desktop)
+  const markEls = [];
+  // les petits groupes de la fin n'ont pas la place pour leur nom : un repère « Autres » et une légende
+  let tail = groups.length;
+  while (tail > 0 && groups[tail - 1].items.length < 20) tail--;
+  if (tail < groups.length) {
+    for (let gi = tail; gi < groups.length; gi++) labelEls[gi].classList.add('is-small');
+    const l = document.createElement('span');
+    l.textContent = 'Autres';
+    labels.appendChild(l);
+    labelEls.push(l);
+    starts.push(starts[tail]);
+    const legend = document.createElement('p');
+    legend.className = 'works-legend';
+    legend.textContent = 'Autres\u00a0: ' + groups.slice(tail).map((g) => `${g.name} (${g.items.length})`).join(', ') + '.';
+    rail.after(legend);
+  }
+  labelEls.forEach(() => { const m = document.createElement('b'); labels.appendChild(m); markEls.push(m); });
   rail.append(track, labels);
 
   let current = -1;
@@ -263,37 +289,55 @@ function initWorks() {
   const placeLabels = () => {
     if (wide()) {
       const w = track.clientWidth;
-      let lastRight = -Infinity;
+      // une seule règle : un repère sous le premier trait de chaque groupe, le nom juste après, tenu dans la réglette ;
+      // s'il chevauche le précédent, il passe au second rang
+      const ends = [-Infinity, -Infinity];
       labelEls.forEach((l, gi) => {
+        const mk = markEls[gi];
+        if (l.classList.contains('is-small')) { l.style.visibility = 'hidden'; if (mk) mk.style.visibility = 'hidden'; return; }
         const x = (starts[gi] / N) * w;
         const lw = l.offsetWidth;
-        const over = x + lw > w;
-        const left = over ? Math.max(x - lw, 0) : x;
-        // un nom qui chevaucherait le précédent est masqué (la lecture au-dessus le donne déjà)
-        const clash = !l.classList.contains('is-small') && left < lastRight + 12;
-        l.classList.toggle('is-end', over);
-        l.style.visibility = clash ? 'hidden' : '';
-        if (!clash && !l.classList.contains('is-small')) lastRight = left + lw;
-        l.style.transform = `translateX(${left.toFixed(1)}px)`;
+        // le nom se place toujours à droite de son repère, tenu dans la réglette
+        const lx = Math.min(x + 8, w - lw);
+        const row = lx >= ends[0] + 12 ? 0 : lx >= ends[1] + 12 ? 1 : -1;
+        l.style.visibility = row < 0 ? 'hidden' : '';
+        if (mk) { mk.style.visibility = row < 0 ? 'hidden' : ''; mk.style.transform = `translateX(${x.toFixed(1)}px)`; mk.style.top = row === 1 ? '1.6em' : '0'; }
+        if (row < 0) return;
+        l.dataset.row = String(row);
+        ends[row] = lx + lw;
+        l.style.transform = `translateX(${lx.toFixed(1)}px)`;
       });
     } else {
       const sp = spacerA.offsetWidth, tw = track.clientWidth;
       labelEls.forEach((l, gi) => {
-        const x = sp + starts[gi] * 8 - track.scrollLeft;
-        l.style.visibility = x > tw || x + l.offsetWidth < 0 ? 'hidden' : '';
-        l.style.transform = `translateX(${x.toFixed(1)}px)`;
+        let x = sp + starts[gi] * 8 - track.scrollLeft;
+        // le nom du groupe en cours reste collé au bord gauche tant que son groupe défile
+        const next = gi + 1 < labelEls.length ? sp + starts[gi + 1] * 8 - track.scrollLeft : Infinity;
+        if (x < 0 && next > l.offsetWidth + 16) x = 0;
+        const hide = x > tw || x + l.offsetWidth < 0 || l.classList.contains('is-small');
+        l.style.visibility = hide ? 'hidden' : '';
+        l.style.transform = `translateX(${(x + 8).toFixed(1)}px)`;
+        l.dataset.row = '0';
+        const mk = markEls[gi];
+        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = mx < 0 || mx > tw || l.classList.contains('is-small') ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = '0'; }
       });
     }
   };
 
   // Survol (ordinateur) : le trait sous le curseur est lu, ses voisins grandissent.
   const dock = { x: -1, amp: { v: 0, vel: 0 }, target: 0 };
+  const follow = (px) => {
+    // la lecture suit le trait survolé, sans sortir de la réglette
+    const tw = track.clientWidth, rw = Math.min(read.offsetWidth || 0, tw);
+    read.style.setProperty('--rx', clamp(px - 48, 0, Math.max(0, tw - rw)).toFixed(0) + 'px');
+  };
   track.addEventListener('pointermove', (e) => {
     if (!wide() || e.pointerType === 'touch') return;
     const r = track.getBoundingClientRect();
     const x = clamp((e.clientX - r.left) / r.width) * N;
     dock.x = x; dock.target = 1;
     set(Math.floor(x));
+    follow(e.clientX - r.left);
     kick();
   });
   track.addEventListener('pointerleave', () => { dock.target = 0; kick(); });
@@ -313,6 +357,7 @@ function initWorks() {
 
   // Clavier.
   track.addEventListener('keydown', (e) => {
+    if (wide()) requestAnimationFrame(() => follow(((current + 0.5) / N) * track.clientWidth));
     const g = items[Math.max(0, current)].g;
     let n = current;
     switch (e.key) {
@@ -348,20 +393,21 @@ function initWorks() {
     for (let i = 0; i < N; i++) {
       const g = reduce ? 1 : clamp(grow * 1.6 - (i / N) * 0.6);
       let s = g;
-      if (useDock) { const dx = (i + 0.5 - dock.x) / 6; s *= 1 + 0.9 * a.v * Math.exp(-dx * dx); }
+      if (useDock && i !== current) { const dx = (i + 0.5 - dock.x) / 6; s *= 1 + 0.85 * a.v * Math.exp(-dx * dx); }
       if (Math.abs(s - scales[i]) > 0.002) { scales[i] = s; inner[i].style.transform = `scaleY(${s.toFixed(3)})`; }
     }
     return moving;
   });
 
   const onResize = () => {
-    if (!wide()) { track.scrollLeft = Math.max(0, current) * 8; }
+    if (!wide()) { track.scrollLeft = Math.max(0, current) * 8; read.style.setProperty('--rx', '0px'); }
     placeLabels();
   };
   window.addEventListener('resize', onResize, { passive: true });
-  set(0);
+  // au doigt, on part du milieu de la réglette (premier article Bitstack) pour qu'il y ait des traits des deux côtés
+  set(wide() ? 0 : starts[Math.min(1, starts.length - 1)]);
   requestAnimationFrame(onResize);
-  works = { items };
+  works = { items, groups: groups.map((g) => g.name) };
 }
 
 /* ---------- Dictionnaire : une autre définition ---------- */
@@ -400,32 +446,20 @@ function initDict() {
     }, reduce ? 0 : 220);
     const letter = d.t.charAt(0);
     if (letterEl) letterEl.textContent = letter;
+    const capL = $('[data-dict-caption-letter]'), capT = $('[data-dict-caption-term]');
+    if (capL) capL.textContent = letter;
+    if (capT) capT.textContent = d.t;
     if (letterStage && letterFigure) letterStage.morphTo(letterFigure(letter), false, reduce ? 200 : 1100), kick();
   });
   // Charge la liste à l'approche, pour que le premier clic soit immédiat.
   new IntersectionObserver((en, io) => { if (en[0].isIntersecting) { load().catch(() => {}); io.disconnect(); } }, { rootMargin: '400px 0px' }).observe(box);
 }
 
-/* ---------- Gerfaut : vidéo et stores ---------- */
+/* ---------- Gerfaut : stores qui s'ouvrent sur la capture, et lente dérive au défilement ---------- */
 function initGerfaut() {
   const band = $('[data-gerfaut]');
-  if (!band) return;
-  const video = $('video', band), toggle = $('[data-video-toggle]', band), blinds = $('.blinds', band);
-  let userPaused = reduce;
-  toggle.hidden = false;
-  const label = () => { toggle.textContent = video.paused ? 'Lire la vidéo' : 'Mettre en pause'; };
-  label();
-  video.addEventListener('play', label); video.addEventListener('pause', label);
-  toggle.addEventListener('click', () => {
-    if (video.paused) { userPaused = false; video.play().catch(label); } else { userPaused = true; video.pause(); }
-  });
-  new IntersectionObserver((en) => {
-    const vis = en[0].isIntersecting;
-    if (vis && !userPaused) video.play().catch(label);
-    else if (!vis && !video.paused) video.pause();
-  }, { threshold: 0.3 }).observe(band);
-
-  if (reduce || !blinds) return;
+  if (!band || reduce) return;
+  const blinds = $('.blinds', band), desk = $('.gerfaut-desk', band);
   const n = window.innerWidth < 600 ? 9 : 14;
   const bars = Array.from({ length: n }, () => blinds.appendChild(document.createElement('span')));
   let prev = -1;
@@ -433,16 +467,40 @@ function initGerfaut() {
     const r = band.getBoundingClientRect();
     const vh = window.innerHeight;
     if (r.bottom < -100 || r.top > vh + 100) return false;
-    const p = clamp((vh - r.top) / (vh * 0.8));
-    if (Math.abs(p - prev) < 0.001) return false;
+    const p = clamp((vh - r.top) / (vh * 0.7));
+    const drift = clamp((vh - r.top) / (vh + r.height));
+    if (Math.abs(p - prev) < 0.0005 && desk.dataset.d === drift.toFixed(3)) return false;
     prev = p;
     bars.forEach((b, i) => {
-      const k = clamp(p * 1.5 - (i / n) * 0.5);
-      // fermés, les stores laissent toujours passer un fil de vidéo
-      const e = 0.84 * (1 - Math.pow(k, 1.6));
+      const k = clamp(p * 1.8 - (i / n) * 0.8);
+      // fermés, les stores laissent toujours passer un fil de l'image
+      const e = 0.84 * (1 - k * k * (3 - 2 * k));
       b.style.transform = `scaleY(${e.toFixed(3)})`;
       b.style.visibility = e < 0.01 ? 'hidden' : '';
     });
+    desk.dataset.d = drift.toFixed(3);
+    desk.style.transform = `translate3d(0, ${((0.5 - drift) * 36).toFixed(1)}px, 0) scale(1.06)`;
+    return false;
+  });
+}
+
+/* ---------- Titres en lignes : ils s'écrivent ligne par ligne au défilement ---------- */
+function initLineReveal() {
+  const els = $$('.line-reveal');
+  if (!els.length || reduce) return;
+  html.classList.add('lines-on');
+  const last = new Map();
+  frames.add(() => {
+    const vh = window.innerHeight;
+    for (const el of els) {
+      const r = el.getBoundingClientRect();
+      if (r.bottom < -50 || r.top > vh + 50) continue;
+      const p = clamp((vh * 0.96 - r.top) / (vh * 0.42));
+      const f = 0.1 + 0.9 * (1 - Math.pow(1 - p, 2.2));
+      if (Math.abs((last.get(el) ?? -1) - f) < 0.002) continue;
+      last.set(el, f);
+      el.style.setProperty('--fill', f.toFixed(3));
+    }
     return false;
   });
 }
@@ -479,11 +537,14 @@ async function initStages() {
       const img = new Image();
       img.src = base + 'img/lignes/portrait-figure.webp';
       try { await img.decode(); } catch (e) { staticStage(el); continue; }
-      const words = (works ? works.items.map((w) => w.t) : ['Bitcoin']).join(' ').split(/\s+/).filter(Boolean);
+      // chaque mot garde l'indice de son titre, pour retrouver le titre sous le curseur
+      const items = works ? works.items : [{ t: 'Bitcoin', u: '#', g: 0, k: '' }];
+      const words = items.flatMap((it, ti) => it.t.split(/[ \t\n]+/).filter(Boolean).map((w) => ({ w, ti })));
       st = new LineStage(el, {
-        figure: (w, h) => ({ canvas: portraitCanvas(img, w, h, { bg: '#9e9e9e', height: 0.96 }), invert: true }),
-        words, pitch: [7, 6], thick: [0.07, 0.8], lensR: [112, 86], mag: 2.3, drawn: reduce, drawK: 7, drawC: 5.3,
+        figure: (w, h) => ({ canvas: portraitCanvas(img, w, h, { bg: '#9e9e9e', height: w < 600 ? 0.98 : 1.16 }), invert: true }),
+        words, pitch: [5.5, 4.6], thick: [0.06, 0.86], lensR: [44, 34], lensShape: [3.4, 1], mag: 2.6, vignette: 1, drawn: reduce, drawK: 7, drawC: 5.3,
       });
+      st.items = items;
       st.kind = 'portrait';
     } else if (kind === 'letter') {
       const getLetter = () => ($('[data-dict-letter]')?.textContent || 'B').trim().charAt(0);
@@ -543,6 +604,14 @@ async function initStages() {
         st.wave += (wv - st.wave) * 0.12;
       } else if (st.kind === 'name') {
         st.drawTarget = reduce ? 1 : clamp((vh - r.top) / (r.height * 1.15));
+        // à la première arrivée, une vague passe sur les lettres, une par une
+        if (!st.swept && !reduce && st.letters && st.draw.v > 0.97 && visible) {
+          st.swept = true;
+          st.letters.forEach((L, i) => {
+            setTimeout(() => { L.target = 1; kick(); }, 120 + i * 90);
+            setTimeout(() => { if (!L.hover) { L.target = 0; kick(); } }, 120 + i * 90 + 260);
+          });
+        }
         if (st.letters) {
           let mv = false;
           for (const L of st.letters) mv = spring(L.s, L.target, dt, 210, 11) || mv;
@@ -565,51 +634,89 @@ function bindStage(st, spring) {
   const box = st.box;
   const pos = (e) => { const r = box.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
   let release;
-  if (st.kind === 'name') {
-    const hit = (p) => {
-      if (!st.letters) return null;
-      const rows = st.ampRows || 1;
-      const row = Math.min(rows - 1, Math.floor((p.y / st.h) * rows));
-      return st.letters.find((L) => L.row === row && p.x >= L.x0 && p.x <= L.x1) || null;
+  const lensOn = (p) => { st.mouse.x = p.x; st.mouse.y = p.y; st.lensTarget = 1; clearTimeout(release); kick(); };
+
+  // Portrait : la ligne sous le curseur est surlignée, son titre s'affiche sous le panneau.
+  let reader = null;
+  if (st.kind === 'portrait') {
+    const cap = st.el.querySelector('.stage-caption');
+    const def = cap && cap.querySelector('.stage-default'), cur = cap && cap.querySelector('.stage-current');
+    const tEl = cap && cap.querySelector('[data-stage-title]'), mEl = cap && cap.querySelector('[data-stage-meta]');
+    let shown = -1;
+    reader = {
+      at(p) {
+        const hit = st.titleAt(p.x, p.y);
+        const ti = hit ? hit.ti : -1;
+        if (ti === shown) return;
+        shown = ti;
+        st.highlight(hit ? hit.ti : null, hit ? hit.row : 0);
+        if (!cap) return;
+        if (ti < 0) { cur.hidden = true; def.hidden = false; box.style.cursor = ''; return; }
+        const it = st.items[ti];
+        tEl.textContent = it.t; tEl.href = it.u;
+        mEl.textContent = `${works.groups[it.g]}, ${KINDS[it.k] || it.k}`;
+        def.hidden = true; cur.hidden = false;
+        box.style.cursor = 'pointer';
+        kick();
+      },
+      clear() { if (shown !== -1) { shown = -1; st.highlight(null); if (cur) { cur.hidden = true; def.hidden = false; } box.style.cursor = ''; kick(); } },
+      url() { return shown >= 0 ? st.items[shown].u : null; },
     };
-    const move = (e) => {
-      if (!st.letters) return;
-      const L = hit(pos(e));
-      st.letters.forEach((l) => { l.target = l === L ? 1 : 0; });
-      kick();
-    };
-    box.addEventListener('pointermove', move);
-    box.addEventListener('pointerdown', move);
-    const leave = () => { if (st.letters) st.letters.forEach((l) => { l.target = 0; }); kick(); };
-    box.addEventListener('pointerleave', leave);
-    box.addEventListener('pointerup', (e) => { if (e.pointerType !== 'mouse') leave(); });
-    box.addEventListener('pointercancel', leave);
-    return;
   }
-  box.addEventListener('pointerenter', (e) => {
-    if (e.pointerType !== 'mouse') return;
-    const p = pos(e); st.mouse.x = p.x; st.mouse.y = p.y; st.lensTarget = 1; kick();
-  });
+
+  box.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') lensOn(pos(e)); });
+  const pickLetter = (p) => {
+    if (!st.letters) return;
+    const rows = st.ampRows || 1;
+    const row = Math.min(rows - 1, Math.floor((p.y / st.h) * rows));
+    const L = st.letters.find((l) => l.row === row && p.x >= l.x0 && p.x <= l.x1) || null;
+    st.letters.forEach((l) => { l.hover = l === L; l.target = l === L ? 1 : 0; });
+  };
+  const show = (p) => { lensOn(p); if (reader) reader.at(p); pickLetter(p); };
+  // au doigt : rien pendant qu'on fait défiler la page ; la loupe vient sur un toucher bref ou un glissé horizontal
+  let touch = null;
   box.addEventListener('pointermove', (e) => {
-    if (e.pointerType !== 'mouse' && e.buttons === 0 && e.pressure === 0) return;
-    const p = pos(e); st.mouse.x = p.x; st.mouse.y = p.y;
-    st.lensTarget = 1; clearTimeout(release); kick();
+    const p = pos(e);
+    if (e.pointerType === 'mouse') { show(p); return; }
+    if (!touch) return;
+    if (!touch.scrub) {
+      const dx = Math.abs(p.x - touch.x), dy = Math.abs(p.y - touch.y);
+      if (dx > 10 && dx > dy * 1.4) { touch.scrub = true; st.mx.v = p.x; st.my.v = p.y; }
+      else return;
+    }
+    show(p);
   });
-  box.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') { st.lensTarget = 0; kick(); } });
+  const leave = () => {
+    st.lensTarget = 0;
+    if (st.letters) st.letters.forEach((l) => { l.target = 0; });
+    kick();
+  };
+  box.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') { leave(); if (reader) reader.clear(); } });
   box.addEventListener('pointerdown', (e) => {
     const p = pos(e);
-    st.mouse.x = p.x; st.mouse.y = p.y;
-    if (e.pointerType !== 'mouse') { st.mx.v = p.x; st.my.v = p.y; st.lensTarget = 1; }
-    if (!reduce) st.tap(p.x, p.y);
-    clearTimeout(release); kick();
+    if (e.pointerType === 'mouse') { show(p); if (!reduce && st.kind !== 'name') st.tap(p.x, p.y); return; }
+    touch = { x: p.x, y: p.y, t: performance.now(), scrub: false };
+  });
+  // au clic de souris, on ouvre le titre surligné
+  box.addEventListener('click', (e) => {
+    if (!reader || e.pointerType === 'touch') return;
+    const u = reader.url();
+    if (u && matchMedia('(hover: hover)').matches) location.href = u;
   });
   const up = (e) => {
     if (e.pointerType === 'mouse') return;
+    const p = pos(e);
+    if (touch && !touch.scrub && performance.now() - touch.t < 600 && Math.hypot(p.x - touch.x, p.y - touch.y) < 12) {
+      st.mx.v = p.x; st.my.v = p.y;
+      show(p);
+      if (!reduce && st.kind !== 'name') st.tap(p.x, p.y);
+    }
+    touch = null;
     clearTimeout(release);
-    release = setTimeout(() => { st.lensTarget = 0; kick(); }, 1800);
+    release = setTimeout(leave, 2200);
   };
   box.addEventListener('pointerup', up);
-  box.addEventListener('pointercancel', () => { st.lensTarget = 0; kick(); });
+  box.addEventListener('pointercancel', () => { touch = null; leave(); });
 }
 
 /* ---------- Démarrage ---------- */
@@ -623,6 +730,7 @@ initSlides();
 initWorks();
 initDict();
 initGerfaut();
+initLineReveal();
 initLenis();
 kick();
 const startStages = () => initStages().catch(() => $$('.stage[data-stage]').forEach(staticStage));

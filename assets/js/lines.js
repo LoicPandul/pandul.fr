@@ -27,11 +27,15 @@ uniform vec2 uMouse;
 uniform float uLens;
 uniform float uLensR;
 uniform float uMag;
+uniform vec2 uLensShape;
+uniform float uVignette;
 uniform float uDraw;
 uniform float uFlat;
 uniform float uTime;
 uniform float uWave;
 uniform vec4 uRipple;
+uniform vec3 uHi[4];
+uniform float uHiOn;
 
 float hash(vec2 p){ p = fract(p * vec2(123.34, 456.21)); p += dot(p, p + 45.32); return fract(p.x * p.y); }
 float vnoise(vec2 p){
@@ -46,8 +50,10 @@ void main(){
 
   // Loupe : agrandit ce qui est sous le curseur.
   vec2 d = p - uMouse;
-  float r = length(d);
-  float lens = uLens * (1.0 - smoothstep(uLensR * 0.74, uLensR, r));
+  // loupe en barre de lecture : plus large que haute (uLensShape = étirement horizontal, vertical)
+  float r = length(d / uLensShape);
+  // bord net : pas de zone de transition où les lignes se tasseraient
+  float lens = uLens * (1.0 - smoothstep(uLensR * 0.96, uLensR, r));
   q = mix(p, uMouse + d / uMag, lens);
 
   // Ondulation légère liée à la vitesse de défilement, onde d'un toucher.
@@ -81,6 +87,12 @@ void main(){
   float n = vnoise(vec2(row * 0.61, q.x * 0.011));
   float m = smoothstep(n - 0.18, n + 0.18, uMorph * 1.36 - 0.18);
   float v = mix(va, vb, m) * inside;
+  // bords fondus : près des bords du panneau, les lignes s'affinent jusqu'au trait le plus fin
+  if (uVignette > 0.0) {
+    float ex = smoothstep(0.0, 0.16, min(uvf.x, 1.0 - uvf.x));
+    float ey = smoothstep(0.0, 0.10, uvf.y) * smoothstep(0.0, 0.07, 1.0 - uvf.y);
+    v *= mix(1.0, ex * ey, uVignette);
+  }
   float thin = 1.0 - 0.9 * 4.0 * m * (1.0 - m);
   v = mix(v, 0.3, uFlat);
   float t = mix(uThick.x, uThick.y, v) * thin;
@@ -105,12 +117,21 @@ void main(){
     float g = texture2D(uText, vec2(q.x / uRes.x, q.y / uRes.y)).r;
     ink = mix(ink, g * drawn, smoothstep(0.0, 1.0, lens));
   }
+  // Titre survolé : sa ligne est surlignée en jaune, comme au surligneur.
+  float hi = 0.0;
+  if (uHiOn > 0.5) {
+    for (int i = 0; i < 4; i++) {
+      vec3 sg = uHi[i];
+      if (sg.y < sg.z && abs(row - sg.x) < 0.5 && q.x >= sg.y - 3.0 && q.x <= sg.z + 3.0) hi = 1.0;
+    }
+  }
+  vec3 bg = mix(uPaper, uMark, hi);
   vec3 lineCol = mix(uInk, uMark, lit);
-  gl_FragColor = vec4(mix(uPaper, lineCol, ink), 1.0);
+  gl_FragColor = vec4(mix(bg, lineCol, ink), 1.0);
 }`;
 
 const UNIFORMS = ['uMark', 'uRes', 'uDpr', 'uFigA', 'uFigB', 'uInv', 'uMorph', 'uText', 'uHasText', 'uAmp', 'uHasAmp', 'uAmpRows',
-  'uPitch', 'uThick', 'uInk', 'uPaper', 'uMouse', 'uLens', 'uLensR', 'uMag', 'uDraw', 'uFlat', 'uTime', 'uWave', 'uRipple'];
+  'uPitch', 'uThick', 'uInk', 'uPaper', 'uMouse', 'uLens', 'uLensR', 'uMag', 'uLensShape', 'uVignette', 'uDraw', 'uFlat', 'uTime', 'uWave', 'uRipple', 'uHi[0]', 'uHiOn'];
 
 const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255);
 
@@ -147,6 +168,9 @@ export class LineStage {
     this.amp = null; this.ampData = null;
     this.dirty = true;
     this.time = 0;
+    this.hi = new Float32Array(12);
+    this.hiOn = 0;
+    this.rowSegs = [];
     this.onLost = this.onLost.bind(this);
     this.onRestored = this.onRestored.bind(this);
   }
@@ -223,15 +247,18 @@ export class LineStage {
     if (!this.gl) return;
     const r = this.box.getBoundingClientRect();
     const w = Math.max(1, Math.round(r.width)), h = Math.max(1, Math.round(r.height));
-    const dpr = this.lowPower ? 1 : Math.min(1.5, window.devicePixelRatio || 1);
-    if (!force && w === this.w && h === this.h && dpr === this.dpr) return;
-    const wasSmall = this.small;
+    // téléphone : petits canevas, on peut monter à 2 pour la netteté
+    const dpr = this.lowPower ? 1 : Math.min(w < 600 ? 2 : 1.5, window.devicePixelRatio || 1);
+    // les variations de quelques pixels (barre d'adresse, légende) ne valent pas une reconstruction
+    if (!force && Math.abs(w - this.w) < 3 && Math.abs(h - this.h) < 3 && dpr === this.dpr) return;
     this.w = w; this.h = h; this.dpr = dpr;
     this.canvas.width = Math.round(w * dpr);
     this.canvas.height = Math.round(h * dpr);
     this.gl.viewport(0, 0, this.canvas.width, this.canvas.height);
-    if (force || wasSmall !== this.small || true) this.rebuild();
+    this.rebuild();
     this.dirty = true;
+    // un canevas redimensionné est vidé : on le redessine tout de suite
+    this.render(performance.now());
   }
 
   // Redessine les textures de figure (et de mots) à la taille du panneau.
@@ -262,7 +289,7 @@ export class LineStage {
 
   // Gabarit des mots (canal vert) et glyphes pour la loupe (canal rouge).
   buildWords() {
-    const words = this.o.words;
+    const words = this.o.words; // [{ w: 'mot', ti: indice du titre }]
     const k = Math.min(2.5, 1800 / this.w);
     const W = Math.round(this.w * k), H = Math.round(this.h * k);
     const c = document.createElement('canvas');
@@ -277,6 +304,7 @@ export class LineStage {
     const rows = Math.ceil(H / pitch);
     let wi = 0;
     x.globalCompositeOperation = 'lighter';
+    this.rowSegs = [];
     for (let r = 0; r < rows; r++) {
       const yc = (r + 0.5) * pitch;
       // remplit la ligne de mots, puis justifie
@@ -284,7 +312,7 @@ export class LineStage {
       let used = 0;
       while (true) {
         const word = words[wi % words.length];
-        const ww = x.measureText(word).width;
+        const ww = x.measureText(word.w).width;
         const need = line.length ? used + space + ww : ww;
         if (need > W && line.length) break;
         line.push([word, ww]); used = need; wi++;
@@ -293,13 +321,18 @@ export class LineStage {
       const gaps = line.length - 1;
       const extra = gaps > 0 ? (W - used) / gaps : 0;
       let px = 0;
+      const segs = [];
       for (const [word, ww] of line) {
         x.fillStyle = '#00ff00';
         x.fillRect(px, yc - pitch * 0.5, ww, pitch);
         x.fillStyle = '#ff0000';
-        x.fillText(word, px, yc);
+        x.fillText(word.w, px, yc);
+        const last = segs[segs.length - 1];
+        if (last && last.ti === word.ti) last.x1 = (px + ww) / k;
+        else segs.push({ ti: word.ti, x0: px / k, x1: (px + ww) / k });
         px += ww + space + extra;
       }
+      this.rowSegs.push(segs);
     }
     this.upload(this.tex.text, c, 2);
     this.hasText = 1;
@@ -336,6 +369,29 @@ export class LineStage {
     gl.activeTexture(gl.TEXTURE3);
     gl.bindTexture(gl.TEXTURE_2D, this.tex.amp);
     gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, 0, 256, rows, gl.RGBA, gl.UNSIGNED_BYTE, d);
+    this.dirty = true;
+  }
+
+  // Titre (indice) sous un point du panneau, d'après le gabarit des mots.
+  titleAt(x, y) {
+    if (!this.rowSegs.length) return null;
+    const r = Math.floor(y / this.pitch);
+    const segs = this.rowSegs[r];
+    if (!segs) return null;
+    const s = segs.find((g) => x >= g.x0 - 4 && x <= g.x1 + 4);
+    return s ? { ti: s.ti, row: r } : null;
+  }
+
+  // Surligne toutes les portions de ce titre sur la ligne visée et ses voisines.
+  highlight(ti, row) {
+    this.hi.fill(0);
+    let n = 0;
+    if (ti != null) {
+      for (let r = Math.max(0, row - 1); r <= row + 1 && n < 4; r++) {
+        for (const g of this.rowSegs[r] || []) if (g.ti === ti && n < 4) { this.hi.set([r, g.x0, g.x1], n * 3); n++; }
+      }
+    }
+    this.hiOn = n ? 1 : 0;
     this.dirty = true;
   }
 
@@ -386,10 +442,15 @@ export class LineStage {
     gl.uniform1f(u.uLens, Math.max(0, this.lens.v));
     gl.uniform1f(u.uLensR, this.small ? this.o.lensR[1] : this.o.lensR[0]);
     gl.uniform1f(u.uMag, this.o.mag);
+    const ls = this.o.lensShape || [1, 1];
+    gl.uniform2f(u.uLensShape, ls[0], ls[1]);
+    gl.uniform1f(u.uVignette, this.o.vignette || 0);
     gl.uniform1f(u.uDraw, Math.max(0, Math.min(1.2, this.draw.v)));
     gl.uniform1f(u.uFlat, this.flat);
     gl.uniform1f(u.uTime, now / 1000);
     gl.uniform1f(u.uWave, this.wave);
+    gl.uniform3fv(u['uHi[0]'], this.hi);
+    gl.uniform1f(u.uHiOn, this.hiOn);
     if (this.ripple) {
       const t = (now - this.ripple.t0) / 1400;
       gl.uniform4f(u.uRipple, this.ripple.x, this.ripple.y, t, (1 - t) * (1 - t));
