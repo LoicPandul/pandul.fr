@@ -537,7 +537,7 @@ function initCount() {
     io.disconnect();
     const t0 = performance.now();
     const tick = (t) => {
-      const k = clamp((t - t0) / 1100);
+      const k = clamp((t - t0) / 900);
       const e = 1 - Math.pow(1 - k, 3);
       nums.forEach((x) => { x.dt.textContent = String(Math.round(x.n * e)); });
       if (k < 1) requestAnimationFrame(tick);
