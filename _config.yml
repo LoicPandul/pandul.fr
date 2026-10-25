@@ -31,6 +31,7 @@ exclude:
   - "Gemfile.lock"
   - "_scripts/"
   - ".githooks/"
+  - "design/"
 
 # Cloudflare Web Analytics (D-09 - token public by design, OK to commit)
 analytics:
