@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="theme-color" content="#141414">
+  <meta name="theme-color" content="#F2F2EE">
+  <meta name="color-scheme" content="light">
+  <script>document.documentElement.classList.add('js')</script>
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
-
-  <link rel="preload" href="{{ '/assets/fonts/IBMPlexSans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/fonts/mona-sans.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/literata.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <style>{% include site.css %}</style>
   <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
-  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
 
   {%- comment -%}
-    jekyll-seo-tag émet son propre JSON-LD : on le retire pour garder un seul bloc,
+    jekyll-seo-tag émet son propre JSON-LD : on le retire pour garder un seul bloc,
     celui de _includes/seo/jsonld-graph.html. Le reste (title, OG, Twitter, canonical) est conservé.
   {%- endcomment -%}
   {%- capture seo_html -%}{%- seo -%}{%- endcapture -%}
@@ -27,7 +28,7 @@
   {%- endif -%}
   {%- comment -%} Twitter Cards attend name="twitter:*", le gem émet property= pour deux balises. {%- endcomment -%}
   {%- assign seo_clean = seo_clean | replace: '<meta property="twitter:image"', '<meta name="twitter:image"' | replace: '<meta property="twitter:title"', '<meta name="twitter:title"' -%}
-  {%- comment -%} Accueil : titre seul, sans le suffixe site.title (65 caractères au plus). {%- endcomment -%}
+  {%- comment -%} Accueil : titre seul, sans le suffixe site.title (65 caractères au plus). {%- endcomment -%}
   {%- if page.url == "/" -%}
     {%- assign title_split = seo_clean | split: '<title>' -%}
     {%- if title_split.size > 1 -%}
@@ -43,44 +44,58 @@
   {%- include seo/meta.html -%}
   {%- include seo/jsonld-graph.html -%}
 </head>
-<body class="{% if page.url == '/' %}is-home{% endif %}">
+<body class="{% if page.url == '/' %}is-home{% else %}is-page{% endif %}">
   <a href="#contenu" class="skip">Aller au contenu</a>
 
-  <header class="bar">
-    <a class="bar-name" href="{{ '/' | relative_url }}" aria-label="Loïc Morel, accueil">Loïc Morel</a>
-    <button class="menu-toggle btn btn-sm btn-ghost" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="bar-nav" id="nav" aria-label="Sections">
-      <a href="{{ '/#activites' | relative_url }}">Activités</a>
-      <a href="{{ '/#clients' | relative_url }}">Clients</a>
-      <a href="{{ '/#projets' | relative_url }}">Projets</a>
-      <a href="{{ '/#contact' | relative_url }}">Contact</a>
+  <header class="bar" data-bar>
+    <a class="bar-name" href="{{ '/' | relative_url }}">Loïc Morel</a>
+    <nav class="bar-nav" aria-label="Sections">
+      <a href="{{ '/#clients' | relative_url }}" data-nav="clients">Clients</a>
+      <a href="{{ '/#activites' | relative_url }}" data-nav="activites">Activités</a>
+      <a href="{{ '/#projets' | relative_url }}" data-nav="projets">Projets</a>
+      <a href="{{ '/#contact' | relative_url }}" data-nav="contact">Contact</a>
+      <span class="bar-mark" aria-hidden="true"></span>
     </nav>
-    <a class="btn btn-sm" href="mailto:info@pandul.fr">M'écrire</a>
+    <a class="btn btn-sm bar-cta" href="mailto:info@pandul.fr" data-magnetic>M'écrire</a>
+    <button class="bar-menu" type="button" aria-haspopup="dialog" aria-controls="menu" data-menu-open>Menu</button>
   </header>
+
+  <dialog class="menu" id="menu" aria-label="Menu">
+    <div class="menu-top">
+      <span class="menu-name">Loïc Morel</span>
+      <button class="bar-menu menu-close" type="button" data-menu-close>Fermer</button>
+    </div>
+    <nav class="menu-nav" aria-label="Sections">
+      <a href="{{ '/#clients' | relative_url }}" style="--i:0">Clients</a>
+      <a href="{{ '/#activites' | relative_url }}" style="--i:1">Activités</a>
+      <a href="{{ '/#projets' | relative_url }}" style="--i:2">Projets</a>
+      <a href="{{ '/#contact' | relative_url }}" style="--i:3">Contact</a>
+    </nav>
+    <a class="btn btn-paper menu-cta" href="mailto:info@pandul.fr">M'écrire</a>
+  </dialog>
 
   <main id="contenu">
     {{ content }}
   </main>
 
   <footer class="foot" id="fin">
-    <div class="foot-top grid">
-      <p class="foot-invite" data-reveal>Un sujet Bitcoin à&nbsp;expliquer&nbsp;?</p>
-      <a class="btn foot-btn" href="mailto:info@pandul.fr" data-reveal>M'écrire</a>
-      <ul class="foot-links" aria-label="Me suivre">
-        <li><a href="mailto:info@pandul.fr">info@pandul.fr</a></li>
-        <li><a href="https://x.com/Loic_Pandul" rel="me noopener">X : @Loic_Pandul</a></li>
-        <li><a href="https://github.com/LoicPandul" rel="me noopener">GitHub : LoicPandul</a></li>
-        <li><a href="{{ site.dictionnaire_url }}/">Dictionnaire de Bitcoin</a></li>
-      </ul>
+    <div class="foot-name stage" data-stage="name" aria-hidden="true">
+      <p class="foot-name-text"><span>Loïc</span> <span>Morel</span></p>
+      <canvas></canvas>
     </div>
     <div class="foot-legal">
       <p>© 2021-{{ site.time | date: '%Y' }} Ei Loïc Morel (Pandul), 96 Rue Paradis, 13006 Marseille</p>
-      <p class="foot-key" title="Clé publique minisign : elle permet de vérifier l'authenticité des versions signées de mes logiciels">Clé minisign : <code>RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></p>
+      <p class="foot-key">Clé publique minisign&nbsp;: <code>RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></p>
+      <ul class="foot-links" aria-label="Liens">
+        <li><a class="link" href="{{ site.dictionnaire_url }}/">Dictionnaire de Bitcoin</a></li>
+        <li><a class="link" href="https://gerfaut-wallet.com">Gerfaut</a></li>
+        <li><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">X</a></li>
+        <li><a class="link" href="https://github.com/LoicPandul" rel="me noopener">GitHub</a></li>
+      </ul>
     </div>
-    <p class="foot-name" aria-hidden="true">Loïc Morel</p>
   </footer>
 
-  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  <script type="module" src="{{ '/assets/js/site.js' | relative_url }}" data-base="{{ '/assets/' | relative_url }}"></script>
   {% if site.analytics.cloudflare_token and jekyll.environment == 'production' %}
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.analytics.cloudflare_token }}"}'></script>
   {% endif %}

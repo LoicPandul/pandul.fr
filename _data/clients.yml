@@ -1,6 +1,6 @@
 # Clients affichés dans « Ils me font confiance », par période.
 # logo : fichier de assets/img/clients/ (monochrome, recoloré en CSS) ; ratio = largeur / hauteur du logo.
-# Sans logo officiel, le nom seul est affiché.
+# Sans logo officiel (Space Kek, How to Bitcoin), le logo est le nom composé en Mona Sans, en attendant le vrai.
 # compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
 
 - periode: "Depuis 2026"
@@ -39,6 +39,8 @@
         - {source: "ecrits", platform: "Bitstack", libelle: "articles"}
       url: "https://www.bitstack-app.com"
     - nom: "Space Kek"
+      logo: "spacekek.svg"
+      ratio: 3.98
       travail: "Podcast technique sur Bitcoin"
       comptes:
         - {source: "audio-video", platform: "Space Kek", libelle: "épisodes"}
@@ -62,4 +64,6 @@
       travail: "Interview sur les CoinJoins"
       url: "https://www.youtube.com/@grandanglebitcoin"
     - nom: "How to Bitcoin"
+      logo: "howtobitcoin.svg"
+      ratio: 5.43
       travail: "Interview sur la confidentialité avec Bitcoin"
