@@ -60,3 +60,19 @@ Principaux reproches : titres surlignés rognés quand ils passent sur deux lign
 ## Round 4 (25 octobre 2026)
 
 Corrections du round 3 : titres surlignés à interligne 1,48 (plus de lettres rognées), réglette qui laisse défiler la page à la verticale, loupe à bord net, bas du portrait texturé (blancs plafonnés), tête entière sur téléphone, densité de pixels 2 sur téléphone, bouton de la barre replié en haut de page (le menu finit sur la marge), logos Space Kek et How to Bitcoin plus légers, Cryptoast avec son nom, « Plan ₿ Academy » partout, marques deux par ligne sur téléphone, réglette : grand chiffre « 246 », noms toujours à droite de leur repère, petits groupes réunis sous « Autres » avec une légende ; capture de la doc Bark teintée à l'encre, titre « Et aussi », onglets collés sous la barre quand elle est visible, capture Android à coins transparents, colonne de faits pour Gerfaut, légende à 65 caractères, bouton du dictionnaire aligné, « Marseille » aligné, photo de Contact calée sur l'adresse, clé minisign aérée sur téléphone, vague jaune sur les lettres du nom à l'arrivée sur le pied de page.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 7,5 | 8,0 |
+| Ils me font confiance | 7,2 | 7,8 |
+| Ce que je fais | 7,8 | 8,2 |
+| Projets | 7,8 | 8,3 |
+| Contact | 7,8 | 7,8 |
+| Pied de page | 8,0 | 8,3 |
+| **Global** | **7,6** | **8,0** |
+
+Principaux reproches : réglette qui monte et descend sous le doigt quand le titre change de nombre de lignes (jusqu'à 40 px), liste des clients longue de trois écrans sur téléphone, nom de groupe collé au bord sans son repère, traits tous de la même hauteur, Plan ₿ Academy et Wizard Sardine encore petits, bas du portrait vide et visage petit sur téléphone, bord de la loupe pointillé, boutons avant le texte sur téléphone, chiffres hors grille, onglet qui change trop tôt, licence et « écrivez-moi » coupés en fin de ligne, carte de définition qui change de hauteur, photo de Contact qui flotte, liens de Contact trop petits au doigt.
+
+## Round 5 (25 octobre 2026)
+
+Corrections du round 4 : bloc de lecture de la réglette à hauteur fixe (trois lignes), hauteur des traits selon le type de contenu avec sa légende, flèche devant le nom d'un groupe commencé plus à gauche, clients passés réduits au logo et au nombre de contenus sur téléphone, Wizard Sardine sur deux colonnes, Plan ₿ Academy agrandi, accroche des clients sur trois lignes, moins de vide sous la réglette ; portrait recadré sur la tête (visage aux deux tiers de la largeur), portrait plus haut sur téléphone, loupe en rectangle arrondi à bord net cerclé d'un filet, texte avant les boutons sur téléphone ; chiffres sur trois colonnes égales, onglet qui change quand le métier passe sous la barre d'onglets, fondu d'entrée raccourci ; licence et « écrivez-moi » insécables, carte de définition à la hauteur de la plus longue ; photo de Contact dessinée en lignes et posée sur la ligne de base de l'adresse, liens de Contact à 44 px de haut.
