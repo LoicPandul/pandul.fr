@@ -223,7 +223,9 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
   font: 780 var(--s-body)/1 var(--font-ui);
   letter-spacing: -0.01em;
   text-decoration: none;
-  padding: 13px 0;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   transition: opacity var(--t-ui) var(--ease-out), transform var(--t-ui) var(--ease-out);
 }
 .bar.is-top .bar-name, .bar.is-top .bar-cta { opacity: 0; transform: translateY(-6px); pointer-events: none; }
@@ -337,6 +339,8 @@ main > section { padding: var(--section) var(--margin) 0; }
   .hero-stage .stage-box { height: min(44svh, 104vw); }
   .hero-lead { grid-area: lead; margin-top: 16px; }
   .hero-actions { grid-area: actions; margin-top: 20px; }
+  /* « M'écrire » est déjà dans la barre : l'accueil garde le seul lien vers les clients */
+  .hero-actions .btn { display: none; }
   .hero-body { grid-area: body; margin-top: 28px; }
 }
 @media (max-width: 599px) {
@@ -394,8 +398,7 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
 .clients .brand-count, .clients .works-meta { color: var(--pale); }
 .clients .btn { background: var(--paper); color: var(--ink); }
 @media (hover: hover) { .clients .btn:hover { background: var(--mark); color: var(--ink); } }
-.clients .tick i, .clients @media (min-width: 960px) { .tick { --tw: 3px; } }
-.tick.is-current i { background: var(--paper); }
+.clients .tick i, .clients .tick.is-current i { background: var(--paper); }
 .clients .works-groups span { border-color: var(--paper); }
 .clients .works-group h4 span { color: var(--pale); }
 @media (hover: hover) { .clients .works-group a:hover { background: var(--mark); color: var(--ink); } }
@@ -590,6 +593,7 @@ a.brand-link:focus-visible { color: var(--ink); }
 .tick[data-k=tutoriel] i { --th: 68%; }
 .tick[data-k=article] i { --th: 50%; }
 .tick[data-k=podcast] i, .tick[data-k=production] i, .tick[data-k=interview] i { --th: 34%; }
+@media (min-width: 960px) { .tick { --tw: 3px; } }
 .tick.is-current i { width: 4px; height: 100%; background: var(--ink); transform: none !important; }
 .works-groups { position: relative; height: 3.4em; margin-top: 12px; }
 .works-groups span[data-row="1"] { top: 1.6em; }
@@ -684,7 +688,7 @@ a.brand-link:focus-visible { color: var(--ink); }
   position: relative;
   isolation: isolate;
   display: inline-block;
-  padding: 8px 0;
+  padding: 10px 0;
   font: 760 var(--s-lead)/1.15 var(--font-ui);
   letter-spacing: -0.015em;
   text-decoration: none;
@@ -725,7 +729,7 @@ a.brand-link:focus-visible { color: var(--ink); }
     transition: top var(--t-ui) var(--ease-out);
   }
   html.bar-shown .trades-tabs { top: var(--bar-h); }
-  @media (max-width: 599px) { .trades-tabs { justify-content: space-between; } }
+  @media (max-width: 599px) { .trades-tabs { justify-content: space-between; gap: 0; } .trades-tabs a { font-size: clamp(0.8125rem, 3.6vw, 0.9375rem); } }
   .trades-tabs::-webkit-scrollbar { display: none; }
   .trades-tabs a {
     flex: 0 0 auto;
@@ -809,7 +813,7 @@ html.lines-on .courses img.line-reveal { --lp: 4px; background: none; }
 }
 .dict { display: grid; gap: 40px; margin-top: clamp(48px, 6vw, 96px); }
 .dict-stage { margin: 0 calc(-1 * var(--margin)); }
-.dict-stage .stage-box { height: min(48svh, 64vw); }
+.dict-stage .stage-box { height: min(40svh, 60vw); }
 .dict-caption { padding: 10px var(--margin) 0 !important; }
 .dict-letter {
   position: absolute;
@@ -874,8 +878,8 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 @media (min-width: 960px) {
   .dict { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: center; }
   .dict-stage { grid-column: 1 / 7; margin: 0 0 0 calc(-1 * var(--margin)); }
-  .dict-stage .stage-box { height: min(84svh, 860px); }
-  .dict-letter { font-size: min(70svh, 40vw); }
+  .dict-stage .stage-box { height: min(68svh, 700px); }
+  .dict-letter { font-size: min(56svh, 34vw); }
   .dict-text { grid-column: 7 / 13; }
 }
 
