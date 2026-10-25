@@ -76,3 +76,35 @@ Principaux reproches : réglette qui monte et descend sous le doigt quand le tit
 ## Round 5 (25 octobre 2026)
 
 Corrections du round 4 : bloc de lecture de la réglette à hauteur fixe (trois lignes), hauteur des traits selon le type de contenu avec sa légende, flèche devant le nom d'un groupe commencé plus à gauche, clients passés réduits au logo et au nombre de contenus sur téléphone, Wizard Sardine sur deux colonnes, Plan ₿ Academy agrandi, accroche des clients sur trois lignes, moins de vide sous la réglette ; portrait recadré sur la tête (visage aux deux tiers de la largeur), portrait plus haut sur téléphone, loupe en rectangle arrondi à bord net cerclé d'un filet, texte avant les boutons sur téléphone ; chiffres sur trois colonnes égales, onglet qui change quand le métier passe sous la barre d'onglets, fondu d'entrée raccourci ; licence et « écrivez-moi » insécables, carte de définition à la hauteur de la plus longue ; photo de Contact dessinée en lignes et posée sur la ligne de base de l'adresse, liens de Contact à 44 px de haut.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,3 |
+| Ils me font confiance | 8,0 | 7,9 |
+| Ce que je fais | 7,8 | 8,0 |
+| Projets | 7,9 | 8,2 |
+| Contact | 8,0 | 7,6 |
+| Pied de page | 8,2 | 8,5 |
+| **Global** | **8,0** | **8,1** |
+
+Principaux reproches : portrait de Contact qui touche l'adresse à 1280 px, titre des clients lu en deux morceaux, légende des traits peu claire, pas de bouton dans le premier écran du téléphone, capture de Gerfaut coupée net en bas et hors de la marge, « En bêta publique. » trop petit, liens du pied de page de 25 px sur téléphone.
+
+## Round 6 (25 octobre 2026)
+
+Corrections du round 5 : portrait de Contact à droite du titre et de l'accroche, titre des clients en escalier avec l'accroche dessous, légende « Hauteur du trait », bouton « M'écrire » dans la barre au doigt, capture de Gerfaut sur la marge, note de bêta en taille de texte, onglets alignés sur la marge, liens du pied de page à 44 px.
+
+| Section | Téléphone | Ordinateur |
+| --- | --- | --- |
+| Accueil | 8,0 | 8,3 |
+| Ils me font confiance | 8,0 | 8,0 |
+| Ce que je fais | 8,0 | 8,3 |
+| Projets | 7,8 | 7,8 |
+| Contact | 8,3 | 8,3 |
+| Pied de page | 8,3 | 8,5 |
+| **Global** | **8,0** | **8,1** |
+
+Principaux reproches : capture de Gerfaut encore coupée et agrandie au-delà du bandeau, légende des traits sur plusieurs lignes, logos petits et étiquettes de période ambiguës (« Depuis 2026 » sous « Depuis 2021 »), réglette du téléphone sans repère de position, boutons de l'accueil sous le portrait au téléphone, adresse de Contact sous la ligne de flottaison à 1280 × 800.
+
+## Round 7 (25 octobre 2026)
+
+Corrections du round 6 : fenêtre de bureau et téléphone de Gerfaut entiers dans le bandeau, posés sur la marge, sans agrandissement ni fondu ; légende des traits sur une ligne (grille 2 × 2 au téléphone) ; logos agrandis d'environ 25 %, périodes « Aujourd'hui » et « De 2021 à 2025 » en taille de texte ; barre de position jaune sous la réglette au doigt ; boutons de l'accueil sous l'accroche au téléphone ; nom de l'accueil plus grand sur ordinateur ; Contact compacté sur les écrans de 800 px de haut ; liens des notes à 44 px.
