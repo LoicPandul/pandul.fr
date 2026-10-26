@@ -1,0 +1,9 @@
+{%- comment -%}
+  Sélecteur de langue : un interrupteur à deux positions, le drapeau de la langue affichée sous le curseur.
+  Deux vrais liens (la page équivalente dans l'autre langue) ; site.js fait glisser le curseur avant de partir.
+  Attend lg, t, url_fr et url_en (posés par _layouts/default.html).
+{%- endcomment -%}
+<nav class="lang" aria-label="{{ t.lang_label }}" data-lang="{{ lg }}">
+  <a class="lang-opt" href="{{ url_fr | relative_url }}" hreflang="fr" lang="fr" title="Français"{% if lg == 'fr' %} aria-current="page"{% endif %}><svg aria-hidden="true" focusable="false"><use href="#drapeau-fr"/></svg><span class="sr">Français</span></a>
+  <a class="lang-opt" href="{{ url_en | relative_url }}" hreflang="en" lang="en" title="English"{% if lg == 'en' %} aria-current="page"{% endif %}><svg aria-hidden="true" focusable="false"><use href="#drapeau-gb"/></svg><span class="sr">English</span></a>
+</nav>

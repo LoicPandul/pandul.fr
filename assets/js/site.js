@@ -10,6 +10,22 @@ const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const wide = () => window.innerWidth >= 960;
 const base = document.querySelector('script[data-base]')?.dataset.base || '/assets/';
 
+// Textes écrits par le script, dans la langue de la page (<html lang>) ; le reste vient de _data/i18n/.
+const EN = html.lang === 'en';
+const T = EN ? {
+  copied: 'Address copied.', copyFail: 'Copy failed: the text is selected, copy it by hand.',
+  kinds: { tutoriel: 'tutorial', article: 'article', formation: 'course', podcast: 'podcast episode', production: 'video', interview: 'interview', documentation: 'documentation', script: 'video script' },
+  rail: 'Published pieces, one tick each', others: 'Others', key: 'Tick height:',
+  keys: ['course or docs', 'tutorial', 'article', 'audio and video'], open: 'Open', portrait: 'Portrait of Loïc Morel',
+  q: (s) => `"${s}"`,
+} : {
+  copied: 'Adresse copiée.', copyFail: 'Copie impossible\u00a0: le texte est sélectionné, copiez-le à la main.',
+  kinds: { tutoriel: 'tutoriel', article: 'article', formation: 'formation', podcast: 'épisode de podcast', production: 'vidéo', interview: 'interview', documentation: 'documentation', script: 'script de vidéo' },
+  rail: 'Contenus publiés, un trait par contenu', others: 'Autres', key: 'Hauteur du trait\u00a0:',
+  keys: ['formation ou doc', 'tutoriel', 'article', 'audio et vidéo'], open: 'Ouvrir', portrait: 'Portrait de Loïc Morel',
+  q: (s) => `\u00ab\u00a0${s}\u00a0\u00bb`,
+};
+
 /* ---------- Boucle ---------- */
 const frames = new Set();
 let running = false, last = 0;
@@ -113,6 +129,7 @@ function initTradesIndex() {
   if (!links.length || !trades.length) return;
   const tabs = $('.trades-tabs');
   const index = $('.trades-index');
+  const list = $('.trades-list');
   let cur = '';
   // le métier lu est le dernier dont le titre a passé la ligne de lecture :
   // juste sous la barre d'onglets au doigt, au milieu de l'écran sinon (comme le panneau des métiers)
@@ -125,6 +142,8 @@ function initTradesIndex() {
       const a = trades[0].getBoundingClientRect().top, b = trades[trades.length - 1].getBoundingClientRect().bottom;
       index.style.setProperty('--tp', clamp((line - a) / Math.max(1, b - a)).toFixed(3));
     }
+    // au doigt, les onglets s'effacent une fois les trois métiers lus (ils ne restent pas collés au-dessus de « Projets »)
+    if (tabs && list) tabs.classList.toggle('is-past', list.getBoundingClientRect().bottom < line + 40);
     if (id === cur) return;
     cur = id;
     links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
@@ -180,9 +199,9 @@ function initCopy() {
     let timer;
     btn.addEventListener('click', async () => {
       let msg;
-      try { await navigator.clipboard.writeText(btn.dataset.copy); msg = btn.dataset.copyLabel || 'Adresse copiée.'; }
+      try { await navigator.clipboard.writeText(btn.dataset.copy); msg = btn.dataset.copyLabel || T.copied; }
       catch (e) {
-        msg = 'Copie impossible\u00a0: le texte est sélectionné, copiez-le à la main.';
+        msg = T.copyFail;
         const target = btn.closest('.contact') ? $('.contact-mail a') : btn.previousElementSibling;
         if (target) { const r = document.createRange(); r.selectNodeContents(target); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); }
       }
@@ -214,7 +233,7 @@ function initSlides() {
 }
 
 /* ---------- Réglette des contenus publiés ---------- */
-const KINDS = { tutoriel: 'tutoriel', article: 'article', formation: 'formation', podcast: 'épisode de podcast', production: 'vidéo', interview: 'interview' };
+const KINDS = T.kinds;
 let works = null;
 function initWorks() {
   const root = $('[data-works]');
@@ -238,7 +257,7 @@ function initWorks() {
   track.className = 'works-ticks';
   track.tabIndex = 0;
   track.setAttribute('role', 'slider');
-  track.setAttribute('aria-label', 'Contenus publiés, un trait par contenu');
+  track.setAttribute('aria-label', T.rail);
   track.setAttribute('aria-valuemin', '1');
   track.setAttribute('aria-valuemax', String(N));
   track.setAttribute('aria-orientation', 'horizontal');
@@ -272,13 +291,13 @@ function initWorks() {
   if (tail < groups.length) {
     for (let gi = tail; gi < groups.length; gi++) labelEls[gi].classList.add('is-small');
     const l = document.createElement('span');
-    l.textContent = 'Autres';
+    l.textContent = T.others;
     labels.appendChild(l);
     labelEls.push(l);
     starts.push(starts[tail]);
     const legend = document.createElement('p');
     legend.className = 'works-legend';
-    legend.textContent = 'Autres\u00a0: ' + groups.slice(tail).map((g) => `${g.name} (${g.items.length})`).join(', ') + '.';
+    legend.textContent = T.others + (EN ? ': ' : '\u00a0: ') + groups.slice(tail).map((g) => `${g.name} (${g.items.length})`).join(', ') + '.';
     rail.after(legend);
   }
   labelEls.forEach(() => { const m = document.createElement('b'); labels.appendChild(m); markEls.push(m); });
@@ -288,9 +307,9 @@ function initWorks() {
   key.className = 'works-key';
   key.setAttribute('aria-hidden', 'true');
   const head = document.createElement('li');
-  head.textContent = 'Hauteur du trait\u00a0:';
+  head.textContent = T.key;
   key.appendChild(head);
-  [['formation', 32], ['tutoriel', 24], ['article', 17], ['audio et vidéo', 11]].forEach(([t, h]) => {
+  [32, 24, 17, 11].map((h, n) => [T.keys[n], h]).forEach(([t, h]) => {
     const li = document.createElement('li');
     const i = document.createElement('i'); i.style.setProperty('--kh', h + 'px');
     li.append(i, t);
@@ -315,7 +334,7 @@ function initWorks() {
     titleEl.textContent = it.t;
     metaEl.textContent = `${groups[it.g].name}, ${KINDS[it.k] || it.k}`;
     openEl.href = it.u;
-    openEl.setAttribute('aria-label', `Ouvrir \u00ab\u00a0${it.t}\u00a0\u00bb`);
+    openEl.setAttribute('aria-label', `${T.open} ${T.q(it.t)}`);
     track.setAttribute('aria-valuenow', String(i + 1));
     map.style.setProperty('--p', (i / Math.max(1, N - 1)).toFixed(4));
     track.setAttribute('aria-valuetext', `${it.t}, ${groups[it.g].name}`);
@@ -589,7 +608,7 @@ function staticStage(el) {
   if (el.dataset.stage === 'portrait' && !el.querySelector('img.stage-fallback')) {
     const img = new Image();
     img.className = 'stage-fallback';
-    img.alt = 'Portrait de Loïc Morel';
+    img.alt = T.portrait;
     img.width = 800; img.height = 1000;
     img.src = base + 'img/lignes/portrait-encre.webp';
     el.querySelector('.stage-box').prepend(img);
@@ -796,7 +815,42 @@ function bindStage(st, spring) {
   box.addEventListener('pointercancel', () => { touch = null; leave(); });
 }
 
+/* ---------- Sélecteur de langue : le curseur glisse, puis la page change de langue au même endroit ---------- */
+function initLang() {
+  $$('[data-lang]').forEach((sw) => {
+    $$('.lang-opt', sw).forEach((a) => a.addEventListener('click', (e) => {
+      if (a.hasAttribute('aria-current') || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+      e.preventDefault();
+      // la section lue suit dans l'autre langue (les deux pages ont les mêmes ancres)
+      let sec = null;
+      $$('main > section[id]').forEach((s) => { if (s.getBoundingClientRect().top <= window.innerHeight * 0.4) sec = s; });
+      const url = new URL(a.href, location.href);
+      if (sec && sec.id !== 'accueil') {
+        url.hash = sec.id;
+        // et l'endroit lu dans la section : la part déjà défilée, reprise à l'arrivée
+        const r = sec.getBoundingClientRect();
+        try { sessionStorage.setItem('pandul-lang', JSON.stringify({ id: sec.id, p: clamp(-r.top / Math.max(1, r.height)) })); } catch (err) { /* stockage refusé : la section suffit */ }
+      }
+      $$('[data-lang]').forEach((o) => { o.dataset.lang = a.hreflang; });
+      setTimeout(() => { location.href = url.href; }, reduce ? 0 : 420);
+    }));
+  });
+}
+
+// À l'arrivée dans l'autre langue : reprendre l'endroit lu dans la section.
+function restoreLangSpot() {
+  let s = null;
+  try { s = JSON.parse(sessionStorage.getItem('pandul-lang') || 'null'); sessionStorage.removeItem('pandul-lang'); } catch (err) { return; }
+  const sec = s && location.hash === '#' + s.id ? document.getElementById(s.id) : null;
+  if (!sec || !(s.p > 0)) return;
+  const top = sec.getBoundingClientRect().top + window.scrollY + s.p * sec.offsetHeight;
+  if (lenis) lenis.scrollTo(top, { immediate: true }); else window.scrollTo(0, top);
+}
+// Retour arrière depuis l'autre langue (page restaurée telle quelle) : le curseur revient sur la langue de la page.
+window.addEventListener('pageshow', (e) => { if (e.persisted) $$('[data-lang]').forEach((o) => { o.dataset.lang = html.lang; }); });
+
 /* ---------- Démarrage ---------- */
+initLang();
 initBar();
 initMenu();
 initTradesIndex();
@@ -813,5 +867,6 @@ initLineReveal();
 initLenis();
 kick();
 const startStages = () => initStages().catch(() => $$('.stage[data-stage]').forEach(staticStage));
-if (document.readyState === 'complete') requestAnimationFrame(startStages);
-else window.addEventListener('load', () => requestAnimationFrame(startStages), { once: true });
+const onLoaded = () => requestAnimationFrame(() => { restoreLangSpot(); startStages(); });
+if (document.readyState === 'complete') onLoaded();
+else window.addEventListener('load', onLoaded, { once: true });

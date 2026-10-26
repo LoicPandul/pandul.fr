@@ -1,0 +1,105 @@
+# Textes de la page d'accueil et du cadre (barre, menu, pied de page), en français.
+# Même clés dans en.yml. %n est remplacé par un nombre, %u par une adresse.
+# Le HTML est permis (liens, &nbsp;, <span class="nowrap">).
+
+skip: "Aller au contenu"
+nav_label: "Sections"
+nav:
+  clients: "Mes clients"
+  activites: "Ce que je fais"
+  projets: "Mes projets"
+  contact: "Contact"
+cta: "Me contacter"
+menu: "Menu"
+menu_close: "Fermer"
+lang_label: "Langue du site"
+lang_name: "Français"
+
+foot_key: "Clé minisign&nbsp;:"
+foot_copy: "Copier la clé"
+foot_copied: "Clé copiée"
+foot_copy_aria: "Copier la clé publique minisign complète"
+foot_links: "Mes projets"
+foot_place: "13006 Marseille"
+foot_owner: "Ei Loïc Morel (Pandul)"
+
+hero:
+  lead: "Rédacteur technique spécialisé sur Bitcoin."
+  body: "J'écris des tutoriels, des formations et de la documentation, pour les débutants comme pour les développeurs."
+  trust: "Ils me font confiance"
+  caption: "Mon visage, écrit avec les titres de mes %n contenus publiés."
+  caption_hover: "Passez la souris sur une ligne pour lire son titre, cliquez pour l'ouvrir."
+  caption_touch: "Touchez une ligne pour lire son titre."
+  alt: "Portrait de Loïc Morel"
+
+clients:
+  title_a: "Ils me font"
+  title_b: "confiance"
+  lead: "Depuis 2021, des exchanges, des médias, des plateformes de formation et des équipes qui développent des logiciels Bitcoin me confient leurs contenus."
+
+works:
+  label: "contenus publiés"
+  intro: "Chaque trait est un contenu&nbsp;: tutoriel, article, formation, documentation, épisode de podcast, vidéo ou interview."
+  hover: "Survolez la réglette pour lire les titres, puis ouvrez celui qui vous intéresse."
+  touch: "Faites glisser la réglette du doigt pour lire les titres, puis ouvrez celui qui vous intéresse."
+  open: "Ouvrir"
+  all: "Voir la liste complète des %n contenus publiés"
+
+trades:
+  title: "Ce que je fais"
+  lead: "Bitcoin m'a accroché en 2020, par sa technique, sa monnaie et sa philosophie. En 2021, Bitstack m'a confié son blog, puis d'autres clients ont suivi."
+  index_label: "Mes trois métiers"
+  index:
+    - "Rédaction"
+    - "Documentation"
+    - "Développement"
+  hint_fine: "Passez la souris sur la page&nbsp;: ses traits redeviennent des mots."
+  hint_touch: "Touchez une ligne de la page pour la lire."
+  write_title: "Rédaction et pédagogie"
+  write_body: "Articles, tutoriels, formations complètes, scripts de vidéos et de podcasts. Je pars de zéro et j'avance marche par marche, avec des exemples concrets, sans rien supposer d'évident."
+  fig_ecrits: "tutoriels, articles et documentations"
+  fig_formations: "formations complètes"
+  fig_audio: "podcasts, vidéos et interviews"
+  courses_intro: "Mes formations sur Plan ₿ Academy&nbsp;:"
+  docs_title: "Documentation technique"
+  docs_body: "Guides d'installation, références de SDK, notes de version. Je lis le code source avant d'écrire, et je teste chaque commande pour qu'elle fonctionne du premier coup chez le lecteur."
+  docs_now: "En ce moment, je m'occupe de la documentation de Bark chez Second, et de celle du portefeuille Liana chez Wizardsardine."
+  docs_alt: "Page d'accueil de la documentation de Bark Pay sur le site de Second"
+  docs_caption: "La documentation de Bark Pay, sur le site de Second."
+  dev_title: "Développement assisté par&nbsp;l'IA"
+  dev_body: "Je vibe code des logiciels Bitcoin open source&nbsp;: je les conçois, puis je les code avec l'IA. C'est comme ça que j'ai construit <a class=\"link\" href=\"https://gerfaut-wallet.com\">Gerfaut</a>, un portefeuille watch-only pour Android, Linux, macOS et Windows."
+  dev_sign: "Chaque version que je publie est signée avec ma clé minisign. Vous pouvez donc vérifier vous-même que le fichier téléchargé vient bien de moi."
+  also_title: "Et aussi"
+  also: "Je fais aussi de la relecture technique et du fact-checking, je conçois des parcours de formation et je tiens la ligne éditoriale d'un blog. Je livre en Markdown sur GitHub, dans Google Docs ou directement dans votre CMS."
+
+projects:
+  title: "Projets"
+  lead: "En dehors de mes clients, je construis mes propres outils, gratuits et open source."
+  dict_as: "comme"
+  dict_body: "Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin, de l'adresse de réception au zero-knowledge proof. Le dictionnaire est open source, gratuit en ligne et publié sous licence <span class=\"nowrap\">CC BY-NC-SA 4.0</span>."
+  dict_read: "Lire la définition complète"
+  dict_next: "Une autre définition"
+  dict_open: "Ouvrir le dictionnaire"
+  dict_book: "Il existe aussi en livre imprimé, sur <a class=\"link\" href=\"https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin\" rel=\"noopener\">Bitcoin Bazar</a> et sur <a class=\"link\" href=\"https://amzn.to/4cxaOA8\" rel=\"noopener\">Amazon</a>."
+  gerfaut_body: "Un portefeuille Bitcoin watch-only, gratuit et open source, pour Android, Linux, macOS et Windows. Gerfaut suit vos portefeuilles à partir de leur descripteur ou de leur clé publique, et vous prévient dès que des fonds bougent. Il ne détient jamais aucune clé privée."
+  gerfaut_beta: "En bêta publique."
+  gerfaut_open: "Découvrir Gerfaut"
+  gerfaut_facts_label: "Ce que fait Gerfaut"
+  gerfaut_facts:
+    - "Il lit les descripteurs, les xpub, les adresses seules, les multisig et Miniscript."
+    - "Il passe par votre propre nœud, Electrum ou Esplora, avec Tor intégré."
+    - "Une seule sauvegarde chiffrée pour l'ordinateur et le téléphone."
+    - "Sur Android&nbsp;: widgets, notifications en direct et mode discret."
+  gerfaut_desk_alt: "Gerfaut sur ordinateur, écran « Broadcast » : une transaction prête à être diffusée, avec le schéma de ses entrées et de ses sorties"
+  gerfaut_phone_alt: "Gerfaut sur Android : la liste des portefeuilles surveillés et leurs soldes"
+  gerfaut_caption_wide: "Gerfaut sur ordinateur&nbsp;: diffuser une transaction signée ailleurs et la suivre jusqu'à sa confirmation. "
+  gerfaut_caption: "Sur Android&nbsp;: les portefeuilles surveillés et leurs soldes."
+
+contact:
+  alt: "Loïc Morel, dessiné en lignes"
+  title: "Un sujet à expliquer&nbsp;?"
+  lead: "Pour un article, une formation, une documentation ou une relecture, <span class=\"nowrap\">écrivez-moi</span> directement."
+  copy: "Copier l'adresse"
+  city_label: "Ville"
+  city: "Marseille"
+

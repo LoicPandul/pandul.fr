@@ -1,10 +1,11 @@
 title: "Loïc Morel - Pandul"
-description: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin et développeur : tutoriels, formations, documentation et logiciels Bitcoin."
+description: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin : tutoriels, formations et documentation, pour les débutants comme pour les développeurs."
 author:
   name: "Loïc Morel"
   twitter: "Loic_Pandul"
   url: "https://pandul.fr/"
 lang: fr
+locale: fr_FR
 timezone: Europe/Paris
 
 # URL GitHub

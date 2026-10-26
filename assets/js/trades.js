@@ -21,6 +21,37 @@ const F_TEXT = '"Literata", "Literata Repli", Georgia, serif';
 const F_UI = '"Mona Sans", "Mona Repli", system-ui, sans-serif';
 const F_CODE = 'ui-monospace, "SF Mono", Menlo, Consolas, monospace';
 
+// Les mots des trois pages, dans la langue de la page (<html lang>).
+const TX = document.documentElement.lang === 'en' ? {
+  h: 'Setting up your first Bitcoin node',
+  p: "A node checks every block and every transaction on its own. You no longer have to take a server's word for your balance.",
+  cap: 'Your node talks directly to the other nodes on the network.',
+  steps: ['Download Bitcoin Core', 'Verify the file signature', 'Run the first sync'],
+  nav: ['Installation', 'Getting started', 'Configuration', 'CLI reference', 'Release notes'],
+  bh: 'Installation',
+  bp: 'Download the archive for your system and the checksum file, then verify the archive before you open it.',
+  note: "If the checksum does not match, don't open the archive.",
+  bh2: 'Updating',
+  bp2: 'To move to a new version, replace the binary: your data folder stays where it is.',
+  file: 'addresses.rs', fn: 'addresses',
+  code: ['// Gerfaut only knows the extended public key:', '// it follows the balance, but can never spend.'],
+  test: ['fn ten_addresses() {', '    assert_eq!(addresses(&xpub, 10).len(), 10);'], kw: 'assert_eq!(addresses(&xpub,',
+} : {
+  h: 'Mettre en place son premier nœud Bitcoin',
+  p: "Un nœud vérifie lui-même chaque bloc et chaque transaction. Vous n'avez plus besoin de croire un serveur sur parole pour connaître votre solde.",
+  cap: 'Votre nœud parle directement aux autres nœuds du réseau.',
+  steps: ['Télécharger Bitcoin Core', 'Vérifier la signature du fichier', 'Lancer la première synchronisation'],
+  nav: ['Installation', 'Premiers pas', 'Configuration', 'Référence de la CLI', 'Notes de version'],
+  bh: 'Installation',
+  bp: "Téléchargez l'archive de votre système et le fichier des empreintes, puis vérifiez l'archive avant de l'ouvrir.",
+  note: "Si l'empreinte ne correspond pas, n'ouvrez pas l'archive.",
+  bh2: 'Mise à jour',
+  bp2: 'Pour passer à une nouvelle version, remplacez le binaire\u00a0: votre dossier de données reste en place.',
+  file: 'adresses.rs', fn: 'adresses',
+  code: ['// Gerfaut ne connaît que la clé publique étendue\u00a0:', '// il suit le solde, sans jamais pouvoir dépenser.'],
+  test: ['fn dix_adresses() {', '    assert_eq!(adresses(&xpub, 10).len(), 10);'], kw: 'assert_eq!(adresses(&xpub,',
+};
+
 /* ---------- Mise en page des trois pages ---------- */
 
 // Interligne : élargi quand la page a de la place, pour qu'elle remplisse son panneau.
@@ -85,19 +116,19 @@ function page(i, W, H, f, ctx, rich = false) {
     y += f * 1.7;
     // le titre se lit toujours
     ctx.font = `780 ${f * 1.72}px ${F_UI}`;
-    const hl = wrap(ctx, 'Mettre en place son premier nœud Bitcoin', w0);
+    const hl = wrap(ctx, TX.h, w0);
     hl.forEach((s, n) => text('a-h' + n, s, x0, y + f * 1.72 * (0.55 + n * 1.12), f * 1.72, 780, F_UI, C.ink));
     y += f * 1.72 * (hl.length * 1.12) + f * 0.9;
-    y = flow("Un nœud vérifie lui-même chaque bloc et chaque transaction. Vous n'avez plus besoin de croire un serveur sur parole pour connaître votre solde.",
+    y = flow(TX.p,
       { x: x0, y, w: w0, size: f, family: F_TEXT, lh: f * 1.75, col: C.bar, write: 1 });
     y += f * 0.9;
     const bh = narrow ? f * 4.2 : Math.min(f * 7.2, Math.max(f * 4.6, sh * 0.2));
     box('block', x0, y, w0, bh, C.bone, 3);
     L.net = { x: x0, y, w: w0, h: bh };
     y += bh + f * 0.35;
-    if (!narrow) y = flow('Votre nœud parle directement aux autres nœuds du réseau.', { x: x0, y, w: w0, size: f * 0.8, weight: 520, family: F_UI, lh: f * 1.5, col: C.bar, thick: 0.3, write: 1 });
+    if (!narrow) y = flow(TX.cap, { x: x0, y, w: w0, size: f * 0.8, weight: 520, family: F_UI, lh: f * 1.5, col: C.bar, thick: 0.3, write: 1 });
     y += f * 0.7;
-    const steps = ['Télécharger Bitcoin Core', 'Vérifier la signature du fichier', 'Lancer la première synchronisation'];
+    const steps = TX.steps;
     steps.forEach((s, n) => {
       const cy = y + f * 0.95;
       L.texts.push({ k: 'a-n' + n, s: String(n + 1), x: x0 + f * 0.62, y: cy, font: `760 ${f * 0.78}px ${F_UI}`, col: C.ink, align: 'center', dot: f * 0.62 });
@@ -111,7 +142,7 @@ function page(i, W, H, f, ctx, rich = false) {
     const th = f * 2.3;
     box('top', sx, sy, sw, th, C.bone, 4);
     flow('docs / installation', { x: sx + f, y: sy + (th - f * 1.4) / 2, w: sw, size: f * 0.78, weight: 560, family: F_UI, lh: f * 1.4, col: C.bar, thick: 0.32 });
-    const nav = ['Installation', 'Premiers pas', 'Configuration', 'Référence de la CLI', 'Notes de version'];
+    const nav = TX.nav;
     let mx, mw, y;
     if (!narrow) {
       const nw = Math.round(sw * 0.27);
@@ -135,9 +166,9 @@ function page(i, W, H, f, ctx, rich = false) {
       box('side', sx, sy + th, sw, f * 2.4, C.bone, 0);
       mx = sx + f * 0.9; mw = sw - f * 1.8; y = sy + th + f * 3.4;
     }
-    text('b-h', 'Installation', mx, y + f * 0.9, f * 1.6, 780, F_UI, C.ink);
+    text('b-h', TX.bh, mx, y + f * 0.9, f * 1.6, 780, F_UI, C.ink);
     y += f * 2.4;
-    y = flow("Téléchargez l'archive de votre système et le fichier des empreintes, puis vérifiez l'archive avant de l'ouvrir.",
+    y = flow(TX.bp,
       { x: mx, y, w: mw, size: f * 0.95, family: F_TEXT, lh: f * 1.7, col: C.bar });
     y += f * 0.9;
     const cs = f * (narrow ? 0.95 : 0.84), clh = cs * 2;
@@ -164,14 +195,14 @@ function page(i, W, H, f, ctx, rich = false) {
     box('block', mx, cy0, mw, y - cy0, C.ink, 5);
     y += f * 1;
     const ny0 = y;
-    y = flow("Si l'empreinte ne correspond pas, n'ouvrez pas l'archive.", { x: mx + f, y: y + f * 0.2, w: mw - f, size: f * 0.9, weight: 560, family: F_UI, lh: f * 1.7, col: C.barDark, thick: 0.36 });
+    y = flow(TX.note, { x: mx + f, y: y + f * 0.2, w: mw - f, size: f * 0.9, weight: 560, family: F_UI, lh: f * 1.7, col: C.barDark, thick: 0.36 });
     box('rule', mx, ny0, 3, y - ny0 + f * 0.2, C.mark, 0);
     if (rich) {
       // une deuxième partie quand le panneau est haut
       y += f * 1.6;
-      text('b-h2', 'Mise à jour', mx, y + f * 0.7, f * 1.25, 760, F_UI, C.ink);
+      text('b-h2', TX.bh2, mx, y + f * 0.7, f * 1.25, 760, F_UI, C.ink);
       y += f * 2;
-      y = flow('Pour passer à une nouvelle version, remplacez le binaire : votre dossier de données reste en place.',
+      y = flow(TX.bp2,
         { x: mx, y, w: mw, size: f * 0.95, family: F_TEXT, lh: f * 1.7, col: C.bar });
     }
     L.fit = L.fit && y < sy + sh - f;
@@ -182,23 +213,22 @@ function page(i, W, H, f, ctx, rich = false) {
     const th = f * 2.3;
     box('top', sx, sy, sw, th, C.deep, 4);
     ctx.font = `620 ${f * 0.82}px ${F_UI}`;
-    const tw = ctx.measureText('adresses.rs').width + f * 2;
+    const tw = ctx.measureText(TX.file).width + f * 2;
     box('note', sx + f * 0.4, sy + f * 0.4, tw, th - f * 0.4, C.ink, 3);
-    text('c-tab', 'adresses.rs', sx + f * 1.4, sy + th / 2 + f * 0.2, f * 0.82, 620, F_UI, C.paper);
+    text('c-tab', TX.file, sx + f * 1.4, sy + th / 2 + f * 0.2, f * 0.82, 620, F_UI, C.paper);
     const cs = f * (narrow ? 0.95 : 0.86), clh = cs * 1.95;
     const gw = cs * 3.2;
     box('side', sx, sy + th, gw, sh - th, C.deep, 0);
     const lines = [
-      '// Gerfaut ne connaît que la clé publique étendue :',
-      '// il suit le solde, sans jamais pouvoir dépenser.',
-      'pub fn adresses(xpub: &Xpub, n: u32) -> Vec<Address> {',
+      ...TX.code,
+      `pub fn ${TX.fn}(xpub: &Xpub, n: u32) -> Vec<Address> {`,
       '    (0..n)',
       '        .map(|i| derive(xpub, i))',
       '        .collect()',
       '}',
     ];
-    if (rich) lines.push('', '#[test]', 'fn dix_adresses() {', '    let xpub = Xpub::from_str(XPUB_TEST).unwrap();', '    assert_eq!(adresses(&xpub, 10).len(), 10);', '}');
-    const KW = new Set(['pub', 'fn', '->', '|i|', '&Xpub,', 'u32)', 'Vec<Address>', '#[test]', 'let', 'assert_eq!(adresses(&xpub,']);
+    if (rich) lines.push('', '#[test]', TX.test[0], '    let xpub = Xpub::from_str(XPUB_TEST).unwrap();', TX.test[1], '}');
+    const KW = new Set(['pub', 'fn', '->', '|i|', '&Xpub,', 'u32)', 'Vec<Address>', '#[test]', 'let', TX.kw]);
     let y = sy + th + cs * 0.8;
     const x0 = sx + gw + cs * 1.1, w0 = sw - gw - cs * 2;
     let ln = 1;

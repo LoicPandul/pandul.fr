@@ -1,5 +1,14 @@
+{%- assign lg = page.lang | default: site.lang | default: 'fr' -%}
+{%- assign t = site.data.i18n[lg] -%}
+{%- if lg == 'en' -%}{%- assign home = '/en/' -%}{%- else -%}{%- assign home = '/' -%}{%- endif -%}
+{%- comment -%} Les deux langues d'une même page partagent la même ref ; une page sans ref renvoie vers les deux accueils. {%- endcomment -%}
+{%- assign url_fr = '/' -%}{%- assign url_en = '/en/' -%}
+{%- if page.ref -%}
+  {%- assign alts = site.pages | where: "ref", page.ref -%}
+  {%- for a in alts -%}{%- if a.lang == 'en' -%}{%- assign url_en = a.url -%}{%- else -%}{%- assign url_fr = a.url -%}{%- endif -%}{%- endfor -%}
+{%- endif -%}
 <!doctype html>
-<html lang="{{ site.lang | default: 'fr' }}">
+<html lang="{{ lg }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -29,7 +38,7 @@
   {%- comment -%} Twitter Cards attend name="twitter:*", le gem émet property= pour deux balises. {%- endcomment -%}
   {%- assign seo_clean = seo_clean | replace: '<meta property="twitter:image"', '<meta name="twitter:image"' | replace: '<meta property="twitter:title"', '<meta name="twitter:title"' -%}
   {%- comment -%} Accueil : titre seul, sans le suffixe site.title (65 caractères au plus). {%- endcomment -%}
-  {%- if page.url == "/" -%}
+  {%- if page.ref == "accueil" -%}
     {%- assign title_split = seo_clean | split: '<title>' -%}
     {%- if title_split.size > 1 -%}
       {%- assign title_close = title_split[1] | split: '</title>' -%}
@@ -41,37 +50,52 @@
     {{- seo_clean -}}
   {%- endif -%}
 
+  {%- if page.ref %}
+  <link rel="alternate" hreflang="fr" href="{{ url_fr | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ url_en | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ url_fr | absolute_url }}">
+  <meta property="og:locale:alternate" content="{% if lg == 'en' %}fr_FR{% else %}en_GB{% endif %}">
+  {%- endif -%}
   {%- include seo/meta.html -%}
   {%- include seo/jsonld-graph.html -%}
 </head>
-<body class="{% if page.url == '/' %}is-home{% else %}is-page{% endif %}">
-  <a href="#contenu" class="skip">Aller au contenu</a>
+<body class="{% if page.ref == 'accueil' %}is-home{% else %}is-page{% endif %}">
+  <a href="#contenu" class="skip">{{ t.skip }}</a>
+  {%- comment -%} Drapeaux du sélecteur de langue, dessinés une fois et repris par <use>. {%- endcomment %}
+  <svg class="sr" aria-hidden="true" focusable="false">
+    <symbol id="drapeau-fr" viewBox="0 0 30 30"><path fill="#183F8F" d="M0 0h10v30H0z"/><path fill="#F2F2EE" d="M10 0h10v30H10z"/><path fill="#E1242F" d="M20 0h10v30H20z"/></symbol>
+    <symbol id="drapeau-gb" viewBox="15 0 30 30"><clipPath id="drapeau-gb-t"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><path fill="#11306F" d="M0 0h60v30H0z"/><path stroke="#F2F2EE" stroke-width="6" d="M0 0l60 30m0-30L0 30"/><path stroke="#D22630" stroke-width="4" clip-path="url(#drapeau-gb-t)" d="M0 0l60 30m0-30L0 30"/><path stroke="#F2F2EE" stroke-width="10" d="M30 0v30M0 15h60"/><path stroke="#D22630" stroke-width="6" d="M30 0v30M0 15h60"/></symbol>
+  </svg>
 
   <header class="bar" data-bar>
-    <a class="bar-name" href="{{ '/' | relative_url }}">Loïc Morel</a>
-    <nav class="bar-nav" aria-label="Sections">
-      <a href="{{ '/#clients' | relative_url }}" data-nav="clients">Clients</a>
-      <a href="{{ '/#activites' | relative_url }}" data-nav="activites">Ce que je fais</a>
-      <a href="{{ '/#projets' | relative_url }}" data-nav="projets">Projets</a>
-      <a href="{{ '/#contact' | relative_url }}" data-nav="contact">Contact</a>
+    <a class="bar-name" href="{{ home | relative_url }}">Loïc Morel</a>
+    <nav class="bar-nav" aria-label="{{ t.nav_label }}">
+      <a href="{{ home | append: '#clients' | relative_url }}" data-nav="clients">{{ t.nav.clients }}</a>
+      <a href="{{ home | append: '#activites' | relative_url }}" data-nav="activites">{{ t.nav.activites }}</a>
+      <a href="{{ home | append: '#projets' | relative_url }}" data-nav="projets">{{ t.nav.projets }}</a>
+      <a href="{{ home | append: '#contact' | relative_url }}" data-nav="contact">{{ t.nav.contact }}</a>
       <span class="bar-mark" aria-hidden="true"></span>
     </nav>
-    <a class="btn btn-sm bar-cta" href="mailto:info@pandul.fr" data-magnetic>M'écrire</a>
-    <button class="bar-menu" type="button" aria-haspopup="dialog" aria-controls="menu" data-menu-open>Menu</button>
+    <a class="btn btn-sm bar-cta" href="mailto:info@pandul.fr" data-magnetic>{{ t.cta }}</a>
+    {% include langue.html %}
+    <button class="bar-menu" type="button" aria-haspopup="dialog" aria-controls="menu" data-menu-open>{{ t.menu }}</button>
   </header>
 
-  <dialog class="menu" id="menu" aria-label="Menu">
+  <dialog class="menu" id="menu" aria-label="{{ t.menu }}">
     <div class="menu-top">
       <span class="menu-name">Loïc Morel</span>
-      <button class="bar-menu menu-close" type="button" data-menu-close>Fermer</button>
+      <button class="bar-menu menu-close" type="button" data-menu-close>{{ t.menu_close }}</button>
     </div>
-    <nav class="menu-nav" aria-label="Sections">
-      <a href="{{ '/#clients' | relative_url }}" style="--i:0">Clients</a>
-      <a href="{{ '/#activites' | relative_url }}" style="--i:1">Ce que je fais</a>
-      <a href="{{ '/#projets' | relative_url }}" style="--i:2">Projets</a>
-      <a href="{{ '/#contact' | relative_url }}" style="--i:3">Contact</a>
+    <nav class="menu-nav" aria-label="{{ t.nav_label }}">
+      <a href="{{ home | append: '#clients' | relative_url }}" style="--i:0">{{ t.nav.clients }}</a>
+      <a href="{{ home | append: '#activites' | relative_url }}" style="--i:1">{{ t.nav.activites }}</a>
+      <a href="{{ home | append: '#projets' | relative_url }}" style="--i:2">{{ t.nav.projets }}</a>
+      <a href="{{ home | append: '#contact' | relative_url }}" style="--i:3">{{ t.nav.contact }}</a>
     </nav>
-    <a class="btn btn-paper menu-cta" href="mailto:info@pandul.fr">M'écrire</a>
+    <div class="menu-foot">
+      <a class="btn btn-paper menu-cta" href="mailto:info@pandul.fr">{{ t.cta }}</a>
+      {% include langue.html %}
+    </div>
   </dialog>
 
   <main id="contenu">
@@ -87,10 +111,10 @@
       <canvas></canvas>
     </div>
     <div class="foot-legal">
-      <p>© 2021-{{ site.time | date: '%Y' }} Ei Loïc Morel (Pandul), 96 Rue Paradis, 13006 Marseille</p>
-      <p class="foot-key">Clé minisign&nbsp;: <code title="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O">RWTz3c4g…GlqTR3O</code><button class="foot-copy" type="button" data-copy="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O" data-copy-label="Clé copiée" aria-label="Copier la clé publique minisign complète" hidden>Copier la clé</button></p>
-      <ul class="foot-links" aria-label="Mes projets">
-        <li><a class="link" href="{{ site.dictionnaire_url }}/">Dictionnaire de Bitcoin</a></li>
+      <p>© 2021-{{ site.time | date: '%Y' }} {{ t.foot_owner }}, 96 Rue Paradis, {{ t.foot_place }}</p>
+      <p class="foot-key">{{ t.foot_key }} <code title="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O">RWTz3c4g…GlqTR3O</code><button class="foot-copy" type="button" data-copy="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O" data-copy-label="{{ t.foot_copied }}" aria-label="{{ t.foot_copy_aria }}" hidden>{{ t.foot_copy }}</button></p>
+      <ul class="foot-links" aria-label="{{ t.foot_links }}">
+        <li><a class="link" href="{{ site.dictionnaire_url }}/" lang="fr">Dictionnaire de Bitcoin</a></li>
         <li><a class="link" href="https://gerfaut-wallet.com">Gerfaut</a></li>
       </ul>
     </div>

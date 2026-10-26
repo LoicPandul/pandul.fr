@@ -41,7 +41,7 @@ og:
   default_image: "/assets/img/social-card.png"
   default_image_width: 1200
   default_image_height: 630
-  default_image_alt: "Loïc Morel, rédacteur technique Bitcoin et développeur"
+  default_image_alt: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin"
   default_locale: "fr_FR"
   site_name: "Pandul"
 

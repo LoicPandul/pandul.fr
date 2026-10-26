@@ -1,0 +1,263 @@
+{%- comment -%} Page d'accueil, commune au français (/) et à l'anglais (/en/) : les textes viennent de _data/i18n/<langue>.yml. {%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign en = false -%}{%- assign sfx = '' -%}
+{%- if page.lang == 'en' -%}{%- assign en = true -%}{%- assign sfx = '_en' -%}{%- endif -%}
+{%- assign k_travail = 'travail' | append: sfx -%}{%- assign k_periode = 'periode' | append: sfx -%}{%- assign k_libelle = 'libelle' | append: sfx -%}
+{%- assign nb_ecrits = site.data.ecrits | size -%}
+{%- assign nb_formations = site.data.formations | size -%}
+{%- assign nb_audio = site.data.audio-video | size -%}
+{%- assign nb_total = nb_ecrits | plus: nb_formations | plus: nb_audio -%}
+{%- assign defs = site.data.definitions -%}
+{%- assign def0 = defs[0] -%}
+{%- assign lettre0 = def0.t | slice: 0 -%}
+
+<section class="hero" id="accueil" aria-labelledby="titre">
+  <div class="hero-text">
+    <h1 class="display hero-name" id="titre"><span class="hero-line"><span>Loïc</span></span> <span class="hero-line"><span>Morel</span></span></h1>
+    <p class="lead hero-lead">{{ t.hero.lead }}</p>
+    <p class="hero-body">{{ t.hero.body }}</p>
+    <p class="actions hero-actions">
+      <a class="btn" href="mailto:info@pandul.fr" data-magnetic>{{ t.cta }}</a>
+      <a class="link" href="#clients">{{ t.hero.trust }}</a>
+    </p>
+  </div>
+  <figure class="hero-stage stage" data-stage="portrait">
+    <div class="stage-box">
+      <noscript><img class="stage-fallback" src="{{ '/assets/img/lignes/portrait-encre.webp' | relative_url }}" width="800" height="1000" alt="{{ t.hero.alt }}"></noscript>
+      <canvas aria-hidden="true"></canvas>
+    </div>
+    <figcaption class="stage-caption" aria-live="polite">
+      <span class="stage-default">{{ t.hero.caption | replace: '%n', nb_total }}
+        <span class="only-hover">{{ t.hero.caption_hover }}</span>
+        <span class="only-touch">{{ t.hero.caption_touch }}</span></span>
+      <span class="stage-current" hidden><a class="stage-title" href="#" data-stage-title></a> <span class="stage-meta" data-stage-meta></span></span>
+    </figcaption>
+  </figure>
+</section>
+
+<section class="clients" id="clients" aria-labelledby="t-clients">
+  <div class="clients-head">
+    <h2 class="display clients-title line-reveal" id="t-clients"><span class="slide" data-slide="-1">{{ t.clients.title_a }}</span> <span class="slide" data-slide="1">{{ t.clients.title_b }}</span></h2>
+    <p class="lead clients-lead" data-reveal>{{ t.clients.lead }}</p>
+  </div>
+
+  <div class="brands">
+    {%- for g in site.data.clients %}
+    <div class="brands-row{% if forloop.first %} brands-row--now{% endif %}">
+      <h3 class="brands-period" data-reveal>{{ g[k_periode] }}</h3>
+      <ul class="brands-list">
+        {%- for c in g.clients %}
+        <li class="brand" data-reveal style="--d:{{ forloop.index0 }}">
+          {%- capture marque -%}
+            {%- if c.logo -%}
+            <span class="brand-mark" style="--logo:url('{{ '/assets/img/clients/' | append: c.logo | relative_url }}');--r:{{ c.ratio }};--o:{{ c.optique | default: 1 }}"></span><span class="sr">{{ c.nom }}</span>
+            {%- else -%}
+            <span class="brand-type">{{ c.nom }}</span>
+            {%- endif -%}
+          {%- endcapture -%}
+          {%- if c.url -%}
+          <a class="brand-link" href="{{ c.url }}" rel="noopener">{{ marque }}</a>
+          {%- else -%}
+          <span class="brand-link brand-link--static">{{ marque }}</span>
+          {%- endif %}
+          <div class="brand-text">
+            <p class="brand-name">{{ c.nom }}</p>
+            <p class="brand-work">{{ c[k_travail] }}</p>
+            {%- if c.comptes %}
+            <p class="brand-count">
+              {%- for n in c.comptes -%}
+                {%- assign src = site.data[n.source] | where: "platform", n.platform -%}
+                {%- if n.type -%}{%- assign src = src | where: "type", n.type -%}{%- endif -%}
+                {{ src | size }} {{ n[k_libelle] }}{% unless forloop.last %}, {% endunless %}
+              {%- endfor -%}
+            </p>
+            {%- endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endfor %}
+  </div>
+
+  <div class="works" data-works>
+    <div class="works-head">
+      <h3 class="works-heading" id="t-works" data-reveal><span class="works-num">{{ nb_total }}</span> <span class="works-label">{{ t.works.label }}</span></h3>
+      <p class="works-intro" data-reveal>{{ t.works.intro }} <span class="only-hover">{{ t.works.hover }}</span><span class="only-touch">{{ t.works.touch }}</span></p>
+    </div>
+    <div class="works-read" aria-live="polite" hidden>
+      <p class="works-title"><mark data-works-title></mark></p>
+      <p class="works-line"><span class="works-meta" data-works-meta></span> <a class="btn btn-sm works-open" href="#" data-works-open>{{ t.works.open }}</a></p>
+    </div>
+    <div class="works-rail" data-works-rail hidden></div>
+    <details class="works-all">
+      <summary>{{ t.works.all | replace: '%n', nb_total }}</summary>
+      <div class="works-lists">
+        {%- assign groupes = "Plan ₿ Academy;Bitstack;Space Kek;Wizardsardine;Second;Decouvre Bitcoin;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+        {%- for g in groupes -%}
+          {%- assign w_f = site.data.formations | where: "platform", g -%}
+          {%- assign w_e = site.data.ecrits | where: "platform", g -%}
+          {%- assign w_a = site.data.audio-video | where: "platform", g -%}
+          {%- assign items = w_f | concat: w_e | concat: w_a -%}
+          {%- assign nom = g | replace: "Decouvre", "Découvre" %}
+        <section class="works-group" data-group="{{ nom }}">
+          <h4>{{ nom }} <span>{{ items | size }}</span></h4>
+          <ul>
+            {%- for w in items %}
+            {%- assign wl = w.langue | default: 'fr' %}
+            <li{% if wl != page.lang %} lang="{{ wl }}"{% endif %}><a href="{{ w.url }}" rel="noopener" data-kind="{{ w.type }}">{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</a></li>
+            {%- endfor %}
+          </ul>
+        </section>
+        {%- endfor %}
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="trades" id="activites" aria-labelledby="t-activites">
+  <div class="trades-head">
+    <h2 class="display line-reveal" id="t-activites">{{ t.trades.title }}</h2>
+    <p class="lead" data-reveal style="--d:1">{{ t.trades.lead }}</p>
+  </div>
+
+  <div class="trades-stage">
+    <div class="trades-stage-in">
+      <ul class="trades-index" aria-label="{{ t.trades.index_label }}">
+        <li><a href="#t-redaction" data-index="t-redaction">{{ t.trades.index[0] }}</a></li>
+        <li><a href="#t-docs" data-index="t-docs">{{ t.trades.index[1] }}</a></li>
+        <li><a href="#t-dev" data-index="t-dev">{{ t.trades.index[2] }}</a></li>
+      </ul>
+      <canvas class="trade-canvas" data-trade-canvas="all" aria-hidden="true"></canvas>
+      <p class="trades-hint" aria-hidden="true"><span class="hint-fine">{{ t.trades.hint_fine }}</span><span class="hint-touch">{{ t.trades.hint_touch }}</span></p>
+    </div>
+  </div>
+
+  <nav class="trades-tabs" aria-label="{{ t.trades.index_label }}">
+    <a href="#t-redaction" data-index="t-redaction">{{ t.trades.index[0] }}</a>
+    <a href="#t-docs" data-index="t-docs">{{ t.trades.index[1] }}</a>
+    <a href="#t-dev" data-index="t-dev">{{ t.trades.index[2] }}</a>
+  </nav>
+
+  <div class="trades-list">
+    <article class="trade" aria-labelledby="t-redaction">
+      <h3 class="title" id="t-redaction" data-reveal>{{ t.trades.write_title }}</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="0" aria-hidden="true"></canvas>
+      <p class="trades-hint trades-hint-solo" aria-hidden="true"><span class="hint-fine">{{ t.trades.hint_fine }}</span><span class="hint-touch">{{ t.trades.hint_touch }}</span></p>
+      <p data-reveal style="--d:1">{{ t.trades.write_body }}</p>
+      <dl class="figures" data-reveal style="--d:2" data-count>
+        <div><dt>{{ nb_ecrits }}</dt><dd>{{ t.trades.fig_ecrits }}</dd></div>
+        <div><dt>{{ nb_formations }}</dt><dd>{{ t.trades.fig_formations }}</dd></div>
+        <div><dt>{{ nb_audio }}</dt><dd>{{ t.trades.fig_audio }}</dd></div>
+      </dl>
+      <p class="courses-intro" data-reveal>{{ t.trades.courses_intro }}</p>
+      <ul class="courses" data-reveal style="--d:1">
+        {%- for f in site.data.formations %}
+        {%- assign code = f.code | downcase | remove: " " %}
+        <li><a href="{{ f.url }}" rel="noopener"><img class="line-reveal" src="{{ '/assets/img/formations/' | append: code | append: '.webp' | relative_url }}" alt="" width="480" height="270" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}>{{ f.title }}</span></a></li>
+        {%- endfor %}
+      </ul>
+    </article>
+
+    <article class="trade" aria-labelledby="t-docs">
+      <h3 class="title" id="t-docs" data-reveal>{{ t.trades.docs_title }}</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="1" aria-hidden="true"></canvas>
+      <p data-reveal style="--d:1">{{ t.trades.docs_body }}</p>
+      <p data-reveal style="--d:2">{{ t.trades.docs_now }}</p>
+      <figure class="plate" data-reveal="wipe" style="--d:2">
+        <img src="{{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }}"
+             srcset="{{ '/assets/img/v3/second-bark-pay-encre-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }} 1600w"
+             sizes="(min-width: 960px) 52vw, 100vw"
+             alt="{{ t.trades.docs_alt }}" width="1600" height="867" fetchpriority="low" decoding="async">
+        <figcaption>{{ t.trades.docs_caption }}</figcaption>
+      </figure>
+    </article>
+
+    <article class="trade" aria-labelledby="t-dev">
+      <h3 class="title" id="t-dev" data-reveal>{{ t.trades.dev_title }}</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="2" aria-hidden="true"></canvas>
+      <p data-reveal style="--d:1">{{ t.trades.dev_body }}</p>
+      <p data-reveal style="--d:2">{{ t.trades.dev_sign }}</p>
+    </article>
+  </div>
+
+  <div class="trades-more">
+    <h3 class="title trades-also-title" data-reveal>{{ t.trades.also_title }}</h3>
+    <p class="trades-also" data-reveal style="--d:1">{{ t.trades.also }}</p>
+  </div>
+</section>
+
+<section class="projects" id="projets" aria-labelledby="t-projets">
+  <div class="projects-head">
+    <h2 class="display line-reveal" id="t-projets">{{ t.projects.title }}</h2>
+    <p class="lead" data-reveal style="--d:1">{{ t.projects.lead }}</p>
+  </div>
+
+  <article class="dict" aria-labelledby="t-dico">
+    <div class="dict-stage stage" data-stage="letter" aria-hidden="true">
+      <div class="stage-box">
+        <p class="dict-letter" data-dict-letter>{{ lettre0 }}</p>
+        <canvas></canvas>
+      </div>
+      <p class="stage-caption dict-caption"><span data-dict-caption-letter>{{ lettre0 }}</span>, {{ t.projects.dict_as }} <span data-dict-caption-term{% if en %} lang="fr"{% endif %}>{{ def0.t }}</span>.</p>
+    </div>
+    <div class="dict-text">
+      <h3 class="title" id="t-dico" data-reveal{% if en %} lang="fr"{% endif %}>Dictionnaire de Bitcoin</h3>
+      <p data-reveal style="--d:1">{{ t.projects.dict_body }}</p>
+      <div class="defn" data-reveal style="--d:2" data-dict data-base="{{ site.dictionnaire_url }}" data-src="{{ '/assets/data/definitions.json' | relative_url }}">
+        <p class="defn-term"{% if en %} lang="fr"{% endif %}><mark><a href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-term>{{ def0.t }}</a></mark></p>
+        <p class="defn-text" data-dict-text aria-live="polite"{% if en %} lang="fr"{% endif %}>{{ def0.d }}</p>
+        <p class="defn-actions">
+          <a class="link" href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-link>{{ t.projects.dict_read }}</a>
+          <button class="btn btn-sm" type="button" data-dict-next hidden>{{ t.projects.dict_next }}</button>
+        </p>
+      </div>
+      <p class="actions" data-reveal style="--d:3"><a class="btn" href="{{ site.dictionnaire_url }}/" data-magnetic>{{ t.projects.dict_open }}</a></p>
+      <p class="note" data-reveal style="--d:3">{{ t.projects.dict_book }}</p>
+    </div>
+  </article>
+
+  <article class="gerfaut" aria-labelledby="t-gerfaut">
+    <div class="gerfaut-text">
+      <h3 class="title" id="t-gerfaut" data-reveal>Gerfaut</h3>
+      <p data-reveal style="--d:1">{{ t.projects.gerfaut_body }}</p>
+      <p class="note" data-reveal style="--d:2">{{ t.projects.gerfaut_beta }}</p>
+      <p class="actions" data-reveal style="--d:2"><a class="btn" href="https://gerfaut-wallet.com" data-magnetic>{{ t.projects.gerfaut_open }}</a></p>
+    </div>
+    <ul class="gerfaut-facts" aria-label="{{ t.projects.gerfaut_facts_label }}">
+      {%- for f in t.projects.gerfaut_facts %}
+      <li data-reveal style="--d:{{ forloop.index }}">{{ f }}</li>
+      {%- endfor %}
+    </ul>
+    <figure class="gerfaut-band" data-gerfaut>
+      <div class="gerfaut-stage">
+        <img class="gerfaut-desk" src="{{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }}"
+             srcset="{{ '/assets/img/gerfaut/bureau-900.webp' | relative_url }} 900w, {{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }} 1600w"
+             sizes="(min-width: 960px) 78vw, 100vw" width="1600" height="811" fetchpriority="low" decoding="async"
+             alt="{{ t.projects.gerfaut_desk_alt }}">
+        <div class="gerfaut-phone"><img src="{{ '/assets/img/gerfaut/android-520.webp' | relative_url }}" alt="{{ t.projects.gerfaut_phone_alt }}" width="520" height="1095" fetchpriority="low" decoding="async"></div>
+        <div class="blinds" aria-hidden="true"></div>
+      </div>
+      <figcaption><span class="only-wide">{{ t.projects.gerfaut_caption_wide }}</span>{{ t.projects.gerfaut_caption }}</figcaption>
+    </figure>
+  </article>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="t-contact">
+  <figure class="contact-photo" data-reveal="wipe" style="--d:1">
+    <img src="{{ '/assets/img/lignes/portrait-contact.webp' | relative_url }}" alt="{{ t.contact.alt }}" width="720" height="647" fetchpriority="low" decoding="async">
+  </figure>
+  <h2 class="display contact-title line-reveal" id="t-contact">{{ t.contact.title }}</h2>
+  <p class="lead contact-lead" data-reveal style="--d:1">{{ t.contact.lead }}</p>
+  <p class="contact-mail"><a class="line-reveal" href="mailto:info@pandul.fr">info@pandul.fr</a></p>
+  <p class="contact-copy" data-reveal style="--d:2">
+    <button class="btn btn-paper" type="button" data-copy="info@pandul.fr" hidden>{{ t.contact.copy }}</button>
+    <span class="copy-status" role="status" data-copy-status></span>
+  </p>
+  <dl class="channels" data-reveal style="--d:3">
+    <div><dt>X</dt><dd><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">@Loic_Pandul</a></dd></div>
+    <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/LoicPandul" rel="me noopener">LoicPandul</a></dd></div>
+    <div><dt>Lightning</dt><dd><a class="link" href="lightning:sats@pandul.fr">sats@pandul.fr</a></dd></div>
+    <div><dt>{{ t.contact.city_label }}</dt><dd><span>{{ t.contact.city }}</span></dd></div>
+  </dl>
+</section>

@@ -7,4 +7,4 @@
   inLanguage source : site.data.seo.website.in_language ("fr" — single-source).
   Réf : .planning/phases/15-schema-infrastructure-sitewide-entities/15-RESEARCH.md §Code Examples Ex 2.
 {%- endcomment -%}
-{"@type":"WebSite","@id":"{{ site.data.seo.website.id }}","url":"{{ site.data.seo.website.url }}","name":{{ site.data.seo.website.name | jsonify }},"inLanguage":"{{ site.data.seo.website.in_language }}","publisher":{"@id":"{{ site.data.seo.website.publisher_ref }}"}}
+{"@type":"WebSite","@id":"{{ site.data.seo.website.id }}","url":"{{ site.data.seo.website.url }}","name":{{ site.data.seo.website.name | jsonify }},"inLanguage":"{{ lg | default: site.data.seo.website.in_language }}","publisher":{"@id":"{{ site.data.seo.website.publisher_ref }}"}}
