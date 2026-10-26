@@ -575,6 +575,8 @@ function initLineReveal() {
       if (Math.abs((last.get(el) ?? -1) - f) < 0.002) continue;
       last.set(el, f);
       el.style.setProperty('--fill', f.toFixed(3));
+      // titre fini : plus de masque, donc plus de filet de raccord entre deux bandes
+      el.classList.toggle('is-full', f > 0.995);
     }
     return false;
   });

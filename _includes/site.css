@@ -1067,6 +1067,11 @@ html.lines-on .line-reveal {
   -webkit-mask-image: repeating-linear-gradient(to bottom, #000 0, #000 calc(var(--fill, 0.1) * var(--lp)), transparent calc(var(--fill, 0.1) * var(--lp)), transparent var(--lp)); /* taste-skill-ignore */
   mask-image: repeating-linear-gradient(to bottom, #000 0, #000 calc(var(--fill, 0.1) * var(--lp)), transparent calc(var(--fill, 0.1) * var(--lp)), transparent var(--lp)); /* taste-skill-ignore */
 }
+/* Le masque coupe tout ce qui dépasse de la boîte : avec un interligne de 0,88, le bas du Q, du J ou du y en sort.
+   On agrandit la boîte vers le bas (et un peu vers le haut, pour les accents) sans rien déplacer. */
+html.lines-on .display.line-reveal, html.lines-on .contact-mail .line-reveal { padding-block: 0.08em 0.24em; margin-block: -0.08em -0.24em; }
+html.lines-on .contact-mail .line-reveal::before { inset: 0.12em -0.06em 0.26em; }
+html.lines-on .line-reveal.is-full { -webkit-mask-image: none; mask-image: none; }
 
 /* ---------- Entrées de section ---------- */
 html.js [data-reveal] {
