@@ -64,7 +64,7 @@ social:
 # Le Dictionnaire de Bitcoin vit sur son propre domaine.
 # Seule source de son adresse : les redirections et les liens du site la lisent ici.
 # Sans barre oblique finale.
-dictionnaire_url: "https://dictionnaire-bitcoin.example"
+dictionnaire_url: "https://dictionnaire-bitcoin.com"
 
 # Anciennes URL /dictionnaire/... : une page de redirection par URL (_redirections/),
 # vers le même chemin sur dictionnaire_url, sans le préfixe /dictionnaire.
