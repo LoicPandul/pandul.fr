@@ -190,3 +190,14 @@ Une règle de lecture rend les traits lisibles en mots. Elle suit la souris, se 
 | 4 | 8,3 | 8,5 | Section encore longue au téléphone (environ 12 écrans), terminal à l'étroit au téléphone, invitation discrète |
 
 L'ordinateur atteint 8,5. Le téléphone progresse à chaque round mais reste à 8,3. Il lui faudrait une mise en page plus courte : panneau et texte sur un même écran, capture de Bark Pay en miniature.
+
+## Version anglaise et retours de Loïc (26 octobre 2026)
+
+Travail : version anglaise sur `/en/` (page commune `_includes/accueil.html`, textes dans `_data/i18n/`), balises `hreflang`, sélecteur de langue à deux positions avec drapeaux ; textes revus (« Mes clients », « Mes projets », « Me contacter », « Ils me font confiance », accroche sans « développeur », développement présenté comme assisté par l'IA) ; six clients revus ; documentation de Second et quatre articles Wizardsardine ajoutés aux contenus (251) ; phrase de la réglette ; bas des grands titres qui n'est plus rogné par le masque des lignes.
+
+| Round | Téléphone | Ordinateur | Principaux reproches |
+|---|---|---|---|
+| 1 | 7,5 | 8 | onglets des métiers collés au-dessus de « Projets », JSON-LD en français sur `/en/`, chiffres de Découvre Bitcoin, drapeau inactif délavé, focus sur des éléments invisibles, sélecteur qui sautait |
+| 2 | 8,5 | 8,5 | changement de langue qui perdait la place dans la section, description de Second trop longue, espaces insécables du canvas |
+
+Après le round 2 : la place lue est gardée au changement de langue, la description de Second est raccourcie, le retour arrière remet le sélecteur sur la bonne langue.
