@@ -172,3 +172,21 @@ Principaux reproches : « Ce que je fais » reste la section la plus plate (text
 ## Bilan
 
 Du round 5 au round 10, la note globale reste entre 8,0 et 8,3, et une même section bouge de 0,5 point d'un relecteur à l'autre sans changement de code (Accueil sur ordinateur : 8,5 au round 8, 8,0 au round 10). L'objectif de 8,5 partout n'est pas atteint. Atteints sur au moins un round : Accueil, Contact et pied de page sur ordinateur, pied de page sur téléphone. La section qui tire tout vers le bas est « Ce que je fais » : il lui faudrait un vrai visuel par métier, pas une retouche de plus.
+
+## Refonte de « Ce que je fais » (26 octobre 2026)
+
+Chaque métier a maintenant son visuel, dessiné en lignes sur un canvas 2D (`assets/js/trades.js`) :
+- Rédaction : une page de tutoriel qui s'écrit au défilement ;
+- Documentation : une page de doc dont les commandes se cochent ;
+- Développement : un éditeur de code, puis le terminal où la signature minisign est vérifiée.
+
+Une règle de lecture rend les traits lisibles en mots. Elle suit la souris, se pose sous le doigt, ou descend la page avec le défilement. Sur ordinateur, un seul panneau collé se transforme d'un métier à l'autre. Au téléphone, chaque métier a son panneau.
+
+| Round | Téléphone | Ordinateur | Principaux reproches |
+| --- | --- | --- | --- |
+| 1 | 7,9 | 8,2 | Règle qui coupe les mots, page vide à l'entrée, colonne de droite vide, section longue au téléphone, trois planches identiques |
+| 2 | 8,1 | 8,2 | Panneau figé après un saut de défilement (pas de temps négatif dans la boucle), règle invisible sur l'encre, commande minisign illisible |
+| 3 | 8,2 | 8,3 | Règle cassée à la souris et au toucher, aucune invitation à interagir, index qui quitte l'écran trop tôt |
+| 4 | 8,3 | 8,5 | Section encore longue au téléphone (environ 12 écrans), terminal à l'étroit au téléphone, invitation discrète |
+
+L'ordinateur atteint 8,5. Le téléphone progresse à chaque round mais reste à 8,3. Il lui faudrait une mise en page plus courte : panneau et texte sur un même écran, capture de Bark Pay en miniature.
