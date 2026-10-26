@@ -1,71 +1,87 @@
 # Clients affichés dans « Ils me font confiance », par période.
-# logo : fichier de assets/img/clients/ (monochrome, recoloré en CSS) ; ratio = largeur / hauteur du logo.
+# logo : fichier de assets/img/clients/ (monochrome, recoloré en CSS) ; ratio = largeur / hauteur du logo.
 # Sans logo officiel (Space Kek, How to Bitcoin), le logo est le nom composé en Mona Sans, en attendant le vrai.
-# compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
+# compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
+# Les champs en _en sont ceux de la version anglaise (/en/).
 
 - periode: "Aujourd'hui"
+  periode_en: "Now"
   clients:
     - nom: "Second"
       logo: "second.svg"
       ratio: 2.9
-      travail: "Documentation de Bark : le portefeuille, le SDK, barkd et Bark Pay"
+      travail: "Documentation de Bark : SDK, barkd et son API REST, serveur Ark, applications (Bark Wallet, Bark Pay, plugin BTCPay) et notes de version"
+      travail_en: "Bark documentation: SDK, barkd and its REST API, Ark server, apps (Bark Wallet, Bark Pay, BTCPay plugin) and release notes"
       url: "https://second.tech/docs"
     - nom: "Liana"
       logo: "liana.svg"
       ratio: 4.1
-      travail: "Documentation du portefeuille Liana"
+      travail: "Documentation du portefeuille Liana et tests logiciels"
+      travail_en: "Liana wallet documentation and software testing"
       url: "https://lianawallet.com"
-    - nom: "Wizard Sardine"
+    - nom: "Wizardsardine"
       logo: "wizardsardine.svg"
       ratio: 8.43
       optique: 1.32
-      travail: "Rédaction technique pour le blog"
+      travail: "Rédaction d'articles de blog et contenus pour leur compte X (Twitter)"
+      travail_en: "Blog articles and posts for their X (Twitter) account"
+      comptes:
+        - {source: "ecrits", platform: "Wizardsardine", libelle: "articles", libelle_en: "articles"}
       url: "https://wizardsardine.com/blog/"
 
 - periode: "De 2021 à 2025"
+  periode_en: "2021 to 2025"
   clients:
     - nom: "Plan ₿ Academy"
       logo: "planb.svg"
       ratio: 5.33
       optique: 1.14
       travail: "Formations, tutoriels et maintenance du dépôt de contenus"
+      travail_en: "Courses, tutorials and upkeep of the content repository"
       comptes:
-        - {source: "formations", platform: "Plan ₿ Academy", libelle: "formations"}
-        - {source: "ecrits", platform: "Plan ₿ Academy", libelle: "tutoriels"}
+        - {source: "formations", platform: "Plan ₿ Academy", libelle: "formations", libelle_en: "courses"}
+        - {source: "ecrits", platform: "Plan ₿ Academy", libelle: "tutoriels", libelle_en: "tutorials"}
       url: "https://planb.network"
     - nom: "Bitstack"
       logo: "bitstack.svg"
       ratio: 6.43
-      travail: "Articles du blog, depuis sa création"
+      travail: "Rédaction et maintenance du blog, dont j'étais le seul auteur, et production de podcasts"
+      travail_en: "Writing and upkeep of the blog, where I was the only author, and podcast production"
       comptes:
-        - {source: "ecrits", platform: "Bitstack", libelle: "articles"}
+        - {source: "ecrits", platform: "Bitstack", libelle: "articles", libelle_en: "articles"}
       url: "https://www.bitstack-app.com"
     - nom: "Space Kek"
       logo: "spacekek.svg"
       ratio: 5.69
       travail: "Podcast technique sur Bitcoin"
+      travail_en: "Technical podcast about Bitcoin"
       comptes:
-        - {source: "audio-video", platform: "Space Kek", libelle: "épisodes"}
+        - {source: "audio-video", platform: "Space Kek", libelle: "épisodes", libelle_en: "episodes"}
     - nom: "Découvre Bitcoin"
       logo: "decouvrebitcoin.webp"
       ratio: 9.34
-      travail: "Vidéos pédagogiques, dont la formation CRYPTO-301"
+      travail: "Vidéos pédagogiques, dont celles de la formation CRYPTO-301, et articles de blog"
+      travail_en: "Educational videos, including the CRYPTO-301 course, and blog articles"
       comptes:
-        - {source: "audio-video", platform: "Decouvre Bitcoin", type: "production", libelle: "vidéos"}
+        - {source: "audio-video", platform: "Decouvre Bitcoin", libelle: "vidéos et podcasts", libelle_en: "videos and podcasts"}
+        - {source: "ecrits", platform: "Decouvre Bitcoin", libelle: "articles", libelle_en: "articles"}
       url: "https://decouvrebitcoin.fr"
     - nom: "Cryptoast"
       logo: "cryptoast-nom.svg"
       ratio: 6.15
-      travail: "Interviews : confidentialité, UTXO, ordinateur quantique"
+      travail: "Interviews : confidentialité, UTXO, ordinateur quantique"
+      travail_en: "Interviews: privacy, UTXOs, quantum computing"
       comptes:
-        - {source: "audio-video", platform: "Cryptoast", libelle: "interviews"}
+        - {source: "audio-video", platform: "Cryptoast", libelle: "interviews", libelle_en: "interviews"}
       url: "https://cryptoast.fr"
     - nom: "Grand Angle Bitcoin"
       logo: "grandangle.webp"
       ratio: 2.64
-      travail: "Interview sur les CoinJoins"
+      travail: "Écriture des scripts de vidéos techniques sur Bitcoin"
+      travail_en: "Scripts for technical videos about Bitcoin"
       url: "https://www.youtube.com/@grandanglebitcoin"
     - nom: "How to Bitcoin"
       logo: "howtobitcoin.svg"
       ratio: 9.35
       travail: "Interview sur la confidentialité avec Bitcoin"
+      travail_en: "Interview on Bitcoin privacy"

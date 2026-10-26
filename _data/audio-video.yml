@@ -345,20 +345,6 @@
   type: "production"
   featured: false
 
-- title: "Si t'as pas d'amis, utilise JoinBot !"
-  url: "https://decouvrebitcoin.fr/si-tas-pas-damis-utilises-joinbot/"
-  description: "Article sur l'utilisation de JoinBot pour les coinjoins"
-  platform: "Decouvre Bitcoin"
-  type: "production"
-  featured: false
-
-- title: "Tribune sur le KYC et l'identification des bitcoins onchain"
-  url: "https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/"
-  description: "Tribune sur le KYC et l'identification des bitcoins onchain"
-  platform: "Decouvre Bitcoin"
-  type: "production"
-  featured: false
-
 - title: "Formation CRYPTO-301 complète"
   url: "https://academie.decouvrebitcoin.fr/courses/crypto-301-introduction-a-la-cryptographie/"
   description: "Formation complète d'introduction à la cryptographie"
@@ -386,9 +372,9 @@
 
 - title: "Protéger vos crypto avec les CoinJoins !"
   url: "https://youtu.be/5mt4SLsIlL8"
-  description: "Explication des CoinJoins pour protéger sa confidentialité"
+  description: "Script de la vidéo sur les CoinJoins pour protéger sa confidentialité"
   platform: "Grand Angle Bitcoin"
-  type: "interview"
+  type: "script"
   featured: false
 
 - title: "Interview technique avec le docteur en mathématiques appliquées Théo Pantamis"

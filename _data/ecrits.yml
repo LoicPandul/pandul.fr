@@ -1297,3 +1297,69 @@
   type: "tutoriel"
   featured: false
 
+# =====================
+# Découvre Bitcoin (articles du blog)
+# =====================
+
+- title: "Si t'as pas d'amis, utilise JoinBot !"
+  url: "https://decouvrebitcoin.fr/si-tas-pas-damis-utilises-joinbot/"
+  description: "Article sur l'utilisation de JoinBot pour les coinjoins"
+  platform: "Decouvre Bitcoin"
+  type: "article"
+  featured: false
+
+- title: "Tribune sur le KYC et l'identification des bitcoins onchain"
+  url: "https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/"
+  description: "Tribune sur le KYC et l'identification des bitcoins onchain"
+  platform: "Decouvre Bitcoin"
+  type: "article"
+  featured: false
+
+# =====================
+# Wizardsardine (articles du blog signés Loïc Morel, en anglais)
+# =====================
+
+- title: "Absolute or relative timelock: understanding the difference"
+  url: "https://wizardsardine.com/blog/absolute-vs-relative-timelock/"
+  description: "Timelocks absolus et relatifs, et pourquoi Liana n'utilise que les relatifs"
+  platform: "Wizardsardine"
+  type: "article"
+  langue: "en"
+  featured: false
+
+- title: "Coldcard: the technical autopsy of an entropy failure"
+  url: "https://wizardsardine.com/blog/coldcard-vuln-deep-dive/"
+  description: "Analyse technique de la faille d'entropie du Coldcard Mk3"
+  platform: "Wizardsardine"
+  type: "article"
+  langue: "en"
+  featured: false
+
+- title: "Create a refresh-only key for your timelocks with Coldcard SSSP"
+  url: "https://wizardsardine.com/blog/coldcard-sssp-liana/"
+  description: "Rafraîchir les timelocks de Liana avec la politique SSSP du Coldcard"
+  platform: "Wizardsardine"
+  type: "article"
+  langue: "en"
+  featured: false
+
+- title: "The multi-vendor multisig standard"
+  url: "https://wizardsardine.com/blog/the-multivendor-multisig-standard/"
+  description: "Le multisig multi-fabricants avec chemins de récupération à timelock dans Liana"
+  platform: "Wizardsardine"
+  type: "article"
+  langue: "en"
+  featured: false
+
+# =====================
+# Second (documentation en ligne, gérée dans son ensemble)
+# =====================
+
+- title: "Documentation de Second"
+  title_en: "Second documentation"
+  url: "https://second.tech/docs"
+  description: "Documentation de Bark : SDK, barkd, serveur Ark et applications"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false

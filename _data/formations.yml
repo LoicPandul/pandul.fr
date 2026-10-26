@@ -1,7 +1,7 @@
 # Formations pour Plan B Academy
 # 6 cours complets - chaque entrée = 1 cours (pas de chapitres individuels)
 
-- title: "Mettre en place son premier noeud Bitcoin"
+- title: "Mettre en place son premier nœud Bitcoin"
   code: "BTC 202"
   url: "https://planb.academy/fr/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426"
   description: "Comprendre, installer, configurer et utiliser un noeud Bitcoin"
@@ -28,7 +28,7 @@
   type: "formation"
   featured: true
 
-- title: "Mettre en place son premier noeud Lightning"
+- title: "Mettre en place son premier nœud Lightning"
   code: "LNP 202"
   url: "https://planb.academy/fr/courses/593e483e-1785-4e83-aa7e-32b99056844c"
   description: "Comprendre, installer, configurer et utiliser un noeud Lightning"
