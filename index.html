@@ -126,11 +126,18 @@ sitemap:
   <div class="trades-head">
     <h2 class="display line-reveal" id="t-activites">Ce que je fais</h2>
     <p class="lead" data-reveal style="--d:1">Bitcoin m'a accroché en 2020, par sa technique, sa monnaie et sa philosophie. En 2021, Bitstack m'a confié son blog, puis d'autres clients ont suivi.</p>
-    <ul class="trades-index" aria-label="Mes trois métiers" data-reveal style="--d:2">
-      <li><a href="#t-redaction" data-index="t-redaction">Rédaction et pédagogie</a></li>
-      <li><a href="#t-docs" data-index="t-docs">Documentation technique</a></li>
-      <li><a href="#t-dev" data-index="t-dev">Développement</a></li>
-    </ul>
+  </div>
+
+  <div class="trades-stage">
+    <div class="trades-stage-in">
+      <ul class="trades-index" aria-label="Mes trois métiers">
+        <li><a href="#t-redaction" data-index="t-redaction">Rédaction</a></li>
+        <li><a href="#t-docs" data-index="t-docs">Documentation</a></li>
+        <li><a href="#t-dev" data-index="t-dev">Développement</a></li>
+      </ul>
+      <canvas class="trade-canvas" data-trade-canvas="all" aria-hidden="true"></canvas>
+      <p class="trades-hint" aria-hidden="true"><span class="hint-fine">Passez la souris sur la page : ses traits redeviennent des mots.</span><span class="hint-touch">Touchez une ligne de la page pour la lire.</span></p>
+    </div>
   </div>
 
   <nav class="trades-tabs" aria-label="Mes trois métiers">
@@ -142,6 +149,8 @@ sitemap:
   <div class="trades-list">
     <article class="trade" aria-labelledby="t-redaction">
       <h3 class="title" id="t-redaction" data-reveal>Rédaction et pédagogie</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="0" aria-hidden="true"></canvas>
+      <p class="trades-hint trades-hint-solo" aria-hidden="true"><span class="hint-fine">Passez la souris sur la page : ses traits redeviennent des mots.</span><span class="hint-touch">Touchez une ligne de la page pour la lire.</span></p>
       <p data-reveal style="--d:1">Articles, tutoriels, formations complètes, scripts de vidéos et de podcasts. Je pars de zéro et j'avance marche par marche, avec des exemples concrets, sans rien supposer d'évident.</p>
       <dl class="figures" data-reveal style="--d:2" data-count>
         <div><dt>{{ nb_ecrits }}</dt><dd>tutoriels et articles</dd></div>
@@ -159,6 +168,7 @@ sitemap:
 
     <article class="trade" aria-labelledby="t-docs">
       <h3 class="title" id="t-docs" data-reveal>Documentation technique</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="1" aria-hidden="true"></canvas>
       <p data-reveal style="--d:1">Guides d'installation, références de SDK, notes de version. Je lis le code source avant d'écrire, et je teste chaque commande pour qu'elle fonctionne du premier coup chez le lecteur.</p>
       <p data-reveal style="--d:2">En ce moment, j'écris la documentation de Bark chez Second, et celle du portefeuille Liana chez Wizard Sardine.</p>
       <figure class="plate" data-reveal="wipe" style="--d:2">
@@ -172,14 +182,13 @@ sitemap:
 
     <article class="trade" aria-labelledby="t-dev">
       <h3 class="title" id="t-dev" data-reveal>Développement</h3>
+      <canvas class="trade-canvas trade-solo" data-trade-canvas="2" aria-hidden="true"></canvas>
       <p data-reveal style="--d:1">Je conçois et je code des logiciels Bitcoin open source, comme <a class="link" href="https://gerfaut-wallet.com">Gerfaut</a>, un portefeuille watch-only pour Android, Linux, macOS et Windows.</p>
       <p data-reveal style="--d:2">Chaque version que je publie est signée avec ma clé minisign. Vous pouvez donc vérifier vous-même que le fichier téléchargé vient bien de moi.</p>
-      <figure class="plate plate-code" data-reveal="wipe" style="--d:2">
-        <pre><code>minisign -Vm &lt;fichier&gt; -P RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code></pre>
-        <figcaption>Vérifier un fichier signé avec ma clé publique.</figcaption>
-      </figure>
     </article>
+  </div>
 
+  <div class="trades-more">
     <h3 class="title trades-also-title" data-reveal>Et aussi</h3>
     <p class="trades-also" data-reveal style="--d:1">Je fais aussi de la relecture technique et du fact-checking, je conçois des parcours de formation et je tiens la ligne éditoriale d'un blog. Je livre en Markdown sur GitHub, dans Google Docs ou directement dans votre CMS.</p>
   </div>

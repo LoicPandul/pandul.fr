@@ -21,13 +21,15 @@ function kick() {
   requestAnimationFrame(frame);
 }
 function frame(now) {
-  const dt = Math.min(0.05, (now - last) / 1000 || 0.016);
+  // le premier « now » d'un rafraîchissement peut précéder l'instant du kick : jamais de pas négatif
+  const dt = Math.max(0, Math.min(0.05, (now - last) / 1000 || 0.016));
   last = now;
   if (lenis) lenis.raf(now);
   scroll.vy = scroll.vy * 0.85 + (scroll.y - scroll.lastY) * 0.15;
   scroll.lastY = scroll.y;
   let again = Math.abs(scroll.vy) > 0.05 || (lenis && lenis.isScrolling);
-  for (const fn of frames) if (fn(dt, now)) again = true;
+  // une animation en erreur ne doit pas arrêter les autres
+  for (const fn of frames) { try { if (fn(dt, now)) again = true; } catch (e) { frames.delete(fn); } }
   if (again && !document.hidden) requestAnimationFrame(frame);
   else running = false;
 }
@@ -113,9 +115,9 @@ function initTradesIndex() {
   const index = $('.trades-index');
   let cur = '';
   // le métier lu est le dernier dont le titre a passé la ligne de lecture :
-  // juste sous la barre d'onglets au doigt, aux deux cinquièmes de l'écran sinon
+  // juste sous la barre d'onglets au doigt, au milieu de l'écran sinon (comme le panneau des métiers)
   const update = () => {
-    const line = tabs && tabs.offsetParent !== null ? tabs.getBoundingClientRect().bottom + 12 : window.innerHeight * 0.4;
+    const line = tabs && tabs.offsetParent !== null ? tabs.getBoundingClientRect().bottom + 12 : window.innerHeight * 0.5;
     let id = trades[0].getAttribute('aria-labelledby');
     for (const t of trades) if (t.getBoundingClientRect().top <= line) id = t.getAttribute('aria-labelledby');
     // trait de progression le long de l'index : la part des trois métiers déjà lue
@@ -524,6 +526,17 @@ function initGerfaut() {
   });
 }
 
+/* ---------- Ce que je fais : une page de lignes par métier (chargée à l'approche) ---------- */
+function initTradeStages() {
+  const sec = $('#activites');
+  if (!sec || !sec.querySelector('canvas[data-trade-canvas]')) return;
+  new IntersectionObserver((en, io) => {
+    if (!en[0].isIntersecting) return;
+    io.disconnect();
+    import('./trades.js').then((m) => m.initTrades({ frames, kick, reduce })).catch(() => {});
+  }, { rootMargin: '1800px 0px' }).observe(sec);
+}
+
 /* ---------- Chiffres qui se comptent au défilement ---------- */
 function initCount() {
   const box = $('[data-count]');
@@ -793,6 +806,7 @@ initWorks();
 initDict();
 initGerfaut();
 initCount();
+initTradeStages();
 initLineReveal();
 initLenis();
 kick();
