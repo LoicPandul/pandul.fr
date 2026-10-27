@@ -939,11 +939,9 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 }
 .dict-text .title { margin-bottom: 20px; }
 .defn { margin: 32px 0 0; padding: clamp(20px, 2.4vw, 32px); background: var(--plate); display: flex; flex-direction: column; }
-/* hauteur de la plus longue définition : « Une autre définition » ne fait plus bouger la page */
-.defn { --defn-h: 425px; min-height: var(--defn-h); }
-@media (min-width: 380px) { .defn { --defn-h: 370px; } }
-@media (min-width: 470px) { .defn { --defn-h: 260px; } }
-@media (min-width: 960px) { .defn { --defn-h: 295px; } }
+/* ordinateur : hauteur de la plus longue définition, « Une autre définition » ne fait pas bouger la page ;
+   téléphone : le cadre épouse la définition (une réserve fixe y laissait un trou) et site.js anime sa hauteur */
+@media (min-width: 960px) { .defn { min-height: 295px; } }
 .defn-actions { margin-top: auto !important; }
 .defn-term {
   margin: 0 0 14px;

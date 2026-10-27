@@ -523,10 +523,18 @@ function initDict() {
     current = d.t; seen = d.s;
     try { localStorage.setItem(KEY, d.s); } catch (e) { /* idem */ }
     const apply = () => {
+      const h0 = box.offsetHeight;
       const url = `${box.dataset.base}/${d.s}/`;
       term.textContent = d.t; term.href = url; link.href = url;
       text.textContent = d.d;
       box.classList.remove('is-changing');
+      // au téléphone le cadre épouse la définition : il glisse vers sa nouvelle hauteur au lieu de sauter
+      const h1 = box.offsetHeight;
+      if (animate && !reduce && Math.abs(h1 - h0) > 1) {
+        box.style.overflow = 'hidden';
+        box.animate([{ height: `${h0}px` }, { height: `${h1}px` }], { duration: 320, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' })
+          .finished.finally(() => { box.style.overflow = ''; });
+      }
     };
     if (animate && !reduce) { box.classList.add('is-changing'); setTimeout(apply, 220); } else apply();
     const letter = d.t.charAt(0);
