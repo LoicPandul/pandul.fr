@@ -1,6 +1,6 @@
 // Ce que je fais : les mêmes lignes dessinent trois pages, une par métier.
 // Une page de tutoriel qui s'écrit, une page de documentation dont les commandes se cochent,
-// un éditeur de code et sa signature vérifiée. Chaque mot est un trait ; une règle de lecture
+// un éditeur de code et ses tests qui passent. Chaque mot est un trait ; une règle de lecture
 // (le curseur, le doigt ou le défilement) rend les mots lisibles là où elle passe.
 
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -207,7 +207,7 @@ function page(i, W, H, f, ctx, rich = false) {
     }
     L.fit = L.fit && y < sy + sh - f;
   } else {
-    // Un éditeur de code, puis le terminal qui vérifie la signature
+    // Un éditeur de code, puis le terminal où les tests passent
     const sx = pad, sy = pad, sw = W - 2 * pad, sh = H - 2 * pad;
     box('sheet', sx, sy, sw, sh, C.ink, 4);
     const th = f * 2.3;
@@ -249,10 +249,10 @@ function page(i, W, H, f, ctx, rich = false) {
     const tl = [];
     const tflow = makePen(ctx, tl);
     let ty = 0;
-    ty = tflow('$ minisign -Vm gerfaut.apk -P RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O', { x: tx + f * 0.8, y: ty, w: tW - f * 2.2, size: cs, family: F_CODE, lh: clh, indent: cs * 1.2, thick: 0.42,
+    ty = tflow('$ cargo test --release', { x: tx + f * 0.8, y: ty, w: tW - f * 2.2, size: cs, family: F_CODE, lh: clh, indent: cs * 1.2, thick: 0.42,
       col: (w) => (w === '$' ? C.mark : C.pale), tcol: C.paper, write: 2, show: true });
     const oy = ty;
-    ty = tflow('Signature and comment signature verified', { x: tx + f * 0.8 + f * 1.4, y: ty + cs * 0.2, w: tW - f * 4, size: cs, weight: 600, family: F_CODE, lh: clh, thick: 0.42, col: C.mark, tcol: C.mark, write: 3, show: true });
+    ty = tflow('test result: ok. 12 passed', { x: tx + f * 0.8 + f * 1.4, y: ty + cs * 0.2, w: tW - f * 4, size: cs, weight: 600, family: F_CODE, lh: clh, thick: 0.42, col: C.mark, tcol: C.mark, write: 3, show: true });
     const tH = ty + cs * 1.6;
     const tY = sy + sh - f * 0.8 - tH;
     tl.forEach((b) => { b.y += tY + cs * 0.8; L.bars.push(b); });

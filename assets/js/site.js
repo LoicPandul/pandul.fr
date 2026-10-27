@@ -189,25 +189,37 @@ function initMagnetic() {
   });
 }
 
-/* ---------- Copier l'adresse ---------- */
+/* ---------- Copier l'adresse et la clé minisign ---------- */
+// Copie : l'API du presse-papiers, ou l'ancienne méthode quand la page n'est pas servie en https (aperçu local).
+async function copyText(s) {
+  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(s);
+  const ta = document.createElement('textarea');
+  ta.value = s; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+  document.body.appendChild(ta); ta.select();
+  const ok = document.execCommand('copy');
+  ta.remove();
+  if (!ok) throw new Error('copy');
+}
 function initCopy() {
-  if (!navigator.clipboard) return;
   const status = $('[data-copy-status]');
   $$('[data-copy]').forEach((btn) => {
     btn.hidden = false;
-    const label = btn.textContent;
+    btn.classList.add('can-copy');
+    // le texte qui change : le libellé du bouton, ou son repère [data-copy-text] (bloc de la clé)
+    const out = $('[data-copy-text]', btn) || btn;
+    const label = out.textContent;
     let timer;
     btn.addEventListener('click', async () => {
       let msg;
-      try { await navigator.clipboard.writeText(btn.dataset.copy); msg = btn.dataset.copyLabel || T.copied; }
+      try { await copyText(btn.dataset.copy); msg = btn.dataset.copyLabel || T.copied; btn.classList.add('is-copied'); }
       catch (e) {
-        msg = T.copyFail;
-        const target = btn.closest('.contact') ? $('.contact-mail a') : btn.previousElementSibling;
+        msg = btn.dataset.copyLabel ? (EN ? 'Selected' : 'Sélectionnée') : T.copyFail;
+        const target = btn.closest('.contact') ? $('.contact-mail a') : $('code', btn);
         if (target) { const r = document.createRange(); r.selectNodeContents(target); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); }
       }
-      if (btn.dataset.copyLabel) btn.textContent = msg; else if (status) status.textContent = msg;
+      if (btn.dataset.copyLabel) out.textContent = msg; else if (status) status.textContent = msg;
       clearTimeout(timer);
-      timer = setTimeout(() => { if (btn.dataset.copyLabel) btn.textContent = label; else if (status) status.textContent = ''; }, 2400);
+      timer = setTimeout(() => { btn.classList.remove('is-copied'); if (btn.dataset.copyLabel) out.textContent = label; else if (status) status.textContent = ''; }, 2400);
     });
   });
 }
@@ -279,7 +291,6 @@ function initWorks() {
   const labelEls = groups.map((g, gi) => {
     const l = document.createElement('span');
     l.textContent = g.name;
-    if (g.items.length < 6) l.classList.add('is-small');
     labels.appendChild(l);
     return l;
   });
@@ -354,8 +365,8 @@ function initWorks() {
         if (l.classList.contains('is-small')) { l.style.visibility = 'hidden'; if (mk) mk.style.visibility = 'hidden'; return; }
         const x = (starts[gi] / N) * w;
         const lw = l.offsetWidth;
-        // le nom se place toujours à droite de son repère, tenu dans la réglette
-        const lx = Math.min(x + 8, w - lw);
+        // le nom se place à droite de son repère ; au bout de la réglette, il passe à sa gauche
+        const lx = x + 8 + lw <= w ? x + 8 : x - 8 - lw;
         const row = lx >= ends[0] + 12 ? 0 : lx >= ends[1] + 12 ? 1 : -1;
         l.style.visibility = row < 0 ? 'hidden' : '';
         if (mk) { mk.style.visibility = row < 0 ? 'hidden' : ''; mk.style.transform = `translateX(${x.toFixed(1)}px)`; mk.style.top = row === 1 ? '1.6em' : '0'; }
@@ -366,6 +377,8 @@ function initWorks() {
       });
     } else {
       const sp = spacerA.offsetWidth, tw = track.clientWidth;
+      // deux rangs, comme sur ordinateur : un nom qui chevaucherait le précédent passe au second rang
+      const ends = [-Infinity, -Infinity];
       labelEls.forEach((l, gi) => {
         let x = sp + starts[gi] * 8 - track.scrollLeft;
         // le nom du groupe en cours reste collé au bord gauche tant que son groupe défile
@@ -374,12 +387,16 @@ function initWorks() {
         if (pinned) x = 0;
         // collé au bord, son repère est sorti de l'écran : une flèche dit que le groupe a commencé plus à gauche
         l.classList.toggle('is-pinned', pinned);
-        const hide = x > tw || x + l.offsetWidth < 0 || l.classList.contains('is-small');
-        l.style.visibility = hide ? 'hidden' : '';
-        l.style.transform = `translateX(${(x + 8).toFixed(1)}px)`;
-        l.dataset.row = '0';
+        // un nom qui entre par la droite reste entier : il passe à gauche de son repère
+        const lw = l.offsetWidth, lx = pinned || x + 8 + lw <= tw ? x + 8 : x - 8 - lw;
+        const out = x > tw || x + lw < 0 || l.classList.contains('is-small');
+        const row = out ? -1 : pinned || lx >= ends[0] + 12 ? 0 : lx >= ends[1] + 12 ? 1 : -1;
+        if (row >= 0) ends[row] = lx + lw;
+        l.style.visibility = row < 0 ? 'hidden' : '';
+        l.style.transform = `translateX(${lx.toFixed(1)}px)`;
+        l.dataset.row = String(Math.max(0, row));
         const mk = markEls[gi];
-        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = mx < 0 || mx > tw || l.classList.contains('is-small') ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = '0'; }
+        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = row < 0 || mx < 0 || mx > tw ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = row === 1 ? '1.6em' : '0'; }
       });
     }
   };
@@ -453,7 +470,7 @@ function initWorks() {
     for (let i = 0; i < N; i++) {
       const g = reduce ? 1 : clamp(grow * 1.6 - (i / N) * 0.6);
       let s = g;
-      if (useDock && i !== current) { const dx = (i + 0.5 - dock.x) / 6; s *= 1 + 0.85 * a.v * Math.exp(-dx * dx); }
+      if (useDock) { const dx = (i + 0.5 - dock.x) / 6; s *= 1 + 0.85 * a.v * Math.exp(-dx * dx); }
       if (Math.abs(s - scales[i]) > 0.002) { scales[i] = s; inner[i].style.transform = `scaleY(${s.toFixed(3)})`; }
     }
     return moving;
@@ -513,36 +530,6 @@ function initDict() {
   });
   // Charge la liste à l'approche, pour que le premier clic soit immédiat.
   new IntersectionObserver((en, io) => { if (en[0].isIntersecting) { load().catch(() => {}); io.disconnect(); } }, { rootMargin: '400px 0px' }).observe(box);
-}
-
-/* ---------- Gerfaut : stores qui s'ouvrent sur la capture, et lente dérive au défilement ---------- */
-function initGerfaut() {
-  const band = $('[data-gerfaut]');
-  if (!band || reduce) return;
-  const blinds = $('.blinds', band), desk = $('.gerfaut-desk', band);
-  const n = window.innerWidth < 600 ? 9 : 14;
-  const bars = Array.from({ length: n }, () => blinds.appendChild(document.createElement('span')));
-  let prev = -1;
-  frames.add(() => {
-    const r = band.getBoundingClientRect();
-    const vh = window.innerHeight;
-    if (r.bottom < -100 || r.top > vh + 100) return false;
-    const p = clamp((vh - r.top) / (vh * 0.7));
-    const drift = clamp((vh - r.top) / (vh + r.height));
-    if (Math.abs(p - prev) < 0.0005 && desk.dataset.d === drift.toFixed(3)) return false;
-    prev = p;
-    bars.forEach((b, i) => {
-      const k = clamp(p * 1.8 - (i / n) * 0.8);
-      // fermés, les stores laissent toujours passer un fil de l'image
-      const e = 0.84 * (1 - k * k * (3 - 2 * k));
-      b.style.transform = `scaleY(${e.toFixed(3)})`;
-      b.style.visibility = e < 0.01 ? 'hidden' : '';
-    });
-    desk.dataset.d = drift.toFixed(3);
-    // dérive lente, sans agrandir : la fenêtre reste entière dans le bandeau
-    desk.style.transform = `translate3d(0, ${((0.5 - drift) * 20).toFixed(1)}px, 0)`;
-    return false;
-  });
 }
 
 /* ---------- Ce que je fais : une page de lignes par métier (chargée à l'approche) ---------- */
@@ -860,7 +847,6 @@ initCopy();
 initSlides();
 initWorks();
 initDict();
-initGerfaut();
 initCount();
 initTradeStages();
 initLineReveal();

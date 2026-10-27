@@ -103,21 +103,21 @@
   </main>
 
   <footer class="foot" id="fin">
-    <div class="foot-name stage" data-stage="name" aria-hidden="true">
-      <div class="foot-name-text">
-        <span class="foot-name-wide">{% include nom-ligne.svg %}</span>
-        <span class="foot-name-narrow">{% include nom-deux-lignes.svg %}</span>
-      </div>
-      <canvas></canvas>
+    <div class="foot-key">
+      <p class="foot-key-label" id="cle-minisign">{{ t.foot_key }}</p>
+      {%- comment -%} La clé entière, dans un bloc de code ; un clic la copie (site.js, initCopy). {%- endcomment %}
+      <button class="keyblock" type="button" data-copy="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O" data-copy-label="{{ t.foot_copied }}" aria-describedby="cle-minisign" title="{{ t.foot_copy_aria }}">
+        <svg class="keyblock-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3 20 3m-3.5 3.5 2.5 2.5M14 9l2.2 2.2"/></svg>
+        <code>RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O</code>
+        <span class="keyblock-act" data-copy-text>{{ t.foot_copy }}</span>
+      </button>
     </div>
-    <div class="foot-legal">
-      <p>© 2021-{{ site.time | date: '%Y' }} {{ t.foot_owner }}, 96 Rue Paradis, {{ t.foot_place }}</p>
-      <p class="foot-key">{{ t.foot_key }} <code title="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O">RWTz3c4g…GlqTR3O</code><button class="foot-copy" type="button" data-copy="RWTz3c4gUmglCX5Uvjthigz1ts3TS3ZSdhRNpFgOJRW/Wr4XjGlqTR3O" data-copy-label="{{ t.foot_copied }}" aria-label="{{ t.foot_copy_aria }}" hidden>{{ t.foot_copy }}</button></p>
-      <ul class="foot-links" aria-label="{{ t.foot_links }}">
-        <li><a class="link" href="{{ site.dictionnaire_url }}/" lang="fr">Dictionnaire de Bitcoin</a></li>
-        <li><a class="link" href="https://gerfaut-wallet.com">Gerfaut</a></li>
-      </ul>
-    </div>
+    <ul class="foot-links" aria-label="{{ t.foot_links }}">
+      <li><a class="link" href="{{ site.dictionnaire_url }}/" lang="fr">Dictionnaire de Bitcoin</a></li>
+      <li><a class="link" href="https://gerfaut-wallet.com">Gerfaut</a></li>
+      <li><a class="link" href="https://github.com/LoicPandul/SatConverter">SatConverter</a></li>
+    </ul>
+    <p class="foot-legal">© 2021-{{ site.time | date: '%Y' }} {{ t.foot_owner }}</p>
   </footer>
 
   <script type="module" src="{{ '/assets/js/site.js' | relative_url }}" data-base="{{ '/assets/' | relative_url }}"></script>

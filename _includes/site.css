@@ -463,7 +463,8 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
 .clients .brand-count, .clients .works-meta { color: var(--pale); }
 .clients .btn { background: var(--paper); color: var(--ink); }
 @media (hover: hover) { .clients .btn:hover { background: var(--mark); color: var(--ink); } }
-.clients .tick i, .clients .tick.is-current i { background: var(--paper); }
+.clients .tick i { background: var(--paper); }
+.clients .tick.is-current i { background: var(--mark); }
 .clients .works-groups span { border-color: var(--paper); }
 .clients .works-group h4 span { color: var(--pale); }
 @media (hover: hover) { .clients .works-group a:hover { background: var(--mark); color: var(--ink); } }
@@ -660,7 +661,8 @@ a.brand-link:focus-visible { color: var(--ink); }
 .tick[data-k=documentation] i { --th: 92%; }
 .tick[data-k=podcast] i, .tick[data-k=production] i, .tick[data-k=interview] i, .tick[data-k=script] i { --th: 34%; }
 @media (min-width: 960px) { .tick { --tw: 3px; } }
-.tick.is-current i { width: 4px; height: 100%; background: var(--ink); transform: none !important; }
+/* le trait lu garde la hauteur de son palier : il se distingue par sa couleur et son épaisseur, l'escalier reste net */
+.tick.is-current i { width: 4px; background: var(--mark); }
 .works-groups { position: relative; height: 3.4em; margin-top: 12px; }
 .works-groups span[data-row="1"] { top: 1.6em; }
 .works-legend { margin: 10px 0 0; font: 560 var(--s-small)/1.45 var(--font-ui); color: var(--pale); max-width: 70ch; }
@@ -673,7 +675,7 @@ a.brand-link:focus-visible { color: var(--ink); }
   .works-key { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px var(--gutter); }
   .works-key li:first-child { grid-column: 1 / -1; }
 }
-/* téléphone : où l'on est parmi les 246 */
+/* téléphone : où l'on est parmi tous les contenus */
 .works-map { display: none; }
 @media (max-width: 959px) {
   .works-map { display: block; position: relative; height: 3px; margin-top: 4px; background: rgb(201 211 234 / 0.3); }
@@ -705,7 +707,7 @@ a.brand-link:focus-visible { color: var(--ink); }
   .works-ticks::-webkit-scrollbar { display: none; }
   .tick { flex: 0 0 8px; scroll-snap-align: center; }
   .tick-spacer { flex: 0 0 calc(50% - 4px); }
-  .works-groups { overflow: hidden; height: 1.9em; }
+  .works-groups { overflow: hidden; height: 3.4em; }
   .works-rail::after {
     content: "";
     position: absolute;
@@ -802,6 +804,8 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   html.bar-shown .trades-tabs { top: var(--bar-h); }
   .trades-tabs.is-past { opacity: 0; transform: translateY(-10px); pointer-events: none; }
   @media (max-width: 599px) { .trades-tabs { justify-content: space-between; gap: 0; } .trades-tabs a { font-size: clamp(0.8125rem, 3.6vw, 0.9375rem); } }
+  /* petit téléphone : « Développement » tient dans l'écran */
+  @media (max-width: 379px) { .trades-tabs a { padding: 0 4px; font-size: 0.78rem; letter-spacing: -0.01em; } }
   .trades-tabs::-webkit-scrollbar { display: none; }
   .trades-tabs a {
     flex: 0 0 auto;
@@ -829,10 +833,8 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   .trades-head .lead { grid-column: 8 / 13; margin: 0 0 0.4em; }
   .trades-stage { display: block; grid-column: 1 / 7; grid-row: 2; align-self: stretch; }
   .trades-stage-in { position: sticky; top: calc(var(--bar-h) + 20px); display: grid; gap: 18px; }
-  .trades-stage .trade-canvas { height: min(calc(100svh - var(--bar-h) - 160px), 680px); }
+  .trades-stage .trade-canvas { height: min(calc(100svh - var(--bar-h) - 130px), 700px); }
   .trades-list { grid-column: 8 / 13; grid-row: 2; }
-  .trades-more { grid-column: 8 / 13; grid-row: 3; }
-  .trades-hint-solo { display: none !important; }
   html.js .trade-solo { display: none; }
   /* chaque métier tient l'écran assez longtemps pour que sa page se dessine */
   .trade { min-height: 88svh; }
@@ -862,9 +864,7 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   padding: 8px 0;
   text-decoration: none;
 }
-.courses img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--plate); }
-/* les vignettes s'écrivent en lignes au défilement, comme les titres */
-html.lines-on .courses img.line-reveal { --lp: 4px; background: none; }
+.courses img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; background: var(--plate); }
 @media (max-width: 599px) {
   /* téléphone : les six formations défilent de côté, en cartes, au lieu d'une longue liste */
   .courses {
@@ -887,7 +887,8 @@ html.lines-on .courses img.line-reveal { --lp: 4px; background: none; }
 .course-title { transition: background-color var(--t-answer); }
 @media (hover: hover) { .courses a:hover .course-title { background: var(--mark); } }
 .plate { margin: 32px 0 0; padding: clamp(14px, 2.2vw, 28px); background: var(--plate); }
-.plate img { width: 100%; height: auto; }
+.plate picture { display: block; }
+.plate img { display: block; width: 100%; height: auto; }
 .plate figcaption { margin-top: 14px; font: 520 var(--s-small)/1.45 var(--font-ui); color: var(--ink-soft); }
 .plate-code pre {
   margin: 0;
@@ -896,14 +897,7 @@ html.lines-on .courses img.line-reveal { --lp: 4px; background: none; }
   white-space: pre-wrap;
   word-break: break-all;
 }
-.trades-also-title { margin: 0 0 16px; }
-.trades-hint { margin: 10px 0 0; font: 520 var(--s-small)/1.4 var(--font-ui); color: var(--ink-soft); display: none; }
-html.trades-on .trades-hint { display: block; }
-.trades-hint .hint-fine { display: none; }
-@media (hover: hover) and (pointer: fine) { .trades-hint .hint-fine { display: inline; } .trades-hint .hint-touch { display: none; } }
-html.js .trade-solo + .trades-hint { margin: -16px 0 28px; }
 .trade-canvas { cursor: text; }
-.trades-also { max-width: 60ch; margin: 0; }
 
 /* Projets */
 .projects-head { display: grid; gap: 24px; }
@@ -986,40 +980,15 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 }
 
 .gerfaut { display: grid; gap: 32px; margin-top: clamp(64px, 8vw, 104px); }
-.gerfaut-band { position: relative; margin: 0 calc(-1 * var(--margin)); }
-/* la fenêtre de bureau entière, sur la marge, et le téléphone entier qui la chevauche à droite */
-.gerfaut-stage { position: relative; overflow: hidden; background: var(--plate); padding: clamp(32px, 4vw, 64px) 18% clamp(32px, 4vw, 64px) var(--margin); }
-.gerfaut-desk { display: block; width: 100%; height: auto; transform-origin: 50% 100%; }
-.gerfaut-desk { border-radius: 10px; }
-.gerfaut-phone { position: absolute; right: var(--margin); bottom: clamp(16px, 2vw, 32px); width: 16%; margin: 0; }
-.gerfaut-phone img { width: 100%; height: auto; display: block; }
-@media (max-width: 599px) {
-  /* téléphone : la capture Android d'abord, celle de bureau est trop petite pour être lue */
-  .gerfaut-stage { padding: 32px 0; display: flex; justify-content: center; overflow: hidden; }
-  .gerfaut-desk { display: none; }
-  .gerfaut-phone { position: static; width: 56%; }
-}
-.blinds { position: absolute; inset: 0; display: flex; flex-direction: column; pointer-events: none; }
-.blinds span { flex: 1 1 0; background: var(--paper); transform-origin: 50% 0; transform: scaleY(0.84); }
-html:not(.js) .blinds { display: none; }
-.gerfaut-facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; align-content: start; }
-.gerfaut-facts li { padding-left: 22px; position: relative; max-width: 42ch; }
-.gerfaut-facts li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 12px; height: 3px; background: var(--ink); }
-.gerfaut-band figcaption {
-  max-width: calc(65ch + 2 * var(--margin));
-  padding: 12px var(--margin) 0;
-  font: 520 var(--s-small)/1.45 var(--font-ui);
-  color: var(--ink-soft);
-  background: var(--paper);
-}
+/* la capture de l'accueil sur ordinateur, à droite du texte */
+.gerfaut-shot { margin: 0; }
+.gerfaut-shot img { display: block; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 1px 2px rgba(17, 48, 111, 0.12), 0 24px 48px -28px rgba(17, 48, 111, 0.5); }
 .gerfaut-text > p { max-width: 56ch; }
 .gerfaut-text .title { margin-bottom: 20px; }
-.gerfaut-text .note { font-size: var(--s-body); }
 @media (min-width: 960px) {
   .gerfaut { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); row-gap: 0; }
-  .gerfaut-band { grid-column: 1 / 13; margin-top: clamp(40px, 4vw, 64px); }
   .gerfaut-text { grid-column: 1 / 7; }
-  .gerfaut-facts { grid-column: 7 / 13; padding-top: clamp(56px, 4.5vw, 72px); }
+  .gerfaut-shot { grid-column: 7 / 13; padding-top: clamp(8px, 1vw, 16px); }
 
 }
 
@@ -1084,43 +1053,64 @@ html:not(.js) .blinds { display: none; }
 .channels dd a.link::after { bottom: 8px; }
 @media (min-width: 960px) { .channels { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
-/* Pied de page */
-.foot { background: var(--ink); color: var(--paper); padding-bottom: calc(28px + env(safe-area-inset-bottom)); }
-.foot-name { position: relative; height: clamp(220px, 22vw, 360px); overflow: hidden; }
-.foot-name-text { position: absolute; inset: 9% 3%; display: flex; align-items: center; justify-content: center; }
-.foot-name-text svg { display: block; width: 100%; height: 100%; }
-.foot-name-text span { display: block; width: 100%; height: 100%; }
-.foot-name-narrow { display: none !important; }
-html.js .foot-name.is-live .foot-name-text { display: none; }
-@media (max-width: 599px) {
-  .foot-name { height: 74vw; }
-  .foot-name-wide { display: none !important; }
-  .foot-name-narrow { display: block !important; }
-}
-.foot-legal {
+/* Pied de page : la clé minisign entière, les projets, la mention légale */
+.foot {
   display: grid;
-  gap: 14px;
-  padding: 28px var(--margin) 0;
+  gap: 28px;
+  padding: 36px var(--margin) calc(28px + env(safe-area-inset-bottom));
+  background: var(--ink);
+  color: var(--paper);
+  border-top: 1px solid rgba(201, 211, 234, 0.22);
   font: 520 var(--s-small)/1.5 var(--font-ui);
-  color: var(--pale);
 }
-.foot-legal p { margin: 0; }
-.foot-key code { font-family: var(--font-code); font-size: var(--s-small); color: var(--paper); word-break: break-all; }
-.foot-links { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 22px; margin: 0; padding: 0; }
-.foot-links a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: var(--paper); }
-.foot-key code { margin-right: 12px; white-space: nowrap; }
+.foot p { margin: 0; }
+.foot-key-label { margin-bottom: 10px !important; color: var(--pale); }
+.keyblock {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 760px;
+  min-height: 52px;
+  padding: 12px 14px 12px 16px;
+  border: 1px solid rgba(201, 211, 234, 0.28);
+  border-radius: 8px;
+  background: var(--ink-deep);
+  color: var(--paper);
+  text-align: left;
+  font: inherit;
+  cursor: copy;
+  transition: border-color var(--t-answer) ease, background-color var(--t-answer) ease;
+}
+.keyblock-icon { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--mark); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.keyblock code { flex: 1 1 auto; min-width: 0; font: 500 0.875rem/1.5 var(--font-code); letter-spacing: 0.01em; word-break: break-all; user-select: all; }
+.keyblock-act { display: none; flex: none; min-width: 5.5em; padding: 6px 10px; border-radius: 4px; background: rgba(242, 242, 238, 0.12); font: 640 0.8125rem/1 var(--font-ui); text-align: center; transition: background-color var(--t-answer) ease, color var(--t-answer) ease; }
+.keyblock.can-copy .keyblock-act { display: inline-block; }
+.keyblock.is-copied { border-color: var(--mark); }
+.keyblock.is-copied .keyblock-act { background: var(--mark); color: var(--ink); }
+@media (hover: hover) {
+  .keyblock:hover { border-color: rgba(242, 242, 238, 0.6); }
+  .keyblock:hover .keyblock-act { background: var(--paper); color: var(--ink); }
+}
+.keyblock:focus-visible { outline: 2px solid var(--paper); outline-offset: 3px; }
+.foot-links { list-style: none; display: flex; flex-wrap: wrap; gap: 0 24px; margin: 0; padding: 0; }
+.foot-links a { display: inline-flex; align-items: center; min-height: 44px; color: var(--paper); font-weight: 600; }
+.foot-links .link::after { bottom: 10px; }
+.foot-legal { color: var(--pale); }
 @media (max-width: 599px) {
   .only-wide { display: none; }
-  .foot-key code { display: block; margin: 0 0 12px; font-size: 1rem; }
+  /* téléphone : la clé sur deux lignes à côté de l'icône, le bouton de copie en bas à droite */
+  .keyblock { align-items: flex-start; flex-wrap: wrap; row-gap: 10px; }
+  .keyblock code { flex-basis: calc(100% - 34px); }
+  .keyblock-act { margin-left: auto; }
+  .foot-links { gap: 0 18px; }
+  .foot-links a { font-size: 0.9375rem; }
 }
-.foot-copy { min-height: 44px; padding: 0 12px; border: 0; background: var(--paper); color: var(--ink); font: 640 var(--s-small)/1 var(--font-ui); cursor: pointer; vertical-align: middle; }
-@media (hover: hover) { .foot-copy:hover { background: var(--mark); } }
-.foot-links .link::after { bottom: 10px; }
 @media (min-width: 960px) {
-  .foot-legal { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "copy links" "key key"; align-items: center; column-gap: 40px; }
-  .foot-legal > p:first-child { grid-area: copy; }
-  .foot-legal .foot-key { grid-area: key; }
-  .foot-legal .foot-links { grid-area: links; }
+  .foot { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "key links" "legal legal"; align-items: end; column-gap: 48px; padding-top: 44px; }
+  .foot-key { grid-area: key; }
+  .foot-links { grid-area: links; justify-content: flex-end; }
+  .foot-legal { grid-area: legal; padding-top: 18px; border-top: 1px solid rgba(201, 211, 234, 0.16); }
 }
 
 /* Page introuvable */
@@ -1165,7 +1155,6 @@ html.js [data-reveal="wipe"].is-in > * { clip-path: inset(0); }
   html.js [data-reveal="wipe"] > * { clip-path: none; }
   .slide { transform: none !important; }
   .lang::before, .lang-opt svg { transition: none; }
-  .blinds { display: none; }
   .link:hover::after { animation: none; }
   .btn, .brand-link::before, .contact-mail a::before { transition-duration: 0.01ms; }
 }

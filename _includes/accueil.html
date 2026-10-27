@@ -27,9 +27,7 @@
       <canvas aria-hidden="true"></canvas>
     </div>
     <figcaption class="stage-caption" aria-live="polite">
-      <span class="stage-default">{{ t.hero.caption | replace: '%n', nb_total }}
-        <span class="only-hover">{{ t.hero.caption_hover }}</span>
-        <span class="only-touch">{{ t.hero.caption_touch }}</span></span>
+      <span class="stage-default">{{ t.hero.caption | replace: '%n', nb_total }}</span>
       <span class="stage-current" hidden><a class="stage-title" href="#" data-stage-title></a> <span class="stage-meta" data-stage-meta></span></span>
     </figcaption>
   </figure>
@@ -93,7 +91,8 @@
     <details class="works-all">
       <summary>{{ t.works.all | replace: '%n', nb_total }}</summary>
       <div class="works-lists">
-        {%- assign groupes = "Plan ₿ Academy;Bitstack;Space Kek;Wizardsardine;Second;Decouvre Bitcoin;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+        {%- comment -%} Ordre choisi pour que la hauteur des traits descende en escalier : documentation et formations, tutoriels, articles, puis audio et vidéo. {%- endcomment -%}
+        {%- assign groupes = "Second;Plan ₿ Academy;Wizardsardine;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
         {%- for g in groupes -%}
           {%- assign w_f = site.data.formations | where: "platform", g -%}
           {%- assign w_e = site.data.ecrits | where: "platform", g -%}
@@ -118,7 +117,6 @@
 <section class="trades" id="activites" aria-labelledby="t-activites">
   <div class="trades-head">
     <h2 class="display line-reveal" id="t-activites">{{ t.trades.title }}</h2>
-    <p class="lead" data-reveal style="--d:1">{{ t.trades.lead }}</p>
   </div>
 
   <div class="trades-stage">
@@ -129,7 +127,6 @@
         <li><a href="#t-dev" data-index="t-dev">{{ t.trades.index[2] }}</a></li>
       </ul>
       <canvas class="trade-canvas" data-trade-canvas="all" aria-hidden="true"></canvas>
-      <p class="trades-hint" aria-hidden="true"><span class="hint-fine">{{ t.trades.hint_fine }}</span><span class="hint-touch">{{ t.trades.hint_touch }}</span></p>
     </div>
   </div>
 
@@ -143,8 +140,9 @@
     <article class="trade" aria-labelledby="t-redaction">
       <h3 class="title" id="t-redaction" data-reveal>{{ t.trades.write_title }}</h3>
       <canvas class="trade-canvas trade-solo" data-trade-canvas="0" aria-hidden="true"></canvas>
-      <p class="trades-hint trades-hint-solo" aria-hidden="true"><span class="hint-fine">{{ t.trades.hint_fine }}</span><span class="hint-touch">{{ t.trades.hint_touch }}</span></p>
       <p data-reveal style="--d:1">{{ t.trades.write_body }}</p>
+      <p data-reveal style="--d:2">{{ t.trades.write_gain }}</p>
+      <p data-reveal style="--d:2">{{ t.trades.write_tools }}</p>
       <dl class="figures" data-reveal style="--d:2" data-count>
         <div><dt>{{ nb_ecrits }}</dt><dd>{{ t.trades.fig_ecrits }}</dd></div>
         <div><dt>{{ nb_formations }}</dt><dd>{{ t.trades.fig_formations }}</dd></div>
@@ -154,7 +152,7 @@
       <ul class="courses" data-reveal style="--d:1">
         {%- for f in site.data.formations %}
         {%- assign code = f.code | downcase | remove: " " %}
-        <li><a href="{{ f.url }}" rel="noopener"><img class="line-reveal" src="{{ '/assets/img/formations/' | append: code | append: '.webp' | relative_url }}" alt="" width="480" height="270" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}>{{ f.title }}</span></a></li>
+        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}>{{ f.title }}</span></a></li>
         {%- endfor %}
       </ul>
     </article>
@@ -163,12 +161,16 @@
       <h3 class="title" id="t-docs" data-reveal>{{ t.trades.docs_title }}</h3>
       <canvas class="trade-canvas trade-solo" data-trade-canvas="1" aria-hidden="true"></canvas>
       <p data-reveal style="--d:1">{{ t.trades.docs_body }}</p>
-      <p data-reveal style="--d:2">{{ t.trades.docs_now }}</p>
+      <p data-reveal style="--d:2">{{ t.trades.docs_llm }}</p>
       <figure class="plate" data-reveal="wipe" style="--d:2">
-        <img src="{{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }}"
-             srcset="{{ '/assets/img/v3/second-bark-pay-encre-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-encre-1600.webp' | relative_url }} 1600w"
-             sizes="(min-width: 960px) 52vw, 100vw"
-             alt="{{ t.trades.docs_alt }}" width="1600" height="867" fetchpriority="low" decoding="async">
+        <picture>
+          {%- comment -%} Au téléphone, la colonne de texte seule, pour qu'elle reste lisible. {%- endcomment %}
+          <source media="(max-width: 599px)" srcset="{{ '/assets/img/v3/second-bark-pay-clair-carre-720.webp' | relative_url }}" width="720" height="733">
+          <img src="{{ '/assets/img/v3/second-bark-pay-clair-1400.webp' | relative_url }}"
+               srcset="{{ '/assets/img/v3/second-bark-pay-clair-800.webp' | relative_url }} 800w, {{ '/assets/img/v3/second-bark-pay-clair-1400.webp' | relative_url }} 1400w"
+               sizes="(min-width: 960px) 52vw, 100vw"
+               alt="{{ t.trades.docs_alt }}" width="1400" height="1036" fetchpriority="low" decoding="async">
+        </picture>
         <figcaption>{{ t.trades.docs_caption }}</figcaption>
       </figure>
     </article>
@@ -177,13 +179,7 @@
       <h3 class="title" id="t-dev" data-reveal>{{ t.trades.dev_title }}</h3>
       <canvas class="trade-canvas trade-solo" data-trade-canvas="2" aria-hidden="true"></canvas>
       <p data-reveal style="--d:1">{{ t.trades.dev_body }}</p>
-      <p data-reveal style="--d:2">{{ t.trades.dev_sign }}</p>
     </article>
-  </div>
-
-  <div class="trades-more">
-    <h3 class="title trades-also-title" data-reveal>{{ t.trades.also_title }}</h3>
-    <p class="trades-also" data-reveal style="--d:1">{{ t.trades.also }}</p>
   </div>
 </section>
 
@@ -213,7 +209,6 @@
         </p>
       </div>
       <p class="actions" data-reveal style="--d:3"><a class="btn" href="{{ site.dictionnaire_url }}/" data-magnetic>{{ t.projects.dict_open }}</a></p>
-      <p class="note" data-reveal style="--d:3">{{ t.projects.dict_book }}</p>
     </div>
   </article>
 
@@ -221,24 +216,13 @@
     <div class="gerfaut-text">
       <h3 class="title" id="t-gerfaut" data-reveal>Gerfaut</h3>
       <p data-reveal style="--d:1">{{ t.projects.gerfaut_body }}</p>
-      <p class="note" data-reveal style="--d:2">{{ t.projects.gerfaut_beta }}</p>
       <p class="actions" data-reveal style="--d:2"><a class="btn" href="https://gerfaut-wallet.com" data-magnetic>{{ t.projects.gerfaut_open }}</a></p>
     </div>
-    <ul class="gerfaut-facts" aria-label="{{ t.projects.gerfaut_facts_label }}">
-      {%- for f in t.projects.gerfaut_facts %}
-      <li data-reveal style="--d:{{ forloop.index }}">{{ f }}</li>
-      {%- endfor %}
-    </ul>
-    <figure class="gerfaut-band" data-gerfaut>
-      <div class="gerfaut-stage">
-        <img class="gerfaut-desk" src="{{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }}"
-             srcset="{{ '/assets/img/gerfaut/bureau-900.webp' | relative_url }} 900w, {{ '/assets/img/gerfaut/bureau-1600.webp' | relative_url }} 1600w"
-             sizes="(min-width: 960px) 78vw, 100vw" width="1600" height="811" fetchpriority="low" decoding="async"
-             alt="{{ t.projects.gerfaut_desk_alt }}">
-        <div class="gerfaut-phone"><img src="{{ '/assets/img/gerfaut/android-520.webp' | relative_url }}" alt="{{ t.projects.gerfaut_phone_alt }}" width="520" height="1095" fetchpriority="low" decoding="async"></div>
-        <div class="blinds" aria-hidden="true"></div>
-      </div>
-      <figcaption><span class="only-wide">{{ t.projects.gerfaut_caption_wide }}</span>{{ t.projects.gerfaut_caption }}</figcaption>
+    <figure class="gerfaut-shot" data-reveal="wipe" style="--d:2">
+      <img src="{{ '/assets/img/gerfaut/accueil-1200.webp' | relative_url }}"
+           srcset="{{ '/assets/img/gerfaut/accueil-700.webp' | relative_url }} 700w, {{ '/assets/img/gerfaut/accueil-1200.webp' | relative_url }} 1200w"
+           sizes="(min-width: 960px) 44vw, 100vw" width="1200" height="751" fetchpriority="low" decoding="async"
+           alt="{{ t.projects.gerfaut_alt }}">
     </figure>
   </article>
 </section>
@@ -258,6 +242,5 @@
     <div><dt>X</dt><dd><a class="link" href="https://x.com/Loic_Pandul" rel="me noopener">@Loic_Pandul</a></dd></div>
     <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/LoicPandul" rel="me noopener">LoicPandul</a></dd></div>
     <div><dt>Lightning</dt><dd><a class="link" href="lightning:sats@pandul.fr">sats@pandul.fr</a></dd></div>
-    <div><dt>{{ t.contact.city_label }}</dt><dd><span>{{ t.contact.city }}</span></dd></div>
   </dl>
 </section>
