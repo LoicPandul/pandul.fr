@@ -969,6 +969,12 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 .note .link { display: inline; padding: 12px 0; }
 .note .link::after { bottom: 10px; }
 .defn.is-changing .defn-text, .defn.is-changing .defn-term { opacity: 0.25; }
+/* Tirage de la définition au chargement (site.js, initDict) : avec JavaScript, la définition écrite dans la page
+   reste masquée jusqu'au tirage, puis la nouvelle apparaît en fondu. Si le script ne vient pas, elle réapparaît après 3 s ;
+   sans JavaScript, elle est lisible tout de suite. */
+.dict-caption { transition: opacity var(--t-ui) ease; }
+html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term, html.js .dict-caption:not(.is-drawn) { opacity: 0; animation: dict-secours 0.01s 3s forwards; }
+@keyframes dict-secours { to { opacity: 1; } }
 .defn-term { transition: opacity var(--t-ui) ease; }
 .dict-text .note { margin-top: 24px; }
 @media (min-width: 960px) {

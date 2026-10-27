@@ -503,19 +503,25 @@ function initDict() {
     defs = await res.json();
     return defs;
   };
-  // une définition au hasard, d'une autre lettre que la précédente si possible
+  // la dernière définition vue, d'une visite à l'autre, pour ne pas la reprendre
+  const KEY = 'pandul-dict-vue';
+  let seen = null;
+  try { seen = localStorage.getItem(KEY); } catch (e) { /* stockage refusé : tirage sans mémoire */ }
+  // une définition au hasard : jamais celle déjà affichée ni la dernière vue, d'une autre lettre si possible
   const pick = (list) => {
     const curLetter = current.charAt(0);
     let d = null;
-    for (let tries = 0; tries < 12; tries++) {
+    for (let tries = 0; tries < 16; tries++) {
       d = list[Math.floor(Math.random() * list.length)];
-      if (d.t !== current && (d.t.charAt(0) !== curLetter || tries > 8)) break;
+      if (d.t === current || d.s === seen) continue;
+      if (d.t.charAt(0) !== curLetter || tries > 10) break;
     }
     return d;
   };
   // pose la définition ; « animate » : fondu du texte et lettre qui se redessine
   const show = (d, animate) => {
-    current = d.t;
+    current = d.t; seen = d.s;
+    try { localStorage.setItem(KEY, d.s); } catch (e) { /* idem */ }
     const apply = () => {
       const url = `${box.dataset.base}/${d.s}/`;
       term.textContent = d.t; term.href = url; link.href = url;
@@ -536,12 +542,14 @@ function initDict() {
     try { list = await load(); } catch (e) { return; }
     show(pick(list), true);
   });
-  // À chaque visite, une définition différente : tirée dès que la page a fini de charger,
-  // bien avant que l'on arrive au dictionnaire (la lettre du panneau suit).
-  const draw = () => load().then((list) => show(pick(list), false)).catch(() => {});
-  const idle = window.requestIdleCallback || ((f) => setTimeout(f, 300));
-  if (document.readyState === 'complete') idle(draw);
-  else window.addEventListener('load', () => idle(draw), { once: true });
+  // À chaque visite, une définition tirée au hasard dès le démarrage du script : la liste (10 ko) arrive
+  // en général avant que le panneau de la lettre ne se dessine, qui part alors de la bonne lettre.
+  // D'ici là, le terme, le texte et la légende restent masqués (CSS : html.js .defn:not(.is-drawn)), puis apparaissent
+  // en fondu ; sans JavaScript, ou si la liste ne vient pas, la définition écrite dans la page reste.
+  const veil = [box, $('.dict-caption')].filter(Boolean);
+  const reveal = () => veil.forEach((el) => el.classList.add('is-drawn'));
+  const safety = setTimeout(reveal, 2500);
+  load().then((list) => show(pick(list), false)).catch(() => {}).finally(() => { clearTimeout(safety); requestAnimationFrame(reveal); });
 }
 
 /* ---------- Ce que je fais : une page de lignes par métier (chargée à l'approche) ---------- */
