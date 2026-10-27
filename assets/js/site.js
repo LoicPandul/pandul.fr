@@ -481,8 +481,10 @@ function initWorks() {
     placeLabels();
   };
   window.addEventListener('resize', onResize, { passive: true });
-  // au doigt, on part du milieu de la réglette (premier article Bitstack) pour qu'il y ait des traits des deux côtés
-  set(wide() ? 0 : starts[Math.min(1, starts.length - 1)]);
+  // au doigt, on part du premier groupe qui remplit la moitié gauche de la réglette (Wizardsardine aujourd'hui) :
+  // des traits des deux côtés du curseur, jamais une demi-réglette vide
+  const half = Math.ceil((track.clientWidth || window.innerWidth) / 16);
+  set(wide() ? 0 : (starts.find((s) => s >= half) ?? Math.min(half, N - 1)));
   requestAnimationFrame(onResize);
   works = { items, groups: groups.map((g) => g.name) };
 }
