@@ -804,8 +804,6 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   html.bar-shown .trades-tabs { top: var(--bar-h); }
   .trades-tabs.is-past { opacity: 0; transform: translateY(-10px); pointer-events: none; }
   @media (max-width: 599px) { .trades-tabs { justify-content: space-between; gap: 0; } .trades-tabs a { font-size: clamp(0.8125rem, 3.6vw, 0.9375rem); } }
-  /* petit téléphone : « Développement » tient dans l'écran */
-  @media (max-width: 379px) { .trades-tabs a { padding: 0 4px; font-size: 0.78rem; letter-spacing: -0.01em; } }
   .trades-tabs::-webkit-scrollbar { display: none; }
   .trades-tabs a {
     flex: 0 0 auto;
@@ -818,6 +816,8 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
     text-decoration: none;
     transition: background-color var(--t-ui), color var(--t-ui);
   }
+  /* petit téléphone : les trois onglets tiennent dans l'écran (la règle vient après la police des onglets) */
+  @media (max-width: 379px) { .trades-tabs a { padding: 0 3px; font-size: 0.78rem; letter-spacing: -0.01em; } }
   .trades-tabs a.is-current { background: var(--mark); color: var(--ink); }
   /* un onglet touché amène le métier sous la barre d'onglets, pas dessous */
   .trade { scroll-margin-top: 72px; }
