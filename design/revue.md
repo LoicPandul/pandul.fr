@@ -215,3 +215,16 @@ Travail, en français et en anglais : textes tournés vers ce que le client gagn
 Après le round C : onglets qui tiennent de 320 à 430 px, capture de Second arrêtée au-dessus du QR code.
 
 Définition du dictionnaire (27 octobre 2026) : tirée au hasard à chaque visite, jamais celle de la visite précédente (retenue dans le localStorage, clé `pandul-dict-vue`), masquée jusqu'au tirage puis en fondu ; sans JavaScript, ou si la liste ne vient pas, la définition écrite dans la page reste lisible.
+
+## Trous sur téléphone (27 octobre 2026)
+
+Retour de Loïc : de grands vides sur la version mobile. Captures pleine page et écran par écran à 360, 390 et 430 px, en français et en anglais, avant et après.
+
+| Trou | Cause | Correctif |
+|---|---|---|
+| 150 à 200 px blancs entre deux blocs (réglette → « Ce que je fais », titre → onglets → métier, Développement → Projets, Gerfaut → Contact, Contact → pied de page) | marges de l'ordinateur gardées au téléphone : `--section` à 96 px, plus 72 px sous chaque métier, 56 px d'écart dans « Ce que je fais », 104 px au-dessus de la réglette | sous 600 px : `--section` à 64 px, 48 px sous un métier, 28 px d'écart, 72 px au-dessus de la réglette, 64 px sous le contact |
+| jusqu'à 145 px vides dans le cadre de la définition | hauteur réservée à la plus longue définition (370 à 425 px) | au téléphone, le cadre épouse la définition et glisse vers sa nouvelle hauteur au clic ; l'ordinateur garde sa réserve |
+| moitié gauche de la réglette vide | le départ visait « le deuxième groupe », devenu Plan ₿ Academy (3e trait) depuis que Second ouvre la réglette | départ sur le premier groupe qui remplit la moitié gauche (Wizardsardine) |
+| panneaux de « Ce que je fais » vides (420 px) en capture et au défilement rapide | un panneau hors de l'écran n'était jamais dessiné | premier dessin fait même hors de l'écran |
+
+Après : plus aucun blanc au-delà de 128 px au téléphone (ceux qui restent séparent deux sections), aucun élément resté invisible, version bureau à la même hauteur et aux mêmes blancs, aucun débordement.
