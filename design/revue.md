@@ -201,3 +201,15 @@ Travail : version anglaise sur `/en/` (page commune `_includes/accueil.html`, te
 | 2 | 8,5 | 8,5 | changement de langue qui perdait la place dans la section, description de Second trop longue, espaces insécables du canvas |
 
 Après le round 2 : la place lue est gardée au changement de langue, la description de Second est raccourcie, le retour arrière remet le sélecteur sur la bonne langue.
+
+## Deuxième retour de Loïc (26 et 27 octobre 2026)
+
+Travail, en français et en anglais : textes tournés vers ce que le client gagne (rédaction, documentation sur Mintlify et Fumadocs pensée pour les LLM, contact) ; chapeau de « Ce que je fais », « En ce moment… » et aides sur le fonctionnement du site retirés ; miniatures Plan ₿ Academy d'origine ; capture claire de la doc de Second ; texte du dictionnaire imposé ; Développement avec Gerfaut et SatConverter, sans minisign, visuel de code (`cargo test`) ; Gerfaut réduit à une capture de l'accueil ; pied de page sans bandeau ni adresse, avec la clé minisign entière qui se copie au clic ; réglette en escalier (Second, Plan ₿ Academy, Wizardsardine, Bitstack, Découvre Bitcoin, Space Kek, puis « Autres ») avec un libellé pour chaque client actuel ; définition du dictionnaire tirée au hasard à chaque visite.
+
+| Round | Téléphone | Ordinateur | Principaux reproches |
+|---|---|---|---|
+| A | 7,5 | 8 | trait sélectionné plus haut que son palier, capture de Second illisible au téléphone, accord en anglais, libellé de chiffre sur trois lignes |
+| B | 8 | 8 | creux du trait sélectionné sous la loupe, onglet « Développement » coupé à 360 px, recadrage de Second, tournures |
+| C | 8 | 8,5 | onglet FR à 2 px du bord sous 375 px, capture de Second coupée dans le QR code |
+
+Après le round C : onglets qui tiennent de 320 à 430 px, capture de Second arrêtée au-dessus du QR code.
