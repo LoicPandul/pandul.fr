@@ -503,33 +503,45 @@ function initDict() {
     defs = await res.json();
     return defs;
   };
-  btn.hidden = false;
-  btn.addEventListener('click', async () => {
-    let list;
-    try { list = await load(); } catch (e) { return; }
+  // une définition au hasard, d'une autre lettre que la précédente si possible
+  const pick = (list) => {
     const curLetter = current.charAt(0);
     let d = null;
     for (let tries = 0; tries < 12; tries++) {
       d = list[Math.floor(Math.random() * list.length)];
       if (d.t !== current && (d.t.charAt(0) !== curLetter || tries > 8)) break;
     }
+    return d;
+  };
+  // pose la définition ; « animate » : fondu du texte et lettre qui se redessine
+  const show = (d, animate) => {
     current = d.t;
-    box.classList.add('is-changing');
-    setTimeout(() => {
+    const apply = () => {
       const url = `${box.dataset.base}/${d.s}/`;
       term.textContent = d.t; term.href = url; link.href = url;
       text.textContent = d.d;
       box.classList.remove('is-changing');
-    }, reduce ? 0 : 220);
+    };
+    if (animate && !reduce) { box.classList.add('is-changing'); setTimeout(apply, 220); } else apply();
     const letter = d.t.charAt(0);
     if (letterEl) letterEl.textContent = letter;
     const capL = $('[data-dict-caption-letter]'), capT = $('[data-dict-caption-term]');
     if (capL) capL.textContent = letter;
     if (capT) capT.textContent = d.t;
-    if (letterStage && letterFigure) letterStage.morphTo(letterFigure(letter), false, reduce ? 200 : 1100), kick();
+    if (letterStage && letterFigure) { letterStage.morphTo(letterFigure(letter), false, animate && !reduce ? 1100 : 200); kick(); }
+  };
+  btn.hidden = false;
+  btn.addEventListener('click', async () => {
+    let list;
+    try { list = await load(); } catch (e) { return; }
+    show(pick(list), true);
   });
-  // Charge la liste à l'approche, pour que le premier clic soit immédiat.
-  new IntersectionObserver((en, io) => { if (en[0].isIntersecting) { load().catch(() => {}); io.disconnect(); } }, { rootMargin: '400px 0px' }).observe(box);
+  // À chaque visite, une définition différente : tirée dès que la page a fini de charger,
+  // bien avant que l'on arrive au dictionnaire (la lettre du panneau suit).
+  const draw = () => load().then((list) => show(pick(list), false)).catch(() => {});
+  const idle = window.requestIdleCallback || ((f) => setTimeout(f, 300));
+  if (document.readyState === 'complete') idle(draw);
+  else window.addEventListener('load', () => idle(draw), { once: true });
 }
 
 /* ---------- Ce que je fais : une page de lignes par métier (chargée à l'approche) ---------- */
