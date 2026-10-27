@@ -1059,6 +1059,16 @@ html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term
 .channels dd a.link::after { bottom: 8px; }
 @media (min-width: 960px) { .channels { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
+/* Téléphone : les respirations de l'ordinateur, à l'échelle d'un écran étroit. Les marges des sections, des métiers
+   et de la réglette s'additionnaient en blancs de 150 à 200 px entre deux blocs. */
+@media (max-width: 599px) {
+  :root { --section: 64px; }
+  .works { margin-top: 72px; }
+  .trades { gap: 28px; }
+  .trade { padding-bottom: 48px; }
+  .contact { padding-bottom: 64px !important; }
+}
+
 /* Pied de page : la clé minisign entière, les projets, la mention légale */
 .foot {
   display: grid;
