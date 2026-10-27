@@ -213,3 +213,5 @@ Travail, en français et en anglais : textes tournés vers ce que le client gagn
 | C | 8 | 8,5 | onglet FR à 2 px du bord sous 375 px, capture de Second coupée dans le QR code |
 
 Après le round C : onglets qui tiennent de 320 à 430 px, capture de Second arrêtée au-dessus du QR code.
+
+Définition du dictionnaire (27 octobre 2026) : tirée au hasard à chaque visite, jamais celle de la visite précédente (retenue dans le localStorage, clé `pandul-dict-vue`), masquée jusqu'au tirage puis en fondu ; sans JavaScript, ou si la liste ne vient pas, la définition écrite dans la page reste lisible.
