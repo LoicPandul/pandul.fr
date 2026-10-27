@@ -23,7 +23,7 @@
       logo: "wizardsardine.svg"
       ratio: 8.43
       optique: 1.32
-      travail: "Rédaction d'articles de blog et contenus pour leur compte X (Twitter)"
+      travail: "Rédaction d'articles de blog et de contenus pour leur compte X (Twitter)"
       travail_en: "Blog articles and posts for their X (Twitter) account"
       comptes:
         - {source: "ecrits", platform: "Wizardsardine", libelle: "articles", libelle_en: "articles"}
@@ -37,7 +37,7 @@
       ratio: 5.33
       optique: 1.14
       travail: "Formations, tutoriels et maintenance du dépôt de contenus"
-      travail_en: "Courses, tutorials and upkeep of the content repository"
+      travail_en: "Courses, tutorials and maintenance of the content repository"
       comptes:
         - {source: "formations", platform: "Plan ₿ Academy", libelle: "formations", libelle_en: "courses"}
         - {source: "ecrits", platform: "Plan ₿ Academy", libelle: "tutoriels", libelle_en: "tutorials"}
@@ -46,7 +46,7 @@
       logo: "bitstack.svg"
       ratio: 6.43
       travail: "Rédaction et maintenance du blog, dont j'étais le seul auteur, et production de podcasts"
-      travail_en: "Writing and upkeep of the blog, where I was the only author, and podcast production"
+      travail_en: "Writing and maintenance of the blog, where I was the only author, and podcast production"
       comptes:
         - {source: "ecrits", platform: "Bitstack", libelle: "articles", libelle_en: "articles"}
       url: "https://www.bitstack-app.com"
