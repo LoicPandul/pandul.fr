@@ -552,7 +552,8 @@ export async function initTrades({ frames, kick, reduce }) {
     for (const st of stages) {
       if (!st.layouts) continue;
       const r = st.cv.getBoundingClientRect();
-      if (r.bottom < 0 || r.top > vh) continue;
+      // hors de l'écran, seulement le premier dessin : un panneau n'est jamais une boîte vide, même au défilement rapide
+      if ((r.bottom < 0 || r.top > vh) && st.sig) continue;
       let from, to, t, qa, qb;
       if (st.solo) {
         const q = clamp((vh * 0.92 - r.top) / (vh * 0.62));
