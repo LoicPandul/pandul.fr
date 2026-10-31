@@ -240,6 +240,9 @@ Réglés :
 Réponses de Loïc (31 octobre 2026) : 64 px gardés au téléphone, la réglette part sur l'article Wizardsardine, branche poussée sans PR ni merge. Logos de Space Kek et de How to Bitcoin reçus en petites images (216 × 62 et 96 × 48 px), sans fichier vectoriel : redessinés en SVG d'après ces images, avec les polices qui les composent (Montserrat ExtraBold ; Ubuntu Bold Italic, la plus proche), posés en masque comme les autres marques, le texte principal de Space Kek à la hauteur des autres logos (`optique` 1,35). « Le meilleur portefeuille watch-only », « EI » dans le pied de page anglais et « vibe code » : gardés tels quels, réglé.
 
 Attendent Loïc :
-- lien Amazon du livre (seul Bitcoin Bazar reste, sur « format papier ») ;
-- vide à droite sous « Développement » sur ordinateur : le texte est centré face au panneau collé, il reste environ 230 px vides sous lui à 1440 × 900 ;
-- Grand Angle Bitcoin : script de la vidéo sur les CoinJoins écrit ou non ;
+- aucun.
+
+Réglés le 31 octobre 2026, sur réponse de Loïc :
+- lien Amazon du livre remis (édition 2026) à côté de Bitcoin Bazar, sur « format papier », en français et en anglais ;
+- vide d'environ 230 px à droite sous « Développement » sur ordinateur : gardé tel quel ;
+- Grand Angle Bitcoin : le script de la vidéo sur les CoinJoins est bien de Loïc ; la vidéo reste dans les contenus et la marque affiche son compte (« 1 script de vidéo »).
