@@ -81,6 +81,8 @@
       ratio: 2.64
       travail: "Écriture des scripts de vidéos techniques sur Bitcoin"
       travail_en: "Scripts for technical videos about Bitcoin"
+      comptes:
+        - {source: "audio-video", platform: "Grand Angle Bitcoin", libelle: "script de vidéo", libelle_en: "video script"}
       url: "https://www.youtube.com/@grandanglebitcoin"
     - nom: "How to Bitcoin"
       logo: "howtobitcoin.svg"
