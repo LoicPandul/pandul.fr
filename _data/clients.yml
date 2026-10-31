@@ -1,6 +1,7 @@
 # Clients affichés dans « Ils me font confiance », par période.
 # logo : fichier de assets/img/clients/ (monochrome, recoloré en CSS) ; ratio = largeur / hauteur du logo.
-# Space Kek et How to Bitcoin : leur logo vectorisé depuis une image fournie par Loïc (pas de fichier vectoriel officiel).
+# Space Kek et How to Bitcoin n'ont pas de logo vectoriel : ils sont redessinés en SVG d'après leurs images
+# (Montserrat ExtraBold, Ubuntu Bold Italic, licence SIL OFL, texte converti en tracés).
 # compte : le chiffre est calculé depuis _data/<source>.yml, filtré par platform (et type si donné).
 # Les champs en _en sont ceux de la version anglaise (/en/).
 
@@ -52,7 +53,8 @@
       url: "https://www.bitstack-app.com"
     - nom: "Space Kek"
       logo: "spacekek.svg"
-      ratio: 3.86
+      ratio: 3.84
+      optique: 1.35
       travail: "Podcast technique sur Bitcoin"
       travail_en: "Technical podcast about Bitcoin"
       comptes:
@@ -82,6 +84,6 @@
       url: "https://www.youtube.com/@grandanglebitcoin"
     - nom: "How to Bitcoin"
       logo: "howtobitcoin.svg"
-      ratio: 2.14
+      ratio: 2.12
       travail: "Interview sur la confidentialité avec Bitcoin"
       travail_en: "Interview on Bitcoin privacy"
