@@ -237,10 +237,9 @@ Réglés :
 - adresse du dictionnaire : définitive (`dictionnaire_url`, dictionnaire-bitcoin.com), elle n'est plus provisoire comme l'indique la section 14 de `direction.md` ;
 - Lighthouse mobile après les correctifs du 27 octobre : 93 en performance sur un serveur compressé façon GitHub Pages, 100 ailleurs, en français et en anglais. Sur le serveur Python brut, 87 à 89 avant comme après ces correctifs : pas de régression.
 
-Réponses de Loïc (31 octobre 2026) : 64 px gardés au téléphone, la réglette part sur l'article Wizardsardine, branche poussée sans PR ni merge. Logos de Space Kek et de How to Bitcoin reçus en images (216 × 62 et 96 × 48 px), vectorisés avec potrace et posés en masque comme les autres marques ; un fichier vectoriel officiel les rendrait plus fins en grand.
+Réponses de Loïc (31 octobre 2026) : 64 px gardés au téléphone, la réglette part sur l'article Wizardsardine, branche poussée sans PR ni merge. Logos de Space Kek et de How to Bitcoin reçus en petites images (216 × 62 et 96 × 48 px), sans fichier vectoriel : redessinés en SVG d'après ces images, avec les polices qui les composent (Montserrat ExtraBold ; Ubuntu Bold Italic, la plus proche), posés en masque comme les autres marques, le texte principal de Space Kek à la hauteur des autres logos (`optique` 1,35). « Le meilleur portefeuille watch-only », « EI » dans le pied de page anglais et « vibe code » : gardés tels quels, réglé.
 
 Attendent Loïc :
 - lien Amazon du livre (seul Bitcoin Bazar reste, sur « format papier ») ;
-- « le meilleur portefeuille watch-only », « EI » dans le pied de page anglais, « vibe code » : gardés tels que demandés, signalés par le relecteur ;
 - vide à droite sous « Développement » sur ordinateur : le texte est centré face au panneau collé, il reste environ 230 px vides sous lui à 1440 × 900 ;
 - Grand Angle Bitcoin : script de la vidéo sur les CoinJoins écrit ou non ;
