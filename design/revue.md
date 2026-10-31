@@ -228,3 +228,21 @@ Retour de Loïc : de grands vides sur la version mobile. Captures pleine page et
 | panneaux de « Ce que je fais » vides (420 px) en capture et au défilement rapide | un panneau hors de l'écran n'était jamais dessiné | premier dessin fait même hors de l'écran |
 
 Après : plus aucun blanc au-delà de 128 px au téléphone (ceux qui restent séparent deux sections), aucun élément resté invisible, version bureau à la même hauteur et aux mêmes blancs, aucun débordement.
+
+## Points ouverts (31 octobre 2026)
+
+Réglés :
+- reproches du round 10 (textes pâles sur la réglette, navigation d'ordinateur discrète, Projets longue) : dépassés par les rounds suivants. Le pâle sur l'encre est à 6,5:1, la barre d'ordinateur montre les quatre sections, Gerfaut est réduit à une capture ;
+- « Ce que je fais » trop longue au téléphone : raccourcie par les marges du 27 octobre. La capture de Bark Pay en miniature est écartée : le round A la jugeait déjà illisible au téléphone ;
+- adresse du dictionnaire : définitive (`dictionnaire_url`, dictionnaire-bitcoin.com), elle n'est plus provisoire comme l'indique la section 14 de `direction.md` ;
+- Lighthouse mobile après les correctifs du 27 octobre : 93 en performance sur un serveur compressé façon GitHub Pages, 100 ailleurs, en français et en anglais. Sur le serveur Python brut, 87 à 89 avant comme après ces correctifs : pas de régression.
+
+Attendent Loïc :
+- marges de 64 px entre deux sections au téléphone (72 ou 80 px possibles) ;
+- premier contenu de la réglette au téléphone (un article Wizardsardine aujourd'hui) ;
+- push de la branche `feat/v3-vitrine` ;
+- lien Amazon du livre (seul Bitcoin Bazar reste, sur « format papier ») ;
+- « le meilleur portefeuille watch-only », « EI » dans le pied de page anglais, « vibe code » : gardés tels que demandés, signalés par le relecteur ;
+- vide à droite sous « Développement » sur ordinateur : le texte est centré face au panneau collé, il reste environ 230 px vides sous lui à 1440 × 900 ;
+- Grand Angle Bitcoin : script de la vidéo sur les CoinJoins écrit ou non ;
+- vrais logos de Space Kek et de How to Bitcoin (leur nom composé en attendant).
