@@ -7,6 +7,7 @@ const fs = require('fs');
 
 const TARGETS = [
   'assets/img/social-card.png',
+  'assets/img/social-card-en.png',
 ];
 const MAX_BYTES = 1024 * 1024;  // 1 MB seuil SO-06
 const TARGET_W = 1200;          // valeur déclarée _data/seo.yml og.default_image_width

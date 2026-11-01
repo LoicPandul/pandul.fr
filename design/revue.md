@@ -275,3 +275,4 @@ Loïc garde la palette. Suites données :
 - **Animations encore en bleu chez Loïc** : les modules des animations (`site.js`, `trades.js`, `lines.js`) étaient servis sans version dans l'URL, donc un navigateur gardait en cache l'ancien code aux couleurs bleues codées en dur. `site.js` porte maintenant `?v=<date du build>` et passe ce suffixe aux modules qu'il charge.
 - **Images** : la carte de partage `social-card.png` et les images non utilisées (`formations/*.webp`, `second-bark-pay-encre-*.webp`) sont recolorées du bleu vers noir et béton.
 - **Carte de partage** : « Bitcoin » y est surligné en jaune, comme dans l'accroche. Il n'y a qu'une carte, en français, pour les deux langues.
+- **Carte de partage anglaise** : `social-card-en.png` (« Technical writer focused on Bitcoin. », « Bitcoin » surligné), déclarée dans `og:image` et `twitter:image` de `/en/`, avec un texte alternatif anglais. La 404 déclare la carte française.

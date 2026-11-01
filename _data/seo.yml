@@ -42,6 +42,7 @@ og:
   default_image_width: 1200
   default_image_height: 630
   default_image_alt: "Loïc Morel, rédacteur technique spécialisé sur Bitcoin"
+  default_image_alt_en: "Loïc Morel, technical writer focused on Bitcoin"
   default_locale: "fr_FR"
   site_name: "Pandul"
 
