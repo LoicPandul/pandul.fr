@@ -274,3 +274,4 @@ Loïc garde la palette. Suites données :
 - **Drapeaux** : dessinés en noir, béton et jaune ; le drapeau inactif n'est plus désaturé.
 - **Animations encore en bleu chez Loïc** : les modules des animations (`site.js`, `trades.js`, `lines.js`) étaient servis sans version dans l'URL, donc un navigateur gardait en cache l'ancien code aux couleurs bleues codées en dur. `site.js` porte maintenant `?v=<date du build>` et passe ce suffixe aux modules qu'il charge.
 - **Images** : la carte de partage `social-card.png` et les images non utilisées (`formations/*.webp`, `second-bark-pay-encre-*.webp`) sont recolorées du bleu vers noir et béton.
+- **Carte de partage** : « Bitcoin » y est surligné en jaune, comme dans l'accroche. Il n'y a qu'une carte, en français, pour les deux langues.
