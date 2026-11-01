@@ -261,6 +261,16 @@ Demande de Loïc : essayer l'association jaune chantier #F5C400, noir #0E0E0E, b
 | `--plate` | #DCD8D0 | panneaux et cadres | noir dessus 13,6:1 |
 | `--ink-deep` | #1E1E1E | surface sur un champ noir (clé minisign) | béton dessus 13,8:1 |
 
-Drapeaux du sélecteur : leurs vraies couleurs (`--flag-fr-blue`, `--flag-fr-red`, `--flag-gb-blue`, `--flag-gb-red`), le blanc pris au fond. Les canvas (`trades.js`, `lines.js`) lisent les variables CSS au lieu de couleurs codées en dur. Seuls restent en dur, faute de variable possible : la balise `theme-color`, le favicon et les deux portraits de secours, recolorés. Le site n'a qu'un thème clair.
+Drapeaux du sélecteur : d'abord gardés dans leurs vraies couleurs, puis redessinés dans la palette à la demande de Loïc (voir plus bas). Les canvas (`trades.js`, `lines.js`) lisent les variables CSS au lieu de couleurs codées en dur. Seuls restent en dur, faute de variable possible : la balise `theme-color`, le favicon et les deux portraits de secours, recolorés. Le site n'a qu'un thème clair.
 
 Relecture d'un sous-agent : 8/10. Aucune trace de l'ancienne palette, rien d'illisible. Il note que le premier écran sur ordinateur n'a aucune touche de jaune.
+
+### Palette validée (1er novembre 2026)
+
+Loïc garde la palette. Suites données :
+
+- **Accroche** : « Bitcoin » surligné en jaune dans « Rédacteur technique spécialisé sur Bitcoin » (FR et EN), ajouté par le gabarit pour ne pas toucher au `jobTitle` du JSON-LD.
+- **Planches de « Ce que je fais »** : la planche jaune pâle (`#F9E08A`, celle de Documentation) passe au gris `--plate` ; la variable `--cream` disparaît.
+- **Drapeaux** : dessinés en noir, béton et jaune ; le drapeau inactif n'est plus désaturé.
+- **Animations encore en bleu chez Loïc** : les modules des animations (`site.js`, `trades.js`, `lines.js`) étaient servis sans version dans l'URL, donc un navigateur gardait en cache l'ancien code aux couleurs bleues codées en dur. `site.js` porte maintenant `?v=<date du build>` et passe ce suffixe aux modules qu'il charge.
+- **Images** : la carte de partage `social-card.png` et les images non utilisées (`formations/*.webp`, `second-bark-pay-encre-*.webp`) sont recolorées du bleu vers noir et béton.

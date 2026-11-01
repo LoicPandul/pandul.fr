@@ -62,35 +62,37 @@ Gardé du tirage : l'accueil en deux moitiés ; la consigne de casser le partage
 
 ui-ux-pro-max (`--design-system`, variance 8, motion 8) : récit au défilement, monochrome avec un bleu, coins droits, typographie grasse. Gardé. Écarté : la paire Caveat / Quicksand (manuscrite) et le bleu `#2563EB` de Tailwind.
 
-## 5. Palette : une encre bleue, un papier
+## 5. Palette : noir, blanc béton, jaune chantier
 
-L'idée : **tout est écrit à l'encre bleue**, comme une copie ou une lettre au stylo. Le texte courant, les titres, les lignes, les boutons : une seule encre. Pas de noir nulle part. Une seule section inverse les rôles (Contact et pied de page : papier sur encre). C'est l'encre du pédagogue, pas le bleu d'une interface.
+Palette choisie par Loïc le 1er novembre 2026, à la place de l'encre bleue des premières versions. **Le texte est noir sur un blanc béton**, une seule couleur vive, le jaune chantier, qui ne fait que surligner. Les champs noirs (clients, contact, pied de page) inversent les rôles : béton sur noir. Toutes les couleurs sont des variables CSS de `_includes/site.css` ; les canvas (`trades.js`, `lines.js`) et les drapeaux les lisent au lieu de couleurs codées en dur.
 
-| Rôle | Nom | Valeur | Usage |
-| --- | --- | --- | --- |
-| Fond | Papier | `#F2F2EE` | Fond de toute la page. Presque neutre, à peine chaud, pas crème (chroma OKLCH 0,004 contre 0,010 pour le crème générique `#F4F1EA`). |
-| Encre | Encre | `#183F8F` | Tout le texte, les titres, les lignes, le bouton principal, et le champ de la section Contact. OKLCH 0,39 / 0,14 / 262°. |
-| Texte secondaire | Encre douce | `#4B5F8E` | Légendes et métadonnées seulement. |
-| Plaque | Plaque | `#D6DCE8` | Fond des captures et du bloc de code, pour qu'elles aient la même assise. |
-| Texte secondaire sur encre | Bleu pâle | `#C9D3EA` | Légendes dans la section Contact et le pied de page. |
-| Surligneur | Jaune | `#FFD24A` | Toujours en fond derrière l'encre, jamais en texte : l'élément « en cours » (contenu lu dans la réglette, terme de la définition affichée) et la sélection de texte. C'est le geste du pédagogue qui surligne l'essentiel. |
+| Variable | Valeur | Usage |
+| --- | --- | --- |
+| `--paper` | `#ECE9E3` | Fond de la page ; texte et boutons sur les champs noirs. |
+| `--ink` | `#0E0E0E` | Texte, titres, liens, boutons, lignes, champs noirs. |
+| `--mark` | `#F5C400` | Toujours en fond derrière le noir, ou en trait sur le noir, jamais en texte sur le béton : mot surligné de l'accroche, contenu lu dans la réglette, terme de la définition, onglet en cours, survol des boutons, sélection de texte. |
+| `--ink-soft` | `#55514A` | Texte secondaire sur le béton. |
+| `--pale` | `#B8B2A7` | Texte secondaire sur les champs noirs. |
+| `--plate` | `#DCD8D0` | Panneaux et cadres (captures, planches de « Ce que je fais »). |
+| `--ink-deep` | `#1E1E1E` | Surface posée sur un champ noir (clé minisign). |
 
-Choix du bleu : j'ai comparé côte à côte six encres avec les bleus de Coinbase et Base (`#0052FF`), de Tailwind (`#1D4ED8`, `#1E40AF`) et des cartes Cloudflare (`#3D3DD6`) (capture `.taste-skill/lab/palette.jpg`). Le bleu de la version 1 (`#2337C6`) tombait à 4° de Cloudflare et entre deux bleus de Tailwind. `#183F8F` est moins saturé (chroma 0,14 contre 0,22 à 0,26 pour les bleus d'interface) et légèrement plus vert : il se lit comme l'encre d'un stylo bille, pas comme un bouton.
+Drapeaux du sélecteur de langue : redessinés dans la palette (France noir, béton, jaune ; Royaume-Uni noir, croix béton et jaune).
 
 Contrastes calculés (WCAG 2.x) :
 
 | Paire | Rapport | Seuil |
 | --- | --- | --- |
-| Encre sur papier | 8,72 | AAA |
-| Encre sur plaque | 7,5 env. | AAA |
-| Encre douce sur papier | 5,62 | AA |
-| Papier sur encre | 8,72 | AAA |
-| Bleu pâle sur encre | 6,52 | AA |
-| Encre sur surligneur | 6,79 | AA |
+| Noir sur béton, béton sur noir | 15,93 | AAA |
+| Noir sur jaune, jaune sur noir | 11,75 | AAA |
+| Noir sur plaque | 13,58 | AAA |
+| `--ink-soft` sur béton | 6,51 | AA |
+| `--ink-soft` sur plaque | 5,55 | AA |
+| `--pale` sur noir | 9,16 | AAA |
+| Béton sur `--ink-deep` | 13,76 | AAA |
 
-Le jaune n'a que 1,26:1 sur le papier : il ne porte jamais de texte, il ne fait que surligner sous de l'encre.
+Le jaune n'a que 1,36:1 sur le béton : il ne porte jamais de texte sur le fond clair.
 
-Interdits vérifiés : rien de Liana (noir `#141414`, vert `#00FF66`), de Wizard Sardine (noir `#0C0C0C`), de Second (blanc et noir bleuté, DM Sans), ni de Gerfaut (sarcelle `#0E7490`). Pas de noir, pas de vert, pas de violet, pas de crème, pas de terracotta. Pas de mode sombre.
+Interdits vérifiés : rien de Liana (vert `#00FF66`), de Second (DM Sans) ni de Gerfaut (sarcelle `#0E7490`). Le noir `#0E0E0E` est voisin des noirs de Liana (`#141414`) et de Wizard Sardine (`#0C0C0C`) sans être l'un d'eux ; c'est le jaune qui porte l'identité. Pas de mode sombre.
 
 ## 6. Typographie
 
@@ -277,7 +279,7 @@ Anneau de focus : 3 px, décalé de 3 px, en encre sur papier et en papier sur e
 | Objection du relecteur | Correction |
 | --- | --- |
 | Des lignes horizontales ne savent pas dessiner des logos-mots (8 sur 10) ni un long terme | Logos en vrai SVG, terme en HTML. Les lignes ne dessinent que des formes grandes : visage, lettre géante, nom (au moins 30 lignes par lettre). |
-| Le bleu est celui de Tailwind et de Cloudflare ; un aplat bleu à formes blanches fait Coinbase | Encre `#183F8F`, désaturée, comparée aux références ; le bleu devient l'encre du texte sur papier, un seul aplat (Contact). Section Nuit supprimée. |
+| Le bleu est celui de Tailwind et de Cloudflare ; un aplat bleu à formes blanches fait Coinbase | Encre bleue désaturée, comparée aux références, devenue l'encre du texte sur papier, un seul aplat (Contact) ; remplacée depuis par la palette noir, béton et jaune (section 5). Section Nuit supprimée. |
 | Le portrait en lignes claires sur bleu perd les cheveux et la barbe, le t-shirt fait un aplat, risque de « billet de banque » | Encre sur papier (épaisseur = ombre), recadrage tête et épaules, lignes coupées en mots tirés de ses 246 titres, loupe qui les rend lisibles. |
 | « Ils me font confiance » trop bas, logos jamais visibles ensemble, rotation automatique non conforme | Deuxième section, dix marques visibles d'un coup, plus de rotation. |
 | Réglette inutilisable au doigt | Piste défilante aimantée sous 960 px, 8 px par trait, repère central, lecture au-dessus, groupes nommés, clavier complet, liste complète. |
@@ -305,7 +307,7 @@ Ce qui a changé en construisant, et pourquoi :
 - **Rendu logiciel** (pas de carte graphique) : densité de pixels 1, pour ménager le processeur.
 - **Réglette, clic** : un clic fixe la sélection (comportement d'un curseur) ; c'est le lien « Ouvrir » qui ouvre le contenu.
 - **Formations** : une liste avec une vignette traitée en encre pour chaque cours, visible partout, au lieu d'une couverture qui suit le curseur (invisible au doigt).
-- **Contact** : une vraie photo de Loïc, en bichromie encre, dont le fond se fond dans le champ bleu.
+- **Contact** : une vraie photo de Loïc, en bichromie encre, dont le fond se fond dans le champ noir.
 - **Lettres du pied de page** : la lettre survolée se remplit et passe au jaune ; l'écartement vertical créait des coutures dans les lignes du fond, il a été retiré.
 - **Logos de Space Kek et How to Bitcoin** : leur nom composé en Mona Sans et converti en tracé SVG, pour qu'ils aient la même présence que les autres marques (à remplacer par les vrais logos).
 - **Jaune** : il surligne aussi le survol des boutons, des marques et de l'adresse e-mail, et le métier en cours dans l'index de « Ce que je fais ».
