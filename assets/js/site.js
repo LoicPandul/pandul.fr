@@ -390,7 +390,7 @@ function initWorks() {
         // collé au bord, son repère est sorti de l'écran : une flèche dit que le groupe a commencé plus à gauche
         l.classList.toggle('is-pinned', pinned);
         // un nom qui entre par la droite reste entier : il passe à gauche de son repère
-        const lw = l.offsetWidth, lx = pinned || x + 8 + lw <= tw ? x + 8 : x - 8 - lw;
+        const lw = l.offsetWidth, lx = pinned ? 0 : x + 8 + lw <= tw ? x + 8 : x - 8 - lw;
         const out = x > tw || x + lw < 0 || l.classList.contains('is-small');
         const row = out ? -1 : pinned ? 0 : ends.findIndex((e) => lx >= e + 12);
         if (row >= 0) ends[row] = lx + lw;
@@ -410,8 +410,21 @@ function initWorks() {
     const tw = track.clientWidth, rw = Math.min(read.offsetWidth || 0, tw);
     read.style.setProperty('--rx', clamp(px - 48, 0, Math.max(0, tw - rw)).toFixed(0) + 'px');
   };
+  // le pointeur file vers « Ouvrir » (vers le haut, droit sur le bouton) : on garde le contenu lu au lieu de lire chaque trait traversé
+  let last = null;
+  const aiming = (e) => {
+    const p = last; last = { x: e.clientX, y: e.clientY };
+    if (!p || e.pointerType !== 'mouse') return false;
+    const dx = e.clientX - p.x, dy = e.clientY - p.y;
+    if (dy > -1) return false;
+    const b = openEl.getBoundingClientRect();
+    const t = (b.bottom - e.clientY) / dy;
+    const hx = e.clientX + dx * t;
+    return t > 0 && hx >= b.left - 24 && hx <= b.right + 24;
+  };
   track.addEventListener('pointermove', (e) => {
-    if (!wide() || e.pointerType === 'touch') return;
+    // au doigt sur une grande tablette, glisser le long de la réglette la parcourt aussi
+    if (!wide() || aiming(e)) return;
     const r = track.getBoundingClientRect();
     const x = clamp((e.clientX - r.left) / r.width) * N;
     dock.x = x; dock.target = 1;
@@ -419,7 +432,7 @@ function initWorks() {
     follow(e.clientX - r.left);
     kick();
   });
-  track.addEventListener('pointerleave', () => { dock.target = 0; kick(); });
+  track.addEventListener('pointerleave', () => { dock.target = 0; last = null; kick(); });
   track.addEventListener('click', (e) => {
     if (!wide()) return;
     const r = track.getBoundingClientRect();
@@ -527,8 +540,14 @@ function initDict() {
     const apply = () => {
       const h0 = box.offsetHeight;
       const url = `${box.dataset.base}/${d.s}/`;
-      term.textContent = d.t; term.href = url; link.href = url;
-      text.textContent = d.d;
+      // espaces insécables à l'intérieur des guillemets : « et » ne restent jamais seuls en bout de ligne
+      const nbsp = (s) => s.replace(/« /g, '«\u00a0').replace(/ »/g, '\u00a0»');
+      term.textContent = nbsp(d.t); term.href = url; link.href = url;
+      text.textContent = nbsp(d.d);
+      // la légende et la lettre changent avec le texte, pas avant lui
+      if (letterEl) letterEl.textContent = letter;
+      if (capL) capL.textContent = letter;
+      if (capT) capT.textContent = d.t;
       box.classList.remove('is-changing');
       // au téléphone le cadre épouse la définition : il glisse vers sa nouvelle hauteur au lieu de sauter
       const h1 = box.offsetHeight;
@@ -538,12 +557,9 @@ function initDict() {
           .finished.finally(() => { box.style.overflow = ''; });
       }
     };
-    if (animate && !reduce) { box.classList.add('is-changing'); setTimeout(apply, 220); } else apply();
     const letter = d.t.charAt(0);
-    if (letterEl) letterEl.textContent = letter;
     const capL = $('[data-dict-caption-letter]'), capT = $('[data-dict-caption-term]');
-    if (capL) capL.textContent = letter;
-    if (capT) capT.textContent = d.t;
+    if (animate && !reduce) { box.classList.add('is-changing'); setTimeout(apply, 220); } else apply();
     if (letterStage && letterFigure) { letterStage.morphTo(letterFigure(letter), false, animate && !reduce ? 1100 : 200); kick(); }
   };
   btn.hidden = false;

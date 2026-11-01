@@ -66,7 +66,7 @@
               {%- for n in c.comptes -%}
                 {%- assign src = site.data[n.source] | where: "platform", n.platform -%}
                 {%- if n.type -%}{%- assign src = src | where: "type", n.type -%}{%- endif -%}
-                {{ src | size }} {{ n[k_libelle] }}{% unless forloop.last %}, {% endunless %}
+                {{ src | size }}&nbsp;{{ n[k_libelle] }}{% unless forloop.last %}, {% endunless %}
               {%- endfor -%}
             </p>
             {%- endif %}
@@ -154,7 +154,7 @@
       <ul class="courses" data-reveal style="--d:1">
         {%- for f in site.data.formations %}
         {%- assign code = f.code | downcase | remove: " " %}
-        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}>{{ f.title }}</span></a></li>
+        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}><span>{{ f.title }}</span></span></a></li>
         {%- endfor %}
       </ul>
     </article>
@@ -207,7 +207,7 @@
         <p class="defn-text" data-dict-text aria-live="polite"{% if en %} lang="fr"{% endif %}>{{ def0.d }}</p>
         <p class="defn-actions">
           <a class="link" href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-link>{{ t.projects.dict_read }}</a>
-          <button class="btn btn-sm" type="button" data-dict-next hidden>{{ t.projects.dict_next }}</button>
+          <button class="btn" type="button" data-dict-next hidden>{{ t.projects.dict_next }}</button>
         </p>
       </div>
       <p class="actions" data-reveal style="--d:3"><a class="btn" href="{{ site.dictionnaire_url }}/" data-magnetic>{{ t.projects.dict_open }}</a></p>

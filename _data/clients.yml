@@ -89,3 +89,5 @@
       ratio: 2.12
       travail: "Interview sur la confidentialité avec Bitcoin"
       travail_en: "Interview on Bitcoin privacy"
+      comptes:
+        - {source: "audio-video", platform: "How to Bitcoin", libelle: "interview", libelle_en: "interview"}

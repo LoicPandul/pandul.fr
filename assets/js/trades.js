@@ -98,8 +98,8 @@ function makePen(ctx, out) {
 }
 
 function page(i, W, H, f, ctx, rich = false) {
-  // chaque métier a sa planche : gris béton pour la rédaction et la documentation, gris chaud pour le développement
-  const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: [C.plate, C.plate, C.pale][i] };
+  // les trois métiers sur la même planche gris béton, comme les autres panneaux du site
+  const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: C.plate };
   const flow = makePen(ctx, L.bars);
   const pad = Math.round(Math.max(12, W * 0.045));
   const box = (k, x, y, w, h, col, r = 0) => { L.boxes[k] = { x, y, w, h, col, r }; };

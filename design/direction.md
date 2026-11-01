@@ -105,8 +105,8 @@ Deux familles, et la paire raconte les deux métiers : une grotesque de machine 
 
 | Pas | Taille | Police | Usage |
 | --- | --- | --- | --- |
-| Affiche | `clamp(2.75rem, 9.6vw, 10rem)` | Mona Sans 860 / 75 % | Nom (h1), titres de section (h2), adresse e-mail |
-| Titre | `clamp(1.625rem, 2.3vw, 2.375rem)` | Mona Sans 760 / 100 % | Sous-titres (h3), chiffres |
+| Affiche | `clamp(3.75rem, 16.6vw, 10.5rem)` ; `min(10.5rem, 16svh)` sur un écran d'ordinateur de 920 px de haut ou moins | Mona Sans 860 / 75 % | Titres de section (h2), « 251 », adresse e-mail, liens du menu. Le nom (h1) de l'accueil passe au-dessus sur ordinateur, `clamp(10.5rem, 13vw, 13rem)` |
+| Titre | `clamp(1.625rem, 2.3vw, 2.375rem)` | Mona Sans 760 / 100 % | Sous-titres (h3). Les trois chiffres de Rédaction sont en Affiche réduite, `clamp(3rem, 17cqi, 5.875rem)` |
 | Accroche | `clamp(1.3125rem, 1.7vw, 1.75rem)` | Literata 420, interligne 1,32 | Une phrase d'accroche par section |
 | Texte | `clamp(1.0625rem, 1.05vw, 1.1875rem)` | Literata 400, interligne 1,6 | Texte courant, 45 à 70 caractères par ligne |
 | Petit | `0.9375rem` | Mona Sans 560 | Légendes, navigation, boutons, métadonnées |
@@ -119,8 +119,9 @@ Chargement : préchargement de Mona Sans (le titre), `font-display: swap`, et un
 
 - 12 colonnes, gouttière `clamp(16px, 1.6vw, 24px)`, marges extérieures égales `clamp(20px, 2.8vw, 40px)` des deux côtés, partout.
 - Les grandes images (portrait, lettre, vidéo de Gerfaut, nom du pied de page) vont jusqu'au bord ; le texte garde toujours la marge.
-- Écart entre sections : `clamp(112px, 13vw, 208px)` ; toujours plus grand que tout écart interne.
-- Coins droits partout. Une seule forme de bouton : rectangle plein, 52 px de haut (48 px au moins au doigt).
+- Écart entre sections : `--section`, `clamp(96px, 11vw, 128px)`, 64 px sous 600 px ; toujours plus grand que tout écart interne. Les champs noirs (clients, contact) ont le même écart en haut et en bas.
+- Titre affiche → phrase d'accroche : `--lead-gap`, `clamp(32px, 3.4vw, 48px)`. Titre de section → contenu : `--head-gap`, `clamp(48px, 6vw, 96px)`. Légende sous un panneau : 14 px.
+- Coins droits partout, panneaux en canvas, vignettes, captures et clé compris ; pas d'ombre. Une seule forme de bouton : rectangle plein, 52 px de haut ; la variante compacte de 44 px ne sert que dans la barre et dans la lecture de la réglette, où la hauteur est comptée.
 - Points de rupture : 600, 960, 1200 px. L'accueil passe en deux colonnes à partir de 960 px ; à 768 px tout est empilé.
 
 ## 8. Les sections, une par une
