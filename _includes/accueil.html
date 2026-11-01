@@ -91,13 +91,15 @@
     <details class="works-all">
       <summary>{{ t.works.all | replace: '%n', nb_total }}</summary>
       <div class="works-lists">
-        {%- comment -%} Ordre choisi pour que la hauteur des traits descende en escalier : documentation et formations, tutoriels, articles, puis audio et vidéo. {%- endcomment -%}
-        {%- assign groupes = "Second;Plan ₿ Academy;Wizardsardine;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+        {%- comment -%} Les contenus les plus récents d'abord : Second, Wizardsardine, Plan ₿ Academy, Bitstack, puis les autres. Dans un groupe dont chaque contenu a une date, du plus récent au plus ancien ; sinon l'ordre des fichiers de _data. {%- endcomment -%}
+        {%- assign groupes = "Second;Wizardsardine;Plan ₿ Academy;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
         {%- for g in groupes -%}
           {%- assign w_f = site.data.formations | where: "platform", g -%}
           {%- assign w_e = site.data.ecrits | where: "platform", g -%}
           {%- assign w_a = site.data.audio-video | where: "platform", g -%}
           {%- assign items = w_f | concat: w_e | concat: w_a -%}
+          {%- assign dates = items | where_exp: "w", "w.date" -%}
+          {%- if dates.size == items.size -%}{%- assign items = items | sort: "date" | reverse -%}{%- endif -%}
           {%- assign nom = g | replace: "Decouvre", "Découvre" %}
         <section class="works-group" data-group="{{ nom }}">
           <h4>{{ nom }} <span>{{ items | size }}</span></h4>

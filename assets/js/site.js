@@ -359,8 +359,8 @@ function initWorks() {
     if (wide()) {
       const w = track.clientWidth;
       // une seule règle : un repère sous le premier trait de chaque groupe, le nom juste après, tenu dans la réglette ;
-      // s'il chevauche le précédent, il passe au second rang
-      const ends = [-Infinity, -Infinity];
+      // s'il chevauche le précédent, il passe au rang suivant (trois rangs : les premiers groupes sont courts)
+      const ends = [-Infinity, -Infinity, -Infinity];
       labelEls.forEach((l, gi) => {
         const mk = markEls[gi];
         l.classList.remove('is-pinned');
@@ -369,9 +369,9 @@ function initWorks() {
         const lw = l.offsetWidth;
         // le nom se place à droite de son repère ; au bout de la réglette, il passe à sa gauche
         const lx = x + 8 + lw <= w ? x + 8 : x - 8 - lw;
-        const row = lx >= ends[0] + 12 ? 0 : lx >= ends[1] + 12 ? 1 : -1;
+        const row = ends.findIndex((e) => lx >= e + 12);
         l.style.visibility = row < 0 ? 'hidden' : '';
-        if (mk) { mk.style.visibility = row < 0 ? 'hidden' : ''; mk.style.transform = `translateX(${x.toFixed(1)}px)`; mk.style.top = row === 1 ? '1.6em' : '0'; }
+        if (mk) { mk.style.visibility = row < 0 ? 'hidden' : ''; mk.style.transform = `translateX(${x.toFixed(1)}px)`; mk.style.top = `${Math.max(0, row) * 1.6}em`; }
         if (row < 0) return;
         l.dataset.row = String(row);
         ends[row] = lx + lw;
@@ -379,8 +379,8 @@ function initWorks() {
       });
     } else {
       const sp = spacerA.offsetWidth, tw = track.clientWidth;
-      // deux rangs, comme sur ordinateur : un nom qui chevaucherait le précédent passe au second rang
-      const ends = [-Infinity, -Infinity];
+      // trois rangs, comme sur ordinateur : un nom qui chevaucherait le précédent passe au rang suivant
+      const ends = [-Infinity, -Infinity, -Infinity];
       labelEls.forEach((l, gi) => {
         let x = sp + starts[gi] * 8 - track.scrollLeft;
         // le nom du groupe en cours reste collé au bord gauche tant que son groupe défile
@@ -392,13 +392,13 @@ function initWorks() {
         // un nom qui entre par la droite reste entier : il passe à gauche de son repère
         const lw = l.offsetWidth, lx = pinned || x + 8 + lw <= tw ? x + 8 : x - 8 - lw;
         const out = x > tw || x + lw < 0 || l.classList.contains('is-small');
-        const row = out ? -1 : pinned || lx >= ends[0] + 12 ? 0 : lx >= ends[1] + 12 ? 1 : -1;
+        const row = out ? -1 : pinned ? 0 : ends.findIndex((e) => lx >= e + 12);
         if (row >= 0) ends[row] = lx + lw;
         l.style.visibility = row < 0 ? 'hidden' : '';
         l.style.transform = `translateX(${lx.toFixed(1)}px)`;
         l.dataset.row = String(Math.max(0, row));
         const mk = markEls[gi];
-        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = row < 0 || mx < 0 || mx > tw ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = row === 1 ? '1.6em' : '0'; }
+        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = row < 0 || mx < 0 || mx > tw ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = `${Math.max(0, row) * 1.6}em`; }
       });
     }
   };
@@ -483,10 +483,8 @@ function initWorks() {
     placeLabels();
   };
   window.addEventListener('resize', onResize, { passive: true });
-  // au doigt, on part du premier groupe qui remplit la moitié gauche de la réglette (Wizardsardine aujourd'hui) :
-  // des traits des deux côtés du curseur, jamais une demi-réglette vide
-  const half = Math.ceil((track.clientWidth || window.innerWidth) / 16);
-  set(wide() ? 0 : (starts.find((s) => s >= half) ?? Math.min(half, N - 1)));
+  // on part du premier contenu, le plus récent, sur tous les formats
+  set(0);
   requestAnimationFrame(onResize);
   works = { items, groups: groups.map((g) => g.name) };
 }

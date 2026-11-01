@@ -1317,10 +1317,12 @@
 
 # =====================
 # Wizardsardine (articles du blog signés Loïc Morel, en anglais)
+# date = date de publication sur wizardsardine.com ; la page d'accueil les classe du plus récent au plus ancien
 # =====================
 
 - title: "Absolute or relative timelock: understanding the difference"
   url: "https://wizardsardine.com/blog/absolute-vs-relative-timelock/"
+  date: 2026-07-04
   description: "Timelocks absolus et relatifs, et pourquoi Liana n'utilise que les relatifs"
   platform: "Wizardsardine"
   type: "article"
@@ -1329,6 +1331,7 @@
 
 - title: "Coldcard: the technical autopsy of an entropy failure"
   url: "https://wizardsardine.com/blog/coldcard-vuln-deep-dive/"
+  date: 2026-08-11
   description: "Analyse technique de la faille d'entropie du Coldcard Mk3"
   platform: "Wizardsardine"
   type: "article"
@@ -1337,6 +1340,7 @@
 
 - title: "Create a refresh-only key for your timelocks with Coldcard SSSP"
   url: "https://wizardsardine.com/blog/coldcard-sssp-liana/"
+  date: 2026-06-08
   description: "Rafraîchir les timelocks de Liana avec la politique SSSP du Coldcard"
   platform: "Wizardsardine"
   type: "article"
@@ -1345,6 +1349,7 @@
 
 - title: "The multi-vendor multisig standard"
   url: "https://wizardsardine.com/blog/the-multivendor-multisig-standard/"
+  date: 2026-09-11
   description: "Le multisig multi-fabricants avec chemins de récupération à timelock dans Liana"
   platform: "Wizardsardine"
   type: "article"
