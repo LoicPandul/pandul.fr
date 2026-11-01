@@ -14,7 +14,7 @@ const V = (n) => HEX(getComputedStyle(document.documentElement).getPropertyValue
 const C = {
   ink: V('--ink'), deep: V('--ink-deep'), paper: V('--paper'), sheet: V('--sheet'),
   plate: V('--plate'), pale: V('--pale'), soft: V('--ink-soft'), mark: V('--mark'),
-  bar: V('--bar'), barDark: V('--bar-dark'), bone: V('--bone'), cream: V('--cream'), code: V('--code'),
+  bar: V('--bar'), barDark: V('--bar-dark'), bone: V('--bone'), code: V('--code'),
 };
 const mixc = (a, b, t) => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
 const rgba = (c, a = 1) => `rgba(${c[0] | 0},${c[1] | 0},${c[2] | 0},${a})`;
@@ -98,8 +98,8 @@ function makePen(ctx, out) {
 }
 
 function page(i, W, H, f, ctx, rich = false) {
-  // chaque métier a sa planche : bleu-gris, jaune pâle, bleu pâle
-  const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: [C.plate, C.cream, C.pale][i] };
+  // chaque métier a sa planche : gris béton pour la rédaction et la documentation, gris chaud pour le développement
+  const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: [C.plate, C.plate, C.pale][i] };
   const flow = makePen(ctx, L.bars);
   const pad = Math.round(Math.max(12, W * 0.045));
   const box = (k, x, y, w, h, col, r = 0) => { L.boxes[k] = { x, y, w, h, col, r }; };

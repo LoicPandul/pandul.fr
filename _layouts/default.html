@@ -63,8 +63,8 @@
   <a href="#contenu" class="skip">{{ t.skip }}</a>
   {%- comment -%} Drapeaux du sélecteur de langue, dessinés une fois et repris par <use>. {%- endcomment %}
   <svg class="sr" aria-hidden="true" focusable="false">
-    <symbol id="drapeau-fr" viewBox="0 0 30 30"><path style="fill:var(--flag-fr-blue)" d="M0 0h10v30H0z"/><path style="fill:var(--paper)" d="M10 0h10v30H10z"/><path style="fill:var(--flag-fr-red)" d="M20 0h10v30H20z"/></symbol>
-    <symbol id="drapeau-gb" viewBox="15 0 30 30"><clipPath id="drapeau-gb-t"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><path style="fill:var(--flag-gb-blue)" d="M0 0h60v30H0z"/><path style="stroke:var(--paper)" stroke-width="6" d="M0 0l60 30m0-30L0 30"/><path style="stroke:var(--flag-gb-red)" stroke-width="4" clip-path="url(#drapeau-gb-t)" d="M0 0l60 30m0-30L0 30"/><path style="stroke:var(--paper)" stroke-width="10" d="M30 0v30M0 15h60"/><path style="stroke:var(--flag-gb-red)" stroke-width="6" d="M30 0v30M0 15h60"/></symbol>
+    <symbol id="drapeau-fr" viewBox="0 0 30 30"><path style="fill:var(--ink)" d="M0 0h10v30H0z"/><path style="fill:var(--paper)" d="M10 0h10v30H10z"/><path style="fill:var(--mark)" d="M20 0h10v30H20z"/></symbol>
+    <symbol id="drapeau-gb" viewBox="15 0 30 30"><clipPath id="drapeau-gb-t"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><path style="fill:var(--ink)" d="M0 0h60v30H0z"/><path style="stroke:var(--paper)" stroke-width="6" d="M0 0l60 30m0-30L0 30"/><path style="stroke:var(--mark)" stroke-width="4" clip-path="url(#drapeau-gb-t)" d="M0 0l60 30m0-30L0 30"/><path style="stroke:var(--paper)" stroke-width="10" d="M30 0v30M0 15h60"/><path style="stroke:var(--mark)" stroke-width="6" d="M30 0v30M0 15h60"/></symbol>
   </svg>
 
   <header class="bar" data-bar>
@@ -120,7 +120,7 @@
     <p class="foot-legal">© 2021-{{ site.time | date: '%Y' }} {{ t.foot_owner }}</p>
   </footer>
 
-  <script type="module" src="{{ '/assets/js/site.js' | relative_url }}" data-base="{{ '/assets/' | relative_url }}"></script>
+  <script type="module" src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" data-base="{{ '/assets/' | relative_url }}"></script>
   {% if site.analytics.cloudflare_token and jekyll.environment == 'production' %}
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.analytics.cloudflare_token }}"}'></script>
   {% endif %}

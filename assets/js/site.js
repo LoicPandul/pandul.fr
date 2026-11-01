@@ -9,6 +9,8 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const wide = () => window.innerWidth >= 960;
 const base = document.querySelector('script[data-base]')?.dataset.base || '/assets/';
+// la version de site.js (?v=…) suit les modules chargés après coup, pour qu'un navigateur ne garde pas d'anciennes couleurs en cache
+const VER = new URL(import.meta.url).search;
 
 // Textes écrits par le script, dans la langue de la page (<html lang>) ; le reste vient de _data/i18n/.
 const EN = html.lang === 'en';
@@ -569,7 +571,7 @@ function initTradeStages() {
   new IntersectionObserver((en, io) => {
     if (!en[0].isIntersecting) return;
     io.disconnect();
-    import('./trades.js').then((m) => m.initTrades({ frames, kick, reduce })).catch(() => {});
+    import('./trades.js' + VER).then((m) => m.initTrades({ frames, kick, reduce })).catch(() => {});
   }, { rootMargin: '1800px 0px' }).observe(sec);
 }
 
@@ -635,7 +637,7 @@ function staticStage(el) {
 async function initStages() {
   const els = $$('.stage[data-stage]');
   if (!els.length) return;
-  const mod = await import('./lines.js');
+  const mod = await import('./lines.js' + VER);
   if (!mod.webglAvailable()) { els.forEach(staticStage); return; }
   const { LineStage, portraitCanvas, textCanvas, spring } = mod;
   try {

@@ -1,4 +1,4 @@
-/* pandul.fr : une encre bleue, un papier, des lignes. Direction : design/direction.md
+/* pandul.fr : une encre noire, un papier béton, un jaune, des lignes. Direction : design/direction.md
    Feuille en ligne dans le <head> (deux pages seulement : pas de requête bloquante). */
 
 /* ---------- Polices ---------- */
@@ -56,14 +56,7 @@
   --bar: #9E998F;
   --bar-dark: #7A766D;
   --bone: #E4E0D8;
-  --cream: #F9E08A;
   --code: #8F8A80;
-
-  /* drapeaux du sélecteur de langue : leurs vraies couleurs, le blanc pris au fond */
-  --flag-fr-blue: #0055A4;
-  --flag-fr-red: #EF4135;
-  --flag-gb-blue: #012169;
-  --flag-gb-red: #C8102E;
 
   --font-ui: "Mona Sans", "Mona Repli", system-ui, sans-serif;
   --font-display: "Mona Sans", "Mona Repli Affiche", system-ui, sans-serif;
@@ -315,17 +308,16 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
 .lang-opt svg {
   width: 20px; height: 20px;
   border-radius: 50%;
-  opacity: 0.8;
-  filter: saturate(0.6);
-  transition: opacity 0.3s ease, filter 0.3s ease, transform 0.46s cubic-bezier(0.3, 1.35, 0.45, 1);
+  opacity: 0.85;
+  transition: opacity 0.3s ease, transform 0.46s cubic-bezier(0.3, 1.35, 0.45, 1);
 }
-.lang[data-lang=fr] [hreflang=fr] svg, .lang[data-lang=en] [hreflang=en] svg { opacity: 1; filter: none; box-shadow: 0 0 0 1px color-mix(in srgb, var(--paper) 50%, transparent); }
+.lang[data-lang=fr] [hreflang=fr] svg, .lang[data-lang=en] [hreflang=en] svg { opacity: 1; box-shadow: 0 0 0 1px color-mix(in srgb, var(--paper) 50%, transparent); }
 /* focus clavier : un halo autour de la pilule, le drapeau visé grossit */
 .lang-opt:focus-visible { outline: none; }
 .lang:has(.lang-opt:focus-visible) { outline: 2px solid var(--ink); outline-offset: 3px; }
-.lang-opt:focus-visible svg { opacity: 1; filter: none; transform: scale(1.12); }
+.lang-opt:focus-visible svg { opacity: 1; transform: scale(1.12); }
 @media (hover: hover) {
-  .lang-opt:not([aria-current]):hover svg { opacity: 1; filter: none; transform: scale(1.1); }
+  .lang-opt:not([aria-current]):hover svg { opacity: 1; transform: scale(1.1); }
 }
 /* petit téléphone : le nom s'empile sur deux lignes pour laisser la place au sélecteur */
 @media (max-width: 429px) {
@@ -333,7 +325,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
 }
 .menu .lang { --lw: 38px; background: color-mix(in srgb, var(--paper) 16%, transparent); box-shadow: none; }
 .menu .lang::before { background: var(--paper); box-shadow: none; }
-.menu .lang-opt svg { width: 26px; height: 26px; opacity: 0.92; filter: none; }
+.menu .lang-opt svg { width: 26px; height: 26px; opacity: 0.92; }
 .menu .lang:has(.lang-opt:focus-visible) { outline-color: var(--paper); }
 
 @media (max-width: 959px) {
@@ -407,6 +399,7 @@ main > section { padding: var(--section) var(--margin) 0; }
 .hero-line + .hero-line > span { animation-delay: 0.08s; }
 @keyframes rise { from { transform: translateY(104%); } to { transform: none; } }
 .hero-lead { margin-top: clamp(20px, 3vw, 36px); }
+.hero-lead mark { background: var(--mark); color: var(--ink); padding: 0 0.12em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .hero-body { max-width: 46ch; margin: 16px 0 0; }
 .hero-stage { margin: 28px calc(-1 * var(--margin)) 0; }
 .hero-stage .stage-box { height: min(45svh, 118vw); }
