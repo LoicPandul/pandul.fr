@@ -121,7 +121,7 @@ Chargement : préchargement de Mona Sans (le titre), `font-display: swap`, et un
 - Les grandes images (portrait, lettre, vidéo de Gerfaut, nom du pied de page) vont jusqu'au bord ; le texte garde toujours la marge.
 - Écart entre sections : `--section`, `clamp(96px, 11vw, 128px)`, 64 px sous 600 px ; toujours plus grand que tout écart interne. Les champs noirs (clients, contact) ont le même écart en haut et en bas.
 - Titre affiche → phrase d'accroche : `--lead-gap`, `clamp(32px, 3.4vw, 48px)`. Titre de section → contenu : `--head-gap`, `clamp(48px, 6vw, 96px)`. Légende sous un panneau : 14 px.
-- Coins droits partout, panneaux en canvas, vignettes, captures et clé compris ; pas d'ombre. Une seule forme de bouton : rectangle plein, 52 px de haut ; la variante compacte de 44 px ne sert que dans la barre et dans la lecture de la réglette, où la hauteur est comptée.
+- Coins droits partout, panneaux en canvas, vignettes, captures et clé compris ; pas d'ombre. Une seule forme de bouton : rectangle plein, 52 px de haut ; la variante compacte de 44 px ne sert que dans la barre et dans la lecture de la réglette, où la hauteur est comptée. Seule exception aux coins droits : l'interrupteur de langue, une pilule à deux positions avec ses drapeaux ronds.
 - Points de rupture : 600, 960, 1200 px. L'accueil passe en deux colonnes à partir de 960 px ; à 768 px tout est empilé.
 
 ## 8. Les sections, une par une
@@ -307,7 +307,7 @@ Ce qui a changé en construisant, et pourquoi :
 - **Contextes WebGL** : créés à l'approche, mais jamais libérés ; hors écran, le panneau garde sa dernière image et ne dessine plus. Trois contextes au plus.
 - **Rendu logiciel** (pas de carte graphique) : densité de pixels 1, pour ménager le processeur.
 - **Réglette, clic** : un clic fixe la sélection (comportement d'un curseur) ; c'est le lien « Ouvrir » qui ouvre le contenu.
-- **Formations** : une liste avec une vignette traitée en encre pour chaque cours, visible partout, au lieu d'une couverture qui suit le curseur (invisible au doigt).
+- **Formations** : une liste avec la vignette de chaque cours, visible partout, au lieu d'une couverture qui suit le curseur (invisible au doigt). Les vignettes gardent leurs couleurs d'origine (décision du 27 octobre 2026 : ce sont les vraies couvertures de Plan ₿ Academy, comme les captures de Bark Pay et de Gerfaut sont de vraies captures).
 - **Contact** : une vraie photo de Loïc, en bichromie encre, dont le fond se fond dans le champ noir.
 - **Lettres du pied de page** : la lettre survolée se remplit et passe au jaune ; l'écartement vertical créait des coutures dans les lignes du fond, il a été retiré.
 - **Logos de Space Kek et How to Bitcoin** : leur nom composé en Mona Sans et converti en tracé SVG, pour qu'ils aient la même présence que les autres marques (à remplacer par les vrais logos).

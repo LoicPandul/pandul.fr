@@ -102,7 +102,8 @@ function page(i, W, H, f, ctx, rich = false) {
   const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: C.plate };
   const flow = makePen(ctx, L.bars);
   const pad = Math.round(Math.max(12, W * 0.045));
-  const box = (k, x, y, w, h, col, r = 0) => { L.boxes[k] = { x, y, w, h, col, r }; };
+  // coins droits, comme partout sur le site (le rayon passé par les dessins est ignoré)
+  const box = (k, x, y, w, h, col) => { L.boxes[k] = { x, y, w, h, col, r: 0 }; };
   const text = (k, s, x, y, size, weight, family, col, align = 'left') => L.texts.push({ k, s, x, y, font: `${weight} ${size}px ${family}`, col, align });
   const narrow = W < 460;
 

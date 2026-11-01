@@ -135,8 +135,16 @@ function initTradesIndex() {
   let cur = '';
   // le métier lu est le dernier dont le titre a passé la ligne de lecture :
   // juste sous la barre d'onglets au doigt, au milieu de l'écran sinon (comme le panneau des métiers)
+  // un onglet touché s'allume tout de suite, et le reste pendant que la page glisse jusqu'à son métier
+  let lockUntil = 0;
+  links.forEach((a) => a.addEventListener('click', () => {
+    cur = a.dataset.index; lockUntil = performance.now() + 1400;
+    links.forEach((b) => b.classList.toggle('is-current', b.dataset.index === cur));
+  }));
   const update = () => {
-    const line = tabs && tabs.offsetParent !== null ? tabs.getBoundingClientRect().bottom + 12 : window.innerHeight * 0.5;
+    // au doigt, la ligne de lecture est sous les onglets, et jamais au-dessus de l'endroit où s'arrête un titre visé (scroll-margin-top)
+    const stop = parseFloat(getComputedStyle(trades[0].querySelector('h3')).scrollMarginTop) || 0;
+    const line = tabs && tabs.offsetParent !== null ? Math.max(tabs.getBoundingClientRect().bottom + 12, stop + 8) : window.innerHeight * 0.5;
     let id = trades[0].getAttribute('aria-labelledby');
     for (const t of trades) if (t.getBoundingClientRect().top <= line) id = t.getAttribute('aria-labelledby');
     // trait de progression le long de l'index : la part des trois métiers déjà lue
@@ -146,7 +154,7 @@ function initTradesIndex() {
     }
     // au doigt, les onglets s'effacent une fois les trois métiers lus (ils ne restent pas collés au-dessus de « Projets »)
     if (tabs && list) tabs.classList.toggle('is-past', list.getBoundingClientRect().bottom < line + 40);
-    if (id === cur) return;
+    if (id === cur || performance.now() < lockUntil) return;
     cur = id;
     links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
   };
@@ -410,17 +418,23 @@ function initWorks() {
     const tw = track.clientWidth, rw = Math.min(read.offsetWidth || 0, tw);
     read.style.setProperty('--rx', clamp(px - 48, 0, Math.max(0, tw - rw)).toFixed(0) + 'px');
   };
-  // le pointeur file vers « Ouvrir » (vers le haut, droit sur le bouton) : on garde le contenu lu au lieu de lire chaque trait traversé
-  let last = null;
+  // le pointeur file vers « Ouvrir » : on garde le contenu lu au lieu de lire chaque trait traversé.
+  // La direction se lit sur les 120 dernières ms (un tremblement d'un pixel ne compte pas) ; une fois la visée
+  // reconnue, la lecture reste figée tant que le pointeur continue de monter, ou 150 ms s'il s'arrête.
+  let trail = [], frozen = 0;
   const aiming = (e) => {
-    const p = last; last = { x: e.clientX, y: e.clientY };
-    if (!p || e.pointerType !== 'mouse') return false;
+    if (e.pointerType !== 'mouse') return false;
+    const now = performance.now();
+    trail.push({ x: e.clientX, y: e.clientY, t: now });
+    while (trail.length > 2 && now - trail[0].t > 120) trail.shift();
+    const p = trail[0];
     const dx = e.clientX - p.x, dy = e.clientY - p.y;
-    if (dy > -1) return false;
+    if (dy > -3) return now < frozen;
     const b = openEl.getBoundingClientRect();
     const t = (b.bottom - e.clientY) / dy;
     const hx = e.clientX + dx * t;
-    return t > 0 && hx >= b.left - 24 && hx <= b.right + 24;
+    if (t > 0 && hx >= b.left - 40 && hx <= b.right + 40) { frozen = now + 150; return true; }
+    return now < frozen;
   };
   track.addEventListener('pointermove', (e) => {
     // au doigt sur une grande tablette, glisser le long de la réglette la parcourt aussi
@@ -432,7 +446,7 @@ function initWorks() {
     follow(e.clientX - r.left);
     kick();
   });
-  track.addEventListener('pointerleave', () => { dock.target = 0; last = null; kick(); });
+  track.addEventListener('pointerleave', () => { dock.target = 0; trail = []; kick(); });
   track.addEventListener('click', (e) => {
     if (!wide()) return;
     const r = track.getBoundingClientRect();
