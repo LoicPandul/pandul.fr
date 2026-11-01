@@ -676,7 +676,7 @@ async function initStages() {
           s.letters = r.letters; s.ampRows = lines.length;
           return { canvas: r.canvas };
         },
-        letters: true, ink: '#F2F2EE', paper: '#183F8F', pitch: [6, 3.5], thick: [0.1, 0.84], lensR: [0, 0], mag: 1, drawn: reduce, drawK: 40, drawC: 12.6,
+        letters: true, ink: mod.cssColor('--paper'), paper: mod.cssColor('--ink'), pitch: [6, 3.5], thick: [0.1, 0.84], lensR: [0, 0], mag: 1, drawn: reduce, drawK: 40, drawC: 12.6,
       });
       st.kind = 'name';
     }

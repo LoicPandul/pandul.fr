@@ -139,6 +139,8 @@ const UNIFORMS = ['uMark', 'uRes', 'uDpr', 'uFigA', 'uFigB', 'uInv', 'uMorph', '
   'uPitch', 'uThick', 'uInk', 'uPaper', 'uMouse', 'uLens', 'uLensR', 'uMag', 'uLensShape', 'uVignette', 'uDraw', 'uFlat', 'uTime', 'uWave', 'uRipple', 'uHi[0]', 'uHiOn'];
 
 const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255);
+// une couleur du site, lue dans ses variables CSS (_includes/site.css)
+export const cssColor = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 // Ressort critique amorti : rapproche value de target.
 export function spring(s, target, dt, k = 170, c = 16) {
@@ -160,7 +162,7 @@ export class LineStage {
     this.el = el;
     this.box = el.querySelector('.stage-box') || el;
     this.canvas = el.querySelector('canvas');
-    this.o = Object.assign({ ink: '#183F8F', paper: '#F2F2EE', pitch: [7, 6], thick: [0.08, 0.78], lensR: [110, 84], mag: 2.3, ampRows: 1 }, o);
+    this.o = Object.assign({ ink: cssColor('--ink'), paper: cssColor('--paper'), mark: cssColor('--mark'), pitch: [7, 6], thick: [0.08, 0.78], lensR: [110, 84], mag: 2.3, ampRows: 1 }, o);
     this.gl = null;
     this.w = 0; this.h = 0; this.dpr = 1;
     this.mouse = { x: -999, y: -999 };
@@ -209,7 +211,7 @@ export class LineStage {
     gl.uniform1i(this.u.uFigA, 0); gl.uniform1i(this.u.uFigB, 1); gl.uniform1i(this.u.uText, 2); gl.uniform1i(this.u.uAmp, 3);
     gl.uniform3fv(this.u.uInk, hex(this.o.ink));
     gl.uniform3fv(this.u.uPaper, hex(this.o.paper));
-    gl.uniform3fv(this.u.uMark, hex(this.o.mark || '#FFD24A'));
+    gl.uniform3fv(this.u.uMark, hex(this.o.mark));
     this.inv = [0, 0];
     this.resize(true);
     this.el.classList.add('is-live');

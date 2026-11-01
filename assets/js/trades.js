@@ -9,10 +9,12 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
 const HEX = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+// les couleurs viennent des variables CSS du site (_includes/site.css)
+const V = (n) => HEX(getComputedStyle(document.documentElement).getPropertyValue(n).trim());
 const C = {
-  ink: HEX('#183F8F'), deep: HEX('#11306F'), paper: HEX('#F2F2EE'), sheet: HEX('#FAFAF7'),
-  plate: HEX('#D6DCE8'), pale: HEX('#C9D3EA'), soft: HEX('#4B5F8E'), mark: HEX('#FFD24A'),
-  bar: HEX('#8A9BC8'), barDark: HEX('#6F82B4'), bone: HEX('#E7EBF3'), cream: HEX('#F4E2A1'), code: HEX('#5B77B8'),
+  ink: V('--ink'), deep: V('--ink-deep'), paper: V('--paper'), sheet: V('--sheet'),
+  plate: V('--plate'), pale: V('--pale'), soft: V('--ink-soft'), mark: V('--mark'),
+  bar: V('--bar'), barDark: V('--bar-dark'), bone: V('--bone'), cream: V('--cream'), code: V('--code'),
 };
 const mixc = (a, b, t) => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
 const rgba = (c, a = 1) => `rgba(${c[0] | 0},${c[1] | 0},${c[2] | 0},${a})`;
