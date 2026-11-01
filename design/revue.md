@@ -246,3 +246,21 @@ Réglés le 31 octobre 2026, sur réponse de Loïc :
 - lien Amazon du livre remis (édition 2026) à côté de Bitcoin Bazar, sur « format papier », en français et en anglais ;
 - vide d'environ 230 px à droite sous « Développement » sur ordinateur : gardé tel quel ;
 - Grand Angle Bitcoin : le script de la vidéo sur les CoinJoins est bien de Loïc ; la vidéo reste dans les contenus et la marque affiche son compte (« 1 script de vidéo »).
+
+## Essai de palette « chantier » (1er novembre 2026)
+
+Demande de Loïc : essayer l'association jaune chantier #F5C400, noir #0E0E0E, blanc béton #ECE9E3. Essai commité sur la branche, non poussé, en attente de son avis.
+
+| Variable | Valeur | Rôle | Contraste |
+|---|---|---|---|
+| `--paper` | #ECE9E3 | fond clair ; texte sur les champs noirs | noir sur béton 15,9:1 |
+| `--ink` | #0E0E0E | texte, liens, boutons, champs noirs (clients, contact, pied de page) | béton sur noir 15,9:1 |
+| `--mark` | #F5C400 | accent : surlignage, survol des boutons, trait lu, onglet en cours, clé | noir sur jaune 11,8:1 ; jaune sur noir 11,8:1 ; jamais en texte sur le béton (1,4:1) |
+| `--ink-soft` | #55514A | texte secondaire sur le fond clair | 6,5:1 sur béton, 5,6:1 sur `--plate` |
+| `--pale` | #B8B2A7 | texte secondaire sur les champs noirs | 9,2:1 sur noir, 7,9:1 sur `--ink-deep` |
+| `--plate` | #DCD8D0 | panneaux et cadres | noir dessus 13,6:1 |
+| `--ink-deep` | #1E1E1E | surface sur un champ noir (clé minisign) | béton dessus 13,8:1 |
+
+Drapeaux du sélecteur : leurs vraies couleurs (`--flag-fr-blue`, `--flag-fr-red`, `--flag-gb-blue`, `--flag-gb-red`), le blanc pris au fond. Les canvas (`trades.js`, `lines.js`) lisent les variables CSS au lieu de couleurs codées en dur. Seuls restent en dur, faute de variable possible : la balise `theme-color`, le favicon et les deux portraits de secours, recolorés. Le site n'a qu'un thème clair.
+
+Relecture d'un sous-agent : 8/10. Aucune trace de l'ancienne palette, rien d'illisible. Il note que le premier écran sur ordinateur n'a aucune touche de jaune.
