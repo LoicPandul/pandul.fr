@@ -44,7 +44,7 @@
         - {source: "ecrits", platform: "Plan ₿ Academy", libelle: "tutoriels", libelle_en: "tutorials"}
       url: "https://planb.network"
     - nom: "Bitstack"
-      logo: "bitstack.svg"
+      logo: "bitstack.svg"   # nouveau logo (oiseau et nom), kit presse officiel : bitstack-app.com/media-presse
       ratio: 6.43
       travail: "Rédaction et maintenance du blog, dont j'étais le seul auteur, et production de podcasts"
       travail_en: "Writing and maintenance of the blog, where I was the only author, and podcast production"
