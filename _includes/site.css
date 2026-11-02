@@ -322,7 +322,7 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
 .lang-opt svg {
   width: 20px; height: 20px;
   border-radius: 50%;
-  opacity: 0.85;
+  /* drapeaux aux couleurs officielles (_layouts/default.html) : pleine opacité, sinon le gris de la pilule les ternit */
   transition: opacity var(--t-answer) ease, transform var(--t-ui) cubic-bezier(0.3, 1.35, 0.45, 1);
 }
 .lang[data-lang=fr] [hreflang=fr] svg, .lang[data-lang=en] [hreflang=en] svg { opacity: 1; box-shadow: 0 0 0 2px var(--paper); }
@@ -339,7 +339,7 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
 }
 .menu .lang { --lw: 38px; background: color-mix(in srgb, var(--paper) 16%, transparent); box-shadow: none; }
 .menu .lang::before { background: var(--paper); box-shadow: none; }
-.menu .lang-opt svg { width: 26px; height: 26px; opacity: 0.92; }
+.menu .lang-opt svg { width: 26px; height: 26px; }
 .menu .lang:has(.lang-opt:focus-visible) { outline-color: var(--paper); }
 
 @media (max-width: 959px) {

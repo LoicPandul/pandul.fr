@@ -64,7 +64,7 @@ ui-ux-pro-max (`--design-system`, variance 8, motion 8) : récit au défilement,
 
 ## 5. Palette : noir, blanc béton, jaune chantier
 
-Palette choisie par Loïc le 1er novembre 2026, à la place de l'encre bleue des premières versions. **Le texte est noir sur un blanc béton**, une seule couleur vive, le jaune chantier, qui ne fait que surligner. Les champs noirs (clients, contact, pied de page) inversent les rôles : béton sur noir. Toutes les couleurs sont des variables CSS de `_includes/site.css` ; les canvas (`trades.js`, `lines.js`) et les drapeaux les lisent au lieu de couleurs codées en dur.
+Palette choisie par Loïc le 1er novembre 2026, à la place de l'encre bleue des premières versions. **Le texte est noir sur un blanc béton**, une seule couleur vive, le jaune chantier, qui ne fait que surligner. Les champs noirs (clients, contact, pied de page) inversent les rôles : béton sur noir. Toutes les couleurs sont des variables CSS de `_includes/site.css` ; les canvas (`trades.js`, `lines.js`) les lisent au lieu de couleurs codées en dur. Seule exception : les drapeaux du sélecteur de langue gardent leurs couleurs officielles (France : bleu #000091, blanc #FFFFFF, rouge #E1000F, d'après le Système de design de l'État ; Royaume-Uni : bleu #012169, rouge #C8102E, blanc, soit les Pantone 280 C et 186 C de la Flag Institute), à pleine opacité.
 
 | Variable | Valeur | Usage |
 | --- | --- | --- |
