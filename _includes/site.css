@@ -353,6 +353,12 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
   @media (max-width: 379px) { .bar { gap: 12px; } .bar-cta { padding: 0 14px; } }
   .bar.is-top .bar-cta { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
 }
+/* téléphone : « Me contacter » tient la gauche de la barre, à la place du nom (déjà en tête de page et dans le menu) ;
+   sans ça, la barre du haut de page n'a rien à gauche et paraît vide */
+@media (max-width: 599px) {
+  .bar-name { display: none; }
+  .bar-cta { margin-right: auto; }
+}
 
 /* Menu téléphone */
 .menu {
