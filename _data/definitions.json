@@ -2,7 +2,7 @@
 {
 "t": "MYSTERY SHOPPER PAYMENTS",
 "s": "mystery-shopper-payments",
-"d": "Attaque dans laquelle un attaquant envoie un petit paiement légitime en bitcoins à sa cible pour obtenir des informations et tenter de compromettre sa..."
+"d": "Attaque dans laquelle un attaquant envoie un petit paiement légitime en bitcoins à sa cible pour obtenir des informations et tenter de compromettre sa…"
 },
 {
 "t": "ATTAQUE DE FINNEY",
@@ -12,12 +12,12 @@
 {
 "t": "PROBLÈME DES GÉNÉRAUX BYZANTINS",
 "s": "prob-des-generaux-byzantins",
-"d": "Problème formulé pour la première fois par Leslie Lamport, Robert Shostak et Marshall Pease dans le magazine spécialisé ACM Transactions on Programming..."
+"d": "Problème formulé pour la première fois par Leslie Lamport, Robert Shostak et Marshall Pease dans le magazine spécialisé ACM Transactions on Programming…"
 },
 {
 "t": "FORCE BRUTE",
 "s": "force-brute",
-"d": "Méthode de cryptanalyse pour trouver un mot de passe ou une clé qui consiste à essayer par tâtonnement toutes les combinaisons possibles de clés ou de..."
+"d": "Méthode de cryptanalyse pour trouver un mot de passe ou une clé qui consiste à essayer par tâtonnement toutes les combinaisons possibles de clés ou de…"
 },
 {
 "t": "DUSTING ATTACK",
@@ -37,17 +37,17 @@
 {
 "t": "DOUBLE DÉPENSE",
 "s": "double-depense",
-"d": "Attaque où un utilisateur malveillant tente d'utiliser le même UTXO (Unspent Transaction Output) plus d'une fois afin de s'enrichir sur les..."
+"d": "Attaque où un utilisateur malveillant tente d'utiliser le même UTXO (Unspent Transaction Output) plus d'une fois afin de s'enrichir sur les…"
 },
 {
 "t": "SELFISH MINING",
 "s": "selfish-mining",
-"d": "Stratégie (ou attaque) dans le minage, où un mineur ou un groupe de mineurs conserve intentionnellement des blocs avec une preuve de travail valide sans..."
+"d": "Stratégie (ou attaque) dans le minage, où un mineur ou un groupe de mineurs conserve intentionnellement des blocs avec une preuve de travail valide sans…"
 },
 {
 "t": "BIP",
 "s": "bip",
-"d": "Acronyme de « Bitcoin Improvement Proposal ». Un BIP est un document formel proposant une amélioration, une spécification technique ou une information..."
+"d": "Acronyme de « Bitcoin Improvement Proposal ». Un BIP est un document formel proposant une amélioration, une spécification technique ou une information…"
 },
 {
 "t": "APO - ANYPREVOUT",
@@ -57,7 +57,7 @@
 {
 "t": "CHAMPION",
 "s": "champion",
-"d": "Dans le contexte du développement de Bitcoin Core (l'implémentation majoritaire de Bitcoin) le champion est la personne qui rédige et prend en charge la..."
+"d": "Dans le contexte du développement de Bitcoin Core (l'implémentation majoritaire de Bitcoin) le champion est la personne qui rédige et prend en charge la…"
 },
 {
 "t": "STACKER",
@@ -82,22 +82,22 @@
 {
 "t": "BITCOINTALK",
 "s": "bitcointalk",
-"d": "Forum en ligne dédié aux discussions sur Bitcoin. Ouvert en novembre 2009 par Satoshi Nakamoto, ce forum prend la suite de l'espace de discussion dédié..."
+"d": "Forum en ligne dédié aux discussions sur Bitcoin. Ouvert en novembre 2009 par Satoshi Nakamoto, ce forum prend la suite de l'espace de discussion dédié…"
 },
 {
 "t": "WIZARDSARDINE",
 "s": "wizardsardine",
-"d": "Entreprise spécialisée dans la sécurité et la conservation de bitcoins, fondée en 2020 par Kevin Loaec et Antoine Poinsot, et incorporée aux Açores..."
+"d": "Entreprise spécialisée dans la sécurité et la conservation de bitcoins, fondée en 2020 par Kevin Loaec et Antoine Poinsot, et incorporée aux Açores…"
 },
 {
 "t": "MAINTENEUR - CORE",
 "s": "mainteneur-core",
-"d": "Dans le contexte du projet Bitcoin Core, l'implémentation majoritaire de nœuds sur le réseau Bitcoin, les mainteneurs sont des individus chargés de la..."
+"d": "Dans le contexte du projet Bitcoin Core, l'implémentation majoritaire de nœuds sur le réseau Bitcoin, les mainteneurs sont des individus chargés de la…"
 },
 {
 "t": "MAXIMALISTE",
 "s": "maximaliste",
-"d": "Terme qui désigne une personne convaincue que Bitcoin est la seule cryptomonnaie dotée d'une valeur fondamentale, et que les altcoins sont superflus..."
+"d": "Terme qui désigne une personne convaincue que Bitcoin est la seule cryptomonnaie dotée d'une valeur fondamentale, et que les altcoins sont superflus…"
 },
 {
 "t": "BITCOIN MAGAZINE",
@@ -107,7 +107,7 @@
 {
 "t": "FIDELITY BOND",
 "s": "fidelity-bond",
-"d": "Mécanisme par lequel un utilisateur sacrifie délibérément de la valeur en bitcoins pour rendre une identité cryptographique coûteuse à obtenir, ce qui..."
+"d": "Mécanisme par lequel un utilisateur sacrifie délibérément de la valeur en bitcoins pour rendre une identité cryptographique coûteuse à obtenir, ce qui…"
 },
 {
 "t": "SOROBAN",
@@ -117,7 +117,7 @@
 {
 "t": "BITCOIN FOG",
 "s": "bitcoin-fog",
-"d": "Service de mixage centralisé qui a opéré de 2011 à 2021. Bitcoin Fog offrait aux utilisateurs la possibilité d'accroître leur confidentialité en..."
+"d": "Service de mixage centralisé qui a opéré de 2011 à 2021. Bitcoin Fog offrait aux utilisateurs la possibilité d'accroître leur confidentialité en…"
 },
 {
 "t": "RICOCHET",
@@ -127,12 +127,12 @@
 {
 "t": "CIOH",
 "s": "cioh",
-"d": "Sigle de « Common Input Ownership Heuristic ». C'est une heuristique utilisée dans le domaine de l'analyse de chaîne sur Bitcoin qui suppose que toutes..."
+"d": "Sigle de « Common Input Ownership Heuristic ». C'est une heuristique utilisée dans le domaine de l'analyse de chaîne sur Bitcoin qui suppose que toutes…"
 },
 {
 "t": "WHIRLPOOL STAT TOOL",
 "s": "whirlpool-stat-tool",
-"d": "Logiciel en ligne de commandes développé par Samourai Wallet qui permet de fournir les anonsets prospectifs et rétrospectifs d'une pièce mixée au sein..."
+"d": "Logiciel en ligne de commandes développé par Samourai Wallet qui permet de fournir les anonsets prospectifs et rétrospectifs d'une pièce mixée au sein…"
 },
 {
 "t": "OXT",
@@ -157,12 +157,12 @@
 {
 "t": "ROLLUP",
 "s": "rollup",
-"d": "Solution de passage à l'échelle de couche 2 (Layer 2) qui exécute les transactions en dehors de la chaîne principale, puis publie les données et/ou des..."
+"d": "Solution de passage à l'échelle de couche 2 (Layer 2) qui exécute les transactions en dehors de la chaîne principale, puis publie les données et/ou des…"
 },
 {
 "t": "CASHU",
 "s": "cashu",
-"d": "Protocole open-source de monnaie électronique chaumienne, similaire au système eCash de David Chaum, mais qui fonctionne sur Bitcoin et le Lightning..."
+"d": "Protocole open-source de monnaie électronique chaumienne, similaire au système eCash de David Chaum, mais qui fonctionne sur Bitcoin et le Lightning…"
 },
 {
 "t": "STATECHAIN",
@@ -177,12 +177,12 @@
 {
 "t": "COLORED COINS",
 "s": "colored-coins",
-"d": "Méthode proposée en 2012 par Yoni Assia, Vitalik Buterin et Meni Rosenfeld permettant de représenter et gérer des actifs non natifs sur la blockchain..."
+"d": "Méthode proposée en 2012 par Yoni Assia, Vitalik Buterin et Meni Rosenfeld permettant de représenter et gérer des actifs non natifs sur la blockchain…"
 },
 {
 "t": "PASSIVE ASSETS",
 "s": "passive-assets",
-"d": "Dans le protocole Taproot Assets, les actifs passifs désignent les actifs que l'expéditeur conserve dans son arbre d'actifs (asset tree) lorsqu'il..."
+"d": "Dans le protocole Taproot Assets, les actifs passifs désignent les actifs que l'expéditeur conserve dans son arbre d'actifs (asset tree) lorsqu'il…"
 },
 {
 "t": "BITVM",
@@ -197,12 +197,12 @@
 {
 "t": "PREIMAGE",
 "s": "preimage",
-"d": "En mathématiques, la préimage d'un élément par une fonction est l'ensemble des tels que ."
+"d": "En mathématiques, la préimage d'un élément <i>y</i> par une fonction <i>f</i> est l'ensemble des <i>x</i> tels que <i>f</i>(<i>x</i>) = <i>y</i>."
 },
 {
 "t": "RANGEPROOFS",
 "s": "rangeproofs",
-"d": "Type de preuve à divulgation nulle de connaissance (zero-knowledge proof) utilisé dans les Confidential Transactions pour démontrer qu'un montant engagé..."
+"d": "Type de preuve à divulgation nulle de connaissance (zero-knowledge proof) utilisé dans les Confidential Transactions pour démontrer qu'un montant engagé…"
 },
 {
 "t": "PEDERSEN COMMITMENT",
@@ -212,27 +212,27 @@
 {
 "t": "NONCE",
 "s": "nonce",
-"d": "Dans le contexte de l'informatique, le terme « nonce » désigne un nombre utilisé seulement une seule fois, puis remplacé."
+"d": "Dans le contexte de l'informatique, le terme « nonce » désigne un nombre utilisé seulement une seule fois, puis remplacé."
 },
 {
 "t": "ECDH",
 "s": "ecdh",
-"d": "Méthode d'échange de clés cryptographiques établie sur les principes de l'échange de clés Diffie-Hellman, mais qui utilise des courbes elliptiques pour..."
+"d": "Méthode d'échange de clés cryptographiques établie sur les principes de l'échange de clés Diffie-Hellman, mais qui utilise des courbes elliptiques pour…"
 },
 {
 "t": "MAST",
 "s": "mast",
-"d": "Sigle de « Merklized Alternative Script Trees ». Technique employant un arbre de Merkle pour résumer un nombre arbitraire de conditions de dépenses..."
+"d": "Sigle de « Merklized Alternative Script Trees ». Technique employant un arbre de Merkle pour résumer un nombre arbitraire de conditions de dépenses…"
 },
 {
 "t": "TWEAK",
 "s": "tweak",
-"d": "Dans le domaine de la cryptographie, « tweaker » une clé publique consiste à modifier cette clé en utilisant une valeur additive appelée le « tweak » de..."
+"d": "Dans le domaine de la cryptographie, « tweaker » une clé publique consiste à modifier cette clé en utilisant une valeur additive appelée le « tweak » de…"
 },
 {
 "t": "CRYPTOGRAPHIE",
 "s": "cryptographie",
-"d": "Discipline qui incarne les principes, les moyens et les méthodes de transformation des informations, notamment avec des techniques mathématiques, afin..."
+"d": "Discipline qui incarne les principes, les moyens et les méthodes de transformation des informations, notamment avec des techniques mathématiques, afin…"
 },
 {
 "t": "CHACHA20-POLY1305",
@@ -242,7 +242,7 @@
 {
 "t": "NO2X",
 "s": "no2x",
-"d": "Nom de la campagne lancée en août 2017 suite au verrouillage du soft fork SegWit dont le but est de convaincre les utilisateurs de ne pas implémenter le..."
+"d": "Nom de la campagne lancée en août 2017 suite au verrouillage du soft fork SegWit dont le but est de convaincre les utilisateurs de ne pas implémenter le…"
 },
 {
 "t": "BITCOIN JESUS",
@@ -257,7 +257,7 @@
 {
 "t": "FAUCET",
 "s": "faucet",
-"d": "Site web ou application qui distribue gratuitement de petites quantités de bitcoins à ses visiteurs, généralement en échange de la résolution d'un..."
+"d": "Site web ou application qui distribue gratuitement de petites quantités de bitcoins à ses visiteurs, généralement en échange de la résolution d'un…"
 },
 {
 "t": "BCH - BITCOIN CASH",
@@ -282,7 +282,7 @@
 {
 "t": "CYPHERPUNKS",
 "s": "cypherpunks",
-"d": "Communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur..."
+"d": "Communauté informelle et internationale de personnes promouvant l'utilisation de la cryptographie comme moyen d'assurer les libertés individuelles sur…"
 },
 {
 "t": "ALGORITHME",
@@ -302,12 +302,12 @@
 {
 "t": "VERSIONNAGE",
 "s": "versionnage",
-"d": "Dans le contexte de Bitcoin, désigne le processus d'assignation de versions spécifiques à divers éléments du protocole, afin de faciliter leur suivi..."
+"d": "Dans le contexte de Bitcoin, désigne le processus d'assignation de versions spécifiques à divers éléments du protocole, afin de faciliter leur suivi…"
 },
 {
 "t": "CLI",
 "s": "cli",
-"d": "Acronyme de « Command Line Interface », ou « interface en ligne de commande » en français."
+"d": "Acronyme de « Command Line Interface », ou « interface en ligne de commande » en français."
 },
 {
 "t": "ENDIANNESS",
@@ -322,17 +322,17 @@
 {
 "t": "MERGE",
 "s": "merge",
-"d": "Dans le cadre de Git, représente l'action d'intégrer les modifications d'une branche à une autre, typiquement de ramener les développements d'une..."
+"d": "Dans le cadre de Git, représente l'action d'intégrer les modifications d'une branche à une autre, typiquement de ramener les développements d'une…"
 },
 {
 "t": "ZMQ - ZEROMQ",
 "s": "zmq-zeromq",
-"d": "Bibliothèque de messagerie asynchrone utilisée par Bitcoin Core pour notifier en temps réel d'autres logiciels de l'arrivée de nouveaux blocs et de..."
+"d": "Bibliothèque de messagerie asynchrone utilisée par Bitcoin Core pour notifier en temps réel d'autres logiciels de l'arrivée de nouveaux blocs et de…"
 },
 {
 "t": "L402",
 "s": "l402",
-"d": "L402, anciennement connu sous le nom de LSAT (Lightning Service Authentication Token), est un standard d'authentification et de paiement pour les..."
+"d": "L402, anciennement connu sous le nom de LSAT (Lightning Service Authentication Token), est un standard d'authentification et de paiement pour les…"
 },
 {
 "t": "NŒUD DE ROUTAGE",
@@ -357,7 +357,7 @@
 {
 "t": "BASE FEE",
 "s": "base-fee",
-"d": "Composante fixe des frais de routage sur le Lightning Network. Lorsqu'un nœud transmet un paiement pour le compte d'un autre, il peut prélever des frais..."
+"d": "Composante fixe des frais de routage sur le Lightning Network. Lorsqu'un nœud transmet un paiement pour le compte d'un autre, il peut prélever des frais…"
 },
 {
 "t": "GATEWAY NODE",
@@ -372,12 +372,12 @@
 {
 "t": "KEYSEND",
 "s": "keysend",
-"d": "Méthode de paiement sur le Lightning Network permettant d'envoyer des fonds directement vers la clé publique d'un nœud, sans que le destinataire ait..."
+"d": "Méthode de paiement sur le Lightning Network permettant d'envoyer des fonds directement vers la clé publique d'un nœud, sans que le destinataire ait…"
 },
 {
 "t": "BRAIINS POOL",
 "s": "braiins-pool",
-"d": "Pool de minage de Bitcoin exploitée par l'entreprise tchèque Braiins. Créée en 2010 par Marek Palatinus (« Slush »), c'est la toute première pool de..."
+"d": "Pool de minage de Bitcoin exploitée par l'entreprise tchèque Braiins. Créée en 2010 par Marek Palatinus (« Slush »), c'est la toute première pool de…"
 },
 {
 "t": "CANAAN",
@@ -387,7 +387,7 @@
 {
 "t": "ESMPPS",
 "s": "esmpps",
-"d": "Sigle de « Equalized Shared Maximum Pay Per Share ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
+"d": "Sigle de « Equalized Shared Maximum Pay Per Share ». C'est une méthode de calcul de la rémunération des mineurs dans le contexte des pools de minage."
 },
 {
 "t": "MINAGE",
@@ -402,17 +402,17 @@
 {
 "t": "SPY MINING",
 "s": "spy-mining",
-"d": "Pratique dans laquelle un mineur ou une pool de minage se connecte à une pool concurrente afin de recevoir le hash de l'en-tête de bloc dès qu'un..."
+"d": "Pratique dans laquelle un mineur ou une pool de minage se connecte à une pool concurrente afin de recevoir le hash de l'en-tête de bloc dès qu'un…"
 },
 {
 "t": "CIBLE DE DIFFICULTÉ",
 "s": "cible-de-difficulte",
-"d": "Le facteur de difficulté, aussi connu sous le nom de cible de difficulté, est un paramètre utilisé dans le mécanisme de consensus par preuve de travail..."
+"d": "Le facteur de difficulté, aussi connu sous le nom de cible de difficulté, est un paramètre utilisé dans le mécanisme de consensus par preuve de travail…"
 },
 {
 "t": "ASIC RESISTANCE",
 "s": "asic-resistance",
-"d": "Propriété d'un algorithme de minage qui vise à limiter l'avantage des circuits intégrés spécialisés (ASIC) par rapport au matériel grand public, comme..."
+"d": "Propriété d'un algorithme de minage qui vise à limiter l'avantage des circuits intégrés spécialisés (ASIC) par rapport au matériel grand public, comme…"
 },
 {
 "t": "GETBLOCKTEMPLATE",
@@ -432,7 +432,7 @@
 {
 "t": "ZKSNACKS",
 "s": "zksnacks",
-"d": "Société éditrice de Wasabi Wallet, un portefeuille Bitcoin desktop open source axé sur la confidentialité. zkSNACKs a développé le protocole WabiSabi..."
+"d": "Société éditrice de Wasabi Wallet, un portefeuille Bitcoin desktop open source axé sur la confidentialité. zkSNACKs a développé le protocole WabiSabi…"
 },
 {
 "t": "COINKITE",
@@ -442,7 +442,7 @@
 {
 "t": "FOUNDATION DEVICES",
 "s": "foundation-devices",
-"d": "Entreprise américaine cofondée en 2020 par Zach Herbert, Jacob Johnston, Ken Carpenter et Matt Beach à Boston, spécialisée dans la fabrication de..."
+"d": "Entreprise américaine cofondée en 2020 par Zach Herbert, Jacob Johnston, Ken Carpenter et Matt Beach à Boston, spécialisée dans la fabrication de…"
 },
 {
 "t": "BLOCKSTREAM",
@@ -452,7 +452,7 @@
 {
 "t": "FONDATION BITCOIN",
 "s": "fondation-bitcoin",
-"d": "Organisation à but non lucratif fondée en septembre 2012. Ses membres fondateurs sont Gavin Andresen, Charlie Shrem, Mark Karpelès, Peter Vessenes..."
+"d": "Organisation à but non lucratif fondée en septembre 2012. Ses membres fondateurs sont Gavin Andresen, Charlie Shrem, Mark Karpelès, Peter Vessenes…"
 },
 {
 "t": "TEN31",
@@ -472,7 +472,7 @@
 {
 "t": "THE EYE OF SATOSHI",
 "s": "the-eye-of-satoshi",
-"d": "Implémentation open source de watchtower pour le Lightning Network. Une watchtower surveille en permanence la blockchain Bitcoin au nom d'un utilisateur..."
+"d": "Implémentation open source de watchtower pour le Lightning Network. Une watchtower surveille en permanence la blockchain Bitcoin au nom d'un utilisateur…"
 },
 {
 "t": "START9",
@@ -482,7 +482,7 @@
 {
 "t": "COINOS",
 "s": "coinos",
-"d": "Application web (PWA) qui permet d'envoyer, recevoir et accepter des paiements en bitcoins via on-chain, Lightning Network, Liquid et Ecash, directement..."
+"d": "Application web (PWA) qui permet d'envoyer, recevoir et accepter des paiements en bitcoins via on-chain, Lightning Network, Liquid et Ecash, directement…"
 },
 {
 "t": "LIGHTNING NETWORK+",
@@ -492,7 +492,7 @@
 {
 "t": "LIBWALLY-CORE",
 "s": "libwally-core",
-"d": "Bibliothèque cryptographique et utilitaire open source développée par Blockstream, conçue pour faciliter l'intégration de fonctions Bitcoin dans des..."
+"d": "Bibliothèque cryptographique et utilitaire open source développée par Blockstream, conçue pour faciliter l'intégration de fonctions Bitcoin dans des…"
 },
 {
 "t": "FOUNTAIN",
@@ -507,7 +507,7 @@
 {
 "t": "BITCOIN CORE GUI-QML",
 "s": "bitcoin-core-gui-qml",
-"d": "Projet en cours de création d'une application de portefeuille et de nœud Bitcoin établie sur Bitcoin Core, mais avec une interface graphique intuitive..."
+"d": "Projet en cours de création d'une application de portefeuille et de nœud Bitcoin établie sur Bitcoin Core, mais avec une interface graphique intuitive…"
 },
 {
 "t": "SPECTER",
@@ -522,12 +522,12 @@
 {
 "t": "TREZOR",
 "s": "trezor",
-"d": "Marque de hardware wallets fabriqués par la société tchèque SatoshiLabs, lancée en 2014 avec le Trezor One, considéré comme le premier portefeuille..."
+"d": "Marque de hardware wallets fabriqués par la société tchèque SatoshiLabs, lancée en 2014 avec le Trezor One, considéré comme le premier portefeuille…"
 },
 {
 "t": "GAP LIMIT",
 "s": "gap-limit",
-"d": "Paramètre utilisé dans les logiciels de portefeuille Bitcoin pour déterminer le nombre maximal d'adresses consécutives non utilisées à générer avant de..."
+"d": "Paramètre utilisé dans les logiciels de portefeuille Bitcoin pour déterminer le nombre maximal d'adresses consécutives non utilisées à générer avant de…"
 },
 {
 "t": "DURESS WALLET",
@@ -552,7 +552,7 @@
 {
 "t": "CODE DE CHAINE",
 "s": "code-de-chaine",
-"d": "Dans le contexte de la dérivation hiérarchique et déterministe (HD) des portefeuilles Bitcoin, le code de chaîne est une valeur de sel cryptographique..."
+"d": "Dans le contexte de la dérivation hiérarchique et déterministe (HD) des portefeuilles Bitcoin, le code de chaîne est une valeur de sel cryptographique…"
 },
 {
 "t": "GENÈSE",
@@ -562,12 +562,12 @@
 {
 "t": "DUSTRELAYFEE",
 "s": "dustrelayfee",
-"d": "Règle de standardisation utilisée par les nœuds du réseau pour déterminer ce qu'ils considèrent comme la « limite de poussière » (dust limit)."
+"d": "Règle de standardisation utilisée par les nœuds du réseau pour déterminer ce qu'ils considèrent comme la « limite de poussière » (dust limit)."
 },
 {
 "t": "PREUVE DE TRAVAIL",
 "s": "preuve-de-travail",
-"d": "Mécanisme de protection face aux attaques Sybil, qui se caractérisent par la multiplication de fausses identités, dans le but de prendre un avantage..."
+"d": "Mécanisme de protection face aux attaques Sybil, qui se caractérisent par la multiplication de fausses identités, dans le but de prendre un avantage…"
 },
 {
 "t": "BITCOIN QT",
@@ -577,7 +577,7 @@
 {
 "t": "BASE58CHECK",
 "s": "base58check",
-"d": "La Base58Check est un encodage utilisé dans le système Bitcoin pour représenter les adresses de réception Legacy et certaines autres données, telles que..."
+"d": "La Base58Check est un encodage utilisé dans le système Bitcoin pour représenter les adresses de réception Legacy et certaines autres données, telles que…"
 },
 {
 "t": "MTP - MEDIAN TIME PAST",
@@ -592,7 +592,7 @@
 {
 "t": "LIBSECP256K1",
 "s": "libsecp256k1",
-"d": "Bibliothèque C de haute performance et de haute sécurité pour les signatures numériques et d'autres primitives cryptographiques sur la courbe elliptique..."
+"d": "Bibliothèque C de haute performance et de haute sécurité pour les signatures numériques et d'autres primitives cryptographiques sur la courbe elliptique…"
 },
 {
 "t": "DB.LOG",
@@ -602,7 +602,7 @@
 {
 "t": "OWNERSHIP",
 "s": "ownership",
-"d": "Dans le cadre du protocole RGB, le terme Ownership désigne la propriété qui, à travers la Seal Definition pointant vers un UTXO Bitcoin, définit qui..."
+"d": "Dans le cadre du protocole RGB, le terme Ownership désigne la propriété qui, à travers la Seal Definition pointant vers un UTXO Bitcoin, définit qui…"
 },
 {
 "t": "CONTRACT RIGHTS",
@@ -612,22 +612,22 @@
 {
 "t": "INVOICE RGB",
 "s": "invoice-rgb",
-"d": "Dans le cadre du protocole RGB, une Invoice se présente sous la forme d'une URI préfixée par rgb:, qui intègre les informations indispensables à la..."
+"d": "Dans le cadre du protocole RGB, une Invoice se présente sous la forme d'une URI préfixée par rgb:, qui intègre les informations indispensables à la…"
 },
 {
 "t": "SHARDS - RGB",
 "s": "shards-rgb",
-"d": "Dans le cadre du protocole RGB, un Shard représente une branche distincte au sein du graphe orienté acyclique (DAG) qui retrace l'historique des State..."
+"d": "Dans le cadre du protocole RGB, un Shard représente une branche distincte au sein du graphe orienté acyclique (DAG) qui retrace l'historique des State…"
 },
 {
 "t": "SCHEMA",
 "s": "schema",
-"d": "Dans le cadre du protocole RGB, un Schema désigne un morceau de code déclaratif qui définit l'ensemble des variables, règles et logiques d'affaires..."
+"d": "Dans le cadre du protocole RGB, un Schema désigne un morceau de code déclaratif qui définit l'ensemble des variables, règles et logiques d'affaires…"
 },
 {
 "t": "ENGRAVING",
 "s": "engraving",
-"d": "Dans le cadre du protocole RGB, l'engraving désigne une chaîne de données optionnelle que peuvent inscrire successivement les détenteurs d'un contrat..."
+"d": "Dans le cadre du protocole RGB, l'engraving désigne une chaîne de données optionnelle que peuvent inscrire successivement les détenteurs d'un contrat…"
 },
 {
 "t": "CONTRACT PARTICIPANT",
@@ -637,12 +637,12 @@
 {
 "t": "STATE EXTENSION",
 "s": "state-extension",
-"d": "Dans le cadre du protocole RGB, une State Extension désigne une opération contractuelle permettant d'initier une mise à jour de l'état d'un contrat via..."
+"d": "Dans le cadre du protocole RGB, une State Extension désigne une opération contractuelle permettant d'initier une mise à jour de l'état d'un contrat via…"
 },
 {
 "t": "EXTRA TRANSACTION PROOF",
 "s": "extra-transaction-proof",
-"d": "Dans le cadre du protocole RGB, l'ETP constitue la partie de l'Anchor qui intègre les données complémentaires indispensables à la validation d'un..."
+"d": "Dans le cadre du protocole RGB, l'ETP constitue la partie de l'Anchor qui intègre les données complémentaires indispensables à la validation d'un…"
 },
 {
 "t": "I2P",
@@ -692,12 +692,12 @@
 {
 "t": "CONTROL BLOCK",
 "s": "control-block",
-"d": "Structure de données fournie dans le témoin d'une transaction P2TR lors d'une dépense par chemin de script (script path spend), telle que définie dans..."
+"d": "Structure de données fournie dans le témoin d'une transaction P2TR lors d'une dépense par chemin de script (script path spend), telle que définie dans…"
 },
 {
 "t": "MATT",
 "s": "matt",
-"d": "Proposition de soft fork dont le nom signifie « Merkleize All The Things » et qui vise à introduire des capacités de covenant et d'introspection limitée..."
+"d": "Proposition de soft fork dont le nom signifie « Merkleize All The Things » et qui vise à introduire des capacités de covenant et d'introspection limitée…"
 },
 {
 "t": "OP_2DUP - 0X6E",
@@ -717,12 +717,12 @@
 {
 "t": "SCRIPTSIG",
 "s": "scriptsig",
-"d": "Élément dans une transaction Bitcoin situé dans les inputs. Le scriptSig fournit les données nécessaires pour satisfaire les conditions posées par le..."
+"d": "Élément dans une transaction Bitcoin situé dans les inputs. Le scriptSig fournit les données nécessaires pour satisfaire les conditions posées par le…"
 },
 {
 "t": "P2WSH",
 "s": "p2wsh",
-"d": "P2WSH est le sigle pour Pay to Witness Script Hash (en français « payer au témoin du hachage du script »)."
+"d": "P2WSH est le sigle pour Pay to Witness Script Hash (en français « payer au témoin du hachage du script »)."
 },
 {
 "t": "SCRIPTPUBKEY",
@@ -747,17 +747,17 @@
 {
 "t": "MINAGE FUSIONNÉ",
 "s": "minage-fusionne",
-"d": "Technique de consensus de sidechain permettant aux mineurs de Bitcoin de travailler simultanément sur la chaîne principale et sur une ou plusieurs..."
+"d": "Technique de consensus de sidechain permettant aux mineurs de Bitcoin de travailler simultanément sur la chaîne principale et sur une ou plusieurs…"
 },
 {
 "t": "WATCHMEN",
 "s": "watchmen",
-"d": "Dans le cadre de Liquid (une sidechain de Bitcoin), ce sont des entités chargées de maintenir l'ancrage du L-BTC, le jeton natif de Liquid, en gérant et..."
+"d": "Dans le cadre de Liquid (une sidechain de Bitcoin), ce sont des entités chargées de maintenir l'ancrage du L-BTC, le jeton natif de Liquid, en gérant et…"
 },
 {
 "t": "DYNAFED - DYNAMIC FEDERATIONS",
 "s": "dynamic-federations",
-"d": "Mécanisme de gouvernance déployé sur le réseau Liquid qui permet de modifier la composition de la fédération de fonctionnaires sans interrompre le..."
+"d": "Mécanisme de gouvernance déployé sur le réseau Liquid qui permet de modifier la composition de la fédération de fonctionnaires sans interrompre le…"
 },
 {
 "t": "FONCTIONNAIRE",
@@ -772,7 +772,7 @@
 {
 "t": "BLOCKSIGNERS",
 "s": "blocksigners",
-"d": "Dans le contexte de Liquid (sidechain de Bitcoin), ce sont les entités responsables de la construction et de la validation des blocs au sein de cette..."
+"d": "Dans le contexte de Liquid (sidechain de Bitcoin), ce sont les entités responsables de la construction et de la validation des blocs au sein de cette…"
 },
 {
 "t": "LIQUID NETWORK",
@@ -787,22 +787,22 @@
 {
 "t": "ACTIF AU PORTEUR",
 "s": "actif-au-porteur",
-"d": "Bien ou instrument financier dont la propriété est déterminée uniquement par la possession physique, sans nécessiter l'intervention d'un registre..."
+"d": "Bien ou instrument financier dont la propriété est déterminée uniquement par la possession physique, sans nécessiter l'intervention d'un registre…"
 },
 {
 "t": "STABLECOIN",
 "s": "stablecoin",
-"d": "Catégorie de cryptomonnaie conçue pour maintenir une valeur stable par rapport à un actif référence, souvent une monnaie étatique comme le dollar..."
+"d": "Catégorie de cryptomonnaie conçue pour maintenir une valeur stable par rapport à un actif référence, souvent une monnaie étatique comme le dollar…"
 },
 {
 "t": "ÉCOLE AUTRICHIENNE",
 "s": "ecole-autrichienne",
-"d": "École de pensée économique qui théorise le marché comme un ensemble d'interactions individuelles volontaires, souligne la spontanéité de l'ordre..."
+"d": "École de pensée économique qui théorise le marché comme un ensemble d'interactions individuelles volontaires, souligne la spontanéité de l'ordre…"
 },
 {
 "t": "LOI DE GRESHAM",
 "s": "loi-de-gresham",
-"d": "Principe économique selon lequel « la mauvaise monnaie chasse la bonne »."
+"d": "Principe économique selon lequel « la mauvaise monnaie chasse la bonne »."
 },
 {
 "t": "ETF",
@@ -817,7 +817,7 @@
 {
 "t": "KYC - KNOW YOUR CUSTOMER",
 "s": "kyc-know-your-customer",
-"d": "Procédure réglementaire utilisée par certaines entreprises opérant sur Bitcoin pour vérifier l'identité de leurs clients dans le cadre de la lutte..."
+"d": "Procédure réglementaire utilisée par certaines entreprises opérant sur Bitcoin pour vérifier l'identité de leurs clients dans le cadre de la lutte…"
 },
 {
 "t": "WHALE",

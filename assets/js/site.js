@@ -550,7 +550,8 @@ function initDict() {
   let seen = null;
   try { seen = localStorage.getItem(KEY); } catch (e) { /* stockage refusé : tirage sans mémoire */ }
   // une définition au hasard : jamais celle déjà affichée ni la dernière vue, d'une autre lettre si possible
-  // une formule perdue à l'extraction laisse une espace avant le point ou la virgule (« l'ensemble des tels que . ») : on ne tire pas ces définitions
+  // filet : une formule perdue à l'extraction laisse une espace avant le point ou la virgule (« l'ensemble des tels que . ») ;
+  // _scripts/definitions-extraits.py réécrit désormais les formules, ce filtre ne devrait plus rien écarter
   const sound = (d) => !/\s[.,](\s|$)/.test(d.d);
   const pick = (all) => {
     const list = all.filter(sound);
@@ -573,7 +574,13 @@ function initDict() {
       // espaces insécables à l'intérieur des guillemets : « et » ne restent jamais seuls en bout de ligne
       const nbsp = (s) => s.replace(/« /g, '«\u00a0').replace(/ »/g, '\u00a0»').replace(/\.\.\.$/, '…');
       term.textContent = nbsp(d.t); term.href = url; link.href = url;
-      text.textContent = nbsp(d.d);
+      // les variables d'une formule arrivent en <i>…</i> : posées en nœuds, jamais en innerHTML
+      text.replaceChildren(...nbsp(d.d).split(/<i>(.*?)<\/i>/).map((part, k) => {
+        if (k % 2 === 0) return document.createTextNode(part);
+        const i = document.createElement('i');
+        i.textContent = part;
+        return i;
+      }));
       // la légende et la lettre changent avec le texte, pas avant lui
       if (letterEl) letterEl.textContent = letter;
       if (capL) capL.textContent = letter;

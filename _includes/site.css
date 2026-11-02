@@ -1002,6 +1002,8 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
 /* la marge intérieure agrandit la zone de clic du terme (44 px) sans rien déplacer */
 .defn-term a { text-decoration: none; padding: 6px 0; }
 .defn-text { margin: 0 0 20px; max-width: 65ch; transition: opacity var(--t-ui) ease; }
+/* variables d'une formule : Literata n'a pas d'italique, la pente est calculée et déborde à droite ; on lui rend sa place */
+.defn-text i { padding-right: 0.06em; }
 .defn-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin: 0; }
 .defn-actions .link { font: 640 var(--s-small)/1.4 var(--font-ui); display: inline-block; padding: 12px 0; }
 .defn-actions .link::after { bottom: 8px; }
