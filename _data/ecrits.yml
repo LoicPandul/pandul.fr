@@ -1320,6 +1320,15 @@
 # date = date de publication sur wizardsardine.com ; la page d'accueil les classe du plus récent au plus ancien
 # =====================
 
+- title: "Reproducible builds: how to prove your Bitcoin Core or Liana binary matches the code?"
+  url: "https://wizardsardine.com/blog/guix-nix-reproducible-builds/"
+  date: 2026-10-28
+  description: "Builds reproductibles avec Guix et Nix : vérifier que les binaires de Bitcoin Core et de Liana correspondent au code"
+  platform: "Wizardsardine"
+  type: "article"
+  langue: "en"
+  featured: false
+
 - title: "Absolute or relative timelock: understanding the difference"
   url: "https://wizardsardine.com/blog/absolute-vs-relative-timelock/"
   date: 2026-07-04
