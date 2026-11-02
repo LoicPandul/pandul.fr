@@ -121,7 +121,7 @@ Chargement : préchargement de Mona Sans (le titre), `font-display: swap`, et un
 - Les grandes images (portrait, lettre, vidéo de Gerfaut, nom du pied de page) vont jusqu'au bord ; le texte garde toujours la marge.
 - Écart entre sections : `--section`, `clamp(96px, 11vw, 128px)`, 64 px sous 600 px ; toujours plus grand que tout écart interne. Les champs noirs (clients, contact) ont le même écart en haut et en bas.
 - Titre affiche → phrase d'accroche : `--lead-gap`, `clamp(32px, 3.4vw, 48px)`. Titre de section → contenu : `--head-gap`, `clamp(48px, 6vw, 96px)`. Légende sous un panneau : 14 px.
-- Coins droits partout, panneaux en canvas, vignettes, captures et clé compris ; pas d'ombre. Une seule forme de bouton : rectangle plein, 52 px de haut ; la variante compacte de 44 px ne sert que dans la barre et dans la lecture de la réglette, où la hauteur est comptée. Seule exception aux coins droits : l'interrupteur de langue, une pilule à deux positions avec ses drapeaux ronds.
+- Coins droits partout, panneaux en canvas, vignettes, captures et clé compris ; pas d'ombre. Une seule forme de bouton : rectangle plein, 52 px de haut ; la variante compacte de 44 px ne sert que dans la barre et dans la lecture de la réglette, où la hauteur est comptée. Exceptions aux coins droits : l'interrupteur de langue, une pilule à deux positions avec ses drapeaux ronds, et la loupe en gélule qui grossit les lignes des panneaux (portrait et métiers).
 - Points de rupture : 600, 960, 1200 px. L'accueil passe en deux colonnes à partir de 960 px ; à 768 px tout est empilé.
 
 ## 8. Les sections, une par une

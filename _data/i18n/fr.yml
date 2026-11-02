@@ -69,7 +69,7 @@ projects:
   title: "Projets"
   lead: "En dehors de mes clients, je construis mes propres outils, gratuits et open source."
   dict_as: "comme"
-  dict_body: "Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin. Le dictionnaire est gratuit en ligne, publié sous licence <span class=\"nowrap\">CC BY-NC-SA 4.0</span> ou bien disponible au format papier, sur <a class=\"link\" href=\"https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin\" rel=\"noopener\">Bitcoin Bazar</a> et sur <a class=\"link\" href=\"https://amzn.to/4cxaOA8\" rel=\"sponsored noopener\">Amazon</a>."
+  dict_body: "Plus de 1&nbsp;400 définitions du vocabulaire technique de Bitcoin. Le dictionnaire est gratuit en ligne, publié sous licence <span class=\"nowrap\">CC BY-NC-SA 4.0</span> ou bien disponible au format papier, sur <a class=\"link\" href=\"https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin\" rel=\"noopener\">Bitcoin&nbsp;Bazar</a> et sur <a class=\"link\" href=\"https://amzn.to/4cxaOA8\" rel=\"sponsored noopener\">Amazon</a>."
   dict_read: "Lire la définition complète"
   dict_next: "Une autre définition"
   dict_open: "Ouvrir le dictionnaire"

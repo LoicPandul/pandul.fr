@@ -69,7 +69,7 @@ projects:
   title: "Projects"
   lead: "Outside client work, I build my own tools, free and open source."
   dict_as: "as in"
-  dict_body: "Over 1,400 definitions of Bitcoin's technical vocabulary, in French. The dictionary is free online, published under the <span class=\"nowrap\">CC BY-NC-SA 4.0</span> license, or available as a printed book, from <a class=\"link\" href=\"https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin\" rel=\"noopener\">Bitcoin Bazar</a> and <a class=\"link\" href=\"https://amzn.to/4cxaOA8\" rel=\"sponsored noopener\">Amazon</a>."
+  dict_body: "Over 1,400 definitions of Bitcoin's technical vocabulary, in French. The dictionary is free online, published under the <span class=\"nowrap\">CC BY-NC-SA 4.0</span> license, or available as a printed book, from <a class=\"link\" href=\"https://bitcoinbazar.fr/products/le-dictionnaire-de-bitcoin\" rel=\"noopener\">Bitcoin&nbsp;Bazar</a> and <a class=\"link\" href=\"https://amzn.to/4cxaOA8\" rel=\"sponsored noopener\">Amazon</a>."
   dict_read: "Read the full definition"
   dict_next: "Another definition"
   dict_open: "Open the dictionary"

@@ -544,7 +544,7 @@ html:not(.js) .only-hover, html:not(.js) .only-touch { display: none; }
   /* clients passés : le logo et une seule ligne (le nombre de contenus, sinon le travail) */
   .brands-row:not(.brands-row--now) .brand-name,
   .brands-row:not(.brands-row--now) .brand-work:has(+ .brand-count) { display: none; }
-  .brands-row:not(.brands-row--now) .brand-text { margin-top: 4px; }
+  .brands-row:not(.brands-row--now) .brand-text { margin-top: 12px; }
   .brands-row:not(.brands-row--now) .brands-list { row-gap: 24px; }
 }
 .brand-link {
@@ -636,7 +636,8 @@ a.brand-link:focus-visible { color: var(--ink); }
   transition: transform var(--t-ui) var(--ease-out);
 }
 .works-title {
-  margin: 0;
+  margin: 0 0 0 -0.12em;
+  padding-left: 0.12em;
   max-width: 46ch;
   font: 420 var(--s-lead)/1.48 var(--font-text);
   display: -webkit-box;
@@ -852,11 +853,11 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
     text-decoration: none;
     transition: background-color var(--t-ui), color var(--t-ui);
   }
-  /* petit téléphone : les trois onglets tiennent dans l'écran à 15 px, avec moins de marge intérieure */
-  @media (max-width: 379px) { .trades-tabs a { padding: 0 3px; } .trades-tabs a:first-child { margin-left: -3px; } }
   .trades-tabs a.is-current { background: var(--mark); color: var(--ink); }
   /* le texte du premier onglet tombe sur la colonne du texte, son surlignage déborde comme les autres */
   .trades-tabs a:first-child { margin-left: -5px; }
+  /* petit téléphone : les trois onglets tiennent dans l'écran à 15 px, avec moins de marge intérieure */
+  @media (max-width: 379px) { .trades-tabs a { padding: 0 3px; } .trades-tabs a:first-child { margin-left: -3px; } }
   /* le dernier métier enchaîne sur « Projets » avec le seul écart de section */
   .trade:last-child { padding-bottom: 0; }
 }
@@ -939,7 +940,7 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
 /* Projets */
 .projects-head { display: grid; gap: var(--lead-gap); }
 .projects-head .lead { max-width: 30ch; }
-@media (min-width: 600px) {
+@media (min-width: 960px) {
   .projects-head { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: end; }
   .projects-head .display { grid-column: 1 / 7; }
   .projects-head .lead { grid-column: 7 / 13; padding-bottom: 0.13em; }

@@ -57,12 +57,14 @@ let lenis = null;
 function onScroll() { scroll.y = lenis ? lenis.scroll : window.scrollY; kick(); }
 window.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', kick, { passive: true });
+// Lenis retient le défilement natif et n'avance que dans la boucle : un cran de molette la relance, même au repos
+window.addEventListener('wheel', kick, { passive: true });
 
 /* ---------- Défilement doux (ordinateur à souris seulement) ---------- */
 function barHeight() { return wide() ? 64 : 56; }
 function scrollToTarget(el) {
   if (!el) return;
-  if (lenis) lenis.scrollTo(el, { offset: -barHeight() - 8, duration: 1.2 });
+  if (lenis) { lenis.scrollTo(el, { offset: -barHeight() - 8, duration: 1.2 }); kick(); }
   else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
 }
 function initLenis() {
@@ -138,7 +140,7 @@ function initTradesIndex() {
   // un onglet touché s'allume tout de suite, et le reste pendant que la page glisse jusqu'à son métier
   let lockUntil = 0;
   links.forEach((a) => a.addEventListener('click', () => {
-    cur = a.dataset.index; lockUntil = performance.now() + 1400;
+    cur = a.dataset.index; lockUntil = performance.now() + 4000;
     links.forEach((b) => b.classList.toggle('is-current', b.dataset.index === cur));
   }));
   const update = () => {
@@ -158,7 +160,9 @@ function initTradesIndex() {
     cur = id;
     links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
   };
-  let raf = 0;
+  let raf = 0, settle = 0;
+  // le verrou de l'onglet touché tombe quand le défilement s'arrête (150 ms sans mouvement), au plus tard après 4 s
+  window.addEventListener('scroll', () => { if (lockUntil) { clearTimeout(settle); settle = setTimeout(() => { lockUntil = 0; update(); }, 150); } }, { passive: true });
   window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; update(); }); }, { passive: true });
   window.addEventListener('resize', update, { passive: true });
   update();
@@ -421,7 +425,7 @@ function initWorks() {
   // le pointeur file vers « Ouvrir » : on garde le contenu lu au lieu de lire chaque trait traversé.
   // La direction se lit sur les 120 dernières ms (un tremblement d'un pixel ne compte pas) ; une fois la visée
   // reconnue, la lecture reste figée tant que le pointeur continue de monter, ou 150 ms s'il s'arrête.
-  let trail = [], frozen = 0;
+  let trail = [], frozen = 0, pinned = false;
   const aiming = (e) => {
     if (e.pointerType !== 'mouse') return false;
     const now = performance.now();
@@ -430,6 +434,8 @@ function initWorks() {
     const p = trail[0];
     const dx = e.clientX - p.x, dy = e.clientY - p.y;
     if (dy > -3) return now < frozen;
+    // le pointeur quitte la réglette par le haut, vers la lecture : on ne lit plus les traits qu'il traverse
+    if (-dy > 0.5 * Math.abs(dx)) { frozen = now + 150; return true; }
     const b = openEl.getBoundingClientRect();
     const t = (b.bottom - e.clientY) / dy;
     const hx = e.clientX + dx * t;
@@ -438,7 +444,7 @@ function initWorks() {
   };
   track.addEventListener('pointermove', (e) => {
     // au doigt sur une grande tablette, glisser le long de la réglette la parcourt aussi
-    if (!wide() || aiming(e)) return;
+    if (!wide() || pinned || aiming(e)) return;
     const r = track.getBoundingClientRect();
     const x = clamp((e.clientX - r.left) / r.width) * N;
     dock.x = x; dock.target = 1;
@@ -446,11 +452,13 @@ function initWorks() {
     follow(e.clientX - r.left);
     kick();
   });
-  track.addEventListener('pointerleave', () => { dock.target = 0; trail = []; kick(); });
+  track.addEventListener('pointerleave', () => { dock.target = 0; trail = []; pinned = false; kick(); });
   track.addEventListener('click', (e) => {
     if (!wide()) return;
     const r = track.getBoundingClientRect();
     set(Math.floor(clamp((e.clientX - r.left) / r.width) * N));
+    // un clic fixe la sélection jusqu'à la sortie de la réglette : on peut aller cliquer « Ouvrir » sans rien changer
+    pinned = true;
     track.focus({ preventScroll: true });
   });
 
@@ -537,7 +545,10 @@ function initDict() {
   let seen = null;
   try { seen = localStorage.getItem(KEY); } catch (e) { /* stockage refusé : tirage sans mémoire */ }
   // une définition au hasard : jamais celle déjà affichée ni la dernière vue, d'une autre lettre si possible
-  const pick = (list) => {
+  // une formule perdue à l'extraction laisse une espace avant le point ou la virgule (« l'ensemble des tels que . ») : on ne tire pas ces définitions
+  const sound = (d) => !/\s[.,](\s|$)/.test(d.d);
+  const pick = (all) => {
+    const list = all.filter(sound);
     const curLetter = current.charAt(0);
     let d = null;
     for (let tries = 0; tries < 16; tries++) {
