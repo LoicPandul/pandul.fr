@@ -276,3 +276,13 @@ Loïc garde la palette. Suites données :
 - **Images** : la carte de partage `social-card.png` et les images non utilisées (`formations/*.webp`, `second-bark-pay-encre-*.webp`) sont recolorées du bleu vers noir et béton.
 - **Carte de partage** : « Bitcoin » y est surligné en jaune, comme dans l'accroche. Il n'y a qu'une carte, en français, pour les deux langues.
 - **Carte de partage anglaise** : `social-card-en.png` (« Technical writer focused on Bitcoin. », « Bitcoin » surligné), déclarée dans `og:image` et `twitter:image` de `/en/`, avec un texte alternatif anglais. La 404 déclare la carte française.
+
+### Revue de l'interface avant publication (1er et 2 novembre 2026)
+
+Trois relecteurs, un par format (mobile 390 et 360 ; tablette 820 × 1180 et 1180 × 820 ; ordinateur 1440 × 900 et 1920 × 1080), en quatre passes. Notes : passe 1 de 6 à 7/10, passe 2 8/10 partout, passe 3 de 7 à 9/10, passe 4 9,5 (mobile), 9 et 9 (tablette), 8,5 (ordinateur), sans écart notable.
+
+- Jetons ajoutés : `--lead-gap` (titre → accroche), `--head-gap` (titre → contenu), `--block-gap` (entre blocs d'une section). Affiche à 16,6vw, réduite ensemble (`16svh`) sur les écrans d'ordinateur bas.
+- Coins droits et pas d'ombre partout, canvas compris ; exceptions : l'interrupteur de langue et la loupe.
+- Comportements : onglets des métiers justes au toucher, molette relancée pour le défilement doux, « Ouvrir » de la réglette atteignable (visée, clic qui fixe la sélection), barre qui revient au focus.
+- Contenu : bande des contenus du plus récent au plus ancien ; nouveau logo Bitstack (kit presse officiel) ; définition PREIMAGE, cassée à l'extraction, écartée du tirage.
+- Laissés tels quels, avec leur raison : carte de définition qui épouse sa définition au téléphone (choix de Loïc) ; Space Kek et How to Bitcoin sans lien ; bouton compact de 44 px dans la barre et la réglette ; vignettes des formations en couleurs d'origine.

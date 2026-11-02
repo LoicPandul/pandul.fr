@@ -64,7 +64,9 @@ window.addEventListener('wheel', kick, { passive: true });
 function barHeight() { return wide() ? 64 : 56; }
 function scrollToTarget(el) {
   if (!el) return;
-  if (lenis) { lenis.scrollTo(el, { offset: -barHeight() - 8, duration: 1.2 }); kick(); }
+  // un titre pas encore apparu est décalé par son animation d'entrée (translateY) : on vise sa place finale
+  const ty = new DOMMatrixReadOnly(getComputedStyle(el).transform === 'none' ? undefined : getComputedStyle(el).transform).m42 || 0;
+  if (lenis) { lenis.scrollTo(el, { offset: -barHeight() - 8 - ty, duration: 1.2 }); kick(); }
   else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
 }
 function initLenis() {
@@ -161,8 +163,8 @@ function initTradesIndex() {
     links.forEach((a) => a.classList.toggle('is-current', a.dataset.index === id));
   };
   let raf = 0, settle = 0;
-  // le verrou de l'onglet touché tombe quand le défilement s'arrête (150 ms sans mouvement), au plus tard après 4 s
-  window.addEventListener('scroll', () => { if (lockUntil) { clearTimeout(settle); settle = setTimeout(() => { lockUntil = 0; update(); }, 150); } }, { passive: true });
+  // le verrou de l'onglet touché tombe quand le défilement s'arrête (250 ms sans mouvement), au plus tard après 4 s
+  window.addEventListener('scroll', () => { if (lockUntil) { clearTimeout(settle); settle = setTimeout(() => { lockUntil = 0; update(); }, 250); } }, { passive: true });
   window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; update(); }); }, { passive: true });
   window.addEventListener('resize', update, { passive: true });
   update();
@@ -425,17 +427,19 @@ function initWorks() {
   // le pointeur file vers « Ouvrir » : on garde le contenu lu au lieu de lire chaque trait traversé.
   // La direction se lit sur les 120 dernières ms (un tremblement d'un pixel ne compte pas) ; une fois la visée
   // reconnue, la lecture reste figée tant que le pointeur continue de monter, ou 150 ms s'il s'arrête.
-  let trail = [], frozen = 0, pinned = false;
+  let trail = [], frozen = 0, pinned = false, entered = 0;
   const aiming = (e) => {
     if (e.pointerType !== 'mouse') return false;
     const now = performance.now();
+    // les 200 premières ms dans la réglette, on lit toujours : une entrée par le bas en biais n'est pas une visée
+    if (now - entered < 200) { trail = [{ x: e.clientX, y: e.clientY, t: now }]; return false; }
     trail.push({ x: e.clientX, y: e.clientY, t: now });
     while (trail.length > 2 && now - trail[0].t > 120) trail.shift();
     const p = trail[0];
     const dx = e.clientX - p.x, dy = e.clientY - p.y;
     if (dy > -3) return now < frozen;
     // le pointeur quitte la réglette par le haut, vers la lecture : on ne lit plus les traits qu'il traverse
-    if (-dy > 0.5 * Math.abs(dx)) { frozen = now + 150; return true; }
+    if (-dy > 0.4 * Math.abs(dx)) { frozen = now + 150; return true; }
     const b = openEl.getBoundingClientRect();
     const t = (b.bottom - e.clientY) / dy;
     const hx = e.clientX + dx * t;
@@ -452,6 +456,7 @@ function initWorks() {
     follow(e.clientX - r.left);
     kick();
   });
+  track.addEventListener('pointerenter', () => { entered = performance.now(); trail = []; });
   track.addEventListener('pointerleave', () => { dock.target = 0; trail = []; pinned = false; kick(); });
   track.addEventListener('click', (e) => {
     if (!wide()) return;
@@ -566,7 +571,7 @@ function initDict() {
       const h0 = box.offsetHeight;
       const url = `${box.dataset.base}/${d.s}/`;
       // espaces insécables à l'intérieur des guillemets : « et » ne restent jamais seuls en bout de ligne
-      const nbsp = (s) => s.replace(/« /g, '«\u00a0').replace(/ »/g, '\u00a0»');
+      const nbsp = (s) => s.replace(/« /g, '«\u00a0').replace(/ »/g, '\u00a0»').replace(/\.\.\.$/, '…');
       term.textContent = nbsp(d.t); term.href = url; link.href = url;
       text.textContent = nbsp(d.d);
       // la légende et la lettre changent avec le texte, pas avant lui
