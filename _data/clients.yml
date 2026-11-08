@@ -23,7 +23,7 @@
       travail_en: "Liana wallet documentation and software testing"
       comptes:
         - {source: "ecrits", platform: "Liana", type: "documentation", libelle: "pages de documentation", libelle_en: "documentation pages"}
-      url: "https://lianawallet.com/docs/"
+      url: "https://lianawallet.com"
     - nom: "Wizardsardine"
       logo: "wizardsardine.svg"
       ratio: 8.43
