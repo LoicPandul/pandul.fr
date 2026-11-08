@@ -1,0 +1,11 @@
+{%- comment -%} Visuel d'accueil A, « photo » : le portrait net, et une carte qui mène à l'index des contenus. {%- endcomment %}
+  <figure class="hero-stage visuel visuel-a" data-visuel="a">
+    <div class="stage-box va-box" data-reveal="wipe">
+      <img class="va-photo" src="{{ '/assets/img/v3/loic-morel-800.webp' | relative_url }}" width="800" height="1000" alt="{{ t.hero.alt }}" fetchpriority="high" decoding="async">
+    </div>
+    <a class="card va-card" href="#index-contenus">
+      <span class="va-num">{{ nb_total }}</span>
+      <span class="va-label">{{ t.works.label }}</span>
+      <span class="va-go">{{ t.hero.va_link }} <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>
+    </a>
+  </figure>

@@ -352,6 +352,104 @@ function initWorks() {
   apply(false);
 }
 
+/* ---------- Visuels de l'accueil (_includes/visuels) ---------- */
+// Hors production, ?visuel=a, b, c ou visage remplace le visuel choisi dans _config.yml par un autre, pris dans son <template>.
+function pickVisuel() {
+  const want = new URLSearchParams(location.search).get('visuel');
+  if (!want) return;
+  const tpl = $(`template[data-visuel="${CSS.escape(want)}"]`);
+  const cur = $('.hero [data-visuel]');
+  if (!tpl || !cur) return;
+  cur.replaceWith(tpl.content.cloneNode(true));
+}
+
+// Défilement automatique d'un visuel : arrêté au survol, au focus clavier, hors de l'écran, par le bouton Pause,
+// et jamais lancé quand le système demande moins de mouvement.
+function autoplay(root, step, btn, ms) {
+  let user = reduce, hover = false, focus = false, seen = false, timer = 0;
+  const run = () => {
+    clearTimeout(timer);
+    if (!user && !hover && !focus && seen && !document.hidden) timer = setTimeout(() => { step(); run(); }, ms);
+  };
+  const label = () => { btn.textContent = user ? btn.dataset.play : btn.dataset.pause; };
+  btn.addEventListener('click', () => { user = !user; label(); if (!user) step(); run(); });
+  if (fine) {
+    root.addEventListener('pointerenter', () => { hover = true; run(); });
+    root.addEventListener('pointerleave', () => { hover = false; run(); });
+  }
+  // le focus sur les boutons de contrôle n'arrête pas la pile : on peut les enchaîner au clavier
+  root.addEventListener('focusin', (e) => { focus = !e.target.closest('.vb-ctrl'); run(); });
+  root.addEventListener('focusout', () => { focus = false; run(); });
+  document.addEventListener('visibilitychange', run);
+  new IntersectionObserver((en) => { seen = en[0].isIntersecting; run(); }, { threshold: 0.3 }).observe(root);
+  label();
+}
+
+function initDeck(fig) {
+  const cards = $$('.vb-card', fig);
+  const ctrl = $('[data-deck-ctrl]', fig);
+  if (!cards.length || !ctrl) return;
+  let order = cards.map((_, i) => i);
+  const place = () => order.forEach((ci, k) => {
+    cards[ci].style.setProperty('--k', String(k));
+    // seule la carte du dessus se lit et se clique ; les autres restent joignables au clavier
+    cards[ci].classList.toggle('is-front', k === 0);
+  });
+  let busy = false;
+  const next = () => {
+    if (busy) return;
+    const c = cards[order[0]];
+    const done = () => { order.push(order.shift()); place(); c.classList.toggle('is-leaving', false); busy = false; };
+    if (reduce) { done(); return; }
+    busy = true;
+    c.classList.toggle('is-leaving', true);
+    setTimeout(done, 380);
+  };
+  // une carte atteinte au clavier passe sur le dessus
+  cards.forEach((c, i) => c.addEventListener('focusin', () => {
+    if (order[0] === i) return;
+    order = [i, ...order.filter((x) => x !== i)];
+    place();
+  }));
+  ctrl.hidden = false;
+  $('[data-deck-next]', fig).addEventListener('click', next);
+  autoplay(fig, next, $('[data-deck-pause]', fig), 3200);
+  place();
+  fig.classList.add('is-live');
+}
+
+function initTally(fig) {
+  const list = $('[data-tally]', fig);
+  const ctrl = $('[data-tally-ctrl]', fig);
+  if (!list || !ctrl) return;
+  const rows = $$('.vc-row', list);
+  const nums = rows.map((r) => { const el = $('.vc-n', r); return { el, n: Number(el.textContent) }; });
+  const count = ({ el, n }) => {
+    const t0 = performance.now();
+    const tick = (now) => {
+      const k = clamp((now - t0) / 700);
+      el.textContent = String(Math.round(n * (1 - Math.pow(1 - k, 3))));
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+  let i = 0;
+  const show = (k, animate) => {
+    rows.forEach((r, j) => r.classList.toggle('is-on', j === k));
+    list.style.setProperty('--i', String(k));
+    if (animate && !reduce) count(nums[k]);
+  };
+  ctrl.hidden = false;
+  autoplay(fig, () => { i = (i + 1) % rows.length; show(i, true); }, $('[data-tally-pause]', fig), 2600);
+  show(0, false);
+  fig.classList.add('is-live');
+}
+
+function initVisuels() {
+  $$('.visuel-b').forEach(initDeck);
+  $$('.visuel-c').forEach(initTally);
+}
+
 /* ---------- Dictionnaire : une autre définition ---------- */
 let letterStage = null;
 let letterFigure = null;
@@ -746,6 +844,7 @@ function restoreLangSpot() {
 window.addEventListener('pageshow', (e) => { if (e.persisted) $$('[data-lang]').forEach((o) => { o.dataset.lang = html.lang; }); });
 
 /* ---------- Démarrage ---------- */
+pickVisuel();
 initLang();
 initBar();
 initMenu();
@@ -755,6 +854,7 @@ initMagnetic();
 initCopy();
 initSlides();
 initWorks();
+initVisuels();
 initDict();
 initCount();
 initTradeStages();

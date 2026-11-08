@@ -21,16 +21,16 @@
       <a class="link" href="#clients">{{ t.hero.trust }}</a>
     </p>
   </div>
-  <figure class="hero-stage stage" data-stage="portrait">
-    <div class="stage-box">
-      <noscript><img class="stage-fallback" src="{{ '/assets/img/lignes/portrait-encre.webp' | relative_url }}" width="800" height="1000" alt="{{ t.hero.alt }}"></noscript>
-      <canvas aria-hidden="true"></canvas>
-    </div>
-    <figcaption class="stage-caption" aria-live="polite">
-      <span class="stage-default">{{ t.hero.caption | replace: '%n', nb_total }}</span>
-      <span class="stage-current" hidden><a class="stage-title" href="#" data-stage-title></a> <span class="stage-meta" data-stage-meta></span></span>
-    </figcaption>
-  </figure>
+  {%- comment -%} Le visuel de l'accueil : _includes/visuels/<accueil_visuel>.html (_config.yml). Hors production, les autres
+  attendent dans des <template> et ?visuel=a, b, c ou visage les essaie sans rien reconstruire (site.js, pickVisuel). {%- endcomment %}
+  {%- assign visuel = site.accueil_visuel | default: 'a' %}
+  {%- include visuels/{{ visuel }}.html %}
+  {%- if jekyll.environment != "production" %}
+  {%- assign essais = "a,b,c,visage" | split: "," %}
+  {%- for v in essais %}{% if v != visuel %}
+  <template data-visuel="{{ v }}">{% include visuels/{{ v }}.html %}</template>
+  {%- endif %}{% endfor %}
+  {%- endif %}
 </section>
 
 <section class="clients" id="clients" aria-labelledby="t-clients">

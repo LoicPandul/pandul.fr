@@ -83,3 +83,7 @@ defaults:
     values:
       layout: "redirection-dictionnaire"
       sitemap: false
+
+# Visuel de l'accueil : a (photo), b (pile des formations), c (compteur), visage (portrait en lignes, mis de côté le 2026-11-08).
+# Hors production, ?visuel=a, b, c ou visage les essaie sur la page, et /essai-visuels/ les montre côte à côte.
+accueil_visuel: a

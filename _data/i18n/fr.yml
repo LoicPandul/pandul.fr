@@ -28,6 +28,18 @@ hero:
   trust: "Ils me font confiance"
   caption: "Mon visage, écrit avec les titres de mes %n contenus publiés."
   alt: "Portrait de Loïc Morel"
+  va_link: "Parcourir l'index"
+  vb_caption: "Mes six formations sur Plan ₿ Academy, en pile. La carte du dessus s'ouvre d'un clic."
+  vb_next: "Formation suivante"
+  vc_caption: "Ce que j'ai publié, compté type par type."
+  vc_words:
+    - "tutoriels"
+    - "articles"
+    - "épisodes de podcast"
+    - "formations"
+    - "vidéos et interviews"
+  pause: "Pause"
+  play: "Reprendre"
 
 clients:
   title_a: "Ils me font"

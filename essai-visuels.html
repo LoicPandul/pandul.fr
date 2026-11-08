@@ -1,0 +1,41 @@
+---
+title: "Essai des visuels"
+permalink: /essai-visuels/
+lang: fr
+sitemap: false
+noindex: true
+---
+{%- comment -%} Page d'essai des visuels de l'accueil, pour choisir celui de _config.yml (accueil_visuel).
+Vide en production : à retirer une fois le visuel choisi. {%- endcomment -%}
+{%- if jekyll.environment != "production" %}
+<style>
+  .essai { padding-top: calc(var(--bar-h) + 48px) !important; padding-bottom: var(--section) !important; }
+  .essai-intro { max-width: 60ch; margin: 24px 0 0; }
+  .essai-list { display: grid; gap: 64px; margin-top: var(--head-gap); }
+  .essai-item h2 { font: 760 var(--s-title)/1.1 var(--font-ui); margin-bottom: 12px; }
+  .essai-item p { max-width: 60ch; }
+  .essai-frame { position: relative; width: 100%; aspect-ratio: 1440 / 900; overflow: hidden; border: 1px solid var(--border); background: var(--paper); }
+  .essai-frame iframe { position: absolute; top: 0; left: 0; width: 1440px; height: 900px; border: 0; transform-origin: 0 0; transform: scale(var(--sc, 0.5)); }
+</style>
+<section class="essai" aria-labelledby="t-essai">
+  <h1 class="display" id="t-essai">Visuels</h1>
+  <p class="essai-intro">Trois idées pour remplacer le visage écrit avec les titres. Chaque cadre montre l'accueil en vrai, à 1440 px de large. Le lien ouvre la page entière avec ce visuel. Pour en garder un, changez la ligne <code>accueil_visuel</code> de <code>_config.yml</code>.</p>
+  {%- assign items = "a|Photo|Une photo nette du portrait, avec dans son coin une carte noire qui donne le nombre de contenus publiés et descend vers leur index.;b|Pile des formations|Les six formations Plan ₿ Academy en pile de cartes : toutes les 3 secondes, la carte du dessus passe derrière, et chacune s'ouvre d'un clic.;c|Compteur|Le nombre de contenus publiés, type par type, qui défile en grands chiffres comme un sélecteur : tutoriels, articles, podcasts, formations, vidéos.;visage|Visage écrit (mis de côté)|Le portrait dessiné par les titres des contenus, tel qu'il était, gardé pour pouvoir y revenir." | split: ";" %}
+  <div class="essai-list">
+    {%- for it in items %}
+    {%- assign f = it | split: "|" %}
+    <article class="essai-item">
+      <h2>{{ f[1] }}</h2>
+      <p>{{ f[2] }}</p>
+      <p class="actions"><a class="btn" href="{{ '/?visuel=' | append: f[0] | relative_url }}">Ouvrir l'accueil avec ce visuel</a> <a class="link" href="{{ '/en/?visuel=' | append: f[0] | relative_url }}">En anglais</a></p>
+      <div class="essai-frame"><iframe src="{{ '/?visuel=' | append: f[0] | relative_url }}" title="Accueil avec le visuel {{ f[1] }}" loading="lazy" tabindex="-1"></iframe></div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+<script>
+  // l'aperçu suit la largeur du cadre
+  const fit = () => document.querySelectorAll('.essai-frame').forEach((f) => f.style.setProperty('--sc', String(f.clientWidth / 1440)));
+  addEventListener('resize', fit); fit();
+</script>
+{%- endif %}

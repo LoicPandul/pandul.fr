@@ -315,3 +315,9 @@ Ce qui a changé en construisant, et pourquoi :
 - **Orange** : il surligne aussi le survol des boutons, des marques et de l'adresse e-mail, et le métier en cours dans l'index de « Ce que je fais ».
 - **Index des trois métiers** dans la colonne collée de « Ce que je fais » (à partir de 1200 px de large et 800 px de haut) : le métier lu est surligné, pour que la colonne épinglée change à chaque écran.
 - **CSS** : insérée dans le `<head>` (deux pages seulement), polices préchargées. Lighthouse mobile passe de 89 à 96 (serveur compressé comme GitHub Pages) et 93 (serveur Python brut).
+
+## Passe du 8 novembre 2026 : index, composants, visuels d'accueil
+
+- **Contenus publiés** : la réglette à traits laisse la place à quatre contenus à la une (une carte par type, la formation en grand avec sa couverture) puis à l'index entier : recherche dans les titres (touche « / »), filtre par type (groupe de bascules), filtre par plateforme (liste déroulante), 12 lignes puis « Afficher plus ». Sans JavaScript, les 252 lignes restent lisibles.
+- **Composants** (structure de shadcn/ui, identité de la maison) : jetons `--fg`, `--bg`, `--surface`, `--muted-fg`, `--border`, `--border-strong`, `--ring`, redéfinis sur les champs noirs ; bouton (défaut, secondaire, 52 et 44 px, désactivé), badge (plein, contour), carte, champ, liste déroulante, groupe de bascules. Un seul anneau de focus, à la couleur du texte de son fond.
+- **Visuel d'accueil** : le visage écrit est mis de côté (`_includes/visuels/visage.html`). Trois idées à sa place : A photo, B pile des formations, C compteur. Choix dans `_config.yml` (`accueil_visuel`) ; hors production, `?visuel=` et `/essai-visuels/` pour comparer.
