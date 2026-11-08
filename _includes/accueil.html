@@ -92,7 +92,7 @@
           {%- assign code = w.code | downcase | remove: " " %}
           <img class="wb-img" src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async">
           {%- endif %}
-          <span class="wb-meta"><span class="badge">{{ w.platform | replace: "Decouvre", "Découvre" }}</span> <span class="badge badge-outline">{{ t.works.kinds[w.type] }}</span></span>
+          <span class="wb-meta">{% include drapeau.html langue=wl %}<span class="badge">{{ w.platform | replace: "Decouvre", "Découvre" }}</span> <span class="badge badge-outline">{{ t.works.kinds[w.type] }}</span></span>
           <span class="wb-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span>
           <span class="wb-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
         </a>
@@ -132,20 +132,39 @@
         </div>
       </div>
       <p class="works-status" role="status" data-works-status></p>
+      {%- comment -%} Ordre mélangé : chaque groupe (un client) est réparti sur toute la liste, à intervalles réguliers.
+      Le contenu j d'un groupe de n contenus prend la clé (2j + 1) / 2n ; la liste suit les clés croissantes, le groupe départage
+      les égalités. Deux contenus d'un même client se suivent donc rarement, et jamais en longue série ; dans un groupe,
+      l'ordre d'origine (le plus récent d'abord quand tout est daté) est gardé. Le portrait de l'accueil lit les titres dans cet ordre. {%- endcomment -%}
+      {%- assign pools = "" | split: "" -%}
+      {%- assign keys = "" | split: "" -%}
+      {%- for g in groupes -%}
+        {%- assign gi = forloop.index0 -%}
+        {%- assign w_f = site.data.formations | where: "platform", g -%}
+        {%- assign w_e = site.data.ecrits | where: "platform", g -%}
+        {%- assign w_a = site.data.audio-video | where: "platform", g -%}
+        {%- assign items = w_f | concat: w_e | concat: w_a -%}
+        {%- assign dates = items | where_exp: "w", "w.date" -%}
+        {%- if dates.size == items.size -%}{%- assign items = items | sort: "date" | reverse -%}{%- endif -%}
+        {%- assign pools = pools | push: items -%}
+        {%- assign size = items | size -%}
+        {%- for w in items -%}
+          {%- assign j = forloop.index0 -%}
+          {%- assign k = j | times: 2 | plus: 1 | times: 1000000 | divided_by: size | plus: 10000000 -%}
+          {%- capture key %}{{ k }}-{{ gi | plus: 10 }}-{{ j | plus: 1000 }}{% endcapture -%}
+          {%- assign keys = keys | push: key -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- assign keys = keys | sort %}
       <ol class="works-list" data-works-list>
-        {%- for g in groupes -%}
-          {%- assign gi = forloop.index0 -%}
-          {%- assign w_f = site.data.formations | where: "platform", g -%}
-          {%- assign w_e = site.data.ecrits | where: "platform", g -%}
-          {%- assign w_a = site.data.audio-video | where: "platform", g -%}
-          {%- assign items = w_f | concat: w_e | concat: w_a -%}
-          {%- assign dates = items | where_exp: "w", "w.date" -%}
-          {%- if dates.size == items.size -%}{%- assign items = items | sort: "date" | reverse -%}{%- endif -%}
-          {%- assign nom = g | replace: "Decouvre", "Découvre" %}
-          {%- for w in items %}
+        {%- for key in keys %}
+          {%- assign kp = key | split: "-" -%}
+          {%- assign gi = kp[1] | minus: 10 -%}
+          {%- assign j = kp[2] | minus: 1000 -%}
+          {%- assign w = pools[gi][j] -%}
+          {%- assign nom = groupes[gi] | replace: "Decouvre", "Découvre" -%}
           {%- assign wl = w.langue | default: 'fr' %}
-        <li class="wi" data-g="{{ gi }}" data-k="{{ w.type }}"><a class="wi-link" href="{{ w.url }}" rel="noopener"><span class="wi-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span><span class="wi-meta"><span class="badge badge-outline wi-p">{{ nom }}</span><span class="wi-k">{{ t.works.kinds[w.type] }}</span></span><svg class="wi-go" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
-          {%- endfor %}
+        <li class="wi" data-g="{{ gi }}" data-k="{{ w.type }}"><a class="wi-link" href="{{ w.url }}" rel="noopener"><span class="wi-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span><span class="wi-meta"><span class="badge badge-outline wi-p">{{ nom }}</span><span class="wi-k">{% include drapeau.html langue=wl %}{{ t.works.kinds[w.type] }}</span></span><svg class="wi-go" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
         {%- endfor %}
       </ol>
       <div class="works-empty" data-works-empty hidden>

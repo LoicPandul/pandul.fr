@@ -1,0 +1,6 @@
+{%- comment -%} Petit drapeau rond de la langue d'un contenu (include.langue : fr ou en), dessiné par les symboles du gabarit. {%- endcomment -%}
+{%- if include.langue == 'en' -%}
+<svg class="flag" viewBox="0 0 30 30" role="img" aria-label="English" focusable="false"><title>English</title><use href="#drapeau-gb"/></svg>
+{%- else -%}
+<svg class="flag" viewBox="0 0 30 30" role="img" aria-label="Français" focusable="false"><title>Français</title><use href="#drapeau-fr"/></svg>
+{%- endif -%}
