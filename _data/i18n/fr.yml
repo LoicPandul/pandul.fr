@@ -64,6 +64,7 @@ trades:
   docs_caption: "La documentation de Bark Pay, sur le site de Second."
   dev_title: "Développement"
   dev_body: "Je vibe code des logiciels Bitcoin open source. J'ai créé <a class=\"link\" href=\"https://gerfaut-wallet.com\">Gerfaut</a>, le meilleur portefeuille watch-only, pour Android, Linux, macOS et Windows. J'ai aussi créé <a class=\"link\" href=\"https://github.com/LoicPandul/SatConverter\">SatConverter</a>, un petit logiciel de bureau pratique qui convertit les sats, les BTC, les euros et les dollars au cours du moment."
+  dev_qa: "Je teste aussi des logiciels Bitcoin, avec une démarche de test QA. Avant une sortie, je reprends un par un les parcours de vos utilisateurs, de l'installation à l'envoi d'une transaction, et je cherche ce qui casse. Chaque bug vous arrive avec les étapes pour le reproduire, le résultat attendu et le résultat obtenu. Concrètement, vous corrigez les bugs avant que vos utilisateurs ne tombent dessus."
 
 projects:
   title: "Projets"
