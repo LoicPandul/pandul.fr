@@ -70,7 +70,7 @@ void main(){
     q.y += sin((rd - front) * 0.085) * ring * 10.0 * uRipple.w;
   }
 
-  // Lettre survolée (pied de page) : ses lignes s'épaississent jusqu'à la remplir et passent au jaune.
+  // Lettre survolée (pied de page) : ses lignes s'épaississent jusqu'à la remplir et passent à l'orange.
   float amp = 0.0;
   if (uHasAmp > 0.5) {
     float band = uRes.y / uAmpRows;
@@ -122,7 +122,7 @@ void main(){
     float g = texture2D(uText, vec2(q.x / uRes.x, q.y / uRes.y)).r;
     ink = mix(ink, g * drawn, smoothstep(0.0, 1.0, lens));
   }
-  // Titre survolé : sa ligne est surlignée en jaune, comme au surligneur.
+  // Titre survolé : sa ligne est surlignée en orange, comme au surligneur.
   float hi = 0.0;
   if (uHiOn > 0.5) {
     for (int i = 0; i < 4; i++) {

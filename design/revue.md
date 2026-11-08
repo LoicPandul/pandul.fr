@@ -249,17 +249,7 @@ Réglés le 31 octobre 2026, sur réponse de Loïc :
 
 ## Essai de palette « chantier » (1er novembre 2026)
 
-Demande de Loïc : essayer l'association jaune chantier #F5C400, noir #0E0E0E, blanc béton #ECE9E3. Essai commité sur la branche, non poussé, en attente de son avis.
-
-| Variable | Valeur | Rôle | Contraste |
-|---|---|---|---|
-| `--paper` | #ECE9E3 | fond clair ; texte sur les champs noirs | noir sur béton 15,9:1 |
-| `--ink` | #0E0E0E | texte, liens, boutons, champs noirs (clients, contact, pied de page) | béton sur noir 15,9:1 |
-| `--mark` | #F5C400 | accent : surlignage, survol des boutons, trait lu, onglet en cours, clé | noir sur jaune 11,8:1 ; jaune sur noir 11,8:1 ; jamais en texte sur le béton (1,4:1) |
-| `--ink-soft` | #55514A | texte secondaire sur le fond clair | 6,5:1 sur béton, 5,6:1 sur `--plate` |
-| `--pale` | #B8B2A7 | texte secondaire sur les champs noirs | 9,2:1 sur noir, 7,9:1 sur `--ink-deep` |
-| `--plate` | #DCD8D0 | panneaux et cadres | noir dessus 13,6:1 |
-| `--ink-deep` | #1E1E1E | surface sur un champ noir (clé minisign) | béton dessus 13,8:1 |
+Demande de Loïc : essayer l'association jaune chantier, noir et blanc béton. Essai commité sur la branche (`5f4e846`), puis validé. Ses valeurs et contrastes sont dans l'historique git ; elle est remplacée le 8 novembre par la palette crème, encre et orange brûlé (plus bas).
 
 Drapeaux du sélecteur : d'abord gardés dans leurs vraies couleurs, puis redessinés dans la palette à la demande de Loïc (voir plus bas). Les canvas (`trades.js`, `lines.js`) lisent les variables CSS au lieu de couleurs codées en dur. Seuls restent en dur, faute de variable possible : la balise `theme-color`, le favicon et les deux portraits de secours, recolorés. Le site n'a qu'un thème clair.
 
@@ -270,7 +260,7 @@ Relecture d'un sous-agent : 8/10. Aucune trace de l'ancienne palette, rien d'ill
 Loïc garde la palette. Suites données :
 
 - **Accroche** : « Bitcoin » surligné en jaune dans « Rédacteur technique spécialisé sur Bitcoin » (FR et EN), ajouté par le gabarit pour ne pas toucher au `jobTitle` du JSON-LD.
-- **Planches de « Ce que je fais »** : la planche jaune pâle (`#F9E08A`, celle de Documentation) passe au gris `--plate` ; la variable `--cream` disparaît.
+- **Planches de « Ce que je fais »** : la planche jaune pâle (celle de Documentation) passe au gris `--plate` ; la variable `--cream` disparaît.
 - **Drapeaux** : dessinés en noir, béton et jaune ; le drapeau inactif n'est plus désaturé.
 - **Animations encore en bleu chez Loïc** : les modules des animations (`site.js`, `trades.js`, `lines.js`) étaient servis sans version dans l'URL, donc un navigateur gardait en cache l'ancien code aux couleurs bleues codées en dur. `site.js` porte maintenant `?v=<date du build>` et passe ce suffixe aux modules qu'il charge.
 - **Images** : la carte de partage `social-card.png` et les images non utilisées (`formations/*.webp`, `second-bark-pay-encre-*.webp`) sont recolorées du bleu vers noir et béton.
@@ -286,3 +276,12 @@ Trois relecteurs, un par format (mobile 390 et 360 ; tablette 820 × 1180 et 118
 - Comportements : onglets des métiers justes au toucher, molette relancée pour le défilement doux, « Ouvrir » de la réglette atteignable (visée, clic qui fixe la sélection), barre qui revient au focus.
 - Contenu : bande des contenus du plus récent au plus ancien ; nouveau logo Bitstack (kit presse officiel) ; définition PREIMAGE, cassée à l'extraction, écartée du tirage.
 - Laissés tels quels, avec leur raison : carte de définition qui épouse sa définition au téléphone (choix de Loïc) ; Space Kek et How to Bitcoin sans lien ; bouton compact de 44 px dans la barre et la réglette ; vignettes des formations en couleurs d'origine.
+
+## Palette crème, encre, orange brûlé (8 novembre 2026)
+
+Demande de Loïc : repasser toute la V3 sur Cream `#F3EEE3`, Ink Black `#111111` et Burnt Orange `#D9541E`. Les rôles ne changent pas : la crème remplace le béton, l'encre le noir, l'orange le jaune. Valeurs, teintes dérivées et contrastes : `design/direction.md`, section 5.
+
+- **Orange et texte** : orange sur crème 3,47:1, donc jamais de petit texte orange sur le fond clair ; l'orange reste un fond (texte encre dessus, 4,71:1), un trait ou un accent.
+- **Images recolorées** (chaque couleur décomposée en mélange des trois anciennes teintes, puis recomposée avec les nouvelles) : cartes de partage FR et EN, portrait du contact, favicon (SVG, PNG, ICO), images non utilisées `formations/*.webp` et `second-bark-pay-encre-*.webp`. `theme-color` passe à la crème.
+- **Restent hors palette, volontairement** : les drapeaux (couleurs officielles), les logos des clients, les vignettes des formations et les captures de Gerfaut et de Second.
+

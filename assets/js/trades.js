@@ -98,7 +98,7 @@ function makePen(ctx, out) {
 }
 
 function page(i, W, H, f, ctx, rich = false) {
-  // les trois métiers sur la même planche gris béton, comme les autres panneaux du site
+  // les trois métiers sur la même planche crème foncée (--plate), comme les autres panneaux du site
   const L = { boxes: {}, bars: [], texts: [], checks: [], net: null, fit: true, f, rich, plate: C.plate };
   const flow = makePen(ctx, L.bars);
   const pad = Math.round(Math.max(12, W * 0.045));

@@ -1,4 +1,4 @@
-/* pandul.fr : une encre noire, un papier béton, un jaune, des lignes. Direction : design/direction.md
+/* pandul.fr : une encre noire, un papier crème, un orange brûlé, des lignes. Direction : design/direction.md
    Feuille en ligne dans le <head> (deux pages seulement : pas de requête bloquante). */
 
 /* ---------- Polices ---------- */
@@ -42,21 +42,22 @@
 
 /* ---------- Jetons ---------- */
 :root {
-  /* Palette « chantier » : blanc béton, noir, jaune chantier. Contrastes du texte : design/revue.md. */
-  --paper: #ECE9E3;    /* fond clair, texte sur les champs noirs */
-  --plate: #DCD8D0;    /* panneaux et cadres posés sur le fond */
-  --ink: #0E0E0E;      /* texte, boutons, champs noirs (clients, contact, pied de page) */
-  --ink-deep: #1E1E1E; /* surface posée sur un champ noir (clé minisign) */
-  --ink-soft: #55514A; /* texte secondaire sur le fond clair */
-  --pale: #B8B2A7;     /* texte secondaire sur les champs noirs */
-  --mark: #F5C400;     /* accent : surlignage, survol des boutons, trait lu, onglet en cours */
+  /* Palette « crème, encre, orange brûlé » (Loïc, 8 novembre 2026). Contrastes du texte : design/revue.md.
+     L'orange ne porte jamais de petit texte sur la crème (3,47:1) : il sert de fond (texte encre dessus, 4,71:1), de trait ou d'accent. */
+  --paper: #F3EEE3;    /* crème : fond clair, texte sur les champs noirs */
+  --plate: #E5DDCD;    /* panneaux et cadres posés sur le fond */
+  --ink: #111111;      /* encre : texte, boutons, champs noirs (clients, contact, pied de page) */
+  --ink-deep: #211F1C; /* surface posée sur un champ noir (clé minisign) */
+  --ink-soft: #57504A; /* texte secondaire sur le fond clair */
+  --pale: #BDB4A5;     /* texte secondaire sur les champs noirs */
+  --mark: #D9541E;     /* orange brûlé : surlignage, survol des boutons, trait lu, onglet en cours */
 
   /* teintes des dessins en canvas (assets/js/trades.js) */
-  --sheet: #F6F4EF;
-  --bar: #9E998F;
-  --bar-dark: #7A766D;
-  --bone: #E4E0D8;
-  --code: #8F8A80;
+  --sheet: #FAF7F1;
+  --bar: #A39A8B;
+  --bar-dark: #7E7568;
+  --bone: #EAE3D6;
+  --code: #948B7D;
 
   --font-ui: "Mona Sans", "Mona Repli", system-ui, sans-serif;
   --font-display: "Mona Sans", "Mona Repli Affiche", system-ui, sans-serif;

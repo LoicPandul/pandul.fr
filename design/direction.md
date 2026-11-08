@@ -62,37 +62,38 @@ Gardé du tirage : l'accueil en deux moitiés ; la consigne de casser le partage
 
 ui-ux-pro-max (`--design-system`, variance 8, motion 8) : récit au défilement, monochrome avec un bleu, coins droits, typographie grasse. Gardé. Écarté : la paire Caveat / Quicksand (manuscrite) et le bleu `#2563EB` de Tailwind.
 
-## 5. Palette : noir, blanc béton, jaune chantier
+## 5. Palette : crème, encre, orange brûlé
 
-Palette choisie par Loïc le 1er novembre 2026, à la place de l'encre bleue des premières versions. **Le texte est noir sur un blanc béton**, une seule couleur vive, le jaune chantier, qui ne fait que surligner. Les champs noirs (clients, contact, pied de page) inversent les rôles : béton sur noir. Toutes les couleurs sont des variables CSS de `_includes/site.css` ; les canvas (`trades.js`, `lines.js`) les lisent au lieu de couleurs codées en dur. Seule exception : les drapeaux du sélecteur de langue gardent leurs couleurs officielles (France : bleu #000091, blanc #FFFFFF, rouge #E1000F, d'après le Système de design de l'État ; Royaume-Uni : bleu #012169, rouge #C8102E, blanc, soit les Pantone 280 C et 186 C de la Flag Institute), à pleine opacité.
+Palette choisie par Loïc le 8 novembre 2026, à la place du noir, blanc béton et jaune du 1er novembre (et de l'encre bleue des premières versions). **Le texte est à l'encre sur une crème**, une seule couleur vive, l'orange brûlé, qui surligne et accentue. Les champs noirs (clients, contact, pied de page) inversent les rôles : crème sur encre. Toutes les couleurs sont des variables CSS de `_includes/site.css` ; les canvas (`trades.js`, `lines.js`) les lisent au lieu de couleurs codées en dur. Seule exception : les drapeaux du sélecteur de langue gardent leurs couleurs officielles (France : bleu #000091, blanc #FFFFFF, rouge #E1000F, d'après le Système de design de l'État ; Royaume-Uni : bleu #012169, rouge #C8102E, blanc, soit les Pantone 280 C et 186 C de la Flag Institute), à pleine opacité.
 
 | Variable | Valeur | Usage |
 | --- | --- | --- |
-| `--paper` | `#ECE9E3` | Fond de la page ; texte et boutons sur les champs noirs. |
-| `--ink` | `#0E0E0E` | Texte, titres, liens, boutons, lignes, champs noirs. |
-| `--mark` | `#F5C400` | Toujours en fond derrière le noir, ou en trait sur le noir, jamais en texte sur le béton : mot surligné de l'accroche, contenu lu dans la réglette, terme de la définition, onglet en cours, survol des boutons, sélection de texte. |
-| `--ink-soft` | `#55514A` | Texte secondaire sur le béton. |
-| `--pale` | `#B8B2A7` | Texte secondaire sur les champs noirs. |
-| `--plate` | `#DCD8D0` | Panneaux et cadres (captures, planches de « Ce que je fais »). |
-| `--ink-deep` | `#1E1E1E` | Surface posée sur un champ noir (clé minisign). |
+| `--paper` | `#F3EEE3` | Cream. Fond de la page ; texte et boutons sur les champs noirs. |
+| `--ink` | `#111111` | Ink Black. Texte, titres, liens, boutons, lignes, champs noirs. |
+| `--mark` | `#D9541E` | Burnt Orange. Toujours en fond derrière l'encre, ou en trait, jamais en petit texte sur la crème : mot surligné de l'accroche, contenu lu dans la réglette, terme de la définition, onglet en cours, survol des boutons, sélection de texte. |
+| `--ink-soft` | `#57504A` | Texte secondaire sur la crème. |
+| `--pale` | `#BDB4A5` | Texte secondaire sur les champs noirs. |
+| `--plate` | `#E5DDCD` | Panneaux et cadres (captures, planches de « Ce que je fais »). |
+| `--ink-deep` | `#211F1C` | Surface posée sur un champ noir (clé minisign). |
 
-Drapeaux du sélecteur de langue : redessinés dans la palette (France noir, béton, jaune ; Royaume-Uni noir, croix béton et jaune).
+Teintes des dessins en canvas, dérivées de la crème : `--sheet` `#FAF7F1`, `--bone` `#EAE3D6`, `--bar` `#A39A8B`, `--bar-dark` `#7E7568`, `--code` `#948B7D`.
 
 Contrastes calculés (WCAG 2.x) :
 
 | Paire | Rapport | Seuil |
 | --- | --- | --- |
-| Noir sur béton, béton sur noir | 15,93 | AAA |
-| Noir sur jaune, jaune sur noir | 11,75 | AAA |
-| Noir sur plaque | 13,58 | AAA |
-| `--ink-soft` sur béton | 6,51 | AA |
-| `--ink-soft` sur plaque | 5,55 | AA |
-| `--pale` sur noir | 9,16 | AAA |
-| Béton sur `--ink-deep` | 13,76 | AAA |
+| Encre sur crème, crème sur encre | 16,32 | AAA |
+| Encre sur plaque | 13,99 | AAA |
+| Encre sur orange, orange sur encre | 4,71 | AA |
+| `--ink-soft` sur crème | 6,84 | AA |
+| `--ink-soft` sur plaque | 5,87 | AA |
+| `--pale` sur encre | 9,20 | AAA |
+| `--pale` sur `--ink-deep` | 8,01 | AAA |
+| Crème sur `--ink-deep` | 14,21 | AAA |
 
-Le jaune n'a que 1,36:1 sur le béton : il ne porte jamais de texte sur le fond clair.
+L'orange n'a que 3,47:1 sur la crème (et 3,47:1 avec la crème dessus) : assez pour un gros titre (AA grand texte, 3:1), pas pour du texte courant. Il ne porte donc jamais de petit texte sur le fond clair, et le texte posé sur un aplat orange est toujours à l'encre.
 
-Interdits vérifiés : rien de Liana (vert `#00FF66`), de Second (DM Sans) ni de Gerfaut (sarcelle `#0E7490`). Le noir `#0E0E0E` est voisin des noirs de Liana (`#141414`) et de Wizard Sardine (`#0C0C0C`) sans être l'un d'eux ; c'est le jaune qui porte l'identité. Pas de mode sombre.
+Interdits vérifiés : rien de Liana (vert `#00FF66`, noir `#141414`), de Wizard Sardine (noir `#0C0C0C`), de Second (DM Sans, noir `#060606`) ni de Gerfaut (sarcelle `#0E7490`). L'orange brûlé `#D9541E` n'est ni l'orange Bitcoin (`#F7931A`) ni celui de Plan ₿ Academy (`#FF5C00`). Pas de mode sombre.
 
 ## 6. Typographie
 
@@ -175,7 +176,7 @@ Plan ₿ Academy          Bitstack            Space Kek       Découvre…     (
 ```
 - Les dix marques sont toujours visibles, en encre, sans cadre ni carte. Les huit logos officiels sont recolorés en encre par masque CSS ; Space Kek et How to Bitcoin, sans fichier vectoriel, sont redessinés en SVG d'après leurs images (Montserrat ExtraBold, Ubuntu Bold Italic). Chaque marque est un lien vers le site du client, avec son travail et son compteur réel dessous. Les clients depuis 2026 sont plus grands que les clients historiques : deux niveaux, pas une grille uniforme.
 - Liana et Wizard Sardine sont deux entrées distinctes.
-- **Réglette, ordinateur (960 px et plus)** : 246 traits sur toute la largeur (environ 5,5 px par trait), groupés par client dans l'ordre de la liste. Les traits proches du curseur grandissent (effet Dock). La lecture au-dessus affiche le titre (surligné en jaune), le client et le type ; « Ouvrir » est un vrai lien `<a>` mis à jour en direct ; un clic sur la réglette ouvre aussi le contenu.
+- **Réglette, ordinateur (960 px et plus)** : 246 traits sur toute la largeur (environ 5,5 px par trait), groupés par client dans l'ordre de la liste. Les traits proches du curseur grandissent (effet Dock). La lecture au-dessus affiche le titre (surligné en orange), le client et le type ; « Ouvrir » est un vrai lien `<a>` mis à jour en direct ; un clic sur la réglette ouvre aussi le contenu.
 - **Réglette, téléphone et tablette (moins de 960 px)** : une piste qui défile horizontalement avec ses traits espacés de 8 px, aimantés un par un (`scroll-snap`), sous un repère central fixe. Le contenu sous le repère s'affiche au-dessus de la piste, donc jamais sous le doigt. `touch-action: pan-x` sur la piste seulement. Les noms des groupes défilent avec la piste.
 - **Clavier** : la réglette est un `role="slider"` : flèches pour un contenu, Page précédente et Page suivante pour sauter d'un client à l'autre, Début et Fin ; `aria-valuetext` donne le titre et le client. Le lien « Ouvrir » suit.
 - **Liste complète** : un `<details>` « Voir la liste des 246 contenus » donne tous les liens, groupés par client (lecteurs d'écran, référencement, et sans JavaScript).
@@ -280,7 +281,7 @@ Anneau de focus : 3 px, décalé de 3 px, en encre sur papier et en papier sur e
 | Objection du relecteur | Correction |
 | --- | --- |
 | Des lignes horizontales ne savent pas dessiner des logos-mots (8 sur 10) ni un long terme | Logos en vrai SVG, terme en HTML. Les lignes ne dessinent que des formes grandes : visage, lettre géante, nom (au moins 30 lignes par lettre). |
-| Le bleu est celui de Tailwind et de Cloudflare ; un aplat bleu à formes blanches fait Coinbase | Encre bleue désaturée, comparée aux références, devenue l'encre du texte sur papier, un seul aplat (Contact) ; remplacée depuis par la palette noir, béton et jaune (section 5). Section Nuit supprimée. |
+| Le bleu est celui de Tailwind et de Cloudflare ; un aplat bleu à formes blanches fait Coinbase | Encre bleue désaturée, comparée aux références, devenue l'encre du texte sur papier, un seul aplat (Contact) ; remplacée depuis par la palette crème, encre et orange brûlé (section 5). Section Nuit supprimée. |
 | Le portrait en lignes claires sur bleu perd les cheveux et la barbe, le t-shirt fait un aplat, risque de « billet de banque » | Encre sur papier (épaisseur = ombre), recadrage tête et épaules, lignes coupées en mots tirés de ses 246 titres, loupe qui les rend lisibles. |
 | « Ils me font confiance » trop bas, logos jamais visibles ensemble, rotation automatique non conforme | Deuxième section, dix marques visibles d'un coup, plus de rotation. |
 | Réglette inutilisable au doigt | Piste défilante aimantée sous 960 px, 8 px par trait, repère central, lecture au-dessus, groupes nommés, clavier complet, liste complète. |
@@ -309,8 +310,8 @@ Ce qui a changé en construisant, et pourquoi :
 - **Réglette, clic** : un clic fixe la sélection (comportement d'un curseur) ; c'est le lien « Ouvrir » qui ouvre le contenu.
 - **Formations** : une liste avec la vignette de chaque cours, visible partout, au lieu d'une couverture qui suit le curseur (invisible au doigt). Les vignettes gardent leurs couleurs d'origine (décision du 27 octobre 2026 : ce sont les vraies couvertures de Plan ₿ Academy, comme les captures de Bark Pay et de Gerfaut sont de vraies captures).
 - **Contact** : une vraie photo de Loïc, en bichromie encre, dont le fond se fond dans le champ noir.
-- **Lettres du pied de page** : la lettre survolée se remplit et passe au jaune ; l'écartement vertical créait des coutures dans les lignes du fond, il a été retiré.
+- **Lettres du pied de page** : la lettre survolée se remplit et passe à l'orange ; l'écartement vertical créait des coutures dans les lignes du fond, il a été retiré.
 - **Logos de Space Kek et How to Bitcoin** : leur nom composé en Mona Sans et converti en tracé SVG, pour qu'ils aient la même présence que les autres marques (à remplacer par les vrais logos).
-- **Jaune** : il surligne aussi le survol des boutons, des marques et de l'adresse e-mail, et le métier en cours dans l'index de « Ce que je fais ».
+- **Orange** : il surligne aussi le survol des boutons, des marques et de l'adresse e-mail, et le métier en cours dans l'index de « Ce que je fais ».
 - **Index des trois métiers** dans la colonne collée de « Ce que je fais » (à partir de 1200 px de large et 800 px de haut) : le métier lu est surligné, pour que la colonne épinglée change à chaque écran.
 - **CSS** : insérée dans le `<head>` (deux pages seulement), polices préchargées. Lighthouse mobile passe de 89 à 96 (serveur compressé comme GitHub Pages) et 93 (serveur Python brut).
