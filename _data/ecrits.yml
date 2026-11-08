@@ -1997,3 +1997,848 @@
   type: "documentation"
   langue: "en"
   featured: false
+
+# Documentation de Liana (lianawallet.com/docs, adresse définitive annoncée par Loïc le 2026-11-08) : toutes les pages
+# du dépôt liana-docs (content/*.mdx, Fumadocs), dans l'ordre de la barre latérale, relevées le 2026-11-08.
+# Titre = celui de la page ; « (Liana) » sur les accueils de section, la marque devant les modèles d'appareils.
+
+- title: "Documentation de Liana"
+  title_en: "Liana documentation"
+  url: "https://lianawallet.com/docs/"
+  description: "Documentation du portefeuille Liana : installation, guides, appareils de signature, notions, développeurs et notes de version"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started (Liana)"
+  url: "https://lianawallet.com/docs/get-started/"
+  description: "Documentation de Liana : Get started (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install Liana"
+  url: "https://lianawallet.com/docs/get-started/install/"
+  description: "Documentation de Liana : Install Liana"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Verify your download"
+  url: "https://lianawallet.com/docs/get-started/verify-your-download/"
+  description: "Documentation de Liana : Verify your download"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Create your first wallet"
+  url: "https://lianawallet.com/docs/get-started/first-wallet/"
+  description: "Documentation de Liana : Create your first wallet"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Back up your wallet"
+  url: "https://lianawallet.com/docs/get-started/back-up/"
+  description: "Documentation de Liana : Back up your wallet"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Choose a backend"
+  url: "https://lianawallet.com/docs/get-started/choose-a-backend/"
+  description: "Documentation de Liana : Choose a backend"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Finish the setup"
+  url: "https://lianawallet.com/docs/get-started/finish-setup/"
+  description: "Documentation de Liana : Finish the setup"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Receive your first bitcoin"
+  url: "https://lianawallet.com/docs/get-started/receive/"
+  description: "Documentation de Liana : Receive your first bitcoin"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Guides (Liana)"
+  url: "https://lianawallet.com/docs/guides/"
+  description: "Documentation de Liana : Guides (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Send bitcoin"
+  url: "https://lianawallet.com/docs/guides/send/"
+  description: "Documentation de Liana : Send bitcoin"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Use coin control"
+  url: "https://lianawallet.com/docs/guides/coin-control/"
+  description: "Documentation de Liana : Use coin control"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Refresh coins"
+  url: "https://lianawallet.com/docs/guides/refresh-coins/"
+  description: "Documentation de Liana : Refresh coins"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Add labels"
+  url: "https://lianawallet.com/docs/guides/labels/"
+  description: "Documentation de Liana : Add labels"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Choose a policy"
+  url: "https://lianawallet.com/docs/guides/choose-a-policy/"
+  description: "Documentation de Liana : Choose a policy"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Change a policy"
+  url: "https://lianawallet.com/docs/guides/add-recovery-path/"
+  description: "Documentation de Liana : Change a policy"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Set up inheritance"
+  url: "https://lianawallet.com/docs/guides/inheritance/"
+  description: "Documentation de Liana : Set up inheritance"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Start a recovery"
+  url: "https://lianawallet.com/docs/guides/recovery/"
+  description: "Documentation de Liana : Start a recovery"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Recover in Liana"
+  url: "https://lianawallet.com/docs/guides/recovery/spend-with-recovery-path/"
+  description: "Documentation de Liana : Recover in Liana"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Recover without Liana"
+  url: "https://lianawallet.com/docs/guides/recovery/recover-with-bitcoin-core/"
+  description: "Documentation de Liana : Recover without Liana"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Claim an inheritance"
+  url: "https://lianawallet.com/docs/guides/recovery/inherited-a-wallet/"
+  description: "Documentation de Liana : Claim an inheritance"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Find the descriptor"
+  url: "https://lianawallet.com/docs/guides/recovery/lost-descriptor/"
+  description: "Documentation de Liana : Find the descriptor"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Change your backend"
+  url: "https://lianawallet.com/docs/guides/change-backend/"
+  description: "Documentation de Liana : Change your backend"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Rescan the blockchain"
+  url: "https://lianawallet.com/docs/guides/rescan/"
+  description: "Documentation de Liana : Rescan the blockchain"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage several wallets"
+  url: "https://lianawallet.com/docs/guides/multiple-wallets/"
+  description: "Documentation de Liana : Manage several wallets"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Sign air-gapped"
+  url: "https://lianawallet.com/docs/guides/air-gapped-signing/"
+  description: "Documentation de Liana : Sign air-gapped"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Diagnose a problem"
+  url: "https://lianawallet.com/docs/guides/troubleshooting/"
+  description: "Documentation de Liana : Diagnose a problem"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Fix device detection"
+  url: "https://lianawallet.com/docs/guides/troubleshooting/device-not-detected/"
+  description: "Documentation de Liana : Fix device detection"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Fix wallet syncing"
+  url: "https://lianawallet.com/docs/guides/troubleshooting/wallet-not-syncing/"
+  description: "Documentation de Liana : Fix wallet syncing"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Signing devices (Liana)"
+  url: "https://lianawallet.com/docs/devices/"
+  description: "Documentation de Liana : Signing devices (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Hot key"
+  url: "https://lianawallet.com/docs/devices/hot-key/"
+  description: "Documentation de Liana : Hot key"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger (signing devices)"
+  url: "https://lianawallet.com/docs/devices/ledger/"
+  description: "Documentation de Liana : Ledger (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger Nano S Plus"
+  url: "https://lianawallet.com/docs/devices/ledger/nano-s-plus/"
+  description: "Documentation de Liana : Ledger Nano S Plus"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger Nano X"
+  url: "https://lianawallet.com/docs/devices/ledger/nano-x/"
+  description: "Documentation de Liana : Ledger Nano X"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger Stax"
+  url: "https://lianawallet.com/docs/devices/ledger/stax/"
+  description: "Documentation de Liana : Ledger Stax"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger Flex"
+  url: "https://lianawallet.com/docs/devices/ledger/flex/"
+  description: "Documentation de Liana : Ledger Flex"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ledger Nano Gen5"
+  url: "https://lianawallet.com/docs/devices/ledger/nano-gen5/"
+  description: "Documentation de Liana : Ledger Nano Gen5"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Coldcard (signing devices)"
+  url: "https://lianawallet.com/docs/devices/coldcard/"
+  description: "Documentation de Liana : Coldcard (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Coldcard Mk4"
+  url: "https://lianawallet.com/docs/devices/coldcard/mk4/"
+  description: "Documentation de Liana : Coldcard Mk4"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Coldcard Mk5"
+  url: "https://lianawallet.com/docs/devices/coldcard/mk5/"
+  description: "Documentation de Liana : Coldcard Mk5"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Coldcard Q"
+  url: "https://lianawallet.com/docs/devices/coldcard/q/"
+  description: "Documentation de Liana : Coldcard Q"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "BitBox (signing devices)"
+  url: "https://lianawallet.com/docs/devices/bitbox/"
+  description: "Documentation de Liana : BitBox (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "BitBox02"
+  url: "https://lianawallet.com/docs/devices/bitbox/bitbox02/"
+  description: "Documentation de Liana : BitBox02"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "BitBox02 Nova"
+  url: "https://lianawallet.com/docs/devices/bitbox/bitbox02-nova/"
+  description: "Documentation de Liana : BitBox02 Nova"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Blockstream Jade (signing devices)"
+  url: "https://lianawallet.com/docs/devices/jade/"
+  description: "Documentation de Liana : Blockstream Jade (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Jade Classic"
+  url: "https://lianawallet.com/docs/devices/jade/jade/"
+  description: "Documentation de Liana : Jade Classic"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Jade Plus"
+  url: "https://lianawallet.com/docs/devices/jade/jade-plus/"
+  description: "Documentation de Liana : Jade Plus"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Jade Core"
+  url: "https://lianawallet.com/docs/devices/jade/jade-core/"
+  description: "Documentation de Liana : Jade Core"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Specter DIY (signing devices)"
+  url: "https://lianawallet.com/docs/devices/specter-diy/"
+  description: "Documentation de Liana : Specter DIY (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Specter DIY build"
+  url: "https://lianawallet.com/docs/devices/specter-diy/build/"
+  description: "Documentation de Liana : Specter DIY build"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Krux (signing devices)"
+  url: "https://lianawallet.com/docs/devices/krux/"
+  description: "Documentation de Liana : Krux (signing devices)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Krux Maix Amigo"
+  url: "https://lianawallet.com/docs/devices/krux/maix-amigo/"
+  description: "Documentation de Liana : Krux Maix Amigo"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Learn (Liana)"
+  url: "https://lianawallet.com/docs/learn/"
+  description: "Documentation de Liana : Learn (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana in brief"
+  url: "https://lianawallet.com/docs/learn/how-liana-works/"
+  description: "Documentation de Liana : Liana in brief"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Spending paths"
+  url: "https://lianawallet.com/docs/learn/spending-paths/"
+  description: "Documentation de Liana : Spending paths"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Timelocks"
+  url: "https://lianawallet.com/docs/learn/timelocks/"
+  description: "Documentation de Liana : Timelocks"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Wallet policies"
+  url: "https://lianawallet.com/docs/learn/wallet-policies/"
+  description: "Documentation de Liana : Wallet policies"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Descriptors"
+  url: "https://lianawallet.com/docs/learn/descriptors/"
+  description: "Documentation de Liana : Descriptors"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Miniscript"
+  url: "https://lianawallet.com/docs/learn/miniscript/"
+  description: "Documentation de Liana : Miniscript"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Script types"
+  url: "https://lianawallet.com/docs/learn/script-types/"
+  description: "Documentation de Liana : Script types"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "PSBTs"
+  url: "https://lianawallet.com/docs/learn/psbts/"
+  description: "Documentation de Liana : PSBTs"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Descriptor registration"
+  url: "https://lianawallet.com/docs/learn/descriptor-registration/"
+  description: "Documentation de Liana : Descriptor registration"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Backends"
+  url: "https://lianawallet.com/docs/learn/backends/"
+  description: "Documentation de Liana : Backends"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Threat model"
+  url: "https://lianawallet.com/docs/learn/threat-model/"
+  description: "Documentation de Liana : Threat model"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Privacy"
+  url: "https://lianawallet.com/docs/learn/privacy/"
+  description: "Documentation de Liana : Privacy"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "The Safety Net"
+  url: "https://lianawallet.com/docs/learn/safety-net/"
+  description: "Documentation de Liana : The Safety Net"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Reproducible builds"
+  url: "https://lianawallet.com/docs/learn/reproducible-builds/"
+  description: "Documentation de Liana : Reproducible builds"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Glossary"
+  url: "https://lianawallet.com/docs/learn/glossary/"
+  description: "Documentation de Liana : Glossary"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Developers (Liana)"
+  url: "https://lianawallet.com/docs/developers/"
+  description: "Documentation de Liana : Developers (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Build from source"
+  url: "https://lianawallet.com/docs/developers/build-from-source/"
+  description: "Documentation de Liana : Build from source"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Reproduce a release"
+  url: "https://lianawallet.com/docs/developers/reproducible-builds/"
+  description: "Documentation de Liana : Reproduce a release"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Run lianad"
+  url: "https://lianawallet.com/docs/developers/run-lianad/"
+  description: "Documentation de Liana : Run lianad"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Configure lianad"
+  url: "https://lianawallet.com/docs/developers/configuration/"
+  description: "Documentation de Liana : Configure lianad"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Try Liana on signet"
+  url: "https://lianawallet.com/docs/developers/signet/"
+  description: "Documentation de Liana : Try Liana on signet"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Run the tests"
+  url: "https://lianawallet.com/docs/developers/testing/"
+  description: "Documentation de Liana : Run the tests"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Use liana-cli"
+  url: "https://lianawallet.com/docs/developers/liana-cli/"
+  description: "Documentation de Liana : Use liana-cli"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Call the JSON-RPC API"
+  url: "https://lianawallet.com/docs/developers/json-rpc-api/"
+  description: "Documentation de Liana : Call the JSON-RPC API"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Contribute to Liana"
+  url: "https://lianawallet.com/docs/developers/contributing/"
+  description: "Documentation de Liana : Contribute to Liana"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Translate Liana"
+  url: "https://lianawallet.com/docs/developers/translate/"
+  description: "Documentation de Liana : Translate Liana"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Integrate a signing device"
+  url: "https://lianawallet.com/docs/developers/hardware-wallet-interface/"
+  description: "Documentation de Liana : Integrate a signing device"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Report a vulnerability"
+  url: "https://lianawallet.com/docs/developers/security/"
+  description: "Documentation de Liana : Report a vulnerability"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Changelog (Liana)"
+  url: "https://lianawallet.com/docs/changelog/"
+  description: "Documentation de Liana : Changelog (Liana)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 15.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/15.0/"
+  description: "Documentation de Liana : Liana 15.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 14.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/14.0/"
+  description: "Documentation de Liana : Liana 14.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 13.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/13.0/"
+  description: "Documentation de Liana : Liana 13.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 12.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/12.0/"
+  description: "Documentation de Liana : Liana 12.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 11.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/11.0/"
+  description: "Documentation de Liana : Liana 11.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 10.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/10.0/"
+  description: "Documentation de Liana : Liana 10.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 9.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/9.0/"
+  description: "Documentation de Liana : Liana 9.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 8.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/8.0/"
+  description: "Documentation de Liana : Liana 8.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 7.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/7.0/"
+  description: "Documentation de Liana : Liana 7.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 6.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/6.0/"
+  description: "Documentation de Liana : Liana 6.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 5.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/5.0/"
+  description: "Documentation de Liana : Liana 5.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 4.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/4.0/"
+  description: "Documentation de Liana : Liana 4.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 3.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/3.0/"
+  description: "Documentation de Liana : Liana 3.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 2.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/2.0/"
+  description: "Documentation de Liana : Liana 2.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 1.1 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/1.1/"
+  description: "Documentation de Liana : Liana 1.1 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 1.0 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/1.0/"
+  description: "Documentation de Liana : Liana 1.0 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 0.4 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/0.4/"
+  description: "Documentation de Liana : Liana 0.4 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 0.3 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/0.3/"
+  description: "Documentation de Liana : Liana 0.3 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 0.2 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/0.2/"
+  description: "Documentation de Liana : Liana 0.2 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana 0.1 (changelog)"
+  url: "https://lianawallet.com/docs/changelog/0.1/"
+  description: "Documentation de Liana : Liana 0.1 (changelog)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Liana Business"
+  url: "https://lianawallet.com/docs/business/"
+  description: "Documentation de Liana : Liana Business"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Add your key (Liana Business)"
+  url: "https://lianawallet.com/docs/business/add-your-key/"
+  description: "Documentation de Liana : Add your key (Liana Business)"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Questions about Liana Business"
+  url: "https://lianawallet.com/docs/business/faq/"
+  description: "Documentation de Liana : Questions about Liana Business"
+  platform: "Liana"
+  type: "documentation"
+  langue: "en"
+  featured: false

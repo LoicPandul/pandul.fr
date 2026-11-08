@@ -114,8 +114,8 @@
           <label class="sr" for="works-src">{{ t.works.source_label }}</label>
           <select class="select" id="works-src" data-works-src>
             <option value="">{{ t.works.source_all }}</option>
-            {%- comment -%} Les contenus les plus récents d'abord : Second, Wizardsardine, Plan ₿ Academy, Bitstack, puis les autres. {%- endcomment -%}
-            {%- assign groupes = "Second;Wizardsardine;Plan ₿ Academy;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+            {%- comment -%} Les contenus les plus récents d'abord : Second, Liana, Wizardsardine, Plan ₿ Academy, Bitstack, puis les autres. {%- endcomment -%}
+            {%- assign groupes = "Second;Liana;Wizardsardine;Plan ₿ Academy;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
             {%- for g in groupes -%}
               {%- assign nb_g = site.data.formations | where: "platform", g | size -%}
               {%- assign nb_g = site.data.ecrits | where: "platform", g | size | plus: nb_g -%}
