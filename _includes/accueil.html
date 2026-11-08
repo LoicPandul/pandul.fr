@@ -203,7 +203,7 @@
       <ul class="courses" data-reveal style="--d:1">
         {%- for f in site.data.formations %}
         {%- assign code = f.code | downcase | remove: " " %}
-        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async"><span class="course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}><span>{{ f.title }}</span></span></a></li>
+        <li><a href="{{ f.url }}" rel="noopener"><img src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async"><span class="badge badge-outline course-code">{{ f.code }}</span> <span class="course-title"{% if en %} lang="fr"{% endif %}><span>{{ f.title }}</span></span></a></li>
         {%- endfor %}
       </ul>
     </article>

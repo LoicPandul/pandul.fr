@@ -424,9 +424,12 @@ function initDict() {
   };
   btn.hidden = false;
   btn.addEventListener('click', async () => {
+    if (btn.getAttribute('aria-disabled') === 'true') return;
+    btn.setAttribute('aria-disabled', 'true');
     let list;
-    try { list = await load(); } catch (e) { return; }
+    try { list = await load(); } catch (e) { btn.removeAttribute('aria-disabled'); return; }
     show(pick(list), true);
+    setTimeout(() => btn.removeAttribute('aria-disabled'), reduce ? 0 : 420);
   });
   // À chaque visite, une définition tirée au hasard dès le démarrage du script : la liste (10 ko) arrive
   // en général avant que le panneau de la lettre ne se dessine, qui part alors de la bonne lettre.

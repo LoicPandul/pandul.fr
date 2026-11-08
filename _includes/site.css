@@ -188,7 +188,7 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
    Structure et états repris de shadcn/ui (bouton, badge, carte, champ, liste déroulante, groupe de bascules),
    aux couleurs, à la typo et aux coins droits de la maison. Chaque composant lit les jetons de son fond :
    --fg, --bg, --surface, --muted-fg, --border, --border-strong, --ring. Les champs noirs les redéfinissent. */
-:root, .surface-light {
+:root {
   --fg: var(--ink);
   --bg: var(--paper);
   --surface: var(--plate);
@@ -231,7 +231,7 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
   white-space: nowrap;
   cursor: pointer;
   transform: translate3d(var(--mx), var(--my), 0) scale(var(--press));
-  transition: background-color var(--t-answer) ease, color var(--t-answer) ease, transform var(--t-answer) var(--ease-out);
+  transition: background-color var(--t-answer) ease, color var(--t-answer) ease, opacity var(--t-answer) ease, transform var(--t-answer) var(--ease-out);
   -webkit-tap-highlight-color: transparent;
 }
 .btn:active { --press: 0.97; }
@@ -392,7 +392,7 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
   padding: 3px;
   border-radius: 999px;
   background: var(--plate);
-  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 12%, transparent);
+  box-shadow: inset 0 0 0 1px var(--border);
 }
 .lang[data-lang=en] { --on: 1; }
 .lang::before {
@@ -493,6 +493,13 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
 .menu-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 32px; }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes rise-in { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+
+/* États communs des liens qui servent de commandes (barre, onglets, menu, formations, marques) */
+.bar-nav a, .trades-index a, .trades-tabs a, .menu-nav a, .courses a, .foot-links a, .bar-menu { -webkit-tap-highlight-color: transparent; }
+.bar-nav a:active, .trades-index a:active, .trades-tabs a:active, .menu-nav a:active, .courses a:active, .bar-menu:active { opacity: 0.72; }
+/* dans une liste qui défile de côté, l'anneau se dessine à l'intérieur : le bord du défilement le couperait */
+.courses a:focus-visible, .trades-tabs a:focus-visible, .wb-card:focus-visible { outline-offset: -3px; }
+@media (hover: hover) { .bar-menu:hover { text-decoration: underline 2px; text-underline-offset: 6px; } }
 
 /* ---------- Panneaux de lignes ---------- */
 .stage { position: relative; margin: 0; }
@@ -958,7 +965,7 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
 .courses { list-style: none; margin: 0; padding: 0; }
 .courses a {
   display: grid;
-  grid-template-columns: clamp(80px, 7vw, 112px) 4.4em minmax(0, 1fr);
+  grid-template-columns: clamp(80px, 7vw, 112px) 5.6em minmax(0, 1fr);
   gap: 0 18px;
   align-items: center;
   padding: 8px 0;
@@ -983,11 +990,11 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   .courses img { margin-bottom: 6px; }
   .courses .course-title { font-size: var(--s-small); line-height: 1.4; }
 }
-.course-code { font: 680 var(--s-small)/1.6 var(--font-ui); white-space: nowrap; }
+.course-code { justify-self: start; }
 .course-title { text-wrap: balance; }
 .course-title > span { padding: 0 0.12em; margin: 0 -0.12em; -webkit-box-decoration-break: clone; box-decoration-break: clone; transition: background-color var(--t-answer); }
 @media (hover: hover) { .courses a:hover .course-title > span { background: var(--mark); } }
-.plate { margin: 32px 0 0; padding: clamp(20px, 2.4vw, 32px); background: var(--plate); }
+.plate { margin: 32px 0 0; padding: clamp(20px, 2.4vw, 32px); background: var(--surface); border: 1px solid var(--border); }
 .plate picture { display: block; }
 .plate img { display: block; width: 100%; height: auto; }
 .plate figcaption { margin-top: 14px; font: 520 var(--s-small)/1.45 var(--font-ui); color: var(--ink-soft); text-wrap: pretty; }
@@ -1040,7 +1047,7 @@ html.js .dict-stage.is-live .dict-letter { display: none; }
   .dict-text .note { order: 6; }
 }
 .dict-text .title { margin-bottom: 20px; }
-.defn { margin: 32px 0 0; padding: clamp(20px, 2.4vw, 32px); background: var(--plate); display: flex; flex-direction: column; }
+.defn { margin: 32px 0 0; padding: clamp(20px, 2.4vw, 32px); background: var(--surface); border: 1px solid var(--border); display: flex; flex-direction: column; }
 /* ordinateur : hauteur de la plus longue définition, « Une autre définition » ne fait pas bouger la page ;
    téléphone : le cadre épouse la définition (une réserve fixe y laissait un trou) et site.js anime sa hauteur */
 @media (min-width: 960px) { .defn { min-height: 295px; } }
@@ -1091,7 +1098,7 @@ html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term
 .gerfaut { display: grid; gap: 32px; margin-top: var(--block-gap); }
 /* la capture de l'accueil sur ordinateur, à droite du texte */
 .gerfaut-shot { margin: 0; }
-.gerfaut-shot img { display: block; width: 100%; height: auto; outline: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); outline-offset: -1px; }
+.gerfaut-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--border); }
 .gerfaut-text > p { max-width: 56ch; }
 .gerfaut-text .title { margin-bottom: 20px; }
 @media (min-width: 960px) {
@@ -1175,7 +1182,7 @@ html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term
   padding: 36px var(--margin) calc(28px + env(safe-area-inset-bottom));
   background: var(--ink);
   color: var(--paper);
-  border-top: 1px solid color-mix(in srgb, var(--pale) 22%, transparent);
+  border-top: 1px solid var(--border);
   font: 520 var(--s-small)/1.5 var(--font-ui);
 }
 .foot p { margin: 0; }
@@ -1188,9 +1195,9 @@ html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term
   max-width: 760px;
   min-height: 52px;
   padding: 12px 14px 12px 16px;
-  border: 1px solid color-mix(in srgb, var(--pale) 28%, transparent);
-  background: var(--ink-deep);
-  color: var(--paper);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--fg);
   text-align: left;
   font: inherit;
   cursor: copy;
@@ -1198,20 +1205,21 @@ html.js .defn:not(.is-drawn) .defn-text, html.js .defn:not(.is-drawn) .defn-term
 }
 .keyblock-icon { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--mark); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .keyblock code { flex: 1 1 auto; min-width: 0; font: 500 var(--s-small)/1.5 var(--font-code); letter-spacing: 0; word-break: break-all; user-select: all; }
-.keyblock-act { display: none; flex: none; min-width: 5.5em; padding: 8px 12px; background: color-mix(in srgb, var(--paper) 12%, transparent); font: 640 var(--s-small)/1 var(--font-ui); text-align: center; transition: background-color var(--t-answer) ease, color var(--t-answer) ease; }
+.keyblock-act { display: none; flex: none; min-width: 5.5em; padding: 8px 12px; background: color-mix(in srgb, var(--fg) 12%, transparent); font: 640 var(--s-small)/1 var(--font-ui); text-align: center; transition: background-color var(--t-answer) ease, color var(--t-answer) ease; }
 .keyblock.can-copy .keyblock-act { display: inline-block; }
 @media (hover: hover) {
-  .keyblock:hover { border-color: color-mix(in srgb, var(--paper) 60%, transparent); }
+  .keyblock:hover { border-color: var(--fg); }
   .keyblock:hover .keyblock-act { background: var(--paper); color: var(--ink); }
 }
 /* après le survol : la copie confirmée se voit aussi sous le pointeur */
+.keyblock:active { transform: scale(0.995); }
 .keyblock.is-copied { border-color: var(--mark); }
 .keyblock.is-copied .keyblock-act { background: var(--mark); color: var(--ink); }
 .keyblock:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
 .foot-links { list-style: none; display: flex; flex-wrap: wrap; gap: 0 24px; margin: 0; padding: 0; }
 .foot-links a { display: inline-flex; align-items: center; min-height: 44px; color: var(--paper); font-weight: 640; }
 .foot-links .link::after { bottom: 8.25px; }
-.foot-legal { color: var(--pale); padding-top: 18px; border-top: 1px solid color-mix(in srgb, var(--pale) 16%, transparent); }
+.foot-legal { color: var(--pale); padding-top: 18px; border-top: 1px solid var(--border); }
 @media (max-width: 599px) {
   .only-wide { display: none; }
   /* téléphone : la clé sur deux lignes à côté de l'icône, le bouton de copie en bas à droite */
