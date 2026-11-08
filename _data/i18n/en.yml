@@ -36,11 +36,32 @@ clients:
 
 works:
   label: "published pieces"
-  intro: "Each tick is one piece: a tutorial, an article, a course, a documentation site, a podcast episode, a video or an interview. Most of them are in French."
-  hover: "Hover over the ruler to read the titles, then open the one you want."
-  touch: "Slide your finger along the ruler to read the titles, then open the one you want."
-  open: "Open"
-  all: "See the full list of %n published pieces"
+  intro: "Tutorials, articles, courses, documentation, podcasts, videos and interviews, mostly in French. Search for a topic, or filter by type and platform."
+  featured: "Featured"
+  index_title: "Every piece"
+  search_label: "Search the titles"
+  search_ph: "Sparrow, coinjoin, Lightning"
+  source_label: "Platform"
+  source_all: "All platforms"
+  type_label: "Type of piece"
+  types:
+    - { k: "", l: "All" }
+    - { k: "formation documentation", l: "Courses and docs" }
+    - { k: "tutoriel", l: "Tutorials" }
+    - { k: "article", l: "Articles" }
+    - { k: "podcast production interview script", l: "Audio and video" }
+  empty: "No title matches. Try another word, or another platform."
+  reset: "Show everything"
+  more: "Show %n more"
+  kinds:
+    formation: "course"
+    documentation: "documentation"
+    tutoriel: "tutorial"
+    article: "article"
+    podcast: "podcast"
+    production: "video"
+    interview: "interview"
+    script: "video script"
 
 trades:
   title: "What I do"

@@ -81,19 +81,68 @@
   <div class="works" data-works>
     <div class="works-head">
       <h3 class="works-heading" id="t-works" data-reveal><span class="works-num">{{ nb_total }}</span> <span class="works-label">{{ t.works.label }}</span></h3>
-      <p class="works-intro" data-reveal>{{ t.works.intro }} <span class="only-hover">{{ t.works.hover }}</span><span class="only-touch">{{ t.works.touch }}</span></p>
+      <p class="works-intro" data-reveal>{{ t.works.intro }}</p>
     </div>
-    <div class="works-read" aria-live="polite" hidden>
-      <p class="works-title"><mark data-works-title></mark></p>
-      <p class="works-line"><span class="works-meta" data-works-meta></span> <a class="btn btn-sm works-open" href="#" data-works-open>{{ t.works.open }}</a></p>
-    </div>
-    <div class="works-rail" data-works-rail hidden></div>
-    <details class="works-all">
-      <summary>{{ t.works.all | replace: '%n', nb_total }}</summary>
-      <div class="works-lists">
-        {%- comment -%} Les contenus les plus récents d'abord : Second, Wizardsardine, Plan ₿ Academy, Bitstack, puis les autres. Dans un groupe dont chaque contenu a une date, du plus récent au plus ancien ; sinon l'ordre des fichiers de _data. {%- endcomment -%}
-        {%- assign groupes = "Second;Wizardsardine;Plan ₿ Academy;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+
+    {%- comment -%} À la une : une carte par type de contenu (formation, documentation, article, audio), le reste dans l'index. {%- endcomment -%}
+    {%- assign une_f = site.data.formations[0] -%}
+    {%- assign une_d = site.data.ecrits | where: "platform", "Second" | first -%}
+    {%- assign une_a = site.data.ecrits | where: "platform", "Wizardsardine" | sort: "date" | reverse | first -%}
+    {%- assign une_v = site.data.audio-video | where: "featured", true | first -%}
+    {%- assign unes = "" | split: "" | push: une_f | push: une_d | push: une_a | push: une_v %}
+    <h4 class="works-sub" data-reveal>{{ t.works.featured }}</h4>
+    <ul class="works-bento">
+      {%- for w in unes %}
+      {%- assign wl = w.langue | default: 'fr' %}
+      <li class="wb wb-{{ forloop.index }}" data-reveal style="--d:{{ forloop.index0 }}">
+        <a class="card wb-card" href="{{ w.url }}" rel="noopener">
+          {%- if w.code %}
+          {%- assign code = w.code | downcase | remove: " " %}
+          <img class="wb-img" src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async">
+          {%- endif %}
+          <span class="wb-meta"><span class="badge">{{ w.platform | replace: "Decouvre", "Découvre" }}</span> <span class="badge badge-outline">{{ t.works.kinds[w.type] }}</span></span>
+          <span class="wb-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span>
+          <span class="wb-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+
+    <div class="works-index" id="index-contenus">
+      <h4 class="works-sub">{{ t.works.index_title | replace: '%n', nb_total }}</h4>
+      {%- comment -%} Recherche et filtres : affichés par site.js. Sans JavaScript, la liste entière reste lisible dessous. {%- endcomment %}
+      <div class="works-tools" data-works-tools hidden>
+        <div class="field field-search">
+          <label class="sr" for="works-q">{{ t.works.search_label }}</label>
+          <svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="input" id="works-q" type="search" placeholder="{{ t.works.search_ph }}" autocomplete="off" spellcheck="false" enterkeyhint="search" data-works-q>
+          <kbd class="kbd only-hover" aria-hidden="true">/</kbd>
+        </div>
+        <div class="field field-select">
+          <label class="sr" for="works-src">{{ t.works.source_label }}</label>
+          <select class="select" id="works-src" data-works-src>
+            <option value="">{{ t.works.source_all }}</option>
+            {%- comment -%} Les contenus les plus récents d'abord : Second, Wizardsardine, Plan ₿ Academy, Bitstack, puis les autres. {%- endcomment -%}
+            {%- assign groupes = "Second;Wizardsardine;Plan ₿ Academy;Bitstack;Decouvre Bitcoin;Space Kek;Cryptoast;Grand Angle Bitcoin;How to Bitcoin" | split: ";" -%}
+            {%- for g in groupes -%}
+              {%- assign nb_g = site.data.formations | where: "platform", g | size -%}
+              {%- assign nb_g = site.data.ecrits | where: "platform", g | size | plus: nb_g -%}
+              {%- assign nb_g = site.data.audio-video | where: "platform", g | size | plus: nb_g %}
+            <option value="{{ forloop.index0 }}">{{ g | replace: "Decouvre", "Découvre" }} ({{ nb_g }})</option>
+            {%- endfor %}
+          </select>
+          <svg class="field-chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+        <div class="toggle-group" role="group" aria-label="{{ t.works.type_label }}">
+          {%- for ty in t.works.types %}
+          <button class="toggle" type="button" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}" data-type="{{ ty.k }}">{{ ty.l }}</button>
+          {%- endfor %}
+        </div>
+      </div>
+      <p class="works-status" role="status" data-works-status></p>
+      <ol class="works-list" data-works-list>
         {%- for g in groupes -%}
+          {%- assign gi = forloop.index0 -%}
           {%- assign w_f = site.data.formations | where: "platform", g -%}
           {%- assign w_e = site.data.ecrits | where: "platform", g -%}
           {%- assign w_a = site.data.audio-video | where: "platform", g -%}
@@ -101,18 +150,18 @@
           {%- assign dates = items | where_exp: "w", "w.date" -%}
           {%- if dates.size == items.size -%}{%- assign items = items | sort: "date" | reverse -%}{%- endif -%}
           {%- assign nom = g | replace: "Decouvre", "Découvre" %}
-        <section class="works-group" data-group="{{ nom }}">
-          <h4>{{ nom }} <span>{{ items | size }}</span></h4>
-          <ul>
-            {%- for w in items %}
-            {%- assign wl = w.langue | default: 'fr' %}
-            <li{% if wl != page.lang %} lang="{{ wl }}"{% endif %}><a href="{{ w.url }}" rel="noopener" data-kind="{{ w.type }}">{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</a></li>
-            {%- endfor %}
-          </ul>
-        </section>
+          {%- for w in items %}
+          {%- assign wl = w.langue | default: 'fr' %}
+        <li class="wi" data-g="{{ gi }}" data-k="{{ w.type }}"><a class="wi-link" href="{{ w.url }}" rel="noopener"><span class="wi-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span><span class="wi-meta"><span class="badge badge-outline wi-p">{{ nom }}</span><span class="wi-k">{{ t.works.kinds[w.type] }}</span></span><svg class="wi-go" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+          {%- endfor %}
         {%- endfor %}
+      </ol>
+      <div class="works-empty" data-works-empty hidden>
+        <p>{{ t.works.empty }}</p>
+        <button class="btn btn-outline btn-sm" type="button" data-works-reset>{{ t.works.reset }}</button>
       </div>
-    </details>
+      <p class="works-more"><button class="btn btn-outline" type="button" data-works-more data-label="{{ t.works.more }}" hidden>{{ t.works.more }}</button></p>
+    </div>
   </div>
 </section>
 

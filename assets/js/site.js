@@ -17,14 +17,14 @@ const EN = html.lang === 'en';
 const T = EN ? {
   copied: 'Address copied.', copyFail: 'Copy failed: the text is selected, copy it by hand.',
   kinds: { tutoriel: 'tutorial', article: 'article', formation: 'course', podcast: 'podcast episode', production: 'video', interview: 'interview', documentation: 'documentation', script: 'video script' },
-  rail: 'Published pieces, one tick each', others: 'Others', key: 'Tick height:',
-  keys: ['course or docs', 'tutorial', 'article', 'audio and video'], open: 'Open', portrait: 'Portrait of Loïc Morel',
+  portrait: 'Portrait of Loïc Morel',
+  count: (n, q) => (n === 1 ? '1 piece' : `${n} pieces`) + (q ? ` for "${q}"` : ''),
   q: (s) => `"${s}"`,
 } : {
   copied: 'Adresse copiée.', copyFail: 'Copie impossible\u00a0: le texte est sélectionné, copiez-le à la main.',
   kinds: { tutoriel: 'tutoriel', article: 'article', formation: 'formation', podcast: 'épisode de podcast', production: 'vidéo', interview: 'interview', documentation: 'documentation', script: 'script de vidéo' },
-  rail: 'Contenus publiés, un trait par contenu', others: 'Autres', key: 'Hauteur du trait\u00a0:',
-  keys: ['formation ou doc', 'tutoriel', 'article', 'audio et vidéo'], open: 'Ouvrir', portrait: 'Portrait de Loïc Morel',
+  portrait: 'Portrait de Loïc Morel',
+  count: (n, q) => (n === 1 ? '1 contenu' : `${n}\u00a0contenus`) + (q ? ` pour \u00ab\u00a0${q}\u00a0\u00bb` : ''),
   q: (s) => `\u00ab\u00a0${s}\u00a0\u00bb`,
 };
 
@@ -260,273 +260,96 @@ function initSlides() {
   });
 }
 
-/* ---------- Réglette des contenus publiés ---------- */
+/* ---------- Index des contenus publiés ---------- */
+// La liste entière est écrite dans la page ; le script ajoute la recherche, les filtres et la pagination.
 const KINDS = T.kinds;
 let works = null;
+const fold = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 function initWorks() {
   const root = $('[data-works]');
   if (!root) return;
-  const groups = $$('.works-group', root).map((g) => ({
-    name: g.dataset.group,
-    items: $$('a', g).map((a) => ({ t: a.textContent.trim(), u: a.href, k: a.dataset.kind })),
-  }));
-  const items = [];
-  const starts = [];
-  groups.forEach((g, gi) => { starts.push(items.length); g.items.forEach((it, j) => items.push({ ...it, g: gi, first: j === 0 })); });
-  const N = items.length;
-  if (!N) return;
-
-  const read = $('.works-read', root);
-  const rail = $('[data-works-rail]', root);
-  const titleEl = $('[data-works-title]', root), metaEl = $('[data-works-meta]', root), openEl = $('[data-works-open]', root);
-  read.hidden = false; rail.hidden = false;
-
-  const track = document.createElement('div');
-  track.className = 'works-ticks';
-  track.tabIndex = 0;
-  track.setAttribute('role', 'slider');
-  track.setAttribute('aria-label', T.rail);
-  track.setAttribute('aria-valuemin', '1');
-  track.setAttribute('aria-valuemax', String(N));
-  track.setAttribute('aria-orientation', 'horizontal');
-  const spacerA = document.createElement('span'); spacerA.className = 'tick-spacer';
-  track.appendChild(spacerA);
-  const ticks = items.map((it) => {
-    const s = document.createElement('span');
-    s.className = 'tick' + (it.first ? ' is-group' : '');
-    s.dataset.k = it.k;
-    s.appendChild(document.createElement('i'));
-    track.appendChild(s);
-    return s;
+  const sel = $('[data-works-src]', root);
+  const groups = sel ? $$('option', sel).slice(1).map((o) => o.textContent.replace(/\s*\(\d+\)\s*$/, '').trim()) : [];
+  const items = $$('.wi', root).map((li) => {
+    const a = li.firstElementChild;
+    const t = $('.wi-title', a).textContent.trim();
+    const g = Number(li.dataset.g);
+    return { t, u: a.href, k: li.dataset.k, g, f: fold(t + ' ' + (groups[g] || '')), li };
   });
-  const spacerB = document.createElement('span'); spacerB.className = 'tick-spacer';
-  track.appendChild(spacerB);
-  const labels = document.createElement('div');
-  labels.className = 'works-groups';
-  labels.setAttribute('aria-hidden', 'true');
-  const labelEls = groups.map((g, gi) => {
-    const l = document.createElement('span');
-    l.textContent = g.name;
-    labels.appendChild(l);
-    return l;
-  });
-  // les repères de groupe (desktop)
-  const markEls = [];
-  // les petits groupes de la fin n'ont pas la place pour leur nom : un repère « Autres » et une légende
-  let tail = groups.length;
-  while (tail > 0 && groups[tail - 1].items.length < 20) tail--;
-  if (tail < groups.length) {
-    for (let gi = tail; gi < groups.length; gi++) labelEls[gi].classList.add('is-small');
-    const l = document.createElement('span');
-    l.textContent = T.others;
-    labels.appendChild(l);
-    labelEls.push(l);
-    starts.push(starts[tail]);
-    const legend = document.createElement('p');
-    legend.className = 'works-legend';
-    legend.textContent = T.others + (EN ? ': ' : '\u00a0: ') + groups.slice(tail).map((g) => `${g.name} (${g.items.length})`).join(', ') + '.';
-    rail.after(legend);
-  }
-  labelEls.forEach(() => { const m = document.createElement('b'); labels.appendChild(m); markEls.push(m); });
-  rail.append(track, labels);
-  // légende des hauteurs : un trait par type de contenu
-  const key = document.createElement('ul');
-  key.className = 'works-key';
-  key.setAttribute('aria-hidden', 'true');
-  const head = document.createElement('li');
-  head.textContent = T.key;
-  key.appendChild(head);
-  [32, 24, 17, 11].map((h, n) => [T.keys[n], h]).forEach(([t, h]) => {
-    const li = document.createElement('li');
-    const i = document.createElement('i'); i.style.setProperty('--kh', h + 'px');
-    li.append(i, t);
-    key.appendChild(li);
-  });
-  rail.after(key);
-  // au doigt, une barre de position : la partie des 246 que l'on regarde
-  const map = document.createElement('div');
-  map.className = 'works-map';
-  map.setAttribute('aria-hidden', 'true');
-  map.appendChild(document.createElement('i'));
-  rail.appendChild(map);
+  // le portrait en lignes (s'il est réactivé) lit les titres ici
+  works = { items, groups };
+  const tools = $('[data-works-tools]', root);
+  if (!items.length || !tools) return;
+  const q = $('[data-works-q]', root), status = $('[data-works-status]', root);
+  const empty = $('[data-works-empty]', root), more = $('[data-works-more]', root), reset = $('[data-works-reset]', root);
+  const toggles = $$('.toggle', tools);
+  tools.hidden = false;
+  root.classList.add('is-live');
 
-  let current = -1;
-  const set = (i, fromScroll) => {
-    i = clamp(Math.round(i), 0, N - 1);
-    if (i === current) return;
-    if (current >= 0) ticks[current].classList.remove('is-current');
-    current = i;
-    ticks[i].classList.add('is-current');
-    const it = items[i];
-    titleEl.textContent = it.t;
-    metaEl.textContent = `${groups[it.g].name}, ${KINDS[it.k] || it.k}`;
-    openEl.href = it.u;
-    openEl.setAttribute('aria-label', `${T.open} ${T.q(it.t)}`);
-    track.setAttribute('aria-valuenow', String(i + 1));
-    map.style.setProperty('--p', (i / Math.max(1, N - 1)).toFixed(4));
-    track.setAttribute('aria-valuetext', `${it.t}, ${groups[it.g].name}`);
-    if (!wide() && !fromScroll) track.scrollTo({ left: i * 8, behavior: reduce ? 'auto' : 'smooth' });
-  };
-
-  // Placement des noms de groupes.
-  const placeLabels = () => {
-    if (wide()) {
-      const w = track.clientWidth;
-      // une seule règle : un repère sous le premier trait de chaque groupe, le nom juste après, tenu dans la réglette ;
-      // s'il chevauche le précédent, il passe au rang suivant (trois rangs : les premiers groupes sont courts)
-      const ends = [-Infinity, -Infinity, -Infinity];
-      labelEls.forEach((l, gi) => {
-        const mk = markEls[gi];
-        l.classList.remove('is-pinned');
-        if (l.classList.contains('is-small')) { l.style.visibility = 'hidden'; if (mk) mk.style.visibility = 'hidden'; return; }
-        const x = (starts[gi] / N) * w;
-        const lw = l.offsetWidth;
-        // le nom se place à droite de son repère ; au bout de la réglette, il passe à sa gauche
-        const lx = x + 8 + lw <= w ? x + 8 : x - 8 - lw;
-        const row = ends.findIndex((e) => lx >= e + 12);
-        l.style.visibility = row < 0 ? 'hidden' : '';
-        if (mk) { mk.style.visibility = row < 0 ? 'hidden' : ''; mk.style.transform = `translateX(${x.toFixed(1)}px)`; mk.style.top = `${Math.max(0, row) * 1.6}em`; }
-        if (row < 0) return;
-        l.dataset.row = String(row);
-        ends[row] = lx + lw;
-        l.style.transform = `translateX(${lx.toFixed(1)}px)`;
-      });
-    } else {
-      const sp = spacerA.offsetWidth, tw = track.clientWidth;
-      // trois rangs, comme sur ordinateur : un nom qui chevaucherait le précédent passe au rang suivant
-      const ends = [-Infinity, -Infinity, -Infinity];
-      labelEls.forEach((l, gi) => {
-        let x = sp + starts[gi] * 8 - track.scrollLeft;
-        // le nom du groupe en cours reste collé au bord gauche tant que son groupe défile
-        const next = gi + 1 < labelEls.length ? sp + starts[gi + 1] * 8 - track.scrollLeft : Infinity;
-        const pinned = x < 0 && next > l.offsetWidth + 16;
-        if (pinned) x = 0;
-        // collé au bord, son repère est sorti de l'écran : une flèche dit que le groupe a commencé plus à gauche
-        l.classList.toggle('is-pinned', pinned);
-        // un nom qui entre par la droite reste entier : il passe à gauche de son repère
-        const lw = l.offsetWidth, lx = pinned ? 0 : x + 8 + lw <= tw ? x + 8 : x - 8 - lw;
-        const out = x > tw || x + lw < 0 || l.classList.contains('is-small');
-        const row = out ? -1 : pinned ? 0 : ends.findIndex((e) => lx >= e + 12);
-        if (row >= 0) ends[row] = lx + lw;
-        l.style.visibility = row < 0 ? 'hidden' : '';
-        l.style.transform = `translateX(${lx.toFixed(1)}px)`;
-        l.dataset.row = String(Math.max(0, row));
-        const mk = markEls[gi];
-        if (mk) { const mx = sp + starts[gi] * 8 - track.scrollLeft; mk.style.visibility = row < 0 || mx < 0 || mx > tw ? 'hidden' : ''; mk.style.transform = `translateX(${mx.toFixed(1)}px)`; mk.style.top = `${Math.max(0, row) * 1.6}em`; }
-      });
+  const PAGE = wide() ? 12 : 8;
+  let shown = PAGE, type = '', src = '', query = '', matches = items;
+  const apply = (animate) => {
+    const words = fold(query).split(/\s+/).filter(Boolean);
+    const types = type ? type.split(' ') : null;
+    matches = items.filter((it) => (!types || types.includes(it.k)) && (src === '' || it.g === Number(src)) && words.every((w) => it.f.includes(w)));
+    const visible = new Set(matches.slice(0, shown));
+    let i = 0;
+    for (const it of items) {
+      const on = visible.has(it);
+      it.li.hidden = !on;
+      if (on && animate && !reduce) {
+        // chaque ligne entre l'une après l'autre, les douze premières seulement
+        it.li.style.setProperty('--i', String(Math.min(i++, 12)));
+        it.li.classList.toggle('is-enter', false);
+        void it.li.offsetWidth;
+        it.li.classList.toggle('is-enter', true);
+      }
     }
+    const n = matches.length;
+    empty.hidden = n > 0;
+    const rest = n - shown;
+    more.hidden = rest <= 0;
+    if (rest > 0) more.textContent = more.dataset.label.replace('%n', String(Math.min(rest, PAGE * 2)));
+    status.textContent = T.count(n, query.trim());
   };
+  const restart = () => { shown = PAGE; apply(true); };
 
-  // Survol (ordinateur) : le trait sous le curseur est lu, ses voisins grandissent.
-  const dock = { x: -1, amp: { v: 0, vel: 0 }, target: 0 };
-  const follow = (px) => {
-    // la lecture suit le trait survolé, sans sortir de la réglette
-    const tw = track.clientWidth, rw = Math.min(read.offsetWidth || 0, tw);
-    read.style.setProperty('--rx', clamp(px - 48, 0, Math.max(0, tw - rw)).toFixed(0) + 'px');
-  };
-  // le pointeur file vers « Ouvrir » : on garde le contenu lu au lieu de lire chaque trait traversé.
-  // La direction se lit sur les 120 dernières ms (un tremblement d'un pixel ne compte pas) ; une fois la visée
-  // reconnue, la lecture reste figée tant que le pointeur continue de monter, ou 150 ms s'il s'arrête.
-  let trail = [], frozen = 0, pinned = false, entered = 0;
-  const aiming = (e) => {
-    if (e.pointerType !== 'mouse') return false;
-    const now = performance.now();
-    // les 200 premières ms dans la réglette, on lit toujours : une entrée par le bas en biais n'est pas une visée
-    if (now - entered < 200) { trail = [{ x: e.clientX, y: e.clientY, t: now }]; return false; }
-    trail.push({ x: e.clientX, y: e.clientY, t: now });
-    while (trail.length > 2 && now - trail[0].t > 120) trail.shift();
-    const p = trail[0];
-    const dx = e.clientX - p.x, dy = e.clientY - p.y;
-    if (dy > -3) return now < frozen;
-    // le pointeur quitte la réglette par le haut, vers la lecture : on ne lit plus les traits qu'il traverse
-    if (-dy > 0.4 * Math.abs(dx)) { frozen = now + 150; return true; }
-    const b = openEl.getBoundingClientRect();
-    const t = (b.bottom - e.clientY) / dy;
-    const hx = e.clientX + dx * t;
-    if (t > 0 && hx >= b.left - 40 && hx <= b.right + 40) { frozen = now + 150; return true; }
-    return now < frozen;
-  };
-  track.addEventListener('pointermove', (e) => {
-    // au doigt sur une grande tablette, glisser le long de la réglette la parcourt aussi
-    if (!wide() || pinned || aiming(e)) return;
-    const r = track.getBoundingClientRect();
-    const x = clamp((e.clientX - r.left) / r.width) * N;
-    dock.x = x; dock.target = 1;
-    set(Math.floor(x));
-    follow(e.clientX - r.left);
-    kick();
+  let timer = 0;
+  q.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { query = q.value; restart(); }, 120); });
+  q.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && q.value) { e.preventDefault(); q.value = ''; query = ''; restart(); }
   });
-  track.addEventListener('pointerenter', () => { entered = performance.now(); trail = []; });
-  track.addEventListener('pointerleave', () => { dock.target = 0; trail = []; pinned = false; kick(); });
-  track.addEventListener('click', (e) => {
-    if (!wide()) return;
-    const r = track.getBoundingClientRect();
-    set(Math.floor(clamp((e.clientX - r.left) / r.width) * N));
-    // un clic fixe la sélection jusqu'à la sortie de la réglette : on peut aller cliquer « Ouvrir » sans rien changer
-    pinned = true;
-    track.focus({ preventScroll: true });
-  });
-
-  // Piste défilante (téléphone, tablette).
-  track.addEventListener('scroll', () => {
-    if (wide()) return;
-    set(track.scrollLeft / 8, true);
-    placeLabels();
-  }, { passive: true });
-
-  // Clavier.
-  track.addEventListener('keydown', (e) => {
-    if (wide()) requestAnimationFrame(() => follow(((current + 0.5) / N) * track.clientWidth));
-    const g = items[Math.max(0, current)].g;
-    let n = current;
-    switch (e.key) {
-      case 'ArrowRight': case 'ArrowUp': n = current + 1; break;
-      case 'ArrowLeft': case 'ArrowDown': n = current - 1; break;
-      case 'PageDown': n = starts[Math.min(starts.length - 1, g + 1)]; break;
-      case 'PageUp': n = current > starts[g] ? starts[g] : starts[Math.max(0, g - 1)]; break;
-      case 'Home': n = 0; break;
-      case 'End': n = N - 1; break;
-      case 'Enter': location.href = items[current].u; return;
-      default: return;
-    }
+  // « / » place le curseur dans la recherche quand l'index est à l'écran
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const el = document.activeElement;
+    if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+    const r = root.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > window.innerHeight) return;
     e.preventDefault();
-    set(n);
+    q.focus();
   });
-
-  // Les traits poussent quand la bande entre ; effet Dock au survol.
-  const inner = ticks.map((t) => t.firstChild);
-  const scales = new Float32Array(N).fill(-1);
-  let grow = reduce ? 1 : 0;
-  frames.add((dt) => {
-    const r = track.getBoundingClientRect();
-    const vh = window.innerHeight;
-    if (r.bottom < -200 || r.top > vh + 200) return false;
-    if (!reduce) grow = clamp((vh - r.top) / (vh * 0.55));
-    let moving = false;
-    // ressort de l'amplitude du Dock
-    const a = dock.amp;
-    const acc = 200 * (dock.target - a.v) - 24 * a.vel;
-    a.vel += acc * dt; a.v += a.vel * dt;
-    if (Math.abs(dock.target - a.v) > 0.001 || Math.abs(a.vel) > 0.001) moving = true;
-    const useDock = wide() && a.v > 0.001;
-    for (let i = 0; i < N; i++) {
-      const g = reduce ? 1 : clamp(grow * 1.6 - (i / N) * 0.6);
-      let s = g;
-      if (useDock) { const dx = (i + 0.5 - dock.x) / 6; s *= 1 + 0.85 * a.v * Math.exp(-dx * dx); }
-      if (Math.abs(s - scales[i]) > 0.002) { scales[i] = s; inner[i].style.transform = `scaleY(${s.toFixed(3)})`; }
-    }
-    return moving;
+  sel.addEventListener('change', () => { src = sel.value; restart(); });
+  toggles.forEach((b) => b.addEventListener('click', () => {
+    toggles.forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    type = b.dataset.type;
+    restart();
+  }));
+  more.addEventListener('click', () => {
+    const from = shown;
+    shown += PAGE * 2;
+    apply(false);
+    // le focus passe au premier contenu ajouté : le clavier reprend là où la liste s'est allongée
+    const next = matches[from];
+    if (next) next.li.firstElementChild.focus({ preventScroll: true });
   });
-
-  const onResize = () => {
-    if (!wide()) { track.scrollLeft = Math.max(0, current) * 8; read.style.setProperty('--rx', '0px'); }
-    placeLabels();
-  };
-  window.addEventListener('resize', onResize, { passive: true });
-  // on part du premier contenu, le plus récent, sur tous les formats
-  set(0);
-  requestAnimationFrame(onResize);
-  works = { items, groups: groups.map((g) => g.name) };
+  reset.addEventListener('click', () => {
+    q.value = ''; query = ''; src = ''; sel.value = ''; type = '';
+    toggles.forEach((o, i) => o.setAttribute('aria-pressed', String(i === 0)));
+    restart();
+    q.focus();
+  });
+  apply(false);
 }
 
 /* ---------- Dictionnaire : une autre définition ---------- */

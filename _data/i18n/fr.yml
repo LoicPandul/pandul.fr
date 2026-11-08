@@ -36,11 +36,32 @@ clients:
 
 works:
   label: "contenus publiés"
-  intro: "Chaque trait est un contenu&nbsp;: tutoriel, article, formation, documentation, épisode de podcast, vidéo ou interview."
-  hover: "Survolez la réglette pour lire les titres, puis ouvrez celui qui vous intéresse."
-  touch: "Faites glisser la réglette du doigt pour lire les titres, puis ouvrez celui qui vous intéresse."
-  open: "Ouvrir"
-  all: "Voir la liste complète des %n contenus publiés"
+  intro: "Tutoriels, articles, formations, documentation, podcasts, vidéos et interviews. Cherchez un sujet dans les titres, ou filtrez par type et par plateforme."
+  featured: "À la une"
+  index_title: "Tous les contenus"
+  search_label: "Chercher dans les titres"
+  search_ph: "Sparrow, coinjoin, Lightning"
+  source_label: "Plateforme"
+  source_all: "Toutes les plateformes"
+  type_label: "Type de contenu"
+  types:
+    - { k: "", l: "Tout" }
+    - { k: "formation documentation", l: "Formations et docs" }
+    - { k: "tutoriel", l: "Tutoriels" }
+    - { k: "article", l: "Articles" }
+    - { k: "podcast production interview script", l: "Audio et vidéo" }
+  empty: "Aucun titre ne correspond. Essayez un autre mot, ou une autre plateforme."
+  reset: "Tout afficher"
+  more: "Afficher %n de plus"
+  kinds:
+    formation: "formation"
+    documentation: "documentation"
+    tutoriel: "tutoriel"
+    article: "article"
+    podcast: "podcast"
+    production: "vidéo"
+    interview: "interview"
+    script: "script de vidéo"
 
 trades:
   title: "Ce que je fais"
