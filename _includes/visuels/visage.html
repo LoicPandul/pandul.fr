@@ -1,6 +1,5 @@
-{%- comment -%} Visuel d'accueil « visage » : le portrait dessiné par les titres des contenus publiés (assets/js/lines.js).
-Mis de côté le 8 novembre 2026, réactivable d'une ligne : accueil_visuel: visage dans _config.yml. {%- endcomment %}
-  <figure class="hero-stage stage" data-visuel="visage" data-stage="portrait">
+{%- comment -%} Visuel d'accueil : le portrait dessiné par les titres des contenus publiés (assets/js/lines.js). {%- endcomment %}
+  <figure class="hero-stage stage" data-stage="portrait">
     <div class="stage-box">
       <noscript><img class="stage-fallback" src="{{ '/assets/img/lignes/portrait-encre.webp' | relative_url }}" width="800" height="1000" alt="{{ t.hero.alt }}"></noscript>
       <canvas aria-hidden="true"></canvas>

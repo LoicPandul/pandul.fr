@@ -21,16 +21,8 @@
       <a class="link" href="#clients">{{ t.hero.trust }}</a>
     </p>
   </div>
-  {%- comment -%} Le visuel de l'accueil : _includes/visuels/<accueil_visuel>.html (_config.yml). Hors production, les autres
-  attendent dans des <template> et ?visuel=a, b, c ou visage les essaie sans rien reconstruire (site.js, pickVisuel). {%- endcomment %}
-  {%- assign visuel = site.accueil_visuel | default: 'a' %}
-  {%- include visuels/{{ visuel }}.html %}
-  {%- if jekyll.environment != "production" %}
-  {%- assign essais = "a,b,c,visage" | split: "," %}
-  {%- for v in essais %}{% if v != visuel %}
-  <template data-visuel="{{ v }}">{% include visuels/{{ v }}.html %}</template>
-  {%- endif %}{% endfor %}
-  {%- endif %}
+  {%- comment -%} Le visuel de l'accueil : le portrait écrit avec les titres des contenus publiés (_includes/visuels/visage.html). {%- endcomment %}
+  {%- include visuels/visage.html %}
 </section>
 
 <section class="clients" id="clients" aria-labelledby="t-clients">

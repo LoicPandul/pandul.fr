@@ -28,18 +28,6 @@ hero:
   trust: "They trust me"
   caption: "My face, drawn with the titles of the %n pieces I have published."
   alt: "Portrait of Loïc Morel"
-  va_link: "Browse the index"
-  vb_caption: "My six courses on Plan ₿ Academy, in a stack. Click the top card to open it."
-  vb_next: "Next course"
-  vc_caption: "What I have published, counted by type."
-  vc_words:
-    - "tutorials"
-    - "articles"
-    - "podcast episodes"
-    - "courses"
-    - "videos and interviews"
-  pause: "Pause"
-  play: "Resume"
 
 clients:
   title_a: "They"
