@@ -1377,3 +1377,623 @@
   type: "documentation"
   langue: "en"
   featured: false
+
+# Pages de la documentation de Second (second.tech/docs) sur lesquelles Loïc a travaillé : fichiers modifiés par ses
+# merge requests fusionnées sur gitlab.com/ark-bitcoin/docs, relevés le 2026-11-08 (la page d'accueil est l'entrée ci-dessus).
+# Titre = celui de la page ; entre parenthèses, la partie de la doc quand le titre ne la nomme pas.
+
+- title: "MCP server for agents (Bark)"
+  url: "https://second.tech/docs/agents"
+  description: "Documentation de Second : MCP server for agents (Bark)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Connect a wallet (Ark server)"
+  url: "https://second.tech/docs/ark-server/connect-wallet"
+  description: "Documentation de Second : Connect a wallet (Ark server)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Set up an Ark server with Docker Compose"
+  url: "https://second.tech/docs/ark-server/docker-compose"
+  description: "Documentation de Second : Set up an Ark server with Docker Compose"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Run an Ark server"
+  url: "https://second.tech/docs/ark-server"
+  description: "Documentation de Second : Run an Ark server"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Set up an Ark server manually"
+  url: "https://second.tech/docs/ark-server/manual-setup"
+  description: "Documentation de Second : Set up an Ark server manually"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Bark backups"
+  url: "https://second.tech/docs/backups"
+  description: "Documentation de Second : Bark backups"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Back up your wallet (Bark Pay)"
+  url: "https://second.tech/docs/bark-pay/backups"
+  description: "Documentation de Second : Back up your wallet (Bark Pay)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Create and track charges (Bark Pay)"
+  url: "https://second.tech/docs/bark-pay/charges"
+  description: "Documentation de Second : Create and track charges (Bark Pay)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Take payments at checkout (Bark Pay)"
+  url: "https://second.tech/docs/bark-pay/checkout"
+  description: "Documentation de Second : Take payments at checkout (Bark Pay)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Bark Pay"
+  url: "https://second.tech/docs/bark-pay"
+  description: "Documentation de Second : Bark Pay"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install Bark Pay"
+  url: "https://second.tech/docs/bark-pay/install"
+  description: "Documentation de Second : Install Bark Pay"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Integrate Bark Pay with your app"
+  url: "https://second.tech/docs/bark-pay/integrate"
+  description: "Documentation de Second : Integrate Bark Pay with your app"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Configure Bark Pay"
+  url: "https://second.tech/docs/bark-pay/settings"
+  description: "Documentation de Second : Configure Bark Pay"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Update or remove Bark Pay"
+  url: "https://second.tech/docs/bark-pay/update"
+  description: "Documentation de Second : Update or remove Bark Pay"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage your Bark Pay wallet"
+  url: "https://second.tech/docs/bark-pay/wallet"
+  description: "Documentation de Second : Manage your Bark Pay wallet"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with Dart (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/dart"
+  description: "Documentation de Second : Get started with Dart (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with Go (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/go"
+  description: "Documentation de Second : Get started with Go (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Bark SDK"
+  url: "https://second.tech/docs/bark-sdk"
+  description: "Documentation de Second : Bark SDK"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with Kotlin (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/kotlin"
+  description: "Documentation de Second : Get started with Kotlin (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with TypeScript for React Native (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/react-native"
+  description: "Documentation de Second : Get started with TypeScript for React Native (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with Rust (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/rust"
+  description: "Documentation de Second : Get started with Rust (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with Swift (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/swift"
+  description: "Documentation de Second : Get started with Swift (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Get started with TypeScript for web apps (Bark SDK)"
+  url: "https://second.tech/docs/bark-sdk/wasm"
+  description: "Documentation de Second : Get started with TypeScript for web apps (Bark SDK)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Wallet backups (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/backup"
+  description: "Documentation de Second : Wallet backups (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Create your wallet (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/create"
+  description: "Documentation de Second : Create your wallet (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Understand your dashboard (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/dashboard"
+  description: "Documentation de Second : Understand your dashboard (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Bark Wallet"
+  url: "https://second.tech/docs/bark-wallet"
+  description: "Documentation de Second : Bark Wallet"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install Bark Wallet"
+  url: "https://second.tech/docs/bark-wallet/install"
+  description: "Documentation de Second : Install Bark Wallet"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Remote access (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/remote-access"
+  description: "Documentation de Second : Remote access (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Restore your wallet (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/restore"
+  description: "Documentation de Second : Restore your wallet (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Send and receive bitcoin (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/send-receive"
+  description: "Documentation de Second : Send and receive bitcoin (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Configure the wallet app (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/settings"
+  description: "Documentation de Second : Configure the wallet app (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Update or uninstall the wallet app (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/update-uninstall"
+  description: "Documentation de Second : Update or uninstall the wallet app (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage your VTXOs (Bark Wallet)"
+  url: "https://second.tech/docs/bark-wallet/vtxos"
+  description: "Documentation de Second : Manage your VTXOs (Bark Wallet)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Authenticate (barkd)"
+  url: "https://second.tech/docs/barkd/authenticate"
+  description: "Documentation de Second : Authenticate (barkd)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Clients (barkd)"
+  url: "https://second.tech/docs/barkd/clients"
+  description: "Documentation de Second : Clients (barkd)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Barkd"
+  url: "https://second.tech/docs/barkd"
+  description: "Documentation de Second : Barkd"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install Barkd"
+  url: "https://second.tech/docs/barkd/install"
+  description: "Documentation de Second : Install Barkd"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Start the daemon (barkd)"
+  url: "https://second.tech/docs/barkd/start"
+  description: "Documentation de Second : Start the daemon (barkd)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Back up your wallet (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/backups"
+  description: "Documentation de Second : Back up your wallet (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Understand your balances (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/dashboard"
+  description: "Documentation de Second : Understand your balances (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "BTCPay Bark plugin"
+  url: "https://second.tech/docs/btcpay"
+  description: "Documentation de Second : BTCPay Bark plugin"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install the plugin (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/install"
+  description: "Documentation de Second : Install the plugin (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Export your Bark activity (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/reporting"
+  description: "Documentation de Second : Export your Bark activity (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage your Bark wallet (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/send-receive"
+  description: "Documentation de Second : Manage your Bark wallet (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Configure the plugin (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/settings"
+  description: "Documentation de Second : Configure the plugin (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Update or uninstall the plugin (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/uninstall"
+  description: "Documentation de Second : Update or uninstall the plugin (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage your VTXOs (BTCPay plugin)"
+  url: "https://second.tech/docs/btcpay/vtxos"
+  description: "Documentation de Second : Manage your VTXOs (BTCPay plugin)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Built with Bark"
+  url: "https://second.tech/docs/built-with-bark"
+  description: "Documentation de Second : Built with Bark"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Bark changelog"
+  url: "https://second.tech/docs/changelog"
+  description: "Documentation de Second : Bark changelog"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Connection details (Bark)"
+  url: "https://second.tech/docs/connection-details"
+  description: "Documentation de Second : Connection details (Bark)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Advanced Bark features (Bark CLI)"
+  url: "https://second.tech/docs/getting-started/bark-cli/advanced"
+  description: "Documentation de Second : Advanced Bark features (Bark CLI)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Configure Bark (Bark CLI)"
+  url: "https://second.tech/docs/getting-started/bark-cli/configuration"
+  description: "Documentation de Second : Configure Bark (Bark CLI)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Install Bark CLI"
+  url: "https://second.tech/docs/getting-started/bark-cli"
+  description: "Documentation de Second : Install Bark CLI"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Test on mainnet (Bark CLI)"
+  url: "https://second.tech/docs/getting-started/bark-cli/mainnet"
+  description: "Documentation de Second : Test on mainnet (Bark CLI)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Test on signet (Bark CLI)"
+  url: "https://second.tech/docs/getting-started/bark-cli/signet"
+  description: "Documentation de Second : Test on signet (Bark CLI)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark boarding"
+  url: "https://second.tech/docs/learn/board"
+  description: "Documentation de Second : Ark boarding"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark emergency exits"
+  url: "https://second.tech/docs/learn/exit"
+  description: "Documentation de Second : Ark emergency exits"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark fees"
+  url: "https://second.tech/docs/learn/fees"
+  description: "Documentation de Second : Ark fees"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark forfeits"
+  url: "https://second.tech/docs/learn/forfeits"
+  description: "Documentation de Second : Ark forfeits"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark protocol glossary"
+  url: "https://second.tech/docs/learn/glossary"
+  description: "Documentation de Second : Ark protocol glossary"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Intro to the Ark protocol"
+  url: "https://second.tech/docs/learn/intro"
+  description: "Documentation de Second : Intro to the Ark protocol"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "VTXO lifetime"
+  url: "https://second.tech/docs/learn/lifetime"
+  description: "Documentation de Second : VTXO lifetime"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark liquidity"
+  url: "https://second.tech/docs/learn/liquidity"
+  description: "Documentation de Second : Ark liquidity"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark offboarding"
+  url: "https://second.tech/docs/learn/offboard"
+  description: "Documentation de Second : Ark offboarding"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Lightning payments (Ark)"
+  url: "https://second.tech/docs/learn/payments-lightning"
+  description: "Documentation de Second : Lightning payments (Ark)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "On-chain payments (Ark)"
+  url: "https://second.tech/docs/learn/payments-on-chain"
+  description: "Documentation de Second : On-chain payments (Ark)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark payments"
+  url: "https://second.tech/docs/learn/payments"
+  description: "Documentation de Second : Ark payments"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark rounds"
+  url: "https://second.tech/docs/learn/rounds"
+  description: "Documentation de Second : Ark rounds"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Ark VTXOs"
+  url: "https://second.tech/docs/learn/vtxo"
+  description: "Documentation de Second : Ark VTXOs"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Back up your wallet (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/backup"
+  description: "Documentation de Second : Back up your wallet (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Swap bitcoin to Lightning (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/bitcoin-to-lightning"
+  description: "Documentation de Second : Swap bitcoin to Lightning (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Fees and limits (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/fees-and-limits"
+  description: "Documentation de Second : Fees and limits (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Swaptopia"
+  url: "https://second.tech/docs/swaptopia"
+  description: "Documentation de Second : Swaptopia"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Swap Lightning to bitcoin (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/lightning-to-bitcoin"
+  description: "Documentation de Second : Swap Lightning to bitcoin (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Resolve a swap problem (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/troubleshooting"
+  description: "Documentation de Second : Resolve a swap problem (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false
+
+- title: "Manage your wallet (Swaptopia)"
+  url: "https://second.tech/docs/swaptopia/wallet"
+  description: "Documentation de Second : Manage your wallet (Swaptopia)"
+  platform: "Second"
+  type: "documentation"
+  langue: "en"
+  featured: false

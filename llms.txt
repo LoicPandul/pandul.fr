@@ -13,7 +13,7 @@ pandul.fr est le site personnel de Loïc Morel. Pandul est le nom de son entrepr
 
 ## Activités
 
-- Rédaction et pédagogie : {{ site.data.ecrits | size }} tutoriels et articles, {{ site.data.formations | size }} formations pour Plan ₿ Academy, {{ site.data.audio-video | size }} podcasts, vidéos et interviews.
+- Rédaction et pédagogie : {{ site.data.ecrits | size }} tutoriels, articles et pages de documentation, {{ site.data.formations | size }} formations pour Plan ₿ Academy, {{ site.data.audio-video | size }} podcasts, vidéos et interviews.
 - Documentation technique : documentation de Bark chez Second, documentation du portefeuille Liana chez Wizardsardine. Sur Mintlify et sur Fumadocs, pensée pour les LLM (pages en Markdown, index llms.txt).
 - Développement (vibe coding) : Gerfaut, un portefeuille Bitcoin watch-only pour Android, Linux, macOS et Windows, et SatConverter (https://github.com/LoicPandul/SatConverter), un convertisseur de bureau entre sats, BTC, euros et dollars.
 

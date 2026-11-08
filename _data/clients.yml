@@ -13,6 +13,8 @@
       ratio: 2.9
       travail: "Documentation de Bark : SDK, barkd et son API REST, serveur Ark, applications (Bark Wallet, Bark Pay, plugin BTCPay) et notes de version"
       travail_en: "Bark documentation: SDK, barkd and its REST API, Ark server, apps (Bark Wallet, Bark Pay, BTCPay plugin) and release notes"
+      comptes:
+        - {source: "ecrits", platform: "Second", type: "documentation", libelle: "pages de documentation", libelle_en: "documentation pages"}
       url: "https://second.tech/docs"
     - nom: "Liana"
       logo: "liana.svg"
