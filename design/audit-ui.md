@@ -97,4 +97,10 @@ Constats, un par un :
 - Effacer la recherche : bouton de 44 px, visible seulement champ rempli, qui rend le focus au champ ; Échap, « Tout afficher » et le retour arrière le tiennent à jour. Corrigé.
 - Barre de défilement teintée et sous-titres équilibrés : faits (la barre ne se voit pas dans les captures sans affichage).
 
+## Vides sur ordinateur (12 novembre 2026, sur demande de Loïc)
+
+- **Sous « Développement »** : le dernier métier gardait une hauteur minimale de tout l'écran (`100svh − barre − 110 px`) pour que le panneau collé reste en place ; à 1440 × 900, 474 px séparaient la fin de son texte du titre « Projets ». Plafonnée à 32rem : 260 px (dont l'écart de section, 128 px). Le panneau passe toujours au développement à mi-écran et finit d'écrire sa page (`cargo test`, « 12 passed ») avant d'être poussé par « Projets ». Téléphone et tablette inchangés (règle à partir de 960 px seulement). Commit aa82926 pour les cartes, 2dc770b pour ce vide.
+- **Carte Cryptoast de « À la une »** : l'interview n'a pas d'image locale (la CSP n'admet que le domaine), donc pas d'image à agrandir. Les trois cartes secondaires s'empilent à droite de la formation, en trois cartes de même largeur, au lieu de deux petites et une large et basse. Vide entre étiquettes et titre : 145 → 44 px à 1440, 196 → 83 px à 1920, 79 → 26 px à 1280. La tablette garde sa grille (formation, deux cartes, une carte pleine ligne).
+- Contrôle : 1440, 768 et 390 sans débordement, 0 erreur de console.
+
 Revue par un sous-agent neuf (Sonnet), sur les captures avant et après : aucune régression, aucun débordement horizontal, corrections visibles. La revue neuve de `audit.md` (verdict ship, fix ou rebuild) ne s'applique pas : c'est une retouche, pas un écran neuf ni une refonte.
