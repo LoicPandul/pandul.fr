@@ -982,8 +982,9 @@ html.js .trade-solo { display: block; height: min(108vw, 520px); margin: 4px 0 2
   .trades-stage .trade-canvas { height: min(calc(100svh - var(--bar-h) - 130px), 700px); }
   .trades-list { grid-column: 7 / 13; grid-row: 2; }
   html.js .trade-solo { display: none; }
-  /* le même écart entre deux métiers ; le dernier, court, tient l'écran assez longtemps pour que sa page se dessine */
-  .trade:last-child { min-height: calc(100svh - var(--bar-h) - 110px); padding-bottom: 0; }
+  /* le même écart entre deux métiers ; le dernier, court, tient l'écran assez longtemps pour que sa page se dessine,
+     sans réserver toute la hauteur du panneau (32rem au plus : environ 140 px sous son texte, au lieu de 360) */
+  .trade:last-child { min-height: min(calc(100svh - var(--bar-h) - 110px), 32rem); padding-bottom: 0; }
 }
 .trade { container-type: inline-size; }
 .figures { margin: 36px 0 40px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 clamp(20px, 6cqi, 48px); }
