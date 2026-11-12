@@ -92,9 +92,8 @@
           {%- assign code = w.code | downcase | remove: " " %}
           <img class="wb-img" src="{{ '/assets/img/pbn-' | append: code | append: '-thumbnail.webp' | relative_url }}" alt="" width="720" height="405" loading="lazy" decoding="async">
           {%- endif %}
-          <span class="wb-meta">{% include drapeau.html langue=wl %}<span class="badge">{{ w.platform | replace: "Decouvre", "Découvre" }}</span> <span class="badge badge-outline">{{ t.works.kinds[w.type] }}</span></span>
+          <span class="wb-meta"><span class="wb-tags">{% include drapeau.html langue=wl %}<span class="badge">{{ w.platform | replace: "Decouvre", "Découvre" }}</span> <span class="badge badge-outline">{{ t.works.kinds[w.type] }}</span></span><span class="wb-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span></span>
           <span class="wb-title"{% if wl != page.lang %} lang="{{ wl }}"{% endif %}>{% if en and w.title_en %}{{ w.title_en }}{% else %}{{ w.title | replace: ' ?', '&nbsp;?' | replace: ' !', '&nbsp;!' | replace: ' :', '&nbsp;:' }}{% endif %}</span>
-          <span class="wb-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
         </a>
       </li>
       {%- endfor %}
@@ -109,6 +108,7 @@
           <svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
           <input class="input" id="works-q" type="search" placeholder="{{ t.works.search_ph }}" autocomplete="off" spellcheck="false" enterkeyhint="search" data-works-q>
           <kbd class="kbd only-hover" aria-hidden="true">/</kbd>
+          <button class="field-clear" type="button" aria-label="{{ t.works.search_clear }}" data-works-clear hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
         </div>
         <div class="field field-select">
           <label class="sr" for="works-src">{{ t.works.source_label }}</label>
@@ -268,7 +268,7 @@
         <p class="defn-text" data-dict-text aria-live="polite"{% if en %} lang="fr"{% endif %}>{{ def0.d }}</p>
         <p class="defn-actions">
           <a class="link" href="{{ site.dictionnaire_url }}/{{ def0.s }}/" data-dict-link>{{ t.projects.dict_read }}</a>
-          <button class="btn" type="button" data-dict-next hidden>{{ t.projects.dict_next }}</button>
+          <button class="btn btn-outline" type="button" data-dict-next hidden>{{ t.projects.dict_next }}</button>
         </p>
       </div>
       <p class="actions" data-reveal style="--d:3"><a class="btn" href="{{ site.dictionnaire_url }}/" data-magnetic>{{ t.projects.dict_open }}</a></p>

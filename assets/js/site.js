@@ -24,7 +24,7 @@ const T = EN ? {
   copied: 'Adresse copiée.', copyFail: 'Copie impossible\u00a0: le texte est sélectionné, copiez-le à la main.',
   kinds: { tutoriel: 'tutoriel', article: 'article', formation: 'formation', podcast: 'épisode de podcast', production: 'vidéo', interview: 'interview', documentation: 'documentation', script: 'script de vidéo' },
   portrait: 'Portrait de Loïc Morel',
-  count: (n, q) => (n === 1 ? '1 contenu' : `${n}\u00a0contenus`) + (q ? ` pour \u00ab\u00a0${q}\u00a0\u00bb` : ''),
+  count: (n, q) => (n <= 1 ? `${n}\u00a0contenu` : `${n}\u00a0contenus`) + (q ? ` pour \u00ab\u00a0${q}\u00a0\u00bb` : ''),
   q: (s) => `\u00ab\u00a0${s}\u00a0\u00bb`,
 };
 
@@ -315,10 +315,15 @@ function initWorks() {
   const restart = () => { shown = PAGE; apply(true); };
 
   let timer = 0;
-  q.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { query = q.value; restart(); }, 120); });
+  // le bouton « Effacer » n'apparaît que champ rempli, à la place de la touche « / »
+  const clear = $('[data-works-clear]', root), field = q.closest('.field');
+  const filled = () => { const on = q.value !== ''; if (clear) clear.hidden = !on; field?.classList.toggle('is-filled', on); };
+  const wipe = () => { q.value = ''; query = ''; filled(); restart(); };
+  q.addEventListener('input', () => { filled(); clearTimeout(timer); timer = setTimeout(() => { query = q.value; restart(); }, 120); });
   q.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && q.value) { e.preventDefault(); q.value = ''; query = ''; restart(); }
+    if (e.key === 'Escape' && q.value) { e.preventDefault(); wipe(); }
   });
+  clear?.addEventListener('click', () => { wipe(); q.focus(); });
   // « / » place le curseur dans la recherche quand l'index est à l'écran
   document.addEventListener('keydown', (e) => {
     if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
@@ -345,10 +350,14 @@ function initWorks() {
   });
   reset.addEventListener('click', () => {
     q.value = ''; query = ''; src = ''; sel.value = ''; type = '';
+    filled();
     toggles.forEach((o, i) => o.setAttribute('aria-pressed', String(i === 0)));
     restart();
     q.focus();
   });
+  // retour arrière : le navigateur peut rendre le mot tapé, la liste le suit
+  query = q.value;
+  filled();
   apply(false);
 }
 

@@ -41,6 +41,7 @@ works:
   index_title: "Every piece"
   search_label: "Search the titles"
   search_ph: "Sparrow, coinjoin, Lightning"
+  search_clear: "Clear the search"
   source_label: "Platform"
   source_all: "All platforms"
   type_label: "Type of piece"

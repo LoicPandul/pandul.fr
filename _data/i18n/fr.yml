@@ -41,6 +41,7 @@ works:
   index_title: "Tous les contenus"
   search_label: "Chercher dans les titres"
   search_ph: "Sparrow, coinjoin, Lightning"
+  search_clear: "Effacer la recherche"
   source_label: "Plateforme"
   source_all: "Toutes les plateformes"
   type_label: "Type de contenu"

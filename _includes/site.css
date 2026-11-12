@@ -97,6 +97,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  scrollbar-color: var(--bar-dark) var(--paper);
 }
 html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth { scroll-behavior: auto !important; }
@@ -149,6 +150,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: inherit; }
   font-size: var(--s-title);
   line-height: 1.06;
   letter-spacing: -0.015em;
+  text-wrap: balance;
 }
 .lead {
   font-family: var(--font-text);
@@ -238,8 +240,11 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
 .btn-sm { min-height: 44px; padding: 0 18px; }
 .btn-secondary { background: var(--surface); color: var(--fg); border: 1px solid var(--border-strong); }
 .btn-paper { --fg: var(--paper); --bg: var(--ink); }
+/* contour : la commande secondaire (afficher plus, tout afficher, une autre définition) ; le filet est intérieur, la taille ne change pas */
+.btn-outline { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1px var(--border-strong); }
 @media (hover: hover) {
   .btn:hover { background: var(--mark); color: var(--ink); }
+  .btn-outline:hover { box-shadow: inset 0 0 0 1px var(--mark); }
 }
 .btn:disabled, .btn[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
 
@@ -292,7 +297,26 @@ p:not(.actions):not(.defn-actions) > a.link::after { content: none; }
 .field-icon { left: 14px; }
 .field-chev { right: 14px; }
 .kbd { position: absolute; right: 12px; display: grid; place-items: center; min-width: 24px; height: 24px; padding: 0 6px; border: 1px solid var(--border-strong); color: var(--muted-fg); font: 600 0.8125rem/1 var(--font-ui); pointer-events: none; }
-.field-search:focus-within .kbd { display: none; }
+.field-search:focus-within .kbd, .field-search.is-filled .kbd { display: none; }
+/* effacer la recherche : au doigt, sans touche Échap ; visible seulement quand le champ est rempli */
+.field-clear {
+  position: absolute;
+  right: 2px;
+  display: grid;
+  place-items: center;
+  width: 44px; height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--muted-fg);
+  cursor: pointer;
+  transition: color var(--t-answer) ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.field-clear svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: square; }
+@media (hover: hover) { .field-clear:hover { color: var(--fg); } }
+.field-clear:active { opacity: 0.72; }
+.field-clear:focus-visible { outline-offset: -6px; }
 
 /* Groupe de bascules : un seul choix actif (aria-pressed), qui prend l'orange comme l'onglet en cours */
 .toggle-group { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -758,16 +782,21 @@ a.brand-link:focus-visible { color: var(--ink); }
   transition: transform var(--t-ui) var(--ease-out);
 }
 .wb-img { width: calc(100% + 2 * var(--pad)); max-width: none; height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: calc(-1 * var(--pad)) calc(-1 * var(--pad)) 4px; background: var(--plate); }
-.wb-meta { display: flex; flex-wrap: wrap; gap: 6px; }
-.wb-title { margin-top: auto; padding-right: 52px; font: 720 clamp(1.1875rem, 1.25rem + 0.3vw, 1.5rem)/1.22 var(--font-ui); letter-spacing: -0.01em; text-wrap: balance; }
-.wb-1 .wb-title { font-size: var(--s-title); line-height: 1.1; }
-@media (min-width: 960px) { .wb-2 .wb-title, .wb-3 .wb-title { font-size: 1.125rem; line-height: 1.28; } }
+/* les étiquettes passent à la ligne entre elles, la flèche reste en haut à droite */
+.wb-meta { display: flex; align-items: flex-start; gap: 12px; }
+.wb-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; min-width: 0; padding-top: 6px; }
+.wb-title { margin-top: auto; font: 720 clamp(1.1875rem, 1.25rem + 0.3vw, 1.5rem)/1.22 var(--font-ui); letter-spacing: -0.01em; text-wrap: balance; }
+/* deux tailles dans « À la une » : la formation au pas Titre, les trois autres cartes à la même taille ;
+   au téléphone, les cartes défilent côte à côte et gardent toutes la même */
+@media (min-width: 600px) { .wb-1 .wb-title { font-size: var(--s-title); line-height: 1.1; } }
+@media (min-width: 960px) { .wb-2 .wb-title, .wb-3 .wb-title, .wb-4 .wb-title { font-size: 1.25rem; line-height: 1.25; } }
+/* la flèche ferme la ligne des étiquettes : le titre garde toute la largeur de la carte */
 .wb-go {
-  position: absolute;
-  right: var(--pad); bottom: var(--pad);
+  flex: none;
+  margin-left: auto;
   display: grid;
   place-items: center;
-  width: 40px; height: 40px;
+  width: 36px; height: 36px;
   border: 1px solid var(--border-strong);
   transition: border-color var(--t-answer) ease, background-color var(--t-answer) ease;
 }
@@ -782,7 +811,8 @@ a.brand-link:focus-visible { color: var(--ink); }
 .wb-card:active { transform: scale(0.99); }
 @media (min-width: 600px) {
   .works-bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .wb-1 { grid-column: 1 / -1; }
+  /* tablette : la formation et la dernière carte prennent la ligne entière, aucune carte seule sur une demi-ligne */
+  .wb-1, .wb-4 { grid-column: 1 / -1; }
 }
 @media (min-width: 960px) {
   .works-bento { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: minmax(200px, auto); }
@@ -839,7 +869,6 @@ a.brand-link:focus-visible { color: var(--ink); }
 .wi-meta { grid-area: meta; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; font: 520 var(--s-small)/1.3 var(--font-ui); color: var(--muted-fg); }
 .wi-go { grid-area: go; }
 .wi-k { display: inline-flex; align-items: center; gap: 8px; }
-.wb-meta { align-items: center; }
 @media (min-width: 960px) {
   .wi-link { grid-template-columns: minmax(0, 1fr) 15rem 9rem 24px; grid-template-areas: "title meta meta go"; padding: 16px 0; gap: 0 var(--gutter); }
   .wi-meta { display: grid; grid-template-columns: subgrid; grid-column: 2 / 4; }
