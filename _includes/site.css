@@ -815,9 +815,11 @@ a.brand-link:focus-visible { color: var(--ink); }
   .wb-1, .wb-4 { grid-column: 1 / -1; }
 }
 @media (min-width: 960px) {
-  .works-bento { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: minmax(200px, auto); }
-  .wb-1 { grid-column: 1 / 3; grid-row: 1 / 3; }
-  .wb-4 { grid-column: 3 / 5; }
+  /* la formation à gauche, sur trois lignes ; à droite, les trois autres cartes empilées, de même taille :
+     aucune carte large et basse qui garderait un vide entre ses étiquettes et son titre */
+  .works-bento { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .wb-1 { grid-column: 1 / 3; grid-row: 1 / 4; }
+  .wb-2, .wb-3, .wb-4 { grid-column: 3 / 5; }
 }
 @media (max-width: 599px) {
   /* téléphone : les quatre cartes défilent de côté, la suivante dépasse du bord */
